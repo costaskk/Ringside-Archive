@@ -1,5 +1,16 @@
 # Changelog
 
+## 5.5.0 — Non-blocking actions and exact free links
+
+- Add a shared button-task controller with spinners, progress percentages and a background operation dock.
+- Replace remaining full-root renders in artwork scans, account bootstrap and sign-out flows with view/modal patches.
+- Apply discovered artwork directly to visible DOM targets as each bounded batch finishes.
+- Keep filters, scroll position, open detail panels and unrelated controls usable during network operations.
+- Add `data/free-links.json` for record-specific direct videos, playlists and event pages.
+- Reject YouTube channel homepages, search-result links and other generic landing pages as match/show links.
+- Remove legacy generated YouTube search URLs from all curated recommendations.
+- Add automated free-link and non-blocking UI audits to the full test suite.
+
 ## 5.4.1 — Performance and wrestler profiles
 
 - Render the core archive before cloud, event-detail, artwork and episode background work.

@@ -36,7 +36,7 @@ export default async function handler(req,res){
     const server=context.cloud?(payload.servers||[]).find(x=>x.machineIdentifier===machineIdentifier)||payload.selectedServer:body.server;
     if(!server)return res.status(400).json({error:'Plex server not found.'});
     const token=server.accessToken||payload.token;if(!token)return res.status(401).json({error:'Plex access token is unavailable.'});
-    const headers={'Accept':'application/json','X-Plex-Token':token,'X-Plex-Product':PRODUCT,'X-Plex-Version':'5.4.1','X-Plex-Client-Identifier':payload.clientId};
+    const headers={'Accept':'application/json','X-Plex-Token':token,'X-Plex-Product':PRODUCT,'X-Plex-Version':'5.5.0','X-Plex-Client-Identifier':payload.clientId};
     const endpoint=action==='watched'?'scrobble':'unscrobble';
     const updated=await tryUpdate(server,headers,ratingKey,endpoint);
     return res.status(200).json({updated:true,action,ratingKey,connection:updated.base,cloud:context.cloud});

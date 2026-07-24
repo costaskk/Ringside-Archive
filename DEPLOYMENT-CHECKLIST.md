@@ -1,10 +1,11 @@
-# Ringside Archive v5.4.1 deployment checklist
+# Ringside Archive v5.5.0 deployment checklist
 
 ## Local verification
 
 - [ ] Extract the ZIP into a normal writable folder.
 - [ ] Install Node.js 22 or newer.
-- [ ] Run `npm test` and confirm all checks pass.
+- [ ] Run `npm run build:core` after catalogue edits.
+- [ ] Run `npm test` and confirm all checks pass, including the exact-link and async UI audits.
 - [ ] Confirm no real secret has been added to `.env.example`, `runtime-config.js` or source files.
 
 ## GitHub
@@ -15,7 +16,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.4.1 release"
+git commit -m "Initial Ringside Archive v5.5.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -79,10 +80,12 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Post-upgrade cache reset
 
-- [ ] Open the deployed URL once with `?v=5.4.1`.
+- [ ] Open the deployed URL once with `?v=5.5.0`.
 - [ ] Hard refresh with **Ctrl+Shift+R**.
 - [ ] If an older interface remains, unregister the old service worker and clear site data once.
-- [ ] Confirm the footer says **Catalogue v5.4.1** and the dashboard reports **188 programme families**.
+- [ ] Confirm the footer says **Catalogue v5.5.0** and the dashboard reports **188 programme families**.
+- [ ] Press **Scan visible artwork** and confirm only the button/progress indicator changes while the current scroll position remains stable.
+- [ ] Open a green free-viewing link and confirm it is a direct video, playlist or event page—not a channel/search page.
 
 ## Legacy Plex-export security
 
@@ -126,7 +129,7 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Vercel Hobby function check
 
-Version 5.4.1 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+Version 5.5.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
 
 ```powershell
 npm test

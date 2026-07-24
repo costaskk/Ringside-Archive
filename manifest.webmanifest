@@ -2,7 +2,7 @@
   "name": "Ringside Archive",
   "short_name": "Ringside",
   "description": "Professional wrestling chronology with cross-device viewing, Plex and Trakt sync",
-  "start_url": "./?v=5.4.1",
+  "start_url": "./?v=5.5.0",
   "display": "standalone",
   "background_color": "#090b0d",
   "theme_color": "#090b0d",
@@ -14,5 +14,5 @@
       "purpose": "any maskable"
     }
   ],
-  "id": "ringside-archive-v5.4.1"
+  "id": "ringside-archive-v5.5.0"
 }

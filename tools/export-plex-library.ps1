@@ -18,7 +18,7 @@ $headers = @{
   "X-Plex-Token" = $Token
   "Accept" = "application/json"
   "X-Plex-Product" = "Ringside Archive"
-  "X-Plex-Version" = "5.4.1"
+  "X-Plex-Version" = "5.5.0"
   "X-Plex-Client-Identifier" = $clientId
 }
 

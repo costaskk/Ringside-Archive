@@ -23,7 +23,7 @@ containsEmbeddedPlexToken: false
 likelyWrestlingRows: greater than 0
 ```
 
-## Protections in v5.4.1
+## Protections in v5.5.0
 
 - The exporter never writes the token or tokenized image URLs.
 - The browser rejects a legacy Plex JSON import containing `X-Plex-Token=`.
@@ -31,3 +31,7 @@ likelyWrestlingRows: greater than 0
 - Raw tokenized artwork URLs are stripped before browser or cloud storage.
 - Signed-in Plex credentials are encrypted in the server-only Supabase integration vault.
 - Plex artwork for account-linked devices uses signed same-origin proxy URLs.
+
+## Exact free-viewing links
+
+`data/free-links.json` contains public record-specific URLs only. Do not place authenticated streaming URLs, signed URLs, cookies or access tokens in this file. `npm run audit:free-links` rejects generic YouTube channel/search links but cannot make a private or token-bearing URL safe.

@@ -49,10 +49,12 @@ const state = {
   recordCache: { episodes:null, exact:null, dirty:true },
   renderScheduled: false,
   lastRenderView: null,
-  renderGeneration: 0
+  renderGeneration: 0,
+  tasks: new Map(),
+  actionSequence: 0
 };
 
-const CORE_DATA_FILES = ['promotions','programmes','major-events','recommendations','wrestlers','format-labels','custom-records','meta'];
+const CORE_DATA_FILES = ['promotions','programmes','major-events','recommendations','wrestlers','format-labels','custom-records','free-links','meta'];
 const DEFERRED_DATA_FILES = ['artwork-overrides','artwork-catalog','event-details'];
 const statusLabels = { unwatched:'Not started', watching:'Watching', watched:'Watched', skipped:'Skipped' };
 const navItems = [
@@ -81,12 +83,18 @@ async function loadData() {
   data.artworkOverrides = {};
   data.artworkCatalog = { programmes:{}, records:{}, episodes:{} };
   data.eventDetails = {};
+  data.freeLinks = data.freeLinks || { records:{}, programmes:{}, recommendations:{} };
+  data.freeLinks.records ||= {};
+  data.freeLinks.programmes ||= {};
+  data.freeLinks.recommendations ||= {};
   data.promotionMap = new Map(data.promotions.map(x=>[x.id,x]));
   data.programmeMap = new Map(data.programmes.map(x=>[x.id,x]));
   data.recommendationsByProgramme = new Map();
+  data.recommendationsByDate = new Map();
   data.recommendationMap = new Map();
   for (const item of data.recommendations) {
     data.recommendationsByProgramme.set(item.programId,[...(data.recommendationsByProgramme.get(item.programId)||[]),item]);
+    data.recommendationsByDate.set(item.date,[...(data.recommendationsByDate.get(item.date)||[]),item]);
     data.recommendationMap.set(item.id,item);
   }
   return data;
@@ -99,7 +107,7 @@ async function loadDeferredData() {
     for (let index=0; index<DEFERRED_DATA_FILES.length; index++) state.data[dataKey(DEFERRED_DATA_FILES[index])] = results[index];
     state.deferredReady = true;
     rebuildWrestlerIndex();
-    scheduleRender();
+    renderViewOnly();
   } catch (error) {
     console.warn('Deferred archive data:', error.message);
   }
@@ -175,6 +183,91 @@ function showToast(message) {
   state.toast=message;renderToast();
   setTimeout(()=>{if(state.toast===message){state.toast='';document.querySelector('.toast')?.remove();}},3800);
 }
+
+const ASYNC_ACTIONS=new Set([
+  'cloud-signin','cloud-signup','cloud-reset','cloud-update-password','cloud-sync','cloud-signout',
+  'reload-all-episodes','discover-feeds','refresh-integration-config','trakt-connect','trakt-sync','trakt-disconnect',
+  'plex-connect','plex-refresh-servers','plex-disconnect','plex-import-viewing','scan-visible-artwork'
+]);
+const ASYNC_LABELS={
+  'cloud-signin':'Signing in','cloud-signup':'Creating account','cloud-reset':'Sending reset','cloud-update-password':'Updating password','cloud-sync':'Syncing account','cloud-signout':'Signing out',
+  'reload-all-episodes':'Refreshing feeds','discover-feeds':'Discovering feeds','refresh-integration-config':'Checking configuration','trakt-connect':'Connecting Trakt','trakt-sync':'Importing Trakt','trakt-disconnect':'Disconnecting Trakt',
+  'plex-connect':'Connecting Plex','plex-refresh-servers':'Refreshing servers','plex-disconnect':'Disconnecting Plex','plex-import-viewing':'Importing viewing','scan-visible-artwork':'Scanning artwork'
+};
+function taskKeyForElement(el,action=''){
+  if(el?.dataset?.taskKey)return el.dataset.taskKey;
+  if(el?.dataset?.loadProgramme)return `load-programme:${el.dataset.loadProgramme}`;
+  if(el?.dataset?.discoverProgramme)return `discover-programme:${el.dataset.discoverProgramme}`;
+  if(el?.dataset?.scanArt)return `scan-art:${el.dataset.scanArt}`;
+  if(el?.dataset?.plexLoadServer)return `plex-libraries:${el.dataset.plexLoadServer}`;
+  if(el?.dataset?.plexScanServer)return `plex-scan:${el.dataset.plexScanServer}`;
+  return action||`task:${++state.actionSequence}`;
+}
+function taskLabelFor(key,fallback='Working'){
+  const base=String(key||'').split(':')[0];
+  if(key.startsWith('load-programme:'))return 'Loading episodes';
+  if(key.startsWith('discover-programme:'))return 'Discovering feed';
+  if(key.startsWith('scan-art:'))return 'Scanning artwork';
+  if(key.startsWith('plex-libraries:'))return 'Loading libraries';
+  if(key.startsWith('plex-scan:'))return 'Scanning libraries';
+  return ASYNC_LABELS[key]||ASYNC_LABELS[base]||fallback;
+}
+function taskButtonKey(el,action=''){
+  const key=taskKeyForElement(el,action);if(el)el.dataset.taskKey=key;return key;
+}
+function renderTaskDock(){
+  document.querySelector('.asyncTaskDock')?.remove();
+  const active=[...state.tasks.values()].filter(task=>task.status==='running');
+  if(!active.length||!app)return;
+  app.insertAdjacentHTML('beforeend',`<aside class="asyncTaskDock" aria-live="polite" aria-label="Background operations">${active.map(task=>`<div><span class="buttonSpinner" aria-hidden="true"></span><p><strong>${h(task.label)}</strong>${task.detail?`<small>${h(task.detail)}</small>`:''}</p>${Number.isFinite(task.progress)?`<b>${Math.max(0,Math.min(100,Math.round(task.progress)))}%</b>`:''}</div>`).join('')}</aside>`);
+}
+function applyTaskStateToButton(el){
+  if(!el)return;
+  const key=taskButtonKey(el,el.dataset.action||'');
+  const task=state.tasks.get(key);
+  if(task?.status==='running'){
+    if(!el.dataset.idleHtml)el.dataset.idleHtml=el.innerHTML;
+    el.disabled=true;el.setAttribute('aria-busy','true');el.classList.add('isLoading');
+    el.innerHTML=`<span class="buttonSpinner" aria-hidden="true"></span><span>${h(task.buttonLabel||task.label)}</span>${Number.isFinite(task.progress)?`<small>${Math.round(task.progress)}%</small>`:''}`;
+  }else if(el.dataset.idleHtml){
+    el.innerHTML=el.dataset.idleHtml;delete el.dataset.idleHtml;el.disabled=false;el.removeAttribute('aria-busy');el.classList.remove('isLoading');
+  }
+}
+function syncTaskButtons(){document.querySelectorAll('[data-task-key],[data-action],[data-load-programme],[data-discover-programme],[data-scan-art],[data-plex-load-server],[data-plex-scan-server]').forEach(applyTaskStateToButton);renderTaskDock();}
+function updateTask(key,changes={}){
+  const task=state.tasks.get(key);if(!task)return;
+  Object.assign(task,changes);state.tasks.set(key,task);syncTaskButtons();
+}
+async function runButtonTask(el,key,runner,{label='',buttonLabel=''}={}){
+  key=key||taskButtonKey(el);if(state.tasks.get(key)?.status==='running')return;
+  const task={key,status:'running',label:label||taskLabelFor(key),buttonLabel:buttonLabel||label||taskLabelFor(key),detail:'',progress:null,startedAt:Date.now()};
+  state.tasks.set(key,task);syncTaskButtons();
+  try{return await runner(task);}catch(error){showToast(error?.message||'The operation failed.');throw error;}finally{state.tasks.delete(key);syncTaskButtons();}
+}
+async function runBackgroundTask(key,label,runner){
+  if(state.tasks.get(key)?.status==='running')return;
+  state.tasks.set(key,{key,status:'running',label,buttonLabel:label,detail:'',progress:null,startedAt:Date.now()});syncTaskButtons();
+  try{await runner();updateTask(key,{detail:'Synced',progress:100});await new Promise(resolve=>setTimeout(resolve,450));}
+  catch(error){showToast(`${label}: ${error?.message||'sync failed'}`);}
+  finally{state.tasks.delete(key);syncTaskButtons();}
+}
+function setOperationMessage(scope,message){
+  const property={episodes:'syncMessage',trakt:'traktMessage',plex:'plexMessage',artwork:'artworkMessage',cloud:null}[scope];
+  if(property)state[property]=message;
+  const selectors={episodes:'#episodeLoadStatus',trakt:'#traktOperationMessage',plex:'#plexOperationMessage',artwork:'#artworkOperationMessage',cloud:'#cloudOperationMessage'};
+  let node=document.querySelector(selectors[scope]);
+  if(!node&&scope==='episodes'){
+    const host=document.querySelector('.exactCoverageBar>div');if(host){host.insertAdjacentHTML('beforeend','<div class="syncProgress" id="episodeLoadStatus"></div>');node=document.querySelector('#episodeLoadStatus');}
+  }
+  if(node){node.textContent=message||'';node.hidden=!message;}
+}
+function renderModalOnly(){
+  const existing=document.querySelector('.modalBackdrop'),html=modal();
+  if(existing&&html)existing.outerHTML=html;else if(existing)existing.remove();else if(html)app.insertAdjacentHTML('beforeend',html);
+  document.body.classList.toggle('modalOpen',Boolean(state.modal));bind();renderToast();syncTaskButtons();
+}
+function closeModalOnly(){state.modal=null;document.querySelector('.modalBackdrop')?.remove();document.body.classList.remove('modalOpen');}
+function patchConnectionIndicators(){document.querySelector('.connectionDot')?.classList.toggle('online',traktConnected()||plexConnected());}
 function visualStateSignature(){
   return JSON.stringify([state.statuses,state.reviews,state.settings,state.plexData.matches||[],Boolean(state.trakt.cloudConnected),Boolean(state.plexData.cloudConnected)]);
 }
@@ -215,12 +308,12 @@ function officialSiteIcon(url){try{return url?new URL('/favicon.ico',url).href:'
 function companyLogo(p,context='companyLogo'){
   const image=companyArtworkCandidates(p?.id)[0];
   const source=image?.url?displayArtworkUrl(image.url):artworkLookupImage('company',p?.name||p?.shortName||'Wrestling promotion',[p?.shortName,...(p?.aliases||[])].filter(Boolean));
-  return `<div class="${context} hasImage" style="--accent:${h(p?.color||'#d7a84f')}"><img src="${h(source)}" alt="${h(p?.name||'Promotion')} logo" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"><span>${h(p?.shortName||'RA')}</span></div>`;
+  return `<div class="${context} hasImage" data-artwork-key="${h(companyArtworkKey(p?.id||''))}" style="--accent:${h(p?.color||'#d7a84f')}"><img src="${h(source)}" alt="${h(p?.name||'Promotion')} logo" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"><span>${h(p?.shortName||'RA')}</span></div>`;
 }
 function wrestlerHeadshot(name,priority='lazy'){
   const image=wrestlerHeadshotCandidate(name);
   const source=image?.url||artworkLookupImage('wrestler',name);
-  return `<div class="wrestlerHeadshot hasImage"><img src="${h(source)}" alt="${h(name)} headshot" loading="${priority==='eager'?'eager':'lazy'}" decoding="async" fetchpriority="${priority==='eager'?'high':'low'}" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"><span>${h(name.split(/\s+/).map(x=>x[0]).join('').slice(0,3))}</span></div>`;
+  return `<div class="wrestlerHeadshot hasImage" data-artwork-key="${h(wrestlerArtworkKey(name))}"><img src="${h(source)}" alt="${h(name)} headshot" loading="${priority==='eager'?'eager':'lazy'}" decoding="async" fetchpriority="${priority==='eager'?'high':'low'}" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"><span>${h(name.split(/\s+/).map(x=>x[0]).join('').slice(0,3))}</span></div>`;
 }
 
 function rebuildWrestlerIndex(){
@@ -362,7 +455,7 @@ function plexProgressFor(item){ return state.plexViewing.get(statusKey(item)) ||
 async function syncCloudNow({quiet=false}={}){
   if(!accountConnected()||state.cloud.syncing)return;
   const before=quiet?visualStateSignature():'';
-  state.cloud.syncing=true;if(!quiet){state.cloud.message='Synchronizing account data…';render();}
+  state.cloud.syncing=true;if(!quiet){state.cloud.message='Synchronizing account data…';setOperationMessage('cloud',state.cloud.message);}
   try{
     const remote=await pullCloudState();
     if(remote?.state)storage.mergeCloudState(remote.state);
@@ -374,7 +467,8 @@ async function syncCloudNow({quiet=false}={}){
   }catch(error){state.cloud.message=error.message;if(!quiet)showToast(error.message);}
   finally{
     state.cloud.syncing=false;
-    if(!quiet||before!==visualStateSignature())scheduleRender();
+    if(state.modal?.type==='account'||state.modal?.type==='connections')renderModalOnly();
+    if(before!==visualStateSignature())renderViewOnly();
   }
 }
 
@@ -408,17 +502,74 @@ async function finishAccountLogin(){
   const switched=storage.prepareForAccount(state.cloud.user.id);
   if(switched){refreshStateFromStorage();state.plexData=storage.plexData();state.trakt=storage.trakt();refreshPlexIndex();}
   await syncCloudNow({quiet:true});await loadAccountIntegrations({migrate:true});
-  state.cloud.message='Account connected across devices.';render();
+  state.cloud.message='Account connected across devices.';renderViewOnly();if(state.modal)renderModalOnly();
 }
-function youtubeUrlFor(item){ return item.watchUrl || item.youtubeUrl || programme(item.programId)?.youtubeUrl || promotion(item.promotionId)?.youtubeUrl || ''; }
+function normalizeFreeLinkEntry(value){
+  if(!value)return null;
+  if(typeof value==='string')return {url:value,label:'Watch free',service:'Free stream'};
+  return value?.url?value:null;
+}
+function isSpecificFreeUrl(value){
+  const url=String(value||'').trim();if(!url)return false;
+  try{
+    const parsed=new URL(url),host=parsed.hostname.toLowerCase().replace(/^www\./,'');
+    const path=parsed.pathname.replace(/\/+$/,'')||'/';
+    if(host==='youtu.be')return path.length>2;
+    if(host==='youtube.com'||host==='m.youtube.com'){
+      if(path==='/watch')return Boolean(parsed.searchParams.get('v'));
+      if(path==='/playlist')return Boolean(parsed.searchParams.get('list'));
+      return /^\/(live|shorts)\/[^/]+/.test(path);
+    }
+    if(host==='archive.org')return /^\/details\/[^/]+/.test(path);
+    if(host==='dailymotion.com'||host==='dai.ly')return /\/(video\/)?[^/]+/.test(path)&&path!=='/';
+    if(host==='vimeo.com')return /^\/\d+/.test(path);
+    if(host==='vk.com')return /^\/video[-\d_]+/.test(path)||parsed.searchParams.has('z');
+    if(host.endsWith('twitch.tv'))return /^\/videos\/\d+/.test(path);
+    // Other official free platforms are allowed only when they point below the site root
+    // and are not search, channel, account or category landing pages.
+    if(path==='/'||/\/(search|results|channel|channels|user|users|category|categories)\/?$/i.test(path))return false;
+    return path.split('/').filter(Boolean).length>=2;
+  }catch{return false;}
+}
+function recommendationMatchForRecord(item){
+  if(!item?.date)return null;
+  const candidates=state.data.recommendationsByDate.get(item.date)||[];
+  const itemText=normalize(`${item.title||''} ${item.mainEvent||''} ${item.description||''}`);
+  return candidates.find(rec=>{
+    if(rec.programId&&item.programId&&rec.programId!==item.programId)return false;
+    const title=normalize(rec.title||rec.event||'');
+    const words=title.split(' ').filter(word=>word.length>3);
+    return title&&((itemText.includes(title)||title.includes(normalize(item.title||'')))||(words.length&&words.filter(word=>itemText.includes(word)).length>=Math.min(3,words.length)));
+  })||null;
+}
+function specificFreeLinkFor(item,{programmeEntry=false,recommendation=false}={}){
+  if(!item||!state.data?.freeLinks)return null;
+  let entry=null;
+  if(recommendation||item._type==='pick')entry=normalizeFreeLinkEntry(state.data.freeLinks.recommendations?.[item.id]);
+  else if(programmeEntry||item.isProgrammeIndex)entry=normalizeFreeLinkEntry(state.data.freeLinks.programmes?.[item.id||item.programId]);
+  else{
+    entry=normalizeFreeLinkEntry(state.data.freeLinks.records?.[item.id]);
+    if(!entry){const rec=recommendationMatchForRecord(item);if(rec)entry=normalizeFreeLinkEntry(state.data.freeLinks.recommendations?.[rec.id]);}
+  }
+  if(!entry){
+    const direct=normalizeFreeLinkEntry(item.watchUrl||item.freeUrl||item.youtubeUrl);
+    if(direct&&isSpecificFreeUrl(direct.url))entry=direct;
+  }
+  return entry&&isSpecificFreeUrl(entry.url)?entry:null;
+}
+function freeLinkAnchor(entry,label='Watch free ↗'){
+  if(!entry)return '';
+  const text=entry.label?`${entry.label} ↗`:label;
+  return `<a class="freeWatchLink" href="${h(entry.url)}" target="_blank" rel="noreferrer noopener" title="${h(entry.publisher||entry.service||'Verified free source')}">${h(text)}</a>`;
+}
 
 function setStatus(key, status, options={}) {
   if (status === 'unwatched') delete state.statuses[key]; else state.statuses[key] = status;
   storage.saveStatuses(state.statuses,key);scheduleCloudSync();
   const item=recordByKey(key);
-  if(item && options.syncExternal!==false && traktConnected() && (status==='watched'||status==='unwatched')) syncStatusToTrakt(item,status).catch(error=>console.warn(error));
-  if(item && options.syncExternal!==false && state.settings.pushWatchedToPlex && plexAvailable(item) && (status==='watched'||status==='unwatched')) syncStatusToPlex(item,status).catch(error=>console.warn(error));
-  render();
+  if(item && options.syncExternal!==false && traktConnected() && (status==='watched'||status==='unwatched'))runBackgroundTask(`status-trakt:${key}`,'Syncing Trakt',()=>syncStatusToTrakt(item,status));
+  if(item && options.syncExternal!==false && state.settings.pushWatchedToPlex && plexAvailable(item) && (status==='watched'||status==='unwatched'))runBackgroundTask(`status-plex:${key}`,'Syncing Plex',()=>syncStatusToPlex(item,status));
+  renderViewOnly();if(state.modal)renderModalOnly();
 }
 
 function yearMatches(item){
@@ -433,7 +584,7 @@ function matchFilters(item, type='record') {
   if (f.kind && item.kind !== f.kind) return false;
   if (!yearMatches(item)) return false;
   if (f.hideWatched && currentStatus(isProgrammeEntry?`program:${prog.id}`:statusKey(item)) === 'watched') return false;
-  if (f.availability === 'youtube' && !youtubeUrlFor(item)) return false;
+  if (f.availability === 'youtube' && !specificFreeLinkFor(item,{programmeEntry:isProgrammeEntry})) return false;
   if (f.availability === 'plex' && !(isProgrammeEntry?state.plexMatches.has(`program:${prog.id}`):plexAvailable(item))) return false;
   if (f.availability === 'tvmaze' && !(item.tvMazeId || prog?.tvMazeId || state.feedMap[prog?.id] || String(item.id).startsWith('tvmaze:'))) return false;
   if (f.availability === 'recommended' && !state.data.recommendationsByProgramme.has(item.programId || item.id)) return false;
@@ -508,15 +659,36 @@ function artworkCandidates(item,isProgramme=false){
   const seen=new Set();return values.map(value=>({...value,url:displayArtworkUrl(value.url)})).filter(value=>value.url&&!seen.has(value.url)&&(seen.add(value.url),true));
 }
 function artwork(item, context='card', isProgramme=false) {
-  const p=promotion(item.promotionId), candidates=artworkCandidates(item,isProgramme);
+  const p=promotion(item.promotionId), candidates=artworkCandidates(item,isProgramme),key=isProgramme?`program:${item.id}`:statusKey(item);
   const src=candidates.find(x=>item.kind==='episode'&&x.type==='episode')?.url || candidates.find(x=>x.type==='poster')?.url || candidates[0]?.url || '';
   const title=item.title||item.name;
-  return `<div class="artwork ${context} ${src?'hasImage':''}" style="--accent:${h(p?.color||'#d7a84f')}"><div class="artworkFallback artworkInner"><span>${h(p?.shortName||'Archive')}</span><strong>${h(title)}</strong></div>${src?`<img loading="lazy" src="${h(src)}" alt="${h(title)} artwork" referrerpolicy="no-referrer" onerror="this.remove()"/>`:''}</div>`;
+  return `<div class="artwork ${context} ${src?'hasImage':''}" data-artwork-key="${h(key)}" data-artwork-context="${h(context)}" data-artwork-programme="${isProgramme?'1':'0'}" style="--accent:${h(p?.color||'#d7a84f')}"><div class="artworkFallback artworkInner"><span>${h(p?.shortName||'Archive')}</span><strong>${h(title)}</strong></div>${src?`<img loading="lazy" decoding="async" fetchpriority="low" src="${h(src)}" alt="${h(title)} artwork" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"/>`:''}</div>`;
 }
 function artworkGallery(item,isProgramme=false){
   const candidates=artworkCandidates(item,isProgramme);
   if(!candidates.length)return `<div class="sourceEmpty"><div><h4>No verified artwork found yet</h4><p>Use the no-key Wikipedia/Wikimedia scanner, add a TMDB key for richer season/episode art, import Plex, or add a verified override.</p></div><button data-scan-art="${h(isProgramme?`program:${item.id}`:statusKey(item))}">Scan artwork</button></div>`;
   return `<div class="artworkGallery">${candidates.map(image=>`<figure><img src="${h(image.url)}" alt="${h(image.label||'Artwork')}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure')?.remove()"><figcaption>${image.sourceUrl?`<a href="${h(image.sourceUrl)}" target="_blank" rel="noreferrer">${h(image.label||image.type||'Artwork')} ↗</a>`:h(image.label||image.type||'Artwork')}</figcaption></figure>`).join('')}</div>`;
+}
+
+function artworkSourceForKey(key){
+  if(key.startsWith('company:')){
+    const p=promotion(key.slice(8)),candidate=companyArtworkCandidates(p?.id)[0];
+    return candidate?.url?displayArtworkUrl(candidate.url):'';
+  }
+  if(key.startsWith('wrestler:'))return wrestlerHeadshotCandidate(key.slice(9))?.url||'';
+  const entry=artworkEntryForKey(key);if(!entry)return '';
+  const candidates=artworkCandidates(entry.item,key.startsWith('program:'));
+  return candidates.find(candidate=>entry.item.kind==='episode'&&candidate.type==='episode')?.url||candidates.find(candidate=>candidate.type==='poster')?.url||candidates[0]?.url||'';
+}
+function patchArtworkElements(keys=[]){
+  for(const key of new Set(keys.filter(Boolean))){
+    const source=artworkSourceForKey(key);if(!source)continue;
+    for(const node of document.querySelectorAll(`[data-artwork-key="${CSS.escape(key)}"]`)){
+      node.querySelector('img')?.remove();
+      const image=document.createElement('img');image.src=source;image.loading='lazy';image.decoding='async';image.referrerPolicy='no-referrer';image.alt='Verified artwork';
+      image.onerror=()=>{image.remove();node.classList.remove('hasImage');};node.classList.add('hasImage');node.append(image);
+    }
+  }
 }
 
 function topbar() {
@@ -537,7 +709,7 @@ function dashboard() {
   const p=promotion(next.promotionId);
   return `<section class="dashboard">
     <article class="nextCard" style="--accent:${h(p?.color||'#d7a84f')}"><div class="nextContent"><div class="eyebrowRow"><span class="liveLabel"><i></i> Up next in chronology</span><span class="statusPill status-${currentStatus(statusKey(next))}">${statusLabels[currentStatus(statusKey(next))]}</span></div><span class="nextDate">${h(fmtDate(next.date))} • ${h(p?.shortName||'')}</span><h1>${h(next.title)}</h1><p>${h(next.description||next.mainEvent||'Open the record for card details, competitors, artwork and review notes.')}</p><div class="heroMeta"><span>${h(next.kind)}</span>${next.venue?`<span>${h(next.venue)}</span>`:''}${plexAvailable(next)?'<span>Plex available</span>':''}</div><div class="heroActions"><button class="primaryButton" data-open-record="${h(next.id)}">${icon('play')} Open card</button><button data-status-key="${h(statusKey(next))}" data-status="watched">${icon('check')} Mark watched</button></div></div>${artwork(next,'heroArtwork')}</article>
-    <aside class="progressCard"><div class="progressHeading"><div><span class="eyebrow">Your archive</span><h2>Viewing progress</h2></div><strong>${percent}%</strong></div><div class="progressTrack"><span style="width:${percent}%"></span></div><div class="metricGrid"><div><strong>${counts.promotions}</strong><span>Promotions</span></div><div><strong>${counts.programmes}</strong><span>Programme families</span></div><div><strong>${counts.majorEvents}</strong><span>Dated major events</span></div><div><strong>${allLoadedEpisodes().length.toLocaleString()}</strong><span>Exact episodes</span></div></div><div class="connectionRail"><span class="${traktConnected()?'ready':''}"><b>T</b> Trakt</span><span class="${plexConnected()||state.plexMatches.size?'ready':''}"><b>›</b> Plex</span><span class="${state.autoEpisodeLoadComplete?'ready':''}"><b>TV</b> Episode feeds</span><span class="ready"><b>▶</b> Free links</span></div></aside>
+    <aside class="progressCard"><div class="progressHeading"><div><span class="eyebrow">Your archive</span><h2>Viewing progress</h2></div><strong>${percent}%</strong></div><div class="progressTrack"><span style="width:${percent}%"></span></div><div class="metricGrid"><div><strong>${counts.promotions}</strong><span>Promotions</span></div><div><strong>${counts.programmes}</strong><span>Programme families</span></div><div><strong>${counts.majorEvents}</strong><span>Dated major events</span></div><div><strong>${allLoadedEpisodes().length.toLocaleString()}</strong><span>Exact episodes</span></div></div><div class="connectionRail"><span class="${traktConnected()?'ready':''}"><b>T</b> Trakt</span><span class="${plexConnected()||state.plexMatches.size?'ready':''}"><b>›</b> Plex</span><span class="${state.autoEpisodeLoadComplete?'ready':''}"><b>TV</b> Episode feeds</span><span class="ready"><b>▶</b> Exact free links</span></div></aside>
   </section>`;
 }
 
@@ -571,7 +743,7 @@ function filterPanel(){
     <label><span>From year</span><input class="yearInput" data-filter="yearFrom" type="number" min="1930" max="2100" value="${h(f.yearFrom)}" placeholder="1970"></label>
     <label><span>To year</span><input class="yearInput" data-filter="yearTo" type="number" min="1930" max="2100" value="${h(f.yearTo)}" placeholder="Present"></label>
     ${select('wrestler','Wrestler','All wrestlers',state.data.wrestlers.map(x=>[x,x]),f.wrestler)}
-    ${select('availability','Availability','Any availability',[['plex','Available in Plex'],['youtube','Official/free YouTube'],['artwork','Has artwork'],['missing-artwork','Missing artwork'],['tvmaze','Exact episode feed'],['recommended','Curated recommendation']],f.availability)}
+    ${select('availability','Availability','Any availability',[['plex','Available in Plex'],['youtube','Exact free video/link'],['artwork','Has artwork'],['missing-artwork','Missing artwork'],['tvmaze','Exact episode feed'],['recommended','Curated recommendation']],f.availability)}
     <label class="checkField"><input data-filter="hideWatched" type="checkbox" ${f.hideWatched?'checked':''}/><span>Hide watched</span></label><button type="button" class="resetButton" data-action="reset-filters">Reset all</button>
   </div>${activeFilterBar()}</section>`;
 }
@@ -586,9 +758,9 @@ function exactView(){
 }
 
 function exactCard(e){
-  const p=promotion(e.promotionId), prog=programme(e.programId), key=statusKey(e), status=currentStatus(key), plex=plexAvailable(e), plexState=plexProgressFor(e), youtube=youtubeUrlFor(e);
+  const p=promotion(e.promotionId), prog=programme(e.programId), key=statusKey(e), status=currentStatus(key), plex=plexAvailable(e), plexState=plexProgressFor(e), freeLink=specificFreeLinkFor(e);
   const details=detailsFor(e,state.data);
-  return `<article class="exactRecordCard ${status==='watched'?'isWatched':''}" style="--accent:${h(p?.color||'#d7a84f')}" data-scroll-key="${h(key)}" data-open-record="${h(e.id)}" role="button" tabindex="0"><div class="exactRecordDate"><strong>${h(String(e.date).slice(0,4))}</strong><span>${h(fmtDate(e.date).replace(/, \d{4}$/,''))}</span><small>${h(e.kind)}</small></div>${artwork(e,'exactRecordArtwork')}<div class="exactRecordMain"><div class="programmeKicker"><span>${h(p?.shortName||'')}</span><span>•</span><span>${h(e.code||prog?.name||'Exact record')}</span><b>${String(e.id).startsWith('tvmaze:')?'Exact episode':'Verified date'}</b></div><h3>${h(e.title)}</h3>${prog?.name&&prog.name!==e.title?`<p class="eventName">${h(prog.name)}</p>`:''}<p>${h(e.description||e.mainEvent||'Open for the full available card, competitors and review notes.')}</p><div class="exactRecordFacts"><span>${h(fmtDate(e.date))}</span>${e.venue?`<span>${h(e.venue)}</span>`:''}${e.location?`<span>${h(e.location)}</span>`:''}${e.runtime?`<span>${e.runtime} min</span>`:''}${details.competitors.length?`<span>${details.competitors.length} competitors</span>`:''}</div><div class="availabilityLights"><span class="light ${plex?'pickLight':''}"><i></i> Plex${plex?(plexState?.watched?' watched':plexState?.progress?` ${Math.round(plexState.progress*100)}%`:' available'):''}</span><span class="light ${youtube?'pickLight':''}"><i></i> YouTube/free</span><span class="light ${artworkCandidates(e).length?'pickLight':''}"><i></i> Artwork</span></div></div><div class="exactRecordActions"><span class="statusPill status-${status}">${statusLabels[status]}</span><div class="recordStatus">${['watched','watching','skipped'].map(s=>`<button class="${status===s?'active':''}" data-status-key="${h(key)}" data-status="${s}">${s==='watched'?'✓ ':''}${statusLabels[s]}</button>`).join('')}</div>${plexLinkButton(e)}<button data-open-record="${h(e.id)}">Full card</button></div></article>`;
+  return `<article class="exactRecordCard ${status==='watched'?'isWatched':''}" style="--accent:${h(p?.color||'#d7a84f')}" data-scroll-key="${h(key)}" data-open-record="${h(e.id)}" role="button" tabindex="0"><div class="exactRecordDate"><strong>${h(String(e.date).slice(0,4))}</strong><span>${h(fmtDate(e.date).replace(/, \d{4}$/,''))}</span><small>${h(e.kind)}</small></div>${artwork(e,'exactRecordArtwork')}<div class="exactRecordMain"><div class="programmeKicker"><span>${h(p?.shortName||'')}</span><span>•</span><span>${h(e.code||prog?.name||'Exact record')}</span><b>${String(e.id).startsWith('tvmaze:')?'Exact episode':'Verified date'}</b></div><h3>${h(e.title)}</h3>${prog?.name&&prog.name!==e.title?`<p class="eventName">${h(prog.name)}</p>`:''}<p>${h(e.description||e.mainEvent||'Open for the full available card, competitors and review notes.')}</p><div class="exactRecordFacts"><span>${h(fmtDate(e.date))}</span>${e.venue?`<span>${h(e.venue)}</span>`:''}${e.location?`<span>${h(e.location)}</span>`:''}${e.runtime?`<span>${e.runtime} min</span>`:''}${details.competitors.length?`<span>${details.competitors.length} competitors</span>`:''}</div><div class="availabilityLights"><span class="light ${plex?'pickLight':''}"><i></i> Plex${plex?(plexState?.watched?' watched':plexState?.progress?` ${Math.round(plexState.progress*100)}%`:' available'):''}</span><span class="light ${freeLink?'pickLight':''}"><i></i> Exact free link</span><span class="light ${artworkCandidates(e).length?'pickLight':''}"><i></i> Artwork</span></div></div><div class="exactRecordActions"><span class="statusPill status-${status}">${statusLabels[status]}</span><div class="recordStatus">${['watched','watching','skipped'].map(s=>`<button class="${status===s?'active':''}" data-status-key="${h(key)}" data-status="${s}">${s==='watched'?'✓ ':''}${statusLabels[s]}</button>`).join('')}</div>${plexLinkButton(e)}<button data-open-record="${h(e.id)}">Full card</button></div></article>`;
 }
 function plexLinkButton(item){const plex=plexItemFor(item),server=state.plexData.selectedServer||state.plexData.servers?.find(x=>x.machineIdentifier===plex?.machineIdentifier),url=plexWebUrl(plex,server);return url?`<a href="${h(url)}" target="_blank" rel="noreferrer">Open Plex ↗</a>`:'';}
 
@@ -599,8 +771,8 @@ function chronologyView(){
   return `<div class="viewHeader"><div><span class="eyebrow">Programme-first catalogue</span><h2>Weekly shows, television, streaming & event series</h2></div><div class="viewControls"><span>${state.data.programmes.length} total programme families</span></div></div><section class="programmeGrid">${items.map(programmeCard).join('')||empty('No programmes found.','Try another company, year range or search term.',true)}</section>${filtered.length>state.visible?`<div class="loadMoreRow"><button data-action="load-more">Show more</button></div>`:''}`;
 }
 function programmeCard(p){
-  const company=promotion(p.promotionId), status=currentStatus(`program:${p.id}`), loaded=state.loadedEpisodes.get(p.id)?.length||0, mapped=p.tvMazeId||state.feedMap[p.id];
-  return `<article class="programmeCard" style="--accent:${h(company?.color||'#d7a84f')}" data-scroll-key="program:${h(p.id)}" data-open-programme="${h(p.id)}" role="button" tabindex="0">${artwork(p,'programmeArtwork',true)}<div class="programmeCardBody"><div class="programmeKicker"><span>${h(company?.shortName||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h3>${h(p.name)}</h3><p>${h(p.description)}</p><div class="heroMeta"><span>${h(p.firstAirDate)}${p.endDate?` – ${h(p.endDate)}`:''}</span><span>${h(p.cadence)}</span>${mapped?`<span class="statusPill status-watching">${loaded?`${loaded.toLocaleString()} episodes`:'Exact feed'}</span>`:'<span>Index only</span>'}</div><div class="programmeCardActions"><button data-open-programme="${h(p.id)}">Open show</button>${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">YouTube ↗</a>`:''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Unwatch':'Watched'}</button></div></div></article>`;
+  const company=promotion(p.promotionId), status=currentStatus(`program:${p.id}`), loaded=state.loadedEpisodes.get(p.id)?.length||0, mapped=p.tvMazeId||state.feedMap[p.id], freeLink=specificFreeLinkFor(p,{programmeEntry:true});
+  return `<article class="programmeCard" style="--accent:${h(company?.color||'#d7a84f')}" data-scroll-key="program:${h(p.id)}" data-open-programme="${h(p.id)}" role="button" tabindex="0">${artwork(p,'programmeArtwork',true)}<div class="programmeCardBody"><div class="programmeKicker"><span>${h(company?.shortName||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h3>${h(p.name)}</h3><p>${h(p.description)}</p><div class="heroMeta"><span>${h(p.firstAirDate)}${p.endDate?` – ${h(p.endDate)}`:''}</span><span>${h(p.cadence)}</span>${mapped?`<span class="statusPill status-watching">${loaded?`${loaded.toLocaleString()} episodes`:'Exact feed'}</span>`:'<span>Index only</span>'}</div><div class="programmeCardActions"><button data-open-programme="${h(p.id)}">Open show</button>${freeLink?freeLinkAnchor(freeLink):''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Unwatch':'Watched'}</button></div></div></article>`;
 }
 
 function companiesView(){
@@ -616,13 +788,13 @@ function companiesView(){
   for(const row of state.data.majorEvents)eventCounts.set(row.promotionId,(eventCounts.get(row.promotionId)||0)+1);
   for(const row of allLoadedEpisodes())episodeCounts.set(row.promotionId,(episodeCounts.get(row.promotionId)||0)+1);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=items.length.toLocaleString();});
-  return `<div class="viewHeader"><div><span class="eyebrow">Promotion directory</span><h2>Companies, territories & lineages</h2></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible logos</button></div></div><section class="cardGrid companyDirectory">${visibleItems.map(p=>`<article class="companyCard" style="--accent:${h(p.color)}">${companyLogo(p)}<div class="companySwatch"></div><span class="eyebrow">${h(p.region)}</span><h3>${h(p.shortName)}</h3><strong>${h(p.name)}</strong><p>${h(p.description)}</p><div class="heroMeta"><span>${programmeCounts.get(p.id)||0} programmes</span><span>${eventCounts.get(p.id)||0} events</span><span>${(episodeCounts.get(p.id)||0).toLocaleString()} episodes</span></div><div class="cardActions"><button type="button" data-company="${h(p.id)}">Open chronology</button>${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank" rel="noreferrer">Official ↗</a>`:''}${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">YouTube ↗</a>`:''}</div></article>`).join('')}</section>${items.length>visibleItems.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleItems.length)} more companies</button></div>`:''}`;
+  return `<div class="viewHeader"><div><span class="eyebrow">Promotion directory</span><h2>Companies, territories & lineages</h2></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible logos</button></div></div><section class="cardGrid companyDirectory">${visibleItems.map(p=>`<article class="companyCard" style="--accent:${h(p.color)}">${companyLogo(p)}<div class="companySwatch"></div><span class="eyebrow">${h(p.region)}</span><h3>${h(p.shortName)}</h3><strong>${h(p.name)}</strong><p>${h(p.description)}</p><div class="heroMeta"><span>${programmeCounts.get(p.id)||0} programmes</span><span>${eventCounts.get(p.id)||0} events</span><span>${(episodeCounts.get(p.id)||0).toLocaleString()} episodes</span></div><div class="cardActions"><button type="button" data-company="${h(p.id)}">Open chronology</button>${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank" rel="noreferrer">Official ↗</a>`:''}${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">Official channel ↗</a>`:''}</div></article>`).join('')}</section>${items.length>visibleItems.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleItems.length)} more companies</button></div>`:''}`;
 }
 
 function recommendedView(){
   const filtered=state.data.recommendations.filter(x=>matchFilters(x)),items=filtered.slice(0,state.visible);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=filtered.length.toLocaleString();});
-  return `<div class="viewHeader"><div><span class="eyebrow">Curated paths</span><h2>Recommended matches, events & episodes</h2></div></div><section class="cardGrid">${items.map(x=>{const p=promotion(x.promotionId),key=`recommendation:${x.id}`,st=currentStatus(key);return `<article class="recommendationCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="eyebrow">${h(fmtDate(x.date))} • ${h(p?.shortName||'')}</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><div class="topMatchRating">${starMarkup(Number(x.archiveStars||4.25))}<small>${h(x.ratingLabel||'Archive editorial rating')}</small></div><p>${h(x.why)}</p><div class="wrestlerTags">${(x.wrestlers||[]).map(w=>`<button data-wrestler="${h(w)}">${h(w)}</button>`).join('')}</div><div class="cardActions">${x.watchUrl?`<a href="${h(x.watchUrl)}" target="_blank">Watch/search ↗</a>`:''}${x.sourceUrl?`<a href="${h(x.sourceUrl)}" target="_blank">Source ↗</a>`:''}<button data-status-key="${key}" data-status="${st==='watched'?'unwatched':'watched'}">${st==='watched'?'Watched ✓':'Mark watched'}</button></div></article>`}).join('')}</section>`;
+  return `<div class="viewHeader"><div><span class="eyebrow">Curated paths</span><h2>Recommended matches, events & episodes</h2></div></div><section class="cardGrid">${items.map(x=>{const p=promotion(x.promotionId),key=`recommendation:${x.id}`,st=currentStatus(key),freeLink=specificFreeLinkFor(x,{recommendation:true});return `<article class="recommendationCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="eyebrow">${h(fmtDate(x.date))} • ${h(p?.shortName||'')}</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><div class="topMatchRating">${starMarkup(Number(x.archiveStars||4.25))}<small>${h(x.ratingLabel||'Archive editorial rating')}</small></div><p>${h(x.why)}</p><div class="wrestlerTags">${(x.wrestlers||[]).map(w=>`<button data-wrestler="${h(w)}">${h(w)}</button>`).join('')}</div><div class="cardActions">${freeLink?freeLinkAnchor(freeLink):''}${x.sourceUrl?`<a href="${h(x.sourceUrl)}" target="_blank">Source ↗</a>`:''}<button data-status-key="${key}" data-status="${st==='watched'?'unwatched':'watched'}">${st==='watched'?'Watched ✓':'Mark watched'}</button></div></article>`}).join('')}</section>`;
 }
 
 function careerItems(wrestler){return state.wrestlerIndex.get(wrestler)?.items||[];}
@@ -661,9 +833,9 @@ function wrestlerCareer(w){
   const shows=showsForProfile(profile);
   const visibleCareer=items.slice(0,Math.max(40,state.visible));
   return `<section class="wrestlerProfileHero"><div class="wrestlerProfilePortrait">${wrestlerHeadshot(w,'eager')}</div><div class="wrestlerProfileIntro"><span class="eyebrow">Career viewing route</span><h1>${h(w)}</h1>${metrics?`<div class="profileMetricRow"><span><strong>${metrics.archiveScore.toFixed(1)}</strong><small>Archive score</small></span><span><strong>${metrics.appearances}</strong><small>Matched records</small></span><span><strong>${metrics.curated}</strong><small>Curated classics</small></span><span><strong>${shows.length}</strong><small>Programme families</small></span></div>`:''}<p>Explore the highest-rated matches, then continue into every indexed programme and dated appearance in Ringside Archive.</p><div class="modalActions"><button type="button" data-action="clear-wrestler">Back to wrestler directory</button><button type="button" data-action="reset-filters">Reset all filters</button></div></div></section>
-  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Archive editorial selection</span><h2>Top ${Math.min(10,topMatches.length)} matches</h2></div><small>Stars combine stored source ratings, your ratings and clearly labelled Ringside editorial ratings.</small></div><div class="topMatchGrid">${topMatches.map((item,index)=>{const related=relatedArchiveRecord(item),prog=programme(item.programId),p=promotion(item.promotionId),rating=item._stars;return `<article class="topMatchCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="topMatchRank">${String(index+1).padStart(2,'0')}</span><div><span class="eyebrow">${h(fmtDate(item.date))} • ${h(p?.shortName||'Archive')}</span><h3>${h(item.title)}</h3>${item.event?`<strong>${h(item.event)}</strong>`:''}${item.why?`<p>${h(item.why)}</p>`:''}<div class="topMatchRating">${starMarkup(rating.stars)}<small>${h(rating.label)}</small></div><div class="cardActions">${related?`<button data-open-record="${h(related.id)}">Open archive record</button>`:prog?`<button data-open-programme="${h(prog.id)}">Open show</button>`:''}${item.watchUrl?`<a href="${h(item.watchUrl)}" target="_blank" rel="noreferrer">Watch/search ↗</a>`:''}${item.sourceUrl?`<a href="${h(item.sourceUrl)}" target="_blank" rel="noreferrer">Source ↗</a>`:''}</div></div></article>`}).join('')||empty('No rated matches are indexed yet.','As curated recommendations and ratings are added, they will appear here.')}</div></section>
+  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Archive editorial selection</span><h2>Top ${Math.min(10,topMatches.length)} matches</h2></div><small>Stars combine stored source ratings, your ratings and clearly labelled Ringside editorial ratings.</small></div><div class="topMatchGrid">${topMatches.map((item,index)=>{const related=relatedArchiveRecord(item),prog=programme(item.programId),p=promotion(item.promotionId),rating=item._stars,freeLink=specificFreeLinkFor(item,{recommendation:item._type==='pick'});return `<article class="topMatchCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="topMatchRank">${String(index+1).padStart(2,'0')}</span><div><span class="eyebrow">${h(fmtDate(item.date))} • ${h(p?.shortName||'Archive')}</span><h3>${h(item.title)}</h3>${item.event?`<strong>${h(item.event)}</strong>`:''}${item.why?`<p>${h(item.why)}</p>`:''}<div class="topMatchRating">${starMarkup(rating.stars)}<small>${h(rating.label)}</small></div><div class="cardActions">${related?`<button data-open-record="${h(related.id)}">Open archive record</button>`:prog?`<button data-open-programme="${h(prog.id)}">Open show</button>`:''}${freeLink?freeLinkAnchor(freeLink):''}${item.sourceUrl?`<a href="${h(item.sourceUrl)}" target="_blank" rel="noreferrer">Source ↗</a>`:''}</div></div></article>`}).join('')||empty('No rated matches are indexed yet.','As curated recommendations and ratings are added, they will appear here.')}</div></section>
   <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Programme appearances</span><h2>Shows featuring ${h(w)}</h2></div><strong>${shows.length}</strong></div><div class="appearanceShowGrid">${shows.map(show=>{const company=promotion(show.promotionId);return `<button type="button" class="appearanceShowCard" data-open-programme="${h(show.id)}" style="--accent:${h(company?.color||'#d7a84f')}">${companyLogo(company,'appearanceCompanyLogo')}<span><small>${h(company?.shortName||'')}</small><strong>${h(show.name)}</strong><em>${h(show.firstAirDate)}${show.endDate?` – ${h(show.endDate)}`:''}</em></span></button>`}).join('')||'<p class="sourceNote">No programme-family links have been indexed for this wrestler yet.</p>'}</div></section>
-  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Full archive path</span><h2>Chronological appearances</h2></div><strong>${items.length}</strong></div><div class="careerTimeline">${visibleCareer.map(x=>x._type==='event'?exactCard(x):`<article class="careerCard"><span class="eyebrow">${h(fmtDate(x.date))} • Curated pick</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><div class="topMatchRating">${starMarkup(editorialStars(x).stars)}</div><p>${h(x.why)}</p><div class="cardActions">${programme(x.programId)?`<button data-open-programme="${h(x.programId)}">Open show</button>`:''}${x.watchUrl?`<a href="${h(x.watchUrl)}" target="_blank" rel="noreferrer">Watch/search ↗</a>`:''}</div></article>`).join('')||empty('No exact matches under the current filters.','Reset the company/year filters or return to the wrestler directory.',true)}</div>${items.length>visibleCareer.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleCareer.length)} more appearances</button></div>`:''}</section>`;
+  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Full archive path</span><h2>Chronological appearances</h2></div><strong>${items.length}</strong></div><div class="careerTimeline">${visibleCareer.map(x=>x._type==='event'?exactCard(x):`<article class="careerCard"><span class="eyebrow">${h(fmtDate(x.date))} • Curated pick</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><div class="topMatchRating">${starMarkup(editorialStars(x).stars)}</div><p>${h(x.why)}</p><div class="cardActions">${programme(x.programId)?`<button data-open-programme="${h(x.programId)}">Open show</button>`:''}${(()=>{const link=specificFreeLinkFor(x,{recommendation:true});return link?freeLinkAnchor(link):'';})()}</div></article>`).join('')||empty('No exact matches under the current filters.','Reset the company/year filters or return to the wrestler directory.',true)}</div>${items.length>visibleCareer.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleCareer.length)} more appearances</button></div>`:''}</section>`;
 }
 
 function libraryView(){
@@ -689,10 +861,10 @@ function modal(){
 function modalShell(title,body,wide=false){return `<div class="modalBackdrop" data-action="close-modal"><section class="modalPanel ${wide?'wide':''}" role="dialog" aria-modal="true" aria-label="${h(title)}"><button class="modalClose" data-action="close-modal">×</button><header class="modalHeader"><span class="eyebrow">Ringside Archive</span><h2>${h(title)}</h2></header><div class="modalBody">${body}</div></section></div>`;}
 function recordModal(item){
   if(!item)return '';
-  const p=promotion(item.promotionId),prog=programme(item.programId),details=detailsFor(item,state.data),key=statusKey(item),review=state.reviews[key]||{},plex=plexItemFor(item),plexState=plexProgressFor(item),youtube=youtubeUrlFor(item);
+  const p=promotion(item.promotionId),prog=programme(item.programId),details=detailsFor(item,state.data),key=statusKey(item),review=state.reviews[key]||{},plex=plexItemFor(item),plexState=plexProgressFor(item),freeLink=specificFreeLinkFor(item);
   const matches=details.matches.length?`<ol class="matchCardList">${details.matches.map((match,index)=>`<li><span>${h(match.order||`Match ${index+1}`)}</span><strong>${h(match.match||match.description||'')}</strong>${match.result?`<p>${h(match.result)}</p>`:''}</li>`).join('')}</ol>`:`<div class="sourceEmpty"><div><h4>Complete card not yet present</h4><p>The source confirms the event and date, but does not provide a full match card in the recovered dataset.</p></div></div>`;
   const status=currentStatus(key);
-  return modalShell(item.title,`<div class="detailHero">${artwork(item,'detailArtwork')}<div class="detailHeroText"><div class="programmeKicker"><span>${h(p?.name||'')}</span><span>•</span><span>${h(prog?.name||item.kind)}</span></div><h2>${h(item.title)}</h2><p class="detailLead">${h(item.description||item.mainEvent||'Exact dated archive record.')}</p><div class="detailFacts"><span><small>Date</small><strong>${h(fmtDate(item.date))}</strong></span>${item.code?`<span><small>Episode</small><strong>${h(item.code)}</strong></span>`:''}${item.venue?`<span><small>Venue</small><strong>${h(item.venue)}</strong></span>`:''}${item.location?`<span><small>Location</small><strong>${h(item.location)}</strong></span>`:''}${item.runtime?`<span><small>Runtime</small><strong>${item.runtime} min</strong></span>`:''}${item.rating?`<span><small>Source rating</small><strong>${item.rating}/10</strong></span>`:''}${plexState?`<span><small>Plex state</small><strong>${plexState.watched?'Watched':`${Math.round(plexState.progress*100)}% viewed`}</strong></span>`:''}</div><div class="modalActions"><button data-status-key="${h(key)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Remove watched':'Mark watched'}</button>${item.sourceUrl?`<a href="${h(item.sourceUrl)}" target="_blank">Source ↗</a>`:''}${youtube?`<a href="${h(youtube)}" target="_blank">YouTube/free ↗</a>`:''}${plex?plexLinkButton(item):''}</div></div></div>
+  return modalShell(item.title,`<div class="detailHero">${artwork(item,'detailArtwork')}<div class="detailHeroText"><div class="programmeKicker"><span>${h(p?.name||'')}</span><span>•</span><span>${h(prog?.name||item.kind)}</span></div><h2>${h(item.title)}</h2><p class="detailLead">${h(item.description||item.mainEvent||'Exact dated archive record.')}</p><div class="detailFacts"><span><small>Date</small><strong>${h(fmtDate(item.date))}</strong></span>${item.code?`<span><small>Episode</small><strong>${h(item.code)}</strong></span>`:''}${item.venue?`<span><small>Venue</small><strong>${h(item.venue)}</strong></span>`:''}${item.location?`<span><small>Location</small><strong>${h(item.location)}</strong></span>`:''}${item.runtime?`<span><small>Runtime</small><strong>${item.runtime} min</strong></span>`:''}${item.rating?`<span><small>Source rating</small><strong>${item.rating}/10</strong></span>`:''}${plexState?`<span><small>Plex state</small><strong>${plexState.watched?'Watched':`${Math.round(plexState.progress*100)}% viewed`}</strong></span>`:''}</div><div class="modalActions"><button data-status-key="${h(key)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Remove watched':'Mark watched'}</button>${item.sourceUrl?`<a href="${h(item.sourceUrl)}" target="_blank">Source ↗</a>`:''}${freeLink?freeLinkAnchor(freeLink):''}${plex?plexLinkButton(item):''}</div></div></div>
     <section class="detailSection"><div class="sectionHeading"><div><span class="eyebrow">${details.completeCard?'Complete card':'Verified card information'}</span><h3>Matches</h3></div><small>${h(details.sourceNote)}</small></div>${matches}</section>
     <section class="detailSection"><div class="sectionHeading"><div><span class="eyebrow">Participants</span><h3>Wrestlers competing</h3></div><strong>${details.competitors.length}</strong></div><div class="wrestlerTags expanded">${details.competitors.map(w=>`<button data-wrestler="${h(w)}">${h(w)}</button>`).join('')||'<span>No competitors parsed from the available record.</span>'}</div></section>
     <section class="detailSection"><div class="sectionHeading"><div><span class="eyebrow">Review & notes</span><h3>Archive review</h3></div></div>${details.editorial?`<div class="editorialReview">${h(details.editorial).replace(/\n/g,'<br>')}</div>`:'<p class="sourceNote">No published or curated review is attached to this record yet.</p>'}<div class="personalReview"><label><span>Your rating</span><select id="reviewRating"><option value="">No rating</option>${Array.from({length:10},(_,i)=>i+1).map(n=>`<option value="${n}" ${Number(review.rating)===n?'selected':''}>${n}/10</option>`).join('')}</select></label><label><span>Your review</span><textarea id="reviewText" placeholder="Write private notes about the card or episode…">${h(review.text||'')}</textarea></label><button data-save-review="${h(key)}">Save review</button></div></section>
@@ -700,9 +872,9 @@ function recordModal(item){
 }
 function programmeModal(p){
   if(!p)return '';
-  const company=promotion(p.promotionId),loaded=state.loadedEpisodes.get(p.id)||[],status=currentStatus(`program:${p.id}`),mapped=p.tvMazeId||state.feedMap[p.id],catalog={...(state.data.artworkCatalog?.programmes?.[p.id]||{}),...(state.artworkCache[`program:${p.id}`]||{})};
+  const company=promotion(p.promotionId),loaded=state.loadedEpisodes.get(p.id)||[],status=currentStatus(`program:${p.id}`),mapped=p.tvMazeId||state.feedMap[p.id],freeLink=specificFreeLinkFor(p,{programmeEntry:true}),catalog={...(state.data.artworkCatalog?.programmes?.[p.id]||{}),...(state.artworkCache[`program:${p.id}`]||{})};
   const seasons=Object.entries(catalog.seasons||{});
-  return modalShell(p.name,`<div class="detailHero">${artwork(p,'detailArtwork',true)}<div class="detailHeroText"><div class="programmeKicker"><span>${h(company?.name||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h2>${h(p.name)}</h2><p class="detailLead">${h(p.description)}</p><div class="detailFacts"><span><small>First aired</small><strong>${h(p.firstAirDate)}</strong></span>${p.endDate?`<span><small>Final date</small><strong>${h(p.endDate)}</strong></span>`:''}<span><small>Cadence</small><strong>${h(p.cadence)}</strong></span><span><small>Exact episodes</small><strong>${loaded.length.toLocaleString()}</strong></span></div><div class="modalActions">${mapped?`<button data-load-programme="${h(p.id)}">${icon('refresh')} Refresh episodes</button>`:`<button data-discover-programme="${h(p.id)}">Discover exact feed</button>`}${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank">Official ↗</a>`:''}${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank">YouTube/free ↗</a>`:''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Remove watched':'Mark programme watched'}</button></div>${p.feedNote?`<p class="sourceNote">${h(p.feedNote)}</p>`:''}</div></div>
+  return modalShell(p.name,`<div class="detailHero">${artwork(p,'detailArtwork',true)}<div class="detailHeroText"><div class="programmeKicker"><span>${h(company?.name||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h2>${h(p.name)}</h2><p class="detailLead">${h(p.description)}</p><div class="detailFacts"><span><small>First aired</small><strong>${h(p.firstAirDate)}</strong></span>${p.endDate?`<span><small>Final date</small><strong>${h(p.endDate)}</strong></span>`:''}<span><small>Cadence</small><strong>${h(p.cadence)}</strong></span><span><small>Exact episodes</small><strong>${loaded.length.toLocaleString()}</strong></span></div><div class="modalActions">${mapped?`<button data-load-programme="${h(p.id)}">${icon('refresh')} Refresh episodes</button>`:`<button data-discover-programme="${h(p.id)}">Discover exact feed</button>`}${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank">Official ↗</a>`:''}${freeLink?freeLinkAnchor(freeLink):''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Remove watched':'Mark programme watched'}</button></div>${p.feedNote?`<p class="sourceNote">${h(p.feedNote)}</p>`:''}</div></div>
     <section class="detailSection"><div class="sectionHeading"><div><span class="eyebrow">Show and season visuals</span><h3>Artwork</h3></div><button data-scan-art="program:${h(p.id)}">Scan artwork</button></div>${artworkGallery(p,true)}${seasons.length?`<h4 class="subheading">Season artwork</h4><div class="seasonArtworkGrid">${seasons.map(([season,art])=>`<figure><img src="${h(art.poster||art.backdrop||'')}" alt="Season ${h(season)} artwork" loading="lazy"><figcaption>Season ${h(season)}</figcaption></figure>`).join('')}</div>`:''}</section>
     <section class="detailSection"><div class="sectionHeading"><div><span class="eyebrow">Complete episode index</span><h3>${loaded.length.toLocaleString()} exact episodes</h3></div></div>${loaded.length?`<div class="episodeRows">${loaded.map(episodeRow).join('')}</div>`:`<div class="emptyState"><h3>${mapped?'Episode feed loading or unavailable':'No exact feed mapped'}</h3><p>${mapped?'Refresh the feed to load dates, titles and episode artwork.':'The show remains fully indexed as a programme family. Use discovery to find an exact TVMaze match without inventing dates.'}</p></div>`}</section>`,true);
 }
@@ -711,9 +883,9 @@ function episodeRow(e){const st=currentStatus(statusKey(e));return `<article cla
 function accountModal(){
   const configured=Boolean(state.cloud.config?.supabaseConfigured),user=state.cloud.user;
   if(!configured)return modalShell('Ringside account',`<div class="accountSetup"><h3>Supabase setup required</h3><p>Accounts are optional for local use, but required for automatic cross-device progress plus roaming Plex and Trakt connections. Follow <code>supabase/schema.sql</code> and the README, then add the Supabase environment variables in Vercel.</p></div>`,true);
-  if(state.cloud.recovery)return modalShell('Choose a new password',`<div class="authLayout recoveryLayout"><section><span class="eyebrow">Password recovery</span><h3>Secure your Ringside account</h3><p>The recovery link was accepted. Enter a new password to complete the reset.</p></section><section class="authForm"><label><span>New password</span><input id="accountNewPassword" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters"></label><label><span>Confirm password</span><input id="accountConfirmPassword" type="password" autocomplete="new-password" minlength="8" placeholder="Repeat the new password"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-update-password">Update password</button></div><p class="sourceNote">${h(state.cloud.message||'After updating, this device remains signed in and your archive will synchronize.')}</p></section></div>`,true);
-  if(user)return modalShell('Ringside account',`<div class="accountDashboard"><div class="accountIdentity"><span class="accountAvatar large">${h((user.email||'A').slice(0,1).toUpperCase())}</span><div><span class="eyebrow">Signed in</span><h3>${h(user.email||'Ringside account')}</h3><p>Viewing states, reviews and settings synchronize through Row Level Security. Plex and Trakt credentials plus the latest compact Plex match snapshot are encrypted server-side; artwork remains a regenerable device cache.</p></div></div><div class="cloudStatusGrid"><span><small>Cloud state</small><strong>${h(state.cloud.message||'Ready')}</strong></span><span><small>Trakt</small><strong>${traktConnected()?'Connected':'Not connected'}</strong></span><span><small>Plex</small><strong>${plexConnected()?'Connected':'Not connected'}</strong></span><span><small>Auto sync</small><strong>${state.settings.cloudAutoSync===false?'Off':'On'}</strong></span></div><label class="settingToggle"><input type="checkbox" data-setting="cloudAutoSync" ${state.settings.cloudAutoSync===false?'':'checked'}><span><strong>Automatic account sync</strong><small>Pull on login/focus and synchronize changes after edits.</small></span></label><div class="modalActions"><button data-action="cloud-sync" ${state.cloud.syncing?'disabled':''}>Sync now</button><button data-action="connections">Manage Plex & Trakt</button><button class="dangerButton" data-action="cloud-signout">Sign out</button></div></div>`,true);
-  return modalShell('Create or sign in to Ringside',`<div class="authLayout"><section><span class="eyebrow">One account on every device</span><h3>Sync the complete archive</h3><p>Your viewing progress, ratings, reviews, preferences and feed mappings follow the account. Encrypted server storage also keeps your Plex and Trakt connections available without exporting credentials; artwork is regenerated per device to keep cloud state small.</p><ul><li>Supabase Auth for email/password accounts</li><li>RLS-protected personal archive state</li><li>AES-256-GCM encrypted Plex and Trakt integrations</li><li>Automatic merge using per-record timestamps</li></ul></section><section class="authForm"><label><span>Email</span><input id="accountEmail" type="email" autocomplete="email" placeholder="you@example.com"></label><label><span>Password</span><input id="accountPassword" type="password" autocomplete="current-password" minlength="8" placeholder="At least 8 characters"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-signin">Sign in</button><button data-action="cloud-signup">Create account</button><button data-action="cloud-reset">Reset password</button></div><p class="sourceNote">${h(state.cloud.message||'Email confirmation may be required depending on your Supabase Auth settings.')}</p></section></div>`,true);
+  if(state.cloud.recovery)return modalShell('Choose a new password',`<div class="authLayout recoveryLayout"><section><span class="eyebrow">Password recovery</span><h3>Secure your Ringside account</h3><p>The recovery link was accepted. Enter a new password to complete the reset.</p></section><section class="authForm"><label><span>New password</span><input id="accountNewPassword" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters"></label><label><span>Confirm password</span><input id="accountConfirmPassword" type="password" autocomplete="new-password" minlength="8" placeholder="Repeat the new password"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-update-password">Update password</button></div><p class="sourceNote" id="cloudOperationMessage">${h(state.cloud.message||'After updating, this device remains signed in and your archive will synchronize.')}</p></section></div>`,true);
+  if(user)return modalShell('Ringside account',`<div class="accountDashboard"><div class="accountIdentity"><span class="accountAvatar large">${h((user.email||'A').slice(0,1).toUpperCase())}</span><div><span class="eyebrow">Signed in</span><h3>${h(user.email||'Ringside account')}</h3><p>Viewing states, reviews and settings synchronize through Row Level Security. Plex and Trakt credentials plus the latest compact Plex match snapshot are encrypted server-side; artwork remains a regenerable device cache.</p></div></div><div class="cloudStatusGrid"><span><small>Cloud state</small><strong id="cloudOperationMessage">${h(state.cloud.message||'Ready')}</strong></span><span><small>Trakt</small><strong>${traktConnected()?'Connected':'Not connected'}</strong></span><span><small>Plex</small><strong>${plexConnected()?'Connected':'Not connected'}</strong></span><span><small>Auto sync</small><strong>${state.settings.cloudAutoSync===false?'Off':'On'}</strong></span></div><label class="settingToggle"><input type="checkbox" data-setting="cloudAutoSync" ${state.settings.cloudAutoSync===false?'':'checked'}><span><strong>Automatic account sync</strong><small>Pull on login/focus and synchronize changes after edits.</small></span></label><div class="modalActions"><button data-action="cloud-sync" ${state.cloud.syncing?'disabled':''}>Sync now</button><button data-action="connections">Manage Plex & Trakt</button><button class="dangerButton" data-action="cloud-signout">Sign out</button></div></div>`,true);
+  return modalShell('Create or sign in to Ringside',`<div class="authLayout"><section><span class="eyebrow">One account on every device</span><h3>Sync the complete archive</h3><p>Your viewing progress, ratings, reviews, preferences and feed mappings follow the account. Encrypted server storage also keeps your Plex and Trakt connections available without exporting credentials; artwork is regenerated per device to keep cloud state small.</p><ul><li>Supabase Auth for email/password accounts</li><li>RLS-protected personal archive state</li><li>AES-256-GCM encrypted Plex and Trakt integrations</li><li>Automatic merge using per-record timestamps</li></ul></section><section class="authForm"><label><span>Email</span><input id="accountEmail" type="email" autocomplete="email" placeholder="you@example.com"></label><label><span>Password</span><input id="accountPassword" type="password" autocomplete="current-password" minlength="8" placeholder="At least 8 characters"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-signin">Sign in</button><button data-action="cloud-signup">Create account</button><button data-action="cloud-reset">Reset password</button></div><p class="sourceNote" id="cloudOperationMessage">${h(state.cloud.message||'Email confirmation may be required depending on your Supabase Auth settings.')}</p></section></div>`,true);
 }
 
 function plexSectionsFor(server){return state.plexData.sectionsByServer?.[server.machineIdentifier]||((state.plexData.selectedServer?.machineIdentifier===server.machineIdentifier)?state.plexData.sections||[]:[]);}
@@ -750,19 +922,16 @@ function connectionsModal(){
   const traktReady=Boolean(config.traktConfigured),artworkReady=Boolean(config.tmdbConfigured);
   const accountNote=accountConnected()?`<div class="accountSyncNotice ready"><strong>Cross-device integration storage enabled</strong><span>Connected Plex/Trakt accounts and the latest Plex scan are attached to ${h(state.cloud.user.email||'this account')}.</span></div>`:`<div class="accountSyncNotice"><strong>Connections are device-local</strong><span>Sign in to a Ringside account before connecting Plex or Trakt to make them available on your other devices.</span><button data-action="account">Sign in</button></div>`;
   const diagnostics=`<div class="integrationDiagnostics"><span class="${traktReady?'ready':'missing'}"><b>Trakt</b>${traktReady?'Configured':'Missing Vercel variables'}</span><span class="${config.encryptedIntegrationStorage?'ready':'missing'}"><b>Roaming vault</b>${config.encryptedIntegrationStorage?'Configured':'Incomplete Supabase server setup'}</span><span class="${artworkReady?'ready':'optional'}"><b>TMDB artwork</b>${artworkReady?'Configured':'Optional — Wikipedia fallback active'}</span></div>`;
-  return modalShell('Connections, sync & artwork',`${accountNote}${diagnostics}<div class="connectionGrid"><section class="connectionPanel"><h3>Trakt viewing sync</h3><p>Exact episodes and supported event records synchronize both ways. With a Ringside account, the Trakt refresh token is encrypted on the server and works from every signed-in device.</p><div class="modalActions">${traktOn?`<button data-action="trakt-sync">Import watched history</button><button data-action="trakt-disconnect">Disconnect</button>`:`<button data-action="trakt-connect" ${traktReady?'':'disabled'}>Connect Trakt</button>`}<button data-action="refresh-integration-config">Recheck configuration</button></div><p>${h(state.traktMessage||(traktOn?(state.trakt.account?.username?`Connected as ${state.trakt.account.username}.`:'Connected.'):(traktReady?'Ready to connect.':'Add TRAKT_CLIENT_ID and TRAKT_CLIENT_SECRET in Vercel, then redeploy.')))}</p>${!traktReady?`<p class="sourceNote">Detected: client ID ${diag.traktClientId?'✓':'✗'} • client secret ${diag.traktClientSecret?'✓':'✗'}.</p>`:''}${traktDeviceMarkup()}</section>
-  <section class="connectionPanel"><h3>Plex library & viewing sync</h3><p>Match exact shows, seasons, episodes and event files. Import real Plex viewCount/viewOffset progress; optionally push Ringside watched changes back to Plex and forward Plex-watched matches to Trakt.</p><div class="modalActions">${plexOn?`<button data-action="plex-refresh-servers">Refresh servers</button><button data-action="plex-import-viewing">Import Plex viewing</button><button data-action="plex-disconnect">Disconnect</button>`:`<button data-action="plex-connect">Sign in to Plex</button>`}<button data-action="plex-import">Import local export</button></div><p>${h(state.plexMessage||`${state.plexMatches.size.toLocaleString()} archive keys matched from ${(state.plexData.items||[]).length.toLocaleString()} Plex items.`)}</p><div class="settingStack"><label class="settingToggle"><input type="checkbox" data-setting="autoImportPlexViewing" ${state.settings.autoImportPlexViewing?'checked':''}><span><strong>Import after each Plex scan</strong><small>Watched items become Watched; partial progress becomes Watching.</small></span></label><label class="settingToggle"><input type="checkbox" data-setting="pushWatchedToPlex" ${state.settings.pushWatchedToPlex?'checked':''}><span><strong>Push Ringside watched state to Plex</strong><small>Uses Plex scrobble/unscrobble only for exact matched items.</small></span></label><label class="settingToggle"><input type="checkbox" data-setting="syncPlexWatchedToTrakt" ${state.settings.syncPlexWatchedToTrakt?'checked':''}><span><strong>Forward Plex-watched matches to Trakt</strong><small>Only records that map exactly in both integrations are submitted.</small></span></label><label><span>Plex watched threshold</span><input id="plexThreshold" data-setting="plexWatchedThreshold" type="number" min="0.5" max="1" step="0.05" value="${h(state.settings.plexWatchedThreshold||0.9)}"></label></div>${servers.length?`<div class="serverList">${servers.map(plexServerPanel).join('')}</div>`:''}</section>
-  <section class="connectionPanel"><h3>Artwork scanner</h3><p>TVMaze, TMDB, Wikipedia/Wikimedia and imported Plex metadata are layered with source attribution. Missing art remains labelled rather than fabricated.</p><div class="modalActions"><button data-action="scan-visible-artwork" ${state.scanningArtwork?'disabled':''}>Scan visible records</button></div><p>${h(state.artworkMessage||`${Object.keys(state.artworkCache).length} cached artwork results.`)}</p></section>
+  return modalShell('Connections, sync & artwork',`${accountNote}${diagnostics}<div class="connectionGrid"><section class="connectionPanel"><h3>Trakt viewing sync</h3><p>Exact episodes and supported event records synchronize both ways. With a Ringside account, the Trakt refresh token is encrypted on the server and works from every signed-in device.</p><div class="modalActions">${traktOn?`<button data-action="trakt-sync">Import watched history</button><button data-action="trakt-disconnect">Disconnect</button>`:`<button data-action="trakt-connect" ${traktReady?'':'disabled'}>Connect Trakt</button>`}<button data-action="refresh-integration-config">Recheck configuration</button></div><p id="traktOperationMessage">${h(state.traktMessage||(traktOn?(state.trakt.account?.username?`Connected as ${state.trakt.account.username}.`:'Connected.'):(traktReady?'Ready to connect.':'Add TRAKT_CLIENT_ID and TRAKT_CLIENT_SECRET in Vercel, then redeploy.')))}</p>${!traktReady?`<p class="sourceNote">Detected: client ID ${diag.traktClientId?'✓':'✗'} • client secret ${diag.traktClientSecret?'✓':'✗'}.</p>`:''}${traktDeviceMarkup()}</section>
+  <section class="connectionPanel"><h3>Plex library & viewing sync</h3><p>Match exact shows, seasons, episodes and event files. Import real Plex viewCount/viewOffset progress; optionally push Ringside watched changes back to Plex and forward Plex-watched matches to Trakt.</p><div class="modalActions">${plexOn?`<button data-action="plex-refresh-servers">Refresh servers</button><button data-action="plex-import-viewing">Import Plex viewing</button><button data-action="plex-disconnect">Disconnect</button>`:`<button data-action="plex-connect">Sign in to Plex</button>`}<button data-action="plex-import">Import local export</button></div><p id="plexOperationMessage">${h(state.plexMessage||`${state.plexMatches.size.toLocaleString()} archive keys matched from ${(state.plexData.items||[]).length.toLocaleString()} Plex items.`)}</p><div class="settingStack"><label class="settingToggle"><input type="checkbox" data-setting="autoImportPlexViewing" ${state.settings.autoImportPlexViewing?'checked':''}><span><strong>Import after each Plex scan</strong><small>Watched items become Watched; partial progress becomes Watching.</small></span></label><label class="settingToggle"><input type="checkbox" data-setting="pushWatchedToPlex" ${state.settings.pushWatchedToPlex?'checked':''}><span><strong>Push Ringside watched state to Plex</strong><small>Uses Plex scrobble/unscrobble only for exact matched items.</small></span></label><label class="settingToggle"><input type="checkbox" data-setting="syncPlexWatchedToTrakt" ${state.settings.syncPlexWatchedToTrakt?'checked':''}><span><strong>Forward Plex-watched matches to Trakt</strong><small>Only records that map exactly in both integrations are submitted.</small></span></label><label><span>Plex watched threshold</span><input id="plexThreshold" data-setting="plexWatchedThreshold" type="number" min="0.5" max="1" step="0.05" value="${h(state.settings.plexWatchedThreshold||0.9)}"></label></div>${servers.length?`<div class="serverList">${servers.map(plexServerPanel).join('')}</div>`:''}</section>
+  <section class="connectionPanel"><h3>Artwork scanner</h3><p>TVMaze, TMDB, Wikipedia/Wikimedia and imported Plex metadata are layered with source attribution. Missing art remains labelled rather than fabricated.</p><div class="modalActions"><button data-action="scan-visible-artwork" ${state.scanningArtwork?'disabled':''}>Scan visible records</button></div><p id="artworkOperationMessage">${h(state.artworkMessage||`${Object.keys(state.artworkCache).length} cached artwork results.`)}</p></section>
   <section class="connectionPanel"><h3>Backup & recovery</h3><p>Account sync is automatic when configured, but a private JSON backup remains useful for offline recovery. Legacy backups can also migrate local Plex/Trakt connections into your signed-in account.</p><div class="modalActions"><button data-action="export">Export JSON</button><button data-action="import-backup">Import JSON</button><button data-action="cloud-sync" ${accountConnected()?'':'disabled'}>Sync account</button></div></section></div>`,true);
 }
 
-function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.4.1 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
+function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.5.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
 function mobileNav(){return `<nav class="mobileNav">${navItems.map(([id,ic,label])=>`<button data-view="${id}" class="${state.view===id?'active':''}"><span>${icon(ic)}</span>${label.replace('Complete ','')}</button>`).join('')}</nav>`;}
 
-function render({preserveScroll=state.lastRenderView===state.view}={}){
-  if(!state.data)return;
-  const viewport=preserveScroll?captureViewportState():null;
-  const generation=++state.renderGeneration;
+function currentViewContent(){
   let content='';
   if(state.view==='exact')content=exactView();
   if(state.view==='chronology')content=chronologyView();
@@ -772,55 +941,84 @@ function render({preserveScroll=state.lastRenderView===state.view}={}){
   if(state.view==='library')content=libraryView();
   const overview=state.view==='exact'?`${dashboard()}${catalogueStatement()}`:'';
   const filters=['exact','chronology','wrestlers','companies','recommended'].includes(state.view)?filterPanel():'';
-  app.innerHTML=`${topbar()}<main class="appShell view-${h(state.view)}">${overview}${filters}${content}${footer()}</main>${mobileNav()}${modal()}`;
+  return `${overview}${filters}${content}${footer()}`;
+}
+function renderViewOnly({preserveScroll=true}={}){
+  if(!state.data)return;
+  const main=document.querySelector('.appShell');if(!main){render({preserveScroll});return;}
+  const viewport=preserveScroll?captureViewportState():null,generation=++state.renderGeneration;
+  main.className=`appShell view-${state.view}`;main.innerHTML=currentViewContent();state.lastRenderView=state.view;
+  bind();renderToast();syncTaskButtons();if(viewport)restoreViewportState(viewport,generation);
+}
+function render({preserveScroll=state.lastRenderView===state.view}={}){
+  if(!state.data)return;
+  const viewport=preserveScroll?captureViewportState():null;
+  const generation=++state.renderGeneration;
+  app.innerHTML=`${topbar()}<main class="appShell view-${h(state.view)}">${currentViewContent()}</main>${mobileNav()}${modal()}`;
   document.body.classList.toggle('modalOpen',Boolean(state.modal));
   state.lastRenderView=state.view;
-  bind();renderToast();
+  bind();renderToast();syncTaskButtons();
   if(viewport)restoreViewportState(viewport,generation);
 }
 
 function bind(){
   document.querySelectorAll('[data-view]').forEach(el=>el.onclick=()=>setView(el.dataset.view));
   document.querySelectorAll('[data-status-key]').forEach(el=>el.onclick=e=>{e.stopPropagation();setStatus(el.dataset.statusKey,el.dataset.status);});
-  document.querySelectorAll('[data-open-programme]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a'))return;state.modal={type:'programme',id:el.dataset.openProgramme};render();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'programme',id:el.dataset.openProgramme};render();}};});
-  document.querySelectorAll('[data-open-record]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a,select,textarea,input'))return;state.modal={type:'record',id:el.dataset.openRecord};render();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'record',id:el.dataset.openRecord};render();}};});
+  document.querySelectorAll('[data-open-programme]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a'))return;state.modal={type:'programme',id:el.dataset.openProgramme};renderModalOnly();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'programme',id:el.dataset.openProgramme};renderModalOnly();}};});
+  document.querySelectorAll('[data-open-record]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a,select,textarea,input'))return;state.modal={type:'record',id:el.dataset.openRecord};renderModalOnly();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'record',id:el.dataset.openRecord};renderModalOnly();}};});
   document.querySelectorAll('[data-company]').forEach(el=>el.onclick=()=>{state.filters.promotion=el.dataset.company;state.filtersOpen=true;state.visible=24;setView('exact');});
   document.querySelectorAll('[data-wrestler]').forEach(el=>el.onclick=e=>{e.stopPropagation();state.filters.wrestler=el.dataset.wrestler;state.filtersOpen=true;state.modal=null;state.visible=24;setView('wrestlers');});
-  document.querySelectorAll('[data-library-tab]').forEach(el=>el.onclick=()=>{state.libraryTab=el.dataset.libraryTab;render();});
-  document.querySelectorAll('[data-filter]').forEach(el=>{const apply=()=>{state.filters[el.dataset.filter]=el.type==='checkbox'?el.checked:el.value;state.visible=24;render();};if(el.tagName==='INPUT'&&el.type==='number')el.oninput=debounce(apply,250);else el.onchange=apply;});
-  const search=document.querySelector('#searchInput'); if(search) search.oninput=debounce(()=>{state.filters.query=search.value;state.visible=24;render();},150);
-  document.querySelectorAll('[data-load-programme]').forEach(el=>el.onclick=e=>{e.stopPropagation();loadProgramme(el.dataset.loadProgramme,true);});
-  document.querySelectorAll('[data-discover-programme]').forEach(el=>el.onclick=e=>{e.stopPropagation();discoverProgramme(el.dataset.discoverProgramme);});
+  document.querySelectorAll('[data-library-tab]').forEach(el=>el.onclick=()=>{state.libraryTab=el.dataset.libraryTab;renderViewOnly();});
+  document.querySelectorAll('[data-filter]').forEach(el=>{const apply=()=>{state.filters[el.dataset.filter]=el.type==='checkbox'?el.checked:el.value;state.visible=24;renderViewOnly();};if(el.tagName==='INPUT'&&el.type==='number')el.oninput=debounce(apply,250);else el.onchange=apply;});
+  const search=document.querySelector('#searchInput');if(search)search.oninput=debounce(()=>{state.filters.query=search.value;state.visible=24;renderViewOnly();},150);
+  document.querySelectorAll('[data-load-programme]').forEach(el=>{const key=taskButtonKey(el);el.onclick=e=>{e.stopPropagation();runButtonTask(el,key,()=>loadProgramme(el.dataset.loadProgramme,true),{label:'Loading exact episodes'}).catch(()=>{});};});
+  document.querySelectorAll('[data-discover-programme]').forEach(el=>{const key=taskButtonKey(el);el.onclick=e=>{e.stopPropagation();runButtonTask(el,key,()=>discoverProgramme(el.dataset.discoverProgramme),{label:'Discovering exact feed'}).catch(()=>{});};});
   document.querySelectorAll('[data-save-review]').forEach(el=>el.onclick=()=>saveReview(el.dataset.saveReview));
-  document.querySelectorAll('[data-scan-art]').forEach(el=>el.onclick=()=>scanArtworkKey(el.dataset.scanArt));
-  document.querySelectorAll('[data-clear-filter]').forEach(el=>el.onclick=()=>{const key=el.dataset.clearFilter;if(key==='years'){state.filters.yearFrom='';state.filters.yearTo='';}else if(key==='hideWatched')state.filters.hideWatched=false;else state.filters[key]='';state.visible=24;render();});
-  document.querySelectorAll('[data-wrestler-sort]').forEach(el=>el.onchange=()=>{state.wrestlerSort=el.value;state.visible=24;render();});
-  document.querySelectorAll('[data-plex-load-server]').forEach(el=>el.onclick=()=>loadPlexLibrariesForServer(el.dataset.plexLoadServer));
-  document.querySelectorAll('[data-plex-scan-server]').forEach(el=>el.onclick=()=>scanSelectedPlexServer(el.dataset.plexScanServer));
+  document.querySelectorAll('[data-scan-art]').forEach(el=>{const key=taskButtonKey(el);el.onclick=()=>runButtonTask(el,key,()=>scanArtworkKey(el.dataset.scanArt),{label:'Scanning artwork'}).catch(()=>{});});
+  document.querySelectorAll('[data-clear-filter]').forEach(el=>el.onclick=()=>{const key=el.dataset.clearFilter;if(key==='years'){state.filters.yearFrom='';state.filters.yearTo='';}else if(key==='hideWatched')state.filters.hideWatched=false;else state.filters[key]='';state.visible=24;renderViewOnly();});
+  document.querySelectorAll('[data-wrestler-sort]').forEach(el=>el.onchange=()=>{state.wrestlerSort=el.value;state.visible=24;renderViewOnly();});
+  document.querySelectorAll('[data-plex-load-server]').forEach(el=>{const key=taskButtonKey(el);el.onclick=()=>runButtonTask(el,key,()=>loadPlexLibrariesForServer(el.dataset.plexLoadServer),{label:'Loading Plex libraries'}).catch(()=>{});});
+  document.querySelectorAll('[data-plex-scan-server]').forEach(el=>{const key=taskButtonKey(el);el.onclick=()=>runButtonTask(el,key,()=>scanSelectedPlexServer(el.dataset.plexScanServer),{label:'Scanning selected libraries'}).catch(()=>{});});
   document.querySelectorAll('[data-plex-section]').forEach(el=>el.onchange=()=>{const serverId=el.dataset.plexSectionServer;const values=[...document.querySelectorAll('[data-plex-section]')].filter(input=>input.dataset.plexSectionServer===serverId&&input.checked).map(input=>String(input.dataset.plexSection));state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[serverId]:values};storage.savePlexData(state.plexData);});
-  document.querySelectorAll('[data-setting]').forEach(el=>el.onchange=()=>{let value=el.type==='checkbox'?el.checked:el.value;if(el.type==='number')value=Number(value);state.settings[el.dataset.setting]=value;storage.saveSettings(state.settings);refreshPlexIndex();scheduleCloudSync();render();});
-  document.querySelectorAll('[data-action]').forEach(el=>el.onclick=e=>handleAction(el.dataset.action,e));
+  document.querySelectorAll('[data-setting]').forEach(el=>el.onchange=()=>{let value=el.type==='checkbox'?el.checked:el.value;if(el.type==='number')value=Number(value);state.settings[el.dataset.setting]=value;storage.saveSettings(state.settings);refreshPlexIndex();scheduleCloudSync();if(!state.modal)renderViewOnly();});
+  document.querySelectorAll('[data-action]').forEach(el=>{
+    const action=el.dataset.action,key=taskButtonKey(el,action);
+    el.onclick=e=>{
+      if(ASYNC_ACTIONS.has(action))runButtonTask(el,key,()=>handleAction(action,e),{label:taskLabelFor(key)}).catch(()=>{});
+      else handleAction(action,e).catch?.(()=>{});
+    };
+  });
   document.querySelectorAll('img').forEach(img=>img.onerror=()=>{img.style.display='none';img.parentElement?.classList.remove('hasImage');});
-  const backdrop=document.querySelector('.modalBackdrop');if(backdrop)backdrop.onclick=e=>{if(e.target===backdrop){state.modal=null;render();}};
-  scheduleArtworkHydration();
+  const backdrop=document.querySelector('.modalBackdrop');if(backdrop)backdrop.onclick=e=>{if(e.target===backdrop)closeModalOnly();};
+  syncTaskButtons();scheduleArtworkHydration();
 }
 
 async function loadProgramme(id,forceLive=false){
-  const p=programme(id),mapped=state.feedMap[id]||p.tvMazeId; if(!mapped){showToast('No exact feed is mapped for this programme yet.');return;}
-  state.syncMessage=`Loading ${p.name}…`; render();
-  try { const feed=await loadTvMazeFeed(p,{forceLive,tvMazeId:mapped}); state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||''); state.loadedEpisodes.set(p.id,(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean)); invalidateRecordCache(); rebuildWrestlerIndex(); state.syncMessage=''; state.modal={type:'programme',id}; showToast(`${state.loadedEpisodes.get(id).length.toLocaleString()} exact episodes loaded for ${p.name}.`); }
-  catch(error){state.syncMessage='';showToast(error.message);} render();
+  const p=programme(id),mapped=state.feedMap[id]||p.tvMazeId;if(!mapped)throw new Error('No exact feed is mapped for this programme yet.');
+  const taskKey=`load-programme:${id}`;setOperationMessage('episodes',`Loading ${p.name}…`);updateTask(taskKey,{detail:p.name});
+  try{
+    const feed=await loadTvMazeFeed(p,{forceLive,tvMazeId:mapped});
+    state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||'');
+    const episodes=(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean);
+    state.loadedEpisodes.set(p.id,episodes);invalidateRecordCache();rebuildWrestlerIndex();
+    setOperationMessage('episodes',`${episodes.length.toLocaleString()} exact episodes loaded for ${p.name}.`);
+    updateTask(taskKey,{detail:`${episodes.length.toLocaleString()} episodes`,progress:100});
+    showToast(`${episodes.length.toLocaleString()} exact episodes loaded for ${p.name}.`);
+    renderViewOnly();if(state.modal?.type==='programme'&&state.modal.id===id)renderModalOnly();
+  }catch(error){setOperationMessage('episodes','');showToast(error.message);throw error;}
 }
 async function loadAllEpisodes(forceLive=false){
   if(state.autoEpisodeLoadStarted&&!forceLive)return;
   state.autoEpisodeLoadStarted=true;state.autoEpisodeLoadComplete=false;
-  const feeds=state.data.programmes.filter(p=>p.tvMazeId||state.feedMap[p.id]);
+  const taskKey='reload-all-episodes',feeds=state.data.programmes.filter(p=>p.tvMazeId||state.feedMap[p.id]);
   const queue=[...feeds];let done=0,totalEpisodes=0,lastPaint=0;
   const updateProgress=()=>{
-    state.syncMessage=`Loading exact weekly episodes: ${done}/${feeds.length} feeds • ${totalEpisodes.toLocaleString()} episodes`;
-    const node=document.querySelector('#episodeLoadStatus');if(node)node.textContent=state.syncMessage;
-    if(Date.now()-lastPaint>1800){lastPaint=Date.now();const counter=document.querySelector('.viewControls span');if(counter&&state.view==='exact')counter.textContent=`${totalEpisodes.toLocaleString()} exact weekly episodes loaded`;}
+    const percent=feeds.length?done/feeds.length*100:100;
+    const message=`Loading exact weekly episodes: ${done}/${feeds.length} feeds • ${totalEpisodes.toLocaleString()} episodes`;
+    setOperationMessage('episodes',message);updateTask(taskKey,{detail:`${done}/${feeds.length} feeds • ${totalEpisodes.toLocaleString()} episodes`,progress:percent});
+    if(Date.now()-lastPaint>1200){lastPaint=Date.now();const counter=document.querySelector('.viewControls span');if(counter&&state.view==='exact')counter.textContent=`${totalEpisodes.toLocaleString()} exact weekly episodes loaded`;}
   };
+  updateProgress();
   const worker=async()=>{while(queue.length){
     const p=queue.shift();
     try{
@@ -832,19 +1030,32 @@ async function loadAllEpisodes(forceLive=false){
   }};
   await Promise.all(Array.from({length:Math.min(2,feeds.length)},worker));
   rebuildWrestlerIndex();state.autoEpisodeLoadComplete=true;
-  state.syncMessage=`Loaded ${totalEpisodes.toLocaleString()} exact episodes from ${feeds.length} verified feeds.`;
-  scheduleRender();setTimeout(()=>{if(state.autoEpisodeLoadComplete){state.syncMessage='';scheduleRender();}},4000);
+  const complete=`Loaded ${totalEpisodes.toLocaleString()} exact episodes from ${feeds.length} verified feeds.`;
+  setOperationMessage('episodes',complete);updateTask(taskKey,{detail:complete,progress:100});renderViewOnly();if(state.modal?.type==='programme')renderModalOnly();
+  setTimeout(()=>{if(state.autoEpisodeLoadComplete)setOperationMessage('episodes','');},4000);
 }
 
 async function discoverProgramme(id){
-  const p=programme(id);state.syncMessage=`Searching for an exact episode feed for ${p.name}…`;render();
-  try{const match=await discoverTvMazeId(p);if(!match)throw new Error('No exact-title TVMaze feed was found.');state.feedMap[p.id]=match.tvMazeId;storage.saveFeedMap(state.feedMap);showToast(`Mapped ${p.name} to TVMaze show ${match.tvMazeId}.`);await loadProgramme(id);}catch(error){state.syncMessage='';showToast(error.message);render();}
+  const p=programme(id),taskKey=`discover-programme:${id}`;
+  setOperationMessage('episodes',`Searching for an exact episode feed for ${p.name}…`);updateTask(taskKey,{detail:p.name});
+  try{
+    const match=await discoverTvMazeId(p);if(!match)throw new Error('No exact-title TVMaze feed was found.');
+    state.feedMap[p.id]=match.tvMazeId;storage.saveFeedMap(state.feedMap);showToast(`Mapped ${p.name} to TVMaze show ${match.tvMazeId}.`);
+    await loadProgramme(id);
+  }catch(error){setOperationMessage('episodes','');showToast(error.message);throw error;}
 }
 async function discoverMoreFeeds(){
   const candidates=state.data.programmes.filter(p=>!p.tvMazeId&&!state.feedMap[p.id]&&['weekly','territory-tv','studio','streaming'].includes(p.kind));
-  let mapped=0,checked=0;state.syncMessage=`Discovering additional exact feeds: 0/${candidates.length}`;render();
-  for(const p of candidates){try{const match=await discoverTvMazeId(p);if(match){state.feedMap[p.id]=match.tvMazeId;mapped++;await loadProgrammeQuiet(p,match.tvMazeId);}}catch{}checked++;state.syncMessage=`Discovering additional exact feeds: ${checked}/${candidates.length} • ${mapped} exact matches`;if(checked%5===0)render();await new Promise(r=>setTimeout(r,550));}
-  storage.saveFeedMap(state.feedMap);rebuildWrestlerIndex();state.syncMessage=`Discovery complete: ${mapped} new exact-title feeds mapped.`;state.autoEpisodeLoadComplete=true;render();showToast(state.syncMessage);
+  const taskKey='discover-feeds';let mapped=0,checked=0;
+  setOperationMessage('episodes',`Discovering additional exact feeds: 0/${candidates.length}`);
+  for(const p of candidates){
+    try{const match=await discoverTvMazeId(p);if(match){state.feedMap[p.id]=match.tvMazeId;mapped++;await loadProgrammeQuiet(p,match.tvMazeId);}}catch{}
+    checked++;const message=`Discovering additional exact feeds: ${checked}/${candidates.length} • ${mapped} exact matches`;
+    setOperationMessage('episodes',message);updateTask(taskKey,{detail:message,progress:candidates.length?checked/candidates.length*100:100});
+    await new Promise(r=>setTimeout(r,350));
+  }
+  storage.saveFeedMap(state.feedMap);rebuildWrestlerIndex();state.autoEpisodeLoadComplete=true;
+  const complete=`Discovery complete: ${mapped} new exact-title feeds mapped.`;setOperationMessage('episodes',complete);showToast(complete);renderViewOnly();
 }
 async function loadProgrammeQuiet(p,id){try{const feed=await loadTvMazeFeed(p,{tvMazeId:id});state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||'');state.loadedEpisodes.set(p.id,(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean));invalidateRecordCache();}catch(error){console.warn(error);}}
 
@@ -860,48 +1071,64 @@ async function handleCloudAuth(action){
       const next=document.querySelector('#accountNewPassword')?.value||'',confirmPassword=document.querySelector('#accountConfirmPassword')?.value||'';
       if(next.length<8)throw new Error('Use a password of at least 8 characters.');
       if(next!==confirmPassword)throw new Error('The passwords do not match.');
-      state.cloud.message='Updating password…';render();await updateCloudPassword(next);state.cloud.recovery=false;await finishAccountLogin();state.modal={type:'account'};showToast('Password updated successfully.');return;
+      state.cloud.message='Updating password…';setOperationMessage('cloud',state.cloud.message);await updateCloudPassword(next);state.cloud.recovery=false;await finishAccountLogin();state.modal={type:'account'};showToast('Password updated successfully.');return;
     }
-    if(action==='cloud-signin'){if(!email||!password)throw new Error('Enter your email and password.');state.cloud.message='Signing in…';render();await signInCloud(email,password);await finishAccountLogin();showToast('Ringside account connected.');}
-    if(action==='cloud-signup'){if(!email||password.length<8)throw new Error('Enter an email and a password of at least 8 characters.');state.cloud.message='Creating account…';render();const result=await signUpCloud(email,password);if(result.session){await finishAccountLogin();showToast('Ringside account created.');}else{state.cloud.message='Account created. Confirm the email, then sign in.';render();}}
-    if(action==='cloud-reset'){if(!email)throw new Error('Enter your email first.');await sendPasswordReset(email);state.cloud.message='Password-reset email sent.';render();}
-  }catch(error){state.cloud.message=error.message;showToast(error.message);render();}
+    if(action==='cloud-signin'){if(!email||!password)throw new Error('Enter your email and password.');state.cloud.message='Signing in…';setOperationMessage('cloud',state.cloud.message);await signInCloud(email,password);await finishAccountLogin();showToast('Ringside account connected.');}
+    if(action==='cloud-signup'){if(!email||password.length<8)throw new Error('Enter an email and a password of at least 8 characters.');state.cloud.message='Creating account…';setOperationMessage('cloud',state.cloud.message);const result=await signUpCloud(email,password);if(result.session){await finishAccountLogin();showToast('Ringside account created.');}else{state.cloud.message='Account created. Confirm the email, then sign in.';setOperationMessage('cloud',state.cloud.message);}}
+    if(action==='cloud-reset'){if(!email)throw new Error('Enter your email first.');await sendPasswordReset(email);state.cloud.message='Password-reset email sent.';setOperationMessage('cloud',state.cloud.message);}
+  }catch(error){state.cloud.message=error.message;setOperationMessage('cloud',state.cloud.message);showToast(error.message);throw error;}
 }
 
 async function handleAction(action,event){
   event?.stopPropagation();
-  if(action==='account'){state.modal={type:'account'};render();return;}
+  if(action==='account'){state.modal={type:'account'};renderModalOnly();return;}
   if(action==='cloud-signin'||action==='cloud-signup'||action==='cloud-reset'||action==='cloud-update-password'){await handleCloudAuth(action);return;}
   if(action==='cloud-sync'){await syncCloudNow();return;}
-  if(action==='cloud-signout'){await signOutCloud();state.cloud.user=null;state.cloud.message='Signed out. Local cached data remains on this device.';state.modal={type:'account'};render();return;}
-  if(action==='toggle-filters'){state.filtersOpen=!state.filtersOpen;render();return;}
-  if(action==='reset-filters'){state.filters=defaultFilters();state.visible=24;state.filtersOpen=true;render();return;}
-  if(action==='load-more'){state.visible+=50;render();return;}
-  if(action==='clear-wrestler'){state.filters.wrestler='';state.visible=24;render();return;}
-  if(action==='connections'){state.modal={type:'connections'};render();return;}
-  if(action==='close-modal'){state.modal=null;render();return;}
-  if(action==='dismiss-toast'){state.toast='';render();return;}
+  if(action==='cloud-signout'){await signOutCloud();state.cloud.user=null;state.cloud.message='Signed out. Local cached data remains on this device.';state.modal={type:'account'};renderViewOnly();renderModalOnly();return;}
+  if(action==='toggle-filters'){state.filtersOpen=!state.filtersOpen;renderViewOnly();return;}
+  if(action==='reset-filters'){state.filters=defaultFilters();state.visible=24;state.filtersOpen=true;renderViewOnly();return;}
+  if(action==='load-more'){state.visible+=50;renderViewOnly();return;}
+  if(action==='clear-wrestler'){state.filters.wrestler='';state.visible=24;renderViewOnly();return;}
+  if(action==='connections'){state.modal={type:'connections'};renderModalOnly();return;}
+  if(action==='close-modal'){closeModalOnly();return;}
+  if(action==='dismiss-toast'){state.toast='';document.querySelector('.toast')?.remove();return;}
   if(action==='export'){downloadJson(`ringside-archive-backup-${new Date().toISOString().slice(0,10)}.json`,storage.exportAll());showToast('Backup exported.');return;}
   if(action==='import-backup'){pickFile('backup');return;}
   if(action==='plex-import'){pickFile('plex');return;}
-  if(action==='clear-progress'&&confirm('Clear all local viewing progress?')){storage.clearProgress();state.statuses={};render();return;}
+  if(action==='clear-progress'&&confirm('Clear all local viewing progress?')){storage.clearProgress();state.statuses={};renderViewOnly();return;}
   if(action==='reload-all-episodes'){state.autoEpisodeLoadStarted=false;await loadAllEpisodes(true);return;}
   if(action==='discover-feeds'){await discoverMoreFeeds();return;}
-  if(action==='refresh-integration-config'){state.cloud.config=await loadCloudConfig(true);showToast('Integration configuration refreshed.');render();return;}
+  if(action==='refresh-integration-config'){state.cloud.config=await loadCloudConfig(true);showToast('Integration configuration refreshed.');renderModalOnly();return;}
   if(action==='trakt-connect'){await startTraktDevice();return;}
   if(action==='trakt-copy-code'){if(state.traktDevice?.userCode){await navigator.clipboard?.writeText(state.traktDevice.userCode).catch(()=>{});showToast('Trakt code copied.');}return;}
-  if(action==='trakt-cancel'){state.traktDevice=null;state.traktPolling=false;state.traktMessage='Trakt connection cancelled.';render();return;}
+  if(action==='trakt-cancel'){state.traktDevice=null;state.traktPolling=false;state.traktMessage='Trakt connection cancelled.';renderModalOnly();return;}
   if(action==='trakt-sync'){await syncTraktHistory();return;}
-  if(action==='trakt-disconnect'){if(accountConnected())await deleteCloudIntegration('trakt').catch(()=>{});storage.clearTrakt();state.trakt={};state.traktMessage='Disconnected.';render();return;}
+  if(action==='trakt-disconnect'){if(accountConnected())await deleteCloudIntegration('trakt').catch(()=>{});storage.clearTrakt();state.trakt={};state.traktMessage='Disconnected.';renderModalOnly();return;}
   if(action==='plex-connect'){await startPlexConnection();return;}
   if(action==='plex-refresh-servers'){await refreshPlexServers();return;}
-  if(action==='plex-disconnect'){if(accountConnected())await deleteCloudIntegration('plex').catch(()=>{});storage.clearPlex();state.plexData=storage.plexData();refreshPlexIndex();state.plexMessage='Disconnected.';render();return;}
+  if(action==='plex-disconnect'){if(accountConnected())await deleteCloudIntegration('plex').catch(()=>{});storage.clearPlex();state.plexData=storage.plexData();refreshPlexIndex();state.plexMessage='Disconnected.';renderModalOnly();renderViewOnly();return;}
   if(action==='plex-import-viewing'){await importPlexViewingProgress();return;}
   if(action==='scan-visible-artwork'){await scanVisibleArtwork();return;}
 }
-function pickFile(mode){filePicker.value='';filePicker.dataset.mode=mode;filePicker.accept='.json,application/json,text/plain';filePicker.click();}
-filePicker.onchange=async()=>{const file=filePicker.files?.[0];if(!file)return;try{const text=await file.text();if(filePicker.dataset.mode==='plex'&&/[?&]X-Plex-Token=/i.test(text))throw new Error('Unsafe legacy Plex export detected. It contains a Plex token in image URLs. Rotate that token, then create a new version 3 export with the included script.');const data=JSON.parse(text);if(filePicker.dataset.mode==='backup'){storage.importAll(data);state.statuses=storage.statuses();state.plexData=storage.plexData();state.trakt=storage.trakt();state.artworkCache=storage.artwork();state.reviews=storage.reviews();state.feedMap=storage.feedMap();refreshPlexIndex();if(accountConnected()){await loadAccountIntegrations({migrate:true});scheduleCloudSync();}showToast('Backup imported.');}
-else {await importPlexPayload(data);}render();}catch(error){showToast(error.message||'Import failed.');}};
+
+function pickFile(mode){filePicker.value='';filePicker.dataset.mode=mode;filePicker.dataset.taskKey=mode==='plex'?'plex-import':'import-backup';filePicker.accept='.json,application/json,text/plain';filePicker.click();}
+filePicker.onchange=async()=>{
+  const file=filePicker.files?.[0];if(!file)return;
+  const mode=filePicker.dataset.mode||'file',taskKey=filePicker.dataset.taskKey||`import-${mode}`;
+  state.tasks.set(taskKey,{key:taskKey,status:'running',label:mode==='plex'?'Importing Plex export':'Importing backup',buttonLabel:'Importing',detail:file.name,progress:null,startedAt:Date.now()});syncTaskButtons();
+  try{
+    const text=await file.text();
+    if(mode==='plex'&&/[?&]X-Plex-Token=/i.test(text))throw new Error('Unsafe legacy Plex export detected. It contains a Plex token in image URLs. Rotate that token, then create a new version 3 export with the included script.');
+    const data=JSON.parse(text);
+    if(mode==='backup'){
+      storage.importAll(data);state.statuses=storage.statuses();state.plexData=storage.plexData();state.trakt=storage.trakt();state.artworkCache=storage.artwork();state.reviews=storage.reviews();state.feedMap=storage.feedMap();refreshPlexIndex();
+      if(accountConnected()){await loadAccountIntegrations({migrate:true});scheduleCloudSync();}showToast('Backup imported.');
+    }else await importPlexPayload(data);
+    renderViewOnly();if(state.modal)renderModalOnly();
+  }catch(error){showToast(error.message||'Import failed.');}
+  finally{state.tasks.delete(taskKey);syncTaskButtons();}
+};
+
 async function importPlexPayload(data){
   const rawItems=Array.isArray(data)?data:(data.titles||data.items||[]);
   const items=rawItems.filter(item=>item&&(item.title||item.grandparentTitle||item.ratingKey));
@@ -919,41 +1146,33 @@ async function importPlexPayload(data){
 
 async function startTraktDevice(){
   if(state.traktPolling)return;
-  const pollToken=`${Date.now()}-${Math.random()}`;
-  state.traktPolling=pollToken;
-  try {
+  const pollToken=`${Date.now()}-${Math.random()}`;state.traktPolling=pollToken;
+  try{
     state.cloud.config=await loadCloudConfig(true);
     if(!state.cloud.config?.traktConfigured){
-      const diag=state.cloud.config?.diagnostics||{};
-      const missing=[!diag.traktClientId&&'TRAKT_CLIENT_ID',!diag.traktClientSecret&&'TRAKT_CLIENT_SECRET'].filter(Boolean);
+      const diag=state.cloud.config?.diagnostics||{},missing=[!diag.traktClientId&&'TRAKT_CLIENT_ID',!diag.traktClientSecret&&'TRAKT_CLIENT_SECRET'].filter(Boolean);
       throw new Error(`Trakt is not configured on this Vercel deployment${missing.length?`: add ${missing.join(' and ')}`:''}, then redeploy.`);
     }
-    state.modal={type:'connections'};
-    state.traktMessage='Requesting a Trakt device code…';scheduleRender();
+    state.modal={type:'connections'};state.traktMessage='Requesting a Trakt device code…';setOperationMessage('trakt',state.traktMessage);renderModalOnly();
     const response=await fetch('./api/trakt/device',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'code'}),cache:'no-store'});
     const data=await apiJson(response,'Unable to create a Trakt device code.');
-    const verificationUrl=data.verification_url||'https://trakt.tv/activate';
-    const expiresAt=Date.now()+Number(data.expires_in||600)*1000;
+    const verificationUrl=data.verification_url||'https://trakt.tv/activate',expiresAt=Date.now()+Number(data.expires_in||600)*1000;
     state.traktDevice={userCode:data.user_code,deviceCode:data.device_code,verificationUrl,expiresAt,interval:Math.max(3,Number(data.interval||5)),status:'Waiting for authorization',pollToken};
-    state.traktPolling=true;state.traktMessage='Enter the displayed code on Trakt.';scheduleRender();
+    state.traktMessage='Enter the displayed code on Trakt.';renderModalOnly();updateTask('trakt-connect',{buttonLabel:'Waiting for Trakt',detail:`Code ${data.user_code}`});
     const countdown=setInterval(updateTraktCountdown,1000);
     try{
       while(state.traktDevice?.pollToken===pollToken&&Date.now()<expiresAt){
-        await new Promise(r=>setTimeout(r,state.traktDevice.interval*1000));
-        if(state.traktDevice?.pollToken!==pollToken)break;
-        const headers=await accountHeaders({'Content-Type':'application/json'});
-        const tokenResponse=await fetch('./api/trakt/device',{method:'POST',headers,body:JSON.stringify({action:'token',device_code:data.device_code}),cache:'no-store'});
+        await new Promise(r=>setTimeout(r,state.traktDevice.interval*1000));if(state.traktDevice?.pollToken!==pollToken)break;
+        const headers=await accountHeaders({'Content-Type':'application/json'}),tokenResponse=await fetch('./api/trakt/device',{method:'POST',headers,body:JSON.stringify({action:'token',device_code:data.device_code}),cache:'no-store'});
         if(tokenResponse.status===202){updateTraktCountdown();continue;}
         const token=await apiJson(tokenResponse,'Trakt authorization failed.');
-        if(token.cloud)state.trakt={cloudConnected:true,cloud:true,account:token.integration?.account||null,expiresAt:token.integration?.expiresAt||null};
-        else state.trakt={...state.trakt,...token};
-        storage.saveTrakt(state.trakt);
-        state.traktDevice=null;state.traktMessage=token.warning||(accountConnected()?'Trakt connected to your Ringside account on every device.':'Trakt connected in this browser.');
-        showToast(state.traktMessage);scheduleRender();return;
+        if(token.cloud)state.trakt={cloudConnected:true,cloud:true,account:token.integration?.account||null,expiresAt:token.integration?.expiresAt||null};else state.trakt={...state.trakt,...token};
+        storage.saveTrakt(state.trakt);state.traktDevice=null;state.traktMessage=token.warning||(accountConnected()?'Trakt connected to your Ringside account on every device.':'Trakt connected in this browser.');
+        showToast(state.traktMessage);patchConnectionIndicators();renderModalOnly();renderViewOnly();return;
       }
       if(state.traktDevice?.pollToken===pollToken)throw new Error('The Trakt device code expired. Start the connection again.');
     }finally{clearInterval(countdown);}
-  }catch(error){state.traktDevice=null;state.traktMessage=error.message;showToast(error.message);scheduleRender();}
+  }catch(error){state.traktDevice=null;state.traktMessage=error.message;showToast(error.message);renderModalOnly();throw error;}
   finally{if(state.traktPolling===pollToken)state.traktPolling=false;}
 }
 
@@ -977,63 +1196,68 @@ async function syncStatusToTrakt(item,status){
   await apiJson(response,'Trakt update failed.');
 }
 async function syncTraktHistory(){
-  try {
+  try{
     if(!traktConnected())throw new Error('Connect Trakt before importing watched history.');
-    state.traktMessage='Importing watched episodes and events from Trakt…';render();
+    state.traktMessage='Importing watched episodes and events from Trakt…';setOperationMessage('trakt',state.traktMessage);
     const headers=await traktRequestHeaders(false),response=await fetch('./api/trakt/history',{headers,cache:'no-store'}),data=await apiJson(response,'Trakt sync failed.');
     if(!state.autoEpisodeLoadComplete)await loadAllEpisodes(false);
     let matched=0;const changed=[];
     for(const show of data.shows||[]){const title=normalize(show.title);const p=state.data.programmes.find(program=>normalize(program.traktTitle||program.name)===title||program.aliases?.some(alias=>normalize(alias)===title));if(!p)continue;for(const season of show.seasons||[])for(const episode of season.episodes||[]){const key=`episode:${p.id}:${season.number}:${episode.number}`;if(state.statuses[key]!=='watched'){state.statuses[key]='watched';changed.push(key);}matched++;}}
     for(const movie of data.movies||[]){const title=normalize(movie.title),event=state.data.majorEvents.find(e=>normalize(e.traktTitle||e.title)===title&&(!movie.year||yearOf(e.date)===movie.year));if(event){const key=`event:${event.id}`;if(state.statuses[key]!=='watched'){state.statuses[key]='watched';changed.push(key);}matched++;}}
-    storage.saveStatusesBulk(state.statuses,changed);scheduleCloudSync();state.traktMessage=`Imported ${matched.toLocaleString()} matching episodes/events from Trakt.`;showToast(state.traktMessage);render();
-  }catch(error){state.traktMessage=error.message;showToast(error.message);render();}
+    storage.saveStatusesBulk(state.statuses,changed);scheduleCloudSync();state.traktMessage=`Imported ${matched.toLocaleString()} matching episodes/events from Trakt.`;setOperationMessage('trakt',state.traktMessage);showToast(state.traktMessage);renderViewOnly();renderModalOnly();
+  }catch(error){state.traktMessage=error.message;setOperationMessage('trakt',state.traktMessage);showToast(error.message);throw error;}
 }
 
 async function startPlexConnection(){
   try{
-    const clientId=state.plexData.clientId||makeClientId();state.plexData.clientId=clientId;storage.savePlexData(state.plexData);state.plexMessage='Starting Plex sign-in…';render();
-    const headers=await accountHeaders(),pin=await createPlexPin(clientId,headers);state.plexPin=pin;window.open(pin.authUrl,'_blank','noopener');state.plexMessage='Complete sign-in in the Plex window. Waiting for approval…';render();const started=Date.now();
-    while(Date.now()-started<10*60*1000){await new Promise(r=>setTimeout(r,2000));const result=await pollPlexPin(clientId,pin.id,headers);if(!result.authToken&&!result.connected)continue;if(result.cloud){state.plexData={...state.plexData,cloudConnected:true,token:null};}else state.plexData.token=result.authToken;storage.savePlexData(state.plexData);await refreshPlexServers();showToast(accountConnected()?'Plex connected to your Ringside account.':'Plex connected in this browser.');return;}
+    const clientId=state.plexData.clientId||makeClientId();state.plexData.clientId=clientId;storage.savePlexData(state.plexData);
+    state.plexMessage='Starting Plex sign-in…';setOperationMessage('plex',state.plexMessage);
+    const headers=await accountHeaders(),pin=await createPlexPin(clientId,headers);state.plexPin=pin;window.open(pin.authUrl,'_blank','noopener');
+    state.plexMessage='Complete sign-in in the Plex window. Waiting for approval…';setOperationMessage('plex',state.plexMessage);updateTask('plex-connect',{buttonLabel:'Waiting for Plex',detail:'Approve the Plex browser window'});
+    const started=Date.now();
+    while(Date.now()-started<10*60*1000){
+      await new Promise(r=>setTimeout(r,2000));const result=await pollPlexPin(clientId,pin.id,headers);if(!result.authToken&&!result.connected)continue;
+      if(result.cloud)state.plexData={...state.plexData,cloudConnected:true,token:null};else state.plexData.token=result.authToken;
+      storage.savePlexData(state.plexData);await refreshPlexServers();showToast(accountConnected()?'Plex connected to your Ringside account.':'Plex connected in this browser.');patchConnectionIndicators();renderViewOnly();return;
+    }
     throw new Error('Plex sign-in expired.');
-  }catch(error){state.plexMessage=error.message;showToast(error.message);render();}
+  }catch(error){state.plexMessage=error.message;setOperationMessage('plex',state.plexMessage);showToast(error.message);throw error;}
 }
 async function refreshPlexServers(){
   try{
-    state.plexMessage='Loading Plex servers…';render();const headers=await accountHeaders();
+    state.plexMessage='Loading Plex servers…';setOperationMessage('plex',state.plexMessage);const headers=await accountHeaders();
     const data=await loadPlexResources(state.plexData.clientId,state.plexData.token,headers);
     state.plexData.servers=data.servers||[];state.plexData.account=data.account||null;if(data.cloud)state.plexData.cloudConnected=true;
-    storage.savePlexData(state.plexData);state.plexMessage=`Found ${state.plexData.servers.length} Plex server(s). Load libraries for the server you want to scan.`;render();
-  }catch(error){state.plexMessage=error.message;showToast(error.message);render();}
+    storage.savePlexData(state.plexData);state.plexMessage=`Found ${state.plexData.servers.length} Plex server(s). Load libraries for the server you want to scan.`;renderModalOnly();patchConnectionIndicators();
+  }catch(error){state.plexMessage=error.message;setOperationMessage('plex',state.plexMessage);showToast(error.message);throw error;}
 }
 async function loadPlexLibrariesForServer(machineIdentifier){
   const server=state.plexData.servers.find(x=>x.machineIdentifier===machineIdentifier);if(!server)return;
+  const taskKey=`plex-libraries:${machineIdentifier}`;
   try{
-    state.plexMessage=`Testing secure connections for ${server.name}…`;render();const headers=await accountHeaders();
+    state.plexMessage=`Testing secure connections for ${server.name}…`;setOperationMessage('plex',state.plexMessage);updateTask(taskKey,{detail:server.name});const headers=await accountHeaders();
     const data=await listPlexLibraries(state.plexData.clientId,state.plexData.token,server,headers);
     state.plexData.sectionsByServer={...(state.plexData.sectionsByServer||{}),[machineIdentifier]:data.sections||[]};
-    const existing=state.plexData.selectedSectionKeysByServer?.[machineIdentifier];
-    if(!Array.isArray(existing)||!existing.length){state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[machineIdentifier]:suggestedPlexSections(data.sections||[])};}
-    if(data.server)state.plexData.selectedServer=data.server;
-    storage.savePlexData(state.plexData);
-    state.plexMessage=`Connected to ${server.name}. Found ${(data.sections||[]).length} scannable libraries.`;render();
-  }catch(error){state.plexMessage=error.message;showToast(error.message);render();}
+    const existing=state.plexData.selectedSectionKeysByServer?.[machineIdentifier];if(!Array.isArray(existing)||!existing.length)state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[machineIdentifier]:suggestedPlexSections(data.sections||[])};
+    if(data.server)state.plexData.selectedServer=data.server;storage.savePlexData(state.plexData);
+    state.plexMessage=`Connected to ${server.name}. Found ${(data.sections||[]).length} scannable libraries.`;updateTask(taskKey,{detail:state.plexMessage,progress:100});renderModalOnly();
+  }catch(error){state.plexMessage=error.message;setOperationMessage('plex',state.plexMessage);showToast(error.message);throw error;}
 }
 async function scanSelectedPlexServer(machineIdentifier){
   const server=state.plexData.servers.find(x=>x.machineIdentifier===machineIdentifier);if(!server)return;
+  const taskKey=`plex-scan:${machineIdentifier}`;
   try{
     if(!plexSectionsFor(server).length)await loadPlexLibrariesForServer(machineIdentifier);
     const selected=selectedPlexSectionsFor(server);if(!selected.length)throw new Error('Select at least one Plex library.');
     const sectionNames=plexSectionsFor(server).filter(section=>selected.includes(String(section.key))).map(section=>section.title);
-    state.plexMessage=`Scanning ${server.name}: ${sectionNames.join(', ')||'selected libraries'}…`;render();const headers=await accountHeaders();
-    const data=await scanPlexLibrary(state.plexData.clientId,state.plexData.token,server,selected,headers);
-    const rawItems=data.items||[];const built=buildPlexMatches(state.data,rawItems,Number(state.settings.plexWatchedThreshold||0.9));state.plexData.items=matchedPlexItems(built);state.plexData.matches=[...built.matches];state.plexData.selectedServer=data.server||server;state.plexData.scannedAt=data.scannedAt||new Date().toISOString();state.plexData.sections=data.sections||plexSectionsFor(server);state.plexData.selectedSectionKeys=selected;if(data.cloud)state.plexData.cloudConnected=true;
-    state.plexData.sectionsByServer={...(state.plexData.sectionsByServer||{}),[machineIdentifier]:data.sections||plexSectionsFor(server)};
-    state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[machineIdentifier]:selected};
-    state.plexData=storage.savePlexData(state.plexData);refreshPlexIndex();
-    if(accountConnected())await saveCloudIntegration('plex',state.plexData).catch(error=>{state.plexMessage=`Plex scan matched locally, but the account snapshot failed: ${error.message}`;});
+    state.plexMessage=`Scanning ${server.name}: ${sectionNames.join(', ')||'selected libraries'}…`;setOperationMessage('plex',state.plexMessage);updateTask(taskKey,{detail:sectionNames.join(', ')||server.name,progress:15});
+    const headers=await accountHeaders(),data=await scanPlexLibrary(state.plexData.clientId,state.plexData.token,server,selected,headers);updateTask(taskKey,{detail:'Matching Plex records to the archive',progress:75});
+    const rawItems=data.items||[],built=buildPlexMatches(state.data,rawItems,Number(state.settings.plexWatchedThreshold||0.9));state.plexData.items=matchedPlexItems(built);state.plexData.matches=[...built.matches];state.plexData.selectedServer=data.server||server;state.plexData.scannedAt=data.scannedAt||new Date().toISOString();state.plexData.sections=data.sections||plexSectionsFor(server);state.plexData.selectedSectionKeys=selected;if(data.cloud)state.plexData.cloudConnected=true;
+    state.plexData.sectionsByServer={...(state.plexData.sectionsByServer||{}),[machineIdentifier]:data.sections||plexSectionsFor(server)};state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[machineIdentifier]:selected};
+    state.plexData=storage.savePlexData(state.plexData);refreshPlexIndex();if(accountConnected())await saveCloudIntegration('plex',state.plexData).catch(error=>{state.plexMessage=`Plex scan matched locally, but the account snapshot failed: ${error.message}`;});
     state.plexMessage=`Scanned ${rawItems.length.toLocaleString()} Plex items from ${sectionNames.join(', ')||'selected libraries'}; retained ${state.plexData.items.length.toLocaleString()} matched items and ${state.plexMatches.size.toLocaleString()} archive keys.`;
-    if(state.settings.autoImportPlexViewing)await importPlexViewingProgress({quiet:true});showToast(state.plexMessage);render();
-  }catch(error){state.plexMessage=error.message;showToast(error.message);render();}
+    updateTask(taskKey,{detail:state.plexMessage,progress:100});if(state.settings.autoImportPlexViewing)await importPlexViewingProgress({quiet:true});showToast(state.plexMessage);renderViewOnly();renderModalOnly();
+  }catch(error){state.plexMessage=error.message;setOperationMessage('plex',state.plexMessage);showToast(error.message);throw error;}
 }
 async function syncStatusToPlex(item,status){
   const plex=plexItemFor(item);if(!plex?.ratingKey)return;
@@ -1042,17 +1266,15 @@ async function syncStatusToPlex(item,status){
 }
 async function importPlexViewingProgress({quiet=false}={}){
   try{
+    state.plexMessage='Importing Plex watched and in-progress states…';if(!quiet)setOperationMessage('plex',state.plexMessage);
     if(!state.autoEpisodeLoadComplete)await loadAllEpisodes(false);refreshPlexIndex();
     const changed=[],traktQueue=[];let watched=0,watching=0;
-    for(const [key,view] of state.plexViewing){
-      const target=view.watched?'watched':view.progress>0?'watching':null;if(!target||state.statuses[key]===target)continue;
-      state.statuses[key]=target;changed.push(key);if(target==='watched'){watched++;const item=recordByKey(key);if(item&&state.settings.syncPlexWatchedToTrakt&&traktConnected())traktQueue.push(item);}else watching++;
-    }
+    for(const [key,view] of state.plexViewing){const target=view.watched?'watched':view.progress>0?'watching':null;if(!target||state.statuses[key]===target)continue;state.statuses[key]=target;changed.push(key);if(target==='watched'){watched++;const item=recordByKey(key);if(item&&state.settings.syncPlexWatchedToTrakt&&traktConnected())traktQueue.push(item);}else watching++;}
     storage.saveStatusesBulk(state.statuses,changed);scheduleCloudSync();
-    for(const item of traktQueue.slice(0,250)){try{await syncStatusToTrakt(item,'watched');}catch{}await new Promise(r=>setTimeout(r,120));}
+    for(let index=0;index<Math.min(250,traktQueue.length);index++){const item=traktQueue[index];try{await syncStatusToTrakt(item,'watched');}catch{}updateTask('plex-import-viewing',{detail:`Forwarding ${index+1}/${Math.min(250,traktQueue.length)} to Trakt`,progress:traktQueue.length?(index+1)/Math.min(250,traktQueue.length)*100:100});await new Promise(r=>setTimeout(r,120));}
     state.plexMessage=`Imported ${watched} watched and ${watching} in-progress Plex matches${traktQueue.length?`; forwarded ${Math.min(250,traktQueue.length)} to Trakt`:''}.`;
-    if(!quiet)showToast(state.plexMessage);render();
-  }catch(error){state.plexMessage=error.message;if(!quiet)showToast(error.message);render();}
+    if(!quiet){setOperationMessage('plex',state.plexMessage);showToast(state.plexMessage);renderViewOnly();renderModalOnly();}
+  }catch(error){state.plexMessage=error.message;if(!quiet){setOperationMessage('plex',state.plexMessage);showToast(error.message);}throw error;}
 }
 
 function artworkEntryForKey(key){
@@ -1089,16 +1311,16 @@ function currentArtworkEntries(){
 }
 
 async function storeArtworkBatch(entries,{showProgress=false}={}){
-  if(!entries.length)return {found:0};
-  const payload=await searchArtworkBatch(entries);let found=0;
+  if(!entries.length)return {found:0,keys:[]};
+  const payload=await searchArtworkBatch(entries);let found=0;const keys=[];
   for(const row of payload.results||[]){
-    const key=String(row.key||'');if(!key)continue;
+    const key=String(row.key||'');if(!key)continue;keys.push(key);
     if(row.result&&!row.result.error){state.artworkCache[key]={...row.result,scannedAt:new Date().toISOString()};found++;}
     else state.artworkCache[key]={error:row.result?.error||'No artwork match',notFoundUntil:new Date(Date.now()+7*24*60*60*1000).toISOString(),scannedAt:new Date().toISOString()};
   }
   storage.saveArtwork(state.artworkCache);
   if(showProgress)state.artworkMessage=`Artwork scan: ${found} matches from ${entries.length} requests.`;
-  return {found};
+  return {found,keys};
 }
 function scheduleArtworkHydration(){
   clearTimeout(state.autoArtworkTimer);
@@ -1106,21 +1328,23 @@ function scheduleArtworkHydration(){
   state.autoArtworkTimer=setTimeout(async()=>{
     const entries=currentArtworkEntries().slice(0,4);if(!entries.length)return;
     state.autoArtworkRunning=true;
-    try{await storeArtworkBatch(entries);}catch(error){console.warn('Background artwork scan:',error.message);}finally{state.autoArtworkRunning=false;}
+    try{const result=await storeArtworkBatch(entries);patchArtworkElements(result.keys);}catch(error){console.warn('Background artwork scan:',error.message);}finally{state.autoArtworkRunning=false;}
   },2400);
 }
 async function scanArtworkKey(key){
   const entry=artworkEntryForKey(key);if(!entry)return;
+  const taskKey=`scan-art:${key}`,title=entry.item.title||entry.item.name;
   try{
-    state.artworkMessage=`Scanning artwork for ${entry.item.title||entry.item.name}…`;render();
-    const result=await searchArtwork(entry.item,entry.programme,entry.extra);
-    state.artworkCache[key]={...result,scannedAt:new Date().toISOString()};storage.saveArtwork(state.artworkCache);
-    state.artworkMessage=`Artwork found for ${entry.item.title||entry.item.name}.`;showToast(state.artworkMessage);render();
-  }catch(error){state.artworkCache[key]={error:error.message,notFoundUntil:new Date(Date.now()+24*60*60*1000).toISOString()};storage.saveArtwork(state.artworkCache);state.artworkMessage=error.message;showToast(error.message);render();}
+    state.artworkMessage=`Scanning artwork for ${title}…`;setOperationMessage('artwork',state.artworkMessage);updateTask(taskKey,{detail:'Searching verified artwork sources',progress:15});
+    const result=await searchArtwork(entry.item,entry.programme,entry.extra);updateTask(taskKey,{detail:'Applying artwork',progress:85});
+    state.artworkCache[key]={...result,scannedAt:new Date().toISOString()};storage.saveArtwork(state.artworkCache);patchArtworkElements([key]);
+    state.artworkMessage=`Artwork found for ${title}.`;setOperationMessage('artwork',state.artworkMessage);showToast(state.artworkMessage);updateTask(taskKey,{detail:state.artworkMessage,progress:100});
+    if(state.modal?.type==='record'||state.modal?.type==='programme')renderModalOnly();
+  }catch(error){state.artworkCache[key]={error:error.message,notFoundUntil:new Date(Date.now()+24*60*60*1000).toISOString()};storage.saveArtwork(state.artworkCache);state.artworkMessage=error.message;setOperationMessage('artwork',state.artworkMessage);showToast(error.message);throw error;}
 }
 async function installServiceWorker(){
   if(!('serviceWorker' in navigator))return;
-  const version='5.4.1',versionKey='ringside-app-version';
+  const version='5.5.0',versionKey='ringside-app-version';
   try{
     const previous=localStorage.getItem(versionKey);
     if(previous!==version&&globalThis.caches){
@@ -1128,7 +1352,7 @@ async function installServiceWorker(){
       await Promise.all(keys.filter(key=>key.startsWith('ringside-archive-')).map(key=>caches.delete(key)));
       localStorage.setItem(versionKey,version);
     }
-    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.4.1',{updateViaCache:'none'});
+    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.5.0',{updateViaCache:'none'});
     await registration.update().catch(()=>{});
     const activateWaiting=()=>registration.waiting?.postMessage({type:'SKIP_WAITING'});
     activateWaiting();
@@ -1147,11 +1371,17 @@ async function installServiceWorker(){
 
 async function scanVisibleArtwork(){
   if(state.scanningArtwork)return;state.scanningArtwork=true;
-  const list=currentArtworkEntries().slice(0,80);let done=0,found=0;
+  const taskKey='scan-visible-artwork',list=currentArtworkEntries().slice(0,80);let done=0,found=0;
   try{
-    for(let index=0;index<list.length;index+=8){const batch=list.slice(index,index+8);const result=await storeArtworkBatch(batch);found+=result.found;done+=batch.length;state.artworkMessage=`Artwork scan ${done}/${list.length} • ${found} matches`;render();await new Promise(resolve=>setTimeout(resolve,350));}
-    state.artworkMessage=`Artwork scan complete: ${found} new matches.`;showToast(state.artworkMessage);
-  }catch(error){state.artworkMessage=error.message;showToast(error.message);}finally{state.scanningArtwork=false;render();}
+    if(!list.length){state.artworkMessage='Visible records already have artwork or are waiting for a retry window.';setOperationMessage('artwork',state.artworkMessage);showToast(state.artworkMessage);return;}
+    setOperationMessage('artwork',`Artwork scan 0/${list.length}`);
+    for(let index=0;index<list.length;index+=6){
+      const batch=list.slice(index,index+6),result=await storeArtworkBatch(batch);found+=result.found;done+=batch.length;patchArtworkElements(result.keys);
+      state.artworkMessage=`Artwork scan ${done}/${list.length} • ${found} matches`;setOperationMessage('artwork',state.artworkMessage);updateTask(taskKey,{detail:state.artworkMessage,progress:list.length?done/list.length*100:100});
+      await new Promise(resolve=>setTimeout(resolve,180));
+    }
+    state.artworkMessage=`Artwork scan complete: ${found} new matches.`;setOperationMessage('artwork',state.artworkMessage);showToast(state.artworkMessage);
+  }catch(error){state.artworkMessage=error.message;setOperationMessage('artwork',state.artworkMessage);showToast(error.message);throw error;}finally{state.scanningArtwork=false;}
 }
 
 
@@ -1192,8 +1422,8 @@ function restoreSessionScroll(){
           await syncCloudNow({quiet:true});await loadAccountIntegrations({migrate:true});
         }
         if(state.cloud.recovery){state.modal={type:'account'};state.cloud.message='Enter and confirm your new password.';}
-        scheduleRender();
-      }catch(error){state.cloud.message=error.message;console.warn('Account bootstrap:',error.message);scheduleRender();}
+        renderViewOnly();if(state.modal)renderModalOnly();
+      }catch(error){state.cloud.message=error.message;console.warn('Account bootstrap:',error.message);renderViewOnly();if(state.modal)renderModalOnly();}
     },500);
     if(state.settings.autoLoadEpisodes&&['exact','chronology'].includes(state.view)&&!new URLSearchParams(location.search).has('noautoload'))onIdle(()=>loadAllEpisodes(false),1800);
 

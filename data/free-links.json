@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-24",
+  "policy": "Only record-specific videos, playlists or event pages are allowed. Channel homepages and search-result URLs are rejected by the application and audit.",
+  "records": {},
+  "programmes": {},
+  "recommendations": {
+    "kerry-flair-parade": {
+      "url": "https://www.youtube.com/watch?v=TjsPQARt2ik",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WWE Vault",
+      "verifiedAt": "2026-07-24"
+    },
+    "wm3-steamboat-savage": {
+      "url": "https://www.youtube.com/watch?v=wEZp0V8IrqI",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WWE",
+      "verifiedAt": "2026-07-24"
+    },
+    "clash-sting-flair": {
+      "url": "https://www.youtube.com/watch?v=8p2VPXv4Pcs",
+      "service": "YouTube",
+      "label": "Full event",
+      "publisher": "WWE Vault / WCW",
+      "verifiedAt": "2026-07-24"
+    },
+    "flair-steamboat-chicago": {
+      "url": "https://www.youtube.com/watch?v=Px9WIvLiPzQ",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WCW",
+      "verifiedAt": "2026-07-24"
+    },
+    "flair-steamboat-clash": {
+      "url": "https://www.youtube.com/watch?v=oXWdgG79r3A",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WCW",
+      "verifiedAt": "2026-07-24"
+    },
+    "bret-owen-wm10": {
+      "url": "https://www.youtube.com/watch?v=rsY_MaBuzeY",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WWE",
+      "verifiedAt": "2026-07-24"
+    },
+    "bret-austin": {
+      "url": "https://www.youtube.com/watch?v=DYELJpHHwCQ",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WWE",
+      "verifiedAt": "2026-07-24"
+    },
+    "punk-cena-mitb": {
+      "url": "https://www.youtube.com/watch?v=QZb3dfX3cQA",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "WWE",
+      "verifiedAt": "2026-07-24"
+    },
+    "danielson-suzuki": {
+      "url": "https://www.youtube.com/watch?v=ipHzmucwYtc",
+      "service": "YouTube",
+      "label": "Full Buy-In show",
+      "publisher": "All Elite Wrestling",
+      "verifiedAt": "2026-07-24"
+    },
+    "danielson-zsj": {
+      "url": "https://www.youtube.com/watch?v=JhT5hFdAoFc",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "All Elite Wrestling",
+      "verifiedAt": "2026-07-24"
+    },
+    "ospreay-danielson": {
+      "url": "https://www.youtube.com/watch?v=6O86F7-_14o",
+      "service": "YouTube",
+      "label": "Full match",
+      "publisher": "All Elite Wrestling",
+      "verifiedAt": "2026-07-24"
+    }
+  }
+}

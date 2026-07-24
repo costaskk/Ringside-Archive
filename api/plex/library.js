@@ -54,7 +54,7 @@ function plexHeaders(token, clientId) {
     Accept: 'application/json',
     'X-Plex-Token': token,
     'X-Plex-Product': PRODUCT,
-    'X-Plex-Version': '5.4.1',
+    'X-Plex-Version': '5.5.0',
     'X-Plex-Client-Identifier': clientId
   };
 }

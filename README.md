@@ -1,4 +1,4 @@
-# Ringside Archive v5.4.1
+# Ringside Archive v5.5.0
 
 A GitHub-ready professional wrestling chronology and viewing tracker with:
 
@@ -15,8 +15,21 @@ A GitHub-ready professional wrestling chronology and viewing tracker with:
 
 See [`CHANGELOG.md`](CHANGELOG.md) for the release-by-release changes and [`PROJECT-AUDIT.md`](PROJECT-AUDIT.md) for the engineering audit.
 
+## v5.5.0 non-blocking actions and exact free-viewing links
 
-## v5.4.1 stable timeline, performance and wrestler profiles
+This edition removes the last disruptive whole-page updates from interactive operations:
+
+- **Button-level async state:** network and import actions disable only the initiating control, display a spinner and retain the rest of the interface.
+- **Background operation dock:** long-running feed, Plex and artwork jobs remain visible without replacing the current view or moving the scroll position.
+- **Incremental artwork application:** visible logos, headshots, posters and stills are patched into their existing cards as batches finish. The complete timeline is not rebuilt during a scan.
+- **Partial modal updates:** Trakt, Plex, account and artwork messages update inside the active panel while the surrounding application remains untouched.
+- **Exact free-link policy:** match and show records display a free-viewing button only when the catalogue contains a direct video, playlist or event page. YouTube channel homepages and search-result links are rejected.
+- **Audited link catalogue:** `data/free-links.json` is separate from promotion channel links, retains service/publisher attribution and is validated by `npm run audit:free-links`.
+- **Official channels remain contextual:** a company card can still link to the promotion’s official channel, but that link is explicitly labelled **Official channel** and is never presented as the corresponding match or episode.
+
+The first verified link set includes 11 direct official full-match or full-event uploads for selected WWE, WCW and AEW recommendations. Availability can change at the publisher’s discretion; unavailable links can be removed from `data/free-links.json` without changing the underlying archive record.
+
+## v5.4.1 foundation retained: stable timeline, performance and wrestler profiles
 
 This release focuses on making the archive feel immediate and polished on real deployments:
 
@@ -120,16 +133,15 @@ Not every historic territory episode or independent supercard has a usable Trakt
 
 ## Data accuracy
 
-The project never creates fictional weekly dates. Complete Timeline contains:
+The project never creates fictional weekly dates. Show Index contains all 188 real programme and recurring event-series families. Complete Timeline contains:
 
-- every programme-family start/index marker;
 - all 1,144 recovered dated major events;
 - exact episodes loaded from approved feeds;
 - manually verified records in `data/custom-records.json`.
 
 For programmes with no dependable episode database, the show remains indexed but is not expanded into invented episodes. See `docs/DATA-COVERAGE.md`.
 
-## Added programme families in v5.4.1
+## Programme families added during the catalogue cleanup
 
 The recovery catalogue was expanded with important missing lineages and programmes, including:
 
@@ -214,7 +226,7 @@ Open PowerShell in the project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.4.1 release"
+git commit -m "Initial Ringside Archive v5.5.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -445,21 +457,21 @@ npm run check:links
 
 ## The page still shows 271 programme families or calls `/api/trakt/device-code`
 
-That is the older application being served by its service-worker cache. Version 5.4.1 contains 188 real programme/event-series families and uses only `/api/trakt/device`.
+That is the older application being served by its service-worker cache. Version 5.5.0 contains 188 real programme/event-series families and uses only `/api/trakt/device`.
 
 After deploying the new commit:
 
-1. Open `https://YOUR-SITE.vercel.app/?v=5.4.1` once.
+1. Open `https://YOUR-SITE.vercel.app/?v=5.5.0` once.
 2. Press **Ctrl+Shift+R**.
 3. If the old interface remains, open DevTools → **Application** → **Service Workers** → **Unregister**.
 4. Under **Storage**, select **Clear site data**.
 5. Reload the normal site URL.
 
-The v5.4.1 service worker handles later upgrades without force-reloading an active reading session.
+The v5.5.0 service worker handles later upgrades without force-reloading an active reading session.
 
 ## TVMaze snapshot 404 messages
 
-Version 5.4.1 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
+Version 5.5.0 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
 
 ## Trakt returns a Cloudflare “Attention Required” page
 
@@ -564,7 +576,7 @@ api/                         Vercel serverless APIs
   trakt/                     device auth, history, refresh and sync
   artwork/                   TMDB/Wikipedia artwork search
   _lib/                      auth, encryption and provider helpers
-data/                        promotions, programmes, events and artwork data
+data/                        promotions, programmes, events, exact free links and artwork data
 docs/                        coverage, artwork and source guidance
 scripts/                     audit, feed, artwork and smoke-test scripts
 src/                         browser application

@@ -1,4 +1,4 @@
-# Ringside Archive v5.4.1 professional audit
+# Ringside Archive v5.5.0 professional audit
 
 ## Preserved archive foundation
 
@@ -29,7 +29,25 @@ Headshots depended on a background artwork scan finishing and then rerendering t
 
 The recovered interface was functional but visually flat at large desktop sizes, and large directories did not consistently use browser rendering containment or bounded first-page sizes.
 
+## Additional v5.5.0 findings
+
+### Button-triggered whole-page work
+
+Several remaining operations still called the root renderer while waiting for remote services, especially visible-artwork scanning and account transitions. That replaced hundreds of chronology nodes, recreated controls and made a simple button action feel like a page reload.
+
+### Generic viewing destinations
+
+Historic recommendations contained generated YouTube search URLs or promotion channel links. They could help discovery, but they were not evidence that the specific match or show was freely available and therefore should not be shown as direct viewing links.
+
 ## Corrections implemented
+
+### Non-blocking operation architecture
+
+- Central task state controls initiating buttons independently.
+- Artwork, episode, Plex, Trakt and cloud operations expose local progress without rebuilding the root document.
+- Artwork batches patch only elements carrying the matching `data-artwork-key`.
+- Operation messages update dedicated live regions in the current modal or view.
+- Exact free-link resolution is separated from promotion channel metadata and rejects generic destinations.
 
 ### Startup and runtime performance
 
@@ -86,7 +104,9 @@ The recovered interface was functional but visually flat at large desktop sizes,
 - exact show and native Other Videos section scanning;
 - episode/event Plex matching;
 - quota-aware Plex storage compaction and token stripping;
-- full browser rendering smoke test.
+- full browser rendering smoke test;
+- exact free-link ID/URL/attribution policy;
+- button-task, progress-dock and incremental artwork patch markers.
 
 Live Trakt and Plex access still depends on the deployed credentials and the network reachability of the user’s Plex server. The repository tests use controlled mock responses and do not impersonate the user’s accounts.
 

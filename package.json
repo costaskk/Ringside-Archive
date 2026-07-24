@@ -1,12 +1,12 @@
 {
   "name": "ringside-archive",
-  "version": "5.4.1",
+  "version": "5.5.0",
   "private": true,
   "type": "module",
-  "description": "Professional wrestling chronology with stable scroll-preserving updates, real programme families, Supabase accounts and Trakt/Plex sync",
+  "description": "Professional wrestling chronology with non-blocking async actions, exact free-viewing links, Supabase accounts and Trakt/Plex sync",
   "scripts": {
     "audit": "node scripts/audit-data.mjs",
-    "test": "node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",
+    "test": "node scripts/audit-data.mjs && node scripts/audit-free-links.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/async-ui-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",
     "sync:tvmaze": "node scripts/sync-tvmaze.mjs",
     "check:links": "node scripts/check-links.mjs",
     "discover:tvmaze": "node scripts/discover-tvmaze.mjs",
@@ -14,7 +14,8 @@
     "scan:artwork": "node scripts/scan-artwork.mjs",
     "scan:wikipedia": "node scripts/scan-artwork.mjs --wikipedia-only",
     "audit:plex": "node scripts/audit-plex-export.mjs",
-    "build:core": "node scripts/build-core.mjs"
+    "build:core": "node scripts/build-core.mjs",
+    "audit:free-links": "node scripts/audit-free-links.mjs"
   },
   "engines": {
     "node": "22.x"

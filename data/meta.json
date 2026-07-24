@@ -1,6 +1,6 @@
 {
   "title": "Ringside Archive",
-  "catalogueVersion": "5.4.1-clean-programme-catalogue",
+  "catalogueVersion": "5.5.0-async-exact-links",
   "reconstructedAt": "2026-07-24T08:14:43.499Z",
   "counts": {
     "promotions": 101,
@@ -17,7 +17,7 @@
     "Official WWE programme announcements for WWE Speed and WWE Evolve",
     "Historic programme lineage additions for WCW, JCP, Georgia and WWF/WWE"
   ],
-  "version": "5.4.1",
+  "version": "5.5.0",
   "updatedAt": "2026-07-24T17:45:00.000Z",
   "features": {
     "detailPopouts": true,
@@ -64,5 +64,6 @@
     "scrollAnchorPreservation": true,
     "backgroundRenderIsolation": true,
     "nonDisruptiveServiceWorkerUpdates": true
-  }
+  },
+  "freeLinkPolicy": "record-specific-only"
 }
