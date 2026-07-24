@@ -1,79 +1,106 @@
-# Ringside Archive v5.1.1 reconstruction and upgrade audit
+# Ringside Archive v5.2.0 professional upgrade audit
 
-## Recovered foundation
+## Recovered and preserved foundation
 
-- 101-promotion catalogue
-- 271 original programme families
-- 1,144 dated major-event records
-- recommendations and wrestler lists
-- original compiled client and stylesheet
-- TVMaze mappings, official URLs and YouTube links
-
-## Catalogue expansion
-
-- 16 important programme families added
+- 101 promotion profiles
+- 271 recovered programme families plus 16 verified catalogue additions
 - 287 total programme families
-- JCP/Georgia/WCW cable lineages expanded
-- WWF/WWE secondary and modern digital programmes expanded
-- no invented episode dates
+- 1,144 dated major-event records
+- 1,144 detail records
+- 71 curated recommendations
+- 110 wrestler-directory entries
+- original compiled client and stylesheet retained under `legacy-original/`
+- existing TVMaze mappings, official URLs and YouTube links preserved
 
-## Interface and archive features
+## Catalogue and chronology
 
-- full event, episode and programme popouts
-- known card, competitors, sourced details and completeness labels
-- personal reviews and ratings
-- working promotion, wrestler, year-range, Plex, YouTube and artwork filters
-- unified Complete Timeline with programme markers, exact episodes and events
-- layered show/season/episode/event artwork discovery
+- Complete Timeline combines programme markers, major events and exact episodes.
+- Weekly episodes are loaded only from mapped TVMaze feeds, checked-in snapshots or manually sourced custom records.
+- The app never invents missing territorial broadcast dates.
+- Missing local TVMaze snapshots no longer generate a console flood: `data/tvmaze/index.json` declares which snapshots actually exist, and the browser otherwise goes directly to the live mapped feed.
+- Sixteen important programme families were added, including WCW Worldwide, WCW Main Event, WCW Pro, Power Hour, the JCP/TBS lineage, WWF Mania, Action Zone, LiveWire, NXT Level Up, WWE Speed and WWE Evolve.
+
+## Filters and navigation
+
+- Filters are visible on first load and can be collapsed.
+- Company, region, programme type, wrestler, start year, end year, Plex, YouTube, artwork, exact-feed and watched-state filters are functional.
+- Active filters render as removable chips.
+- Company and wrestler selections can be cleared individually.
+- Every filtered/empty state includes a Reset all action.
+- The service-worker update path prevents an older cached UI from hiding newly deployed controls.
+
+## Wrestler directory
+
+- Wrestler appearances are indexed once instead of rescanning the full catalogue for every card.
+- Metrics are cached and only the first 50 wrestler cards render initially.
+- Headshots use lazy image slots and bounded artwork discovery.
+- Default order is Archive score, high to low.
+- Alternate orders include appearances, curated picks and alphabetical name.
+- Archive score uses direct source/personal ratings where available; otherwise it transparently uses archive prominence and is not presented as an external public ranking.
+
+## Artwork and logos
+
+- Layered discovery supports programme posters, show backdrops, season posters, episode stills, individual-event art, company logos and wrestler headshots.
+- Sources include manual verified overrides, TVMaze, optional TMDB, Wikipedia/Wikimedia Commons and imported Plex artwork.
+- Company cards have logo slots with initials/favicons as graceful fallbacks.
+- Wrestler cards have headshot slots with initials as graceful fallbacks.
+- Failed image URLs no longer leave invisible content; the fallback is restored.
+- Artwork scans are bounded, cached and source-attributed.
+- No generated or unrelated image is labelled as original artwork.
 
 ## Trakt
 
-- device authorization
-- exact episode and supported-event history import
-- watched/unwatched writeback
-- automatic access-token refresh
-- encrypted account-linked tokens available across devices
+- Device authorization is consolidated into `api/trakt/device.js`.
+- The client never calls the removed `device-code` or `device-token` routes.
+- Vercel configuration is re-read immediately before authorization.
+- Environment values are trimmed to tolerate accidental whitespace.
+- Missing credentials and Trakt 403 responses return actionable diagnostics.
+- Signed-out users can keep a device-local connection; signed-in users can migrate the encrypted connection into the account vault.
+- Exact episode and supported-event history import, watched/unwatched writeback and token refresh remain supported.
 
 ## Plex
 
-- PIN authentication
-- server discovery and remote scan
-- exact show/season/episode and event matching
-- real `viewCount` / `viewOffset` import
-- Watched/Watching mapping with configurable threshold
-- exact scrobble/unscrobble writeback
-- optional Plex-watched forwarding to Trakt
-- encrypted connection and latest scan available across devices
-- LAN-only JSON export fallback
+- Plex PIN authorization, server discovery and cross-device encrypted credentials are preserved.
+- Users can load the actual library sections on a selected server, choose one or more wrestling sections and scan only those sections.
+- Scans try secure direct and relay connections, record per-connection diagnostics and page large libraries with bounded concurrency.
+- The scanner distinguishes show ownership, exact season/episode ownership and event title/year matches.
+- Real `viewCount`, `viewOffset` and duration determine Watched/Watching state; owning a file does not mark it watched.
+- Exact scrobble/unscrobble writeback and optional Plex-to-Trakt forwarding remain supported.
+- LAN-only servers retain the PowerShell JSON-export fallback.
 
-## Supabase accounts
+## Accounts and security
 
-- email/password registration, confirmation session and sign-in
-- password-reset completion flow
-- RLS-protected account state
-- AES-256-GCM encrypted server-only integration vault
-- automatic current `sb_secret_` and legacy `service_role` key handling
-- per-record conflict merge and automatic synchronization
-- shared-browser account ownership guard
-- provider tokens removed from local state after cloud migration
+- Supabase email accounts and Row Level Security protect per-user archive state.
+- AES-256-GCM encryption protects Plex and Trakt provider credentials in a server-only integration vault.
+- Both current `sb_secret_...` and legacy `service_role` Supabase server keys are supported correctly.
+- Shared-browser caches are tied to the owning account.
+- Private `/api/` traffic is always network-only and is never stored by the service worker.
+- Plex artwork is served through short-lived signed proxy URLs rather than exposing the Plex token.
 
-## Security safeguards
+## PWA and deployment reliability
 
-- no browser grants on integration vault
-- secrets excluded from source control
-- current Supabase opaque secret keys never sent as JWTs
-- private `/api/` responses excluded from service-worker caching
-- no AI image labelled as original
-- no incomplete match list labelled complete
+- Service-worker cache version: `ringside-archive-v5.2.0`.
+- Navigations, source modules, catalogue JSON and runtime configuration are network-first.
+- API requests are `no-store` and network-only.
+- An upgrade guard clears older Ringside caches and activates the latest worker.
+- Vercel Hobby compatibility is enforced at exactly 12 deployable functions.
 
 ## Validation
+
+Run:
 
 ```powershell
 npm test
 ```
 
-The suite audits references and IDs, validates required files and JSON, tests encryption round-trip and cloud schema, and performs a browser rendering smoke test.
+The final suite validates:
 
-## Vercel Hobby deployment correction (v5.1.1)
-
-The v5.1 package exposed 13 serverless route entrypoints, one above the Vercel Hobby limit of 12. The two Trakt device-flow endpoints were consolidated into `api/trakt/device.js`, reducing the deployment to exactly 12 functions without removing functionality. The smoke test now counts deployable API routes and fails locally if the Hobby limit is exceeded again.
+- catalogue references, IDs and dates;
+- required files and JSON;
+- the 12-function Vercel Hobby ceiling;
+- absence of obsolete Trakt routes;
+- encryption round-trip and Supabase schema/key compatibility;
+- Trakt diagnostics;
+- company-logo and wrestler-headshot artwork discovery;
+- Plex direct-to-relay connection fallback and selected-section scanning;
+- browser rendering of the production UI.

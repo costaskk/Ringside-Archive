@@ -4,8 +4,8 @@ const clean = value => String(value || '')
   .replace(/\b(?:PPV|PLE)\b/gi, '')
   .replace(/\s+/g, ' ')
   .trim();
-const norm = value => clean(value).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-const withTimeout = (ms = 12000) => AbortSignal.timeout(ms);
+const norm = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+const withTimeout = (ms = 8000) => AbortSignal.timeout(ms);
 
 function bodyOf(req) {
   if (!req.body) return {};
@@ -39,37 +39,55 @@ function best(results, title, year, dateField) {
   }).sort((a, b) => b.score - a.score)[0]?.result || null;
 }
 
-function wikipediaQueries({ title, year, programmeTitle, kind }) {
+function wikipediaQueries({ title, year, programmeTitle, kind, aliases = [] }) {
+  if (kind === 'wrestler') {
+    return [
+      `${title} professional wrestler`,
+      `${title} wrestler`,
+      ...aliases.map(alias => `${alias} professional wrestler`)
+    ];
+  }
+  if (kind === 'company') {
+    return [
+      `${title} professional wrestling promotion`,
+      `${title} wrestling company`,
+      ...aliases.map(alias => `${alias} professional wrestling promotion`)
+    ];
+  }
   const suffix = /episode/i.test(kind || '') ? 'television episode' : 'professional wrestling';
   return [
     [title, year, suffix].filter(Boolean).join(' '),
     [title, programmeTitle, suffix].filter(Boolean).join(' '),
     [clean(title), year, suffix].filter(Boolean).join(' ')
-  ].filter((value, index, all) => value && all.indexOf(value) === index);
+  ];
 }
 
-function scoreWikipediaPage(page, title, year, programmeTitle) {
-  const wanted = norm(title);
+function scoreWikipediaPage(page, input) {
+  const wanted = norm(input.title);
   const pageTitle = norm(page.title);
   let score = 0;
-  if (pageTitle === wanted) score += 120;
-  else if (pageTitle.includes(wanted) || wanted.includes(pageTitle)) score += 70;
-  if (year && String(page.title || '').includes(String(year))) score += 20;
-  if (programmeTitle && pageTitle.includes(norm(programmeTitle))) score += 15;
+  if (pageTitle === wanted) score += 130;
+  else if (pageTitle.startsWith(`${wanted} `) || wanted.startsWith(`${pageTitle} `)) score += 95;
+  else if (pageTitle.includes(wanted) || wanted.includes(pageTitle)) score += 65;
+  if (input.year && String(page.title || '').includes(String(input.year))) score += 20;
+  if (input.programmeTitle && pageTitle.includes(norm(input.programmeTitle))) score += 15;
+  if (input.kind === 'wrestler' && /wrestler|professional wrestler/.test(norm(page.description || ''))) score += 25;
+  if (input.kind === 'company' && /wrestling|promotion/.test(norm(page.description || ''))) score += 20;
   if (page.original?.source) score += 12;
   if (page.thumbnail?.source) score += 5;
   return score;
 }
 
 async function wikipediaArtwork(input) {
-  for (const query of wikipediaQueries(input)) {
+  const queries = wikipediaQueries(input).filter((value, index, all) => value && all.indexOf(value) === index);
+  for (const query of queries.slice(0, 3)) {
     const params = new URLSearchParams({
       action: 'query',
       generator: 'search',
       gsrsearch: query,
       gsrnamespace: '0',
       gsrlimit: '10',
-      prop: 'pageimages|info',
+      prop: 'pageimages|info|description',
       piprop: 'original|thumbnail',
       pithumbsize: '1400',
       inprop: 'url',
@@ -79,35 +97,87 @@ async function wikipediaArtwork(input) {
       origin: '*'
     });
     const response = await fetch(`https://en.wikipedia.org/w/api.php?${params}`, {
-      headers: { Accept: 'application/json', 'Api-User-Agent': 'RingsideArchive/4.1 (artwork discovery)' },
+      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)' },
       signal: withTimeout()
     });
     if (!response.ok) continue;
     const payload = await response.json();
     const pages = (payload.query?.pages || [])
       .filter(page => page.original?.source || page.thumbnail?.source)
-      .map(page => ({ page, score: scoreWikipediaPage(page, input.title, input.year, input.programmeTitle) }))
-      .filter(row => row.score >= 65)
+      .map(page => ({ page, score: scoreWikipediaPage(page, input) }))
+      .filter(row => row.score >= (input.kind === 'wrestler' || input.kind === 'company' ? 70 : 65))
       .sort((a, b) => b.score - a.score);
     const hit = pages[0]?.page;
     if (!hit) continue;
-    const artwork = hit.original?.source || hit.thumbnail?.source || '';
-    return {
+    const foundImage = hit.original?.source || hit.thumbnail?.source || '';
+    const common = {
       source: 'Wikipedia/Wikimedia',
       sourceUrl: hit.fullurl || `https://en.wikipedia.org/?curid=${hit.pageid}`,
       pageId: hit.pageid,
-      mediaType: input.kind === 'episode' ? 'episode-reference' : 'reference',
-      poster: artwork,
-      backdrop: artwork,
-      still: input.kind === 'episode' ? artwork : '',
       attribution: 'Lead image supplied by Wikipedia/Wikimedia; verify the image-page licence before redistribution.'
     };
+    if (input.kind === 'wrestler') return { ...common, mediaType: 'wrestler', poster: foundImage, headshot: foundImage };
+    if (input.kind === 'company') return { ...common, mediaType: 'company', poster: foundImage, logo: foundImage };
+    return {
+      ...common,
+      mediaType: input.kind === 'episode' ? 'episode-reference' : 'reference',
+      poster: foundImage,
+      backdrop: foundImage,
+      still: input.kind === 'episode' ? foundImage : ''
+    };
+  }
+  return null;
+}
+
+
+function commonsQueries(input){
+  const aliases=Array.isArray(input.aliases)?input.aliases:[];
+  if(input.kind==='company')return [`${input.title} logo`,...aliases.map(alias=>`${alias} wrestling logo`),`${input.title} professional wrestling`];
+  if(input.kind==='wrestler')return [input.title,`${input.title} professional wrestler`,...aliases];
+  return [`${input.title} professional wrestling`,input.title];
+}
+function scoreCommons(page,input){
+  const filename=norm(String(page.title||'').replace(/^File:/i,'').replace(/\.[a-z0-9]+$/i,''));
+  const wanted=norm(input.title);let score=0;
+  if(filename===wanted)score+=130;
+  else if(filename.startsWith(wanted)||wanted.startsWith(filename))score+=95;
+  else if(filename.includes(wanted)||wanted.includes(filename))score+=65;
+  if(input.kind==='company'&&/logo|emblem|wordmark/.test(filename))score+=35;
+  if(input.kind==='wrestler'&&/logo|belt|championship|poster|card/.test(filename))score-=30;
+  const info=page.imageinfo?.[0];
+  const width=Number(info?.width||0),height=Number(info?.height||0);
+  if(input.kind==='wrestler'&&height>=width)score+=12;
+  if(input.kind==='company'&&width>=height)score+=8;
+  return score;
+}
+async function commonsArtwork(input){
+  for(const query of commonsQueries(input).filter(Boolean).slice(0,3)){
+    const params=new URLSearchParams({
+      action:'query',generator:'search',gsrsearch:query,gsrnamespace:'6',gsrlimit:'12',
+      prop:'imageinfo|info',iiprop:'url|size|mime|extmetadata',iiurlwidth:'1400',
+      inprop:'url',format:'json',formatversion:'2',origin:'*'
+    });
+    const response=await fetch(`https://commons.wikimedia.org/w/api.php?${params}`,{
+      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)'},
+      signal:withTimeout()
+    }).catch(()=>null);
+    if(!response?.ok)continue;
+    const payload=await response.json().catch(()=>({}));
+    const rows=(payload.query?.pages||[]).map(page=>({page,score:scoreCommons(page,input)})).filter(row=>row.score>=(input.kind==='company'?85:input.kind==='wrestler'?80:75)).sort((a,b)=>b.score-a.score);
+    const hit=rows[0]?.page,info=hit?.imageinfo?.[0];if(!hit||!info)continue;
+    const foundImage=info.thumburl||info.url||'';if(!foundImage)continue;
+    const common={source:'Wikimedia Commons',sourceUrl:hit.fullurl||info.descriptionurl||'',attribution:'Image supplied by Wikimedia Commons; open the source page to verify author and licence.'};
+    if(input.kind==='company')return {...common,mediaType:'company',poster:foundImage,logo:foundImage};
+    if(input.kind==='wrestler')return {...common,mediaType:'wrestler',poster:foundImage,headshot:foundImage};
+    return {...common,mediaType:'reference',poster:foundImage,backdrop:foundImage};
   }
   return null;
 }
 
 async function tmdbArtwork(input, token) {
   const { title, year, kind, programmeTitle, season, episode } = input;
+  if (kind === 'wrestler' || kind === 'company') return null;
+
   if (kind === 'episode' && programmeTitle) {
     const search = await tmdb(`/search/tv?query=${encodeURIComponent(programmeTitle)}${year ? `&first_air_date_year=${year}` : ''}`, token);
     const show = best(search.results, programmeTitle, year, 'first_air_date');
@@ -162,30 +232,64 @@ async function tmdbArtwork(input, token) {
   } : null;
 }
 
+async function lookup(input, token) {
+  const normalized = {
+    ...input,
+    title: String(input?.title || '').trim(),
+    year: Number(input?.year) || null,
+    kind: String(input?.kind || 'show'),
+    aliases: Array.isArray(input?.aliases) ? input.aliases.filter(Boolean).slice(0, 5) : []
+  };
+  if (!normalized.title) return { error: 'Missing artwork title.' };
+
+  if (token) {
+    const result = await tmdbArtwork(normalized, token).catch(() => null);
+    if (result && (result.poster || result.backdrop || result.still || result.logo || result.headshot)) return result;
+  }
+  const fallback = await wikipediaArtwork(normalized);
+  if (fallback) return fallback;
+  const commons = await commonsArtwork(normalized);
+  if (commons) return commons;
+  return {
+    error: token
+      ? 'No trustworthy TMDB or Wikipedia/Wikimedia artwork match was found.'
+      : 'No Wikipedia/Wikimedia artwork match was found. Add TMDB_READ_ACCESS_TOKEN for richer show, season and episode artwork.'
+  };
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
-  const input = bodyOf(req);
-  if (!input.title) return res.status(400).json({ error: 'Missing artwork title.' });
-  input.year = Number(input.year) || null;
+  const body = bodyOf(req);
+  const token = process.env.TMDB_READ_ACCESS_TOKEN;
   try {
-    const token = process.env.TMDB_READ_ACCESS_TOKEN;
-    if (token) {
-      const result = await tmdbArtwork(input, token).catch(() => null);
-      if (result && (result.poster || result.backdrop || result.still)) {
-        res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=604800');
-        return res.status(200).json(result);
-      }
+    if (Array.isArray(body.items)) {
+      const items = body.items.slice(0, 8);
+      const results = new Array(items.length);
+      let cursor = 0;
+      const worker = async () => {
+        while (cursor < items.length) {
+          const index = cursor++;
+          const item = items[index];
+          try {
+            const result = await Promise.race([
+              lookup(item, token),
+              new Promise(resolve => setTimeout(() => resolve({ error: 'Artwork lookup timed out; retry later.' }), 18000))
+            ]);
+            results[index] = { key: item.key || item.id || item.title, result };
+          } catch (error) {
+            results[index] = { key: item.key || item.id || item.title, result: { error: error.message || 'Artwork lookup failed.' } };
+          }
+        }
+      };
+      await Promise.all(Array.from({ length: Math.min(4, items.length) }, worker));
+      res.setHeader('Cache-Control', 'private, no-store');
+      return res.status(200).json({ results });
     }
-    const fallback = await wikipediaArtwork(input);
-    if (fallback) {
-      res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=604800');
-      return res.status(200).json(fallback);
-    }
-    return res.status(404).json({
-      error: token
-        ? 'No trustworthy TMDB or Wikipedia/Wikimedia artwork match was found.'
-        : 'No Wikipedia/Wikimedia artwork match was found. Add TMDB_READ_ACCESS_TOKEN for richer show, season and episode artwork.'
-    });
+
+    const result = await lookup(body, token);
+    if (result.error) return res.status(404).json(result);
+    res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=604800');
+    return res.status(200).json(result);
   } catch (error) {
     return res.status(502).json({ error: error.message || 'Artwork lookup failed.' });
   }

@@ -24,7 +24,8 @@ function expiresAtMs(session) {
 }
 
 async function refreshTraktSession(session) {
-  const clientId = process.env.TRAKT_CLIENT_ID, clientSecret = process.env.TRAKT_CLIENT_SECRET;
+  const clean=value=>String(value||'').trim().replace(/^[\"']|[\"']$/g,'');
+  const clientId = clean(process.env.TRAKT_CLIENT_ID), clientSecret = clean(process.env.TRAKT_CLIENT_SECRET);
   if (!session?.refreshToken || !clientId || !clientSecret) throw new Error('The Trakt connection expired and cannot be refreshed.');
   const response = await fetch('https://api.trakt.tv/oauth/token', {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(15000),

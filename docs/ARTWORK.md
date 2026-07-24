@@ -1,6 +1,6 @@
 # Artwork sources and scanning
 
-Ringside Archive v5.1 supports show, season, episode and individual event artwork without presenting generated imitations as originals.
+Ringside Archive v5.2 supports show, season, episode and individual event artwork without presenting generated imitations as originals.
 
 ## Resolution order
 

@@ -8,6 +8,14 @@ function allowedUri(value) {
     return url.protocol === 'https:' && (url.hostname.endsWith('.plex.direct') || url.hostname.endsWith('.plex.services'));
   } catch { return false; }
 }
+function connectionCandidates(server){
+  const rows=[server?.activeConnection,server?.uri&&{uri:server.uri,selected:true},...(server?.connections||[])].filter(Boolean);
+  const seen=new Set();
+  return rows.filter(row=>allowedUri(row.uri)).filter(row=>!seen.has(row.uri)&&seen.add(row.uri)).sort((a,b)=>{
+    const score=row=>(row.local?100:0)+(row.relay?25:0)+(row.selected?-10:0)+(row===server?.activeConnection?-20:0);
+    return score(a)-score(b);
+  });
+}
 function validImagePath(value) {
   const path = String(value || '');
   return path.startsWith('/library/metadata/') && !path.includes('..') && path.length < 1024;
@@ -27,20 +35,23 @@ export default async function handler(req, res) {
     const payload = entry.payload;
     const server = (payload.servers || []).find(item => item.machineIdentifier === machineIdentifier) || payload.selectedServer;
     if (!server) return res.status(404).json({ error: 'Plex server not found.' });
-    const connection = (server.connections || []).filter(item => allowedUri(item.uri)).sort((a, b) => Number(a.relay) - Number(b.relay))[0];
-    if (!connection) return res.status(404).json({ error: 'Plex server is not remotely reachable.' });
-
     const token = server.accessToken || payload.token;
-    const response = await fetch(`${connection.uri.replace(/\/$/, '')}${imagePath}`, {
-      headers: { 'X-Plex-Token': token, Accept: 'image/*' },
-      signal: AbortSignal.timeout(20000)
-    });
-    if (!response.ok) throw new Error(`Plex returned ${response.status} for artwork.`);
-    const bytes = Buffer.from(await response.arrayBuffer());
-    res.setHeader('Content-Type', response.headers.get('content-type') || 'image/jpeg');
-    res.setHeader('Cache-Control', 'private, max-age=3600');
-    res.setHeader('X-Content-Type-Options', 'nosniff');
-    return res.status(200).send(bytes);
+    const errors=[];
+    for(const connection of connectionCandidates(server)){
+      try{
+        const response = await fetch(`${connection.uri.replace(/\/$/, '')}${imagePath}`, {
+          headers: { 'X-Plex-Token': token, Accept: 'image/*' },
+          signal: AbortSignal.timeout(20000)
+        });
+        if(!response.ok){errors.push(`${connection.uri}: ${response.status}`);continue;}
+        const bytes = Buffer.from(await response.arrayBuffer());
+        res.setHeader('Content-Type', response.headers.get('content-type') || 'image/jpeg');
+        res.setHeader('Cache-Control', 'private, max-age=3600');
+        res.setHeader('X-Content-Type-Options', 'nosniff');
+        return res.status(200).send(bytes);
+      }catch(error){errors.push(`${connection.uri}: ${error.message}`);}
+    }
+    return res.status(502).json({error:'No Plex connection could supply this artwork.',details:errors});
   } catch (error) {
     return sendError(res, error.status || 502, error, 'Unable to load Plex artwork.');
   }

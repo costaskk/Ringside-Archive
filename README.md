@@ -1,4 +1,4 @@
-# Ringside Archive v5.1.1
+# Ringside Archive v5.2.0
 
 A GitHub-ready professional wrestling chronology and viewing tracker with:
 
@@ -12,6 +12,21 @@ A GitHub-ready professional wrestling chronology and viewing tracker with:
 - Plex ownership, exact episode matching, viewing-progress import and watched writeback
 - Supabase email accounts and cross-device archive synchronization
 - encrypted, account-linked Plex and Trakt connections that roam between devices
+
+
+## v5.2.0 reliability and interface fixes
+
+This release directly addresses the deployment/runtime failures reported from the previous Vercel build:
+
+- **Stale PWA recovery:** application pages, modules, catalogue JSON and runtime configuration are now network-first. The service worker is versioned, updates immediately and never caches private API responses.
+- **TVMaze 404 cleanup:** the browser reads `data/tvmaze/index.json` before requesting a checked-in snapshot. A missing snapshot is no longer requested; the app goes directly to the live mapped feed.
+- **Trakt diagnostics:** configuration is rechecked from Vercel, both environment variables are validated, quoted/whitespace-padded values are normalized, and Trakt 403 responses now explain that the client ID/application credentials were rejected.
+- **Plex library selection:** after refreshing servers, load the server's libraries, choose one or more TV/movie/video sections, then scan only those sections. Every secure direct/relay connection is tested and failures are reported separately.
+- **Artwork discovery:** automatic, bounded background scanning now includes company logos, visible show/event art and wrestler headshots. TMDB is optional; Wikipedia and Wikimedia Commons are no-key fallbacks.
+- **Working filters:** filters are visible by default, can be collapsed, show removable active-filter chips, and always provide **Reset all**. Company and wrestler selections can be cleared individually.
+- **Faster wrestler directory:** wrestler appearances are indexed once, metrics are cached for sorting, only 50 cards render initially, headshot slots load lazily, and the default order is highest **Archive score** first.
+
+**Archive score** uses direct source/personal ratings when available. Where no direct rating exists, it uses a transparent archive-prominence fallback based on matched appearances and curated picks; it is not represented as an external public ranking.
 
 ## Should this project use Supabase?
 
@@ -102,7 +117,7 @@ The project never creates fictional weekly dates. Complete Timeline contains:
 
 For programmes with no dependable episode database, the show remains indexed but is not expanded into invented episodes. See `docs/DATA-COVERAGE.md`.
 
-## Added programme families in v5.1.1
+## Added programme families in v5.2.0
 
 The recovery catalogue was expanded with important missing lineages and programmes, including:
 
@@ -128,6 +143,8 @@ These are programme families. Exact episode rows are only generated where a veri
 ---
 
 # Deployment: GitHub + Vercel + Supabase
+
+Upgrading an existing repository or a deployment that still shows 271 programme families: follow [`UPGRADE-INSTRUCTIONS.md`](UPGRADE-INSTRUCTIONS.md) before the general steps below.
 
 ## 1. Requirements
 
@@ -174,7 +191,7 @@ Open PowerShell in the project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.1.1 release"
+git commit -m "Initial Ringside Archive v5.2.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -246,8 +263,12 @@ This is required only for Trakt synchronization.
 2. Use your Vercel production URL as the application website.
 3. Copy the client ID and client secret.
 4. Store them in Vercel as `TRAKT_CLIENT_ID` and `TRAKT_CLIENT_SECRET`.
+5. Do not wrap either value in quotes and remove accidental leading/trailing spaces.
+6. Apply the variables to **Production** and redeploy.
 
-The browser never receives the Trakt client secret.
+After deployment, open `/api/config` on your site. It must report `"traktConfigured": true`. The browser never receives the Trakt client secret; `/api/config` exposes booleans only.
+
+A 403 from `/api/trakt/device` means Trakt rejected the client ID/application credentials. It does **not** mean that the Ringside user must be signed in: Trakt can be connected locally while signed out, or stored in the encrypted account vault while signed in.
 
 ## 7. Import the GitHub repository into Vercel
 
@@ -306,8 +327,12 @@ The Vercel function can scan a Plex Media Server that advertises a remotely reac
 After Plex login:
 
 1. **Connections → Refresh servers**
-2. Select **Scan library** beside the server
-3. Select **Import Plex viewing** or enable automatic import
+2. Select **Load libraries** beside the intended server
+3. Tick the wrestling TV/movie/video library section or sections
+4. Select **Scan selected libraries**
+5. Select **Import Plex viewing** or enable automatic import
+
+A serverless Vercel deployment is outside your home network. Plex Remote Access or Plex Relay must provide a reachable secure HTTPS connection. Version 5.2 tests all advertised secure direct/relay connections and returns per-connection diagnostics instead of a generic `fetch failed` message.
 
 ## LAN-only server fallback
 
@@ -346,9 +371,12 @@ Artwork resolution order:
 2. TVMaze show and episode images
 3. `data/artwork-catalog.json`
 4. TMDB show/season/episode/event results
-5. Wikipedia/Wikimedia fallback
-6. Plex artwork available to the current device
-7. Labelled fallback artwork
+5. Wikipedia lead images and Wikimedia Commons search
+6. Company logo fallback for records from that promotion
+7. Plex artwork available to the current device
+8. Labelled fallback artwork
+
+The Companies page scans visible promotions for logos. The Wrestlers page scans visible names for headshots. Timeline pages scan both the visible record and its company, so a promotion logo can appear while a unique event poster is still unavailable. Results are cached locally and, when signed in, follow the account to other devices.
 
 Set `TMDB_READ_ACCESS_TOKEN` for better show, season and episode results. The included GitHub workflow can update `data/artwork-catalog.json`:
 
@@ -387,6 +415,51 @@ npm run scan:artwork
 npm run enrich:events
 npm run check:links
 ```
+
+---
+
+# Troubleshooting a previous deployment
+
+## The page still shows 271 programme families or calls `/api/trakt/device-code`
+
+That is the older application being served by its service-worker cache. Version 5.2 contains 287 programme families and uses only `/api/trakt/device`.
+
+After deploying the new commit:
+
+1. Open `https://YOUR-SITE.vercel.app/?v=5.2.0` once.
+2. Press **Ctrl+Shift+R**.
+3. If the old interface remains, open DevTools → **Application** → **Service Workers** → **Unregister**.
+4. Under **Storage**, select **Clear site data**.
+5. Reload the normal site URL.
+
+The v5.2 service worker then handles later upgrades automatically.
+
+## TVMaze snapshot 404 messages
+
+Version 5.2 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
+
+## Trakt says not configured
+
+Confirm all of the following in Vercel:
+
+```text
+TRAKT_CLIENT_ID
+TRAKT_CLIENT_SECRET
+```
+
+Redeploy after adding/changing them, then use **Connections → Recheck configuration**. `/api/config` should show `traktConfigured: true`.
+
+## Plex returns 502
+
+Open **Connections**, refresh servers, load libraries, and scan a selected section. The returned error now lists each attempted connection. If all fail, enable Plex Remote Access/Relay or use `tools/export-plex-library.ps1` and **Import local export**.
+
+## Artwork remains empty
+
+- Open Companies or Wrestlers and allow the automatic scanner a few seconds.
+- Use **Connections → Scan visible records**.
+- Add `TMDB_READ_ACCESS_TOKEN` for richer season/episode/event art.
+- Check that the Vercel function `/api/artwork/search` is deployed.
+- A clearly labelled fallback means no trustworthy match was found; it is not an application crash.
 
 ---
 

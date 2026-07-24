@@ -28,7 +28,8 @@ export async function loadCloudConfig(force = false) {
     supabaseUrl: normalizeUrl(remote.supabaseUrl || local.supabaseUrl),
     supabasePublishableKey: remote.supabasePublishableKey || local.supabasePublishableKey || '',
     traktConfigured: Boolean(remote.traktConfigured), tmdbConfigured: Boolean(remote.tmdbConfigured),
-    encryptedIntegrationStorage: Boolean(remote.encryptedIntegrationStorage)
+    encryptedIntegrationStorage: Boolean(remote.encryptedIntegrationStorage),
+    diagnostics: remote.diagnostics || {}
   };
   cachedConfig.supabaseConfigured = Boolean(cachedConfig.supabaseUrl && cachedConfig.supabasePublishableKey);
   return cachedConfig;

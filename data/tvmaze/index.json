@@ -1,0 +1,6 @@
+{
+  "generatedAt": null,
+  "feeds": [],
+  "failures": [],
+  "note": "Run npm run sync:tvmaze or the GitHub Action to populate checked-in episode snapshots. The browser uses live TVMaze feeds without requesting missing snapshot files."
+}

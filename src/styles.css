@@ -100,7 +100,7 @@
 @media(max-width:1100px){.filterGrid{grid-template-columns:repeat(3,minmax(150px,1fr))}.detailHero{grid-template-columns:230px 1fr}.personalReview{grid-template-columns:140px 1fr}.personalReview button{grid-column:2;justify-self:start}.episodeRow{grid-template-columns:80px 1fr auto}.episodeSummary{display:none}.exactRecordArtwork.artwork{width:125px;height:96px}}
 @media(max-width:700px){.filterGrid{grid-template-columns:1fr 1fr}.coverageActions{justify-content:flex-start;margin-top:14px}.exactRecordArtwork.artwork{grid-column:2;width:100%;height:130px}.detailHero{display:block}.detailArtwork.artwork{height:260px;min-height:260px}.detailHeroText{padding:28px 20px}.detailHeroText h2{font-size:32px}.detailFacts{grid-template-columns:1fr 1fr}.detailSection{padding:23px 17px}.sectionHeading{align-items:flex-start;flex-direction:column}.sectionHeading small{text-align:left}.matchCardList li{grid-template-columns:1fr}.matchCardList li p{grid-column:1}.personalReview{grid-template-columns:1fr}.personalReview button{grid-column:1}.artworkGallery{grid-template-columns:1fr 1fr}.artworkGallery img{height:180px}.episodeRow{grid-template-columns:68px 1fr}.episodeThumb.artwork{width:68px;height:48px}.episodeRow>button{grid-column:2;justify-self:start}.serverList article{align-items:flex-start;flex-direction:column}}
 
-/* v5.1 programme markers inside the unified Complete Timeline */
+/* Programme markers inside the unified Complete Timeline */
 .programmeTimelineCard{background:linear-gradient(100deg,color-mix(in srgb,var(--accent) 9%,var(--panel)),var(--panel));border-style:dashed}
 .programmeTimelineCard .exactRecordDate small{color:var(--gold-bright)}
 .programmeTimelineCard .exactRecordMain h3:before{content:'SHOW · ';color:var(--gold-bright);font-size:.58em;letter-spacing:.12em;vertical-align:middle}
@@ -109,7 +109,7 @@
 .artworkGallery figcaption a{color:var(--gold-bright)}
 .artworkGallery figcaption a:hover{text-decoration:underline}
 
-/* v5.1 account and roaming integration UI */
+/* Account and roaming integration UI */
 .accountButton{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:#101519;border-radius:8px;padding:7px 10px;color:var(--muted);font-size:10px}
 .accountButton:hover{border-color:var(--gold);color:var(--gold-bright)}
 .accountAvatar{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,var(--gold),var(--red));color:#fff;font-weight:800;font-size:10px}
@@ -126,3 +126,67 @@
 .accountSetup{border:1px solid var(--line);background:#101519;border-radius:10px;padding:20px}.accountSetup h3{font-family:Georgia,serif;font-size:24px;margin-bottom:8px}.accountSetup p{color:var(--muted);line-height:1.7}.accountSetup code{color:var(--gold-bright)}
 @media(max-width:900px){.cloudStatusGrid{grid-template-columns:1fr 1fr}.authLayout{grid-template-columns:1fr}.accountSyncNotice{align-items:flex-start;flex-direction:column}.accountSyncNotice button{margin-left:0}}
 @media(max-width:700px){.accountButton{font-size:0;padding:7px}.accountButton .accountAvatar{font-size:10px}.accountIdentity{align-items:flex-start}.cloudStatusGrid{grid-template-columns:1fr}.topActions{gap:5px}}
+
+/* v5.2 reliability, filter, logo, wrestler and Plex-library UI */
+.filterPanel{overflow:visible}
+.filterPanel .filterGrid{display:grid;max-height:800px;opacity:1;visibility:visible;transition:max-height .2s ease,opacity .16s ease,padding .2s ease}
+.filterPanel.collapsed .filterGrid{display:none!important;max-height:0;opacity:0;visibility:hidden}
+.activeFilters{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:11px 13px;border-top:1px solid var(--line-soft);background:#0c1013}
+.activeFilters>span{font-size:8px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted-2);margin-right:3px}
+.activeFilters button{display:inline-flex;align-items:center;gap:7px;border:1px solid #3a424a;background:#141a1f;color:var(--ink);border-radius:999px;padding:6px 9px;font-size:9px;line-height:1}
+.activeFilters button:hover{border-color:var(--gold);color:var(--gold-bright)}
+.activeFilters button b{font-size:13px;font-weight:400;line-height:.7}
+.activeFilters .clearAllFilters{border-color:#8c6b2c;color:var(--gold-bright);margin-left:auto}
+.resetButton{min-height:40px;border:1px solid #8c6b2c!important;color:var(--gold-bright)!important;background:#d7a84f0c!important}
+
+.companyDirectory{align-items:stretch}
+.companyCard{position:relative;overflow:hidden}
+.companyLogo{width:76px;height:76px;display:grid;place-items:center;align-self:flex-start;border-radius:15px;border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line));background:radial-gradient(circle at 30% 20%,color-mix(in srgb,var(--accent) 36%,#151b20),#0b0f12);overflow:hidden;box-shadow:inset 0 0 25px #0006}
+.companyLogo img{width:100%;height:100%;object-fit:contain;padding:8px;background:#f5f5f2}
+.companyLogo span{font-family:Georgia,serif;font-weight:800;font-size:16px;letter-spacing:.03em;color:#fff;text-align:center;padding:5px}
+.companyLogo.hasImage span{display:none}
+.companyCard .companySwatch{position:absolute;inset:0 0 auto;height:3px}
+
+.viewIntro{max-width:760px;margin-top:8px;color:var(--muted);font-size:11px;line-height:1.65}
+.sortControl{display:grid;gap:6px;min-width:210px}
+.sortControl>span{font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-2)}
+.sortControl select{width:100%;background:#0d1216;border:1px solid var(--line);border-radius:8px;padding:9px 11px;color:var(--ink)}
+.wrestlerDirectory{grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.wrestlerButton{display:grid;grid-template-columns:82px minmax(0,1fr);gap:13px;align-items:center;min-height:126px;padding:11px;overflow:hidden;transition:transform .15s,border-color .15s,background .15s}
+.wrestlerButton:hover{transform:translateY(-2px);border-color:#806731;background:#151b20}
+.wrestlerHeadshot{width:82px;height:102px;border-radius:9px;overflow:hidden;display:grid;place-items:center;background:radial-gradient(circle at 35% 20%,#4a3a25,#101419 70%);border:1px solid var(--line);position:relative}
+.wrestlerHeadshot img{width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0;background:#151a1f}
+.wrestlerHeadshot span{font-family:Georgia,serif;font-size:21px!important;font-weight:800;color:#fff!important;letter-spacing:.03em}
+.wrestlerHeadshot.hasImage span{display:none}
+.wrestlerCardBody{min-width:0;display:flex;flex-direction:column;gap:5px}
+.wrestlerCardBody h3{font-family:Georgia,serif;font-size:17px;line-height:1.15;overflow-wrap:anywhere}
+.wrestlerCardBody p{font-size:9px;color:var(--muted);line-height:1.45}
+.wrestlerCardBody small{font-size:8px;color:var(--muted-2);line-height:1.45}
+.wrestlerRating{display:flex;align-items:baseline;gap:6px;margin-bottom:2px}
+.wrestlerRating strong{font-family:Georgia,serif;font-size:21px;color:var(--gold-bright);line-height:1}
+.wrestlerRating span{font-size:7px!important;text-transform:uppercase;letter-spacing:.08em;color:var(--muted-2)!important}
+
+.integrationDiagnostics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:14px}
+.integrationDiagnostics span{display:flex;flex-direction:column;gap:4px;border:1px solid var(--line);background:#0d1216;border-radius:8px;padding:10px;color:var(--muted);font-size:9px}
+.integrationDiagnostics span b{font-size:9px;color:var(--ink);text-transform:uppercase;letter-spacing:.08em}
+.integrationDiagnostics span.ready{border-color:#47b87955;background:#47b8790b;color:var(--green-bright)}
+.integrationDiagnostics span.missing{border-color:#cf454b55;background:#cf454b0a;color:#e68b8f}
+.integrationDiagnostics span.optional{border-color:#d7a84f44;color:var(--gold-bright)}
+.traktDeviceCode{margin-top:13px;border:1px solid var(--gold);background:#d7a84f0b;border-radius:9px;padding:15px;text-align:center}
+.traktDeviceCode h2{font-size:30px;margin:8px 0}.traktDeviceCode a{color:var(--gold-bright);text-decoration:underline}
+
+.serverList{gap:12px}
+.serverList .plexServerCard{display:block;padding:13px}
+.plexServerHeading{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.plexServerHeading>div{display:flex;flex-direction:column;gap:4px}
+.plexSectionList{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:12px 0}
+.plexSectionList label{display:flex;align-items:center;gap:9px;border:1px solid var(--line-soft);background:#090d10;border-radius:8px;padding:9px;cursor:pointer}
+.plexSectionList input{width:auto!important;margin:0!important;flex:none}
+.plexSectionList label>span{display:flex;flex-direction:column;gap:3px}
+.plexSectionList strong{font-size:10px}.plexSectionList small{font-size:8px;color:var(--muted-2)}
+.plexServerCard>.primaryButton{width:100%;justify-content:center;margin-top:4px}
+
+@media(max-width:1200px){.wrestlerDirectory{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px){.wrestlerDirectory{grid-template-columns:repeat(2,minmax(0,1fr))}.integrationDiagnostics{grid-template-columns:1fr}.plexSectionList{grid-template-columns:1fr}}
+@media(max-width:600px){.filterGrid{grid-template-columns:1fr!important}.activeFilters .clearAllFilters{margin-left:0}.wrestlerDirectory{grid-template-columns:1fr}.wrestlerButton{grid-template-columns:72px minmax(0,1fr)}.wrestlerHeadshot{width:72px;height:92px}}
+.emptyState>button{margin-top:14px;border:1px solid var(--gold);background:#d7a84f12;color:var(--gold-bright);border-radius:8px;padding:9px 13px}

@@ -35,4 +35,5 @@ if(!appNode.innerHTML.includes('programmeTimelineCard'))throw new Error('Program
 if(!appNode.innerHTML.includes('data-open-programme'))throw new Error('Programme popout controls are missing.');
 if(!appNode.innerHTML.includes('data-filter="yearFrom"')||!appNode.innerHTML.includes('data-filter="yearTo"'))throw new Error('Year-range filters are missing.');
 if(!appNode.innerHTML.includes('Available in Plex')||!appNode.innerHTML.includes('Official/free YouTube'))throw new Error('Availability filters are missing.');
+if(!appNode.innerHTML.includes('activeFilters')&&appNode.innerHTML.includes('Company:'))throw new Error('Active filter controls failed to render.');
 console.log(`Runtime smoke passed: ${appNode.innerHTML.length.toLocaleString()} characters rendered.`);

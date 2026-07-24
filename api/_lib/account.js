@@ -148,6 +148,8 @@ export function publicIntegration(entry) {
       selectedServer: scrubServer(payload.selectedServer),
       items: (payload.items || []).map(item => scrubItem(item, entry.userId)),
       matches: Array.isArray(payload.matches) ? payload.matches : [],
+      sections: Array.isArray(payload.sections) ? payload.sections : [],
+      selectedSectionKeys: Array.isArray(payload.selectedSectionKeys) ? payload.selectedSectionKeys : [],
       scannedAt: payload.scannedAt || null,
       updatedAt
     };

@@ -22,7 +22,7 @@ function acceptedPayload(provider, payload = {}) {
   for (const key of ['token','clientId','account','selectedServer','scannedAt']) {
     if (payload[key] !== undefined && payload[key] !== null) out[key] = payload[key];
   }
-  for (const key of ['servers','items','matches']) if (Array.isArray(payload[key])) out[key] = payload[key];
+  for (const key of ['servers','items','matches','sections','selectedSectionKeys']) if (Array.isArray(payload[key])) out[key] = payload[key];
   return out;
 }
 

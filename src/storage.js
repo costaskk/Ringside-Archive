@@ -36,7 +36,11 @@ function normalizePlexData(value) {
     account: value?.account || null,
     clientId: value?.clientId || null,
     token: value?.token || null,
-    scannedAt: value?.scannedAt || null
+    scannedAt: value?.scannedAt || null,
+    sections: Array.isArray(value?.sections) ? value.sections : [],
+    selectedSectionKeys: Array.isArray(value?.selectedSectionKeys) ? value.selectedSectionKeys : [],
+    sectionsByServer: value?.sectionsByServer && typeof value.sectionsByServer === 'object' ? value.sectionsByServer : {},
+    selectedSectionKeysByServer: value?.selectedSectionKeysByServer && typeof value.selectedSectionKeysByServer === 'object' ? value.selectedSectionKeysByServer : {}
   };
 }
 function nowIso() { return new Date().toISOString(); }

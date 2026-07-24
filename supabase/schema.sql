@@ -1,4 +1,4 @@
--- Ringside Archive v5.1 cloud schema
+-- Ringside Archive v5.2 cloud schema
 -- Run this once in Supabase Dashboard -> SQL Editor.
 
 create table if not exists public.archive_state (

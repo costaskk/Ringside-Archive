@@ -19,12 +19,20 @@ export default async function handler(req,res){
       const response=await fetch(`https://plex.tv/api/v2/pins/${id}`,{headers:headers(clientId),signal:AbortSignal.timeout(15000)});
       const data=await response.json().catch(()=>({}));if(!response.ok)return res.status(response.status).json({error:data.error||'Unable to check Plex PIN.'});
       if(!data.authToken)return res.status(200).json({id:data.id,authToken:null,expiresAt:data.expiresAt});
-      const user=await authenticateAccount(req,{optional:true});
+      let user=null;
+      try { user=await authenticateAccount(req,{optional:true}); } catch {}
       if(user){
-        const entry=await writeIntegration(user.id,'plex',{token:data.authToken,clientId},{connectedAt:new Date().toISOString()});
-        return res.status(200).json({id:data.id,connected:true,cloud:true,integration:publicIntegration(entry),expiresAt:data.expiresAt});
+        try {
+          const entry=await writeIntegration(user.id,'plex',{token:data.authToken,clientId},{connectedAt:new Date().toISOString()});
+          return res.status(200).json({id:data.id,connected:true,cloud:true,integration:publicIntegration(entry),expiresAt:data.expiresAt});
+        } catch (storageError) {
+          return res.status(200).json({
+            id:data.id,authToken:data.authToken,cloud:false,expiresAt:data.expiresAt,
+            warning:`Plex connected locally, but cross-device storage failed: ${storageError.message}`
+          });
+        }
       }
-      return res.status(200).json({id:data.id,authToken:data.authToken,expiresAt:data.expiresAt});
+      return res.status(200).json({id:data.id,authToken:data.authToken,cloud:false,expiresAt:data.expiresAt});
     }
     return res.status(405).json({error:'Method not allowed'});
   } catch(error){return sendError(res,error.status||502,error,'Plex sign-in failed.');}

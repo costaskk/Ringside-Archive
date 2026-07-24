@@ -1,12 +1,12 @@
 {
   "name": "ringside-archive",
-  "version": "5.1.1",
+  "version": "5.2.0",
   "private": true,
   "type": "module",
-  "description": "Professional wrestling chronology with Supabase accounts, roaming encrypted Trakt/Plex sync, exact episode feeds and artwork discovery",
+  "description": "Professional wrestling chronology with Supabase accounts, reliable Trakt/Plex sync, responsive filters, wrestler ratings/headshots and layered artwork discovery",
   "scripts": {
     "audit": "node scripts/audit-data.mjs",
-    "test": "node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/runtime-smoke.mjs",
+    "test": "node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/runtime-smoke.mjs",
     "sync:tvmaze": "node scripts/sync-tvmaze.mjs",
     "check:links": "node scripts/check-links.mjs",
     "discover:tvmaze": "node scripts/discover-tvmaze.mjs",

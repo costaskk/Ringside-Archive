@@ -1,4 +1,4 @@
-# Ringside Archive v5.1.1 deployment checklist
+# Ringside Archive v5.2.0 deployment checklist
 
 ## Local verification
 
@@ -15,7 +15,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.1.1 release"
+git commit -m "Initial Ringside Archive v5.2.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -52,6 +52,8 @@ node -e "console.log(require('node:crypto').randomBytes(32).toString('base64'))"
 - [ ] Create a Trakt API application.
 - [ ] Store its client ID and client secret.
 - [ ] Use the deployed Vercel URL as the application website.
+- [ ] Do not include quotes around the client ID/secret.
+- [ ] After deployment, confirm `/api/config` reports `traktConfigured: true`.
 
 ## Vercel
 
@@ -75,7 +77,15 @@ TMDB_READ_ACCESS_TOKEN        optional
 - [ ] Add the final URL to Supabase Auth URL Configuration.
 - [ ] Redeploy after environment-variable changes.
 
+## Post-upgrade cache reset
+
+- [ ] Open the deployed URL once with `?v=5.2.0`.
+- [ ] Hard refresh with **Ctrl+Shift+R**.
+- [ ] If an older interface remains, unregister the old service worker and clear site data once.
+- [ ] Confirm the footer says **Catalogue v5.2.0** and the dashboard reports **287 programme families**.
+
 ## Functional acceptance test
+
 
 - [ ] Create a Ringside account and confirm email.
 - [ ] Sign out and back in.
@@ -84,7 +94,9 @@ TMDB_READ_ACCESS_TOKEN        optional
 - [ ] Connect Trakt while signed in.
 - [ ] Import Trakt history.
 - [ ] Connect Plex while signed in.
-- [ ] Refresh servers and scan a server.
+- [ ] Refresh servers.
+- [ ] Load libraries for the intended server.
+- [ ] Select one or more wrestling library sections and scan them.
 - [ ] Confirm exact owned episodes show Plex availability.
 - [ ] Confirm Plex `viewCount` imports as Watched.
 - [ ] Confirm partial Plex `viewOffset` imports as Watching.
@@ -97,12 +109,14 @@ TMDB_READ_ACCESS_TOKEN        optional
 - [ ] Run the TVMaze update workflow.
 - [ ] Review newly discovered feed mappings before treating them as exact.
 - [ ] Add `TMDB_READ_ACCESS_TOKEN` if richer artwork is desired.
+- [ ] Open Companies and confirm logo placeholders begin resolving.
+- [ ] Open Wrestlers and confirm headshot slots and rating ordering.
 - [ ] Run the artwork workflow and manually review ambiguous images.
 - [ ] Never label a fallback or generated image as original artwork.
 
 ## Vercel Hobby function check
 
-Version 5.1.1 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+Version 5.2.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
 
 ```powershell
 npm test

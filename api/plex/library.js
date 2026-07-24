@@ -1,50 +1,252 @@
 import { resolvePlexCredentials, persistPlex } from '../_lib/providers.js';
-import { bodyOf, sendError } from '../_lib/http.js';
+import { bodyOf } from '../_lib/http.js';
 import { publicIntegration } from '../_lib/account.js';
 
-const PRODUCT='Ringside Archive';
-function allowedUri(value){try{const url=new URL(value);return url.protocol==='https:'&&(url.hostname.endsWith('.plex.direct')||url.hostname.endsWith('.plex.services'));}catch{return false;}}
-async function plexFetch(url,headers){const response=await fetch(url,{headers,signal:AbortSignal.timeout(30000)});if(!response.ok)throw new Error(`Plex returned ${response.status} for ${new URL(url).pathname}.`);return response.json();}
-function imageUrl(base,key,token){if(!key)return '';return `${base}${key}${key.includes('?')?'&':'?'}X-Plex-Token=${encodeURIComponent(token)}`;}
-function safeItem(entry,section,server,base,token,cloud){
-  const item={
-    title:entry.title,grandparentTitle:entry.grandparentTitle,parentTitle:entry.parentTitle,year:entry.year,type:entry.type,ratingKey:entry.ratingKey,
-    index:entry.index,parentIndex:entry.parentIndex,library:section.title,duration:entry.duration,originallyAvailableAt:entry.originallyAvailableAt,
-    addedAt:entry.addedAt,lastViewedAt:entry.lastViewedAt,viewCount:Number(entry.viewCount||0),viewOffset:Number(entry.viewOffset||0),
-    userRating:entry.userRating,guid:entry.guid,guids:(entry.Guid||[]).map(x=>x.id),thumb:entry.thumb,art:entry.art,
-    machineIdentifier:server.machineIdentifier,serverName:server.name
+const PRODUCT = 'Ringside Archive';
+const PAGE_SIZE = 250;
+const MAX_ITEMS = 30000;
+
+function allowedUri(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && (
+      url.hostname.endsWith('.plex.direct')
+      || url.hostname.endsWith('.plex.services')
+      || url.hostname === 'localhost'
+    );
+  } catch {
+    return false;
+  }
+}
+
+function connectionCandidates(server) {
+  const candidates = [...(server.connections || [])];
+  if (server.uri) candidates.push({ uri: server.uri, local: false, relay: false, selected: true });
+  const seen = new Set();
+  return candidates
+    .filter(connection => connection?.uri && allowedUri(connection.uri))
+    .filter(connection => !seen.has(connection.uri) && seen.add(connection.uri))
+    .sort((left, right) => {
+      const score = connection => (connection.local ? 100 : 0) + (connection.relay ? 25 : 0) + (connection.selected ? -5 : 0);
+      return score(left) - score(right);
+    });
+}
+
+async function plexJson(url, headers, timeout = 18000) {
+  const response = await fetch(url, { headers, signal: AbortSignal.timeout(timeout) });
+  const text = await response.text().catch(() => '');
+  let payload = {};
+  try { payload = text ? JSON.parse(text) : {}; }
+  catch {
+    const error = new Error(`Plex returned a non-JSON response (${response.status}) for ${new URL(url).pathname}.`);
+    error.status = response.status || 502;
+    throw error;
+  }
+  if (!response.ok) {
+    const error = new Error(payload?.error || `Plex returned ${response.status} for ${new URL(url).pathname}.`);
+    error.status = response.status;
+    throw error;
+  }
+  return payload;
+}
+
+function plexHeaders(token, clientId) {
+  return {
+    Accept: 'application/json',
+    'X-Plex-Token': token,
+    'X-Plex-Product': PRODUCT,
+    'X-Plex-Version': '5.2.0',
+    'X-Plex-Client-Identifier': clientId
   };
-  if(!cloud){item.thumbUrl=imageUrl(base,entry.thumb,token);item.artUrl=imageUrl(base,entry.art,token);}
+}
+
+function publicSections(payload) {
+  return (payload.MediaContainer?.Directory || [])
+    .filter(section => ['show', 'movie', 'video'].includes(section.type))
+    .map(section => ({
+      key: String(section.key),
+      title: section.title,
+      type: section.type,
+      agent: section.agent || null,
+      scanner: section.scanner || null,
+      language: section.language || null,
+      uuid: section.uuid || null
+    }));
+}
+
+async function findWorkingConnection(server, headers) {
+  const candidates = connectionCandidates(server);
+  const details = [];
+  for (const connection of candidates) {
+    const base = connection.uri.replace(/\/$/, '');
+    try {
+      const sectionsPayload = await plexJson(`${base}/library/sections`, headers, 14000);
+      return { base, connection, sectionsPayload, details };
+    } catch (error) {
+      details.push(`${connection.relay ? 'relay' : connection.local ? 'local' : 'remote'} ${base}: ${error.message}`);
+    }
+  }
+  const error = new Error(
+    candidates.length
+      ? 'None of this server’s secure Plex connections could be reached from Vercel. Enable Plex Remote Access or Relay, then refresh servers.'
+      : 'This server did not advertise a secure plex.direct/plex.services connection. Enable secure Remote Access or use the local export tool.'
+  );
+  error.status = 502;
+  error.details = details;
+  throw error;
+}
+
+function imageUrl(base, key, token) {
+  if (!key) return '';
+  return `${base}${key}${key.includes('?') ? '&' : '?'}X-Plex-Token=${encodeURIComponent(token)}`;
+}
+
+function safeItem(entry, section, server, base, token, cloud) {
+  const item = {
+    title: entry.title,
+    grandparentTitle: entry.grandparentTitle,
+    parentTitle: entry.parentTitle,
+    year: entry.year,
+    type: entry.type,
+    ratingKey: entry.ratingKey,
+    index: entry.index,
+    parentIndex: entry.parentIndex,
+    library: section.title,
+    libraryKey: String(section.key),
+    duration: entry.duration,
+    originallyAvailableAt: entry.originallyAvailableAt,
+    addedAt: entry.addedAt,
+    lastViewedAt: entry.lastViewedAt,
+    viewCount: Number(entry.viewCount || 0),
+    viewOffset: Number(entry.viewOffset || 0),
+    userRating: entry.userRating,
+    guid: entry.guid,
+    guids: (entry.Guid || []).map(value => value.id),
+    thumb: entry.thumb,
+    art: entry.art,
+    machineIdentifier: server.machineIdentifier,
+    serverName: server.name
+  };
+  if (!cloud) {
+    item.thumbUrl = imageUrl(base, entry.thumb, token);
+    item.artUrl = imageUrl(base, entry.art, token);
+  }
   return item;
 }
-export default async function handler(req,res){
-  if(req.method!=='POST')return res.status(405).json({error:'Method not allowed'});
-  try{
-    const body=bodyOf(req),context=await resolvePlexCredentials(req,body),payload=context.payload;
-    let server;
-    if(context.cloud){const id=body.machineIdentifier||body.server?.machineIdentifier;server=(payload.servers||[]).find(x=>x.machineIdentifier===id)||payload.selectedServer;}
-    else server=body.server;
-    if(!server)return res.status(400).json({error:'Choose a Plex server first.'});
-    const connection=(server.connections||[]).filter(x=>allowedUri(x.uri)).sort((a,b)=>Number(a.relay)-Number(b.relay))[0];
-    if(!connection)return res.status(400).json({error:'This server has no remotely reachable HTTPS plex.direct connection. Use the local export tool instead.'});
-    const base=connection.uri.replace(/\/$/,'');const serverToken=server.accessToken||payload.token;
-    const headers={'Accept':'application/json','X-Plex-Token':serverToken,'X-Plex-Product':PRODUCT,'X-Plex-Version':'5.1.0','X-Plex-Client-Identifier':payload.clientId};
-    const sectionsPayload=await plexFetch(`${base}/library/sections`,headers);const sections=sectionsPayload.MediaContainer?.Directory||[];const items=[];
-    for(const section of sections){
-      if(!['show','movie','video'].includes(section.type))continue;
-      const type=section.type==='show'?4:1;let start=0,total=Infinity;
-      while(start<total){
-        const url=`${base}/library/sections/${encodeURIComponent(section.key)}/all?type=${type}&includeGuids=1&includeUserState=1&X-Plex-Container-Start=${start}&X-Plex-Container-Size=500`;
-        const data=await plexFetch(url,headers);const media=data.MediaContainer||{},rows=media.Metadata||[];total=Number(media.totalSize??media.size??rows.length);
-        for(const entry of rows)items.push(safeItem(entry,section,server,base,serverToken,context.cloud));
-        if(!rows.length)break;start+=rows.length;
+
+async function scanSection({ section, base, headers, server, token, cloud }) {
+  const items = [];
+  const type = section.type === 'show' ? 4 : 1;
+  let start = 0;
+  let total = Infinity;
+  while (start < total && items.length < MAX_ITEMS) {
+    const params = new URLSearchParams({
+      type: String(type),
+      includeGuids: '1',
+      includeUserState: '1',
+      'X-Plex-Container-Start': String(start),
+      'X-Plex-Container-Size': String(PAGE_SIZE)
+    });
+    const url = `${base}/library/sections/${encodeURIComponent(section.key)}/all?${params}`;
+    const data = await plexJson(url, headers, 25000);
+    const media = data.MediaContainer || {};
+    const rows = media.Metadata || [];
+    total = Number(media.totalSize ?? media.size ?? rows.length);
+    for (const entry of rows) items.push(safeItem(entry, section, server, base, token, cloud));
+    if (!rows.length) break;
+    start += rows.length;
+  }
+  return items;
+}
+
+function serverFromContext(context, body) {
+  const payload = context.payload;
+  if (!context.cloud) return body.server;
+  const id = body.machineIdentifier || body.server?.machineIdentifier;
+  return (payload.servers || []).find(server => server.machineIdentifier === id) || payload.selectedServer;
+}
+
+export default async function handler(req, res) {
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+  try {
+    const body = bodyOf(req);
+    const context = await resolvePlexCredentials(req, body);
+    const payload = context.payload;
+    const server = serverFromContext(context, body);
+    if (!server) return res.status(400).json({ error: 'Choose a Plex server first.' });
+
+    const serverToken = server.accessToken || payload.token;
+    if (!serverToken) return res.status(401).json({ error: 'The selected Plex server has no usable access token. Refresh the server list.' });
+    const headers = plexHeaders(serverToken, payload.clientId);
+    const connected = await findWorkingConnection(server, headers);
+    const base = connected.base;
+    const sections = publicSections(connected.sectionsPayload);
+    const selectedServer = {
+      ...server,
+      uri: base,
+      activeConnection: {
+        uri: base,
+        local: Boolean(connected.connection.local),
+        relay: Boolean(connected.connection.relay)
       }
+    };
+
+    if ((body.action || 'scan') === 'sections') {
+      if (context.cloud) await persistPlex(context, { selectedServer, sections });
+      return res.status(200).json({
+        server: { name: server.name, machineIdentifier: server.machineIdentifier, uri: base, activeConnection: selectedServer.activeConnection },
+        sections,
+        connectionDiagnostics: connected.details,
+        cloud: context.cloud
+      });
     }
-    const selectedServer={...server,uri:base};const scannedAt=new Date().toISOString();
-    if(context.cloud){
-      const entry=await persistPlex(context,{selectedServer,items,scannedAt});const safe=publicIntegration(entry);
-      return res.status(200).json({server:safe.selectedServer,sections:sections.map(x=>({key:x.key,title:x.title,type:x.type})),items:safe.items,scannedAt,cloud:true});
+
+    const requestedKeys = new Set((Array.isArray(body.sectionKeys) ? body.sectionKeys : []).map(String));
+    const selectedSections = requestedKeys.size ? sections.filter(section => requestedKeys.has(String(section.key))) : sections;
+    if (!selectedSections.length) return res.status(400).json({ error: 'Select at least one Plex library to scan.' });
+
+    const items = [];
+    const queue = [...selectedSections];
+    const workers = Array.from({ length: Math.min(2, queue.length) }, async () => {
+      while (queue.length) {
+        const section = queue.shift();
+        const sectionItems = await scanSection({ section, base, headers, server, token: serverToken, cloud: context.cloud });
+        items.push(...sectionItems);
+      }
+    });
+    await Promise.all(workers);
+
+    const scannedAt = new Date().toISOString();
+    if (context.cloud) {
+      const entry = await persistPlex(context, {
+        selectedServer,
+        sections,
+        selectedSectionKeys: selectedSections.map(section => String(section.key)),
+        items,
+        scannedAt
+      });
+      const safe = publicIntegration(entry);
+      return res.status(200).json({
+        server: safe.selectedServer,
+        sections,
+        selectedSections,
+        items: safe.items,
+        scannedAt,
+        cloud: true
+      });
     }
-    return res.status(200).json({server:{name:server.name,machineIdentifier:server.machineIdentifier,uri:base},sections:sections.map(x=>({key:x.key,title:x.title,type:x.type})),items,scannedAt});
-  }catch(error){return sendError(res,error.status||502,error,'Plex scan failed.');}
+
+    return res.status(200).json({
+      server: { name: server.name, machineIdentifier: server.machineIdentifier, uri: base, activeConnection: selectedServer.activeConnection },
+      sections,
+      selectedSections,
+      items,
+      scannedAt
+    });
+  } catch (error) {
+    return res.status(error.status || 502).json({
+      error: error.message || 'Plex scan failed.',
+      details: Array.isArray(error.details) ? error.details : []
+    });
+  }
 }
