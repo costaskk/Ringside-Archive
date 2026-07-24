@@ -25,7 +25,7 @@ const state = {
   selectedCompany: '',
   loadedEpisodes: new Map(),
   showArtwork: new Map(),
-  visible: 50,
+  visible: 24,
   filtersOpen: true,
   wrestlerSort: 'rating',
   wrestlerIndex: new Map(),
@@ -39,51 +39,109 @@ const state = {
   autoEpisodeLoadComplete: false,
   plexMessage: '',
   traktMessage: '',
+  traktDevice: null,
+  traktPolling: false,
   artworkMessage: '',
   scanningArtwork: false,
   plexPin: null,
-  cloud: { config:null, user:null, message:'', syncing:false, integrationsLoaded:false, recovery:false }
+  cloud: { config:null, user:null, message:'', syncing:false, integrationsLoaded:false, recovery:false },
+  deferredReady: false,
+  recordCache: { episodes:null, exact:null, dirty:true },
+  renderScheduled: false
 };
 
-const DATA_FILES = ['promotions','programmes','major-events','recommendations','wrestlers','format-labels','artwork-overrides','artwork-catalog','event-details','custom-records','meta'];
+const CORE_DATA_FILES = ['promotions','programmes','major-events','recommendations','wrestlers','format-labels','custom-records','meta'];
+const DEFERRED_DATA_FILES = ['artwork-overrides','artwork-catalog','event-details'];
 const statusLabels = { unwatched:'Not started', watching:'Watching', watched:'Watched', skipped:'Skipped' };
 const navItems = [
   ['exact','timeline','Complete Timeline'],['chronology','shows','Show Index'],['wrestlers','wrestlers','Wrestlers'],
   ['recommended','picks','Recommended'],['companies','companies','Companies'],['library','library','My Library']
 ];
 
+async function fetchDataFile(name) {
+  const response = await fetch(`./data/${name}.json`, { cache: 'default' });
+  if (!response.ok) throw new Error(`Unable to load data/${name}.json`);
+  return response.json();
+}
+
+function dataKey(name) { return name.replace(/-([a-z])/g,(_,c)=>c.toUpperCase()); }
+
 async function loadData() {
-  const results = await Promise.all(DATA_FILES.map(async name => {
-    const response = await fetch(`./data/${name}.json`);
-    if (!response.ok) throw new Error(`Unable to load data/${name}.json`);
-    return response.json();
-  }));
-  const data = Object.fromEntries(DATA_FILES.map((name,index)=>[name.replace(/-([a-z])/g,(_,c)=>c.toUpperCase()),results[index]]));
+  let data=null;
+  try{
+    const response=await fetch('./data/core.json',{cache:'default'});
+    if(response.ok)data=await response.json();
+  }catch{}
+  if(!data){
+    const results = await Promise.all(CORE_DATA_FILES.map(fetchDataFile));
+    data = Object.fromEntries(CORE_DATA_FILES.map((name,index)=>[dataKey(name),results[index]]));
+  }
+  data.artworkOverrides = {};
+  data.artworkCatalog = { programmes:{}, records:{}, episodes:{} };
+  data.eventDetails = {};
   data.promotionMap = new Map(data.promotions.map(x=>[x.id,x]));
   data.programmeMap = new Map(data.programmes.map(x=>[x.id,x]));
   data.recommendationsByProgramme = new Map();
-  for (const item of data.recommendations) data.recommendationsByProgramme.set(item.programId,[...(data.recommendationsByProgramme.get(item.programId)||[]),item]);
+  data.recommendationMap = new Map();
+  for (const item of data.recommendations) {
+    data.recommendationsByProgramme.set(item.programId,[...(data.recommendationsByProgramme.get(item.programId)||[]),item]);
+    data.recommendationMap.set(item.id,item);
+  }
   return data;
+}
+
+async function loadDeferredData() {
+  if (state.deferredReady || !state.data) return;
+  try {
+    const results = await Promise.all(DEFERRED_DATA_FILES.map(fetchDataFile));
+    for (let index=0; index<DEFERRED_DATA_FILES.length; index++) state.data[dataKey(DEFERRED_DATA_FILES[index])] = results[index];
+    state.deferredReady = true;
+    rebuildWrestlerIndex();
+    scheduleRender();
+  } catch (error) {
+    console.warn('Deferred archive data:', error.message);
+  }
 }
 
 function promotion(id){ return state.data.promotionMap.get(id); }
 function programme(id){ return state.data.programmeMap.get(id); }
 function currentStatus(key) { return state.statuses[key] || 'unwatched'; }
 function statusKey(record){ return record.itemKey || `event:${record.id}`; }
-function allLoadedEpisodes(){ return [...state.loadedEpisodes.values()].flat(); }
+function invalidateRecordCache(){ state.recordCache={ episodes:null, exact:null, dirty:true }; if(state.data)state.data._recordByKey=null; }
+function allLoadedEpisodes(){
+  if(!state.recordCache.episodes) state.recordCache.episodes=[...state.loadedEpisodes.values()].flat();
+  return state.recordCache.episodes;
+}
 function programmeTimelineRecords(){
-  return state.data.programmes.map(p=>({
+  if(!state.data._programmeTimeline) state.data._programmeTimeline=state.data.programmes.map(p=>({
     ...p, title:p.name, date:p.firstAirDate, programId:p.id, itemKey:`program:${p.id}`,
     isProgrammeIndex:true, timelineLabel:'Programme begins / archive index'
   }));
+  return state.data._programmeTimeline;
 }
-function exactRecords(){ return [...programmeTimelineRecords(),...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()].sort((a,b)=>String(a.date).localeCompare(String(b.date))||String(a.title).localeCompare(String(b.title))); }
+function exactRecords(){
+  if(!state.recordCache.exact||state.recordCache.dirty){
+    state.recordCache.exact=[...programmeTimelineRecords(),...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()].sort((a,b)=>String(a.date).localeCompare(String(b.date))||String(a.title).localeCompare(String(b.title)));
+    state.recordCache.dirty=false;
+  }
+  return state.recordCache.exact;
+}
 function recordByKey(key){
-  if(key.startsWith('episode:')) return allLoadedEpisodes().find(item=>statusKey(item)===key);
-  if(key.startsWith('event:')) return [...state.data.majorEvents,...state.data.customRecords].find(item=>statusKey(item)===key);
-  return null;
+  if(!state.data._recordByKey||state.recordCache.dirty){
+    state.data._recordByKey=new Map([...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()].map(item=>[statusKey(item),item]));
+  }
+  return state.data._recordByKey.get(key)||null;
 }
-function showToast(message) { state.toast = message; render(); setTimeout(()=>{ if(state.toast===message){state.toast='';render();}},3800); }
+function scheduleRender(){
+  if(state.renderScheduled)return;
+  state.renderScheduled=true;
+  (globalThis.requestAnimationFrame||((callback)=>setTimeout(callback,0)))(()=>{state.renderScheduled=false;render();});
+}
+function onIdle(callback,timeout=1400){
+  if(globalThis.requestIdleCallback)return requestIdleCallback(()=>callback(),{timeout});
+  return setTimeout(callback,Math.min(timeout,800));
+}
+function showToast(message) { state.toast = message; scheduleRender(); setTimeout(()=>{ if(state.toast===message){state.toast='';scheduleRender();}},3800); }
 
 async function apiJson(response, fallback='Request failed.') {
   const text=await response.text().catch(()=> '');
@@ -110,53 +168,126 @@ function companyArtworkCandidates(promotionId){
 function wrestlerHeadshotCandidate(name){
   const local=state.artworkCache[wrestlerArtworkKey(name)]||{};
   const url=local.headshot||local.poster||'';
-  return url?{url,label:local.source||'Wrestler headshot',sourceUrl:local.sourceUrl}:null;
+  return url?{url:displayArtworkUrl(url),label:local.source||'Wrestler headshot',sourceUrl:local.sourceUrl}:null;
+}
+function artworkLookupImage(kind,title,aliases=[]){
+  const params=new URLSearchParams({render:'1',kind,title});
+  if(aliases.length)params.set('aliases',aliases.slice(0,4).join('|'));
+  return `./api/artwork/search?${params.toString()}`;
 }
 function officialSiteIcon(url){try{return url?new URL('/favicon.ico',url).href:'';}catch{return '';}}
 function companyLogo(p,context='companyLogo'){
   const image=companyArtworkCandidates(p?.id)[0];
-  const fallbackIcon=!image?officialSiteIcon(p?.officialUrl):'';
-  const source=image?.url||fallbackIcon;
-  return `<div class="${context} ${source?'hasImage':''}" style="--accent:${h(p?.color||'#d7a84f')}">${source?`<img src="${h(source)}" alt="${h(p.name)} ${image?'logo':'official site icon'}" loading="lazy" referrerpolicy="no-referrer">`:''}<span>${h(p?.shortName||'RA')}</span></div>`;
+  const source=image?.url?displayArtworkUrl(image.url):artworkLookupImage('company',p?.name||p?.shortName||'Wrestling promotion',[p?.shortName,...(p?.aliases||[])].filter(Boolean));
+  return `<div class="${context} hasImage" style="--accent:${h(p?.color||'#d7a84f')}"><img src="${h(source)}" alt="${h(p?.name||'Promotion')} logo" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"><span>${h(p?.shortName||'RA')}</span></div>`;
 }
-function wrestlerHeadshot(name){
+function wrestlerHeadshot(name,priority='lazy'){
   const image=wrestlerHeadshotCandidate(name);
-  return `<div class="wrestlerHeadshot ${image?'hasImage':''}">${image?`<img src="${h(image.url)}" alt="${h(name)} headshot" loading="lazy" referrerpolicy="no-referrer">`:''}<span>${h(name.split(/\s+/).map(x=>x[0]).join('').slice(0,3))}</span></div>`;
+  const source=image?.url||artworkLookupImage('wrestler',name);
+  return `<div class="wrestlerHeadshot hasImage"><img src="${h(source)}" alt="${h(name)} headshot" loading="${priority==='eager'?'eager':'lazy'}" decoding="async" fetchpriority="${priority==='eager'?'high':'low'}" referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"><span>${h(name.split(/\s+/).map(x=>x[0]).join('').slice(0,3))}</span></div>`;
 }
 
 function rebuildWrestlerIndex(){
   if(!state.data)return;
-  const profiles=new Map(state.data.wrestlers.map(name=>[name,{name,normalized:normalize(name),events:new Map(),picks:new Map(),sourceRatings:[]} ]));
+  const profiles=new Map(state.data.wrestlers.map(name=>[name,{name,normalized:normalize(name),events:new Map(),picks:new Map(),sourceRatings:[],programmeIds:new Set()}]));
+  const normalizedProfiles=new Map([...profiles.values()].map(profile=>[profile.normalized,profile]));
+  const addRecord=(profile,record)=>{
+    if(!profile||!record)return;
+    const key=statusKey(record);
+    profile.events.set(key,{...record,_type:'event'});
+    if(record.programId)profile.programmeIds.add(record.programId);
+    const rating=Number(record.rating);
+    if(Number.isFinite(rating)&&rating>0)profile.sourceRatings.push(rating);
+  };
   const records=[...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()];
   for(const record of records){
     const details=detailsFor(record,state.data);
-    const hay=normalize([record.title,record.mainEvent,record.description,...details.competitors].filter(Boolean).join(' '));
-    for(const profile of profiles.values()){
-      if(!hay.includes(profile.normalized))continue;
-      const key=statusKey(record);profile.events.set(key,{...record,_type:'event'});
-      const rating=Number(record.rating);if(Number.isFinite(rating)&&rating>0)profile.sourceRatings.push(rating);
+    const candidates=[...(record.wrestlers||[]),...(details.competitors||[])];
+    const matched=new Set();
+    for(const candidate of candidates){
+      const normalized=normalize(candidate);
+      const exact=normalizedProfiles.get(normalized);
+      if(exact){addRecord(exact,record);matched.add(exact.name);continue;}
+      for(const profile of profiles.values()){
+        if(matched.has(profile.name))continue;
+        if(normalized===profile.normalized||normalized.includes(profile.normalized)||profile.normalized.includes(normalized)){
+          addRecord(profile,record);matched.add(profile.name);
+        }
+      }
     }
   }
   for(const pick of state.data.recommendations){
     for(const name of pick.wrestlers||[]){
-      const profile=profiles.get(name)||[...profiles.values()].find(row=>row.normalized===normalize(name));
-      if(profile)profile.picks.set(pick.id,{...pick,_type:'pick'});
+      const profile=profiles.get(name)||normalizedProfiles.get(normalize(name));
+      if(profile){profile.picks.set(pick.id,{...pick,_type:'pick'});if(pick.programId)profile.programmeIds.add(pick.programId);}
     }
   }
   for(const profile of profiles.values()){
-    profile.items=[...profile.events.values(),...profile.picks.values()].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
+    const unique=new Map();
+    for(const item of [...profile.events.values(),...profile.picks.values()]){
+      const dedupe=`${item.date||''}:${normalize(item.title||item.event||item.id)}`;
+      const existing=unique.get(dedupe);
+      if(!existing||item._type==='pick')unique.set(dedupe,item);
+    }
+    profile.items=[...unique.values()].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
     profile.appearances=profile.events.size;profile.curated=profile.picks.size;
   }
   state.wrestlerIndex=profiles;
 }
+
 function wrestlerMetrics(profile){
   const ratings=[...profile.sourceRatings];
-  for(const [key,item] of profile.events){const rating=Number(state.reviews[key]?.rating);if(Number.isFinite(rating)&&rating>0)ratings.push(rating);}
+  for(const [key] of profile.events){const rating=Number(state.reviews[key]?.rating);if(Number.isFinite(rating)&&rating>0)ratings.push(rating);}
+  for(const pick of profile.picks.values()){
+    const stars=Number(pick.archiveStars);
+    if(Number.isFinite(stars)&&stars>0)ratings.push(stars*2);
+  }
   const average=ratings.length?ratings.reduce((sum,value)=>sum+value,0)/ratings.length:null;
-  const archiveScore=average??Math.min(9.9,5.4+Math.log10(1+profile.appearances+profile.curated*5)*1.75);
+  const prominence=Math.min(9.9,5.4+Math.log10(1+profile.appearances+profile.curated*5)*1.75);
+  const archiveScore=average==null?prominence:(average*.82+prominence*.18);
   return {average,archiveScore,ratings:ratings.length,appearances:profile.appearances,curated:profile.curated};
 }
-function setView(view) { state.view=view; state.visible=50; state.modal=null; location.hash=`#${view}`; render(); }
+
+function editorialStars(item){
+  const personal=Number(state.reviews[statusKey(item)]?.rating);
+  if(Number.isFinite(personal)&&personal>0)return {stars:Math.min(5,personal/2),label:'Your rating'};
+  const source=Number(item.rating);
+  if(Number.isFinite(source)&&source>0)return {stars:Math.min(5,source/2),label:'Source rating'};
+  const recommendation=item._type==='pick'?item:state.data.recommendations.find(rec=>rec.programId===item.programId&&rec.date===item.date&&normalize(rec.title)===normalize(item.title));
+  if(recommendation){
+    const stars=Number(recommendation.archiveStars||4.25);
+    return {stars:Math.min(5,Math.max(0,stars)),label:recommendation.ratingLabel||'Archive editorial rating'};
+  }
+  return {stars:Math.min(5,3.4+Math.log10(1+(item._type==='event'?2:1))*0.7),label:'Archive significance rating'};
+}
+function relatedArchiveRecord(item){
+  if(item._type==='event')return item;
+  const candidates=[...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()].filter(record=>record.date===item.date&&(record.programId===item.programId||record.promotionId===item.promotionId));
+  return candidates.sort((a,b)=>{
+    const as=normalize(`${a.title} ${a.mainEvent||''}`).includes(normalize(item.title))?1:0;
+    const bs=normalize(`${b.title} ${b.mainEvent||''}`).includes(normalize(item.title))?1:0;
+    return bs-as;
+  })[0]||null;
+}
+function topMatchesForProfile(profile){
+  if(!profile)return [];
+  const rows=profile.items.map(item=>({...item,_stars:editorialStars(item)}));
+  const seen=new Set();
+  return rows.filter(item=>{
+    const key=`${item.date||''}:${normalize(item.title||item.event||item.id)}`;
+    if(seen.has(key))return false;seen.add(key);return true;
+  }).sort((a,b)=>b._stars.stars-a._stars.stars||Number(b._type==='pick')-Number(a._type==='pick')||String(b.date).localeCompare(String(a.date))).slice(0,10);
+}
+function showsForProfile(profile){
+  if(!profile)return [];
+  return [...profile.programmeIds].map(id=>programme(id)).filter(Boolean).sort((a,b)=>a.firstAirDate.localeCompare(b.firstAirDate)||a.name.localeCompare(b.name));
+}
+function starMarkup(value){
+  const stars=Math.max(0,Math.min(5,Number(value)||0));
+  return `<span class="starScale" aria-label="${stars.toFixed(2)} out of 5 stars"><span style="--rating:${(stars/5*100).toFixed(1)}%">★★★★★</span><b>${stars.toFixed(2)}</b></span>`;
+}
+
+function setView(view) { state.view=view; state.visible=24; state.modal=null; location.hash=`#${view}`; render(); if(['exact','chronology'].includes(view)&&state.settings.autoLoadEpisodes&&!state.autoEpisodeLoadStarted)onIdle(()=>loadAllEpisodes(false),900); }
 
 function accountConnected(){ return Boolean(state.cloud.user?.id); }
 function traktConnected(){ return Boolean(state.trakt.accessToken || (state.trakt.cloudConnected && accountConnected())); }
@@ -405,7 +536,7 @@ function exactView(){
   const visible=filtered.slice(0,state.visible);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=filtered.length.toLocaleString();});
   return `<div class="viewHeader"><div><span class="eyebrow">Individual dated records</span><h2>Exact episodes, PPVs & supercards</h2></div><div class="viewControls"><span>${allLoadedEpisodes().length.toLocaleString()} exact weekly episodes loaded</span></div></div>
-  <section class="exactChronologyView"><div class="exactCoverageBar"><div><span class="eyebrow">Unified watch chronology</span><h3>Television, PPVs, PLEs, tournaments & supercards</h3><p>Mapped weekly feeds load automatically and merge with the recovered major-event catalogue. Use filters for company, wrestler, date range, YouTube, Plex or artwork.</p>${state.syncMessage?`<div class="syncProgress">${h(state.syncMessage)}</div>`:''}</div><div class="coverageActions"><button data-action="reload-all-episodes">Refresh all exact feeds</button><button data-action="discover-feeds">Discover more feeds</button><button data-action="scan-visible-artwork">Scan visible artwork</button></div></div>
+  <section class="exactChronologyView"><div class="exactCoverageBar"><div><span class="eyebrow">Unified watch chronology</span><h3>Television, PPVs, PLEs, tournaments & supercards</h3><p>Mapped weekly feeds load automatically and merge with the recovered major-event catalogue. Use filters for company, wrestler, date range, YouTube, Plex or artwork.</p>${state.syncMessage?`<div class="syncProgress" id="episodeLoadStatus">${h(state.syncMessage)}</div>`:''}</div><div class="coverageActions"><button data-action="reload-all-episodes">Refresh all exact feeds</button><button data-action="discover-feeds">Discover more feeds</button><button data-action="scan-visible-artwork">Scan visible artwork</button></div></div>
   <div class="exactRecordsList">${visible.map(exactCard).join('')||empty('No records match the current filters.','Reset the filters or widen the year range.',true)}</div>${filtered.length>state.visible?`<div class="loadMoreRow"><button data-action="load-more">Show ${Math.min(50,filtered.length-state.visible)} more</button></div>`:''}</section>`;
 }
 
@@ -438,14 +569,19 @@ function companiesView(){
     if(state.filters.query&&!normalize(`${p.name} ${p.shortName} ${p.description}`).includes(normalize(state.filters.query)))return false;
     return true;
   }).sort((a,b)=>a.shortName.localeCompare(b.shortName));
+  const visibleItems=items.slice(0,state.visible);
+  const programmeCounts=new Map(),eventCounts=new Map(),episodeCounts=new Map();
+  for(const row of state.data.programmes)programmeCounts.set(row.promotionId,(programmeCounts.get(row.promotionId)||0)+1);
+  for(const row of state.data.majorEvents)eventCounts.set(row.promotionId,(eventCounts.get(row.promotionId)||0)+1);
+  for(const row of allLoadedEpisodes())episodeCounts.set(row.promotionId,(episodeCounts.get(row.promotionId)||0)+1);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=items.length.toLocaleString();});
-  return `<div class="viewHeader"><div><span class="eyebrow">Promotion directory</span><h2>Companies, territories & lineages</h2></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible logos</button></div></div><section class="cardGrid companyDirectory">${items.map(p=>{const pc=state.data.programmes.filter(x=>x.promotionId===p.id).length,ec=state.data.majorEvents.filter(x=>x.promotionId===p.id).length,episodes=allLoadedEpisodes().filter(x=>x.promotionId===p.id).length;return `<article class="companyCard" style="--accent:${h(p.color)}">${companyLogo(p)}<div class="companySwatch"></div><span class="eyebrow">${h(p.region)}</span><h3>${h(p.shortName)}</h3><strong>${h(p.name)}</strong><p>${h(p.description)}</p><div class="heroMeta"><span>${pc} programmes</span><span>${ec} events</span><span>${episodes.toLocaleString()} episodes</span></div><div class="cardActions"><button type="button" data-company="${h(p.id)}">Open chronology</button>${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank" rel="noreferrer">Official ↗</a>`:''}${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">YouTube ↗</a>`:''}</div></article>`}).join('')}</section>`;
+  return `<div class="viewHeader"><div><span class="eyebrow">Promotion directory</span><h2>Companies, territories & lineages</h2></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible logos</button></div></div><section class="cardGrid companyDirectory">${visibleItems.map(p=>`<article class="companyCard" style="--accent:${h(p.color)}">${companyLogo(p)}<div class="companySwatch"></div><span class="eyebrow">${h(p.region)}</span><h3>${h(p.shortName)}</h3><strong>${h(p.name)}</strong><p>${h(p.description)}</p><div class="heroMeta"><span>${programmeCounts.get(p.id)||0} programmes</span><span>${eventCounts.get(p.id)||0} events</span><span>${(episodeCounts.get(p.id)||0).toLocaleString()} episodes</span></div><div class="cardActions"><button type="button" data-company="${h(p.id)}">Open chronology</button>${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank" rel="noreferrer">Official ↗</a>`:''}${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">YouTube ↗</a>`:''}</div></article>`).join('')}</section>${items.length>visibleItems.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleItems.length)} more companies</button></div>`:''}`;
 }
 
 function recommendedView(){
   const filtered=state.data.recommendations.filter(x=>matchFilters(x)),items=filtered.slice(0,state.visible);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=filtered.length.toLocaleString();});
-  return `<div class="viewHeader"><div><span class="eyebrow">Curated paths</span><h2>Recommended matches, events & episodes</h2></div></div><section class="cardGrid">${items.map(x=>{const p=promotion(x.promotionId),key=`recommendation:${x.id}`,st=currentStatus(key);return `<article class="recommendationCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="eyebrow">${h(fmtDate(x.date))} • ${h(p?.shortName||'')}</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><p>${h(x.why)}</p><div class="wrestlerTags">${(x.wrestlers||[]).map(w=>`<span>${h(w)}</span>`).join('')}</div><div class="cardActions">${x.watchUrl?`<a href="${h(x.watchUrl)}" target="_blank">Watch/search ↗</a>`:''}${x.sourceUrl?`<a href="${h(x.sourceUrl)}" target="_blank">Source ↗</a>`:''}<button data-status-key="${key}" data-status="${st==='watched'?'unwatched':'watched'}">${st==='watched'?'Watched ✓':'Mark watched'}</button></div></article>`}).join('')}</section>`;
+  return `<div class="viewHeader"><div><span class="eyebrow">Curated paths</span><h2>Recommended matches, events & episodes</h2></div></div><section class="cardGrid">${items.map(x=>{const p=promotion(x.promotionId),key=`recommendation:${x.id}`,st=currentStatus(key);return `<article class="recommendationCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="eyebrow">${h(fmtDate(x.date))} • ${h(p?.shortName||'')}</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><div class="topMatchRating">${starMarkup(Number(x.archiveStars||4.25))}<small>${h(x.ratingLabel||'Archive editorial rating')}</small></div><p>${h(x.why)}</p><div class="wrestlerTags">${(x.wrestlers||[]).map(w=>`<button data-wrestler="${h(w)}">${h(w)}</button>`).join('')}</div><div class="cardActions">${x.watchUrl?`<a href="${h(x.watchUrl)}" target="_blank">Watch/search ↗</a>`:''}${x.sourceUrl?`<a href="${h(x.sourceUrl)}" target="_blank">Source ↗</a>`:''}<button data-status-key="${key}" data-status="${st==='watched'?'unwatched':'watched'}">${st==='watched'?'Watched ✓':'Mark watched'}</button></div></article>`}).join('')}</section>`;
 }
 
 function careerItems(wrestler){return state.wrestlerIndex.get(wrestler)?.items||[];}
@@ -475,11 +611,18 @@ function wrestlersView(){
   if(state.filters.wrestler)return wrestlerCareer(state.filters.wrestler);
   const profiles=sortedWrestlerProfiles(),items=profiles.slice(0,state.visible);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=profiles.length.toLocaleString();});
-  return `<div class="viewHeader"><div><span class="eyebrow">Career viewing routes</span><h2>Follow a wrestler chronologically</h2><p class="viewIntro">Sorted by Archive score by default. Archive score combines available source ratings, your own ratings, curated picks and matched appearances; it is not an external public ranking.</p></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible headshots</button><label class="sortControl"><span>Sort wrestlers</span><select data-wrestler-sort><option value="rating" ${state.wrestlerSort==='rating'?'selected':''}>Rating: high to low</option><option value="appearances" ${state.wrestlerSort==='appearances'?'selected':''}>Most appearances</option><option value="curated" ${state.wrestlerSort==='curated'?'selected':''}>Most curated picks</option><option value="name" ${state.wrestlerSort==='name'?'selected':''}>Name A–Z</option></select></label></div></div><section class="wrestlerDirectory">${items.map(profile=>{const metrics=profile.currentMetrics||wrestlerMetrics(profile);return `<button type="button" class="wrestlerButton" data-wrestler="${h(profile.name)}">${wrestlerHeadshot(profile.name)}<div class="wrestlerCardBody"><div class="wrestlerRating"><strong>${metrics.archiveScore.toFixed(1)}</strong><span>Archive score</span></div><h3>${h(profile.name)}</h3><p>${metrics.appearances.toLocaleString()} matched records • ${metrics.curated} curated picks</p><small>${metrics.ratings?`${metrics.ratings} source/personal ratings included`:'No direct ratings yet; score uses archive prominence'}</small></div></button>`}).join('')}</section>${profiles.length>state.visible?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,profiles.length-state.visible)} more wrestlers</button></div>`:''}`;
+  return `<div class="viewHeader"><div><span class="eyebrow">Career viewing routes</span><h2>Follow a wrestler chronologically</h2><p class="viewIntro">Sorted by Archive score by default. Archive score combines available source ratings, your own ratings, curated picks and matched appearances; it is not an external public ranking.</p></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible headshots</button><label class="sortControl"><span>Sort wrestlers</span><select data-wrestler-sort><option value="rating" ${state.wrestlerSort==='rating'?'selected':''}>Rating: high to low</option><option value="appearances" ${state.wrestlerSort==='appearances'?'selected':''}>Most appearances</option><option value="curated" ${state.wrestlerSort==='curated'?'selected':''}>Most curated picks</option><option value="name" ${state.wrestlerSort==='name'?'selected':''}>Name A–Z</option></select></label></div></div><section class="wrestlerDirectory">${items.map(profile=>{const metrics=profile.currentMetrics||wrestlerMetrics(profile);return `<button type="button" class="wrestlerButton" data-wrestler="${h(profile.name)}">${wrestlerHeadshot(profile.name)}<div class="wrestlerCardBody"><div class="wrestlerRating"><strong>${metrics.archiveScore.toFixed(1)}</strong><span>Archive score</span></div><h3>${h(profile.name)}</h3><p>${metrics.appearances.toLocaleString()} matched records • ${metrics.curated} curated picks</p><small>${metrics.ratings?`${metrics.ratings} source, personal or editorial ratings included`:'No direct ratings yet; score uses archive prominence'}</small></div></button>`}).join('')}</section>${profiles.length>state.visible?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,profiles.length-state.visible)} more wrestlers</button></div>`:''}`;
 }
 function wrestlerCareer(w){
-  const items=careerItems(w).filter(item=>matchFilters(item));const profile=state.wrestlerIndex.get(w),metrics=profile?wrestlerMetrics(profile):null;
-  return `<div class="viewHeader"><div><span class="eyebrow">Career chronology</span><h2>${h(w)}</h2>${metrics?`<p class="viewIntro">Archive score ${metrics.archiveScore.toFixed(1)} • ${metrics.appearances} matched records • ${metrics.curated} curated picks</p>`:''}</div><div class="viewControls"><button type="button" data-action="clear-wrestler">Back to directory</button><button type="button" data-action="reset-filters">Reset all filters</button></div></div><section class="careerTimeline">${items.map(x=>x._type==='event'?exactCard(x):`<article class="careerCard"><span class="eyebrow">${h(fmtDate(x.date))} • Curated pick</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><p>${h(x.why)}</p>${x.watchUrl?`<div class="cardActions"><a href="${h(x.watchUrl)}" target="_blank">Watch/search ↗</a></div>`:''}</article>`).join('')||empty('No exact matches under the current filters.','Reset the company/year filters or return to the wrestler directory.',true)}</section>`;
+  const profile=state.wrestlerIndex.get(w),metrics=profile?wrestlerMetrics(profile):null;
+  const items=careerItems(w).filter(item=>matchFilters(item));
+  const topMatches=topMatchesForProfile(profile);
+  const shows=showsForProfile(profile);
+  const visibleCareer=items.slice(0,Math.max(40,state.visible));
+  return `<section class="wrestlerProfileHero"><div class="wrestlerProfilePortrait">${wrestlerHeadshot(w,'eager')}</div><div class="wrestlerProfileIntro"><span class="eyebrow">Career viewing route</span><h1>${h(w)}</h1>${metrics?`<div class="profileMetricRow"><span><strong>${metrics.archiveScore.toFixed(1)}</strong><small>Archive score</small></span><span><strong>${metrics.appearances}</strong><small>Matched records</small></span><span><strong>${metrics.curated}</strong><small>Curated classics</small></span><span><strong>${shows.length}</strong><small>Programme families</small></span></div>`:''}<p>Explore the highest-rated matches, then continue into every indexed programme and dated appearance in Ringside Archive.</p><div class="modalActions"><button type="button" data-action="clear-wrestler">Back to wrestler directory</button><button type="button" data-action="reset-filters">Reset all filters</button></div></div></section>
+  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Archive editorial selection</span><h2>Top ${Math.min(10,topMatches.length)} matches</h2></div><small>Stars combine stored source ratings, your ratings and clearly labelled Ringside editorial ratings.</small></div><div class="topMatchGrid">${topMatches.map((item,index)=>{const related=relatedArchiveRecord(item),prog=programme(item.programId),p=promotion(item.promotionId),rating=item._stars;return `<article class="topMatchCard" style="--accent:${h(p?.color||'#d7a84f')}"><span class="topMatchRank">${String(index+1).padStart(2,'0')}</span><div><span class="eyebrow">${h(fmtDate(item.date))} • ${h(p?.shortName||'Archive')}</span><h3>${h(item.title)}</h3>${item.event?`<strong>${h(item.event)}</strong>`:''}${item.why?`<p>${h(item.why)}</p>`:''}<div class="topMatchRating">${starMarkup(rating.stars)}<small>${h(rating.label)}</small></div><div class="cardActions">${related?`<button data-open-record="${h(related.id)}">Open archive record</button>`:prog?`<button data-open-programme="${h(prog.id)}">Open show</button>`:''}${item.watchUrl?`<a href="${h(item.watchUrl)}" target="_blank" rel="noreferrer">Watch/search ↗</a>`:''}${item.sourceUrl?`<a href="${h(item.sourceUrl)}" target="_blank" rel="noreferrer">Source ↗</a>`:''}</div></div></article>`}).join('')||empty('No rated matches are indexed yet.','As curated recommendations and ratings are added, they will appear here.')}</div></section>
+  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Programme appearances</span><h2>Shows featuring ${h(w)}</h2></div><strong>${shows.length}</strong></div><div class="appearanceShowGrid">${shows.map(show=>{const company=promotion(show.promotionId);return `<button type="button" class="appearanceShowCard" data-open-programme="${h(show.id)}" style="--accent:${h(company?.color||'#d7a84f')}">${companyLogo(company,'appearanceCompanyLogo')}<span><small>${h(company?.shortName||'')}</small><strong>${h(show.name)}</strong><em>${h(show.firstAirDate)}${show.endDate?` – ${h(show.endDate)}`:''}</em></span></button>`}).join('')||'<p class="sourceNote">No programme-family links have been indexed for this wrestler yet.</p>'}</div></section>
+  <section class="profileFeatureSection"><div class="sectionHeading"><div><span class="eyebrow">Full archive path</span><h2>Chronological appearances</h2></div><strong>${items.length}</strong></div><div class="careerTimeline">${visibleCareer.map(x=>x._type==='event'?exactCard(x):`<article class="careerCard"><span class="eyebrow">${h(fmtDate(x.date))} • Curated pick</span><h3>${h(x.title)}</h3><strong>${h(x.event)}</strong><div class="topMatchRating">${starMarkup(editorialStars(x).stars)}</div><p>${h(x.why)}</p><div class="cardActions">${programme(x.programId)?`<button data-open-programme="${h(x.programId)}">Open show</button>`:''}${x.watchUrl?`<a href="${h(x.watchUrl)}" target="_blank" rel="noreferrer">Watch/search ↗</a>`:''}</div></article>`).join('')||empty('No exact matches under the current filters.','Reset the company/year filters or return to the wrestler directory.',true)}</div>${items.length>visibleCareer.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleCareer.length)} more appearances</button></div>`:''}</section>`;
 }
 
 function libraryView(){
@@ -547,19 +690,32 @@ function plexServerPanel(server){
   return `<article class="plexServerCard"><div class="plexServerHeading"><div><strong>${h(server.name)}</strong><small>${server.owned?'Owned server':'Shared server'} • ${server.connections?.length||0} advertised connections</small></div><button type="button" data-plex-load-server="${h(server.machineIdentifier)}">${sections.length?'Refresh libraries':'Load libraries'}</button></div>${sections.length?`<div class="plexSectionList">${sections.map(section=>`<label><input type="checkbox" data-plex-section="${h(section.key)}" data-plex-section-server="${h(server.machineIdentifier)}" ${selected.has(String(section.key))?'checked':''}><span><strong>${h(section.title)}</strong><small>${h(section.type)}</small></span></label>`).join('')}</div><button type="button" class="primaryButton" data-plex-scan-server="${h(server.machineIdentifier)}">Scan selected libraries</button>`:'<p class="sourceNote">Load libraries first. The app will test every secure remote/relay connection and show a detailed error if none can be reached from Vercel.</p>'}</article>`;
 }
 
+function traktDeviceMarkup(){
+  const device=state.traktDevice;
+  if(!device)return '';
+  const seconds=Math.max(0,Math.ceil((device.expiresAt-Date.now())/1000));
+  return `<div class="traktDeviceCode" role="status" aria-live="polite"><div class="traktCodeHeader"><span class="connectionPulse"></span><strong>${h(device.status||'Waiting for authorization')}</strong><small id="traktCountdown">${Math.floor(seconds/60)}:${String(seconds%60).padStart(2,'0')}</small></div><p>Open Trakt activation and enter this code:</p><button type="button" class="deviceCodeCopy" data-action="trakt-copy-code"><code>${h(device.userCode)}</code><span>Copy code</span></button><div class="modalActions"><a class="primaryButton" href="${h(device.verificationUrl)}" target="_blank" rel="noreferrer">Open Trakt activation ↗</a><button type="button" data-action="trakt-cancel">Cancel</button></div><p class="sourceNote">This code stays visible while Ringside checks authorization. You can safely switch tabs.</p></div>`;
+}
+function updateTraktCountdown(){
+  const el=document.querySelector('#traktCountdown'),device=state.traktDevice;
+  if(!el||!device)return;
+  const seconds=Math.max(0,Math.ceil((device.expiresAt-Date.now())/1000));
+  el.textContent=`${Math.floor(seconds/60)}:${String(seconds%60).padStart(2,'0')}`;
+}
+
 function connectionsModal(){
   const servers=state.plexData.servers||[],traktOn=traktConnected(),plexOn=plexConnected();
   const config=state.cloud.config||{},diag=config.diagnostics||{};
   const traktReady=Boolean(config.traktConfigured),artworkReady=Boolean(config.tmdbConfigured);
   const accountNote=accountConnected()?`<div class="accountSyncNotice ready"><strong>Cross-device integration storage enabled</strong><span>Connected Plex/Trakt accounts and the latest Plex scan are attached to ${h(state.cloud.user.email||'this account')}.</span></div>`:`<div class="accountSyncNotice"><strong>Connections are device-local</strong><span>Sign in to a Ringside account before connecting Plex or Trakt to make them available on your other devices.</span><button data-action="account">Sign in</button></div>`;
   const diagnostics=`<div class="integrationDiagnostics"><span class="${traktReady?'ready':'missing'}"><b>Trakt</b>${traktReady?'Configured':'Missing Vercel variables'}</span><span class="${config.encryptedIntegrationStorage?'ready':'missing'}"><b>Roaming vault</b>${config.encryptedIntegrationStorage?'Configured':'Incomplete Supabase server setup'}</span><span class="${artworkReady?'ready':'optional'}"><b>TMDB artwork</b>${artworkReady?'Configured':'Optional — Wikipedia fallback active'}</span></div>`;
-  return modalShell('Connections, sync & artwork',`${accountNote}${diagnostics}<div class="connectionGrid"><section class="connectionPanel"><h3>Trakt viewing sync</h3><p>Exact episodes and supported event records synchronize both ways. With a Ringside account, the Trakt refresh token is encrypted on the server and works from every signed-in device.</p><div class="modalActions">${traktOn?`<button data-action="trakt-sync">Import watched history</button><button data-action="trakt-disconnect">Disconnect</button>`:`<button data-action="trakt-connect" ${traktReady?'':'disabled'}>Connect Trakt</button>`}<button data-action="refresh-integration-config">Recheck configuration</button></div><p>${h(state.traktMessage||(traktOn?(state.trakt.account?.username?`Connected as ${state.trakt.account.username}.`:'Connected.'):(traktReady?'Ready to connect.':'Add TRAKT_CLIENT_ID and TRAKT_CLIENT_SECRET in Vercel, then redeploy.')))}</p>${!traktReady?`<p class="sourceNote">Detected: client ID ${diag.traktClientId?'✓':'✗'} • client secret ${diag.traktClientSecret?'✓':'✗'}.</p>`:''}<div id="traktDevice"></div></section>
+  return modalShell('Connections, sync & artwork',`${accountNote}${diagnostics}<div class="connectionGrid"><section class="connectionPanel"><h3>Trakt viewing sync</h3><p>Exact episodes and supported event records synchronize both ways. With a Ringside account, the Trakt refresh token is encrypted on the server and works from every signed-in device.</p><div class="modalActions">${traktOn?`<button data-action="trakt-sync">Import watched history</button><button data-action="trakt-disconnect">Disconnect</button>`:`<button data-action="trakt-connect" ${traktReady?'':'disabled'}>Connect Trakt</button>`}<button data-action="refresh-integration-config">Recheck configuration</button></div><p>${h(state.traktMessage||(traktOn?(state.trakt.account?.username?`Connected as ${state.trakt.account.username}.`:'Connected.'):(traktReady?'Ready to connect.':'Add TRAKT_CLIENT_ID and TRAKT_CLIENT_SECRET in Vercel, then redeploy.')))}</p>${!traktReady?`<p class="sourceNote">Detected: client ID ${diag.traktClientId?'✓':'✗'} • client secret ${diag.traktClientSecret?'✓':'✗'}.</p>`:''}${traktDeviceMarkup()}</section>
   <section class="connectionPanel"><h3>Plex library & viewing sync</h3><p>Match exact shows, seasons, episodes and event files. Import real Plex viewCount/viewOffset progress; optionally push Ringside watched changes back to Plex and forward Plex-watched matches to Trakt.</p><div class="modalActions">${plexOn?`<button data-action="plex-refresh-servers">Refresh servers</button><button data-action="plex-import-viewing">Import Plex viewing</button><button data-action="plex-disconnect">Disconnect</button>`:`<button data-action="plex-connect">Sign in to Plex</button>`}<button data-action="plex-import">Import local export</button></div><p>${h(state.plexMessage||`${state.plexMatches.size.toLocaleString()} archive keys matched from ${(state.plexData.items||[]).length.toLocaleString()} Plex items.`)}</p><div class="settingStack"><label class="settingToggle"><input type="checkbox" data-setting="autoImportPlexViewing" ${state.settings.autoImportPlexViewing?'checked':''}><span><strong>Import after each Plex scan</strong><small>Watched items become Watched; partial progress becomes Watching.</small></span></label><label class="settingToggle"><input type="checkbox" data-setting="pushWatchedToPlex" ${state.settings.pushWatchedToPlex?'checked':''}><span><strong>Push Ringside watched state to Plex</strong><small>Uses Plex scrobble/unscrobble only for exact matched items.</small></span></label><label class="settingToggle"><input type="checkbox" data-setting="syncPlexWatchedToTrakt" ${state.settings.syncPlexWatchedToTrakt?'checked':''}><span><strong>Forward Plex-watched matches to Trakt</strong><small>Only records that map exactly in both integrations are submitted.</small></span></label><label><span>Plex watched threshold</span><input id="plexThreshold" data-setting="plexWatchedThreshold" type="number" min="0.5" max="1" step="0.05" value="${h(state.settings.plexWatchedThreshold||0.9)}"></label></div>${servers.length?`<div class="serverList">${servers.map(plexServerPanel).join('')}</div>`:''}</section>
   <section class="connectionPanel"><h3>Artwork scanner</h3><p>TVMaze, TMDB, Wikipedia/Wikimedia and imported Plex metadata are layered with source attribution. Missing art remains labelled rather than fabricated.</p><div class="modalActions"><button data-action="scan-visible-artwork" ${state.scanningArtwork?'disabled':''}>Scan visible records</button></div><p>${h(state.artworkMessage||`${Object.keys(state.artworkCache).length} cached artwork results.`)}</p></section>
   <section class="connectionPanel"><h3>Backup & recovery</h3><p>Account sync is automatic when configured, but a private JSON backup remains useful for offline recovery. Legacy backups can also migrate local Plex/Trakt connections into your signed-in account.</p><div class="modalActions"><button data-action="export">Export JSON</button><button data-action="import-backup">Import JSON</button><button data-action="cloud-sync" ${accountConnected()?'':'disabled'}>Sync account</button></div></section></div>`,true);
 }
 
-function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.3.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
+function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.4.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
 function mobileNav(){return `<nav class="mobileNav">${navItems.map(([id,ic,label])=>`<button data-view="${id}" class="${state.view===id?'active':''}"><span>${icon(ic)}</span>${label.replace('Complete ','')}</button>`).join('')}</nav>`;}
 
 function render(){
@@ -571,7 +727,9 @@ function render(){
   if(state.view==='recommended')content=recommendedView();
   if(state.view==='companies')content=companiesView();
   if(state.view==='library')content=libraryView();
-  app.innerHTML=`${topbar()}<main class="appShell">${dashboard()}${catalogueStatement()}${filterPanel()}${content}${footer()}</main>${mobileNav()}${modal()}${state.toast?`<div class="toast"><span>${icon('check')}</span><span>${h(state.toast)}</span><button data-action="dismiss-toast">×</button></div>`:''}`;
+  const overview=state.view==='exact'?`${dashboard()}${catalogueStatement()}`:'';
+  const filters=['exact','chronology','wrestlers','companies','recommended'].includes(state.view)?filterPanel():'';
+  app.innerHTML=`${topbar()}<main class="appShell view-${h(state.view)}">${overview}${filters}${content}${footer()}</main>${mobileNav()}${modal()}${state.toast?`<div class="toast"><span>${icon('check')}</span><span>${h(state.toast)}</span><button data-action="dismiss-toast">×</button></div>`:''}`;
   document.body.classList.toggle('modalOpen',Boolean(state.modal));
   bind();
 }
@@ -581,17 +739,17 @@ function bind(){
   document.querySelectorAll('[data-status-key]').forEach(el=>el.onclick=e=>{e.stopPropagation();setStatus(el.dataset.statusKey,el.dataset.status);});
   document.querySelectorAll('[data-open-programme]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a'))return;state.modal={type:'programme',id:el.dataset.openProgramme};render();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'programme',id:el.dataset.openProgramme};render();}};});
   document.querySelectorAll('[data-open-record]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a,select,textarea,input'))return;state.modal={type:'record',id:el.dataset.openRecord};render();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'record',id:el.dataset.openRecord};render();}};});
-  document.querySelectorAll('[data-company]').forEach(el=>el.onclick=()=>{state.filters.promotion=el.dataset.company;state.filtersOpen=true;state.visible=50;setView('exact');});
-  document.querySelectorAll('[data-wrestler]').forEach(el=>el.onclick=e=>{e.stopPropagation();state.filters.wrestler=el.dataset.wrestler;state.filtersOpen=true;state.modal=null;state.visible=50;setView('wrestlers');});
+  document.querySelectorAll('[data-company]').forEach(el=>el.onclick=()=>{state.filters.promotion=el.dataset.company;state.filtersOpen=true;state.visible=24;setView('exact');});
+  document.querySelectorAll('[data-wrestler]').forEach(el=>el.onclick=e=>{e.stopPropagation();state.filters.wrestler=el.dataset.wrestler;state.filtersOpen=true;state.modal=null;state.visible=24;setView('wrestlers');});
   document.querySelectorAll('[data-library-tab]').forEach(el=>el.onclick=()=>{state.libraryTab=el.dataset.libraryTab;render();});
-  document.querySelectorAll('[data-filter]').forEach(el=>{const apply=()=>{state.filters[el.dataset.filter]=el.type==='checkbox'?el.checked:el.value;state.visible=50;render();};if(el.tagName==='INPUT'&&el.type==='number')el.oninput=debounce(apply,250);else el.onchange=apply;});
-  const search=document.querySelector('#searchInput'); if(search) search.oninput=debounce(()=>{state.filters.query=search.value;state.visible=50;render();},150);
+  document.querySelectorAll('[data-filter]').forEach(el=>{const apply=()=>{state.filters[el.dataset.filter]=el.type==='checkbox'?el.checked:el.value;state.visible=24;render();};if(el.tagName==='INPUT'&&el.type==='number')el.oninput=debounce(apply,250);else el.onchange=apply;});
+  const search=document.querySelector('#searchInput'); if(search) search.oninput=debounce(()=>{state.filters.query=search.value;state.visible=24;render();},150);
   document.querySelectorAll('[data-load-programme]').forEach(el=>el.onclick=e=>{e.stopPropagation();loadProgramme(el.dataset.loadProgramme,true);});
   document.querySelectorAll('[data-discover-programme]').forEach(el=>el.onclick=e=>{e.stopPropagation();discoverProgramme(el.dataset.discoverProgramme);});
   document.querySelectorAll('[data-save-review]').forEach(el=>el.onclick=()=>saveReview(el.dataset.saveReview));
   document.querySelectorAll('[data-scan-art]').forEach(el=>el.onclick=()=>scanArtworkKey(el.dataset.scanArt));
-  document.querySelectorAll('[data-clear-filter]').forEach(el=>el.onclick=()=>{const key=el.dataset.clearFilter;if(key==='years'){state.filters.yearFrom='';state.filters.yearTo='';}else if(key==='hideWatched')state.filters.hideWatched=false;else state.filters[key]='';state.visible=50;render();});
-  document.querySelectorAll('[data-wrestler-sort]').forEach(el=>el.onchange=()=>{state.wrestlerSort=el.value;state.visible=50;render();});
+  document.querySelectorAll('[data-clear-filter]').forEach(el=>el.onclick=()=>{const key=el.dataset.clearFilter;if(key==='years'){state.filters.yearFrom='';state.filters.yearTo='';}else if(key==='hideWatched')state.filters.hideWatched=false;else state.filters[key]='';state.visible=24;render();});
+  document.querySelectorAll('[data-wrestler-sort]').forEach(el=>el.onchange=()=>{state.wrestlerSort=el.value;state.visible=24;render();});
   document.querySelectorAll('[data-plex-load-server]').forEach(el=>el.onclick=()=>loadPlexLibrariesForServer(el.dataset.plexLoadServer));
   document.querySelectorAll('[data-plex-scan-server]').forEach(el=>el.onclick=()=>scanSelectedPlexServer(el.dataset.plexScanServer));
   document.querySelectorAll('[data-plex-section]').forEach(el=>el.onchange=()=>{const serverId=el.dataset.plexSectionServer;const values=[...document.querySelectorAll('[data-plex-section]')].filter(input=>input.dataset.plexSectionServer===serverId&&input.checked).map(input=>String(input.dataset.plexSection));state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[serverId]:values};storage.savePlexData(state.plexData);});
@@ -605,18 +763,34 @@ function bind(){
 async function loadProgramme(id,forceLive=false){
   const p=programme(id),mapped=state.feedMap[id]||p.tvMazeId; if(!mapped){showToast('No exact feed is mapped for this programme yet.');return;}
   state.syncMessage=`Loading ${p.name}…`; render();
-  try { const feed=await loadTvMazeFeed(p,{forceLive,tvMazeId:mapped}); state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||''); state.loadedEpisodes.set(p.id,(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean)); rebuildWrestlerIndex(); state.syncMessage=''; state.modal={type:'programme',id}; showToast(`${state.loadedEpisodes.get(id).length.toLocaleString()} exact episodes loaded for ${p.name}.`); }
+  try { const feed=await loadTvMazeFeed(p,{forceLive,tvMazeId:mapped}); state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||''); state.loadedEpisodes.set(p.id,(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean)); invalidateRecordCache(); rebuildWrestlerIndex(); state.syncMessage=''; state.modal={type:'programme',id}; showToast(`${state.loadedEpisodes.get(id).length.toLocaleString()} exact episodes loaded for ${p.name}.`); }
   catch(error){state.syncMessage='';showToast(error.message);} render();
 }
 async function loadAllEpisodes(forceLive=false){
   if(state.autoEpisodeLoadStarted&&!forceLive)return;
   state.autoEpisodeLoadStarted=true;state.autoEpisodeLoadComplete=false;
   const feeds=state.data.programmes.filter(p=>p.tvMazeId||state.feedMap[p.id]);
-  const queue=[...feeds];let done=0,totalEpisodes=0;
-  const worker=async()=>{while(queue.length){const p=queue.shift();try{const feed=await loadTvMazeFeed(p,{forceLive,tvMazeId:state.feedMap[p.id]||p.tvMazeId});state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||'');const episodes=(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean);state.loadedEpisodes.set(p.id,episodes);totalEpisodes+=episodes.length;}catch(error){console.warn(error);}finally{done++;state.syncMessage=`Loading exact weekly episodes: ${done}/${feeds.length} feeds • ${totalEpisodes.toLocaleString()} episodes`;if(done%4===0||done===feeds.length)render();}}};
-  await Promise.all(Array.from({length:Math.min(4,feeds.length)},worker));
-  rebuildWrestlerIndex();state.autoEpisodeLoadComplete=true;state.syncMessage=`Loaded ${totalEpisodes.toLocaleString()} exact episodes from ${feeds.length} verified feeds.`;render();setTimeout(()=>{if(state.autoEpisodeLoadComplete){state.syncMessage='';render();}},4000);
+  const queue=[...feeds];let done=0,totalEpisodes=0,lastPaint=0;
+  const updateProgress=()=>{
+    state.syncMessage=`Loading exact weekly episodes: ${done}/${feeds.length} feeds • ${totalEpisodes.toLocaleString()} episodes`;
+    const node=document.querySelector('#episodeLoadStatus');if(node)node.textContent=state.syncMessage;
+    if(Date.now()-lastPaint>1800&&(state.view==='exact'||state.view==='chronology')){lastPaint=Date.now();scheduleRender();}
+  };
+  const worker=async()=>{while(queue.length){
+    const p=queue.shift();
+    try{
+      const feed=await loadTvMazeFeed(p,{forceLive,tvMazeId:state.feedMap[p.id]||p.tvMazeId});
+      state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||'');
+      const episodes=(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean);
+      state.loadedEpisodes.set(p.id,episodes);invalidateRecordCache();totalEpisodes+=episodes.length;
+    }catch(error){console.warn(error);}finally{done++;updateProgress();}
+  }};
+  await Promise.all(Array.from({length:Math.min(2,feeds.length)},worker));
+  rebuildWrestlerIndex();state.autoEpisodeLoadComplete=true;
+  state.syncMessage=`Loaded ${totalEpisodes.toLocaleString()} exact episodes from ${feeds.length} verified feeds.`;
+  scheduleRender();setTimeout(()=>{if(state.autoEpisodeLoadComplete){state.syncMessage='';scheduleRender();}},4000);
 }
+
 async function discoverProgramme(id){
   const p=programme(id);state.syncMessage=`Searching for an exact episode feed for ${p.name}…`;render();
   try{const match=await discoverTvMazeId(p);if(!match)throw new Error('No exact-title TVMaze feed was found.');state.feedMap[p.id]=match.tvMazeId;storage.saveFeedMap(state.feedMap);showToast(`Mapped ${p.name} to TVMaze show ${match.tvMazeId}.`);await loadProgramme(id);}catch(error){state.syncMessage='';showToast(error.message);render();}
@@ -627,7 +801,7 @@ async function discoverMoreFeeds(){
   for(const p of candidates){try{const match=await discoverTvMazeId(p);if(match){state.feedMap[p.id]=match.tvMazeId;mapped++;await loadProgrammeQuiet(p,match.tvMazeId);}}catch{}checked++;state.syncMessage=`Discovering additional exact feeds: ${checked}/${candidates.length} • ${mapped} exact matches`;if(checked%5===0)render();await new Promise(r=>setTimeout(r,550));}
   storage.saveFeedMap(state.feedMap);rebuildWrestlerIndex();state.syncMessage=`Discovery complete: ${mapped} new exact-title feeds mapped.`;state.autoEpisodeLoadComplete=true;render();showToast(state.syncMessage);
 }
-async function loadProgrammeQuiet(p,id){try{const feed=await loadTvMazeFeed(p,{tvMazeId:id});state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||'');state.loadedEpisodes.set(p.id,(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean));}catch(error){console.warn(error);}}
+async function loadProgrammeQuiet(p,id){try{const feed=await loadTvMazeFeed(p,{tvMazeId:id});state.showArtwork.set(p.id,feed.show?.image?.original||feed.show?.image?.medium||'');state.loadedEpisodes.set(p.id,(feed.episodes||[]).map(x=>normalizeEpisode(p,feed,x)).filter(Boolean));invalidateRecordCache();}catch(error){console.warn(error);}}
 
 function saveReview(key){
   const rating=document.querySelector('#reviewRating')?.value||'',text=document.querySelector('#reviewText')?.value||'';
@@ -656,9 +830,9 @@ async function handleAction(action,event){
   if(action==='cloud-sync'){await syncCloudNow();return;}
   if(action==='cloud-signout'){await signOutCloud();state.cloud.user=null;state.cloud.message='Signed out. Local cached data remains on this device.';state.modal={type:'account'};render();return;}
   if(action==='toggle-filters'){state.filtersOpen=!state.filtersOpen;render();return;}
-  if(action==='reset-filters'){state.filters=defaultFilters();state.visible=50;state.filtersOpen=true;render();return;}
+  if(action==='reset-filters'){state.filters=defaultFilters();state.visible=24;state.filtersOpen=true;render();return;}
   if(action==='load-more'){state.visible+=50;render();return;}
-  if(action==='clear-wrestler'){state.filters.wrestler='';state.visible=50;render();return;}
+  if(action==='clear-wrestler'){state.filters.wrestler='';state.visible=24;render();return;}
   if(action==='connections'){state.modal={type:'connections'};render();return;}
   if(action==='close-modal'){state.modal=null;render();return;}
   if(action==='dismiss-toast'){state.toast='';render();return;}
@@ -670,6 +844,8 @@ async function handleAction(action,event){
   if(action==='discover-feeds'){await discoverMoreFeeds();return;}
   if(action==='refresh-integration-config'){state.cloud.config=await loadCloudConfig(true);showToast('Integration configuration refreshed.');render();return;}
   if(action==='trakt-connect'){await startTraktDevice();return;}
+  if(action==='trakt-copy-code'){if(state.traktDevice?.userCode){await navigator.clipboard?.writeText(state.traktDevice.userCode).catch(()=>{});showToast('Trakt code copied.');}return;}
+  if(action==='trakt-cancel'){state.traktDevice=null;state.traktPolling=false;state.traktMessage='Trakt connection cancelled.';render();return;}
   if(action==='trakt-sync'){await syncTraktHistory();return;}
   if(action==='trakt-disconnect'){if(accountConnected())await deleteCloudIntegration('trakt').catch(()=>{});storage.clearTrakt();state.trakt={};state.traktMessage='Disconnected.';render();return;}
   if(action==='plex-connect'){await startPlexConnection();return;}
@@ -697,6 +873,9 @@ async function importPlexPayload(data){
 
 
 async function startTraktDevice(){
+  if(state.traktPolling)return;
+  const pollToken=`${Date.now()}-${Math.random()}`;
+  state.traktPolling=pollToken;
   try {
     state.cloud.config=await loadCloudConfig(true);
     if(!state.cloud.config?.traktConfigured){
@@ -704,27 +883,35 @@ async function startTraktDevice(){
       const missing=[!diag.traktClientId&&'TRAKT_CLIENT_ID',!diag.traktClientSecret&&'TRAKT_CLIENT_SECRET'].filter(Boolean);
       throw new Error(`Trakt is not configured on this Vercel deployment${missing.length?`: add ${missing.join(' and ')}`:''}, then redeploy.`);
     }
-    state.traktMessage='Requesting a Trakt device code…';render();
+    state.modal={type:'connections'};
+    state.traktMessage='Requesting a Trakt device code…';scheduleRender();
     const response=await fetch('./api/trakt/device',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'code'}),cache:'no-store'});
     const data=await apiJson(response,'Unable to create a Trakt device code.');
     const verificationUrl=data.verification_url||'https://trakt.tv/activate';
-    const holder=document.querySelector('#traktDevice');if(holder)holder.innerHTML=`<div class="traktDeviceCode"><p>Open <a href="${h(verificationUrl)}" target="_blank" rel="noreferrer">${h(verificationUrl)}</a> and enter:</p><h2><code>${h(data.user_code)}</code></h2><p>Waiting for authorization… Keep this window open.</p></div>`;
-    window.open(verificationUrl,'_blank','noopener');const started=Date.now();
-    while(Date.now()-started<(data.expires_in||600)*1000){
-      await new Promise(r=>setTimeout(r,Math.max(3,data.interval||5)*1000));
-      const headers=await accountHeaders({'Content-Type':'application/json'});
-      const tokenResponse=await fetch('./api/trakt/device',{method:'POST',headers,body:JSON.stringify({action:'token',device_code:data.device_code}),cache:'no-store'});
-      if(tokenResponse.status===202)continue;
-      const token=await apiJson(tokenResponse,'Trakt authorization failed.');
-      if(token.cloud){state.trakt={cloudConnected:true,cloud:true,account:token.integration?.account||null,expiresAt:token.integration?.expiresAt||null};}
-      else state.trakt={...state.trakt,...token};
-      storage.saveTrakt(state.trakt);
-      state.traktMessage=token.warning|| (accountConnected()?'Trakt connected to your Ringside account on every device.':'Trakt connected in this browser.');
-      showToast(state.traktMessage);render();return;
-    }
-    throw new Error('The Trakt device code expired. Start the connection again.');
-  }catch(error){state.traktMessage=error.message;showToast(error.message);render();}
+    const expiresAt=Date.now()+Number(data.expires_in||600)*1000;
+    state.traktDevice={userCode:data.user_code,deviceCode:data.device_code,verificationUrl,expiresAt,interval:Math.max(3,Number(data.interval||5)),status:'Waiting for authorization',pollToken};
+    state.traktPolling=true;state.traktMessage='Enter the displayed code on Trakt.';scheduleRender();
+    const countdown=setInterval(updateTraktCountdown,1000);
+    try{
+      while(state.traktDevice?.pollToken===pollToken&&Date.now()<expiresAt){
+        await new Promise(r=>setTimeout(r,state.traktDevice.interval*1000));
+        if(state.traktDevice?.pollToken!==pollToken)break;
+        const headers=await accountHeaders({'Content-Type':'application/json'});
+        const tokenResponse=await fetch('./api/trakt/device',{method:'POST',headers,body:JSON.stringify({action:'token',device_code:data.device_code}),cache:'no-store'});
+        if(tokenResponse.status===202){updateTraktCountdown();continue;}
+        const token=await apiJson(tokenResponse,'Trakt authorization failed.');
+        if(token.cloud)state.trakt={cloudConnected:true,cloud:true,account:token.integration?.account||null,expiresAt:token.integration?.expiresAt||null};
+        else state.trakt={...state.trakt,...token};
+        storage.saveTrakt(state.trakt);
+        state.traktDevice=null;state.traktMessage=token.warning||(accountConnected()?'Trakt connected to your Ringside account on every device.':'Trakt connected in this browser.');
+        showToast(state.traktMessage);scheduleRender();return;
+      }
+      if(state.traktDevice?.pollToken===pollToken)throw new Error('The Trakt device code expired. Start the connection again.');
+    }finally{clearInterval(countdown);}
+  }catch(error){state.traktDevice=null;state.traktMessage=error.message;showToast(error.message);scheduleRender();}
+  finally{if(state.traktPolling===pollToken)state.traktPolling=false;}
 }
+
 async function ensureTraktAccessToken(){
   if(state.trakt.cloudConnected&&accountConnected())return '';
   if(!state.trakt.accessToken)throw new Error('Trakt is not connected on this device.');
@@ -870,12 +1057,12 @@ async function storeArtworkBatch(entries,{showProgress=false}={}){
 }
 function scheduleArtworkHydration(){
   clearTimeout(state.autoArtworkTimer);
-  if(state.autoArtworkRunning||!navigator.onLine)return;
+  if(state.autoArtworkRunning||!('onLine' in navigator)||navigator.onLine===false||!['exact','chronology'].includes(state.view))return;
   state.autoArtworkTimer=setTimeout(async()=>{
-    const entries=currentArtworkEntries().slice(0,8);if(!entries.length)return;
+    const entries=currentArtworkEntries().slice(0,4);if(!entries.length)return;
     state.autoArtworkRunning=true;
-    try{await storeArtworkBatch(entries);render();}catch(error){console.warn('Background artwork scan:',error.message);}finally{state.autoArtworkRunning=false;}
-  },700);
+    try{await storeArtworkBatch(entries);scheduleRender();}catch(error){console.warn('Background artwork scan:',error.message);}finally{state.autoArtworkRunning=false;}
+  },2400);
 }
 async function scanArtworkKey(key){
   const entry=artworkEntryForKey(key);if(!entry)return;
@@ -888,7 +1075,7 @@ async function scanArtworkKey(key){
 }
 async function installServiceWorker(){
   if(!('serviceWorker' in navigator))return;
-  const version='5.3.0',versionKey='ringside-app-version';
+  const version='5.4.0',versionKey='ringside-app-version';
   try{
     const previous=localStorage.getItem(versionKey);
     if(previous!==version&&globalThis.caches){
@@ -896,7 +1083,7 @@ async function installServiceWorker(){
       await Promise.all(keys.filter(key=>key.startsWith('ringside-archive-')).map(key=>caches.delete(key)));
       localStorage.setItem(versionKey,version);
     }
-    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.3.0',{updateViaCache:'none'});
+    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.4.0',{updateViaCache:'none'});
     await registration.update().catch(()=>{});
     const activateWaiting=()=>registration.waiting?.postMessage({type:'SKIP_WAITING'});
     activateWaiting();
@@ -922,13 +1109,32 @@ async function scanVisibleArtwork(){
 
 (async function init(){
   try {
-    state.data=await loadData();rebuildWrestlerIndex();try{storage.savePlexData(state.plexData);storage.saveArtwork(state.artworkCache);}catch{}state.cloud.config=await loadCloudConfig();const authRedirect=consumeCloudAuthRedirect();state.cloud.recovery=authRedirect?.type==='recovery';state.cloud.user=await getCloudUser();
-    refreshPlexIndex();const hash=location.hash.slice(1);if(navItems.some(x=>x[0]===hash))state.view=hash;
-    if(state.cloud.user){const switched=storage.prepareForAccount(state.cloud.user.id);if(switched){refreshStateFromStorage();state.plexData=storage.plexData();state.trakt=storage.trakt();refreshPlexIndex();}await syncCloudNow({quiet:true});await loadAccountIntegrations({migrate:true});}
-    if(state.cloud.recovery){state.modal={type:'account'};state.cloud.message='Enter and confirm your new password.';}
+    state.data=await loadData();
+    rebuildWrestlerIndex();
+    refreshPlexIndex();
+    const hash=location.hash.slice(1);if(navItems.some(x=>x[0]===hash))state.view=hash;
     render();
-    if(state.settings.autoLoadEpisodes&&!new URLSearchParams(location.search).has('noautoload'))loadAllEpisodes(false);
     installServiceWorker();
+
+    // Heavy metadata, account restoration and thousands of episode rows are deliberately
+    // deferred until after the first usable paint.
+    onIdle(()=>loadDeferredData(),300);
+    onIdle(async()=>{
+      try{
+        state.cloud.config=await loadCloudConfig();
+        const authRedirect=consumeCloudAuthRedirect();state.cloud.recovery=authRedirect?.type==='recovery';
+        state.cloud.user=await getCloudUser();
+        if(state.cloud.user){
+          const switched=storage.prepareForAccount(state.cloud.user.id);
+          if(switched){refreshStateFromStorage();state.plexData=storage.plexData();state.trakt=storage.trakt();refreshPlexIndex();}
+          await syncCloudNow({quiet:true});await loadAccountIntegrations({migrate:true});
+        }
+        if(state.cloud.recovery){state.modal={type:'account'};state.cloud.message='Enter and confirm your new password.';}
+        scheduleRender();
+      }catch(error){state.cloud.message=error.message;console.warn('Account bootstrap:',error.message);scheduleRender();}
+    },500);
+    if(state.settings.autoLoadEpisodes&&['exact','chronology'].includes(state.view)&&!new URLSearchParams(location.search).has('noautoload'))onIdle(()=>loadAllEpisodes(false),1800);
+
     const cloudPoll=setInterval(()=>{if(accountConnected()&&state.settings.cloudAutoSync!==false)syncCloudNow({quiet:true}).catch(()=>{});},60000);cloudPoll?.unref?.();
     if(document.addEventListener)document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&accountConnected()&&state.settings.cloudAutoSync!==false){syncCloudNow({quiet:true}).then(()=>loadAccountIntegrations({migrate:false})).catch(()=>{});}});
   }catch(error){app.innerHTML=`<div class="bootScreen"><span class="brandMark">RA</span><h1>Archive failed to load</h1><p>${h(error.message)}</p><p>Use a local web server rather than opening index.html directly.</p></div>`;}

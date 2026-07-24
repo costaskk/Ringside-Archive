@@ -1,4 +1,4 @@
-# Ringside Archive v5.3.0 professional audit
+# Ringside Archive v5.4.0 professional audit
 
 ## Preserved archive foundation
 
@@ -13,71 +13,64 @@
 
 ## Problems reproduced from the live deployment
 
-### Trakt
+### Slow startup and repeated work
 
-The Trakt device-code function was correctly configured in Vercel, but the API request lacked a stable application identity and complete Trakt API headers. Trakt/Cloudflare could return an HTML “Attention Required” page, which the older UI then displayed as an error string.
+The older client blocked its first useful render on every JSON file, Supabase configuration, account verification, cloud restoration and integration restoration. It then started 42 episode feeds with four workers, repeatedly flattened/resorted the timeline and rebuilt the wrestler index while feeds arrived. Non-timeline pages also rendered the dashboard and full supporting UI.
 
-### Plex export and matching
+### Trakt device code disappearing
 
-The supplied legacy export contained thousands of valid records from unrelated libraries, but the `Wrestling` and `Wrestling PPV` entries were empty library placeholders rather than media rows. It also embedded a Plex token in artwork URLs and did not contain Plex viewing-state fields. Zero wrestling matches was therefore the expected result for that file.
+The device code was written directly into a DOM node rather than application state. Any unrelated render—cloud sync, artwork discovery, episode progress or a toast—replaced the modal HTML and removed the code while polling continued.
 
-### Browser quota
+### Wrestler headshots and profile depth
 
-The older client attempted to persist the complete Plex scan and artwork cache in `localStorage`. A sufficiently large scan exceeded browser storage quota even though matching itself had completed.
+Headshots depended on a background artwork scan finishing and then rerendering the whole app. A wrestler page contained only a long chronology, with no ranked matches, visible rating methodology or direct show-family navigation.
 
-### Artwork and cloud noise
+### Visual density
 
-Direct Wikimedia hotlinks could return 403. Artwork discovery also marked the account state dirty after each small batch, causing repeated Supabase pull/push cycles and noisy service-worker logs.
+The recovered interface was functional but visually flat at large desktop sizes, and large directories did not consistently use browser rendering containment or bounded first-page sizes.
 
 ## Corrections implemented
 
-### Trakt API compatibility
+### Startup and runtime performance
 
-- Every OAuth, history, refresh and sync request now sends:
-  - stable `User-Agent` and `Api-User-Agent`;
-  - `trakt-api-key`;
-  - `trakt-api-version: 2`;
-  - JSON accept/content headers;
-  - language and no-cache headers.
-- HTML/Cloudflare responses are parsed into a short diagnostic; Cloudflare markup is never inserted into the interface.
-- Client ID and secret values are trimmed before use.
-- The client secret remains server-side in Vercel.
+- Core catalogue data renders first; event details and artwork catalogues load during idle time.
+- Supabase configuration, user restoration and encrypted integration restoration run after the first usable paint.
+- Exact episode feeds start only on timeline/show views, during idle time, with two workers.
+- Episode progress updates are throttled rather than rerendering after every feed.
+- Flattened episodes and the merged chronology are cached and invalidated only when feed data changes.
+- Wrestler indexing uses parsed competitor names instead of scanning every wrestler against every episode string.
+- Initial directories are bounded to 24 cards; Companies and Wrestlers use pagination.
+- Cards and large lists use `content-visibility` and intrinsic-size containment.
+- Repeat catalogue requests use stale-while-revalidate caching, while private APIs remain network-only.
 
-### Plex export v3
+### Persistent Trakt authorization
 
-- Select libraries with `-LibraryNames` or automatic wrestling-name detection.
-- Show libraries export exact episode rows (`type=4`).
-- Other Videos libraries use their native section type instead of an incorrect movie filter.
-- Movie libraries export movie/event rows.
-- `viewCount`, `viewOffset` and `lastViewedAt` are included.
-- Output is UTF-8 without a BOM.
-- Null placeholder rows are removed.
-- Plex tokens and tokenized artwork URLs are never written.
-- `npm run audit:plex -- <file>` reports format, library counts, likely wrestling rows, viewing-state rows and token exposure.
+- Device-code data is stored in `state.traktDevice`.
+- Connections renders the code from state, so unrelated rerenders cannot remove it.
+- A countdown, Copy code button, activation link and Cancel action are included.
+- Closing and reopening the modal retains the active code while polling continues.
 
-### Plex matching and storage
+### Wrestler headshots and Top 10 profiles
 
-- Matching normalizes punctuation, file extensions, resolution/codec/release tags and numeric prefixes.
-- Programme aliases, exact `SxxEyy`, season/episode text and event title/year are supported.
-- Scans are matched in memory.
-- All ownership match keys are retained, but only compact linked Plex items are persisted.
-- Raw `X-Plex-Token` artwork URLs and unapproved fields are stripped before browser/cloud storage.
-- If storage is tight, the derived artwork cache is removed first and the Plex item links fall back to viewed/in-progress records while ownership keys remain.
-- Legacy imports containing `X-Plex-Token=` are rejected before storage or account upload.
+- Headshots have a lazy same-origin render URL backed by fast Wikipedia summary lookup and Wikimedia search fallback.
+- Edge/browser caching and asynchronous decoding keep the directory responsive.
+- Each wrestler profile includes an eager hero portrait, four metrics, a Top 10 match list, five-star Archive editorial ratings, links to exact records or programmes, programme-family appearances and the complete chronology.
+- All 71 curated recommendations now contain a labelled Archive editorial star rating. Stored source/personal ratings take precedence where present.
 
-### Artwork delivery and sync
+### Visual refresh
 
-- TMDB, TVMaze and Wikimedia images are delivered through the existing allow-listed same-origin artwork route.
-- The proxy validates host, HTTPS, image content type and size.
-- Artwork remains source-attributed.
-- Artwork is a bounded, regenerable device cache and is excluded from Supabase archive state.
-- Artwork batches no longer trigger account synchronization.
+- Refined dark arena palette, spacing, type hierarchy, card depth and focus states.
+- Improved hero, filters, chronology cards, modals and connection surfaces.
+- New wrestler profile hero, ranked-match cards, star meter and programme-appearance cards.
+- Better responsive layouts and reduced-motion support.
 
-### Service worker
+### Existing integration protections retained
 
-- Non-origin requests, including Supabase and third-party artwork, bypass the service worker.
-- Same-origin private API responses are network-only and never cached.
-- Application modules and catalogue files remain network-first.
+- Required Trakt headers and Cloudflare diagnostics.
+- Compact Plex storage and exact view-state matching.
+- Encrypted Supabase integration vault.
+- Safe artwork proxying and bounded device artwork cache.
+- 12-function Vercel Hobby compatibility.
 
 ## Validation performed
 

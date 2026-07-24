@@ -78,7 +78,32 @@ function scoreWikipediaPage(page, input) {
   return score;
 }
 
+async function wikipediaSummaryArtwork(input) {
+  if (!['wrestler','company'].includes(input.kind) || !input.title) return null;
+  const slug = encodeURIComponent(String(input.title).trim().replace(/\s+/g, '_'));
+  const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${slug}`, {
+    headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)' },
+    signal: withTimeout(6000)
+  }).catch(() => null);
+  if (!response?.ok) return null;
+  const page = await response.json().catch(() => null);
+  const foundImage = page?.originalimage?.source || page?.thumbnail?.source || '';
+  const description = norm(`${page?.description || ''} ${page?.extract || ''}`);
+  if (!foundImage) return null;
+  if (input.kind === 'wrestler' && !/wrestl/.test(description)) return null;
+  if (input.kind === 'company' && !/wrestl|promotion|entertainment/.test(description)) return null;
+  const common = {
+    source: 'Wikipedia/Wikimedia', sourceUrl: page.content_urls?.desktop?.page || '',
+    attribution: 'Lead image supplied by Wikipedia/Wikimedia; verify the image-page licence before redistribution.'
+  };
+  return input.kind === 'wrestler'
+    ? { ...common, mediaType:'wrestler', poster:foundImage, headshot:foundImage }
+    : { ...common, mediaType:'company', poster:foundImage, logo:foundImage };
+}
+
 async function wikipediaArtwork(input) {
+  const summary = await wikipediaSummaryArtwork(input);
+  if (summary) return summary;
   const queries = wikipediaQueries(input).filter((value, index, all) => value && all.indexOf(value) === index);
   for (const query of queries.slice(0, 3)) {
     const params = new URLSearchParams({
@@ -97,7 +122,7 @@ async function wikipediaArtwork(input) {
       origin: '*'
     });
     const response = await fetch(`https://en.wikipedia.org/w/api.php?${params}`, {
-      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)' },
+      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)' },
       signal: withTimeout()
     });
     if (!response.ok) continue;
@@ -158,7 +183,7 @@ async function commonsArtwork(input){
       inprop:'url',format:'json',formatversion:'2',origin:'*'
     });
     const response=await fetch(`https://commons.wikimedia.org/w/api.php?${params}`,{
-      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)'},
+      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)'},
       signal:withTimeout()
     }).catch(()=>null);
     if(!response?.ok)continue;
@@ -268,13 +293,13 @@ function allowedArtworkAsset(value) {
   } catch { return false; }
 }
 
-async function proxyArtwork(req, res) {
-  const asset = String(req.query?.asset || '');
+async function proxyArtworkAsset(asset, res) {
+  asset = String(asset || '');
   if (!allowedArtworkAsset(asset)) return res.status(400).json({ error: 'Unsupported artwork host.' });
   const response = await fetch(asset, {
     headers: {
       Accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-      'User-Agent': 'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app)',
+      'User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app)',
       Referer: new URL(asset).origin + '/'
     },
     signal: withTimeout(15000)
@@ -291,10 +316,30 @@ async function proxyArtwork(req, res) {
 }
 
 export default async function handler(req, res) {
-  if (req.method === 'GET') return proxyArtwork(req, res);
+  const token = process.env.TMDB_READ_ACCESS_TOKEN;
+  if (req.method === 'GET') {
+    try {
+      if (req.query?.asset) return await proxyArtworkAsset(req.query.asset, res);
+      if (String(req.query?.render || '') === '1') {
+        const input = {
+          title: String(req.query?.title || ''),
+          kind: String(req.query?.kind || 'show'),
+          aliases: String(req.query?.aliases || '').split('|').filter(Boolean).slice(0, 5),
+          year: Number(req.query?.year) || null
+        };
+        const result = await lookup(input, token);
+        const asset = result.headshot || result.logo || result.poster || result.still || result.backdrop || '';
+        if (!asset) return res.status(404).json({ error: result.error || 'No artwork was found.' });
+        res.setHeader('CDN-Cache-Control', 'public, s-maxage=604800, stale-while-revalidate=2592000');
+        return await proxyArtworkAsset(asset, res);
+      }
+      return res.status(400).json({ error: 'Missing artwork asset or render request.' });
+    } catch (error) {
+      return res.status(502).json({ error: error.message || 'Artwork rendering failed.' });
+    }
+  }
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
   const body = bodyOf(req);
-  const token = process.env.TMDB_READ_ACCESS_TOKEN;
   try {
     if (Array.isArray(body.items)) {
       const items = body.items.slice(0, 8);

@@ -1,43 +1,43 @@
-Ringside Archive v5.3.0 final validation
+Ringside Archive v5.4.0 final validation
 Date: 2026-07-24
 
+Command:
+  npm test
 
-> ringside-archive@5.3.0 test
-> node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs
+Validated catalogue:
+  101 promotions
+  287 programme families
+  1,144 dated major events
+  1,144 event-detail records
+  71 curated recommendations with Archive editorial star ratings
+  110 wrestler profiles
+  12 Vercel Functions
 
-{
-  "ok": true,
-  "counts": {
-    "promotions": 101,
-    "programmes": 287,
-    "events": 1144,
-    "customRecords": 0,
-    "recommendations": 71,
-    "eventDetails": 1144,
-    "artworkProgrammes": 0,
-    "artworkRecords": 0
-  },
-  "errors": [],
-  "warnings": [
-    "Future/TBA event: aew-2026-07-26-redemption",
-    "Future/TBA event: aew-2026-08-30-all-in",
-    "Future/TBA event: aew-2026-09-26-all-out",
-    "Future/TBA event: njpw-2026-09-26-destruction-in-kobe",
-    "Future/TBA event: aew-2026-11-14-full-gear",
-    "Future/TBA event: njpw-2026-11-15-lucha-kingdom"
-  ],
-  "warningCount": 6
-}
-Smoke test passed: 54 required files, 14 JSON files and 12 Vercel functions validated.
-Cloud smoke passed: encryption, RLS schema, account APIs and Supabase key compatibility validated.
-Integration smoke passed: Trakt headers/diagnostics, artwork discovery/proxy and Plex connection fallback validated.
-Plex match smoke passed: 4 keys from 2 matched items.
-Plex storage smoke passed: 1800 match keys, 12 compact item links, no raw token URLs.
-Runtime smoke passed: 101,529 characters rendered.
+Automated checks passed:
+  Data IDs, references and exact-date formats
+  data/core.json single-request bundle consistency
+  12-function Vercel Hobby limit
+  Required files and JavaScript syntax
+  Deferred boot and bounded initial rendering
+  Cached unified chronology and progressive two-worker episode loading
+  Persistent Trakt device-code state and required API headers
+  Supabase encryption, RLS and current/legacy key compatibility
+  Direct wrestler headshot lookup and approved artwork proxy
+  Plex direct-to-Relay fallback and selected-library scanning
+  Exact Plex programme/episode/event matching
+  Plex quota compaction and token stripping
+  Runtime initial timeline rendering
 
-All JavaScript syntax checks passed.
+Latest test output:
+  Smoke test passed: 58 required files, 15 JSON files and 12 Vercel functions validated.
+  Performance smoke passed: deferred boot, bounded rendering, persistent Trakt code, 71 rated recommendations and cached release data validated.
+  Cloud smoke passed: encryption, RLS schema, account APIs and Supabase key compatibility validated.
+  Integration smoke passed: Trakt headers/diagnostics, artwork discovery/proxy and Plex connection fallback validated.
+  Plex match smoke passed: 4 keys from 2 matched items.
+  Plex storage smoke passed: 1800 match keys, 12 compact item links, no raw token URLs.
+  Runtime smoke passed: 58,940 characters rendered.
 
-Notes:
-- Six future/TBA records are warnings, not validation failures.
-- Persistent artwork counts are intentionally empty in source; runtime discovery and reviewed catalogue workflows populate them.
-- Live Trakt/Plex connectivity depends on deployed credentials and Plex server reachability; automated tests use controlled mock responses.
+Warnings:
+  Six future/TBA scheduled records remain warnings rather than validation failures.
+  Source artwork catalogues are intentionally sparse; production headshots/logos/posters resolve through the reviewed runtime discovery layers.
+  Live Trakt acceptance and Plex reachability depend on deployed credentials and the user server's advertised secure connection.

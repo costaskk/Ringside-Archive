@@ -12,7 +12,9 @@
       "Muhammad Ali"
     ],
     "why": "Historically essential context for shoot-style wrestling and the later development of mixed martial arts.",
-    "sourceUrl": "https://www.njpw1972.com/"
+    "sourceUrl": "https://www.njpw1972.com/",
+    "archiveStars": 3.25,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "bruno-graham",
@@ -27,7 +29,9 @@
       "Superstar Billy Graham"
     ],
     "why": "The title change that ended Sammartino's second reign and reset the WWWF main-event scene.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Bruno%20Sammartino%20Billy%20Graham"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Bruno%20Sammartino%20Billy%20Graham",
+    "archiveStars": 3.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "tiger-dynamite-1",
@@ -42,7 +46,9 @@
       "Dynamite Kid"
     ],
     "why": "The first match in a rivalry that helped redefine junior-heavyweight wrestling.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Tiger%20Mask%20Dynamite%20Kid"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Tiger%20Mask%20Dynamite%20Kid",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "starrcade-83",
@@ -59,7 +65,9 @@
       "Greg Valentine"
     ],
     "why": "The prototype closed-circuit wrestling supercard and the defining early Crockett event.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Starrcade%201983"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Starrcade%201983",
+    "archiveStars": 4.25,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "kerry-flair-parade",
@@ -74,7 +82,9 @@
       "Ric Flair"
     ],
     "why": "An emotionally charged NWA World title change before a huge Texas Stadium crowd.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Kerry%20Von%20Erich%20Ric%20Flair%201984"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Kerry%20Von%20Erich%20Ric%20Flair%201984",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "wm1",
@@ -92,7 +102,9 @@
       "Wendi Richter"
     ],
     "why": "The national expansion's decisive gamble and the beginning of WWE's defining event series.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=WrestleMania%201"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=WrestleMania%201",
+    "archiveStars": 3.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "wm3-steamboat-savage",
@@ -107,7 +119,9 @@
       "Ricky Steamboat"
     ],
     "why": "A landmark meticulously constructed Intercontinental title match.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Savage%20Steamboat%20WrestleMania%203"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Savage%20Steamboat%20WrestleMania%203",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "clash-sting-flair",
@@ -122,7 +136,9 @@
       "Sting"
     ],
     "why": "The 45-minute draw that established Sting as a national main-eventer on free television.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Sting%20Flair%20Clash%20of%20the%20Champions"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Sting%20Flair%20Clash%20of%20the%20Champions",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "flair-steamboat-chicago",
@@ -137,7 +153,9 @@
       "Ricky Steamboat"
     ],
     "why": "The first televised title match in their celebrated 1989 trilogy.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Flair%20Steamboat%20Chi-Town%20Rumble"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Flair%20Steamboat%20Chi-Town%20Rumble",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "flair-steamboat-clash",
@@ -152,7 +170,9 @@
       "Ricky Steamboat"
     ],
     "why": "A near-hour technical title match presented on free television.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Flair%20Steamboat%20Clash%20VI"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Flair%20Steamboat%20Clash%20VI",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "flair-steamboat-wrestlewar",
@@ -167,7 +187,9 @@
       "Ricky Steamboat"
     ],
     "why": "The conclusive match in the 1989 trilogy, followed by the launch of Flair's rivalry with Terry Funk.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Flair%20Steamboat%20WrestleWar%201989"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=Flair%20Steamboat%20WrestleWar%201989",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "misawa-jumbo",
@@ -182,7 +204,9 @@
       "Jumbo Tsuruta"
     ],
     "why": "A generational upset that launched Misawa as All Japan's new native ace.",
-    "sourceUrl": "https://www.all-japan.co.jp/"
+    "sourceUrl": "https://www.all-japan.co.jp/",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "wargames-92",
@@ -204,7 +228,9 @@
       "Larry Zbyszko"
     ],
     "why": "Often treated as the definitive WarGames match: violent, coherent and built around months of television.",
-    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=WarGames%201992"
+    "watchUrl": "https://www.youtube.com/@WWEVault/search?query=WarGames%201992",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "bret-bulldog",
@@ -219,7 +245,9 @@
       "British Bulldog"
     ],
     "why": "A stadium main event that pairs atmosphere with a demanding, dramatic performance.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bret%20Hart%20British%20Bulldog%20SummerSlam%201992"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bret%20Hart%20British%20Bulldog%20SummerSlam%201992",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "kid-razor",
@@ -234,7 +262,9 @@
       "Razor Ramon"
     ],
     "why": "The upset that demonstrated how one weekly-TV match could create a new star and months of story.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=1-2-3%20Kid%20Razor%20Ramon%20Raw"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=1-2-3%20Kid%20Razor%20Ramon%20Raw",
+    "archiveStars": 4.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "bret-owen-wm10",
@@ -249,7 +279,9 @@
       "Owen Hart"
     ],
     "why": "An opening match that combines family rivalry, technical precision and a result that drives the entire event.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bret%20Owen%20WrestleMania%20X"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bret%20Owen%20WrestleMania%20X",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "misawa-kawada-94",
@@ -264,7 +296,9 @@
       "Toshiaki Kawada"
     ],
     "why": "A central King's Road championship match and a high point of 1990s All Japan.",
-    "sourceUrl": "https://www.all-japan.co.jp/"
+    "sourceUrl": "https://www.all-japan.co.jp/",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "when-worlds-collide",
@@ -283,7 +317,9 @@
       "Konnan"
     ],
     "why": "A landmark U.S. PPV presentation of lucha libre, anchored by an extraordinary mask-versus-hair tag match.",
-    "watchUrl": "https://www.youtube.com/@luchalibreaaa/search?query=When%20Worlds%20Collide%201994"
+    "watchUrl": "https://www.youtube.com/@luchalibreaaa/search?query=When%20Worlds%20Collide%201994",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "ajpw-tag-95",
@@ -300,7 +336,9 @@
       "Akira Taue"
     ],
     "why": "A dramatic summit of All Japan's tag-team storytelling and the Four Pillars era.",
-    "sourceUrl": "https://www.all-japan.co.jp/"
+    "sourceUrl": "https://www.all-japan.co.jp/",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "austin-316",
@@ -315,7 +353,9 @@
       "Jake Roberts"
     ],
     "why": "The tournament victory and post-match promo that supplied the slogan for WWE's coming boom period.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Austin%203%3A16%20King%20of%20the%20Ring"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Austin%203%3A16%20King%20of%20the%20Ring",
+    "archiveStars": 4.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "misawa-kobashi-97",
@@ -330,7 +370,9 @@
       "Kenta Kobashi"
     ],
     "why": "A definitive championship match in Kobashi's rise and one of the clearest introductions to King's Road escalation.",
-    "sourceUrl": "https://www.all-japan.co.jp/"
+    "sourceUrl": "https://www.all-japan.co.jp/",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "bret-austin",
@@ -345,7 +387,9 @@
       "Steve Austin"
     ],
     "why": "A perfectly executed double turn and one of WWE's most important character transitions.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bret%20Hart%20Steve%20Austin%20WrestleMania%2013"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bret%20Hart%20Steve%20Austin%20WrestleMania%2013",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "first-hiac",
@@ -361,7 +405,9 @@
       "Kane"
     ],
     "why": "The original Cell match establishes the stipulation, pays off a long chase and introduces Kane.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Shawn%20Michaels%20Undertaker%20Badd%20Blood%201997"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Shawn%20Michaels%20Undertaker%20Badd%20Blood%201997",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "montreal",
@@ -377,7 +423,9 @@
       "Vince McMahon"
     ],
     "why": "Essential viewing because the real-life finish directly reshaped WWE television and the Mr. McMahon character.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Montreal%20Screwjob"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Montreal%20Screwjob",
+    "archiveStars": 4.25,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "taker-mankind-cell",
@@ -392,7 +440,9 @@
       "Mankind"
     ],
     "why": "One of wrestling's most replayed spectacles; historically important but unusually dangerous.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Undertaker%20Mankind%20Hell%20in%20a%20Cell"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Undertaker%20Mankind%20Hell%20in%20a%20Cell",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "misawa-kobashi-98",
@@ -407,7 +457,9 @@
       "Kenta Kobashi"
     ],
     "why": "A masterclass in cumulative rivalry storytelling and heavyweight escalation.",
-    "sourceUrl": "https://www.all-japan.co.jp/"
+    "sourceUrl": "https://www.all-japan.co.jp/",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "foley-title",
@@ -423,7 +475,9 @@
       "Steve Austin"
     ],
     "why": "The signature ratings-war episode: a world-title payoff, a famous spoiler and a decisive audience swing.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Mankind%20wins%20WWF%20title%20Raw%201999"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Mankind%20wins%20WWF%20title%20Raw%201999",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "wm2000-ladder",
@@ -442,7 +496,9 @@
       "D-Von Dudley"
     ],
     "why": "The triangle ladder match that set the template for WWE's early-2000s tag-team spectacle.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=WrestleMania%202000%20ladder%20match"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=WrestleMania%202000%20ladder%20match",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "wm17",
@@ -463,7 +519,9 @@
       "The Dudley Boyz"
     ],
     "why": "The culmination of the Attitude Era and one of WWE's strongest complete-event recommendations.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=WrestleMania%20X-Seven"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=WrestleMania%20X-Seven",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "punk-hero-93",
@@ -478,7 +536,9 @@
       "Chris Hero"
     ],
     "why": "A demanding independent-wrestling time-limit epic that defines their early rivalry.",
-    "sourceUrl": "https://www.youtube.com/results?search_query=IWA+Mid+South+CM+Punk+Chris+Hero+93+minutes"
+    "sourceUrl": "https://www.youtube.com/results?search_query=IWA+Mid+South+CM+Punk+Chris+Hero+93+minutes",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "kobashi-misawa-03",
@@ -493,7 +553,9 @@
       "Mitsuharu Misawa"
     ],
     "why": "The definitive transition in NOAH's heavyweight hierarchy and the start of Kobashi's celebrated title reign.",
-    "watchUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish/search?query=Kobashi%20Misawa%202003"
+    "watchUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish/search?query=Kobashi%20Misawa%202003",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "joe-punk-2",
@@ -508,7 +570,9 @@
       "CM Punk"
     ],
     "why": "A 60-minute draw that expanded ROH's reach and became a calling card for the 2000s independent scene.",
-    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Joe%20Punk%20II"
+    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Joe%20Punk%20II",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "kobashi-sasaki",
@@ -523,7 +587,9 @@
       "Kensuke Sasaki"
     ],
     "why": "A famously physical heavyweight match built around endurance and extended strike exchanges.",
-    "watchUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish/search?query=Kobashi%20Sasaki"
+    "watchUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish/search?query=Kobashi%20Sasaki",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "tna-unbreakable",
@@ -539,7 +605,9 @@
       "Christopher Daniels"
     ],
     "why": "The signature match of TNA's early X Division and a core company recommendation.",
-    "watchUrl": "https://www.youtube.com/@TNAWrestling/search?query=Unbreakable%202005%20Styles%20Joe%20Daniels"
+    "watchUrl": "https://www.youtube.com/@TNAWrestling/search?query=Unbreakable%202005%20Styles%20Joe%20Daniels",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "joe-kobashi",
@@ -554,7 +622,9 @@
       "Kenta Kobashi"
     ],
     "why": "A dream match presented with exceptional atmosphere and a disciplined heavyweight structure.",
-    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Joe%20vs%20Kobashi"
+    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Joe%20vs%20Kobashi",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "roh-dg-sixman",
@@ -573,7 +643,9 @@
       "Naruki Doi"
     ],
     "why": "A breathtaking six-man showcase that introduced many U.S. viewers to Dragon Gate's house style.",
-    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Do%20Fixer%20Blood%20Generation"
+    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Do%20Fixer%20Blood%20Generation",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "danielson-nigel",
@@ -588,7 +660,9 @@
       "Nigel McGuinness"
     ],
     "why": "A unification match with extraordinary crowd investment and escalating technical violence.",
-    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Danielson%20Nigel%20Unified"
+    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Danielson%20Nigel%20Unified",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "marufuji-kenta",
@@ -603,7 +677,9 @@
       "KENTA"
     ],
     "why": "A defining junior-heavyweight rivalry elevated into NOAH's GHC heavyweight main event.",
-    "watchUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish/search?query=Marufuji%20KENTA%202006"
+    "watchUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish/search?query=Marufuji%20KENTA%202006",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "cena-hbk-raw",
@@ -618,7 +694,9 @@
       "Shawn Michaels"
     ],
     "why": "A near-hour free-television rematch demonstrating the value of major matches within weekly chronology.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Cena%20Michaels%20Raw%202007"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Cena%20Michaels%20Raw%202007",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "flair-hbk",
@@ -633,7 +711,9 @@
       "Shawn Michaels"
     ],
     "why": "A polished career-versus-career match with one of WWE's most memorable emotional finishes.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Flair%20Michaels%20WrestleMania%2024"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Flair%20Michaels%20WrestleMania%2024",
+    "archiveStars": 4.25,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "taker-hbk-25",
@@ -648,7 +728,9 @@
       "Shawn Michaels"
     ],
     "why": "A modern WrestleMania standard built around reversals, near falls and two fully established characters.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Undertaker%20Michaels%20WrestleMania%2025"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Undertaker%20Michaels%20WrestleMania%2025",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "steen-generico-fb",
@@ -663,7 +745,9 @@
       "El Generico"
     ],
     "why": "The emotional conclusion to one of ROH's strongest year-long stories.",
-    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Steen%20Generico%20Final%20Battle%202010"
+    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=Steen%20Generico%20Final%20Battle%202010",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "punk-cena-mitb",
@@ -678,7 +762,9 @@
       "John Cena"
     ],
     "why": "A rare collision of real-world contract tension, hometown atmosphere and a decisive WWE title story.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Punk%20Cena%20Money%20in%20the%20Bank%202011"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Punk%20Cena%20Money%20in%20the%20Bank%202011",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "okada-tana-dominion",
@@ -693,7 +779,9 @@
       "Hiroshi Tanahashi"
     ],
     "why": "The match that confirms Okada's arrival and establishes New Japan's defining rivalry of the decade.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Tanahashi%20Dominion%202012"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Tanahashi%20Dominion%202012",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "okada-tana-invasion",
@@ -708,7 +796,9 @@
       "Hiroshi Tanahashi"
     ],
     "why": "A superbly paced title match and one of the best entry points into modern New Japan.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Tanahashi%20Invasion%20Attack"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Tanahashi%20Invasion%20Attack",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "ishii-shibata",
@@ -723,7 +813,9 @@
       "Katsuyori Shibata"
     ],
     "why": "A compact, ferocious G1 match that became a modern strong-style reference point.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Ishii%20Shibata%20G1%202013"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Ishii%20Shibata%20G1%202013",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "nakamura-ibushi",
@@ -738,7 +830,9 @@
       "Kota Ibushi"
     ],
     "why": "A charismatic, athletic Intercontinental title match and an ideal gateway to 2010s NJPW.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Nakamura%20Ibushi%20Wrestle%20Kingdom%209"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Nakamura%20Ibushi%20Wrestle%20Kingdom%209",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "sasha-bayley",
@@ -753,7 +847,9 @@
       "Bayley"
     ],
     "why": "A landmark NXT women's title match with a complete underdog story and lasting influence.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Sasha%20Bayley%20TakeOver%20Brooklyn"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Sasha%20Bayley%20TakeOver%20Brooklyn",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "styles-nakamura",
@@ -768,7 +864,9 @@
       "AJ Styles"
     ],
     "why": "A first-time singles meeting between two stars at the end of their NJPW runs.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Nakamura%20AJ%20Styles%20Wrestle%20Kingdom%2010"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Nakamura%20AJ%20Styles%20Wrestle%20Kingdom%2010",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "zayn-nakamura",
@@ -783,7 +881,9 @@
       "Shinsuke Nakamura"
     ],
     "why": "A farewell and debut match carried by crowd knowledge, simple stakes and exceptional timing.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Zayn%20Nakamura%20TakeOver%20Dallas"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Zayn%20Nakamura%20TakeOver%20Dallas",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "final-deletion",
@@ -798,7 +898,9 @@
       "Jeff Hardy"
     ],
     "why": "A pivotal piece of cinematic wrestling that became one of Impact's most influential weekly-TV experiments.",
-    "watchUrl": "https://www.youtube.com/@TNAWrestling/search?query=Final%20Deletion"
+    "watchUrl": "https://www.youtube.com/@TNAWrestling/search?query=Final%20Deletion",
+    "archiveStars": 4.25,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "okada-omega-1",
@@ -813,7 +915,9 @@
       "Kenny Omega"
     ],
     "why": "The first match in a rivalry that dramatically expanded New Japan's international audience.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Omega%20Wrestle%20Kingdom%2011"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Omega%20Wrestle%20Kingdom%2011",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "bate-dunne",
@@ -828,7 +932,9 @@
       "Pete Dunne"
     ],
     "why": "A compact, high-impact UK title match that immediately defined the belt's early standard.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bate%20Dunne%20TakeOver%20Chicago"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=Bate%20Dunne%20TakeOver%20Chicago",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "walter-pco",
@@ -843,7 +949,9 @@
       "PCO"
     ],
     "why": "A cult spectacle that helped relaunch PCO and captures Spring Break's improbable-match appeal.",
-    "watchUrl": "https://www.youtube.com/@GCWrestling/search?query=WALTER%20PCO"
+    "watchUrl": "https://www.youtube.com/@GCWrestling/search?query=WALTER%20PCO",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "okada-omega-4",
@@ -858,7 +966,9 @@
       "Kenny Omega"
     ],
     "why": "The long-form conclusion to Okada's record title reign and the central match of their series.",
-    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Omega%20Dominion%202018"
+    "watchUrl": "https://www.youtube.com/@NJPWGLOBAL/search?query=Okada%20Omega%20Dominion%202018",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "all-in-2018",
@@ -876,7 +986,9 @@
       "Kazuchika Okada"
     ],
     "why": "The independently produced arena sell-out that directly paved the way for AEW.",
-    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=All%20In%202018"
+    "watchUrl": "https://www.youtube.com/@ringofhonor/search?query=All%20In%202018",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "cody-dustin",
@@ -891,7 +1003,9 @@
       "Dustin Rhodes"
     ],
     "why": "A deeply personal match that gave AEW's first PPV an emotional centre.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Cody%20Dustin%20Double%20or%20Nothing"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Cody%20Dustin%20Double%20or%20Nothing",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "walter-bate",
@@ -906,7 +1020,9 @@
       "Tyler Bate"
     ],
     "why": "A long, patient UK title match built around size, resilience and crowd belief.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=WALTER%20Tyler%20Bate%20Cardiff"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=WALTER%20Tyler%20Bate%20Cardiff",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "hangman-omega-bucks",
@@ -923,7 +1039,9 @@
       "Nick Jackson"
     ],
     "why": "A tag-team match rich with layered character history and elite-level escalation.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Omega%20Page%20Young%20Bucks%20Revolution"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Omega%20Page%20Young%20Bucks%20Revolution",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "walter-dragunov-1",
@@ -938,7 +1056,9 @@
       "Ilja Dragunov"
     ],
     "why": "An exceptionally physical empty-arena title match whose atmosphere comes entirely from the work.",
-    "watchUrl": "https://www.youtube.com/@WWE/search?query=WALTER%20Dragunov%20NXT%20UK"
+    "watchUrl": "https://www.youtube.com/@WWE/search?query=WALTER%20Dragunov%20NXT%20UK",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "britt-rosa",
@@ -953,7 +1073,9 @@
       "Thunder Rosa"
     ],
     "why": "A breakout free-television main event that elevated both wrestlers and AEW's women's division.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Britt%20Baker%20Thunder%20Rosa%20Lights%20Out"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Britt%20Baker%20Thunder%20Rosa%20Lights%20Out",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "bucks-lucha-cage",
@@ -970,7 +1092,9 @@
       "Rey Fénix"
     ],
     "why": "A spectacular tag title match with a decisive emotional payoff.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Young%20Bucks%20Lucha%20Brothers%20All%20Out%202021"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Young%20Bucks%20Lucha%20Brothers%20All%20Out%202021",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "danielson-suzuki",
@@ -985,7 +1109,9 @@
       "Minoru Suzuki"
     ],
     "why": "A major first-time match deliberately released free on YouTube.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Bryan%20Danielson%20Minoru%20Suzuki%20full%20match"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Bryan%20Danielson%20Minoru%20Suzuki%20full%20match",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "ospreay-oku",
@@ -1000,7 +1126,9 @@
       "Michael Oku"
     ],
     "why": "A dramatic British heavyweight title match that established Oku at RevPro's top level.",
-    "watchUrl": "https://www.youtube.com/@RevolutionProWrestling/search?query=Ospreay%20Oku%20High%20Stakes"
+    "watchUrl": "https://www.youtube.com/@RevolutionProWrestling/search?query=Ospreay%20Oku%20High%20Stakes",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "punk-mjf-collar",
@@ -1015,7 +1143,9 @@
       "MJF"
     ],
     "why": "The violent payoff to one of AEW's most carefully developed personal rivalries.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=CM%20Punk%20MJF%20dog%20collar"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=CM%20Punk%20MJF%20dog%20collar",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "ospreay-cassidy",
@@ -1030,7 +1160,9 @@
       "Orange Cassidy"
     ],
     "why": "A cross-promotional showcase that turns a stylistic contrast into a compelling title match.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Ospreay%20Orange%20Cassidy%20Forbidden%20Door"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Ospreay%20Orange%20Cassidy%20Forbidden%20Door",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "mcf-danielson-iron",
@@ -1045,7 +1177,9 @@
       "Bryan Danielson"
     ],
     "why": "A 60-minute title match that tests MJF's in-ring credibility against an ideal opponent.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=MJF%20Danielson%20Iron%20Man"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=MJF%20Danielson%20Iron%20Man",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "all-in-2023",
@@ -1064,7 +1198,9 @@
       "Chris Jericho"
     ],
     "why": "Essential for scale and atmosphere: AEW's Wembley Stadium debut and largest live presentation.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=All%20In%20London%202023"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=All%20In%20London%202023",
+    "archiveStars": 4.5,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "danielson-zsj",
@@ -1079,7 +1215,9 @@
       "Zack Sabre Jr."
     ],
     "why": "A long-awaited technical showcase built around the question of the world's best technical wrestler.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Danielson%20Zack%20Sabre%20Jr%20WrestleDream"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Danielson%20Zack%20Sabre%20Jr%20WrestleDream",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "ospreay-danielson",
@@ -1094,7 +1232,9 @@
       "Bryan Danielson"
     ],
     "why": "A first-time dream match staged as a direct contest over in-ring supremacy.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Ospreay%20Danielson%20Dynasty"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Ospreay%20Danielson%20Dynasty",
+    "archiveStars": 5.0,
+    "ratingLabel": "Archive editorial rating"
   },
   {
     "id": "swerve-danielson",
@@ -1109,6 +1249,8 @@
       "Bryan Danielson"
     ],
     "why": "A career-versus-title Wembley main event with strong character stakes and a definitive finish.",
-    "watchUrl": "https://www.youtube.com/@AEW/search?query=Swerve%20Danielson%20All%20In%202024"
+    "watchUrl": "https://www.youtube.com/@AEW/search?query=Swerve%20Danielson%20All%20In%202024",
+    "archiveStars": 4.75,
+    "ratingLabel": "Archive editorial rating"
   }
 ]

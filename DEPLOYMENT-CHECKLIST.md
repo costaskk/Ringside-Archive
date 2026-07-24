@@ -1,4 +1,4 @@
-# Ringside Archive v5.3.0 deployment checklist
+# Ringside Archive v5.4.0 deployment checklist
 
 ## Local verification
 
@@ -15,7 +15,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.3.0 release"
+git commit -m "Initial Ringside Archive v5.4.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -79,10 +79,10 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Post-upgrade cache reset
 
-- [ ] Open the deployed URL once with `?v=5.3.0`.
+- [ ] Open the deployed URL once with `?v=5.4.0`.
 - [ ] Hard refresh with **Ctrl+Shift+R**.
 - [ ] If an older interface remains, unregister the old service worker and clear site data once.
-- [ ] Confirm the footer says **Catalogue v5.3.0** and the dashboard reports **287 programme families**.
+- [ ] Confirm the footer says **Catalogue v5.4.0** and the dashboard reports **287 programme families**.
 
 ## Legacy Plex-export security
 
@@ -99,6 +99,7 @@ TMDB_READ_ACCESS_TOKEN        optional
 - [ ] Test password-reset completion.
 - [ ] Mark a record Watched, sync, and confirm it restores in another browser/profile.
 - [ ] Connect Trakt while signed in.
+- [ ] Confirm the Trakt device code stays visible for at least one polling cycle and can be copied.
 - [ ] Import Trakt history.
 - [ ] Connect Plex while signed in.
 - [ ] Refresh servers.
@@ -117,13 +118,15 @@ TMDB_READ_ACCESS_TOKEN        optional
 - [ ] Review newly discovered feed mappings before treating them as exact.
 - [ ] Add `TMDB_READ_ACCESS_TOKEN` if richer artwork is desired.
 - [ ] Open Companies and confirm logo placeholders begin resolving.
-- [ ] Open Wrestlers and confirm headshot slots and rating ordering.
+- [ ] Open Wrestlers and confirm lazy headshots resolve through the same-origin artwork endpoint.
+- [ ] Open a wrestler and confirm Top 10 match stars, programme links and the full career route.
+- [ ] Confirm the first usable screen appears before cloud restoration and exact-feed loading complete.
 - [ ] Run the artwork workflow and manually review ambiguous images.
 - [ ] Never label a fallback or generated image as original artwork.
 
 ## Vercel Hobby function check
 
-Version 5.3.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+Version 5.4.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
 
 ```powershell
 npm test

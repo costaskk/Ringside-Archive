@@ -3,23 +3,88 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "functions": {
-    "api/plex/library.js": { "maxDuration": 120 },
-    "api/**/*.js": { "maxDuration": 60 }
+    "api/plex/library.js": {
+      "maxDuration": 120
+    },
+    "api/**/*.js": {
+      "maxDuration": 60
+    }
   },
   "headers": [
-    {"source":"/(.*)","headers":[
-      {"key":"X-Content-Type-Options","value":"nosniff"},
-      {"key":"Referrer-Policy","value":"no-referrer"},
-      {"key":"Permissions-Policy","value":"camera=(), microphone=(), geolocation=()"}
-    ]},
-    {"source":"/service-worker.js","headers":[
-      {"key":"Cache-Control","value":"no-cache, no-store, must-revalidate"},
-      {"key":"Service-Worker-Allowed","value":"/"}
-    ]},
-    {"source":"/index.html","headers":[{"key":"Cache-Control","value":"no-cache, no-store, must-revalidate"}]},
-    {"source":"/src/(.*)","headers":[{"key":"Cache-Control","value":"no-cache, max-age=0, must-revalidate"}]},
-    {"source":"/runtime-config.js","headers":[{"key":"Cache-Control","value":"no-cache, no-store, must-revalidate"}]},
-    {"source":"/data/(.*)","headers":[{"key":"Cache-Control","value":"public, max-age=0, must-revalidate"}]},
-    {"source":"/api/(.*)","headers":[{"key":"Cache-Control","value":"private, no-store"}]}
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/service-worker.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Service-Worker-Allowed",
+          "value": "/"
+        }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/src/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/runtime-config.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "private, no-store"
+        }
+      ]
+    }
   ]
 }

@@ -1,10 +1,10 @@
-# Upgrade an existing Ringside Archive repository to v5.3.0
+# Upgrade an existing Ringside Archive repository to v5.4.0
 
 These steps are for an existing GitHub/Vercel deployment, including the deployment shown with the older 271-programme interface.
 
 ## 1. Replace the repository files cleanly
 
-Extract the v5.3.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
+Extract the v5.4.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
 
 Before committing, confirm these obsolete routes do not exist:
 
@@ -34,7 +34,7 @@ Use `git add -A`, not only `git add .`, so obsolete endpoint deletions are defin
 ```powershell
 git add -A
 git status
-git commit -m "Upgrade Ringside Archive to v5.3.0"
+git commit -m "Upgrade Ringside Archive to v5.4.0"
 git push
 ```
 
@@ -69,7 +69,7 @@ It must report Trakt as configured before the Connect Trakt button can succeed. 
 Open the new deployment with:
 
 ```text
-https://YOUR-DEPLOYMENT.vercel.app/?v=5.3.0
+https://YOUR-DEPLOYMENT.vercel.app/?v=5.4.0
 ```
 
 Then press **Ctrl+Shift+R**.
@@ -77,9 +77,11 @@ Then press **Ctrl+Shift+R**.
 Confirm:
 
 - the dashboard reports **287 programme families**;
-- the footer says **Catalogue v5.3.0**;
+- the footer says **Catalogue v5.4.0**;
 - the browser no longer calls `/api/trakt/device-code`;
-- the Filters panel is visible and shows active-filter reset chips.
+- the Filters panel is visible and shows active-filter reset chips;
+- the initial page becomes usable before account/episode background work finishes;
+- the footer reports **Catalogue v5.4.0**.
 
 If the old interface is still present:
 
@@ -119,7 +121,7 @@ The audit must report version 3, no embedded token and at least one likely wrest
 5. Complete the displayed Trakt device code.
 6. Import watched history.
 
-A 403 now identifies rejected/missing app credentials instead of returning an ambiguous fetch error.
+The device code must remain visible during background account, artwork and episode updates. It includes a countdown and Copy code control. A 403 identifies rejected/missing app credentials instead of returning an ambiguous fetch error.
 
 ## 7. Test Plex
 
@@ -134,8 +136,9 @@ A Vercel function cannot contact a private LAN-only `192.168.x.x` Plex address. 
 ## 8. Test artwork, filters and wrestlers
 
 - Open **Companies** and select **Scan visible logos**.
-- Open **Wrestlers** and select **Scan visible headshots**.
+- Open **Wrestlers**. Headshots should resolve progressively through the same-origin Wikipedia/Wikimedia image route without requiring a manual scan.
 - Confirm the default wrestler order is Archive score, high to low.
+- Open a wrestler and verify the profile hero, Top 10 match ratings, programme links and chronological appearance list.
 - Open Filters, select a company/wrestler/year range and remove each selection through its chip or **Reset all**.
 - Add `TMDB_READ_ACCESS_TOKEN` for richer show/season/episode/event artwork; Wikipedia/Wikimedia remain the no-key fallback.
 
@@ -154,5 +157,6 @@ Expected essentials:
 12 Vercel Functions
 Cloud smoke passed
 Integration smoke passed
+Performance smoke passed
 Runtime smoke passed
 ```

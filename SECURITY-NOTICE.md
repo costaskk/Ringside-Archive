@@ -23,7 +23,7 @@ containsEmbeddedPlexToken: false
 likelyWrestlingRows: greater than 0
 ```
 
-## Protections in v5.3.0
+## Protections in v5.4.0
 
 - The exporter never writes the token or tokenized image URLs.
 - The browser rejects a legacy Plex JSON import containing `X-Plex-Token=`.

@@ -1,4 +1,4 @@
-# Ringside Archive v5.3.0
+# Ringside Archive v5.4.0
 
 A GitHub-ready professional wrestling chronology and viewing tracker with:
 
@@ -13,21 +13,29 @@ A GitHub-ready professional wrestling chronology and viewing tracker with:
 - Supabase email accounts and cross-device archive synchronization
 - encrypted, account-linked Plex and Trakt connections that roam between devices
 
+See [`CHANGELOG.md`](CHANGELOG.md) for the release-by-release changes and [`PROJECT-AUDIT.md`](PROJECT-AUDIT.md) for the engineering audit.
 
-## v5.3.0 Trakt, Plex storage and artwork hotfix
 
-This release fixes the failures observed on the live Vercel deployment:
+## v5.4.0 performance, wrestler profiles and visual refresh
 
-- **Trakt Cloudflare compatibility:** every Trakt OAuth, history, refresh and sync request now sends a stable application `User-Agent`, `Api-User-Agent`, `trakt-api-key`, `trakt-api-version`, JSON and language headers. HTML Cloudflare challenges are converted into a readable diagnostic instead of being displayed inside the app.
-- **Plex quota protection:** the browser no longer stores an entire scanned Plex library. It matches in memory, retains only matched records and compacts their fields before saving. On upgrade, existing oversized Plex and artwork caches are compacted automatically.
-- **Correct local Plex exporter:** export format v3 scans native movie/video items and exact episodes, includes `viewCount`, `viewOffset` and `lastViewedAt`, supports selecting libraries, writes UTF-8 correctly and never embeds the Plex token in image URLs.
-- **Better Plex matching:** conventional filenames, aliases, `SxxEyy`, titles with quality/release tags and PPV title/year files are normalized before matching.
-- **Reliable artwork delivery:** TMDB, TVMaze and Wikimedia images are displayed through an allow-listed same-origin image proxy. This prevents Wikimedia hotlink 403 responses while keeping the source attribution link.
-- **Quiet cloud synchronization:** discovered artwork is treated as a regenerable device cache rather than part of the Supabase archive-state row. Artwork batches no longer trigger continuous Supabase pull/push loops.
-- **Cleaner service worker:** third-party and Supabase requests bypass the service worker completely. Private same-origin APIs remain network-only.
-- **Existing v5.2 interface work remains:** visible/resettable filters, company logos, lazy wrestler headshots, archive-score sorting, bounded rendering and selectable Plex libraries are all preserved.
+This release focuses on making the archive feel immediate and polished on real deployments:
 
-**Security:** never share a Plex export containing `X-Plex-Token=`. The v5.3 exporter cannot create such a file.
+- **Faster first paint:** the initial screen now waits only for the core catalogue. The 588 KB event-detail file, artwork catalogues, Supabase account restoration and exact episode feeds load after the interface is already usable.
+- **Cached chronology:** the merged timeline and flattened episode collection are cached instead of being rebuilt and resorted on every click, filter change or cloud update.
+- **Progressive episode loading:** exact TVMaze feeds start during browser idle time, use only two concurrent workers and refresh the interface at a bounded interval instead of rerendering after every feed.
+- **Much faster wrestler directory:** only 24 wrestler cards render initially, cards use `content-visibility`, the career index avoids repeatedly scanning every wrestler against every episode, and heavy dashboard content is omitted from non-timeline views.
+- **Reliable headshots:** wrestler cards use a cached, same-origin headshot endpoint with fast Wikipedia summary lookup and Wikimedia search fallback. Images load lazily and remain attributed through the artwork system.
+- **Complete wrestler profile pages:** selecting a wrestler now opens a visual profile with a Top 10 match list, five-star Archive editorial ratings, links to the exact archive record or programme, programme-family appearances and the full chronological career path.
+- **Persistent Trakt activation:** the device code is held in application state, includes a countdown and copy button, and can no longer disappear when artwork, account or episode background work rerenders the Connections window.
+- **Visual redesign:** improved spacing, typography, hierarchy, card depth, hover states, modals, mobile layouts, profile heroes, match-ranking cards and reduced-motion support.
+- **Faster repeat visits:** release JSON uses stale-while-revalidate caching, while private `/api/` responses and Supabase traffic remain network-only.
+- **Existing Plex/Trakt protections remain:** compact Plex storage, encrypted roaming integrations, exact ownership/view-state matching, Trakt required headers and safe artwork proxying are preserved.
+
+### About wrestler star ratings
+
+The Top 10 uses a clearly labelled **Archive editorial rating**, not an undisclosed claim that every number came from one external critic. Stored source ratings and the user’s own rating take precedence where available; curated recommendations include an editorial five-star score in `data/recommendations.json`.
+
+**Security:** never share a Plex export containing `X-Plex-Token=`. The included version 3 exporter cannot create such a file.
 
 ## Should this project use Supabase?
 
@@ -117,7 +125,7 @@ The project never creates fictional weekly dates. Complete Timeline contains:
 
 For programmes with no dependable episode database, the show remains indexed but is not expanded into invented episodes. See `docs/DATA-COVERAGE.md`.
 
-## Added programme families in v5.3.0
+## Added programme families in v5.4.0
 
 The recovery catalogue was expanded with important missing lineages and programmes, including:
 
@@ -141,6 +149,17 @@ The recovery catalogue was expanded with important missing lineages and programm
 These are programme families. Exact episode rows are only generated where a verified feed or custom sourced record exists.
 
 ---
+
+## Maintaining the fast core bundle
+
+The source JSON files remain individually editable. After changing promotions, programmes, major events, recommendations, wrestlers, format labels, custom records or metadata, rebuild the single-request startup bundle:
+
+```powershell
+npm run build:core
+npm test
+```
+
+The audit fails when `data/core.json` no longer matches the source catalogue counts.
 
 # Deployment: GitHub + Vercel + Supabase
 
@@ -191,7 +210,7 @@ Open PowerShell in the project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.3.0 release"
+git commit -m "Initial Ringside Archive v5.4.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -426,7 +445,7 @@ That is the older application being served by its service-worker cache. Version 
 
 After deploying the new commit:
 
-1. Open `https://YOUR-SITE.vercel.app/?v=5.3.0` once.
+1. Open `https://YOUR-SITE.vercel.app/?v=5.4.0` once.
 2. Press **Ctrl+Shift+R**.
 3. If the old interface remains, open DevTools → **Application** → **Service Workers** → **Unregister**.
 4. Under **Storage**, select **Clear site data**.

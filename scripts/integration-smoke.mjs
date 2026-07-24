@@ -36,6 +36,7 @@ try{
   delete process.env.TMDB_READ_ACCESS_TOKEN;
   globalThis.fetch=async url=>{
     const value=String(url);
+    if(value.includes('en.wikipedia.org/api/rest_v1/page/summary/'))return new Response('',{status:404});
     if(value.includes('en.wikipedia.org/w/api.php')){
       const query=new URL(value).searchParams.get('gsrsearch')||'';
       const wrestler=/Hulk Hogan/i.test(query);
@@ -57,6 +58,19 @@ try{
   ]}},res);
   const results=res.record.body?.results||[];
   if(res.record.statusCode!==200||!results[0]?.result?.logo||!results[1]?.result?.headshot)throw new Error('Artwork logo/headshot batch test failed.');
+
+  globalThis.fetch=async (url,options={})=>{
+    const value=String(url);
+    if(value.includes('en.wikipedia.org/api/rest_v1/page/summary/Hulk_Hogan'))return new Response(JSON.stringify({
+      title:'Hulk Hogan',description:'American professional wrestler',extract:'Professional wrestler',
+      originalimage:{source:'https://upload.wikimedia.org/hulk-render.jpg'},content_urls:{desktop:{page:'https://en.wikipedia.org/wiki/Hulk_Hogan'}}
+    }),{status:200,headers:{'content-type':'application/json'}});
+    if(value==='https://upload.wikimedia.org/hulk-render.jpg')return new Response(Buffer.from([1,2,3]),{status:200,headers:{'content-type':'image/jpeg'}});
+    throw new Error(`Unexpected rendered headshot fetch: ${url}`);
+  };
+  res=responseRecorder();
+  await artworkSearch({method:'GET',query:{render:'1',kind:'wrestler',title:'Hulk Hogan'}},res);
+  if(res.record.statusCode!==200||res.record.headers['content-type']!=='image/jpeg')throw new Error('Direct wrestler headshot rendering test failed.');
 
   globalThis.fetch=async (url,options={})=>{
     if(String(url)==='https://upload.wikimedia.org/test.svg'){

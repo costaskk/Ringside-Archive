@@ -1,13 +1,9 @@
-const CACHE = 'ringside-archive-v5.3.0';
+const CACHE = 'ringside-archive-v5.4.0';
 const CORE = [
-  './', './index.html?v=5.3.0', './runtime-config.js?v=5.3.0',
-  './src/app.js?v=5.3.0', './src/styles.css?v=5.3.0', './src/storage.js', './src/cloud.js',
+  './', './index.html?v=5.4.0', './runtime-config.js?v=5.4.0',
+  './src/app.js?v=5.4.0', './src/styles.css?v=5.4.0', './src/storage.js', './src/cloud.js',
   './src/tvmaze.js', './src/utils.js', './src/records.js', './src/integrations.js',
-  './favicon.svg', './manifest.webmanifest',
-  './data/meta.json', './data/promotions.json', './data/programmes.json', './data/major-events.json',
-  './data/recommendations.json', './data/wrestlers.json', './data/format-labels.json',
-  './data/artwork-overrides.json', './data/artwork-catalog.json', './data/event-details.json',
-  './data/custom-records.json', './data/tvmaze/index.json'
+  './favicon.svg', './manifest.webmanifest'
 ];
 
 self.addEventListener('install', event => {
@@ -64,22 +60,23 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // Always prefer the newest application shell, modules, catalogue and runtime config.
-  if (url.origin === self.location.origin && (
-    event.request.mode === 'navigate'
+  // Always prefer the newest shell and modules. Catalogue JSON is immutable per
+  // release, so repeat visits use the cache immediately while refreshing in the background.
+  if (event.request.mode === 'navigate'
     || url.pathname === '/'
     || url.pathname === '/index.html'
     || url.pathname === '/runtime-config.js'
     || url.pathname === '/service-worker.js'
-    || url.pathname.startsWith('/src/')
-    || url.pathname.startsWith('/data/')
-  )) {
+    || url.pathname.startsWith('/src/')) {
     event.respondWith(networkFirst(event.request));
     return;
   }
+  if (url.pathname.startsWith('/data/')) {
+    event.respondWith(staleWhileRevalidate(event.request));
+    return;
+  }
 
-
-  event.respondWith(networkFirst(event.request));
+  event.respondWith(staleWhileRevalidate(event.request));
 });
 
 self.addEventListener('message', event => {

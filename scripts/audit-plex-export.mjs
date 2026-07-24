@@ -43,6 +43,6 @@ if (!likelyWrestling.length) {
   if (!process.exitCode) process.exitCode = 3;
 }
 if (Number(payload.version || 0) < 3) {
-  console.error('FORMAT: This is a legacy export. Use the version 3 exporter included with Ringside Archive v5.3.0.');
+  console.error('FORMAT: This is a legacy export. Use the version 3 exporter included with Ringside Archive v5.4.0.');
   if (!process.exitCode) process.exitCode = 4;
 }
