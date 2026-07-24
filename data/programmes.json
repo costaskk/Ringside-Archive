@@ -1,0 +1,4145 @@
+[
+  {
+    "promotionId": "jcp",
+    "id": "jcp-archive",
+    "name": "JCP Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1931-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Jim Crockett Promotions / Mid-Atlantic Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Jim Crockett Promotions / Mid-Atlantic Championship Wrestling",
+      "JCP"
+    ]
+  },
+  {
+    "promotionId": "cmll",
+    "id": "cmll-archive",
+    "name": "CMLL Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1933-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Empresa Mexicana de Lucha Libre / Consejo Mundial de Lucha Libre, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Empresa Mexicana de Lucha Libre / Consejo Mundial de Lucha Libre",
+      "CMLL"
+    ],
+    "officialUrl": "https://cmll.com/",
+    "youtubeUrl": "https://www.youtube.com/@VideosOficialesCMLL"
+  },
+  {
+    "promotionId": "cmll",
+    "id": "cmll-anniversary",
+    "name": "CMLL Anniversary Show",
+    "kind": "ppv",
+    "firstAirDate": "1934-09-21",
+    "cadence": "Annual",
+    "description": "The annual major card celebrating the promotion's founding.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "EMLL Anniversary Show"
+    ]
+  },
+  {
+    "promotionId": "cmll",
+    "id": "cmll-friday",
+    "name": "CMLL Super Viernes",
+    "kind": "weekly",
+    "firstAirDate": "1938-01-01",
+    "cadence": "Weekly",
+    "description": "Arena México's flagship Friday-night card and television/streaming spine.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "CMLL Friday Night",
+      "Super Viernes"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@VideosOficialesCMLL"
+  },
+  {
+    "promotionId": "gcw-territory",
+    "id": "gcw-territory-archive",
+    "name": "GCW (Georgia) Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1944-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Georgia Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Georgia Championship Wrestling",
+      "GCW (Georgia)"
+    ]
+  },
+  {
+    "promotionId": "nwa-historic",
+    "id": "nwa-historic-archive",
+    "name": "NWA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1948-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for National Wrestling Alliance — Historic Territories, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "National Wrestling Alliance — Historic Territories",
+      "NWA"
+    ],
+    "officialUrl": "https://www.nationalwrestlingalliance.com/"
+  },
+  {
+    "promotionId": "stampede",
+    "id": "stampede-archive",
+    "name": "Stampede Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1948-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Stampede Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Stampede Wrestling",
+      "Stampede"
+    ]
+  },
+  {
+    "promotionId": "joint-promotions",
+    "id": "joint-promotions-archive",
+    "name": "Joint Promotions Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1952-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Joint Promotions, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Joint Promotions",
+      "Joint Promotions"
+    ]
+  },
+  {
+    "promotionId": "stampede",
+    "id": "stampede-tv",
+    "name": "Stampede Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1957-01-01",
+    "cadence": "Weekly",
+    "description": "The Calgary territory's long-running television series across multiple revivals.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "1989-01-01",
+    "aliases": [
+      "Stampede Wrestling TV"
+    ]
+  },
+  {
+    "promotionId": "awa",
+    "id": "awa-all-star",
+    "name": "AWA All-Star Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1960-01-01",
+    "cadence": "Weekly",
+    "description": "The AWA's core regional and syndicated television programme.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1990-01-01",
+    "aliases": [
+      "AWA Championship Wrestling"
+    ]
+  },
+  {
+    "promotionId": "awa",
+    "id": "awa-archive",
+    "name": "AWA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1960-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for American Wrestling Association, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "American Wrestling Association",
+      "AWA"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-archive",
+    "name": "WWE Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1963-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World Wide Wrestling Federation / World Wrestling Federation / WWE, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World Wide Wrestling Federation / World Wrestling Federation / WWE",
+      "WWE"
+    ],
+    "officialUrl": "https://www.wwe.com/",
+    "youtubeUrl": "https://www.youtube.com/@WWE"
+  },
+  {
+    "promotionId": "world-of-sport",
+    "id": "world-of-sport-archive",
+    "name": "World of Sport Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1965-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World of Sport Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World of Sport Wrestling",
+      "World of Sport"
+    ]
+  },
+  {
+    "promotionId": "world-of-sport",
+    "id": "wos-itv",
+    "name": "ITV World of Sport Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "1965-01-02",
+    "cadence": "Weekly segment / programme",
+    "description": "The classic ITV wrestling archive, including Joint Promotions and independent opposition eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "1988-12-03",
+    "aliases": [
+      "World of Sport Wrestling"
+    ]
+  },
+  {
+    "promotionId": "wccw",
+    "id": "wccw-archive",
+    "name": "WCCW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1966-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World Class Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World Class Championship Wrestling",
+      "WCCW"
+    ]
+  },
+  {
+    "promotionId": "ajw",
+    "id": "ajw-archive",
+    "name": "AJW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1968-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for All Japan Women's Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "All Japan Women's Pro-Wrestling",
+      "AJW"
+    ]
+  },
+  {
+    "promotionId": "ajw",
+    "id": "ajw-tv",
+    "name": "Women's Pro Wrestling / AJW Television",
+    "kind": "weekly",
+    "firstAirDate": "1968-01-01",
+    "cadence": "Weekly / highlights",
+    "description": "The Fuji TV and syndicated broadcast spine for All Japan Women's Pro-Wrestling.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "2002-01-01",
+    "aliases": [
+      "All Japan Women TV"
+    ]
+  },
+  {
+    "promotionId": "ajw",
+    "id": "ajw-major",
+    "name": "AJW Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1968-06-04",
+    "cadence": "Major events",
+    "description": "AJW's complete major-event chronology, including Wrestlemarinepiad, Queendom and the Big Egg spectacle.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2005-04-17"
+  },
+  {
+    "promotionId": "all-star-uk",
+    "id": "all-star-uk-archive",
+    "name": "All Star Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1970-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for All Star Wrestling UK, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "All Star Wrestling UK",
+      "All Star"
+    ],
+    "officialUrl": "https://www.bigtimewrestlinguk.com/"
+  },
+  {
+    "promotionId": "nwa-historic",
+    "id": "nwa-world-championship",
+    "name": "NWA World Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1971-01-01",
+    "cadence": "Weekly",
+    "description": "The Georgia/TBS studio lineage later controlled by Jim Crockett Promotions.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "1988-11-26",
+    "aliases": [
+      "Georgia Championship Wrestling",
+      "World Championship Wrestling"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-all-star",
+    "name": "WWWF / WWF All-Star Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1971-09-25",
+    "cadence": "Weekly",
+    "description": "The long-running syndicated studio programme that carried the promotion from the WWWF years into the national expansion.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "1986-08-30",
+    "aliases": [
+      "All-Star Wrestling",
+      "WWWF All Star Wrestling"
+    ]
+  },
+  {
+    "promotionId": "ajpw",
+    "id": "ajpw-archive",
+    "name": "AJPW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1972-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for All Japan Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "All Japan Pro Wrestling",
+      "AJPW"
+    ],
+    "officialUrl": "https://www.all-japan.co.jp/",
+    "youtubeUrl": "https://www.youtube.com/@ajpw"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-archive",
+    "name": "NJPW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1972-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for New Japan Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "New Japan Pro-Wrestling",
+      "NJPW"
+    ],
+    "officialUrl": "https://www.njpw1972.com/",
+    "youtubeUrl": "https://www.youtube.com/@NJPWGLOBAL"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-championship",
+    "name": "WWWF / WWF Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1972-01-01",
+    "cadence": "Weekly",
+    "description": "The principal syndicated WWWF/WWF studio programme, with year-level dating used for its earliest catalogue.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "1986-08-30",
+    "aliases": [
+      "Championship Wrestling",
+      "WWF Championship Wrestling"
+    ],
+    "tvMazeId": 25514,
+    "feedNote": "Verified episode feed covers the catalogued 1972–1982 run.",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-major-events",
+    "name": "NJPW Tour & Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1972-03-06",
+    "cadence": "Tours and major cards",
+    "description": "The wider New Japan chronology: New Beginning, Sakura Genesis, Dontaku, Destruction, Power Struggle, tag leagues and tour finals.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "ajpw",
+    "id": "ajpw-tv",
+    "name": "All Japan Pro Wrestling Television",
+    "kind": "weekly",
+    "firstAirDate": "1972-10-07",
+    "cadence": "Weekly / highlights",
+    "description": "The Nippon TV broadcast spine for classic All Japan and its successors.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "AJPW TV",
+      "All Japan Pro Wrestling"
+    ]
+  },
+  {
+    "promotionId": "ajpw",
+    "id": "ajpw-events",
+    "name": "AJPW Tour & Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1972-10-21",
+    "cadence": "Tours and major cards",
+    "description": "The complete All Japan tour and major-event chronology across Giant Series, Budokan and modern cards.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "jcp",
+    "id": "mid-atlantic-tv",
+    "name": "Mid-Atlantic Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1973-01-01",
+    "cadence": "Weekly",
+    "description": "The core Mid-Atlantic syndicated studio programme, with interviews, squash matches and major-angle development.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "1986-01-01",
+    "aliases": [
+      "Mid Atlantic Wrestling"
+    ]
+  },
+  {
+    "promotionId": "wwc",
+    "id": "wwc-superestrellas",
+    "name": "Superestrellas de la Lucha Libre",
+    "kind": "weekly",
+    "firstAirDate": "1973-01-01",
+    "cadence": "Weekly",
+    "description": "WWC's long-running Puerto Rican television programme.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "WWC Superestrellas"
+    ]
+  },
+  {
+    "promotionId": "wwc",
+    "id": "wwc-archive",
+    "name": "WWC Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1973-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World Wrestling Council, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World Wrestling Council",
+      "WWC"
+    ],
+    "officialUrl": "https://www.facebook.com/wwcpr/"
+  },
+  {
+    "promotionId": "ajpw",
+    "id": "ajpw-carnival",
+    "name": "Champion Carnival",
+    "kind": "tournament",
+    "firstAirDate": "1973-03-17",
+    "cadence": "Annual tournament",
+    "description": "All Japan's premier heavyweight singles league.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "AJPW Champion Carnival"
+    ]
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-world-pro",
+    "name": "World Pro Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "1973-04-06",
+    "cadence": "Weekly",
+    "description": "TV Asahi's long-running New Japan television series and the central broadcast spine for classic NJPW.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW World Pro Wrestling"
+    ]
+  },
+  {
+    "promotionId": "uwa-mexico",
+    "id": "uwa-tv",
+    "name": "UWA / Lucha Libre Internacional Television",
+    "kind": "weekly",
+    "firstAirDate": "1975-01-01",
+    "cadence": "Weekly / highlights",
+    "description": "The El Toreo promotion's television and tape chronology.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1995-01-01"
+  },
+  {
+    "promotionId": "uwa-mexico",
+    "id": "uwa-mexico-archive",
+    "name": "UWA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1975-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Universal Wrestling Association / Lucha Libre Internacional, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Universal Wrestling Association / Lucha Libre Internacional",
+      "UWA"
+    ]
+  },
+  {
+    "promotionId": "jcp",
+    "id": "jcp-worldwide",
+    "name": "World Wide Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1975-01-01",
+    "cadence": "Weekly",
+    "description": "JCP's syndicated companion programme, later retitled NWA Pro Wrestling.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1987-01-01",
+    "aliases": [
+      "NWA World Wide Wrestling",
+      "NWA Pro Wrestling"
+    ]
+  },
+  {
+    "promotionId": "memphis",
+    "id": "memphis-tv",
+    "name": "Memphis Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1977-01-01",
+    "cadence": "Weekly",
+    "description": "The WMC-TV studio lineage across CWA and USWA eras.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "1997-11-01",
+    "aliases": [
+      "CWA Wrestling",
+      "USWA Championship Wrestling"
+    ]
+  },
+  {
+    "promotionId": "memphis",
+    "id": "memphis-archive",
+    "name": "Memphis Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1977-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Continental Wrestling Association / Memphis Wrestling / USWA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Continental Wrestling Association / Memphis Wrestling / USWA",
+      "Memphis"
+    ]
+  },
+  {
+    "promotionId": "ajpw",
+    "id": "ajpw-rwtl",
+    "name": "World's Strongest Tag Determination League",
+    "kind": "tournament",
+    "firstAirDate": "1977-12-02",
+    "cadence": "Annual tournament",
+    "description": "All Japan's year-end tag league, widely known as the Real World Tag League.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Real World Tag League",
+      "AJPW Tag League"
+    ]
+  },
+  {
+    "promotionId": "mid-south",
+    "id": "mid-south-archive",
+    "name": "Mid-South Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1979-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Mid-South Wrestling / Universal Wrestling Federation, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Mid-South Wrestling / Universal Wrestling Federation",
+      "Mid-South"
+    ]
+  },
+  {
+    "promotionId": "mid-south",
+    "id": "mid-south-tv",
+    "name": "Mid-South Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1979-10-01",
+    "cadence": "Weekly",
+    "description": "The concise, angle-dense syndicated television programme booked by Bill Watts.",
+    "priority": "essential",
+    "datePrecision": "month",
+    "endDate": "1986-03-01",
+    "aliases": [
+      "Mid South Wrestling"
+    ]
+  },
+  {
+    "promotionId": "wccw",
+    "id": "wccw-tv",
+    "name": "World Class Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1982-10-15",
+    "cadence": "Weekly",
+    "description": "The internationally syndicated Dallas television series, famous for its production, music videos and Von Erich–Freebird rivalry.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "1990-01-01",
+    "aliases": [
+      "World Class Wrestling"
+    ],
+    "tvMazeId": 10402,
+    "feedNote": "Verified episode feed currently covers the principal 1982–1986 syndicated run.",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wcw",
+    "id": "wcw-ppv",
+    "name": "WCW Pay-Per-View Archive",
+    "kind": "ppv",
+    "firstAirDate": "1983-11-24",
+    "cadence": "Monthly / major events",
+    "description": "The full Crockett/WCW PPV spine from Starrcade 1983 through Greed 2001.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "WCW PPV"
+    ],
+    "tvMazeId": 55749,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wccw",
+    "id": "wccw-parade",
+    "name": "David Von Erich Memorial Parade of Champions",
+    "kind": "supercard",
+    "firstAirDate": "1984-05-06",
+    "cadence": "Annual / memorial",
+    "description": "The Texas Stadium memorial supercard series and its landmark world-title bouts.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "1988-05-08"
+  },
+  {
+    "promotionId": "awa",
+    "id": "awa-espn",
+    "name": "AWA Championship Wrestling on ESPN",
+    "kind": "weekly",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Weekly",
+    "description": "The national ESPN programme that documented the AWA's late period.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1990-01-01",
+    "aliases": [
+      "AWA on ESPN"
+    ]
+  },
+  {
+    "promotionId": "ajw",
+    "id": "ajw-japan-gp",
+    "name": "Japan Grand Prix",
+    "kind": "tournament",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Annual tournament",
+    "description": "AJW's premier singles league.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "endDate": "2004-01-01"
+  },
+  {
+    "promotionId": "ajw",
+    "id": "ajw-tag-league",
+    "name": "Tag League the Best",
+    "kind": "tournament",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Annual tournament",
+    "description": "AJW's annual tag-team league.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "2004-01-01"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-prime-time",
+    "name": "WWF Prime Time Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Weekly",
+    "description": "The USA Network studio and match-compilation programme that preceded Monday Night Raw.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1993-01-04",
+    "aliases": [
+      "Prime Time Wrestling"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-ppv",
+    "name": "WWE Pay-Per-View & Premium Live Event Archive",
+    "kind": "ppv",
+    "firstAirDate": "1985-03-31",
+    "cadence": "Monthly / major events",
+    "description": "The complete WrestleMania-era PPV and premium-live-event spine, intended for event-level expansion through Trakt and artwork sources.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "WWF Pay-Per-View",
+      "WWE Premium Live Events"
+    ],
+    "tvMazeId": 2855,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-saturday-main-event",
+    "name": "Saturday Night's Main Event",
+    "kind": "supercard",
+    "firstAirDate": "1985-05-11",
+    "cadence": "Television specials",
+    "description": "Prime-time network supercards across the original, 2000s and modern revival eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "WWF Saturday Night's Main Event",
+      "WWE Saturday Night's Main Event"
+    ],
+    "tvMazeId": 5757,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "mid-south",
+    "id": "uwf-tv",
+    "name": "UWF Television",
+    "kind": "weekly",
+    "firstAirDate": "1986-03-22",
+    "cadence": "Weekly",
+    "description": "The national rebrand of Mid-South's television product.",
+    "priority": "recommended",
+    "datePrecision": "month",
+    "endDate": "1987-12-01",
+    "aliases": [
+      "Universal Wrestling Federation"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-superstars",
+    "name": "WWF Superstars of Wrestling / Superstars",
+    "kind": "weekly",
+    "firstAirDate": "1986-09-06",
+    "cadence": "Weekly",
+    "description": "The flagship syndicated WWF programme of the late 1980s and early 1990s.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2001-08-19",
+    "aliases": [
+      "WWF Superstars",
+      "Superstars of Wrestling"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-wrestling-challenge",
+    "name": "WWF Wrestling Challenge",
+    "kind": "weekly",
+    "firstAirDate": "1986-09-07",
+    "cadence": "Weekly",
+    "description": "A nationally syndicated companion to Superstars featuring matches, interviews and storyline development.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "1995-08-27",
+    "aliases": [
+      "Wrestling Challenge"
+    ],
+    "tvMazeId": 33098,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "uwfi",
+    "id": "uwfi-archive",
+    "name": "UWF / UWFi Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1988-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for UWF Newborn / UWF International, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "UWF Newborn / UWF International",
+      "UWF / UWFi"
+    ]
+  },
+  {
+    "promotionId": "wcw",
+    "id": "wcw-archive",
+    "name": "WCW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1988-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World Championship Wrestling",
+      "WCW"
+    ]
+  },
+  {
+    "promotionId": "jcp",
+    "id": "clash-champions",
+    "name": "Clash of the Champions",
+    "kind": "supercard",
+    "firstAirDate": "1988-03-27",
+    "cadence": "Television specials",
+    "description": "Live and taped national supercards bridging the JCP and WCW eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "1997-08-21",
+    "aliases": [
+      "NWA Clash of the Champions",
+      "WCW Clash of the Champions"
+    ],
+    "tvMazeId": 67072,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "uwfi",
+    "id": "uwfi-events",
+    "name": "UWF / UWFi Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1988-05-12",
+    "cadence": "Major cards",
+    "description": "The complete Newborn UWF and UWF International chronology.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "1996-12-27"
+  },
+  {
+    "promotionId": "fmw",
+    "id": "fmw-archive",
+    "name": "FMW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1989-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Frontier Martial-Arts Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Frontier Martial-Arts Wrestling",
+      "FMW"
+    ]
+  },
+  {
+    "promotionId": "fmw",
+    "id": "fmw-events",
+    "name": "FMW Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1989-10-06",
+    "cadence": "Tours and major cards",
+    "description": "FMW's complete event spine from the launch card through Kawasaki Stadium, anniversary and entertainment-wrestling eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2002-02-04"
+  },
+  {
+    "promotionId": "cmll",
+    "id": "cmll-tuesday",
+    "name": "CMLL Martes de Arena México",
+    "kind": "weekly",
+    "firstAirDate": "1990-01-01",
+    "cadence": "Weekly",
+    "description": "CMLL's regular Tuesday Arena México series.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "CMLL Tuesday"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@VideosOficialesCMLL"
+  },
+  {
+    "promotionId": "sws",
+    "id": "sws-archive",
+    "name": "SWS Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1990-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Super World of Sports, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Super World of Sports",
+      "SWS"
+    ]
+  },
+  {
+    "promotionId": "uwf-abrams",
+    "id": "uwf-abrams-archive",
+    "name": "UWF (Abrams) Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1990-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Universal Wrestling Federation — Herb Abrams, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Universal Wrestling Federation — Herb Abrams",
+      "UWF (Abrams)"
+    ]
+  },
+  {
+    "promotionId": "uwf-abrams",
+    "id": "uwf-fury",
+    "name": "UWF Fury Hour",
+    "kind": "weekly",
+    "firstAirDate": "1990-10-01",
+    "cadence": "Weekly",
+    "description": "Herb Abrams' national SportsChannel America series.",
+    "priority": "recommended",
+    "datePrecision": "month",
+    "endDate": "1991-09-23",
+    "aliases": [
+      "Universal Wrestling Federation Fury Hour"
+    ]
+  },
+  {
+    "promotionId": "rings",
+    "id": "rings-archive",
+    "name": "RINGS Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1991-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Fighting Network RINGS, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Fighting Network RINGS",
+      "RINGS"
+    ]
+  },
+  {
+    "promotionId": "smw",
+    "id": "smw-archive",
+    "name": "SMW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1991-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Smoky Mountain Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Smoky Mountain Wrestling",
+      "SMW"
+    ]
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-g1",
+    "name": "G1 Climax",
+    "kind": "tournament",
+    "firstAirDate": "1991-08-07",
+    "cadence": "Annual tournament",
+    "description": "New Japan's premier heavyweight round-robin tournament.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW G1 Climax"
+    ]
+  },
+  {
+    "promotionId": "aaa",
+    "id": "aaa-archive",
+    "name": "AAA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1992-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Lucha Libre AAA Worldwide, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Lucha Libre AAA Worldwide",
+      "AAA"
+    ],
+    "officialUrl": "https://www.luchalibreaaa.com/",
+    "youtubeUrl": "https://www.youtube.com/@luchalibreaaa"
+  },
+  {
+    "promotionId": "ecw",
+    "id": "ecw-archive",
+    "name": "ECW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1992-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Eastern Championship Wrestling / Extreme Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Eastern Championship Wrestling / Extreme Championship Wrestling",
+      "ECW"
+    ]
+  },
+  {
+    "promotionId": "pure-j",
+    "id": "pure-j-archive",
+    "name": "JWP / PURE-J Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1992-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for JWP Joshi Puroresu / PURE-J, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "JWP Joshi Puroresu / PURE-J",
+      "JWP / PURE-J"
+    ],
+    "officialUrl": "https://pure-j.jp/"
+  },
+  {
+    "promotionId": "war-japan",
+    "id": "war-japan-archive",
+    "name": "WAR Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1992-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Wrestle Association R, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Wrestle Association R",
+      "WAR"
+    ]
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-wk",
+    "name": "Wrestle Kingdom / January 4 Tokyo Dome",
+    "kind": "ppv",
+    "firstAirDate": "1992-01-04",
+    "cadence": "Annual",
+    "description": "New Japan's January 4 Tokyo Dome lineage, retroactively organized around the Wrestle Kingdom brand.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW Wrestle Kingdom",
+      "January 4 Tokyo Dome Show"
+    ]
+  },
+  {
+    "promotionId": "smw",
+    "id": "smw-tv",
+    "name": "Smoky Mountain Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1992-02-01",
+    "cadence": "Weekly",
+    "description": "SMW's complete syndicated weekly television chronology.",
+    "priority": "essential",
+    "datePrecision": "month",
+    "endDate": "1995-11-25",
+    "aliases": [
+      "SMW TV"
+    ]
+  },
+  {
+    "promotionId": "wcw",
+    "id": "wcw-saturday-night",
+    "name": "WCW Saturday Night",
+    "kind": "weekly",
+    "firstAirDate": "1992-04-04",
+    "cadence": "Weekly",
+    "description": "The renamed TBS flagship carrying forward the historic World Championship Wrestling time slot.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2000-08-19",
+    "aliases": [
+      "World Championship Wrestling"
+    ]
+  },
+  {
+    "promotionId": "aaa",
+    "id": "aaa-sin-limite",
+    "name": "AAA Sin Límite / AAA Worldwide",
+    "kind": "weekly",
+    "firstAirDate": "1992-05-15",
+    "cadence": "Weekly / event broadcasts",
+    "description": "AAA's principal national television lineage.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "AAA on Televisa",
+      "Lucha Libre AAA"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@luchalibreaaa"
+  },
+  {
+    "promotionId": "michinoku",
+    "id": "michinoku-archive",
+    "name": "M-Pro Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1993-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Michinoku Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Michinoku Pro Wrestling",
+      "M-Pro"
+    ],
+    "officialUrl": "https://www.michipro.jp/",
+    "youtubeUrl": "https://www.youtube.com/@michinokuprowrestling"
+  },
+  {
+    "promotionId": "ovw",
+    "id": "ovw-archive",
+    "name": "OVW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1993-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Ohio Valley Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Ohio Valley Wrestling",
+      "OVW"
+    ],
+    "officialUrl": "https://ovwrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@OVWTV"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-raw",
+    "name": "WWE Monday Night Raw",
+    "kind": "weekly",
+    "firstAirDate": "1993-01-11",
+    "cadence": "Weekly",
+    "description": "WWE's continuously running Monday flagship, including the Raw is War and modern Netflix eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Monday Night Raw",
+      "WWF Raw",
+      "Raw is War",
+      "WWE Raw"
+    ],
+    "tvMazeId": 802,
+    "officialUrl": "https://www.wwe.com/shows/raw",
+    "youtubeUrl": "https://www.youtube.com/@WWE",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "ecw",
+    "id": "ecw-hardcore-tv",
+    "name": "ECW Hardcore TV",
+    "kind": "weekly",
+    "firstAirDate": "1993-04-06",
+    "cadence": "Weekly",
+    "description": "ECW's edited weekly programme combining matches, promos, music-video packages and ongoing angles.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2000-12-31",
+    "aliases": [
+      "Eastern Championship Wrestling TV",
+      "Extreme Championship Wrestling Hardcore TV"
+    ],
+    "tvMazeId": 25028,
+    "youtubeUrl": "https://www.youtube.com/@WWEVault",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "aaa",
+    "id": "aaa-triplemania",
+    "name": "Triplemanía",
+    "kind": "ppv",
+    "firstAirDate": "1993-04-30",
+    "cadence": "Annual / multi-night",
+    "description": "AAA's signature stadium and arena event series.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "AAA Triplemania"
+    ]
+  },
+  {
+    "promotionId": "iwa-pr",
+    "id": "iwa-pr-archive",
+    "name": "IWA-PR Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1994-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for International Wrestling Association Puerto Rico, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "International Wrestling Association Puerto Rico",
+      "IWA-PR"
+    ]
+  },
+  {
+    "promotionId": "cmll",
+    "id": "cmll-grand-prix",
+    "name": "CMLL International Gran Prix",
+    "kind": "tournament",
+    "firstAirDate": "1994-04-15",
+    "cadence": "Recurring tournament",
+    "description": "CMLL's Mexico-versus-the-world elimination tournament.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-bosj",
+    "name": "Best of the Super Juniors",
+    "kind": "tournament",
+    "firstAirDate": "1994-05-26",
+    "cadence": "Annual tournament",
+    "description": "New Japan's premier junior-heavyweight league.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW BOSJ",
+      "Top of the Super Juniors"
+    ]
+  },
+  {
+    "promotionId": "bjw",
+    "id": "bjw-tv",
+    "name": "Big Japan Wrestling Television & Streaming",
+    "kind": "weekly",
+    "firstAirDate": "1995-01-01",
+    "cadence": "Weekly / event broadcasts",
+    "description": "BJW's television, Samurai TV and streaming chronology.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "BJW TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@BJWOfficial"
+  },
+  {
+    "promotionId": "bjw",
+    "id": "bjw-archive",
+    "name": "BJW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1995-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Big Japan Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Big Japan Pro Wrestling",
+      "BJW"
+    ],
+    "officialUrl": "https://bjw.co.jp/",
+    "youtubeUrl": "https://www.youtube.com/@BJWOfficial"
+  },
+  {
+    "promotionId": "bjw",
+    "id": "bjw-deathmatch",
+    "name": "BJW Deathmatch Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1995-03-16",
+    "cadence": "Major events",
+    "description": "The core Big Japan deathmatch tournament and championship chronology.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "wcw",
+    "id": "wcw-nitro",
+    "name": "WCW Monday Nitro",
+    "kind": "weekly",
+    "firstAirDate": "1995-09-04",
+    "cadence": "Weekly",
+    "description": "WCW's live Monday flagship and the central television record of the Monday Night War.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2001-03-26",
+    "aliases": [
+      "Monday Nitro",
+      "WCW Nitro"
+    ],
+    "tvMazeId": 9394,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "eccw",
+    "id": "eccw-archive",
+    "name": "ECCW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1996-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Elite Canadian Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Elite Canadian Championship Wrestling",
+      "ECCW"
+    ]
+  },
+  {
+    "promotionId": "iwa-ms",
+    "id": "iwa-ms-archive",
+    "name": "IWA-MS Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1996-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for IWA Mid-South, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "IWA Mid-South",
+      "IWA-MS"
+    ]
+  },
+  {
+    "promotionId": "iwrg",
+    "id": "iwrg-tv",
+    "name": "IWRG Arena Naucalpan",
+    "kind": "weekly",
+    "firstAirDate": "1996-01-01",
+    "cadence": "Multiple cards per week",
+    "description": "IWRG's frequent Arena Naucalpan television and streaming cards.",
+    "priority": "recommended",
+    "datePrecision": "year"
+  },
+  {
+    "promotionId": "iwrg",
+    "id": "iwrg-archive",
+    "name": "IWRG Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1996-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for International Wrestling Revolution Group, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "International Wrestling Revolution Group",
+      "IWRG"
+    ],
+    "officialUrl": "https://www.facebook.com/IWRGoficial/"
+  },
+  {
+    "promotionId": "ddt",
+    "id": "ddt-archive",
+    "name": "DDT Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1997-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for DDT Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "DDT Pro-Wrestling",
+      "DDT"
+    ],
+    "officialUrl": "https://www.ddtpro.com/",
+    "youtubeUrl": "https://www.youtube.com/@ddtofficial"
+  },
+  {
+    "promotionId": "iwa-ms",
+    "id": "iwa-kotdm",
+    "name": "King of the Deathmatches",
+    "kind": "tournament",
+    "firstAirDate": "1997-01-01",
+    "cadence": "Annual tournament",
+    "description": "IWA Mid-South's long-running deathmatch tournament.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "IWA MS King of the Deathmatches"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-shotgun",
+    "name": "WWF Shotgun Saturday Night",
+    "kind": "weekly",
+    "firstAirDate": "1997-01-04",
+    "cadence": "Weekly",
+    "description": "A late-night programme initially staged in unconventional New York venues before becoming a syndicated studio show.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "1999-08-21",
+    "aliases": [
+      "Shotgun Saturday Night"
+    ],
+    "tvMazeId": 27909,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "aaa",
+    "id": "aaa-rey",
+    "name": "Rey de Reyes",
+    "kind": "tournament",
+    "firstAirDate": "1997-02-21",
+    "cadence": "Annual tournament",
+    "description": "AAA's signature royal-rumble-style tournament event.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "AAA Rey de Reyes"
+    ]
+  },
+  {
+    "promotionId": "ddt",
+    "id": "ddt-judgement",
+    "name": "Judgement",
+    "kind": "ppv",
+    "firstAirDate": "1997-03-25",
+    "cadence": "Annual",
+    "description": "DDT's anniversary event lineage.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "DDT Judgement"
+    ]
+  },
+  {
+    "promotionId": "ecw",
+    "id": "ecw-ppv",
+    "name": "ECW Pay-Per-View Archive",
+    "kind": "ppv",
+    "firstAirDate": "1997-04-13",
+    "cadence": "Major events",
+    "description": "The complete original ECW pay-per-view run from Barely Legal through Guilty as Charged 2001.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "ECW PPV"
+    ]
+  },
+  {
+    "promotionId": "ovw",
+    "id": "ovw-tv",
+    "name": "OVW Television",
+    "kind": "weekly",
+    "firstAirDate": "1998-01-01",
+    "cadence": "Weekly",
+    "description": "The long-running Louisville weekly show across developmental and independent eras.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "Ohio Valley Wrestling TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@OVWTV"
+  },
+  {
+    "promotionId": "oz-academy",
+    "id": "oz-academy-archive",
+    "name": "OZ Academy Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1998-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for OZ Academy, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "OZ Academy",
+      "OZ Academy"
+    ],
+    "officialUrl": "https://oz-academy.com/"
+  },
+  {
+    "promotionId": "wcw",
+    "id": "wcw-thunder",
+    "name": "WCW Thunder",
+    "kind": "weekly",
+    "firstAirDate": "1998-01-08",
+    "cadence": "Weekly",
+    "description": "WCW's second prime-time weekly programme on TBS.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2001-03-21",
+    "aliases": [
+      "Thunder"
+    ],
+    "tvMazeId": 39473,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-heat",
+    "name": "WWF / WWE Sunday Night Heat",
+    "kind": "weekly",
+    "firstAirDate": "1998-08-02",
+    "cadence": "Weekly",
+    "description": "A Sunday-night companion show that moved from USA Network to MTV and later WWE.com.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2008-05-30",
+    "aliases": [
+      "Sunday Night Heat",
+      "WWE Heat"
+    ],
+    "tvMazeId": 27898,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "czw",
+    "id": "czw-archive",
+    "name": "CZW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1999-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Combat Zone Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Combat Zone Wrestling",
+      "CZW"
+    ],
+    "officialUrl": "https://www.czwrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@CZW"
+  },
+  {
+    "promotionId": "dragon-gate",
+    "id": "dragon-gate-archive",
+    "name": "Dragon Gate Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1999-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Toryumon Japan / Dragon Gate, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Toryumon Japan / Dragon Gate",
+      "Dragon Gate"
+    ],
+    "officialUrl": "https://www.gaora.co.jp/dragongate/",
+    "youtubeUrl": "https://www.youtube.com/@dragongatejp"
+  },
+  {
+    "promotionId": "gcw",
+    "id": "gcw-archive",
+    "name": "GCW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1999-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Game Changer Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Game Changer Wrestling",
+      "GCW"
+    ],
+    "officialUrl": "https://gcwmerch.com/",
+    "youtubeUrl": "https://www.youtube.com/@GCWrestling"
+  },
+  {
+    "promotionId": "iwa-pr",
+    "id": "iwa-impacto",
+    "name": "IWA Impacto Total",
+    "kind": "weekly",
+    "firstAirDate": "1999-01-01",
+    "cadence": "Weekly",
+    "description": "IWA Puerto Rico's principal television series.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "Impacto Total"
+    ]
+  },
+  {
+    "promotionId": "osaka-pro",
+    "id": "osaka-pro-archive",
+    "name": "Osaka Pro Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1999-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Osaka Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Osaka Pro Wrestling",
+      "Osaka Pro"
+    ],
+    "officialUrl": "https://www.osakaprowres.com/",
+    "youtubeUrl": "https://www.youtube.com/@osakaprowrestling"
+  },
+  {
+    "promotionId": "xpw",
+    "id": "xpw-archive",
+    "name": "XPW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "1999-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Xtreme Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Xtreme Pro Wrestling",
+      "XPW"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-smackdown",
+    "name": "WWE SmackDown",
+    "kind": "weekly",
+    "firstAirDate": "1999-04-29",
+    "cadence": "Weekly",
+    "description": "WWE's second flagship, spanning Thursday, Friday and live Tuesday network eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "WWF SmackDown!",
+      "WWE Friday Night SmackDown",
+      "SmackDown Live"
+    ],
+    "tvMazeId": 803,
+    "officialUrl": "https://www.wwe.com/shows/smackdown",
+    "youtubeUrl": "https://www.youtube.com/@WWE",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "dragon-gate",
+    "id": "dg-kobe-world",
+    "name": "Kobe Pro-Wrestling Festival / Kobe World",
+    "kind": "ppv",
+    "firstAirDate": "1999-07-04",
+    "cadence": "Annual",
+    "description": "The promotion's signature Kobe World Hall event lineage.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Dragon Gate Kobe World"
+    ]
+  },
+  {
+    "promotionId": "ecw",
+    "id": "ecw-tnt",
+    "name": "ECW on TNN",
+    "kind": "weekly",
+    "firstAirDate": "1999-08-27",
+    "cadence": "Weekly",
+    "description": "ECW's national cable series on TNN.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2000-10-06",
+    "aliases": [
+      "ECW on TNN"
+    ],
+    "tvMazeId": 25029,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-jakked-metal",
+    "name": "WWF Jakked / Metal",
+    "kind": "weekly",
+    "firstAirDate": "1999-08-28",
+    "cadence": "Weekly",
+    "description": "Syndicated companion programmes built around undercard matches and recaps.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2002-05-18",
+    "aliases": [
+      "WWF Jakked",
+      "WWF Metal",
+      "WWE Metal"
+    ],
+    "tvMazeId": 27905,
+    "feedNote": "Verified episode feed represents the Metal half of the paired syndicated lineage.",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "noah",
+    "id": "noah-archive",
+    "name": "NOAH Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2000-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro Wrestling NOAH, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro Wrestling NOAH",
+      "NOAH"
+    ],
+    "officialUrl": "https://www.noah.co.jp/",
+    "youtubeUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish"
+  },
+  {
+    "promotionId": "iwa-ms",
+    "id": "iwa-tpi",
+    "name": "Ted Petty Invitational",
+    "kind": "tournament",
+    "firstAirDate": "2000-01-01",
+    "cadence": "Annual tournament",
+    "description": "The Midwest tournament first staged as Sweet Science 16 and renamed for Ted Petty.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "IWA Mid-South TPI"
+    ]
+  },
+  {
+    "promotionId": "wow",
+    "id": "wow-archive",
+    "name": "WOW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2000-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Women of Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Women of Wrestling",
+      "WOW"
+    ],
+    "officialUrl": "https://wowe.com/",
+    "youtubeUrl": "https://www.youtube.com/@WOWSuperheroes"
+  },
+  {
+    "promotionId": "wxw",
+    "id": "wxw-archive",
+    "name": "wXw Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2000-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Westside Xtreme Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Westside Xtreme Wrestling",
+      "wXw"
+    ],
+    "officialUrl": "https://www.wxw-wrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@wXwGermany"
+  },
+  {
+    "promotionId": "noah",
+    "id": "noah-tv",
+    "name": "Pro Wrestling NOAH Television & Streaming",
+    "kind": "weekly",
+    "firstAirDate": "2000-07-01",
+    "cadence": "Weekly / event broadcasts",
+    "description": "NOAH's Nippon TV, satellite and streaming broadcast chronology.",
+    "priority": "essential",
+    "datePrecision": "month",
+    "aliases": [
+      "NOAH TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish"
+  },
+  {
+    "promotionId": "noah",
+    "id": "noah-voyage",
+    "name": "Great Voyage & Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2000-08-05",
+    "cadence": "Major events",
+    "description": "NOAH's Great Voyage, Departure, Destiny, Budokan and modern arena chronology.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "wow",
+    "id": "wow-original",
+    "name": "WOW — Women of Wrestling (Original Series)",
+    "kind": "weekly",
+    "firstAirDate": "2000-10-07",
+    "cadence": "Weekly season",
+    "description": "WOW's original 2000–2001 syndicated television run.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2001-02-03",
+    "aliases": [
+      "Women of Wrestling"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@WOWSuperheroes"
+  },
+  {
+    "promotionId": "czw",
+    "id": "czw-tv",
+    "name": "CZW Wired / Fake You! TV",
+    "kind": "weekly",
+    "firstAirDate": "2001-01-01",
+    "cadence": "Weekly / web series",
+    "description": "CZW's principal episodic television and web-programme lineages.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "CZW Wired",
+      "CZW Fake You TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@CZW"
+  },
+  {
+    "promotionId": "zero1",
+    "id": "zero1-archive",
+    "name": "ZERO1 Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2001-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro Wrestling ZERO1, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro Wrestling ZERO1",
+      "ZERO1"
+    ],
+    "officialUrl": "https://www.z-1.co.jp/"
+  },
+  {
+    "promotionId": "czw",
+    "id": "czw-best",
+    "name": "Best of the Best",
+    "kind": "tournament",
+    "firstAirDate": "2001-05-19",
+    "cadence": "Annual tournament",
+    "description": "CZW's junior-heavy showcase tournament.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "CZW Best of the Best"
+    ]
+  },
+  {
+    "promotionId": "zero1",
+    "id": "zero1-fire",
+    "name": "Fire Festival",
+    "kind": "tournament",
+    "firstAirDate": "2001-07-01",
+    "cadence": "Annual tournament",
+    "description": "ZERO1's annual heavyweight singles league.",
+    "priority": "essential",
+    "datePrecision": "month"
+  },
+  {
+    "promotionId": "2aw",
+    "id": "2aw-archive",
+    "name": "2AW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2002-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Kaientai Dojo / Active Advance Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Kaientai Dojo / Active Advance Pro Wrestling",
+      "2AW"
+    ],
+    "officialUrl": "https://www.2aw.jp/"
+  },
+  {
+    "promotionId": "chikara",
+    "id": "chikara-archive",
+    "name": "CHIKARA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2002-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for CHIKARA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "CHIKARA",
+      "CHIKARA"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@CHIKARAoffice"
+  },
+  {
+    "promotionId": "mlw",
+    "id": "mlw-archive",
+    "name": "MLW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2002-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Major League Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Major League Wrestling",
+      "MLW"
+    ],
+    "officialUrl": "https://mlw.com/",
+    "youtubeUrl": "https://www.youtube.com/@MLW"
+  },
+  {
+    "promotionId": "roh",
+    "id": "roh-archive",
+    "name": "ROH Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2002-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Ring of Honor, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Ring of Honor",
+      "ROH"
+    ],
+    "officialUrl": "https://www.ringofhonor.com/",
+    "youtubeUrl": "https://www.youtube.com/@ringofhonor"
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-archive",
+    "name": "TNA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2002-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Total Nonstop Action Wrestling / Impact Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Total Nonstop Action Wrestling / Impact Wrestling",
+      "TNA"
+    ],
+    "officialUrl": "https://tnawrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@TNAWrestling"
+  },
+  {
+    "promotionId": "roh",
+    "id": "roh-ppv",
+    "name": "ROH Pay-Per-View & Supercard Archive",
+    "kind": "ppv",
+    "firstAirDate": "2002-02-23",
+    "cadence": "Major events",
+    "description": "The complete event spine from The Era of Honor Begins through HonorClub-era PPVs.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "ROH PPV",
+      "Ring of Honor Events"
+    ]
+  },
+  {
+    "promotionId": "chikara",
+    "id": "chikara-events",
+    "name": "CHIKARA Complete Seasons",
+    "kind": "supercard",
+    "firstAirDate": "2002-05-25",
+    "cadence": "Event seasons",
+    "description": "The complete event chronology organized by CHIKARA's numbered narrative seasons.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-velocity",
+    "name": "WWE Velocity",
+    "kind": "weekly",
+    "firstAirDate": "2002-05-25",
+    "cadence": "Weekly",
+    "description": "SmackDown's weekly companion programme during the first brand-extension era.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2006-06-10",
+    "aliases": [
+      "Velocity"
+    ],
+    "tvMazeId": 27904,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "mlw",
+    "id": "mlw-events",
+    "name": "MLW SuperFight & Special Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2002-06-15",
+    "cadence": "Major events",
+    "description": "MLW's original and modern supercards, including Battle Riot, Fightland and SuperFight.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "MLW PPV",
+      "MLW Special Events"
+    ]
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-weekly-ppv",
+    "name": "TNA Weekly Pay-Per-Views",
+    "kind": "ppv",
+    "firstAirDate": "2002-06-19",
+    "cadence": "Weekly PPV",
+    "description": "The original Nashville weekly-PPV era that established TNA's roster and championships.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2004-09-08",
+    "aliases": [
+      "NWA-TNA Weekly PPV"
+    ]
+  },
+  {
+    "promotionId": "czw",
+    "id": "czw-tod",
+    "name": "Tournament of Death",
+    "kind": "tournament",
+    "firstAirDate": "2002-08-31",
+    "cadence": "Annual tournament",
+    "description": "CZW's signature deathmatch tournament series.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "CZW Tournament of Death"
+    ]
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-xplosion",
+    "name": "TNA Xplosion",
+    "kind": "weekly",
+    "firstAirDate": "2002-10-05",
+    "cadence": "Weekly",
+    "description": "TNA's international and secondary match programme.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "Impact Xplosion",
+      "Xplosion"
+    ],
+    "tvMazeId": 9181,
+    "feedNote": "Verified episode feed covers the original run through 2017.",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "roh",
+    "id": "roh-final-battle",
+    "name": "Final Battle",
+    "kind": "supercard",
+    "firstAirDate": "2002-12-28",
+    "cadence": "Annual",
+    "description": "ROH's year-end signature event.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "ROH Final Battle"
+    ]
+  },
+  {
+    "promotionId": "pwg",
+    "id": "pwg-archive",
+    "name": "PWG Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2003-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro Wrestling Guerrilla, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro Wrestling Guerrilla",
+      "PWG"
+    ],
+    "officialUrl": "https://www.prowrestlingguerrilla.com/"
+  },
+  {
+    "promotionId": "mlw",
+    "id": "mlw-underground",
+    "name": "MLW Underground TV",
+    "kind": "weekly",
+    "firstAirDate": "2003-04-07",
+    "cadence": "Weekly",
+    "description": "The original MLW television series syndicated through Sunshine Network.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2004-02-14",
+    "aliases": [
+      "Major League Wrestling Underground"
+    ]
+  },
+  {
+    "promotionId": "pwg",
+    "id": "pwg-events",
+    "name": "PWG Complete Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2003-07-26",
+    "cadence": "Event series",
+    "description": "The complete numbered and named PWG event chronology.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Pro Wrestling Guerrilla Events"
+    ]
+  },
+  {
+    "promotionId": "dragon-gate",
+    "id": "dg-infinity",
+    "name": "Dragon Gate Infinity",
+    "kind": "weekly",
+    "firstAirDate": "2004-01-01",
+    "cadence": "Weekly / event broadcasts",
+    "description": "GAORA's Dragon Gate television and event programme.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "Dragon Gate TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@dragongatejp"
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-impact",
+    "name": "TNA iMPACT! / Impact Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "2004-06-04",
+    "cadence": "Weekly",
+    "description": "TNA's flagship across Fox Sports Net, Spike, Destination America, Pop, AXS and the restored TNA era.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "TNA Impact",
+      "Impact Wrestling",
+      "TNA iMPACT!"
+    ],
+    "tvMazeId": 1349,
+    "officialUrl": "https://tnawrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@TNAWrestling",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-ppv",
+    "name": "TNA / Impact Pay-Per-View Archive",
+    "kind": "ppv",
+    "firstAirDate": "2004-11-07",
+    "cadence": "Monthly / major events",
+    "description": "The complete three-hour event library from Victory Road 2004 through modern TNA PPVs.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Impact Wrestling PPV",
+      "TNA PPV"
+    ],
+    "tvMazeId": 80684,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "one-pw",
+    "id": "one-pw-archive",
+    "name": "1PW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2005-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for 1 Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "1 Pro Wrestling",
+      "1PW"
+    ]
+  },
+  {
+    "promotionId": "dragon-gate",
+    "id": "dg-king-gate",
+    "name": "King of Gate",
+    "kind": "tournament",
+    "firstAirDate": "2005-01-01",
+    "cadence": "Annual tournament",
+    "description": "Dragon Gate's premier singles tournament.",
+    "priority": "recommended",
+    "datePrecision": "year"
+  },
+  {
+    "promotionId": "row",
+    "id": "row-archive",
+    "name": "ROW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2005-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Reality of Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Reality of Wrestling",
+      "ROW"
+    ],
+    "officialUrl": "https://www.realityofwrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
+  },
+  {
+    "promotionId": "sendai-girls",
+    "id": "sendai-girls-archive",
+    "name": "Sendai Girls Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2005-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Sendai Girls' Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Sendai Girls' Pro Wrestling",
+      "Sendai Girls"
+    ],
+    "officialUrl": "https://sendaigirls.jp/",
+    "youtubeUrl": "https://www.youtube.com/@SENDAIGIRLS"
+  },
+  {
+    "promotionId": "shimmer",
+    "id": "shimmer-archive",
+    "name": "SHIMMER Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2005-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for SHIMMER Women Athletes, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "SHIMMER Women Athletes",
+      "SHIMMER"
+    ]
+  },
+  {
+    "promotionId": "wsw",
+    "id": "wsw-archive",
+    "name": "WSW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2005-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World Series Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World Series Wrestling",
+      "WSW"
+    ],
+    "officialUrl": "https://worldserieswrestling.com.au/"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-cup",
+    "name": "New Japan Cup",
+    "kind": "tournament",
+    "firstAirDate": "2005-04-19",
+    "cadence": "Annual tournament",
+    "description": "New Japan's annual heavyweight single-elimination tournament.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW New Japan Cup"
+    ]
+  },
+  {
+    "promotionId": "pwg",
+    "id": "pwg-bola",
+    "name": "Battle of Los Angeles",
+    "kind": "tournament",
+    "firstAirDate": "2005-09-03",
+    "cadence": "Annual tournament",
+    "description": "PWG's signature single-elimination tournament and one of the central scouting documents of 2000s–2010s independent wrestling.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "PWG BOLA"
+    ]
+  },
+  {
+    "promotionId": "wsw",
+    "id": "wsw-tours",
+    "name": "World Series Wrestling Tours",
+    "kind": "supercard",
+    "firstAirDate": "2005-10-05",
+    "cadence": "Tour series",
+    "description": "WSW's multi-city international tour and supercard chronology.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "shimmer",
+    "id": "shimmer-volumes",
+    "name": "SHIMMER Volumes",
+    "kind": "supercard",
+    "firstAirDate": "2005-11-06",
+    "cadence": "Numbered events",
+    "description": "The complete numbered SHIMMER event and DVD series.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "chikara",
+    "id": "chikara-podcastagogo",
+    "name": "CHIKARA Podcast-A-Go-Go",
+    "kind": "streaming",
+    "firstAirDate": "2006-01-01",
+    "cadence": "Web series",
+    "description": "A free highlight and match-excerpt series documenting CHIKARA's seasons.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "youtubeUrl": "https://www.youtube.com/@CHIKARAoffice"
+  },
+  {
+    "promotionId": "ice-ribbon",
+    "id": "ice-ribbon-archive",
+    "name": "Ice Ribbon Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2006-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Ice Ribbon, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Ice Ribbon",
+      "Ice Ribbon"
+    ],
+    "officialUrl": "https://iceribbon.com/",
+    "youtubeUrl": "https://www.youtube.com/@iceribbon"
+  },
+  {
+    "promotionId": "icw",
+    "id": "icw-archive",
+    "name": "ICW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2006-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Insane Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Insane Championship Wrestling",
+      "ICW"
+    ],
+    "officialUrl": "https://www.insanewrestling.co.uk/",
+    "youtubeUrl": "https://www.youtube.com/@ICWOnline"
+  },
+  {
+    "promotionId": "wxw",
+    "id": "wxw-16carat",
+    "name": "16 Carat Gold",
+    "kind": "tournament",
+    "firstAirDate": "2006-01-27",
+    "cadence": "Annual tournament",
+    "description": "wXw's internationally significant three-day singles tournament.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "wXw 16 Carat Gold"
+    ]
+  },
+  {
+    "promotionId": "roh",
+    "id": "roh-supercard",
+    "name": "Supercard of Honor",
+    "kind": "supercard",
+    "firstAirDate": "2006-03-31",
+    "cadence": "Annual",
+    "description": "ROH's WrestleMania-weekend signature series.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "ROH Supercard of Honor"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-ecw",
+    "name": "ECW on Sci Fi / WWE ECW",
+    "kind": "weekly",
+    "firstAirDate": "2006-06-13",
+    "cadence": "Weekly",
+    "description": "WWE's revived ECW brand as a weekly national television series.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2010-02-16",
+    "aliases": [
+      "ECW on Sci Fi",
+      "ECW on Syfy",
+      "Extreme Championship Wrestling"
+    ],
+    "tvMazeId": 10404,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "pwa-australia",
+    "id": "pwa-australia-archive",
+    "name": "PWA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2007-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro Wrestling Australia — Black Label, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro Wrestling Australia — Black Label",
+      "PWA"
+    ],
+    "officialUrl": "https://pwaaustralia.com.au/",
+    "youtubeUrl": "https://www.youtube.com/@PWAAustralia"
+  },
+  {
+    "promotionId": "wave",
+    "id": "wave-archive",
+    "name": "WAVE Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2007-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro Wrestling WAVE, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro Wrestling WAVE",
+      "WAVE"
+    ],
+    "officialUrl": "https://pro-w-wave.com/"
+  },
+  {
+    "promotionId": "chikara",
+    "id": "chikara-kot",
+    "name": "King of Trios",
+    "kind": "tournament",
+    "firstAirDate": "2007-02-16",
+    "cadence": "Annual tournament",
+    "description": "CHIKARA's signature three-day trios tournament.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "CHIKARA King of Trios"
+    ]
+  },
+  {
+    "promotionId": "pwg",
+    "id": "pwg-ddt4",
+    "name": "DDT4",
+    "kind": "tournament",
+    "firstAirDate": "2007-05-20",
+    "cadence": "Recurring tournament",
+    "description": "PWG's signature tag-team tournament.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "PWG Dynamite Duumvirate Tag Team Title Tournament"
+    ]
+  },
+  {
+    "promotionId": "icw",
+    "id": "icw-fear-loathing",
+    "name": "Fear & Loathing",
+    "kind": "ppv",
+    "firstAirDate": "2008-01-01",
+    "cadence": "Annual",
+    "description": "ICW's signature large-scale annual event.",
+    "priority": "essential",
+    "datePrecision": "year"
+  },
+  {
+    "promotionId": "beyond",
+    "id": "beyond-archive",
+    "name": "Beyond Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2009-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Beyond Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Beyond Wrestling",
+      "Beyond"
+    ],
+    "officialUrl": "https://beyondwrestlingonline.com/",
+    "youtubeUrl": "https://www.youtube.com/@BeyondWrestling"
+  },
+  {
+    "promotionId": "dgusa",
+    "id": "dgusa-archive",
+    "name": "DGUSA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2009-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Dragon Gate USA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Dragon Gate USA",
+      "DGUSA"
+    ]
+  },
+  {
+    "promotionId": "fight-club-pro",
+    "id": "fight-club-pro-archive",
+    "name": "FCP Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2009-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Fight Club: PRO, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Fight Club: PRO",
+      "FCP"
+    ]
+  },
+  {
+    "promotionId": "freedoms",
+    "id": "freedoms-archive",
+    "name": "FREEDOMS Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2009-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro Wrestling FREEDOMS, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro Wrestling FREEDOMS",
+      "FREEDOMS"
+    ],
+    "officialUrl": "https://pw-freedoms.co.jp/"
+  },
+  {
+    "promotionId": "roh",
+    "id": "roh-hdnet",
+    "name": "ROH on HDNet",
+    "kind": "weekly",
+    "firstAirDate": "2009-03-21",
+    "cadence": "Weekly",
+    "description": "Ring of Honor's first national weekly television series.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2011-04-04",
+    "aliases": [
+      "Ring of Honor on HDNet"
+    ],
+    "tvMazeId": 25120,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-superstars-revival",
+    "name": "WWE Superstars (2009)",
+    "kind": "weekly",
+    "firstAirDate": "2009-04-16",
+    "cadence": "Weekly",
+    "description": "The revived Superstars programme featuring matches from WWE's main rosters.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2016-12-30",
+    "aliases": [
+      "WWE Superstars"
+    ],
+    "tvMazeId": 16770,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-dominion",
+    "name": "Dominion",
+    "kind": "ppv",
+    "firstAirDate": "2009-06-20",
+    "cadence": "Annual",
+    "description": "New Japan's major early-summer Osaka event series.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW Dominion"
+    ]
+  },
+  {
+    "promotionId": "dgusa",
+    "id": "dgusa-events",
+    "name": "Dragon Gate USA Event Archive",
+    "kind": "ppv",
+    "firstAirDate": "2009-07-25",
+    "cadence": "PPV / iPPV",
+    "description": "DGUSA's Open the Historic Gate through final event chronology.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2014-11-16"
+  },
+  {
+    "promotionId": "ddt",
+    "id": "ddt-peter-pan",
+    "name": "Wrestle Peter Pan",
+    "kind": "ppv",
+    "firstAirDate": "2009-08-23",
+    "cadence": "Annual",
+    "description": "DDT's signature large-scale summer event.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "DDT Peter Pan"
+    ]
+  },
+  {
+    "promotionId": "eve",
+    "id": "eve-archive",
+    "name": "EVE Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2010-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro-Wrestling: EVE, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro-Wrestling: EVE",
+      "EVE"
+    ],
+    "officialUrl": "https://www.evewrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@ProWrestlingEVE"
+  },
+  {
+    "promotionId": "evolve",
+    "id": "evolve-archive",
+    "name": "EVOLVE Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2010-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for EVOLVE Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "EVOLVE Wrestling",
+      "EVOLVE"
+    ]
+  },
+  {
+    "promotionId": "mcw-australia",
+    "id": "mcw-australia-archive",
+    "name": "MCW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2010-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Melbourne City Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Melbourne City Wrestling",
+      "MCW"
+    ],
+    "officialUrl": "https://melbournecitywrestling.com.au/",
+    "youtubeUrl": "https://www.youtube.com/@MCWEncore"
+  },
+  {
+    "promotionId": "stardom",
+    "id": "stardom-archive",
+    "name": "STARDOM Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2010-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for World Wonder Ring Stardom, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "World Wonder Ring Stardom",
+      "STARDOM"
+    ],
+    "officialUrl": "https://wwr-stardom.com/",
+    "youtubeUrl": "https://www.youtube.com/@STARDOMofficial"
+  },
+  {
+    "promotionId": "evolve",
+    "id": "evolve-events",
+    "name": "EVOLVE Numbered Events",
+    "kind": "supercard",
+    "firstAirDate": "2010-01-16",
+    "cadence": "Numbered events",
+    "description": "The complete EVOLVE event sequence from EVOLVE 1 through the final WWN era.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2020-03-01"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-nxt",
+    "name": "WWE NXT",
+    "kind": "weekly",
+    "firstAirDate": "2010-02-23",
+    "cadence": "Weekly",
+    "description": "WWE's developmental brand from its competition-show origin through Full Sail, 2.0 and the CW era.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NXT",
+      "WWE NXT 2.0"
+    ],
+    "tvMazeId": 2266,
+    "officialUrl": "https://www.wwe.com/shows/wwenxt",
+    "youtubeUrl": "https://www.youtube.com/@WWE",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "noah",
+    "id": "noah-n1",
+    "name": "N-1 Victory / Global League",
+    "kind": "tournament",
+    "firstAirDate": "2010-03-28",
+    "cadence": "Annual tournament",
+    "description": "NOAH's premier heavyweight singles league.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NOAH Global League",
+      "N-1 Victory"
+    ]
+  },
+  {
+    "promotionId": "mcw-australia",
+    "id": "mcw-events",
+    "name": "MCW Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2010-10-16",
+    "cadence": "Monthly events",
+    "description": "Melbourne City Wrestling's complete event spine.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "youtubeUrl": "https://www.youtube.com/@MCWEncore"
+  },
+  {
+    "promotionId": "attack",
+    "id": "attack-archive",
+    "name": "ATTACK! Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2011-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for ATTACK! Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "ATTACK! Pro Wrestling",
+      "ATTACK!"
+    ],
+    "officialUrl": "https://attackprowrestling.com/"
+  },
+  {
+    "promotionId": "the-crash",
+    "id": "the-crash-archive",
+    "name": "The Crash Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2011-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for The Crash Lucha Libre, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "The Crash Lucha Libre",
+      "The Crash"
+    ]
+  },
+  {
+    "promotionId": "stardom",
+    "id": "stardom-major",
+    "name": "STARDOM Major Event Archive",
+    "kind": "ppv",
+    "firstAirDate": "2011-01-23",
+    "cadence": "Major events",
+    "description": "The complete major-event spine through Dream Queendom, Grand Queendom and arena PPVs.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "roh",
+    "id": "roh-wrestling",
+    "name": "Ring of Honor Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "2011-09-24",
+    "cadence": "Weekly",
+    "description": "ROH's Sinclair and HonorClub weekly programme.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "ROH Wrestling",
+      "ROH on SBG"
+    ],
+    "tvMazeId": 25153,
+    "officialUrl": "https://www.ringofhonor.com/",
+    "youtubeUrl": "https://www.youtube.com/@ringofhonor",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "gatoh-move",
+    "id": "gatoh-move-archive",
+    "name": "ChocoPro Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Gatoh Move / ChocoPro, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Gatoh Move / ChocoPro",
+      "ChocoPro"
+    ],
+    "officialUrl": "https://gatohmove.com/",
+    "youtubeUrl": "https://www.youtube.com/@gatohmove"
+  },
+  {
+    "promotionId": "hog",
+    "id": "hog-archive",
+    "name": "HOG Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for House of Glory, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "House of Glory",
+      "HOG"
+    ],
+    "officialUrl": "https://www.hogwrestling.net/",
+    "youtubeUrl": "https://www.youtube.com/@HouseOfGloryWrestling"
+  },
+  {
+    "promotionId": "progress",
+    "id": "progress-archive",
+    "name": "PROGRESS Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for PROGRESS Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "PROGRESS Wrestling",
+      "PROGRESS"
+    ],
+    "officialUrl": "https://progresswrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@ThisIsProgress"
+  },
+  {
+    "promotionId": "row",
+    "id": "row-tv",
+    "name": "Reality of Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "2012-01-01",
+    "cadence": "Weekly",
+    "description": "ROW's weekly Texas television and YouTube programme.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "ROW TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
+  },
+  {
+    "promotionId": "revpro",
+    "id": "revpro-archive",
+    "name": "RevPro Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Revolution Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Revolution Pro Wrestling",
+      "RevPro"
+    ],
+    "officialUrl": "https://www.revolutionprowrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@RevolutionProWrestling"
+  },
+  {
+    "promotionId": "shine",
+    "id": "shine-archive",
+    "name": "SHINE Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for SHINE Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "SHINE Wrestling",
+      "SHINE"
+    ],
+    "officialUrl": "https://shinewrestling.com/"
+  },
+  {
+    "promotionId": "smash-canada",
+    "id": "smash-canada-archive",
+    "name": "Smash Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Smash Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Smash Wrestling",
+      "Smash"
+    ],
+    "officialUrl": "https://smash-wrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@SmashWrestling"
+  },
+  {
+    "promotionId": "progress",
+    "id": "progress-chapters",
+    "name": "PROGRESS Chapters",
+    "kind": "supercard",
+    "firstAirDate": "2012-03-25",
+    "cadence": "Numbered events",
+    "description": "The complete numbered Chapter chronology.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "PROGRESS Wrestling Chapters"
+    ]
+  },
+  {
+    "promotionId": "shine",
+    "id": "shine-events",
+    "name": "SHINE Numbered Events",
+    "kind": "supercard",
+    "firstAirDate": "2012-07-20",
+    "cadence": "Numbered events",
+    "description": "SHINE's complete numbered iPPV and streaming catalogue.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "stardom",
+    "id": "stardom-5star",
+    "name": "5★STAR Grand Prix",
+    "kind": "tournament",
+    "firstAirDate": "2012-08-19",
+    "cadence": "Annual tournament",
+    "description": "STARDOM's premier round-robin singles league.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "5 Star Grand Prix"
+    ]
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-main-event",
+    "name": "WWE Main Event",
+    "kind": "weekly",
+    "firstAirDate": "2012-10-03",
+    "cadence": "Weekly",
+    "description": "A weekly companion series featuring roster matches and highlights.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "Main Event"
+    ],
+    "tvMazeId": 16753,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "ganbare",
+    "id": "ganbare-archive",
+    "name": "GanPro Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2013-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Ganbare Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Ganbare Pro-Wrestling",
+      "GanPro"
+    ],
+    "officialUrl": "https://ganpro.net/"
+  },
+  {
+    "promotionId": "tjpw",
+    "id": "tjpw-archive",
+    "name": "TJPW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2013-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Tokyo Joshi Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Tokyo Joshi Pro-Wrestling",
+      "TJPW"
+    ],
+    "officialUrl": "https://www.ddtpro.com/tjpw",
+    "youtubeUrl": "https://www.youtube.com/@tjpw2013"
+  },
+  {
+    "promotionId": "wrestle-1",
+    "id": "wrestle-1-archive",
+    "name": "W-1 Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2013-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for WRESTLE-1, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "WRESTLE-1",
+      "W-1"
+    ]
+  },
+  {
+    "promotionId": "wxw",
+    "id": "wxw-shotgun",
+    "name": "wXw Shotgun",
+    "kind": "weekly",
+    "firstAirDate": "2013-01-01",
+    "cadence": "Weekly / seasonal",
+    "description": "wXw's episodic programme connecting its touring events.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "Westside Xtreme Wrestling Shotgun"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@wXwGermany"
+  },
+  {
+    "promotionId": "revpro",
+    "id": "revpro-high-stakes",
+    "name": "High Stakes",
+    "kind": "ppv",
+    "firstAirDate": "2013-01-26",
+    "cadence": "Annual",
+    "description": "RevPro's signature annual York Hall event.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "RevPro High Stakes"
+    ]
+  },
+  {
+    "promotionId": "gfw",
+    "id": "gfw-archive",
+    "name": "GFW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2014-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Global Force Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Global Force Wrestling",
+      "GFW"
+    ]
+  },
+  {
+    "promotionId": "lucha-underground",
+    "id": "lucha-underground-archive",
+    "name": "Lucha Underground Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2014-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Lucha Underground, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Lucha Underground",
+      "Lucha Underground"
+    ]
+  },
+  {
+    "promotionId": "ott",
+    "id": "ott-archive",
+    "name": "OTT Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2014-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Over the Top Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Over the Top Wrestling",
+      "OTT"
+    ],
+    "officialUrl": "https://www.ottwrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@OTTWrestling"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-nxt-ple",
+    "name": "NXT TakeOver & Premium Live Events",
+    "kind": "ppv",
+    "firstAirDate": "2014-02-27",
+    "cadence": "Major events",
+    "description": "NXT's Arrival, TakeOver era and subsequent premium live events.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "NXT TakeOver",
+      "WWE NXT Premium Live Events"
+    ],
+    "tvMazeId": 80711,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "tjpw",
+    "id": "tjpw-princess-cup",
+    "name": "Tokyo Princess Cup",
+    "kind": "tournament",
+    "firstAirDate": "2014-07-19",
+    "cadence": "Annual tournament",
+    "description": "TJPW's annual single-elimination tournament.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "ott",
+    "id": "ott-events",
+    "name": "OTT Complete Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2014-10-18",
+    "cadence": "Monthly events",
+    "description": "The complete Over the Top Wrestling event chronology.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "youtubeUrl": "https://www.youtube.com/@OTTWrestling"
+  },
+  {
+    "promotionId": "lucha-underground",
+    "id": "lucha-underground-tv",
+    "name": "Lucha Underground",
+    "kind": "weekly",
+    "firstAirDate": "2014-10-29",
+    "cadence": "Weekly seasons",
+    "description": "The complete four-season cinematic series in original broadcast order.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2018-11-07",
+    "aliases": [
+      "Lucha Underground TV"
+    ],
+    "tvMazeId": 653,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "basara",
+    "id": "basara-archive",
+    "name": "BASARA Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2015-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Pro-Wrestling BASARA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Pro-Wrestling BASARA",
+      "BASARA"
+    ],
+    "officialUrl": "https://basarapw.com/"
+  },
+  {
+    "promotionId": "icw",
+    "id": "icw-fight-club",
+    "name": "ICW Fight Club",
+    "kind": "weekly",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Weekly / seasonal",
+    "description": "ICW's episodic television and streaming series.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "Insane Championship Wrestling Fight Club"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@ICWOnline"
+  },
+  {
+    "promotionId": "marvelous",
+    "id": "marvelous-archive",
+    "name": "Marvelous Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2015-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Marvelous That's Women Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Marvelous That's Women Pro Wrestling",
+      "Marvelous"
+    ],
+    "officialUrl": "https://www.marvelcompany.co.jp/",
+    "youtubeUrl": "https://www.youtube.com/@MarvelousPro"
+  },
+  {
+    "promotionId": "seadlinnng",
+    "id": "seadlinnng-archive",
+    "name": "SEAdLINNNG Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2015-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for SEAdLINNNG, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "SEAdLINNNG",
+      "SEAdLINNNG"
+    ],
+    "officialUrl": "https://seadlinnng.com/"
+  },
+  {
+    "promotionId": "smash-canada",
+    "id": "smash-tv",
+    "name": "Smash Wrestling Television",
+    "kind": "weekly",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Weekly / seasonal",
+    "description": "Smash's Canadian television and digital programme.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Smash Wrestling"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@SmashWrestling"
+  },
+  {
+    "promotionId": "tnt",
+    "id": "tnt-archive",
+    "name": "TNT Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2015-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for TNT Extreme Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "TNT Extreme Wrestling",
+      "TNT"
+    ],
+    "officialUrl": "https://tntextremewrestling.co.uk/"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-world-feed",
+    "name": "New Japan Pro Wrestling — NJPW World Event Feed",
+    "kind": "streaming",
+    "firstAirDate": "2015-01-04",
+    "cadence": "Live events and tour cards",
+    "description": "The event-level NJPW World catalogue from Wrestle Kingdom 9 onward, with individual cards ordered by first availability.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "New Japan Pro Wrestling",
+      "NJPW World"
+    ],
+    "tvMazeId": 24963,
+    "officialUrl": "https://www.njpwworld.com/",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-axs",
+    "name": "New Japan Pro Wrestling on AXS TV",
+    "kind": "weekly",
+    "firstAirDate": "2015-01-16",
+    "cadence": "Weekly / seasonal",
+    "description": "The English-language AXS TV series presenting major New Japan matches in U.S. broadcast order.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW on AXS TV"
+    ],
+    "tvMazeId": 2515,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "stardom",
+    "id": "stardom-cinderella",
+    "name": "Cinderella Tournament",
+    "kind": "tournament",
+    "firstAirDate": "2015-04-23",
+    "cadence": "Annual tournament",
+    "description": "STARDOM's distinctive over-the-top-rope single-elimination tournament.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "ott",
+    "id": "ott-scrappermania",
+    "name": "ScrapperMania",
+    "kind": "ppv",
+    "firstAirDate": "2015-05-02",
+    "cadence": "Annual",
+    "description": "OTT's signature Dublin arena series.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "OTT ScrapperMania"
+    ]
+  },
+  {
+    "promotionId": "progress",
+    "id": "progress-s8",
+    "name": "Super Strong Style 16",
+    "kind": "tournament",
+    "firstAirDate": "2015-05-24",
+    "cadence": "Annual tournament",
+    "description": "PROGRESS's signature multi-day singles tournament.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "PROGRESS SSS16"
+    ]
+  },
+  {
+    "promotionId": "revolver",
+    "id": "revolver-archive",
+    "name": "Revolver Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2016-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for The Wrestling Revolver, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "The Wrestling Revolver",
+      "Revolver"
+    ],
+    "officialUrl": "https://www.prowrestlingrevolver.com/"
+  },
+  {
+    "promotionId": "wcpw-defiant",
+    "id": "wcpw-defiant-archive",
+    "name": "WCPW / Defiant Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2016-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for WhatCulture Pro Wrestling / Defiant Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "WhatCulture Pro Wrestling / Defiant Wrestling",
+      "WCPW / Defiant"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@DefiantWrestling"
+  },
+  {
+    "promotionId": "wcpw-defiant",
+    "id": "wcpw-loaded",
+    "name": "WCPW Loaded / Defiant",
+    "kind": "weekly",
+    "firstAirDate": "2016-06-27",
+    "cadence": "Weekly / seasonal",
+    "description": "The freely distributed weekly programme across the WhatCulture Pro Wrestling and Defiant eras.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2019-05-03",
+    "aliases": [
+      "WCPW Loaded",
+      "Defiant Wrestling"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@DefiantWrestling"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-205-live",
+    "name": "WWE 205 Live",
+    "kind": "weekly",
+    "firstAirDate": "2016-11-29",
+    "cadence": "Weekly",
+    "description": "WWE's cruiserweight-focused weekly programme.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2022-02-11",
+    "aliases": [
+      "205 Live"
+    ],
+    "tvMazeId": 22536,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "bar",
+    "id": "bar-archive",
+    "name": "BAR Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2017-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Bar Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Bar Wrestling",
+      "BAR"
+    ]
+  },
+  {
+    "promotionId": "black-label-pro",
+    "id": "black-label-pro-archive",
+    "name": "BLP Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2017-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Black Label Pro, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Black Label Pro",
+      "BLP"
+    ],
+    "officialUrl": "https://blacklabelpro.com/"
+  },
+  {
+    "promotionId": "defy",
+    "id": "defy-archive",
+    "name": "DEFY Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2017-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for DEFY Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "DEFY Wrestling",
+      "DEFY"
+    ],
+    "officialUrl": "https://www.defywrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@DEFYWrestling"
+  },
+  {
+    "promotionId": "nwa-modern",
+    "id": "nwa-modern-archive",
+    "name": "NWA (Modern) Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2017-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for National Wrestling Alliance — Modern, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "National Wrestling Alliance — Modern",
+      "NWA (Modern)"
+    ],
+    "officialUrl": "https://www.nationalwrestlingalliance.com/",
+    "youtubeUrl": "https://www.youtube.com/@NWA"
+  },
+  {
+    "promotionId": "prestige",
+    "id": "prestige-archive",
+    "name": "Prestige Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2017-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Prestige Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Prestige Wrestling",
+      "Prestige"
+    ],
+    "officialUrl": "https://prestigewrestling.net/"
+  },
+  {
+    "promotionId": "pwa-australia",
+    "id": "pwa-black-label",
+    "name": "PWA Black Label",
+    "kind": "streaming",
+    "firstAirDate": "2017-01-01",
+    "cadence": "Regular events",
+    "description": "PWA's Black Label event and digital series.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "youtubeUrl": "https://www.youtube.com/@PWAAustralia"
+  },
+  {
+    "promotionId": "defy",
+    "id": "defy-events",
+    "name": "DEFY Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2017-01-13",
+    "cadence": "Monthly events",
+    "description": "DEFY's numbered and named Pacific Northwest cards.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "youtubeUrl": "https://www.youtube.com/@DEFYWrestling"
+  },
+  {
+    "promotionId": "wcpw-defiant",
+    "id": "wcpw-world-cup",
+    "name": "Pro Wrestling World Cup",
+    "kind": "tournament",
+    "firstAirDate": "2017-03-21",
+    "cadence": "Tournament series",
+    "description": "WCPW's international qualifying and finals tournament.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "endDate": "2017-08-26",
+    "aliases": [
+      "WCPW World Cup"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@DefiantWrestling"
+  },
+  {
+    "promotionId": "gcw",
+    "id": "gcw-spring-break",
+    "name": "Joey Janela's Spring Break",
+    "kind": "supercard",
+    "firstAirDate": "2017-03-30",
+    "cadence": "Annual",
+    "description": "GCW's genre-blending WrestleMania-week signature event.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "GCW Spring Break",
+      "Joey Janela Spring Break"
+    ]
+  },
+  {
+    "promotionId": "bar",
+    "id": "bar-events",
+    "name": "Bar Wrestling Event Series",
+    "kind": "supercard",
+    "firstAirDate": "2017-06-08",
+    "cadence": "Frequent events",
+    "description": "The numbered and themed Bar Wrestling catalogue.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "revpro",
+    "id": "revpro-jcup",
+    "name": "British J-Cup",
+    "kind": "tournament",
+    "firstAirDate": "2017-07-08",
+    "cadence": "Annual tournament",
+    "description": "RevPro's international junior-heavyweight tournament.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "eve",
+    "id": "eve-she1",
+    "name": "SHE-1",
+    "kind": "tournament",
+    "firstAirDate": "2017-11-11",
+    "cadence": "Annual tournament",
+    "description": "EVE's annual round-robin tournament.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "Pro Wrestling EVE SHE-1"
+    ]
+  },
+  {
+    "promotionId": "ddt",
+    "id": "ddt-doh",
+    "name": "D-Oh Grand Prix",
+    "kind": "tournament",
+    "firstAirDate": "2017-11-23",
+    "cadence": "Annual tournament",
+    "description": "DDT's heavyweight round-robin league.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "DDT D-Ou Grand Prix"
+    ]
+  },
+  {
+    "promotionId": "nwa-modern",
+    "id": "nwa-ppv",
+    "name": "Modern NWA Pay-Per-View Archive",
+    "kind": "ppv",
+    "firstAirDate": "2017-12-09",
+    "cadence": "Major events",
+    "description": "The modern NWA event chronology from CZW-backed title defences through Anniversary and Crockett Cup cards.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NWA PPV"
+    ]
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-plus-specials",
+    "name": "TNA+ / Impact Plus Specials",
+    "kind": "streaming",
+    "firstAirDate": "2018-01-01",
+    "cadence": "Monthly specials",
+    "description": "Streaming specials including Turning Point, Sacrifice, Under Siege and regional partnerships.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "Impact Plus Specials",
+      "TNA Plus Specials"
+    ]
+  },
+  {
+    "promotionId": "west-coast-pro",
+    "id": "west-coast-pro-archive",
+    "name": "West Coast Pro Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2018-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for West Coast Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "West Coast Pro Wrestling",
+      "West Coast Pro"
+    ],
+    "officialUrl": "https://www.westcoastproofficial.com/"
+  },
+  {
+    "promotionId": "mlw",
+    "id": "mlw-fusion",
+    "name": "MLW Fusion",
+    "kind": "weekly",
+    "firstAirDate": "2018-04-20",
+    "cadence": "Weekly / seasonal",
+    "description": "MLW's modern flagship television and streaming series.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Major League Wrestling Fusion"
+    ],
+    "officialUrl": "https://mlw.com/",
+    "youtubeUrl": "https://www.youtube.com/@MLW",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "eve",
+    "id": "eve-queendom",
+    "name": "Wrestle Queendom",
+    "kind": "ppv",
+    "firstAirDate": "2018-05-05",
+    "cadence": "Major events",
+    "description": "EVE's signature large-scale event series.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "world-of-sport",
+    "id": "wos-revival",
+    "name": "World of Sport Wrestling (Revival)",
+    "kind": "weekly",
+    "firstAirDate": "2018-07-28",
+    "cadence": "Weekly series",
+    "description": "ITV's modern ten-episode World of Sport revival.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2018-09-29",
+    "aliases": [
+      "WOS Wrestling"
+    ],
+    "tvMazeId": 36637,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-nxt-uk",
+    "name": "WWE NXT UK",
+    "kind": "weekly",
+    "firstAirDate": "2018-10-17",
+    "cadence": "Weekly",
+    "description": "The United Kingdom developmental brand's weekly WWE Network series.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2022-09-08",
+    "aliases": [
+      "NXT UK"
+    ],
+    "tvMazeId": 39053,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-archive",
+    "name": "AEW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2019-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for All Elite Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "All Elite Wrestling",
+      "AEW"
+    ],
+    "officialUrl": "https://www.allelitewrestling.com/",
+    "youtubeUrl": "https://www.youtube.com/@AEW"
+  },
+  {
+    "promotionId": "icw-nhb",
+    "id": "icw-nhb-archive",
+    "name": "ICW NHB Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2019-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for ICW No Holds Barred, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "ICW No Holds Barred",
+      "ICW NHB"
+    ]
+  },
+  {
+    "promotionId": "jto",
+    "id": "jto-archive",
+    "name": "JTO Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2019-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Just Tap Out, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Just Tap Out",
+      "JTO"
+    ],
+    "officialUrl": "https://pwjto.com/"
+  },
+  {
+    "promotionId": "wow",
+    "id": "wow-tv",
+    "name": "WOW — Women of Wrestling (Revival)",
+    "kind": "weekly",
+    "firstAirDate": "2019-01-18",
+    "cadence": "Weekly / syndicated seasons",
+    "description": "WOW's modern television revival and continuing syndicated series.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "WOW - Women of Wrestling"
+    ],
+    "tvMazeId": 40037,
+    "youtubeUrl": "https://www.youtube.com/@WOWSuperheroes",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "beyond",
+    "id": "beyond-uncharted",
+    "name": "Uncharted Territory",
+    "kind": "weekly",
+    "firstAirDate": "2019-04-03",
+    "cadence": "Weekly / seasonal",
+    "description": "Beyond's live weekly independent-wrestling series.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "Beyond Wrestling Uncharted Territory"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@BeyondWrestling"
+  },
+  {
+    "promotionId": "gcw",
+    "id": "gcw-bloodsport",
+    "name": "Josh Barnett's Bloodsport",
+    "kind": "supercard",
+    "firstAirDate": "2019-04-04",
+    "cadence": "Recurring",
+    "description": "A shoot-style, rope-free event series presented by GCW.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "GCW Bloodsport"
+    ]
+  },
+  {
+    "promotionId": "gcw",
+    "id": "gcw-collective",
+    "name": "The Collective",
+    "kind": "supercard",
+    "firstAirDate": "2019-04-04",
+    "cadence": "Annual multi-show festival",
+    "description": "GCW's WrestleMania-week festival of branded and partner events.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "GCW The Collective"
+    ]
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-ppv",
+    "name": "AEW Pay-Per-View Archive",
+    "kind": "ppv",
+    "firstAirDate": "2019-05-25",
+    "cadence": "Major events",
+    "description": "AEW's PPV chronology across Double or Nothing, All Out, Full Gear, Revolution and later additions.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "AEW PPV",
+      "All Elite Wrestling PPV"
+    ]
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-dynamite",
+    "name": "AEW Dynamite",
+    "kind": "weekly",
+    "firstAirDate": "2019-10-02",
+    "cadence": "Weekly",
+    "description": "AEW's Wednesday-night flagship programme.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "All Elite Wrestling: Dynamite",
+      "AEW: Dynamite"
+    ],
+    "tvMazeId": 42189,
+    "officialUrl": "https://www.allelitewrestling.com/aew-dynamite",
+    "youtubeUrl": "https://www.youtube.com/@AEW",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-dark",
+    "name": "AEW Dark",
+    "kind": "streaming",
+    "firstAirDate": "2019-10-08",
+    "cadence": "Weekly",
+    "description": "The free YouTube match programme featuring bouts recorded around AEW television tapings.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2023-04-25",
+    "aliases": [
+      "All Elite Wrestling: Dark"
+    ],
+    "tvMazeId": 48302,
+    "youtubeUrl": "https://www.youtube.com/@AEW",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "nwa-modern",
+    "id": "nwa-powerrr",
+    "name": "NWA Powerrr",
+    "kind": "studio",
+    "firstAirDate": "2019-10-08",
+    "cadence": "Weekly / seasonal",
+    "description": "A studio-wrestling revival inspired by the classic Georgia presentation.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NWA Power",
+      "NWA Powerrr"
+    ],
+    "tvMazeId": 44265,
+    "officialUrl": "https://www.nationalwrestlingalliance.com/",
+    "youtubeUrl": "https://www.youtube.com/@NWA",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "gleat",
+    "id": "gleat-archive",
+    "name": "GLEAT Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2020-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for GLEAT, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "GLEAT",
+      "GLEAT"
+    ],
+    "officialUrl": "https://ent.lidet.co.jp/",
+    "youtubeUrl": "https://www.youtube.com/@LIDET_ENT"
+  },
+  {
+    "promotionId": "stardom",
+    "id": "we-are-stardom",
+    "name": "We Are STARDOM!!",
+    "kind": "weekly",
+    "firstAirDate": "2020-01-02",
+    "cadence": "Weekly highlights",
+    "description": "STARDOM's nationally distributed highlights and match programme.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "We Are Stardom"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@STARDOMofficial",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "ddt",
+    "id": "ddt-tv-show",
+    "name": "DDT TV Show",
+    "kind": "streaming",
+    "firstAirDate": "2020-03-20",
+    "cadence": "Regular streaming events",
+    "description": "DDT's recurring Wrestle Universe studio and venue series.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "DDT TV SHOW"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@ddtofficial"
+  },
+  {
+    "promotionId": "gatoh-move",
+    "id": "chocopro",
+    "name": "ChocoPro",
+    "kind": "streaming",
+    "firstAirDate": "2020-03-28",
+    "cadence": "Multiple episodes per month",
+    "description": "A prolific free YouTube series staged primarily at Ichigaya Chocolate Square.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "Gatoh Move ChocoPro"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@gatohmove"
+  },
+  {
+    "promotionId": "revpro",
+    "id": "revpro-epic",
+    "name": "RevPro Live / Epic Encounters",
+    "kind": "streaming",
+    "firstAirDate": "2020-07-05",
+    "cadence": "Seasonal / regular",
+    "description": "RevPro's episodic studio and streaming series.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "RevPro Epic Encounters"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@RevolutionProWrestling"
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-strong",
+    "name": "NJPW Strong",
+    "kind": "weekly",
+    "firstAirDate": "2020-08-07",
+    "cadence": "Weekly",
+    "description": "New Japan's original United States-focused weekly programme.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2023-01-28",
+    "aliases": [
+      "New Japan Pro Wrestling Strong"
+    ],
+    "officialUrl": "https://www.njpwworld.com/",
+    "youtubeUrl": "https://www.youtube.com/@NJPWGLOBAL"
+  },
+  {
+    "promotionId": "gleat",
+    "id": "gleat-ver-mega",
+    "name": "GLEAT Ver. & G PROWRESTLING",
+    "kind": "streaming",
+    "firstAirDate": "2020-10-15",
+    "cadence": "Regular events",
+    "description": "GLEAT's main pro-wrestling event and free-streaming catalogue.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "GLEAT Ver.",
+      "G PROWRESTLING"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@LIDET_ENT"
+  },
+  {
+    "promotionId": "tjpw",
+    "id": "tjpw-wrestle-princess",
+    "name": "Wrestle Princess",
+    "kind": "ppv",
+    "firstAirDate": "2020-11-07",
+    "cadence": "Annual",
+    "description": "TJPW's flagship autumn arena event.",
+    "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "dpw",
+    "id": "dpw-archive",
+    "name": "DPW Promotion Master Index",
+    "kind": "archive",
+    "firstAirDate": "2021-01-01",
+    "cadence": "All known cards",
+    "description": "The promotion-level index for Deadlock Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Deadlock Pro Wrestling",
+      "DPW"
+    ],
+    "officialUrl": "https://www.deadlockpro.com/",
+    "youtubeUrl": "https://www.youtube.com/@deadlockprowrestling"
+  },
+  {
+    "promotionId": "tna",
+    "id": "tna-bti",
+    "name": "Before the Impact",
+    "kind": "studio",
+    "firstAirDate": "2021-02-16",
+    "cadence": "Weekly",
+    "description": "A studio and in-ring lead-in programme for Impact Wrestling.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "BTI"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@TNAWrestling"
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-elevation",
+    "name": "AEW Dark: Elevation",
+    "kind": "streaming",
+    "firstAirDate": "2021-03-15",
+    "cadence": "Weekly",
+    "description": "AEW's second free YouTube match series.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2023-04-24",
+    "aliases": [
+      "Dark Elevation"
+    ],
+    "tvMazeId": 53780,
+    "youtubeUrl": "https://www.youtube.com/@AEW",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-rampage",
+    "name": "AEW Rampage",
+    "kind": "weekly",
+    "firstAirDate": "2021-08-13",
+    "cadence": "Weekly",
+    "description": "AEW's Friday companion programme.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2024-12-27",
+    "aliases": [
+      "All Elite Wrestling: Rampage",
+      "AEW: Rampage"
+    ],
+    "tvMazeId": 55432,
+    "youtubeUrl": "https://www.youtube.com/@AEW",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "dpw",
+    "id": "dpw-fire",
+    "name": "DPW Fire",
+    "kind": "streaming",
+    "firstAirDate": "2021-12-16",
+    "cadence": "Seasonal",
+    "description": "Deadlock Pro Wrestling's original episodic programme.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "Deadlock Pro Wrestling Fire"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@deadlockprowrestling"
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-battle-belts",
+    "name": "Battle of the Belts",
+    "kind": "supercard",
+    "firstAirDate": "2022-01-08",
+    "cadence": "Television specials",
+    "description": "Quarterly championship-focused AEW television specials.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "endDate": "2024-10-19",
+    "aliases": [
+      "AEW Battle of the Belts"
+    ],
+    "tvMazeId": 59565,
+    "traktType": "show"
+  },
+  {
+    "promotionId": "dpw",
+    "id": "dpw-events",
+    "name": "DPW Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2022-01-08",
+    "cadence": "Monthly events",
+    "description": "DPW's named event and tournament catalogue.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "nwa-modern",
+    "id": "nwa-usa",
+    "name": "NWA USA",
+    "kind": "studio",
+    "firstAirDate": "2022-01-08",
+    "cadence": "Weekly",
+    "description": "A secondary studio series focused on developing the wider NWA roster.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "NWA USA Wrestling"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@NWA"
+  },
+  {
+    "promotionId": "stardom",
+    "id": "stardom-new-blood",
+    "name": "NEW BLOOD",
+    "kind": "streaming",
+    "firstAirDate": "2022-03-11",
+    "cadence": "Recurring",
+    "description": "A younger-talent and cross-promotional event series, often streamed freely.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "youtubeUrl": "https://www.youtube.com/@STARDOMofficial"
+  },
+  {
+    "promotionId": "tjpw",
+    "id": "tjpw-grand-princess",
+    "name": "Grand Princess",
+    "kind": "ppv",
+    "firstAirDate": "2022-03-19",
+    "cadence": "Annual",
+    "description": "TJPW's major spring arena event.",
+    "priority": "recommended",
+    "datePrecision": "exact"
+  },
+  {
+    "promotionId": "mlw",
+    "id": "mlw-underground-modern",
+    "name": "MLW Underground Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "2023-02-07",
+    "cadence": "Weekly / seasonal",
+    "description": "The REELZ-era modern Underground programme.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "endDate": "2023-04-11",
+    "aliases": [
+      "MLW Underground"
+    ]
+  },
+  {
+    "promotionId": "njpw",
+    "id": "njpw-strong-events",
+    "name": "NJPW Strong Event Series",
+    "kind": "streaming",
+    "firstAirDate": "2023-05-13",
+    "cadence": "Event specials",
+    "description": "The post-weekly STRONG-branded event and tour-special chronology.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "NJPW Strong"
+    ],
+    "tvMazeId": 50263,
+    "officialUrl": "https://www.njpwworld.com/",
+    "youtubeUrl": "https://www.youtube.com/@NJPWGLOBAL",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "aew",
+    "id": "aew-collision",
+    "name": "AEW Collision",
+    "kind": "weekly",
+    "firstAirDate": "2023-06-17",
+    "cadence": "Weekly",
+    "description": "AEW's Saturday prime-time programme.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "All Elite Wrestling: Collision",
+      "AEW: Collision"
+    ],
+    "tvMazeId": 68778,
+    "officialUrl": "https://www.allelitewrestling.com/aew-collision",
+    "youtubeUrl": "https://www.youtube.com/@AEW",
+    "traktType": "show"
+  }
+]

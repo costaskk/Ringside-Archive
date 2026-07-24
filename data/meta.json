@@ -1,0 +1,18 @@
+{
+  "title": "Ringside Archive",
+  "catalogueVersion": "3.0.0-reconstructed",
+  "reconstructedAt": "2026-07-24T08:14:43.499Z",
+  "counts": {
+    "promotions": 101,
+    "programmes": 271,
+    "majorEvents": 1144,
+    "recommendations": 71,
+    "wrestlers": 110,
+    "tvMazeFeeds": 42
+  },
+  "sources": [
+    "Recovered from the published Ringside Archive client bundle",
+    "Individual sourceUrl fields in major-events.json",
+    "TVMaze live/snapshot episode feeds"
+  ]
+}

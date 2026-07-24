@@ -1,0 +1,14 @@
+{
+  "name": "ringside-archive",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Professional wrestling chronology and local-first watch tracker",
+  "scripts": {
+    "audit": "node scripts/audit-data.mjs",
+    "test": "node scripts/audit-data.mjs && node scripts/smoke-test.mjs",
+    "sync:tvmaze": "node scripts/sync-tvmaze.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "engines": {"node": ">=22"}
+}
