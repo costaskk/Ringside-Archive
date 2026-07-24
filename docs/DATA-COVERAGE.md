@@ -1,29 +1,25 @@
 # Data coverage and accuracy
 
-The recovered catalogue contains:
+The current catalogue contains 101 promotions, 287 programme families, 1,144 individually dated major events, 71 curated recommendations and 42 pre-mapped TVMaze feeds.
 
-- 101 promotions and territory lineages
-- 271 programme families
-- 1,144 individually dated major events
-- 71 curated recommendations
-- 42 programme mappings to TVMaze exact episode feeds
+## Complete Timeline
 
-## Exact television episodes
+The timeline contains a dated start/index marker for every programme family. It automatically loads approved exact feeds and merges individual episodes with PPVs, supercards and tournaments. Additional exact-title feeds may be discovered through the interface or `scripts/discover-tvmaze.mjs`.
 
-Exact episodes are not invented. They are loaded from TVMaze when a mapped programme is opened or a company chronology is selected. The `scripts/sync-tvmaze.mjs` command downloads snapshots into `data/tvmaze/`, and the included GitHub Action refreshes those snapshots weekly.
+A programme family without a trustworthy episode feed remains visible in Complete Timeline and Show Index as an archive marker. It is not expanded into fictional weekly dates.
 
-Many historic wrestling programmes have incomplete or disputed episode records. A programme can remain in the index even when no trustworthy exact feed exists. The interface labels these as programme families instead of generating fictional weekly dates.
+## Historical limitations
 
-## Dates
+No public database is complete for every territory, local broadcast, house show or independent event. Sources may disagree about taping dates, broadcast dates, season numbering and promotion lineage. Add verified records to `data/custom-records.json` and retain their source URLs.
 
-Major-event dates are preserved from the recovered source bundle. Individual records retain a `sourceUrl` and `sourceLabel`. Some events dated after the current day may be announced future events and can contain `TBA` details.
+## Match cards
 
-## Corrections
+Every recovered event has a detail record containing its known match information and parsed participants. `completeCard` remains false until the complete card is independently verified and supplied. The UI labels incomplete records accordingly.
 
-Edit the JSON files directly, preserve stable IDs, and run:
+## Reviews
 
-```bash
-node scripts/audit-data.mjs
-```
+Curated recommendation notes appear where they match a record. Personal ratings and reviews synchronize privately with the signed-in account. Published/editorial reviews should be added only with an appropriate source and licence.
 
-For disputed dates, add a note field rather than silently replacing the source-backed value.
+## Artwork
+
+Artwork can come from manual overrides, TVMaze, TMDB, Wikipedia/Wikimedia or Plex. Missing artwork means no configured source returned a reliable asset; it does not prove that no original poster existed.

@@ -1,37 +1,75 @@
-# Reconstruction audit
+# Ringside Archive v5.1 reconstruction and upgrade audit
 
-## Recovered from the supplied production files
+## Recovered foundation
 
-- Complete promotion catalogue
-- Complete programme-family catalogue
-- Complete 1,144-record major-event JSON payload
-- Curated recommendation and wrestler lists
-- Original compiled client and stylesheet
-- Existing TVMaze mappings, official URLs and YouTube links
+- 101-promotion catalogue
+- 271 original programme families
+- 1,144 dated major-event records
+- recommendations and wrestler lists
+- original compiled client and stylesheet
+- TVMaze mappings, official URLs and YouTube links
 
-## Integrity checks completed
+## Catalogue expansion
 
-- No duplicate promotion, programme, event or recommendation IDs
-- Every programme points to a valid promotion
-- Every major event points to a valid promotion and programme
-- All major-event dates use `YYYY-MM-DD`
-- Required deployment and data files are present and valid JSON where applicable
-- No Trakt secret or private token is included in the ZIP
+- 16 important programme families added
+- 287 total programme families
+- JCP/Georgia/WCW cable lineages expanded
+- WWF/WWE secondary and modern digital programmes expanded
+- no invented episode dates
 
-## Intentional accuracy decisions
+## Interface and archive features
 
-- The six announced future events containing `TBA` are preserved and reported as audit warnings rather than deleted.
-- Exact weekly episode dates are loaded only from mapped feeds or custom verified records.
-- No synthetic weekly episodes are generated from programme start/end dates.
-- No AI-created image is labelled as original artwork.
-- Supabase is not enabled by default because local-first storage is complete and safer for a single-owner archive.
+- full event, episode and programme popouts
+- known card, competitors, sourced details and completeness labels
+- personal reviews and ratings
+- working promotion, wrestler, year-range, Plex, YouTube and artwork filters
+- unified Complete Timeline with programme markers, exact episodes and events
+- layered show/season/episode/event artwork discovery
 
-## Test commands
+## Trakt
 
-```bash
-node --check src/app.js
-node scripts/audit-data.mjs
-node scripts/smoke-test.mjs
+- device authorization
+- exact episode and supported-event history import
+- watched/unwatched writeback
+- automatic access-token refresh
+- encrypted account-linked tokens available across devices
+
+## Plex
+
+- PIN authentication
+- server discovery and remote scan
+- exact show/season/episode and event matching
+- real `viewCount` / `viewOffset` import
+- Watched/Watching mapping with configurable threshold
+- exact scrobble/unscrobble writeback
+- optional Plex-watched forwarding to Trakt
+- encrypted connection and latest scan available across devices
+- LAN-only JSON export fallback
+
+## Supabase accounts
+
+- email/password registration, confirmation session and sign-in
+- password-reset completion flow
+- RLS-protected account state
+- AES-256-GCM encrypted server-only integration vault
+- automatic current `sb_secret_` and legacy `service_role` key handling
+- per-record conflict merge and automatic synchronization
+- shared-browser account ownership guard
+- provider tokens removed from local state after cloud migration
+
+## Security safeguards
+
+- no browser grants on integration vault
+- secrets excluded from source control
+- current Supabase opaque secret keys never sent as JWTs
+- private `/api/` responses excluded from service-worker caching
+- no AI image labelled as original
+- no incomplete match list labelled complete
+
+## Validation
+
+```powershell
+npm test
 ```
 
-All three checks passed when the project ZIP was created.
+The suite audits references and IDs, validates required files and JSON, tests encryption round-trip and cloud schema, and performs a browser rendering smoke test.

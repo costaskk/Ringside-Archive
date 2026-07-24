@@ -288,6 +288,23 @@
     "officialUrl": "https://www.bigtimewrestlinguk.com/"
   },
   {
+    "promotionId": "gcw-territory",
+    "id": "gcw-world-championship-wrestling",
+    "name": "Georgia Championship Wrestling / World Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1971-01-01",
+    "endDate": "1984-07-14",
+    "cadence": "Weekly",
+    "description": "The Georgia territory's influential Saturday evening TBS programme, commonly billed as Georgia Championship Wrestling and later World Championship Wrestling.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "Georgia Championship Wrestling",
+      "World Championship Wrestling on TBS"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Georgia_Championship_Wrestling"
+  },
+  {
     "promotionId": "nwa-historic",
     "id": "nwa-world-championship",
     "name": "NWA World Championship Wrestling",
@@ -483,6 +500,22 @@
     ]
   },
   {
+    "promotionId": "jcp",
+    "id": "jcp-worldwide",
+    "name": "World Wide Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1975-01-01",
+    "cadence": "Weekly",
+    "description": "JCP's syndicated companion programme, later retitled NWA Pro Wrestling.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1987-01-01",
+    "aliases": [
+      "NWA World Wide Wrestling",
+      "NWA Pro Wrestling"
+    ]
+  },
+  {
     "promotionId": "uwa-mexico",
     "id": "uwa-tv",
     "name": "UWA / Lucha Libre Internacional Television",
@@ -507,22 +540,6 @@
     "aliases": [
       "Universal Wrestling Association / Lucha Libre Internacional",
       "UWA"
-    ]
-  },
-  {
-    "promotionId": "jcp",
-    "id": "jcp-worldwide",
-    "name": "World Wide Wrestling",
-    "kind": "territory-tv",
-    "firstAirDate": "1975-01-01",
-    "cadence": "Weekly",
-    "description": "JCP's syndicated companion programme, later retitled NWA Pro Wrestling.",
-    "priority": "recommended",
-    "datePrecision": "year",
-    "endDate": "1987-01-01",
-    "aliases": [
-      "NWA World Wide Wrestling",
-      "NWA Pro Wrestling"
     ]
   },
   {
@@ -648,21 +665,6 @@
     "endDate": "1988-05-08"
   },
   {
-    "promotionId": "awa",
-    "id": "awa-espn",
-    "name": "AWA Championship Wrestling on ESPN",
-    "kind": "weekly",
-    "firstAirDate": "1985-01-01",
-    "cadence": "Weekly",
-    "description": "The national ESPN programme that documented the AWA's late period.",
-    "priority": "recommended",
-    "datePrecision": "year",
-    "endDate": "1990-01-01",
-    "aliases": [
-      "AWA on ESPN"
-    ]
-  },
-  {
     "promotionId": "ajw",
     "id": "ajw-japan-gp",
     "name": "Japan Grand Prix",
@@ -685,6 +687,21 @@
     "priority": "recommended",
     "datePrecision": "year",
     "endDate": "2004-01-01"
+  },
+  {
+    "promotionId": "awa",
+    "id": "awa-espn",
+    "name": "AWA Championship Wrestling on ESPN",
+    "kind": "weekly",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Weekly",
+    "description": "The national ESPN programme that documented the AWA's late period.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1990-01-01",
+    "aliases": [
+      "AWA on ESPN"
+    ]
   },
   {
     "promotionId": "wwe",
@@ -734,6 +751,23 @@
     ],
     "tvMazeId": 5757,
     "traktType": "show"
+  },
+  {
+    "promotionId": "jcp",
+    "id": "jcp-world-championship-wrestling-tbs",
+    "name": "NWA World Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1985-07-06",
+    "endDate": "1988-11-26",
+    "cadence": "Weekly",
+    "description": "Jim Crockett Promotions' national Saturday TBS flagship after acquiring the cable time slot previously used by Georgia Championship Wrestling.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "World Championship Wrestling",
+      "NWA World Championship Wrestling on TBS"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Championship_Wrestling_(1985_TV_series)"
   },
   {
     "promotionId": "mid-south",
@@ -800,6 +834,23 @@
   },
   {
     "promotionId": "wcw",
+    "id": "wcw-main-event",
+    "name": "WCW Main Event",
+    "kind": "weekly",
+    "firstAirDate": "1988-01-01",
+    "endDate": "1998-01-04",
+    "cadence": "Weekly",
+    "description": "The Sunday syndicated and cable companion programme carrying original matches, tournament bouts and pay-per-view build across the late JCP and WCW eras.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "NWA Main Event",
+      "World Championship Wrestling Main Event"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WCW_Main_Event"
+  },
+  {
+    "promotionId": "wcw",
     "id": "wcw-archive",
     "name": "WCW Promotion Master Index",
     "kind": "archive",
@@ -857,6 +908,23 @@
       "Frontier Martial-Arts Wrestling",
       "FMW"
     ]
+  },
+  {
+    "promotionId": "wcw",
+    "id": "wcw-power-hour",
+    "name": "NWA / WCW Power Hour",
+    "kind": "weekly",
+    "firstAirDate": "1989-06-23",
+    "endDate": "1994-03-05",
+    "cadence": "Weekly",
+    "description": "A Friday-night cable series featuring original bouts, interviews and recap material during WCW's early national era.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "NWA Power Hour",
+      "WCW Power Hour"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WCW_Power_Hour"
   },
   {
     "promotionId": "fmw",
@@ -1038,6 +1106,23 @@
     ]
   },
   {
+    "promotionId": "wcw",
+    "id": "wcw-worldwide",
+    "name": "WCW Worldwide",
+    "kind": "weekly",
+    "firstAirDate": "1992-01-01",
+    "endDate": "2001-03-31",
+    "cadence": "Weekly",
+    "description": "The renamed continuation of the long-running World Wide Wrestling syndication lineage, featuring original WCW matches through the promotion's final week.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "World Wide Wrestling",
+      "WCW WorldWide"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WCW_WorldWide"
+  },
+  {
     "promotionId": "njpw",
     "id": "njpw-wk",
     "name": "Wrestle Kingdom / January 4 Tokyo Dome",
@@ -1134,6 +1219,22 @@
   },
   {
     "promotionId": "wwe",
+    "id": "wwf-mania",
+    "name": "WWF Mania",
+    "kind": "weekly",
+    "firstAirDate": "1993-01-09",
+    "endDate": "1996-09-14",
+    "cadence": "Weekly",
+    "description": "A Saturday-morning WWF magazine show combining exclusive matches, recaps and storyline segments during the New Generation era.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "Mania"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWF_Mania"
+  },
+  {
+    "promotionId": "wwe",
     "id": "wwe-raw",
     "name": "WWE Monday Night Raw",
     "kind": "weekly",
@@ -1202,6 +1303,23 @@
     ]
   },
   {
+    "promotionId": "wcw",
+    "id": "wcw-pro",
+    "name": "WCW Pro",
+    "kind": "weekly",
+    "firstAirDate": "1994-01-01",
+    "endDate": "1998-09-26",
+    "cadence": "Weekly",
+    "description": "A syndicated and TBS undercard programme descended from WCW Pro Wrestling, with original matches and storyline recaps.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "aliases": [
+      "WCW Pro Wrestling",
+      "WCW Pro"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WCW_Pro"
+  },
+  {
     "promotionId": "cmll",
     "id": "cmll-grand-prix",
     "name": "CMLL International Gran Prix",
@@ -1228,19 +1346,20 @@
     ]
   },
   {
-    "promotionId": "bjw",
-    "id": "bjw-tv",
-    "name": "Big Japan Wrestling Television & Streaming",
+    "promotionId": "wwe",
+    "id": "wwf-action-zone",
+    "name": "WWF Action Zone",
     "kind": "weekly",
-    "firstAirDate": "1995-01-01",
-    "cadence": "Weekly / event broadcasts",
-    "description": "BJW's television, Samurai TV and streaming chronology.",
-    "priority": "complete",
-    "datePrecision": "year",
+    "firstAirDate": "1994-10-23",
+    "endDate": "1996-09-15",
+    "cadence": "Weekly",
+    "description": "A Sunday syndicated WWF programme that began with major original matches before transitioning into a weekly recap format.",
+    "priority": "recommended",
+    "datePrecision": "exact",
     "aliases": [
-      "BJW TV"
+      "Action Zone"
     ],
-    "youtubeUrl": "https://www.youtube.com/@BJWOfficial"
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWF_Action_Zone"
   },
   {
     "promotionId": "bjw",
@@ -1257,6 +1376,21 @@
       "BJW"
     ],
     "officialUrl": "https://bjw.co.jp/",
+    "youtubeUrl": "https://www.youtube.com/@BJWOfficial"
+  },
+  {
+    "promotionId": "bjw",
+    "id": "bjw-tv",
+    "name": "Big Japan Wrestling Television & Streaming",
+    "kind": "weekly",
+    "firstAirDate": "1995-01-01",
+    "cadence": "Weekly / event broadcasts",
+    "description": "BJW's television, Samurai TV and streaming chronology.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "BJW TV"
+    ],
     "youtubeUrl": "https://www.youtube.com/@BJWOfficial"
   },
   {
@@ -1344,6 +1478,22 @@
       "IWRG"
     ],
     "officialUrl": "https://www.facebook.com/IWRGoficial/"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwf-livewire",
+    "name": "WWF LiveWire",
+    "kind": "studio",
+    "firstAirDate": "1996-09-21",
+    "endDate": "2001-08-18",
+    "cadence": "Weekly",
+    "description": "An interactive Saturday studio programme with calls, interviews, news, recaps and occasional original wrestling content.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "LiveWire"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWF_LiveWire"
   },
   {
     "promotionId": "ddt",
@@ -1670,6 +1820,20 @@
     "traktType": "show"
   },
   {
+    "promotionId": "iwa-ms",
+    "id": "iwa-tpi",
+    "name": "Ted Petty Invitational",
+    "kind": "tournament",
+    "firstAirDate": "2000-01-01",
+    "cadence": "Annual tournament",
+    "description": "The Midwest tournament first staged as Sweet Science 16 and renamed for Ted Petty.",
+    "priority": "essential",
+    "datePrecision": "year",
+    "aliases": [
+      "IWA Mid-South TPI"
+    ]
+  },
+  {
     "promotionId": "noah",
     "id": "noah-archive",
     "name": "NOAH Promotion Master Index",
@@ -1685,20 +1849,6 @@
     ],
     "officialUrl": "https://www.noah.co.jp/",
     "youtubeUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish"
-  },
-  {
-    "promotionId": "iwa-ms",
-    "id": "iwa-tpi",
-    "name": "Ted Petty Invitational",
-    "kind": "tournament",
-    "firstAirDate": "2000-01-01",
-    "cadence": "Annual tournament",
-    "description": "The Midwest tournament first staged as Sweet Science 16 and renamed for Ted Petty.",
-    "priority": "essential",
-    "datePrecision": "year",
-    "aliases": [
-      "IWA Mid-South TPI"
-    ]
   },
   {
     "promotionId": "wow",
@@ -1917,6 +2067,36 @@
     "youtubeUrl": "https://www.youtube.com/@TNAWrestling"
   },
   {
+    "promotionId": "wwe",
+    "id": "wwe-afterburn",
+    "name": "WWE Afterburn",
+    "kind": "studio",
+    "firstAirDate": "2002-01-01",
+    "cadence": "Weekly",
+    "description": "The international weekly SmackDown recap programme featuring condensed matches, highlights and storyline developments.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Afterburn"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWE_Afterburn"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-bottom-line",
+    "name": "WWE Bottom Line",
+    "kind": "studio",
+    "firstAirDate": "2002-01-01",
+    "cadence": "Weekly",
+    "description": "The long-running international Raw recap programme, preserving weekly storyline and match highlights for markets outside the United States.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "Bottom Line"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWE_Bottom_Line"
+  },
+  {
     "promotionId": "roh",
     "id": "roh-ppv",
     "name": "ROH Pay-Per-View & Supercard Archive",
@@ -1941,6 +2121,22 @@
     "description": "The complete event chronology organized by CHIKARA's numbered narrative seasons.",
     "priority": "essential",
     "datePrecision": "exact"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-confidential",
+    "name": "WWE Confidential",
+    "kind": "studio",
+    "firstAirDate": "2002-05-25",
+    "endDate": "2004-04-24",
+    "cadence": "Weekly",
+    "description": "A magazine and documentary series hosted by Gene Okerlund, covering backstage stories, history and contemporary WWE news.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "Confidential"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWE_Confidential"
   },
   {
     "promotionId": "wwe",
@@ -2096,6 +2292,22 @@
     "youtubeUrl": "https://www.youtube.com/@dragongatejp"
   },
   {
+    "promotionId": "wwe",
+    "id": "wwe-experience",
+    "name": "WWE Experience",
+    "kind": "studio",
+    "firstAirDate": "2004-05-02",
+    "endDate": "2020-01-01",
+    "cadence": "Weekly",
+    "description": "A globally distributed WWE recap and magazine show covering Raw, SmackDown and major event storylines.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "The WWE Experience"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/WWE_Experience"
+  },
+  {
     "promotionId": "tna",
     "id": "tna-impact",
     "name": "TNA iMPACT! / Impact Wrestling",
@@ -2133,6 +2345,17 @@
     "traktType": "show"
   },
   {
+    "promotionId": "dragon-gate",
+    "id": "dg-king-gate",
+    "name": "King of Gate",
+    "kind": "tournament",
+    "firstAirDate": "2005-01-01",
+    "cadence": "Annual tournament",
+    "description": "Dragon Gate's premier singles tournament.",
+    "priority": "recommended",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "one-pw",
     "id": "one-pw-archive",
     "name": "1PW Promotion Master Index",
@@ -2146,17 +2369,6 @@
       "1 Pro Wrestling",
       "1PW"
     ]
-  },
-  {
-    "promotionId": "dragon-gate",
-    "id": "dg-king-gate",
-    "name": "King of Gate",
-    "kind": "tournament",
-    "firstAirDate": "2005-01-01",
-    "cadence": "Annual tournament",
-    "description": "Dragon Gate's premier singles tournament.",
-    "priority": "recommended",
-    "datePrecision": "year"
   },
   {
     "promotionId": "row",
@@ -2812,21 +3024,6 @@
     "youtubeUrl": "https://www.youtube.com/@ThisIsProgress"
   },
   {
-    "promotionId": "row",
-    "id": "row-tv",
-    "name": "Reality of Wrestling",
-    "kind": "weekly",
-    "firstAirDate": "2012-01-01",
-    "cadence": "Weekly",
-    "description": "ROW's weekly Texas television and YouTube programme.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "ROW TV"
-    ],
-    "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
-  },
-  {
     "promotionId": "revpro",
     "id": "revpro-archive",
     "name": "RevPro Promotion Master Index",
@@ -2842,6 +3039,21 @@
     ],
     "officialUrl": "https://www.revolutionprowrestling.com/",
     "youtubeUrl": "https://www.youtube.com/@RevolutionProWrestling"
+  },
+  {
+    "promotionId": "row",
+    "id": "row-tv",
+    "name": "Reality of Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "2012-01-01",
+    "cadence": "Weekly",
+    "description": "ROW's weekly Texas television and YouTube programme.",
+    "priority": "complete",
+    "datePrecision": "year",
+    "aliases": [
+      "ROW TV"
+    ],
+    "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
   },
   {
     "promotionId": "shine",
@@ -4068,6 +4280,24 @@
     "youtubeUrl": "https://www.youtube.com/@NWA"
   },
   {
+    "promotionId": "wwe",
+    "id": "wwe-nxt-level-up",
+    "name": "WWE NXT Level Up",
+    "kind": "weekly",
+    "firstAirDate": "2022-02-18",
+    "endDate": "2024-12-27",
+    "cadence": "Weekly",
+    "description": "A developmental companion to NXT featuring emerging Performance Center talent in short-form weekly matches.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "NXT Level Up"
+    ],
+    "officialUrl": "https://www.wwe.com/shows/nxt-level-up",
+    "sourceUrl": "https://www.wwe.com/shows/nxt-level-up/nxt-level-up-feb-18-2022",
+    "traktType": "show"
+  },
+  {
     "promotionId": "stardom",
     "id": "stardom-new-blood",
     "name": "NEW BLOOD",
@@ -4140,6 +4370,41 @@
     "tvMazeId": 68778,
     "officialUrl": "https://www.allelitewrestling.com/aew-collision",
     "youtubeUrl": "https://www.youtube.com/@AEW",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-speed",
+    "name": "WWE Speed",
+    "kind": "streaming",
+    "firstAirDate": "2024-04-03",
+    "cadence": "Weekly",
+    "description": "A short-form tournament and championship series built around strict time-limit matches, launched exclusively on X during WrestleMania week 2024.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "Speed"
+    ],
+    "officialUrl": "https://www.wwe.com/shows/wwe-speed/wwe-speed-2024",
+    "sourceUrl": "https://www.wwe.com/shows/wrestlemania/article/wrestlemania-week-shows",
+    "traktType": "show"
+  },
+  {
+    "promotionId": "wwe",
+    "id": "wwe-evolve-2025",
+    "name": "WWE Evolve",
+    "kind": "streaming",
+    "firstAirDate": "2025-03-05",
+    "cadence": "Weekly",
+    "description": "WWE's weekly developmental series on Tubi, showcasing prospects competing on the path toward NXT.",
+    "priority": "recommended",
+    "datePrecision": "exact",
+    "aliases": [
+      "WWE EVOLVE",
+      "Evolve"
+    ],
+    "officialUrl": "https://www.wwe.com/shows/wwe-evolve/wwe-evolve",
+    "sourceUrl": "https://corporate.wwe.com/about/news/2025/02-03-2025-0",
     "traktType": "show"
   }
 ]

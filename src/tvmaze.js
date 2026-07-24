@@ -1,11 +1,27 @@
 const memory = new Map();
 const stripHtml = value => String(value || '').replace(/<br\s*\/?>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&').replace(/&quot;/gi, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
+const normal = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\b(?:wwe|wwf|wwwf|wcw|nwa|aew|tna|impact)\b/g,'').replace(/[^a-z0-9]+/g,' ').trim();
 
-export async function loadTvMazeFeed(program, { forceLive = false } = {}) {
-  if (!program?.tvMazeId) throw new Error('This programme has no mapped exact episode feed.');
-  if (!forceLive && memory.has(program.id)) return memory.get(program.id);
+export async function discoverTvMazeId(program) {
+  const queries = [program.name, ...(program.aliases || [])].filter(Boolean);
+  for (const query of queries.slice(0,4)) {
+    const response = await fetch(`https://api.tvmaze.com/search/shows?q=${encodeURIComponent(query)}`, { signal: AbortSignal.timeout(12000) });
+    if (!response.ok) continue;
+    const results = await response.json();
+    const wanted = normal(query);
+    const exact = results.find(row => normal(row.show?.name) === wanted);
+    if (exact?.show?.id) return { tvMazeId: exact.show.id, show: exact.show, matchedBy: query, confidence: 'exact-title' };
+  }
+  return null;
+}
+
+export async function loadTvMazeFeed(program, { forceLive = false, tvMazeId = null } = {}) {
+  const mappedId = tvMazeId || program?.tvMazeId;
+  if (!mappedId) throw new Error('This programme has no mapped exact episode feed.');
+  const cacheKey = `${program.id}:${mappedId}`;
+  if (!forceLive && memory.has(cacheKey)) return memory.get(cacheKey);
   let payload = null;
-  if (!forceLive) {
+  if (!forceLive && Number(mappedId) === Number(program.tvMazeId)) {
     try {
       const response = await fetch(`./data/tvmaze/${encodeURIComponent(program.id)}.json`, { cache: 'no-cache' });
       if (response.ok) payload = await response.json();
@@ -13,38 +29,46 @@ export async function loadTvMazeFeed(program, { forceLive = false } = {}) {
   }
   if (!payload) {
     const [showResponse, episodeResponse] = await Promise.all([
-      fetch(`https://api.tvmaze.com/shows/${program.tvMazeId}`),
-      fetch(`https://api.tvmaze.com/shows/${program.tvMazeId}/episodes?specials=1`)
+      fetch(`https://api.tvmaze.com/shows/${mappedId}`, { signal: AbortSignal.timeout(15000) }),
+      fetch(`https://api.tvmaze.com/shows/${mappedId}/episodes?specials=1`, { signal: AbortSignal.timeout(15000) })
     ]);
     if (!showResponse.ok || !episodeResponse.ok) throw new Error(`TVMaze feed failed for ${program.name}.`);
-    payload = { programId: program.id, fetchedAt: new Date().toISOString(), show: await showResponse.json(), episodes: await episodeResponse.json() };
+    payload = { programId: program.id, tvMazeId: mappedId, fetchedAt: new Date().toISOString(), show: await showResponse.json(), episodes: await episodeResponse.json() };
   }
-  memory.set(program.id, payload);
+  memory.set(cacheKey, payload);
   return payload;
 }
 
 export function normalizeEpisode(program, feed, episode) {
   if (!episode?.airdate) return null;
   const eventLike = program.kind === 'ppv' || program.kind === 'supercard';
+  const season = Number(episode.season || 0);
+  const number = Number(episode.number ?? 0);
   return {
     id: `tvmaze:${episode.id}`,
-    itemKey: `episode:${program.id}:${episode.season}:${episode.number ?? 0}`,
+    itemKey: `episode:${program.id}:${season}:${number}`,
     promotionId: program.promotionId,
     programId: program.id,
-    title: episode.name || 'Untitled episode',
+    title: episode.name || `${program.name} episode`,
     date: episode.airdate,
     kind: eventLike ? program.kind : 'episode',
-    code: eventLike ? '' : `S${String(episode.season || 0).padStart(2,'0')}E${String(episode.number ?? 0).padStart(2,'0')}`,
+    season,
+    number,
+    code: eventLike ? '' : `S${String(season).padStart(2,'0')}E${String(number).padStart(2,'0')}`,
     description: stripHtml(episode.summary) || `${program.name} episode aired ${episode.airdate}.`,
-    artwork: episode.image?.original || episode.image?.medium || feed.show?.image?.original || feed.show?.image?.medium || '',
+    artwork: episode.image?.original || episode.image?.medium || '',
+    showArtwork: feed.show?.image?.original || feed.show?.image?.medium || '',
     sourceUrl: episode.url || feed.show?.url || '',
     sourceLabel: 'TVMaze exact episode feed',
-    runtime: episode.runtime || null
+    runtime: episode.runtime || null,
+    tvMazeId: episode.id,
+    tvMazeShowId: feed.show?.id || feed.tvMazeId || program.tvMazeId,
+    rating: episode.rating?.average ?? null
   };
 }
 
-export async function loadPromotionEpisodes(programmes, promotionId, onProgress = () => {}) {
-  const feeds = programmes.filter(p => p.promotionId === promotionId && p.tvMazeId);
+export async function loadPromotionEpisodes(programmes, promotionId, onProgress = () => {}, feedMap = {}) {
+  const feeds = programmes.filter(p => p.promotionId === promotionId && (p.tvMazeId || feedMap[p.id]));
   const records = [];
   let completed = 0;
   const queue = [...feeds];
@@ -52,7 +76,7 @@ export async function loadPromotionEpisodes(programmes, promotionId, onProgress 
     while (queue.length) {
       const program = queue.shift();
       try {
-        const feed = await loadTvMazeFeed(program);
+        const feed = await loadTvMazeFeed(program, { tvMazeId: feedMap[program.id] || program.tvMazeId });
         for (const episode of feed.episodes || []) {
           const record = normalizeEpisode(program, feed, episode);
           if (record) records.push(record);

@@ -1,10 +1,10 @@
 {
   "title": "Ringside Archive",
-  "catalogueVersion": "3.0.0-reconstructed",
+  "catalogueVersion": "5.1.0-reconstructed-expanded",
   "reconstructedAt": "2026-07-24T08:14:43.499Z",
   "counts": {
     "promotions": 101,
-    "programmes": 271,
+    "programmes": 287,
     "majorEvents": 1144,
     "recommendations": 71,
     "wrestlers": 110,
@@ -13,6 +13,34 @@
   "sources": [
     "Recovered from the published Ringside Archive client bundle",
     "Individual sourceUrl fields in major-events.json",
-    "TVMaze live/snapshot episode feeds"
-  ]
+    "TVMaze live/snapshot episode feeds",
+    "Official WWE programme announcements for WWE Speed and WWE Evolve",
+    "Historic programme lineage additions for WCW, JCP, Georgia and WWF/WWE"
+  ],
+  "version": "5.1.0",
+  "updatedAt": "2026-07-24T13:30:00.000Z",
+  "features": {
+    "detailPopouts": true,
+    "yearRangeFilters": true,
+    "traktEpisodeSync": true,
+    "plexDirectScan": true,
+    "artworkScanner": true,
+    "personalReviews": true,
+    "programmeMarkersInTimeline": true,
+    "traktTokenRefresh": true,
+    "plexExactEpisodeOwnership": true,
+    "wikipediaArtworkFallback": true,
+    "supabaseAccounts": true,
+    "crossDeviceCloudState": true,
+    "encryptedIntegrationVault": true,
+    "roamingTraktConnection": true,
+    "roamingPlexConnection": true,
+    "plexViewingImport": true,
+    "plexWatchedWriteback": true,
+    "plexToTraktBridge": true,
+    "supabasePasswordRecovery": true,
+    "accountCacheIsolation": true,
+    "signedPlexArtworkProxy": true,
+    "privateApiServiceWorkerBypass": true
+  }
 }

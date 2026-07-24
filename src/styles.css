@@ -21,3 +21,108 @@
 .syncProgress{font-size:11px;color:var(--gold-bright);margin-top:8px}.dangerButton{border-color:#7f3030!important;color:#f29b9b!important}
 @media(max-width:1100px){.topbar{grid-template-columns:1fr auto}.topbar nav{display:none}.dashboard{grid-template-columns:1fr}.filterGrid{grid-template-columns:repeat(3,1fr)}.programmeGrid{grid-template-columns:repeat(2,1fr)}.cardGrid{grid-template-columns:repeat(2,1fr)}.wrestlerDirectory{grid-template-columns:repeat(3,1fr)}.exactRecordCard{grid-template-columns:72px 140px 1fr}.exactRecordActions{grid-column:2/-1;display:flex;align-items:center;gap:12px;padding:0 14px 14px}.recordStatus{flex-direction:row}}
 @media(max-width:700px){.appShell{padding:16px 12px 90px}.topbar{height:64px;padding:0 13px}.topActions .primaryButton{display:none}.brand small{display:none}.dashboard,.exactCoverageBar{display:block}.nextCard{min-height:440px}.nextCard .heroArtwork{width:100%;height:45%;top:auto;bottom:0;opacity:.55}.nextContent{max-width:none}.filterTop{display:flex;flex-wrap:wrap}.searchField{width:100%}.filterGrid{grid-template-columns:1fr 1fr}.programmeGrid,.cardGrid{grid-template-columns:1fr}.wrestlerDirectory{grid-template-columns:1fr 1fr}.exactRecordCard{grid-template-columns:62px 1fr;gap:0}.exactRecordArtwork{grid-column:2;height:130px}.exactRecordMain{grid-column:1/-1;padding:15px}.exactRecordDate{grid-row:1/3}.exactRecordActions{grid-column:1/-1;padding:10px;flex-wrap:wrap}.connectionGrid{grid-template-columns:1fr}.mobileNav{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;bottom:0;left:0;right:0;z-index:80;background:#090b0df5;border-top:1px solid var(--line)}.mobileNav button{padding:10px 3px;color:var(--muted);font-size:9px}.mobileNav button.active{color:var(--gold-bright)}.episodeRow{grid-template-columns:65px 1fr}.episodeRow img,.episodeImageFallback{width:65px}.episodeRow button{grid-column:2;margin-bottom:8px;justify-self:start}}
+
+/* Ringside Archive v4 interaction, detail, filter and integration additions */
+.filterToggle{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:42px}
+.filterPanel.collapsed .filterGrid{display:none!important}
+.filterPanel:not(.collapsed) .filterToggle{border-color:var(--gold);color:var(--gold-bright)}
+.filterGrid{grid-template-columns:repeat(5,minmax(150px,1fr));align-items:end}
+.filterGrid label>span{display:block;margin-bottom:6px;color:var(--muted-2);font-size:9px;letter-spacing:.1em;text-transform:uppercase}
+.filterGrid select,.filterGrid .yearInput{width:100%;min-height:40px;padding:0 10px;background:#0b0f12;border:1px solid var(--line);border-radius:7px;color:var(--ink)}
+.checkField{min-height:40px;display:flex!important;align-items:center;gap:9px;padding:0 10px;border:1px solid var(--line);border-radius:7px;background:#0b0f12}
+.checkField span{margin:0!important;text-transform:none!important;letter-spacing:0!important;font-size:11px!important;color:var(--muted)!important}
+.coverageActions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;align-content:center}
+.coverageActions button,.sectionHeading button{border:1px solid var(--line);background:#11161a;border-radius:7px;padding:9px 11px;color:var(--muted)}
+.coverageActions button:hover,.sectionHeading button:hover{border-color:var(--gold);color:var(--gold-bright)}
+.exactRecordCard[data-open-record],.programmeCard[data-open-programme],.episodeRow[data-open-record]{cursor:pointer}
+.exactRecordCard[data-open-record]:hover,.programmeCard[data-open-programme]:hover{border-color:color-mix(in srgb,var(--accent) 60%,var(--line));transform:translateY(-1px)}
+.exactRecordCard,.programmeCard{transition:transform .16s,border-color .16s,background .16s}
+.artwork{position:relative;overflow:hidden;background:#11161a}
+.artwork>.artworkInner{position:absolute;inset:0;z-index:0;display:flex;flex-direction:column;justify-content:flex-end;padding:12px;background:linear-gradient(145deg,color-mix(in srgb,var(--accent) 22%,#101419),#101419)}
+.artwork>.artworkInner span{font-size:8px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold-bright)}
+.artwork>.artworkInner strong{font-family:Georgia,serif;font-size:13px;line-height:1.15;margin-top:4px}
+.artwork>img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover}
+.exactRecordArtwork.artwork{width:150px;height:112px;border-radius:8px;align-self:center}
+.programmeArtwork.artwork{min-height:210px}
+.episodeThumb.artwork{width:90px;height:58px;border-radius:6px}
+.detailHero{display:grid;grid-template-columns:minmax(260px,34%) 1fr;min-height:430px;background:#0d1013;border-bottom:1px solid var(--line)}
+.detailArtwork.artwork{width:100%;height:100%;min-height:430px;border-radius:0}
+.detailHeroText{padding:50px 48px 36px;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(circle at 100% 0,#d7a84f12,transparent 24rem)}
+.detailHeroText h2{font-family:Georgia,serif;font-size:42px;line-height:1.02;margin:14px 0}
+.detailLead{color:var(--muted);line-height:1.7;max-width:760px}
+.detailFacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:24px 0}
+.detailFacts span{border:1px solid var(--line-soft);background:#11161a;border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:4px}
+.detailFacts small{color:var(--muted-2);text-transform:uppercase;letter-spacing:.09em;font-size:8px}
+.detailFacts strong{font-size:12px}
+.detailSection{padding:30px 34px;border-bottom:1px solid var(--line-soft)}
+.sectionHeading{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:18px}
+.sectionHeading h3{font-family:Georgia,serif;font-size:25px;margin-top:4px}
+.sectionHeading small{max-width:480px;text-align:right;color:var(--muted-2)}
+.matchCardList{display:grid;gap:9px;counter-reset:matches}
+.matchCardList li{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:13px 15px;border:1px solid var(--line-soft);background:#101519;border-radius:8px}
+.matchCardList li>span{color:var(--gold-bright);font-size:9px;text-transform:uppercase;letter-spacing:.09em}
+.matchCardList li strong{font-size:13px;line-height:1.5}
+.matchCardList li p{grid-column:2;color:var(--muted);font-size:11px}
+.wrestlerTags.expanded{display:flex;flex-wrap:wrap;gap:8px}
+.wrestlerTags.expanded button,.wrestlerTags.expanded span{border:1px solid var(--line);background:#13191e;border-radius:999px;padding:7px 10px;color:var(--ink);font-size:10px}
+.wrestlerTags.expanded button:hover{border-color:var(--gold);color:var(--gold-bright)}
+.editorialReview{border-left:3px solid var(--gold);background:#101519;padding:18px 20px;color:var(--muted);line-height:1.75;border-radius:0 8px 8px 0}
+.personalReview{display:grid;grid-template-columns:170px 1fr auto;gap:12px;align-items:end;margin-top:18px}
+.personalReview label{display:flex;flex-direction:column;gap:6px}
+.personalReview label span{color:var(--muted-2);font-size:9px;text-transform:uppercase;letter-spacing:.1em}
+.personalReview select,.personalReview textarea{border:1px solid var(--line);background:#090d10;border-radius:7px;padding:10px;color:var(--ink)}
+.personalReview textarea{min-height:100px}
+.personalReview button{min-height:42px;border:1px solid var(--gold);background:#d7a84f18;border-radius:7px;padding:0 14px;color:var(--gold-bright)}
+.artworkGallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.artworkGallery figure,.seasonArtworkGrid figure{border:1px solid var(--line-soft);background:#0e1317;border-radius:8px;overflow:hidden}
+.artworkGallery img{width:100%;height:210px;object-fit:cover}
+.artworkGallery figcaption,.seasonArtworkGrid figcaption{padding:8px 10px;color:var(--muted);font-size:9px}
+.seasonArtworkGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin-top:14px}
+.seasonArtworkGrid img{width:100%;height:190px;object-fit:cover}
+.subheading{margin-top:24px;color:var(--gold-bright)}
+.episodeRows{display:grid;gap:8px;max-height:70vh;overflow:auto;padding-right:4px}
+.episodeRow{display:grid;grid-template-columns:90px minmax(180px,.8fr) minmax(240px,1.5fr) auto;gap:12px;align-items:center;border:1px solid var(--line-soft);border-radius:8px;background:#101519;padding:8px 10px}
+.episodeRow:hover{border-color:#3b444c}
+.episodeIdentity span{font-size:8px;color:var(--gold-bright);letter-spacing:.09em}
+.episodeIdentity h4{font-size:12px;margin:3px 0}
+.episodeIdentity p,.episodeSummary{font-size:9px;color:var(--muted-2)}
+.episodeSummary{line-height:1.55}
+.episodeRow>button{border:1px solid var(--line);background:#0b0f12;border-radius:7px;padding:7px 9px;font-size:9px}
+.episodeRow>button.active{border-color:var(--green);color:var(--green-bright)}
+.serverList{display:grid;gap:8px;margin-top:14px}
+.serverList article{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px;border:1px solid var(--line-soft);background:#0c1114;border-radius:8px}
+.serverList article div{display:flex;flex-direction:column;gap:3px}.serverList small{color:var(--muted-2)}
+.serverList button{border:1px solid var(--line);background:#141a1f;border-radius:7px;padding:8px 10px}
+.sourceEmpty{display:flex;justify-content:space-between;align-items:center;gap:18px;border:1px dashed var(--line);background:#0b0f12;border-radius:8px;padding:16px}
+.sourceEmpty h4{margin-bottom:5px}.sourceEmpty p{color:var(--muted);font-size:10px}
+.sourceEmpty button{border:1px solid var(--gold);color:var(--gold-bright);background:#d7a84f12;border-radius:7px;padding:9px 11px;white-space:nowrap}
+.availabilityLights .light.pickLight{color:var(--green-bright)}
+@media(max-width:1100px){.filterGrid{grid-template-columns:repeat(3,minmax(150px,1fr))}.detailHero{grid-template-columns:230px 1fr}.personalReview{grid-template-columns:140px 1fr}.personalReview button{grid-column:2;justify-self:start}.episodeRow{grid-template-columns:80px 1fr auto}.episodeSummary{display:none}.exactRecordArtwork.artwork{width:125px;height:96px}}
+@media(max-width:700px){.filterGrid{grid-template-columns:1fr 1fr}.coverageActions{justify-content:flex-start;margin-top:14px}.exactRecordArtwork.artwork{grid-column:2;width:100%;height:130px}.detailHero{display:block}.detailArtwork.artwork{height:260px;min-height:260px}.detailHeroText{padding:28px 20px}.detailHeroText h2{font-size:32px}.detailFacts{grid-template-columns:1fr 1fr}.detailSection{padding:23px 17px}.sectionHeading{align-items:flex-start;flex-direction:column}.sectionHeading small{text-align:left}.matchCardList li{grid-template-columns:1fr}.matchCardList li p{grid-column:1}.personalReview{grid-template-columns:1fr}.personalReview button{grid-column:1}.artworkGallery{grid-template-columns:1fr 1fr}.artworkGallery img{height:180px}.episodeRow{grid-template-columns:68px 1fr}.episodeThumb.artwork{width:68px;height:48px}.episodeRow>button{grid-column:2;justify-self:start}.serverList article{align-items:flex-start;flex-direction:column}}
+
+/* v5.1 programme markers inside the unified Complete Timeline */
+.programmeTimelineCard{background:linear-gradient(100deg,color-mix(in srgb,var(--accent) 9%,var(--panel)),var(--panel));border-style:dashed}
+.programmeTimelineCard .exactRecordDate small{color:var(--gold-bright)}
+.programmeTimelineCard .exactRecordMain h3:before{content:'SHOW · ';color:var(--gold-bright);font-size:.58em;letter-spacing:.12em;vertical-align:middle}
+.programmeTimelineCard[data-open-programme]{cursor:pointer}
+.programmeTimelineCard[data-open-programme]:hover{border-style:solid;border-color:color-mix(in srgb,var(--accent) 70%,var(--line));transform:translateY(-1px)}
+.artworkGallery figcaption a{color:var(--gold-bright)}
+.artworkGallery figcaption a:hover{text-decoration:underline}
+
+/* v5.1 account and roaming integration UI */
+.accountButton{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:#101519;border-radius:8px;padding:7px 10px;color:var(--muted);font-size:10px}
+.accountButton:hover{border-color:var(--gold);color:var(--gold-bright)}
+.accountAvatar{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,var(--gold),var(--red));color:#fff;font-weight:800;font-size:10px}
+.accountAvatar.large{width:58px;height:58px;font-size:24px;flex:none}
+.accountIdentity{display:flex;gap:18px;align-items:center;padding:18px;border:1px solid var(--line);background:#101519;border-radius:12px}
+.accountIdentity h3{font-family:Georgia,serif;font-size:24px;margin:4px 0}.accountIdentity p{color:var(--muted);line-height:1.6}
+.cloudStatusGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:16px 0}
+.cloudStatusGrid span{display:flex;flex-direction:column;gap:5px;border:1px solid var(--line-soft);background:#0d1216;border-radius:8px;padding:12px}
+.cloudStatusGrid small{font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-2)}.cloudStatusGrid strong{font-size:11px}
+.authLayout{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:8px}.authLayout h3{font-family:Georgia,serif;font-size:30px;margin:8px 0}.authLayout p,.authLayout li{color:var(--muted);line-height:1.7}.authLayout ul{display:grid;gap:7px;margin-top:14px;list-style:disc;padding-left:20px}
+.authForm{display:grid;gap:14px;border:1px solid var(--line);background:#101519;border-radius:12px;padding:20px}.authForm label{display:grid;gap:7px}.authForm label span{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted-2)}.authForm input{border:1px solid var(--line);background:#090d10;border-radius:8px;padding:11px 12px}
+.accountSyncNotice{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:#0e1317;border-radius:9px;padding:12px 14px;margin-bottom:14px}.accountSyncNotice strong{font-size:11px;white-space:nowrap}.accountSyncNotice span{color:var(--muted);font-size:10px;line-height:1.5}.accountSyncNotice button{margin-left:auto;border:1px solid var(--gold);color:var(--gold-bright);border-radius:7px;padding:7px 10px}.accountSyncNotice.ready{border-color:#47b87955;background:#47b8790d}
+.settingStack{display:grid;gap:8px;margin-top:14px}.settingToggle{display:flex!important;align-items:flex-start;gap:10px;border:1px solid var(--line-soft);background:#0c1114;border-radius:8px;padding:10px!important}.settingToggle input{margin-top:2px}.settingToggle span{display:flex;flex-direction:column;gap:3px!important}.settingToggle strong{font-size:10px}.settingToggle small{font-size:9px;color:var(--muted-2);line-height:1.45}.settingStack>label:not(.settingToggle){display:grid;gap:6px}.settingStack>label:not(.settingToggle)>span{font-size:9px;color:var(--muted-2);text-transform:uppercase;letter-spacing:.08em}.settingStack input[type=number]{border:1px solid var(--line);background:#090d10;border-radius:7px;padding:8px}
+.accountSetup{border:1px solid var(--line);background:#101519;border-radius:10px;padding:20px}.accountSetup h3{font-family:Georgia,serif;font-size:24px;margin-bottom:8px}.accountSetup p{color:var(--muted);line-height:1.7}.accountSetup code{color:var(--gold-bright)}
+@media(max-width:900px){.cloudStatusGrid{grid-template-columns:1fr 1fr}.authLayout{grid-template-columns:1fr}.accountSyncNotice{align-items:flex-start;flex-direction:column}.accountSyncNotice button{margin-left:0}}
+@media(max-width:700px){.accountButton{font-size:0;padding:7px}.accountButton .accountAvatar{font-size:10px}.accountIdentity{align-items:flex-start}.cloudStatusGrid{grid-template-columns:1fr}.topActions{gap:5px}}

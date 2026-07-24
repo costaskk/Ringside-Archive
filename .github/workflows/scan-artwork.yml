@@ -1,0 +1,37 @@
+name: Refresh artwork catalogue
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Optional maximum records to scan (leave blank for all)
+        required: false
+        type: string
+permissions:
+  contents: write
+jobs:
+  artwork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan TMDB with Wikipedia/Wikimedia fallback
+        shell: bash
+        env:
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+          SCAN_LIMIT: ${{ inputs.limit }}
+        run: |
+          if [ -n "$SCAN_LIMIT" ]; then
+            node scripts/scan-artwork.mjs "--limit=$SCAN_LIMIT"
+          else
+            node scripts/scan-artwork.mjs
+          fi
+      - run: npm test
+      - name: Commit artwork catalogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artwork-catalog.json
+          git diff --cached --quiet || git commit -m "chore: refresh artwork catalogue"
+          git push

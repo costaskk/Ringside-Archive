@@ -1,0 +1,33 @@
+
+> ringside-archive@5.1.0 test
+> node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/runtime-smoke.mjs
+
+{
+  "ok": true,
+  "counts": {
+    "promotions": 101,
+    "programmes": 287,
+    "events": 1144,
+    "customRecords": 0,
+    "recommendations": 71,
+    "eventDetails": 1144,
+    "artworkProgrammes": 0,
+    "artworkRecords": 0
+  },
+  "errors": [],
+  "warnings": [
+    "Future/TBA event: aew-2026-07-26-redemption",
+    "Future/TBA event: aew-2026-08-30-all-in",
+    "Future/TBA event: aew-2026-09-26-all-out",
+    "Future/TBA event: njpw-2026-09-26-destruction-in-kobe",
+    "Future/TBA event: aew-2026-11-14-full-gear",
+    "Future/TBA event: njpw-2026-11-15-lucha-kingdom"
+  ],
+  "warningCount": 6
+}
+Smoke test passed: 48 required files and 13 JSON files validated.
+Cloud smoke passed: encryption, RLS schema, account APIs and Supabase key compatibility validated.
+Runtime smoke passed: 101,489 characters rendered.
+
+Static HTTP smoke: PASS
+JavaScript syntax check: PASS

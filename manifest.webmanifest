@@ -1,7 +1,7 @@
 {
   "name": "Ringside Archive",
   "short_name": "Ringside",
-  "description": "Professional wrestling chronology and watch tracker",
+  "description": "Professional wrestling chronology with cross-device viewing, Plex and Trakt sync",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#090b0d",
