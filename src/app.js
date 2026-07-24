@@ -405,7 +405,7 @@ function connectionsModal(){
   <section class="connectionPanel"><h3>Backup & recovery</h3><p>Account sync is automatic when configured, but a private JSON backup remains useful for offline recovery. Legacy backups can also migrate local Plex/Trakt connections into your signed-in account.</p><div class="modalActions"><button data-action="export">Export JSON</button><button data-action="import-backup">Import JSON</button><button data-action="cloud-sync" ${accountConnected()?'':'disabled'}>Sync account</button></div></section></div>`,true);
 }
 
-function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.1 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
+function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.1.1 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
 function mobileNav(){return `<nav class="mobileNav">${navItems.map(([id,ic,label])=>`<button data-view="${id}" class="${state.view===id?'active':''}"><span>${icon(ic)}</span>${label.replace('Complete ','')}</button>`).join('')}</nav>`;}
 
 function render(){
@@ -530,14 +530,14 @@ async function importPlexPayload(data){
 async function startTraktDevice(){
   try {
     state.traktMessage='Requesting a Trakt device code…';render();
-    const response=await fetch('./api/trakt/device-code',{method:'POST'}),data=await response.json();
+    const response=await fetch('./api/trakt/device',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'code'})}),data=await response.json();
     if(!response.ok)throw new Error(data.error||'Trakt device authorization is not configured.');
     const holder=document.querySelector('#traktDevice');if(holder)holder.innerHTML=`<p>Open <a href="${h(data.verification_url)}" target="_blank">${h(data.verification_url)}</a> and enter:</p><h2><code>${h(data.user_code)}</code></h2><p>Waiting for authorization…</p>`;
     window.open(data.verification_url,'_blank','noopener');const started=Date.now();
     while(Date.now()-started<(data.expires_in||600)*1000){
       await new Promise(r=>setTimeout(r,(data.interval||5)*1000));
       const headers=await accountHeaders({'Content-Type':'application/json'});
-      const tokenResponse=await fetch('./api/trakt/device-token',{method:'POST',headers,body:JSON.stringify({device_code:data.device_code})});
+      const tokenResponse=await fetch('./api/trakt/device',{method:'POST',headers,body:JSON.stringify({action:'token',device_code:data.device_code})});
       if(tokenResponse.status===202)continue;
       const token=await tokenResponse.json();if(!tokenResponse.ok)throw new Error(token.error||'Trakt authorization failed.');
       if(token.cloud){state.trakt={cloudConnected:true,cloud:true,account:token.integration?.account||null,expiresAt:token.integration?.expiresAt||null};}

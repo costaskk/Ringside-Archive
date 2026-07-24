@@ -1,4 +1,4 @@
-# Ringside Archive v5.1
+# Ringside Archive v5.1.1
 
 A GitHub-ready professional wrestling chronology and viewing tracker with:
 
@@ -102,7 +102,7 @@ The project never creates fictional weekly dates. Complete Timeline contains:
 
 For programmes with no dependable episode database, the show remains indexed but is not expanded into invented episodes. See `docs/DATA-COVERAGE.md`.
 
-## Added programme families in v5.1
+## Added programme families in v5.1.1
 
 The recovery catalogue was expanded with important missing lineages and programmes, including:
 
@@ -174,7 +174,7 @@ Open PowerShell in the project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.1 release"
+git commit -m "Initial Ringside Archive v5.1.1 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main

@@ -1,6 +1,6 @@
 {
   "name": "ringside-archive",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "private": true,
   "type": "module",
   "description": "Professional wrestling chronology with Supabase accounts, roaming encrypted Trakt/Plex sync, exact episode feeds and artwork discovery",
@@ -15,6 +15,6 @@
     "scan:wikipedia": "node scripts/scan-artwork.mjs --wikipedia-only"
   },
   "engines": {
-    "node": ">=22"
+    "node": "22.x"
   }
 }

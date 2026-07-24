@@ -1,5 +1,5 @@
 
-> ringside-archive@5.1.0 test
+> ringside-archive@5.1.1 test
 > node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/runtime-smoke.mjs
 
 {
@@ -25,9 +25,6 @@
   ],
   "warningCount": 6
 }
-Smoke test passed: 48 required files and 13 JSON files validated.
+Smoke test passed: 47 required files, 13 JSON files and 12 Vercel functions validated.
 Cloud smoke passed: encryption, RLS schema, account APIs and Supabase key compatibility validated.
-Runtime smoke passed: 101,489 characters rendered.
-
-Static HTTP smoke: PASS
-JavaScript syntax check: PASS
+Runtime smoke passed: 101,491 characters rendered.

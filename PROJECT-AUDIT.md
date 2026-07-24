@@ -1,4 +1,4 @@
-# Ringside Archive v5.1 reconstruction and upgrade audit
+# Ringside Archive v5.1.1 reconstruction and upgrade audit
 
 ## Recovered foundation
 
@@ -73,3 +73,7 @@ npm test
 ```
 
 The suite audits references and IDs, validates required files and JSON, tests encryption round-trip and cloud schema, and performs a browser rendering smoke test.
+
+## Vercel Hobby deployment correction (v5.1.1)
+
+The v5.1 package exposed 13 serverless route entrypoints, one above the Vercel Hobby limit of 12. The two Trakt device-flow endpoints were consolidated into `api/trakt/device.js`, reducing the deployment to exactly 12 functions without removing functionality. The smoke test now counts deployable API routes and fails locally if the Hobby limit is exceeded again.

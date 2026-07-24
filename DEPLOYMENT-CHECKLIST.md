@@ -1,4 +1,4 @@
-# Ringside Archive v5.1 deployment checklist
+# Ringside Archive v5.1.1 deployment checklist
 
 ## Local verification
 
@@ -15,7 +15,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.1 release"
+git commit -m "Initial Ringside Archive v5.1.1 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -99,3 +99,13 @@ TMDB_READ_ACCESS_TOKEN        optional
 - [ ] Add `TMDB_READ_ACCESS_TOKEN` if richer artwork is desired.
 - [ ] Run the artwork workflow and manually review ambiguous images.
 - [ ] Never label a fallback or generated image as original artwork.
+
+## Vercel Hobby function check
+
+Version 5.1.1 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+
+```powershell
+npm test
+```
+
+The smoke test will stop if more than 12 route files are present under `api/`.
