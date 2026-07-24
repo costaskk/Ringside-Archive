@@ -1,8 +1,9 @@
-Ringside Archive v5.2.0 final validation
+Ringside Archive v5.3.0 final validation
 Date: 2026-07-24
 
-> ringside-archive@5.2.0 test
-> node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/runtime-smoke.mjs
+
+> ringside-archive@5.3.0 test
+> node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs
 
 {
   "ok": true,
@@ -27,13 +28,16 @@ Date: 2026-07-24
   ],
   "warningCount": 6
 }
-
-Smoke test passed: 49 required files, 14 JSON files and 12 Vercel functions validated.
+Smoke test passed: 54 required files, 14 JSON files and 12 Vercel functions validated.
 Cloud smoke passed: encryption, RLS schema, account APIs and Supabase key compatibility validated.
-Integration smoke passed: Trakt diagnostics, artwork logo/headshot discovery and Plex connection fallback validated.
+Integration smoke passed: Trakt headers/diagnostics, artwork discovery/proxy and Plex connection fallback validated.
+Plex match smoke passed: 4 keys from 2 matched items.
+Plex storage smoke passed: 1800 match keys, 12 compact item links, no raw token URLs.
 Runtime smoke passed: 101,529 characters rendered.
+
 All JavaScript syntax checks passed.
 
 Notes:
-- The six future/TBA records are warnings, not validation failures.
-- Empty persistent artwork counts are intentional in the source repository; verified images are discovered at runtime or populated by the artwork workflow rather than shipping an unreviewed copyrighted image dump.
+- Six future/TBA records are warnings, not validation failures.
+- Persistent artwork counts are intentionally empty in source; runtime discovery and reviewed catalogue workflows populate them.
+- Live Trakt/Plex connectivity depends on deployed credentials and Plex server reachability; automated tests use controlled mock responses.

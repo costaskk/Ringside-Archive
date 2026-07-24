@@ -1,4 +1,5 @@
 import { authenticateAccount, readIntegration, writeIntegration } from './account.js';
+import { traktClientId, traktClientSecret, traktHeaders, traktPayload, traktErrorMessage } from './trakt.js';
 
 export async function resolvePlexCredentials(req, body = {}) {
   const user = await authenticateAccount(req, { optional: true });
@@ -24,15 +25,14 @@ function expiresAtMs(session) {
 }
 
 async function refreshTraktSession(session) {
-  const clean=value=>String(value||'').trim().replace(/^[\"']|[\"']$/g,'');
-  const clientId = clean(process.env.TRAKT_CLIENT_ID), clientSecret = clean(process.env.TRAKT_CLIENT_SECRET);
+  const clientId = traktClientId(), clientSecret = traktClientSecret();
   if (!session?.refreshToken || !clientId || !clientSecret) throw new Error('The Trakt connection expired and cannot be refreshed.');
   const response = await fetch('https://api.trakt.tv/oauth/token', {
-    method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(15000),
+    method: 'POST', headers: traktHeaders({ clientId }), signal: AbortSignal.timeout(15000),
     body: JSON.stringify({ refresh_token: session.refreshToken, client_id: clientId, client_secret: clientSecret, grant_type: 'refresh_token', redirect_uri: 'urn:ietf:wg:oauth:2.0:oob' })
   });
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(data.error_description || data.error || `Trakt returned ${response.status}.`);
+  const data = await traktPayload(response);
+  if (!response.ok) throw new Error(traktErrorMessage(response, data, 'Unable to refresh Trakt access.'));
   return {
     ...session,
     accessToken: data.access_token,

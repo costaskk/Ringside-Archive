@@ -97,7 +97,7 @@ async function wikipediaArtwork(input) {
       origin: '*'
     });
     const response = await fetch(`https://en.wikipedia.org/w/api.php?${params}`, {
-      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)' },
+      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)' },
       signal: withTimeout()
     });
     if (!response.ok) continue;
@@ -158,7 +158,7 @@ async function commonsArtwork(input){
       inprop:'url',format:'json',formatversion:'2',origin:'*'
     });
     const response=await fetch(`https://commons.wikimedia.org/w/api.php?${params}`,{
-      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.2 (+https://ringside-archive.vercel.app/)'},
+      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app/)'},
       signal:withTimeout()
     }).catch(()=>null);
     if(!response?.ok)continue;
@@ -257,7 +257,41 @@ async function lookup(input, token) {
   };
 }
 
+function allowedArtworkAsset(value) {
+  try {
+    const url = new URL(value);
+    const host = url.hostname.toLowerCase();
+    return url.protocol === 'https:' && (
+      host === 'image.tmdb.org' || host === 'static.tvmaze.com' || host === 'upload.wikimedia.org'
+      || host.endsWith('.wikimedia.org') || host.endsWith('.wikipedia.org')
+    );
+  } catch { return false; }
+}
+
+async function proxyArtwork(req, res) {
+  const asset = String(req.query?.asset || '');
+  if (!allowedArtworkAsset(asset)) return res.status(400).json({ error: 'Unsupported artwork host.' });
+  const response = await fetch(asset, {
+    headers: {
+      Accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+      'User-Agent': 'RingsideArchive/5.3.0 (+https://ringside-archive.vercel.app)',
+      Referer: new URL(asset).origin + '/'
+    },
+    signal: withTimeout(15000)
+  });
+  if (!response.ok) return res.status(response.status).json({ error: `Artwork source returned ${response.status}.` });
+  const type = response.headers.get('content-type') || 'application/octet-stream';
+  if (!type.startsWith('image/')) return res.status(415).json({ error: 'Artwork source did not return an image.' });
+  const buffer = Buffer.from(await response.arrayBuffer());
+  if (buffer.length > 10 * 1024 * 1024) return res.status(413).json({ error: 'Artwork image is too large.' });
+  res.setHeader('Content-Type', type);
+  res.setHeader('Cache-Control', 'public, max-age=86400, s-maxage=604800, stale-while-revalidate=2592000');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  return res.status(200).send(buffer);
+}
+
 export default async function handler(req, res) {
+  if (req.method === 'GET') return proxyArtwork(req, res);
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
   const body = bodyOf(req);
   const token = process.env.TMDB_READ_ACCESS_TOKEN;

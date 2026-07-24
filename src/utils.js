@@ -9,6 +9,6 @@ export const downloadJson = (filename, data) => {
   const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
   const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href=url; a.download=filename; a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
-export const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+export const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/&/g,' and ').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
 export const debounce = (fn, wait=150) => { let timer; return (...args) => { clearTimeout(timer); timer=setTimeout(()=>fn(...args),wait); }; };
 export const icon = name => ({timeline:'☷',shows:'▦',wrestlers:'◎',picks:'✦',companies:'▥',library:'▣',search:'⌕',filter:'≡',check:'✓',play:'▶',link:'↗',close:'×',download:'⇩',upload:'⇧',refresh:'↻',cloud:'☁'}[name] || '•');

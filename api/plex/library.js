@@ -1,6 +1,5 @@
 import { resolvePlexCredentials, persistPlex } from '../_lib/providers.js';
 import { bodyOf } from '../_lib/http.js';
-import { publicIntegration } from '../_lib/account.js';
 
 const PRODUCT = 'Ringside Archive';
 const PAGE_SIZE = 250;
@@ -55,7 +54,7 @@ function plexHeaders(token, clientId) {
     Accept: 'application/json',
     'X-Plex-Token': token,
     'X-Plex-Product': PRODUCT,
-    'X-Plex-Version': '5.2.0',
+    'X-Plex-Version': '5.3.0',
     'X-Plex-Client-Identifier': clientId
   };
 }
@@ -136,17 +135,19 @@ function safeItem(entry, section, server, base, token, cloud) {
 
 async function scanSection({ section, base, headers, server, token, cloud }) {
   const items = [];
-  const type = section.type === 'show' ? 4 : 1;
+  const type = section.type === 'show' ? 4 : section.type === 'movie' ? 1 : null;
   let start = 0;
   let total = Infinity;
   while (start < total && items.length < MAX_ITEMS) {
     const params = new URLSearchParams({
-      type: String(type),
       includeGuids: '1',
       includeUserState: '1',
       'X-Plex-Container-Start': String(start),
       'X-Plex-Container-Size': String(PAGE_SIZE)
     });
+    // Show libraries need Plex's episode metadata type. Movie libraries use type 1.
+    // Other Videos libraries must use the section's native type, so omit the filter.
+    if (type !== null) params.set('type', String(type));
     const url = `${base}/library/sections/${encodeURIComponent(section.key)}/all?${params}`;
     const data = await plexJson(url, headers, 25000);
     const media = data.MediaContainer || {};
@@ -218,19 +219,21 @@ export default async function handler(req, res) {
 
     const scannedAt = new Date().toISOString();
     if (context.cloud) {
-      const entry = await persistPlex(context, {
+      // Persist only connection/selection metadata here. The browser matches the scan against
+      // the archive and then stores only matched compact items through account/integrations.
+      await persistPlex(context, {
         selectedServer,
         sections,
         selectedSectionKeys: selectedSections.map(section => String(section.key)),
-        items,
         scannedAt
       });
-      const safe = publicIntegration(entry);
+      const { accessToken, ...safeServer } = selectedServer;
+      safeServer.connections = (safeServer.connections || []).map(({ accessToken: ignored, ...connection }) => connection);
       return res.status(200).json({
-        server: safe.selectedServer,
+        server: safeServer,
         sections,
         selectedSections,
-        items: safe.items,
+        items,
         scannedAt,
         cloud: true
       });

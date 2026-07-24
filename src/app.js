@@ -213,7 +213,7 @@ function applyPublicIntegrations(integrations=[]){
     const serverId=plex.selectedServer?.machineIdentifier;
     if(serverId&&Array.isArray(plex.sections))state.plexData.sectionsByServer={...(state.plexData.sectionsByServer||{}),[serverId]:plex.sections};
   }else if(!state.plexData.token)state.plexData={...state.plexData,cloudConnected:false};
-  storage.savePlexData(state.plexData);refreshPlexIndex();
+  state.plexData=storage.savePlexData(state.plexData);refreshPlexIndex();
 }
 async function loadAccountIntegrations({migrate=true}={}){
   if(!accountConnected())return;
@@ -287,6 +287,27 @@ function catalogArtwork(item,isProgramme=false){
   if(item.kind==='episode')return catalog.episodes?.[`${item.programId}:${item.season}:${item.number}`]||{};
   return catalog.records?.[item.id]||{};
 }
+function displayArtworkUrl(value){
+  const url=String(value||'');
+  if(!url)return '';
+  try{
+    const parsed=new URL(url,location.href);
+    if(parsed.origin===location.origin)return parsed.href;
+    const host=parsed.hostname.toLowerCase();
+    if(host==='image.tmdb.org'||host==='static.tvmaze.com'||host==='upload.wikimedia.org'||host.endsWith('.wikimedia.org')||host.endsWith('.wikipedia.org')){
+      return `./api/artwork/search?asset=${encodeURIComponent(parsed.href)}`;
+    }
+    return parsed.href;
+  }catch{return url;}
+}
+function matchedPlexItems(built){
+  const seen=new Set(),items=[];
+  for(const item of built.links.values()){
+    const key=String(item?.ratingKey||`${item?.machineIdentifier||''}:${item?.library||''}:${item?.title||''}:${item?.parentIndex||''}:${item?.index||''}`);
+    if(!item||seen.has(key))continue;seen.add(key);items.push(item);
+  }
+  return items;
+}
 function artworkCandidates(item,isProgramme=false){
   if(!item)return [];
   const key=isProgramme?`program:${item.id}`:statusKey(item);
@@ -308,18 +329,18 @@ function artworkCandidates(item,isProgramme=false){
     plex?.artUrl&&{url:plex.artUrl,type:'backdrop',label:'Plex background'},
     ...companyArtworkCandidates(item.promotionId)
   ].filter(Boolean);
-  const seen=new Set();return values.filter(value=>value.url&&!seen.has(value.url)&&(seen.add(value.url),true));
+  const seen=new Set();return values.map(value=>({...value,url:displayArtworkUrl(value.url)})).filter(value=>value.url&&!seen.has(value.url)&&(seen.add(value.url),true));
 }
 function artwork(item, context='card', isProgramme=false) {
   const p=promotion(item.promotionId), candidates=artworkCandidates(item,isProgramme);
   const src=candidates.find(x=>item.kind==='episode'&&x.type==='episode')?.url || candidates.find(x=>x.type==='poster')?.url || candidates[0]?.url || '';
   const title=item.title||item.name;
-  return `<div class="artwork ${context} ${src?'hasImage':''}" style="--accent:${h(p?.color||'#d7a84f')}"><div class="artworkFallback artworkInner"><span>${h(p?.shortName||'Archive')}</span><strong>${h(title)}</strong></div>${src?`<img loading="lazy" src="${h(src)}" alt="${h(title)} artwork" referrerpolicy="no-referrer"/>`:''}</div>`;
+  return `<div class="artwork ${context} ${src?'hasImage':''}" style="--accent:${h(p?.color||'#d7a84f')}"><div class="artworkFallback artworkInner"><span>${h(p?.shortName||'Archive')}</span><strong>${h(title)}</strong></div>${src?`<img loading="lazy" src="${h(src)}" alt="${h(title)} artwork" referrerpolicy="no-referrer" onerror="this.remove()"/>`:''}</div>`;
 }
 function artworkGallery(item,isProgramme=false){
   const candidates=artworkCandidates(item,isProgramme);
   if(!candidates.length)return `<div class="sourceEmpty"><div><h4>No verified artwork found yet</h4><p>Use the no-key Wikipedia/Wikimedia scanner, add a TMDB key for richer season/episode art, import Plex, or add a verified override.</p></div><button data-scan-art="${h(isProgramme?`program:${item.id}`:statusKey(item))}">Scan artwork</button></div>`;
-  return `<div class="artworkGallery">${candidates.map(image=>`<figure><img src="${h(image.url)}" alt="${h(image.label||'Artwork')}" loading="lazy" referrerpolicy="no-referrer"><figcaption>${image.sourceUrl?`<a href="${h(image.sourceUrl)}" target="_blank" rel="noreferrer">${h(image.label||image.type||'Artwork')} ↗</a>`:h(image.label||image.type||'Artwork')}</figcaption></figure>`).join('')}</div>`;
+  return `<div class="artworkGallery">${candidates.map(image=>`<figure><img src="${h(image.url)}" alt="${h(image.label||'Artwork')}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure')?.remove()"><figcaption>${image.sourceUrl?`<a href="${h(image.sourceUrl)}" target="_blank" rel="noreferrer">${h(image.label||image.type||'Artwork')} ↗</a>`:h(image.label||image.type||'Artwork')}</figcaption></figure>`).join('')}</div>`;
 }
 
 function topbar() {
@@ -507,8 +528,8 @@ function accountModal(){
   const configured=Boolean(state.cloud.config?.supabaseConfigured),user=state.cloud.user;
   if(!configured)return modalShell('Ringside account',`<div class="accountSetup"><h3>Supabase setup required</h3><p>Accounts are optional for local use, but required for automatic cross-device progress plus roaming Plex and Trakt connections. Follow <code>supabase/schema.sql</code> and the README, then add the Supabase environment variables in Vercel.</p></div>`,true);
   if(state.cloud.recovery)return modalShell('Choose a new password',`<div class="authLayout recoveryLayout"><section><span class="eyebrow">Password recovery</span><h3>Secure your Ringside account</h3><p>The recovery link was accepted. Enter a new password to complete the reset.</p></section><section class="authForm"><label><span>New password</span><input id="accountNewPassword" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters"></label><label><span>Confirm password</span><input id="accountConfirmPassword" type="password" autocomplete="new-password" minlength="8" placeholder="Repeat the new password"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-update-password">Update password</button></div><p class="sourceNote">${h(state.cloud.message||'After updating, this device remains signed in and your archive will synchronize.')}</p></section></div>`,true);
-  if(user)return modalShell('Ringside account',`<div class="accountDashboard"><div class="accountIdentity"><span class="accountAvatar large">${h((user.email||'A').slice(0,1).toUpperCase())}</span><div><span class="eyebrow">Signed in</span><h3>${h(user.email||'Ringside account')}</h3><p>Viewing states, reviews, settings and artwork cache synchronize through Row Level Security. Plex and Trakt credentials plus the latest Plex library snapshot are encrypted server-side.</p></div></div><div class="cloudStatusGrid"><span><small>Cloud state</small><strong>${h(state.cloud.message||'Ready')}</strong></span><span><small>Trakt</small><strong>${traktConnected()?'Connected':'Not connected'}</strong></span><span><small>Plex</small><strong>${plexConnected()?'Connected':'Not connected'}</strong></span><span><small>Auto sync</small><strong>${state.settings.cloudAutoSync===false?'Off':'On'}</strong></span></div><label class="settingToggle"><input type="checkbox" data-setting="cloudAutoSync" ${state.settings.cloudAutoSync===false?'':'checked'}><span><strong>Automatic account sync</strong><small>Pull on login/focus and synchronize changes after edits.</small></span></label><div class="modalActions"><button data-action="cloud-sync" ${state.cloud.syncing?'disabled':''}>Sync now</button><button data-action="connections">Manage Plex & Trakt</button><button class="dangerButton" data-action="cloud-signout">Sign out</button></div></div>`,true);
-  return modalShell('Create or sign in to Ringside',`<div class="authLayout"><section><span class="eyebrow">One account on every device</span><h3>Sync the complete archive</h3><p>Your viewing progress, ratings, reviews, preferences, feed mappings and artwork cache follow the account. Encrypted server storage also keeps your Plex and Trakt connections available without exporting credentials.</p><ul><li>Supabase Auth for email/password accounts</li><li>RLS-protected personal archive state</li><li>AES-256-GCM encrypted Plex and Trakt integrations</li><li>Automatic merge using per-record timestamps</li></ul></section><section class="authForm"><label><span>Email</span><input id="accountEmail" type="email" autocomplete="email" placeholder="you@example.com"></label><label><span>Password</span><input id="accountPassword" type="password" autocomplete="current-password" minlength="8" placeholder="At least 8 characters"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-signin">Sign in</button><button data-action="cloud-signup">Create account</button><button data-action="cloud-reset">Reset password</button></div><p class="sourceNote">${h(state.cloud.message||'Email confirmation may be required depending on your Supabase Auth settings.')}</p></section></div>`,true);
+  if(user)return modalShell('Ringside account',`<div class="accountDashboard"><div class="accountIdentity"><span class="accountAvatar large">${h((user.email||'A').slice(0,1).toUpperCase())}</span><div><span class="eyebrow">Signed in</span><h3>${h(user.email||'Ringside account')}</h3><p>Viewing states, reviews and settings synchronize through Row Level Security. Plex and Trakt credentials plus the latest compact Plex match snapshot are encrypted server-side; artwork remains a regenerable device cache.</p></div></div><div class="cloudStatusGrid"><span><small>Cloud state</small><strong>${h(state.cloud.message||'Ready')}</strong></span><span><small>Trakt</small><strong>${traktConnected()?'Connected':'Not connected'}</strong></span><span><small>Plex</small><strong>${plexConnected()?'Connected':'Not connected'}</strong></span><span><small>Auto sync</small><strong>${state.settings.cloudAutoSync===false?'Off':'On'}</strong></span></div><label class="settingToggle"><input type="checkbox" data-setting="cloudAutoSync" ${state.settings.cloudAutoSync===false?'':'checked'}><span><strong>Automatic account sync</strong><small>Pull on login/focus and synchronize changes after edits.</small></span></label><div class="modalActions"><button data-action="cloud-sync" ${state.cloud.syncing?'disabled':''}>Sync now</button><button data-action="connections">Manage Plex & Trakt</button><button class="dangerButton" data-action="cloud-signout">Sign out</button></div></div>`,true);
+  return modalShell('Create or sign in to Ringside',`<div class="authLayout"><section><span class="eyebrow">One account on every device</span><h3>Sync the complete archive</h3><p>Your viewing progress, ratings, reviews, preferences and feed mappings follow the account. Encrypted server storage also keeps your Plex and Trakt connections available without exporting credentials; artwork is regenerated per device to keep cloud state small.</p><ul><li>Supabase Auth for email/password accounts</li><li>RLS-protected personal archive state</li><li>AES-256-GCM encrypted Plex and Trakt integrations</li><li>Automatic merge using per-record timestamps</li></ul></section><section class="authForm"><label><span>Email</span><input id="accountEmail" type="email" autocomplete="email" placeholder="you@example.com"></label><label><span>Password</span><input id="accountPassword" type="password" autocomplete="current-password" minlength="8" placeholder="At least 8 characters"></label><div class="modalActions"><button class="primaryButton" data-action="cloud-signin">Sign in</button><button data-action="cloud-signup">Create account</button><button data-action="cloud-reset">Reset password</button></div><p class="sourceNote">${h(state.cloud.message||'Email confirmation may be required depending on your Supabase Auth settings.')}</p></section></div>`,true);
 }
 
 function plexSectionsFor(server){return state.plexData.sectionsByServer?.[server.machineIdentifier]||((state.plexData.selectedServer?.machineIdentifier===server.machineIdentifier)?state.plexData.sections||[]:[]);}
@@ -538,7 +559,7 @@ function connectionsModal(){
   <section class="connectionPanel"><h3>Backup & recovery</h3><p>Account sync is automatic when configured, but a private JSON backup remains useful for offline recovery. Legacy backups can also migrate local Plex/Trakt connections into your signed-in account.</p><div class="modalActions"><button data-action="export">Export JSON</button><button data-action="import-backup">Import JSON</button><button data-action="cloud-sync" ${accountConnected()?'':'disabled'}>Sync account</button></div></section></div>`,true);
 }
 
-function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.2.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
+function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.3.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
 function mobileNav(){return `<nav class="mobileNav">${navItems.map(([id,ic,label])=>`<button data-view="${id}" class="${state.view===id?'active':''}"><span>${icon(ic)}</span>${label.replace('Complete ','')}</button>`).join('')}</nav>`;}
 
 function render(){
@@ -658,13 +679,22 @@ async function handleAction(action,event){
   if(action==='scan-visible-artwork'){await scanVisibleArtwork();return;}
 }
 function pickFile(mode){filePicker.value='';filePicker.dataset.mode=mode;filePicker.accept='.json,application/json,text/plain';filePicker.click();}
-filePicker.onchange=async()=>{const file=filePicker.files?.[0];if(!file)return;try{const text=await file.text(),data=JSON.parse(text);if(filePicker.dataset.mode==='backup'){storage.importAll(data);state.statuses=storage.statuses();state.plexData=storage.plexData();state.trakt=storage.trakt();state.artworkCache=storage.artwork();state.reviews=storage.reviews();state.feedMap=storage.feedMap();refreshPlexIndex();if(accountConnected()){await loadAccountIntegrations({migrate:true});scheduleCloudSync();}showToast('Backup imported.');}
+filePicker.onchange=async()=>{const file=filePicker.files?.[0];if(!file)return;try{const text=await file.text();if(filePicker.dataset.mode==='plex'&&/[?&]X-Plex-Token=/i.test(text))throw new Error('Unsafe legacy Plex export detected. It contains a Plex token in image URLs. Rotate that token, then create a new version 3 export with the included script.');const data=JSON.parse(text);if(filePicker.dataset.mode==='backup'){storage.importAll(data);state.statuses=storage.statuses();state.plexData=storage.plexData();state.trakt=storage.trakt();state.artworkCache=storage.artwork();state.reviews=storage.reviews();state.feedMap=storage.feedMap();refreshPlexIndex();if(accountConnected()){await loadAccountIntegrations({migrate:true});scheduleCloudSync();}showToast('Backup imported.');}
 else {await importPlexPayload(data);}render();}catch(error){showToast(error.message||'Import failed.');}};
 async function importPlexPayload(data){
-  const items=Array.isArray(data)?data:(data.titles||data.items||[]);state.plexData={...state.plexData,items,scannedAt:data.exportedAt||new Date().toISOString(),selectedServer:data.serverInfo||state.plexData.selectedServer};const built=buildPlexMatches(state.data,items,Number(state.settings.plexWatchedThreshold||0.9));state.plexData.matches=[...built.matches];storage.savePlexData(state.plexData);refreshPlexIndex();
-  if(accountConnected()){try{await saveCloudIntegration('plex',state.plexData);state.plexData.cloudConnected=Boolean(state.plexData.token);storage.savePlexData(state.plexData);}catch(error){state.plexMessage=`Local import saved, but cloud snapshot failed: ${error.message}`;}}
-  if(state.settings.autoImportPlexViewing)await importPlexViewingProgress({quiet:true});showToast(`${state.plexMatches.size.toLocaleString()} exact/programme Plex matches stored.`);
+  const rawItems=Array.isArray(data)?data:(data.titles||data.items||[]);
+  const items=rawItems.filter(item=>item&&(item.title||item.grandparentTitle||item.ratingKey));
+  const built=buildPlexMatches(state.data,items,Number(state.settings.plexWatchedThreshold||0.9));
+  const linkedItems=matchedPlexItems(built);
+  state.plexData={...state.plexData,items:linkedItems,matches:[...built.matches],scannedAt:data.exportedAt||new Date().toISOString(),selectedServer:data.serverInfo||state.plexData.selectedServer};
+  state.plexData=storage.savePlexData(state.plexData);refreshPlexIndex();
+  if(accountConnected()){try{await saveCloudIntegration('plex',state.plexData);state.plexData.cloudConnected=true;state.plexData=storage.savePlexData(state.plexData);}catch(error){state.plexMessage=`Local import saved, but cloud snapshot failed: ${error.message}`;}}
+  if(state.settings.autoImportPlexViewing)await importPlexViewingProgress({quiet:true});
+  const diagnostic=`Read ${rawItems.length.toLocaleString()} rows (${items.length.toLocaleString()} valid) and matched ${built.diagnostics?.matchedItems||0} Plex items to ${state.plexMatches.size.toLocaleString()} archive keys.`;
+  state.plexMessage=state.plexMatches.size?diagnostic:`${diagnostic} The export contains no usable wrestling titles. Re-run the v5.3 exporter and select your Wrestling and Wrestling PPV libraries.`;
+  showToast(state.plexMessage);
 }
+
 
 async function startTraktDevice(){
   try {
@@ -764,11 +794,12 @@ async function scanSelectedPlexServer(machineIdentifier){
     const sectionNames=plexSectionsFor(server).filter(section=>selected.includes(String(section.key))).map(section=>section.title);
     state.plexMessage=`Scanning ${server.name}: ${sectionNames.join(', ')||'selected libraries'}…`;render();const headers=await accountHeaders();
     const data=await scanPlexLibrary(state.plexData.clientId,state.plexData.token,server,selected,headers);
-    state.plexData.items=data.items||[];state.plexData.selectedServer=data.server||server;state.plexData.scannedAt=data.scannedAt||new Date().toISOString();state.plexData.sections=data.sections||plexSectionsFor(server);state.plexData.selectedSectionKeys=selected;if(data.cloud)state.plexData.cloudConnected=true;
+    const rawItems=data.items||[];const built=buildPlexMatches(state.data,rawItems,Number(state.settings.plexWatchedThreshold||0.9));state.plexData.items=matchedPlexItems(built);state.plexData.matches=[...built.matches];state.plexData.selectedServer=data.server||server;state.plexData.scannedAt=data.scannedAt||new Date().toISOString();state.plexData.sections=data.sections||plexSectionsFor(server);state.plexData.selectedSectionKeys=selected;if(data.cloud)state.plexData.cloudConnected=true;
     state.plexData.sectionsByServer={...(state.plexData.sectionsByServer||{}),[machineIdentifier]:data.sections||plexSectionsFor(server)};
     state.plexData.selectedSectionKeysByServer={...(state.plexData.selectedSectionKeysByServer||{}),[machineIdentifier]:selected};
-    const built=buildPlexMatches(state.data,state.plexData.items,Number(state.settings.plexWatchedThreshold||0.9));state.plexData.matches=[...built.matches];storage.savePlexData(state.plexData);refreshPlexIndex();
-    state.plexMessage=`Scanned ${(data.items||[]).length.toLocaleString()} Plex items from ${sectionNames.join(', ')||'selected libraries'} and matched ${state.plexMatches.size.toLocaleString()} archive keys.`;
+    state.plexData=storage.savePlexData(state.plexData);refreshPlexIndex();
+    if(accountConnected())await saveCloudIntegration('plex',state.plexData).catch(error=>{state.plexMessage=`Plex scan matched locally, but the account snapshot failed: ${error.message}`;});
+    state.plexMessage=`Scanned ${rawItems.length.toLocaleString()} Plex items from ${sectionNames.join(', ')||'selected libraries'}; retained ${state.plexData.items.length.toLocaleString()} matched items and ${state.plexMatches.size.toLocaleString()} archive keys.`;
     if(state.settings.autoImportPlexViewing)await importPlexViewingProgress({quiet:true});showToast(state.plexMessage);render();
   }catch(error){state.plexMessage=error.message;showToast(error.message);render();}
 }
@@ -833,7 +864,7 @@ async function storeArtworkBatch(entries,{showProgress=false}={}){
     if(row.result&&!row.result.error){state.artworkCache[key]={...row.result,scannedAt:new Date().toISOString()};found++;}
     else state.artworkCache[key]={error:row.result?.error||'No artwork match',notFoundUntil:new Date(Date.now()+7*24*60*60*1000).toISOString(),scannedAt:new Date().toISOString()};
   }
-  storage.saveArtwork(state.artworkCache);scheduleCloudSync();
+  storage.saveArtwork(state.artworkCache);
   if(showProgress)state.artworkMessage=`Artwork scan: ${found} matches from ${entries.length} requests.`;
   return {found};
 }
@@ -851,13 +882,13 @@ async function scanArtworkKey(key){
   try{
     state.artworkMessage=`Scanning artwork for ${entry.item.title||entry.item.name}…`;render();
     const result=await searchArtwork(entry.item,entry.programme,entry.extra);
-    state.artworkCache[key]={...result,scannedAt:new Date().toISOString()};storage.saveArtwork(state.artworkCache);scheduleCloudSync();
+    state.artworkCache[key]={...result,scannedAt:new Date().toISOString()};storage.saveArtwork(state.artworkCache);
     state.artworkMessage=`Artwork found for ${entry.item.title||entry.item.name}.`;showToast(state.artworkMessage);render();
   }catch(error){state.artworkCache[key]={error:error.message,notFoundUntil:new Date(Date.now()+24*60*60*1000).toISOString()};storage.saveArtwork(state.artworkCache);state.artworkMessage=error.message;showToast(error.message);render();}
 }
 async function installServiceWorker(){
   if(!('serviceWorker' in navigator))return;
-  const version='5.2.0',versionKey='ringside-app-version';
+  const version='5.3.0',versionKey='ringside-app-version';
   try{
     const previous=localStorage.getItem(versionKey);
     if(previous!==version&&globalThis.caches){
@@ -865,7 +896,7 @@ async function installServiceWorker(){
       await Promise.all(keys.filter(key=>key.startsWith('ringside-archive-')).map(key=>caches.delete(key)));
       localStorage.setItem(versionKey,version);
     }
-    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.2.0',{updateViaCache:'none'});
+    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.3.0',{updateViaCache:'none'});
     await registration.update().catch(()=>{});
     const activateWaiting=()=>registration.waiting?.postMessage({type:'SKIP_WAITING'});
     activateWaiting();
@@ -891,7 +922,7 @@ async function scanVisibleArtwork(){
 
 (async function init(){
   try {
-    state.data=await loadData();rebuildWrestlerIndex();state.cloud.config=await loadCloudConfig();const authRedirect=consumeCloudAuthRedirect();state.cloud.recovery=authRedirect?.type==='recovery';state.cloud.user=await getCloudUser();
+    state.data=await loadData();rebuildWrestlerIndex();try{storage.savePlexData(state.plexData);storage.saveArtwork(state.artworkCache);}catch{}state.cloud.config=await loadCloudConfig();const authRedirect=consumeCloudAuthRedirect();state.cloud.recovery=authRedirect?.type==='recovery';state.cloud.user=await getCloudUser();
     refreshPlexIndex();const hash=location.hash.slice(1);if(navItems.some(x=>x[0]===hash))state.view=hash;
     if(state.cloud.user){const switched=storage.prepareForAccount(state.cloud.user.id);if(switched){refreshStateFromStorage();state.plexData=storage.plexData();state.trakt=storage.trakt();refreshPlexIndex();}await syncCloudNow({quiet:true});await loadAccountIntegrations({migrate:true});}
     if(state.cloud.recovery){state.modal={type:'account'};state.cloud.message='Enter and confirm your new password.';}

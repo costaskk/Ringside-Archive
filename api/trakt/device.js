@@ -1,17 +1,11 @@
 import { authenticateAccount, writeIntegration, publicIntegration } from '../_lib/account.js';
 import { bodyOf, sendError } from '../_lib/http.js';
-
-const cleanEnv = value => String(value || '').trim().replace(/^['"]|['"]$/g, '');
+import { traktClientId, traktClientSecret, traktHeaders, traktPayload, traktErrorMessage } from '../_lib/trakt.js';
 
 async function traktAccount(accessToken, clientId) {
   try {
     const response = await fetch('https://api.trakt.tv/users/settings', {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-        'trakt-api-version': '2',
-        'trakt-api-key': clientId,
-        'Content-Type': 'application/json'
-      },
+      headers: traktHeaders({ accessToken, clientId }),
       signal: AbortSignal.timeout(12000)
     });
     if (!response.ok) return null;
@@ -24,26 +18,24 @@ async function traktAccount(accessToken, clientId) {
   }
 }
 
-async function traktPayload(response) {
-  const text = await response.text().catch(() => '');
-  if (!text) return {};
-  try { return JSON.parse(text); }
-  catch { return { error: text.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 500) }; }
-}
-
 async function createDeviceCode(res, clientId) {
   const response = await fetch('https://api.trakt.tv/oauth/device/code', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    headers: traktHeaders({ clientId }),
     body: JSON.stringify({ client_id: clientId }),
     signal: AbortSignal.timeout(15000)
   });
   const data = await traktPayload(response);
   if (!response.ok) {
     const hint = response.status === 403
-      ? 'Trakt rejected the client ID. Confirm TRAKT_CLIENT_ID exactly matches the API application and redeploy without quotes or trailing spaces.'
+      ? 'Trakt rejected or challenged the request. Confirm the Client ID, then retry after redeployment.'
       : 'Trakt did not issue a device code.';
-    return res.status(response.status).json({ error: data.error_description || data.error || hint, details: hint, traktStatus: response.status });
+    return res.status(response.status).json({
+      error: traktErrorMessage(response, data, hint),
+      details: hint,
+      cloudflare: Boolean(data.cloudflare),
+      traktStatus: response.status
+    });
   }
   return res.status(200).json(data);
 }
@@ -54,7 +46,7 @@ async function exchangeDeviceToken(req, res, body, clientId, clientSecret) {
 
   const response = await fetch('https://api.trakt.tv/oauth/device/token', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    headers: traktHeaders({ clientId }),
     body: JSON.stringify({
       code: body.device_code,
       client_id: clientId,
@@ -67,9 +59,14 @@ async function exchangeDeviceToken(req, res, body, clientId, clientSecret) {
   const data = await traktPayload(response);
   if (!response.ok) {
     const hint = response.status === 403
-      ? 'Trakt rejected the API application credentials. Recheck both Trakt environment variables and redeploy.'
+      ? 'Trakt rejected or challenged the API application credentials.'
       : 'Trakt device authorization failed.';
-    return res.status(response.status).json({ error: data.error_description || data.error || hint, details: hint, traktStatus: response.status });
+    return res.status(response.status).json({
+      error: traktErrorMessage(response, data, hint),
+      details: hint,
+      cloudflare: Boolean(data.cloudflare),
+      traktStatus: response.status
+    });
   }
 
   const session = {
@@ -96,8 +93,8 @@ async function exchangeDeviceToken(req, res, body, clientId, clientSecret) {
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
-  const clientId = cleanEnv(process.env.TRAKT_CLIENT_ID);
-  const clientSecret = cleanEnv(process.env.TRAKT_CLIENT_SECRET);
+  const clientId = traktClientId();
+  const clientSecret = traktClientSecret();
   if (!clientId) return res.status(503).json({ error: 'TRAKT_CLIENT_ID is not configured in Vercel.' });
 
   try {

@@ -1,4 +1,4 @@
-# Ringside Archive v5.2.0 deployment checklist
+# Ringside Archive v5.3.0 deployment checklist
 
 ## Local verification
 
@@ -15,7 +15,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.2.0 release"
+git commit -m "Initial Ringside Archive v5.3.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -79,10 +79,17 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Post-upgrade cache reset
 
-- [ ] Open the deployed URL once with `?v=5.2.0`.
+- [ ] Open the deployed URL once with `?v=5.3.0`.
 - [ ] Hard refresh with **Ctrl+Shift+R**.
 - [ ] If an older interface remains, unregister the old service worker and clear site data once.
-- [ ] Confirm the footer says **Catalogue v5.2.0** and the dashboard reports **287 programme families**.
+- [ ] Confirm the footer says **Catalogue v5.3.0** and the dashboard reports **287 programme families**.
+
+## Legacy Plex-export security
+
+- [ ] Run `npm run audit:plex -- .\plex-library-export.json` before importing an old file.
+- [ ] If the audit reports an embedded token, rotate Plex credentials and delete the unsafe file.
+- [ ] Create a version 3 export that explicitly selects the wrestling libraries.
+- [ ] Confirm the audit reports `containsEmbeddedPlexToken: false` and at least one likely wrestling row.
 
 ## Functional acceptance test
 
@@ -116,7 +123,7 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Vercel Hobby function check
 
-Version 5.2.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+Version 5.3.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
 
 ```powershell
 npm test

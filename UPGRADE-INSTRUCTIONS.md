@@ -1,10 +1,10 @@
-# Upgrade an existing Ringside Archive repository to v5.2.0
+# Upgrade an existing Ringside Archive repository to v5.3.0
 
 These steps are for an existing GitHub/Vercel deployment, including the deployment shown with the older 271-programme interface.
 
 ## 1. Replace the repository files cleanly
 
-Extract the v5.2.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
+Extract the v5.3.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
 
 Before committing, confirm these obsolete routes do not exist:
 
@@ -34,7 +34,7 @@ Use `git add -A`, not only `git add .`, so obsolete endpoint deletions are defin
 ```powershell
 git add -A
 git status
-git commit -m "Upgrade Ringside Archive to v5.2.0"
+git commit -m "Upgrade Ringside Archive to v5.3.0"
 git push
 ```
 
@@ -69,7 +69,7 @@ It must report Trakt as configured before the Connect Trakt button can succeed. 
 Open the new deployment with:
 
 ```text
-https://YOUR-DEPLOYMENT.vercel.app/?v=5.2.0
+https://YOUR-DEPLOYMENT.vercel.app/?v=5.3.0
 ```
 
 Then press **Ctrl+Shift+R**.
@@ -77,7 +77,7 @@ Then press **Ctrl+Shift+R**.
 Confirm:
 
 - the dashboard reports **287 programme families**;
-- the footer says **Catalogue v5.2.0**;
+- the footer says **Catalogue v5.3.0**;
 - the browser no longer calls `/api/trakt/device-code`;
 - the Filters panel is visible and shows active-filter reset chips.
 
@@ -88,7 +88,29 @@ If the old interface is still present:
 3. Open **Storage** and select **Clear site data**.
 4. Close every tab for the domain and open it again.
 
-## 5. Test Trakt
+## 5. Rotate any token exposed by an older Plex export
+
+Before importing a Plex file, run:
+
+```powershell
+npm run audit:plex -- .\plex-library-export.json
+```
+
+If it reports `containsEmbeddedPlexToken: true`, do not use that file. Change the Plex account password with **Sign out connected devices after password change** enabled, sign trusted clients back in, delete the unsafe export, and create a new version 3 export. See `SECURITY-NOTICE.md`.
+
+Create the replacement file with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\export-plex-library.ps1 `
+  -PlexUrl "http://127.0.0.1:32400" `
+  -LibraryNames "Wrestling","Wrestling PPV"
+
+node .\scripts\audit-plex-export.mjs .\plex-library-export.json
+```
+
+The audit must report version 3, no embedded token and at least one likely wrestling row.
+
+## 6. Test Trakt
 
 1. Sign into Ringside when cross-device storage is desired.
 2. Open **Connections**.
@@ -99,7 +121,7 @@ If the old interface is still present:
 
 A 403 now identifies rejected/missing app credentials instead of returning an ambiguous fetch error.
 
-## 6. Test Plex
+## 7. Test Plex
 
 1. Select **Sign in to Plex** and approve the PIN.
 2. Select **Refresh servers**.
@@ -109,7 +131,7 @@ A 403 now identifies rejected/missing app credentials instead of returning an am
 
 A Vercel function cannot contact a private LAN-only `192.168.x.x` Plex address. Enable Plex Remote Access or Relay so a secure reachable connection appears. When that is impossible, use `tools/export-plex-library.ps1` locally and import the JSON.
 
-## 7. Test artwork, filters and wrestlers
+## 8. Test artwork, filters and wrestlers
 
 - Open **Companies** and select **Scan visible logos**.
 - Open **Wrestlers** and select **Scan visible headshots**.
@@ -117,7 +139,7 @@ A Vercel function cannot contact a private LAN-only `192.168.x.x` Plex address. 
 - Open Filters, select a company/wrestler/year range and remove each selection through its chip or **Reset all**.
 - Add `TMDB_READ_ACCESS_TOKEN` for richer show/season/episode/event artwork; Wikipedia/Wikimedia remain the no-key fallback.
 
-## 8. Final acceptance
+## 9. Final acceptance
 
 ```powershell
 npm test

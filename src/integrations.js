@@ -12,57 +12,113 @@ function viewingState(item, threshold = 0.9) {
   return { watched, progress: ratio, viewOffset: offset, duration, lastViewedAt: item.lastViewedAt || null };
 }
 
+function cleanMediaTitle(value) {
+  return normalize(String(value || '')
+    .replace(/\.[a-z0-9]{2,5}$/i, ' ')
+    .replace(/\b(?:2160p|1080p|720p|480p|4k|uhd|hdr10?|dv|web[ .-]?dl|webrip|bluray|brrip|hdtv|x26[45]|hevc|av1|aac|dts|proper|repack|multi|extended)\b/gi, ' ')
+    .replace(/^\s*\d{1,3}[. _-]+/, ' '));
+}
+
+function similarity(left, right) {
+  const a = cleanMediaTitle(left), b = cleanMediaTitle(right);
+  if (!a || !b) return 0;
+  if (a === b) return 120;
+  if (a.startsWith(`${b} `) || b.startsWith(`${a} `)) return 105;
+  if (a.includes(b) || b.includes(a)) return 92;
+  const aa = new Set(a.split(' ').filter(token => token.length > 1));
+  const bb = new Set(b.split(' ').filter(token => token.length > 1));
+  const intersection = [...aa].filter(token => bb.has(token)).length;
+  const union = new Set([...aa, ...bb]).size || 1;
+  return Math.round((intersection / union) * 80);
+}
+
+function bestProgramme(programmeAliases, ...titles) {
+  let best = null;
+  for (const entry of programmeAliases) {
+    for (const title of titles.filter(Boolean)) {
+      for (const name of entry.rawNames) {
+        const score = similarity(title, name);
+        if (!best || score > best.score) best = { programme: entry.programme, score };
+      }
+    }
+  }
+  return best;
+}
+
+function episodeNumbers(item) {
+  let season = Number(item.parentIndex ?? item.season ?? item.seasonNumber);
+  let episode = Number(item.index ?? item.episode ?? item.episodeNumber);
+  if (Number.isFinite(season) && Number.isFinite(episode)) return { season, episode };
+  const text = `${item.title || ''} ${item.parentTitle || ''}`;
+  let match = text.match(/\bS(\d{1,4})[ ._-]*E(\d{1,4})\b/i);
+  if (!match) match = text.match(/\bseason[ ._-]*(\d{1,4})[ ._-]*(?:episode|ep)[ ._-]*(\d{1,4})\b/i);
+  if (!match) return null;
+  season = Number(match[1]); episode = Number(match[2]);
+  return Number.isFinite(season) && Number.isFinite(episode) ? { season, episode } : null;
+}
+
 export function buildPlexMatches(data, plexItems = [], threshold = 0.9) {
   const matches = new Set(), links = new Map(), viewing = new Map();
   const programmeAliases = data.programmes.map(programme => ({
     programme,
-    names: [programme.name, ...(programme.aliases || [])].map(normalize).filter(Boolean)
+    rawNames: [programme.name, ...(programme.aliases || []), programme.traktTitle].filter(Boolean)
   }));
   const eventsByYear = new Map();
-  for (const event of data.majorEvents) eventsByYear.set(`${yearOf(event.date)}:${normalize(event.title)}`, event);
+  for (const event of data.majorEvents) {
+    const year = yearOf(event.date);
+    if (!eventsByYear.has(year)) eventsByYear.set(year, []);
+    eventsByYear.get(year).push(event);
+  }
 
+  let validItems = 0, matchedItems = 0;
   for (const item of plexItems) {
+    if (!item || (!item.title && !item.grandparentTitle && !item.ratingKey)) continue;
+    validItems++;
     const showTitle = item.grandparentTitle || item.showTitle || (item.type === 'show' ? item.title : '');
     const title = item.title || item.name || '';
-    const normalizedShow = normalize(showTitle), normalizedTitle = normalize(title);
+    const libraryLooksRelevant = /wrestl|ppv|sports show|combat/i.test(String(item.library || ''));
     let programme = null;
+    const programmeHit = bestProgramme(programmeAliases, showTitle, title);
+    if (programmeHit && (programmeHit.score >= (showTitle ? 88 : libraryLooksRelevant ? 92 : 105))) programme = programmeHit.programme;
 
-    if (normalizedShow) {
-      programme = programmeAliases.find(entry => entry.names.some(name => normalizedShow === name || normalizedShow.includes(name) || name.includes(normalizedShow)))?.programme;
-    }
-    if (!programme && item.type === 'show') {
-      programme = programmeAliases.find(entry => entry.names.some(name => normalizedTitle === name || normalizedTitle.includes(name) || name.includes(normalizedTitle)))?.programme;
-    }
-
+    let itemMatched = false;
     if (programme) {
       const programKey = `program:${programme.id}`;
       matches.add(programKey);
       if (!links.has(programKey)) links.set(programKey, item);
-      const season = Number(item.parentIndex ?? item.season ?? item.seasonNumber);
-      const episode = Number(item.index ?? item.episode ?? item.episodeNumber);
-      if (item.type === 'episode' && Number.isFinite(season) && Number.isFinite(episode)) {
-        const episodeKey = `episode:${programme.id}:${season}:${episode}`;
+      itemMatched = true;
+      const numbers = episodeNumbers(item);
+      if (numbers && (item.type === 'episode' || /episode|s\d+e\d+/i.test(`${item.type || ''} ${title}`))) {
+        const episodeKey = `episode:${programme.id}:${numbers.season}:${numbers.episode}`;
         matches.add(episodeKey);
         links.set(episodeKey, item);
         viewing.set(episodeKey, viewingState(item, threshold));
       }
     }
 
-    const year = Number(item.year);
-    if (normalizedTitle && year) {
-      const event = eventsByYear.get(`${year}:${normalizedTitle}`)
-        || data.majorEvents.find(candidate => yearOf(candidate.date) === year && (
-          normalize(candidate.title) === normalizedTitle || normalizedTitle.includes(normalize(candidate.title))
-        ));
-      if (event) {
-        const key = `event:${event.id}`;
+    const normalizedTitle = cleanMediaTitle(title);
+    const itemYear = Number(item.year) || yearOf(item.originallyAvailableAt) || Number((String(title).match(/\b(19\d{2}|20\d{2})\b/) || [])[1]);
+    if (normalizedTitle && itemYear) {
+      let bestEvent = null;
+      for (const candidate of eventsByYear.get(itemYear) || []) {
+        const score = Math.max(
+          similarity(title, candidate.title),
+          similarity(title, candidate.event),
+          similarity(title, candidate.eventName)
+        );
+        if (!bestEvent || score > bestEvent.score) bestEvent = { event: candidate, score };
+      }
+      if (bestEvent && bestEvent.score >= (libraryLooksRelevant ? 78 : 92)) {
+        const key = `event:${bestEvent.event.id}`;
         matches.add(key);
         links.set(key, item);
         viewing.set(key, viewingState(item, threshold));
+        itemMatched = true;
       }
     }
+    if (itemMatched) matchedItems++;
   }
-  return { matches, links, viewing };
+  return { matches, links, viewing, diagnostics: { totalItems: plexItems.length, validItems, matchedItems } };
 }
 
 export function plexWebUrl(item, server) {

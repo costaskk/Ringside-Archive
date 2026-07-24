@@ -16,7 +16,32 @@ const ACCOUNT_OWNER_KEY = 'ringside-account-owner-v1';
 function read(key, fallback) {
   try { return JSON.parse(localStorage.getItem(key) || '') ?? fallback; } catch { return fallback; }
 }
-function write(key, value) { localStorage.setItem(key, JSON.stringify(value)); }
+function write(key, value) {
+  try { localStorage.setItem(key, JSON.stringify(value)); return true; }
+  catch (error) {
+    if (error?.name === 'QuotaExceededError' || error?.code === 22) return false;
+    throw error;
+  }
+}
+function compactPlexItem(item = {}) {
+  const keys = ['title','grandparentTitle','parentTitle','year','type','ratingKey','index','parentIndex','originallyAvailableAt','duration','lastViewedAt','viewCount','viewOffset','thumb','art','library','libraryKey','machineIdentifier','serverName'];
+  const out = {};
+  for (const key of keys) if (item[key] !== undefined && item[key] !== null && item[key] !== '') out[key] = item[key];
+  // Keep same-origin signed image links, but never persist a raw X-Plex-Token URL.
+  for (const key of ['thumbUrl','artUrl']) {
+    const value = String(item[key] || '');
+    if (value && !/[?&]X-Plex-Token=/i.test(value)) out[key] = value;
+  }
+  return out;
+}
+function compactPlexData(value = {}) {
+  const normalized = normalizePlexData(value);
+  return { ...normalized, items: normalized.items.map(compactPlexItem).filter(item => item.title || item.grandparentTitle || item.ratingKey) };
+}
+function trimArtworkCache(value = {}, limit = 500) {
+  const rows = Object.entries(value || {}).sort((a,b) => Date.parse(b[1]?.scannedAt || 0) - Date.parse(a[1]?.scannedAt || 0));
+  return Object.fromEntries(rows.slice(0, limit));
+}
 function migrateObject(primary, legacyKeys, fallback = {}) {
   const current = read(primary, null);
   if (current !== null) return current;
@@ -30,7 +55,7 @@ function normalizePlexData(value) {
   if (Array.isArray(value)) return { matches: value, items: [], servers: [], selectedServer: null, account: null };
   return {
     matches: Array.isArray(value?.matches) ? value.matches : [],
-    items: Array.isArray(value?.items) ? value.items : [],
+    items: Array.isArray(value?.items) ? value.items.map(compactPlexItem).filter(item => item.title || item.grandparentTitle || item.ratingKey) : [],
     servers: Array.isArray(value?.servers) ? value.servers : [],
     selectedServer: value?.selectedServer || null,
     account: value?.account || null,
@@ -111,7 +136,16 @@ export const storage = {
     }
     return normalizePlexData({});
   },
-  savePlexData: value => write(PLEX_KEY, normalizePlexData(value)),
+  savePlexData(value) {
+    const compact = compactPlexData(value);
+    if (write(PLEX_KEY, compact)) return compact;
+    // Artwork is derived and can be regenerated, so clear it before sacrificing Plex matches.
+    localStorage.removeItem(ARTWORK_KEY);
+    if (write(PLEX_KEY, compact)) return compact;
+    const minimal = { ...compact, items: compact.items.filter(item => Number(item.viewCount || 0) > 0 || Number(item.viewOffset || 0) > 0).slice(0, 2000) };
+    if (!write(PLEX_KEY, minimal)) throw new Error('The browser storage quota is full. Ringside kept only matched Plex keys; export a backup and clear old site data.');
+    return minimal;
+  },
   plex: () => new Set(storage.plexData().matches),
   savePlex(value) {
     const current = storage.plexData(); current.matches = [...value]; storage.savePlexData(current);
@@ -119,7 +153,7 @@ export const storage = {
   trakt: () => migrateObject(TRAKT_KEY, [LEGACY_TRAKT_KEY], {}),
   saveTrakt: value => write(TRAKT_KEY, value),
   artwork: () => read(ARTWORK_KEY, {}),
-  saveArtwork(value) { write(ARTWORK_KEY, value); this.markCloudDirty(); },
+  saveArtwork(value) { const trimmed=trimArtworkCache(value); if(!write(ARTWORK_KEY, trimmed)){ localStorage.removeItem(ARTWORK_KEY); write(ARTWORK_KEY, trimArtworkCache(value,150)); } },
   reviews: () => read(REVIEWS_KEY, {}),
   saveReviews(value, changedKey = null) {
     write(REVIEWS_KEY, value);
@@ -141,7 +175,7 @@ export const storage = {
       format: 'ringside-cloud-state', version: 1,
       statuses: this.statuses(), statusMeta: this.statusMeta(),
       settings: this.settings(), reviews: this.reviews(), reviewMeta: this.reviewMeta(),
-      feedMap: this.feedMap(), artwork: this.artwork(), updatedAt: nowIso()
+      feedMap: this.feedMap(), updatedAt: nowIso()
     };
   },
   mergeCloudState(cloud = {}) {
@@ -151,7 +185,6 @@ export const storage = {
     write(REVIEWS_KEY, reviewMerge.result); write(`${REVIEWS_KEY}-meta`, reviewMerge.meta);
     if (cloud.settings) write(SETTINGS_KEY, { ...cloud.settings, ...this.settings() });
     if (cloud.feedMap) write(FEED_MAP_KEY, { ...cloud.feedMap, ...this.feedMap() });
-    if (cloud.artwork) write(ARTWORK_KEY, { ...cloud.artwork, ...this.artwork() });
     return { statuses: statusMerge.result, reviews: reviewMerge.result, settings: this.settings(), feedMap: this.feedMap(), artwork: this.artwork() };
   },
   exportAll() {

@@ -4,7 +4,7 @@ Supabase is recommended for this edition because the requested state must follow
 
 ## Browser-accessible table
 
-`archive_state` stores viewing status, reviews, settings, feed mappings and artwork cache. RLS policies require the authenticated user ID to equal the row's `user_id`.
+`archive_state` stores viewing status, reviews, settings and feed mappings. Artwork is a regenerable device cache and is intentionally excluded from cloud state. RLS policies require the authenticated user ID to equal the row's `user_id`.
 
 ## Server-only table
 
