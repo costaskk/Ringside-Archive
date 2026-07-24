@@ -1,10 +1,10 @@
 {
   "title": "Ringside Archive",
-  "catalogueVersion": "5.4.0-reconstructed-expanded",
+  "catalogueVersion": "5.4.1-clean-programme-catalogue",
   "reconstructedAt": "2026-07-24T08:14:43.499Z",
   "counts": {
     "promotions": 101,
-    "programmes": 287,
+    "programmes": 188,
     "majorEvents": 1144,
     "recommendations": 71,
     "wrestlers": 110,
@@ -17,8 +17,8 @@
     "Official WWE programme announcements for WWE Speed and WWE Evolve",
     "Historic programme lineage additions for WCW, JCP, Georgia and WWF/WWE"
   ],
-  "version": "5.4.0",
-  "updatedAt": "2026-07-24T14:30:00.000Z",
+  "version": "5.4.1",
+  "updatedAt": "2026-07-24T17:45:00.000Z",
   "features": {
     "detailPopouts": true,
     "yearRangeFilters": true,
@@ -26,7 +26,7 @@
     "plexDirectScan": true,
     "artworkScanner": true,
     "personalReviews": true,
-    "programmeMarkersInTimeline": true,
+    "programmeMarkersInTimeline": false,
     "traktTokenRefresh": true,
     "plexExactEpisodeOwnership": true,
     "wikipediaArtworkFallback": true,
@@ -59,6 +59,10 @@
     "wrestlerProgrammeLinks": true,
     "directLazyHeadshots": true,
     "staleWhileRevalidateCatalogue": true,
-    "visualRefreshV54": true
+    "visualRefreshV54": true,
+    "syntheticMasterIndexesRemoved": true,
+    "scrollAnchorPreservation": true,
+    "backgroundRenderIsolation": true,
+    "nonDisruptiveServiceWorkerUpdates": true
   }
 }

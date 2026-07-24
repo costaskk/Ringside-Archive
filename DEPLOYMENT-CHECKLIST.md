@@ -1,4 +1,4 @@
-# Ringside Archive v5.4.0 deployment checklist
+# Ringside Archive v5.4.1 deployment checklist
 
 ## Local verification
 
@@ -15,7 +15,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.4.0 release"
+git commit -m "Initial Ringside Archive v5.4.1 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -79,10 +79,10 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Post-upgrade cache reset
 
-- [ ] Open the deployed URL once with `?v=5.4.0`.
+- [ ] Open the deployed URL once with `?v=5.4.1`.
 - [ ] Hard refresh with **Ctrl+Shift+R**.
 - [ ] If an older interface remains, unregister the old service worker and clear site data once.
-- [ ] Confirm the footer says **Catalogue v5.4.0** and the dashboard reports **287 programme families**.
+- [ ] Confirm the footer says **Catalogue v5.4.1** and the dashboard reports **188 programme families**.
 
 ## Legacy Plex-export security
 
@@ -126,7 +126,7 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Vercel Hobby function check
 
-Version 5.4.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+Version 5.4.1 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
 
 ```powershell
 npm test

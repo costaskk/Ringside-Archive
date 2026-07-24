@@ -1,9 +1,9 @@
 {
   "name": "ringside-archive",
-  "version": "5.4.0",
+  "version": "5.4.1",
   "private": true,
   "type": "module",
-  "description": "Professional wrestling chronology with Supabase accounts, reliable Trakt/Plex sync, responsive filters, wrestler ratings/headshots and layered artwork discovery",
+  "description": "Professional wrestling chronology with stable scroll-preserving updates, real programme families, Supabase accounts and Trakt/Plex sync",
   "scripts": {
     "audit": "node scripts/audit-data.mjs",
     "test": "node scripts/audit-data.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",

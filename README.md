@@ -1,9 +1,9 @@
-# Ringside Archive v5.4.0
+# Ringside Archive v5.4.1
 
 A GitHub-ready professional wrestling chronology and viewing tracker with:
 
 - 101 promotion profiles
-- 287 television, streaming, PPV, tournament and supercard programme families
+- 188 real television, streaming, PPV, tournament and supercard programme families
 - 1,144 individually dated major-event records
 - exact weekly episode feeds where a dependable TVMaze mapping exists
 - complete record popouts, known cards, competitors, reviews and personal ratings
@@ -16,10 +16,14 @@ A GitHub-ready professional wrestling chronology and viewing tracker with:
 See [`CHANGELOG.md`](CHANGELOG.md) for the release-by-release changes and [`PROJECT-AUDIT.md`](PROJECT-AUDIT.md) for the engineering audit.
 
 
-## v5.4.0 performance, wrestler profiles and visual refresh
+## v5.4.1 stable timeline, performance and wrestler profiles
 
 This release focuses on making the archive feel immediate and polished on real deployments:
 
+- **Stable reading position:** background account sync, artwork hydration and episode-feed progress no longer repeatedly rebuild the full document. When a real render is required, the first visible record and its precise viewport offset are restored.
+- **No forced refreshes:** service-worker activation never reloads an active page. An update is applied in the background and the user remains at the same record.
+- **Refresh recovery:** an accidental refresh in the same tab restores the recent scroll position for up to 30 minutes.
+- **Clean chronology:** the 101 synthetic promotion-level “Master Index” placeholders were removed. Companies are the promotion hubs, Show Index contains 188 actual programme/event-series families, and Complete Timeline contains only individually dated records.
 - **Faster first paint:** the initial screen now waits only for the core catalogue. The 588 KB event-detail file, artwork catalogues, Supabase account restoration and exact episode feeds load after the interface is already usable.
 - **Cached chronology:** the merged timeline and flattened episode collection are cached instead of being rebuilt and resorted on every click, filter change or cloud update.
 - **Progressive episode loading:** exact TVMaze feeds start during browser idle time, use only two concurrent workers and refresh the interface at a bounded interval instead of rerendering after every feed.
@@ -125,7 +129,7 @@ The project never creates fictional weekly dates. Complete Timeline contains:
 
 For programmes with no dependable episode database, the show remains indexed but is not expanded into invented episodes. See `docs/DATA-COVERAGE.md`.
 
-## Added programme families in v5.4.0
+## Added programme families in v5.4.1
 
 The recovery catalogue was expanded with important missing lineages and programmes, including:
 
@@ -210,7 +214,7 @@ Open PowerShell in the project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.4.0 release"
+git commit -m "Initial Ringside Archive v5.4.1 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -441,21 +445,21 @@ npm run check:links
 
 ## The page still shows 271 programme families or calls `/api/trakt/device-code`
 
-That is the older application being served by its service-worker cache. Version 5.3 contains 287 programme families and uses only `/api/trakt/device`.
+That is the older application being served by its service-worker cache. Version 5.4.1 contains 188 real programme/event-series families and uses only `/api/trakt/device`.
 
 After deploying the new commit:
 
-1. Open `https://YOUR-SITE.vercel.app/?v=5.4.0` once.
+1. Open `https://YOUR-SITE.vercel.app/?v=5.4.1` once.
 2. Press **Ctrl+Shift+R**.
 3. If the old interface remains, open DevTools → **Application** → **Service Workers** → **Unregister**.
 4. Under **Storage**, select **Clear site data**.
 5. Reload the normal site URL.
 
-The v5.3 service worker then handles later upgrades automatically.
+The v5.4.1 service worker handles later upgrades without force-reloading an active reading session.
 
 ## TVMaze snapshot 404 messages
 
-Version 5.3 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
+Version 5.4.1 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
 
 ## Trakt returns a Cloudflare “Attention Required” page
 

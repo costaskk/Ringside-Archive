@@ -1,6 +1,8 @@
 # Data coverage and accuracy
 
-The current catalogue contains 101 promotions, 287 programme families, 1,144 individually dated major events, 71 curated recommendations and 42 pre-mapped TVMaze feeds.
+The 188 programme count excludes 101 former synthetic promotion-level master-index placeholders. Promotion navigation is handled by the Companies directory; only actual television, streaming and recurring event-series families remain in programme data.
+
+The current catalogue contains 101 promotions, 188 programme families, 1,144 individually dated major events, 71 curated recommendations and 42 pre-mapped TVMaze feeds.
 
 ## Complete Timeline
 

@@ -39,11 +39,11 @@ const jsFiles=required.filter(x=>x.endsWith('.js'));
 for(const file of jsFiles){const source=await fs.readFile(path.join(root,file),'utf8');if(!source.trim())throw new Error(`Empty JavaScript file: ${file}`);}
 
 const packageJson=JSON.parse(await fs.readFile(path.join(root,'package.json'),'utf8'));
-if(packageJson.version!=='5.4.0')throw new Error(`Expected package version 5.4.0, found ${packageJson.version}.`);
+if(packageJson.version!=='5.4.1')throw new Error(`Expected package version 5.4.1, found ${packageJson.version}.`);
 if(await fs.access(path.join(root,'api/trakt/device-code.js')).then(()=>true).catch(()=>false))throw new Error('Obsolete api/trakt/device-code.js must not be present.');
 if(await fs.access(path.join(root,'api/trakt/device-token.js')).then(()=>true).catch(()=>false))throw new Error('Obsolete api/trakt/device-token.js must not be present.');
 const serviceWorker=await fs.readFile(path.join(root,'service-worker.js'),'utf8');
-for(const marker of ['ringside-archive-v5.4.0','networkFirst','url.pathname.startsWith(\'/api/\')'])if(!serviceWorker.includes(marker))throw new Error(`Service worker is missing reliability marker: ${marker}`);
+for(const marker of ['ringside-archive-v5.4.1','networkFirst','url.pathname.startsWith(\'/api/\')'])if(!serviceWorker.includes(marker))throw new Error(`Service worker is missing reliability marker: ${marker}`);
 for(const marker of ['activeFilters','companyLogo','wrestlerHeadshot','data-wrestler-sort','data-plex-section','refresh-integration-config','matchedPlexItems','displayArtworkUrl','Unsafe legacy Plex export detected','CORE_DATA_FILES','loadDeferredData','traktDeviceMarkup','topMatchesForProfile','wrestlerProfileHero'])if(!app.includes(marker))throw new Error(`app.js is missing v5.4 feature marker: ${marker}`);
 const traktHelper=await fs.readFile(path.join(root,'api/_lib/trakt.js'),'utf8');
 for(const marker of ['User-Agent','trakt-api-key','trakt-api-version'])if(!traktHelper.includes(marker))throw new Error(`Trakt helper is missing required header marker: ${marker}`);

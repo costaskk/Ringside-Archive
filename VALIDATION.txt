@@ -1,4 +1,4 @@
-Ringside Archive v5.4.0 final validation
+Ringside Archive v5.4.1 final validation
 Date: 2026-07-24
 
 Command:
@@ -6,23 +6,41 @@ Command:
 
 Validated catalogue:
   101 promotions
-  287 programme families
+  188 real programme/event-series families
   1,144 dated major events
   1,144 event-detail records
   71 curated recommendations with Archive editorial star ratings
   110 wrestler profiles
   12 Vercel Functions
 
+Catalogue cleanup:
+  101 synthetic "Promotion Master Index" placeholders removed
+  0 archive/master-index rows remain in data/programmes.json
+  Complete Timeline contains only individually dated records
+  Companies remains the promotion-level directory
+  Show Index contains actual programme and recurring event-series families
+
+Scroll/reload protections:
+  Visible-card anchor and pixel offset preserved across full renders
+  Search/filter focus and text selection preserved when applicable
+  Quiet cloud sync skips rendering when visible state did not change
+  Background artwork hydration does not rebuild the page
+  Episode-feed progress updates counters in place and renders once on completion
+  Toast messages update independently from the full application shell
+  Service-worker controller changes never force location.reload()
+  Same-tab scroll position can be restored after an accidental refresh
+
 Automated checks passed:
   Data IDs, references and exact-date formats
   data/core.json single-request bundle consistency
+  Synthetic master-index exclusion
   12-function Vercel Hobby limit
   Required files and JavaScript syntax
   Deferred boot and bounded initial rendering
   Cached unified chronology and progressive two-worker episode loading
   Persistent Trakt device-code state and required API headers
   Supabase encryption, RLS and current/legacy key compatibility
-  Direct wrestler headshot lookup and approved artwork proxy
+  Wrestler headshot lookup and approved artwork proxy
   Plex direct-to-Relay fallback and selected-library scanning
   Exact Plex programme/episode/event matching
   Plex quota compaction and token stripping
@@ -33,9 +51,9 @@ Latest test output:
   Performance smoke passed: deferred boot, bounded rendering, persistent Trakt code, 71 rated recommendations and cached release data validated.
   Cloud smoke passed: encryption, RLS schema, account APIs and Supabase key compatibility validated.
   Integration smoke passed: Trakt headers/diagnostics, artwork discovery/proxy and Plex connection fallback validated.
-  Plex match smoke passed: 4 keys from 2 matched items.
+  Plex match smoke passed: 3 keys from 2 matched items.
   Plex storage smoke passed: 1800 match keys, 12 compact item links, no raw token URLs.
-  Runtime smoke passed: 58,940 characters rendered.
+  Runtime smoke passed: 62,080 characters rendered.
 
 Warnings:
   Six future/TBA scheduled records remain warnings rather than validation failures.

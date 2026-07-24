@@ -1,10 +1,16 @@
-# Upgrade an existing Ringside Archive repository to v5.4.0
+# Upgrade an existing Ringside Archive repository to v5.4.1
 
 These steps are for an existing GitHub/Vercel deployment, including the deployment shown with the older 271-programme interface.
 
+## Important v5.4.1 behaviour change
+
+The 101 synthetic `Promotion Master Index` rows have been removed. They were coverage placeholders rather than real shows or dated events. Use **Companies** for promotion-level navigation, **Show Index** for real programme families, and **Complete Timeline** for exact dated records.
+
+Background cloud, episode and artwork updates now preserve the visible card and scroll offset. The service worker no longer refreshes an active page when a new version becomes available.
+
 ## 1. Replace the repository files cleanly
 
-Extract the v5.4.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
+Extract the v5.4.1 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
 
 Before committing, confirm these obsolete routes do not exist:
 
@@ -34,7 +40,7 @@ Use `git add -A`, not only `git add .`, so obsolete endpoint deletions are defin
 ```powershell
 git add -A
 git status
-git commit -m "Upgrade Ringside Archive to v5.4.0"
+git commit -m "Upgrade Ringside Archive to v5.4.1"
 git push
 ```
 
@@ -69,19 +75,19 @@ It must report Trakt as configured before the Connect Trakt button can succeed. 
 Open the new deployment with:
 
 ```text
-https://YOUR-DEPLOYMENT.vercel.app/?v=5.4.0
+https://YOUR-DEPLOYMENT.vercel.app/?v=5.4.1
 ```
 
 Then press **Ctrl+Shift+R**.
 
 Confirm:
 
-- the dashboard reports **287 programme families**;
-- the footer says **Catalogue v5.4.0**;
+- the dashboard reports **188 programme families**;
+- the footer says **Catalogue v5.4.1**;
 - the browser no longer calls `/api/trakt/device-code`;
 - the Filters panel is visible and shows active-filter reset chips;
 - the initial page becomes usable before account/episode background work finishes;
-- the footer reports **Catalogue v5.4.0**.
+- the footer reports **Catalogue v5.4.1**.
 
 If the old interface is still present:
 
@@ -152,7 +158,7 @@ Expected essentials:
 
 ```text
 101 promotions
-287 programme families
+188 programme families
 1,144 major events
 12 Vercel Functions
 Cloud smoke passed

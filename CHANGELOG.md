@@ -1,6 +1,6 @@
 # Changelog
 
-## 5.4.0 — Performance and wrestler profiles
+## 5.4.1 — Performance and wrestler profiles
 
 - Render the core archive before cloud, event-detail, artwork and episode background work.
 - Cache the merged chronology and episode collection.

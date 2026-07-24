@@ -47,7 +47,9 @@ const state = {
   cloud: { config:null, user:null, message:'', syncing:false, integrationsLoaded:false, recovery:false },
   deferredReady: false,
   recordCache: { episodes:null, exact:null, dirty:true },
-  renderScheduled: false
+  renderScheduled: false,
+  lastRenderView: null,
+  renderGeneration: 0
 };
 
 const CORE_DATA_FILES = ['promotions','programmes','major-events','recommendations','wrestlers','format-labels','custom-records','meta'];
@@ -112,16 +114,11 @@ function allLoadedEpisodes(){
   if(!state.recordCache.episodes) state.recordCache.episodes=[...state.loadedEpisodes.values()].flat();
   return state.recordCache.episodes;
 }
-function programmeTimelineRecords(){
-  if(!state.data._programmeTimeline) state.data._programmeTimeline=state.data.programmes.map(p=>({
-    ...p, title:p.name, date:p.firstAirDate, programId:p.id, itemKey:`program:${p.id}`,
-    isProgrammeIndex:true, timelineLabel:'Programme begins / archive index'
-  }));
-  return state.data._programmeTimeline;
-}
 function exactRecords(){
   if(!state.recordCache.exact||state.recordCache.dirty){
-    state.recordCache.exact=[...programmeTimelineRecords(),...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()].sort((a,b)=>String(a.date).localeCompare(String(b.date))||String(a.title).localeCompare(String(b.title)));
+    // Complete Timeline contains only real dated records. Synthetic promotion-level
+    // archive hubs belong in Companies/Show Index and must never masquerade as episodes.
+    state.recordCache.exact=[...state.data.majorEvents,...state.data.customRecords,...allLoadedEpisodes()].sort((a,b)=>String(a.date).localeCompare(String(b.date))||String(a.title).localeCompare(String(b.title)));
     state.recordCache.dirty=false;
   }
   return state.recordCache.exact;
@@ -132,16 +129,55 @@ function recordByKey(key){
   }
   return state.data._recordByKey.get(key)||null;
 }
-function scheduleRender(){
+function captureViewportState(){
+  const active=document.activeElement;
+  const focus=active&&active!==document.body?{
+    id:active.id||'',filter:active.dataset?.filter||'',selectionStart:Number.isInteger(active.selectionStart)?active.selectionStart:null,selectionEnd:Number.isInteger(active.selectionEnd)?active.selectionEnd:null
+  }:null;
+  const candidates=[...document.querySelectorAll('[data-scroll-key]')];
+  const anchor=candidates.find(node=>node.getBoundingClientRect().bottom>86);
+  return {x:window.scrollX||0,y:window.scrollY||0,key:anchor?.dataset.scrollKey||'',offset:anchor?.getBoundingClientRect().top||0,focus};
+}
+function restoreViewportState(snapshot,generation){
+  if(!snapshot||generation!==state.renderGeneration)return;
+  const restore=()=>{
+    if(generation!==state.renderGeneration)return;
+    let top=snapshot.y;
+    if(snapshot.key){
+      const node=[...document.querySelectorAll('[data-scroll-key]')].find(el=>el.dataset.scrollKey===snapshot.key);
+      if(node)top=snapshot.y+(node.getBoundingClientRect().top-snapshot.offset);
+    }
+    window.scrollTo?.({left:snapshot.x,top:Math.max(0,top),behavior:'auto'});
+    const f=snapshot.focus;
+    if(f){
+      const node=(f.id&&document.getElementById(f.id))||(f.filter&&document.querySelector(`[data-filter="${CSS.escape(f.filter)}"]`));
+      if(node){node.focus({preventScroll:true});if(f.selectionStart!==null&&node.setSelectionRange)node.setSelectionRange(f.selectionStart,f.selectionEnd);}
+    }
+  };
+  restore();(globalThis.requestAnimationFrame||((callback)=>setTimeout(callback,0)))(restore);
+}
+function scheduleRender(options={}){
   if(state.renderScheduled)return;
   state.renderScheduled=true;
-  (globalThis.requestAnimationFrame||((callback)=>setTimeout(callback,0)))(()=>{state.renderScheduled=false;render();});
+  (globalThis.requestAnimationFrame||((callback)=>setTimeout(callback,0)))(()=>{state.renderScheduled=false;render(options);});
 }
 function onIdle(callback,timeout=1400){
   if(globalThis.requestIdleCallback)return requestIdleCallback(()=>callback(),{timeout});
   return setTimeout(callback,Math.min(timeout,800));
 }
-function showToast(message) { state.toast = message; scheduleRender(); setTimeout(()=>{ if(state.toast===message){state.toast='';scheduleRender();}},3800); }
+function renderToast(){
+  document.querySelector('.toast')?.remove();
+  if(!state.toast||!app)return;
+  app.insertAdjacentHTML('beforeend',`<div class="toast"><span>${icon('check')}</span><span>${h(state.toast)}</span><button type="button">×</button></div>`);
+  const toast=app.querySelector('.toast');toast?.querySelector('button')?.addEventListener('click',()=>{state.toast='';toast.remove();});
+}
+function showToast(message) {
+  state.toast=message;renderToast();
+  setTimeout(()=>{if(state.toast===message){state.toast='';document.querySelector('.toast')?.remove();}},3800);
+}
+function visualStateSignature(){
+  return JSON.stringify([state.statuses,state.reviews,state.settings,state.plexData.matches||[],Boolean(state.trakt.cloudConnected),Boolean(state.plexData.cloudConnected)]);
+}
 
 async function apiJson(response, fallback='Request failed.') {
   const text=await response.text().catch(()=> '');
@@ -287,7 +323,12 @@ function starMarkup(value){
   return `<span class="starScale" aria-label="${stars.toFixed(2)} out of 5 stars"><span style="--rating:${(stars/5*100).toFixed(1)}%">★★★★★</span><b>${stars.toFixed(2)}</b></span>`;
 }
 
-function setView(view) { state.view=view; state.visible=24; state.modal=null; location.hash=`#${view}`; render(); if(['exact','chronology'].includes(view)&&state.settings.autoLoadEpisodes&&!state.autoEpisodeLoadStarted)onIdle(()=>loadAllEpisodes(false),900); }
+function setView(view) {
+  state.view=view;state.visible=24;state.modal=null;
+  history.replaceState(null,'',`${location.pathname}${location.search}#${view}`);
+  render({preserveScroll:false});window.scrollTo?.({top:0,left:0,behavior:'auto'});
+  if(['exact','chronology'].includes(view)&&state.settings.autoLoadEpisodes&&!state.autoEpisodeLoadStarted)onIdle(()=>loadAllEpisodes(false),900);
+}
 
 function accountConnected(){ return Boolean(state.cloud.user?.id); }
 function traktConnected(){ return Boolean(state.trakt.accessToken || (state.trakt.cloudConnected && accountConnected())); }
@@ -320,6 +361,7 @@ function plexProgressFor(item){ return state.plexViewing.get(statusKey(item)) ||
 
 async function syncCloudNow({quiet=false}={}){
   if(!accountConnected()||state.cloud.syncing)return;
+  const before=quiet?visualStateSignature():'';
   state.cloud.syncing=true;if(!quiet){state.cloud.message='Synchronizing account data…';render();}
   try{
     const remote=await pullCloudState();
@@ -330,7 +372,10 @@ async function syncCloudNow({quiet=false}={}){
     storage.saveCloudMeta({revision:Number(saved?.revision||remote?.revision||0),lastSyncAt:new Date().toISOString(),dirty:false});
     state.cloud.message=`Synced ${new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}`;
   }catch(error){state.cloud.message=error.message;if(!quiet)showToast(error.message);}
-  finally{state.cloud.syncing=false;render();}
+  finally{
+    state.cloud.syncing=false;
+    if(!quiet||before!==visualStateSignature())scheduleRender();
+  }
 }
 
 function applyPublicIntegrations(integrations=[]){
@@ -498,7 +543,7 @@ function dashboard() {
 
 function catalogueStatement(){
   const byRegion=state.data.promotions.reduce((a,p)=>((a[p.region]??=[]).push(p),a),{});
-  return `<section class="catalogueStatement"><div><span class="eyebrow">Programme-first complete index</span><h2>From territory television to global streaming</h2><p>All ${state.data.programmes.length} recovered weekly-show and event-series families are indexed. Every verified episode feed is loaded automatically into the Complete Timeline; unmapped historic series remain visible without invented dates and can be discovered or imported later.</p></div><div class="statementStats"><span><strong>${byRegion['United States']?.length||0}</strong> U.S.</span><span><strong>${byRegion['Japan']?.length||0}</strong> Japan</span><span><strong>${byRegion['United Kingdom & Europe']?.length||0}</strong> UK / Europe</span><span><strong>${(byRegion['Mexico & Latin America']?.length||0)+(byRegion['Canada']?.length||0)+(byRegion['Australia']?.length||0)}</strong> Other</span></div></section>`;
+  return `<section class="catalogueStatement"><div><span class="eyebrow">Verified programme catalogue</span><h2>From territory television to global streaming</h2><p>${state.data.programmes.length} actual television, streaming and event-series families are indexed. Promotion-level “master index” placeholders have been removed: companies now serve as the promotion hubs, while Complete Timeline contains only real dated episodes and events.</p></div><div class="statementStats"><span><strong>${byRegion['United States']?.length||0}</strong> U.S.</span><span><strong>${byRegion['Japan']?.length||0}</strong> Japan</span><span><strong>${byRegion['United Kingdom & Europe']?.length||0}</strong> UK / Europe</span><span><strong>${(byRegion['Mexico & Latin America']?.length||0)+(byRegion['Canada']?.length||0)+(byRegion['Australia']?.length||0)}</strong> Other</span></div></section>`;
 }
 
 function select(key,label,empty,options,value){return `<label><span>${label}</span><select data-filter="${key}"><option value="">${empty}</option>${options.map(([v,l])=>`<option value="${h(v)}" ${String(value)===String(v)?'selected':''}>${h(l)}</option>`).join('')}</select></label>`;}
@@ -536,18 +581,14 @@ function exactView(){
   const visible=filtered.slice(0,state.visible);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=filtered.length.toLocaleString();});
   return `<div class="viewHeader"><div><span class="eyebrow">Individual dated records</span><h2>Exact episodes, PPVs & supercards</h2></div><div class="viewControls"><span>${allLoadedEpisodes().length.toLocaleString()} exact weekly episodes loaded</span></div></div>
-  <section class="exactChronologyView"><div class="exactCoverageBar"><div><span class="eyebrow">Unified watch chronology</span><h3>Television, PPVs, PLEs, tournaments & supercards</h3><p>Mapped weekly feeds load automatically and merge with the recovered major-event catalogue. Use filters for company, wrestler, date range, YouTube, Plex or artwork.</p>${state.syncMessage?`<div class="syncProgress" id="episodeLoadStatus">${h(state.syncMessage)}</div>`:''}</div><div class="coverageActions"><button data-action="reload-all-episodes">Refresh all exact feeds</button><button data-action="discover-feeds">Discover more feeds</button><button data-action="scan-visible-artwork">Scan visible artwork</button></div></div>
+  <section class="exactChronologyView"><div class="exactCoverageBar"><div><span class="eyebrow">Unified watch chronology</span><h3>Television, PPVs, PLEs, tournaments & supercards</h3><p>Only individually dated records appear here. Show landing pages and company hubs remain available in Show Index and Companies without occupying artificial dates in the chronology. Use filters for company, wrestler, date range, YouTube, Plex or artwork.</p>${state.syncMessage?`<div class="syncProgress" id="episodeLoadStatus">${h(state.syncMessage)}</div>`:''}</div><div class="coverageActions"><button data-action="reload-all-episodes">Refresh all exact feeds</button><button data-action="discover-feeds">Discover more feeds</button><button data-action="scan-visible-artwork">Scan visible artwork</button></div></div>
   <div class="exactRecordsList">${visible.map(exactCard).join('')||empty('No records match the current filters.','Reset the filters or widen the year range.',true)}</div>${filtered.length>state.visible?`<div class="loadMoreRow"><button data-action="load-more">Show ${Math.min(50,filtered.length-state.visible)} more</button></div>`:''}</section>`;
 }
 
 function exactCard(e){
   const p=promotion(e.promotionId), prog=programme(e.programId), key=statusKey(e), status=currentStatus(key), plex=plexAvailable(e), plexState=plexProgressFor(e), youtube=youtubeUrlFor(e);
-  if(e.isProgrammeIndex){
-    const programmeArt=artworkCandidates(prog,true);
-    return `<article class="exactRecordCard programmeTimelineCard ${status==='watched'?'isWatched':''}" style="--accent:${h(p?.color||'#d7a84f')}" data-open-programme="${h(prog.id)}" role="button" tabindex="0"><div class="exactRecordDate"><strong>${h(String(e.date).slice(0,4))}</strong><span>${h(fmtDate(e.date).replace(/, \d{4}$/,''))}</span><small>SHOW INDEX</small></div>${artwork(prog,'exactRecordArtwork',true)}<div class="exactRecordMain"><div class="programmeKicker"><span>${h(p?.shortName||'')}</span><span>•</span><span>${h(state.data.formatLabels[prog.kind]||prog.kind)}</span><b>Programme chronology</b></div><h3>${h(prog.name)}</h3><p>${h(prog.description)}</p><div class="exactRecordFacts"><span>Begins ${h(fmtDate(prog.firstAirDate))}</span>${prog.endDate?`<span>Ends ${h(fmtDate(prog.endDate))}</span>`:''}<span>${h(prog.cadence)}</span><span>${(state.loadedEpisodes.get(prog.id)||[]).length.toLocaleString()} exact episodes loaded</span></div><div class="availabilityLights"><span class="light ${plex?'pickLight':''}"><i></i> Plex${plex?(plexState?.watched?' watched':plexState?.progress?` ${Math.round(plexState.progress*100)}%`:' available'):''}</span><span class="light ${youtube?'pickLight':''}"><i></i> YouTube/free</span><span class="light ${programmeArt.length?'pickLight':''}"><i></i> Artwork</span></div></div><div class="exactRecordActions"><span class="statusPill status-${status}">${statusLabels[status]}</span><div class="recordStatus">${['watched','watching','skipped'].map(s=>`<button class="${status===s?'active':''}" data-status-key="${h(key)}" data-status="${s}">${s==='watched'?'✓ ':''}${statusLabels[s]}</button>`).join('')}</div><button data-open-programme="${h(prog.id)}">Open complete show</button></div></article>`;
-  }
   const details=detailsFor(e,state.data);
-  return `<article class="exactRecordCard ${status==='watched'?'isWatched':''}" style="--accent:${h(p?.color||'#d7a84f')}" data-open-record="${h(e.id)}" role="button" tabindex="0"><div class="exactRecordDate"><strong>${h(String(e.date).slice(0,4))}</strong><span>${h(fmtDate(e.date).replace(/, \d{4}$/,''))}</span><small>${h(e.kind)}</small></div>${artwork(e,'exactRecordArtwork')}<div class="exactRecordMain"><div class="programmeKicker"><span>${h(p?.shortName||'')}</span><span>•</span><span>${h(e.code||prog?.name||'Exact record')}</span><b>${String(e.id).startsWith('tvmaze:')?'Exact episode':'Verified date'}</b></div><h3>${h(e.title)}</h3>${prog?.name&&prog.name!==e.title?`<p class="eventName">${h(prog.name)}</p>`:''}<p>${h(e.description||e.mainEvent||'Open for the full available card, competitors and review notes.')}</p><div class="exactRecordFacts"><span>${h(fmtDate(e.date))}</span>${e.venue?`<span>${h(e.venue)}</span>`:''}${e.location?`<span>${h(e.location)}</span>`:''}${e.runtime?`<span>${e.runtime} min</span>`:''}${details.competitors.length?`<span>${details.competitors.length} competitors</span>`:''}</div><div class="availabilityLights"><span class="light ${plex?'pickLight':''}"><i></i> Plex${plex?(plexState?.watched?' watched':plexState?.progress?` ${Math.round(plexState.progress*100)}%`:' available'):''}</span><span class="light ${youtube?'pickLight':''}"><i></i> YouTube/free</span><span class="light ${artworkCandidates(e).length?'pickLight':''}"><i></i> Artwork</span></div></div><div class="exactRecordActions"><span class="statusPill status-${status}">${statusLabels[status]}</span><div class="recordStatus">${['watched','watching','skipped'].map(s=>`<button class="${status===s?'active':''}" data-status-key="${h(key)}" data-status="${s}">${s==='watched'?'✓ ':''}${statusLabels[s]}</button>`).join('')}</div>${plexLinkButton(e)}<button data-open-record="${h(e.id)}">Full card</button></div></article>`;
+  return `<article class="exactRecordCard ${status==='watched'?'isWatched':''}" style="--accent:${h(p?.color||'#d7a84f')}" data-scroll-key="${h(key)}" data-open-record="${h(e.id)}" role="button" tabindex="0"><div class="exactRecordDate"><strong>${h(String(e.date).slice(0,4))}</strong><span>${h(fmtDate(e.date).replace(/, \d{4}$/,''))}</span><small>${h(e.kind)}</small></div>${artwork(e,'exactRecordArtwork')}<div class="exactRecordMain"><div class="programmeKicker"><span>${h(p?.shortName||'')}</span><span>•</span><span>${h(e.code||prog?.name||'Exact record')}</span><b>${String(e.id).startsWith('tvmaze:')?'Exact episode':'Verified date'}</b></div><h3>${h(e.title)}</h3>${prog?.name&&prog.name!==e.title?`<p class="eventName">${h(prog.name)}</p>`:''}<p>${h(e.description||e.mainEvent||'Open for the full available card, competitors and review notes.')}</p><div class="exactRecordFacts"><span>${h(fmtDate(e.date))}</span>${e.venue?`<span>${h(e.venue)}</span>`:''}${e.location?`<span>${h(e.location)}</span>`:''}${e.runtime?`<span>${e.runtime} min</span>`:''}${details.competitors.length?`<span>${details.competitors.length} competitors</span>`:''}</div><div class="availabilityLights"><span class="light ${plex?'pickLight':''}"><i></i> Plex${plex?(plexState?.watched?' watched':plexState?.progress?` ${Math.round(plexState.progress*100)}%`:' available'):''}</span><span class="light ${youtube?'pickLight':''}"><i></i> YouTube/free</span><span class="light ${artworkCandidates(e).length?'pickLight':''}"><i></i> Artwork</span></div></div><div class="exactRecordActions"><span class="statusPill status-${status}">${statusLabels[status]}</span><div class="recordStatus">${['watched','watching','skipped'].map(s=>`<button class="${status===s?'active':''}" data-status-key="${h(key)}" data-status="${s}">${s==='watched'?'✓ ':''}${statusLabels[s]}</button>`).join('')}</div>${plexLinkButton(e)}<button data-open-record="${h(e.id)}">Full card</button></div></article>`;
 }
 function plexLinkButton(item){const plex=plexItemFor(item),server=state.plexData.selectedServer||state.plexData.servers?.find(x=>x.machineIdentifier===plex?.machineIdentifier),url=plexWebUrl(plex,server);return url?`<a href="${h(url)}" target="_blank" rel="noreferrer">Open Plex ↗</a>`:'';}
 
@@ -559,7 +600,7 @@ function chronologyView(){
 }
 function programmeCard(p){
   const company=promotion(p.promotionId), status=currentStatus(`program:${p.id}`), loaded=state.loadedEpisodes.get(p.id)?.length||0, mapped=p.tvMazeId||state.feedMap[p.id];
-  return `<article class="programmeCard" style="--accent:${h(company?.color||'#d7a84f')}" data-open-programme="${h(p.id)}" role="button" tabindex="0">${artwork(p,'programmeArtwork',true)}<div class="programmeCardBody"><div class="programmeKicker"><span>${h(company?.shortName||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h3>${h(p.name)}</h3><p>${h(p.description)}</p><div class="heroMeta"><span>${h(p.firstAirDate)}${p.endDate?` – ${h(p.endDate)}`:''}</span><span>${h(p.cadence)}</span>${mapped?`<span class="statusPill status-watching">${loaded?`${loaded.toLocaleString()} episodes`:'Exact feed'}</span>`:'<span>Index only</span>'}</div><div class="programmeCardActions"><button data-open-programme="${h(p.id)}">Open show</button>${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">YouTube ↗</a>`:''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Unwatch':'Watched'}</button></div></div></article>`;
+  return `<article class="programmeCard" style="--accent:${h(company?.color||'#d7a84f')}" data-scroll-key="program:${h(p.id)}" data-open-programme="${h(p.id)}" role="button" tabindex="0">${artwork(p,'programmeArtwork',true)}<div class="programmeCardBody"><div class="programmeKicker"><span>${h(company?.shortName||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h3>${h(p.name)}</h3><p>${h(p.description)}</p><div class="heroMeta"><span>${h(p.firstAirDate)}${p.endDate?` – ${h(p.endDate)}`:''}</span><span>${h(p.cadence)}</span>${mapped?`<span class="statusPill status-watching">${loaded?`${loaded.toLocaleString()} episodes`:'Exact feed'}</span>`:'<span>Index only</span>'}</div><div class="programmeCardActions"><button data-open-programme="${h(p.id)}">Open show</button>${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">YouTube ↗</a>`:''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Unwatch':'Watched'}</button></div></div></article>`;
 }
 
 function companiesView(){
@@ -715,11 +756,13 @@ function connectionsModal(){
   <section class="connectionPanel"><h3>Backup & recovery</h3><p>Account sync is automatic when configured, but a private JSON backup remains useful for offline recovery. Legacy backups can also migrate local Plex/Trakt connections into your signed-in account.</p><div class="modalActions"><button data-action="export">Export JSON</button><button data-action="import-backup">Import JSON</button><button data-action="cloud-sync" ${accountConnected()?'':'disabled'}>Sync account</button></div></section></div>`,true);
 }
 
-function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.4.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
+function footer(){return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds. Artwork retains source attribution and fallbacks are never presented as original. Complete match cards are displayed only when the source data actually includes them. This product uses the TMDB API but is not endorsed or certified by TMDB. Wikipedia/Wikimedia results link back to their source page so image licensing can be checked.</p><span>Catalogue v5.4.1 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${allLoadedEpisodes().length.toLocaleString()} loaded episodes</span></footer>`;}
 function mobileNav(){return `<nav class="mobileNav">${navItems.map(([id,ic,label])=>`<button data-view="${id}" class="${state.view===id?'active':''}"><span>${icon(ic)}</span>${label.replace('Complete ','')}</button>`).join('')}</nav>`;}
 
-function render(){
+function render({preserveScroll=state.lastRenderView===state.view}={}){
   if(!state.data)return;
+  const viewport=preserveScroll?captureViewportState():null;
+  const generation=++state.renderGeneration;
   let content='';
   if(state.view==='exact')content=exactView();
   if(state.view==='chronology')content=chronologyView();
@@ -729,9 +772,11 @@ function render(){
   if(state.view==='library')content=libraryView();
   const overview=state.view==='exact'?`${dashboard()}${catalogueStatement()}`:'';
   const filters=['exact','chronology','wrestlers','companies','recommended'].includes(state.view)?filterPanel():'';
-  app.innerHTML=`${topbar()}<main class="appShell view-${h(state.view)}">${overview}${filters}${content}${footer()}</main>${mobileNav()}${modal()}${state.toast?`<div class="toast"><span>${icon('check')}</span><span>${h(state.toast)}</span><button data-action="dismiss-toast">×</button></div>`:''}`;
+  app.innerHTML=`${topbar()}<main class="appShell view-${h(state.view)}">${overview}${filters}${content}${footer()}</main>${mobileNav()}${modal()}`;
   document.body.classList.toggle('modalOpen',Boolean(state.modal));
-  bind();
+  state.lastRenderView=state.view;
+  bind();renderToast();
+  if(viewport)restoreViewportState(viewport,generation);
 }
 
 function bind(){
@@ -774,7 +819,7 @@ async function loadAllEpisodes(forceLive=false){
   const updateProgress=()=>{
     state.syncMessage=`Loading exact weekly episodes: ${done}/${feeds.length} feeds • ${totalEpisodes.toLocaleString()} episodes`;
     const node=document.querySelector('#episodeLoadStatus');if(node)node.textContent=state.syncMessage;
-    if(Date.now()-lastPaint>1800&&(state.view==='exact'||state.view==='chronology')){lastPaint=Date.now();scheduleRender();}
+    if(Date.now()-lastPaint>1800){lastPaint=Date.now();const counter=document.querySelector('.viewControls span');if(counter&&state.view==='exact')counter.textContent=`${totalEpisodes.toLocaleString()} exact weekly episodes loaded`;}
   };
   const worker=async()=>{while(queue.length){
     const p=queue.shift();
@@ -1061,7 +1106,7 @@ function scheduleArtworkHydration(){
   state.autoArtworkTimer=setTimeout(async()=>{
     const entries=currentArtworkEntries().slice(0,4);if(!entries.length)return;
     state.autoArtworkRunning=true;
-    try{await storeArtworkBatch(entries);scheduleRender();}catch(error){console.warn('Background artwork scan:',error.message);}finally{state.autoArtworkRunning=false;}
+    try{await storeArtworkBatch(entries);}catch(error){console.warn('Background artwork scan:',error.message);}finally{state.autoArtworkRunning=false;}
   },2400);
 }
 async function scanArtworkKey(key){
@@ -1075,7 +1120,7 @@ async function scanArtworkKey(key){
 }
 async function installServiceWorker(){
   if(!('serviceWorker' in navigator))return;
-  const version='5.4.0',versionKey='ringside-app-version';
+  const version='5.4.1',versionKey='ringside-app-version';
   try{
     const previous=localStorage.getItem(versionKey);
     if(previous!==version&&globalThis.caches){
@@ -1083,7 +1128,7 @@ async function installServiceWorker(){
       await Promise.all(keys.filter(key=>key.startsWith('ringside-archive-')).map(key=>caches.delete(key)));
       localStorage.setItem(versionKey,version);
     }
-    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.4.0',{updateViaCache:'none'});
+    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.4.1',{updateViaCache:'none'});
     await registration.update().catch(()=>{});
     const activateWaiting=()=>registration.waiting?.postMessage({type:'SKIP_WAITING'});
     activateWaiting();
@@ -1091,9 +1136,11 @@ async function installServiceWorker(){
       const worker=registration.installing;
       worker?.addEventListener?.('statechange',()=>{if(worker.state==='installed')activateWaiting();});
     });
-    let refreshed=false;
+    let announced=false;
     navigator.serviceWorker.addEventListener?.('controllerchange',()=>{
-      if(refreshed)return;refreshed=true;location.reload?.();
+      // Never force-reload an active reading session. The new worker controls the
+      // current page immediately and the newest shell is used on the next navigation.
+      if(announced)return;announced=true;showToast('Ringside Archive updated in the background. Your current position was preserved.');
     });
   }catch(error){console.warn('Service worker update:',error.message);}
 }
@@ -1107,13 +1154,28 @@ async function scanVisibleArtwork(){
   }catch(error){state.artworkMessage=error.message;showToast(error.message);}finally{state.scanningArtwork=false;render();}
 }
 
+
+const SCROLL_SESSION_KEY='ringside-scroll-v1';
+const persistScroll=debounce(()=>{
+  try{sessionStorage.setItem(SCROLL_SESSION_KEY,JSON.stringify({route:`${location.pathname}${location.hash}`,x:window.scrollX||0,y:window.scrollY||0,at:Date.now()}));}catch{}
+},180);
+window.addEventListener?.('scroll',persistScroll,{passive:true});
+window.addEventListener?.('pagehide',persistScroll);
+function restoreSessionScroll(){
+  try{
+    const saved=JSON.parse(sessionStorage.getItem(SCROLL_SESSION_KEY)||'null');
+    if(!saved||saved.route!==`${location.pathname}${location.hash}`||Date.now()-saved.at>30*60*1000)return;
+    const raf=globalThis.requestAnimationFrame||((callback)=>setTimeout(callback,0));raf(()=>raf(()=>window.scrollTo?.({left:saved.x||0,top:saved.y||0,behavior:'auto'})));
+  }catch{}
+}
+
 (async function init(){
   try {
     state.data=await loadData();
     rebuildWrestlerIndex();
     refreshPlexIndex();
     const hash=location.hash.slice(1);if(navItems.some(x=>x[0]===hash))state.view=hash;
-    render();
+    render({preserveScroll:false});restoreSessionScroll();
     installServiceWorker();
 
     // Heavy metadata, account restoration and thousands of episode rows are deliberately

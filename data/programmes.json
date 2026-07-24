@@ -1,37 +1,5 @@
 [
   {
-    "promotionId": "jcp",
-    "id": "jcp-archive",
-    "name": "JCP Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1931-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Jim Crockett Promotions / Mid-Atlantic Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Jim Crockett Promotions / Mid-Atlantic Championship Wrestling",
-      "JCP"
-    ]
-  },
-  {
-    "promotionId": "cmll",
-    "id": "cmll-archive",
-    "name": "CMLL Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1933-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Empresa Mexicana de Lucha Libre / Consejo Mundial de Lucha Libre, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Empresa Mexicana de Lucha Libre / Consejo Mundial de Lucha Libre",
-      "CMLL"
-    ],
-    "officialUrl": "https://cmll.com/",
-    "youtubeUrl": "https://www.youtube.com/@VideosOficialesCMLL"
-  },
-  {
     "promotionId": "cmll",
     "id": "cmll-anniversary",
     "name": "CMLL Anniversary Show",
@@ -60,67 +28,6 @@
       "Super Viernes"
     ],
     "youtubeUrl": "https://www.youtube.com/@VideosOficialesCMLL"
-  },
-  {
-    "promotionId": "gcw-territory",
-    "id": "gcw-territory-archive",
-    "name": "GCW (Georgia) Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1944-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Georgia Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Georgia Championship Wrestling",
-      "GCW (Georgia)"
-    ]
-  },
-  {
-    "promotionId": "nwa-historic",
-    "id": "nwa-historic-archive",
-    "name": "NWA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1948-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for National Wrestling Alliance — Historic Territories, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "National Wrestling Alliance — Historic Territories",
-      "NWA"
-    ],
-    "officialUrl": "https://www.nationalwrestlingalliance.com/"
-  },
-  {
-    "promotionId": "stampede",
-    "id": "stampede-archive",
-    "name": "Stampede Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1948-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Stampede Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Stampede Wrestling",
-      "Stampede"
-    ]
-  },
-  {
-    "promotionId": "joint-promotions",
-    "id": "joint-promotions-archive",
-    "name": "Joint Promotions Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1952-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Joint Promotions, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Joint Promotions",
-      "Joint Promotions"
-    ]
   },
   {
     "promotionId": "stampede",
@@ -153,53 +60,6 @@
     ]
   },
   {
-    "promotionId": "awa",
-    "id": "awa-archive",
-    "name": "AWA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1960-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for American Wrestling Association, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "American Wrestling Association",
-      "AWA"
-    ]
-  },
-  {
-    "promotionId": "wwe",
-    "id": "wwe-archive",
-    "name": "WWE Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1963-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World Wide Wrestling Federation / World Wrestling Federation / WWE, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World Wide Wrestling Federation / World Wrestling Federation / WWE",
-      "WWE"
-    ],
-    "officialUrl": "https://www.wwe.com/",
-    "youtubeUrl": "https://www.youtube.com/@WWE"
-  },
-  {
-    "promotionId": "world-of-sport",
-    "id": "world-of-sport-archive",
-    "name": "World of Sport Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1965-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World of Sport Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World of Sport Wrestling",
-      "World of Sport"
-    ]
-  },
-  {
     "promotionId": "world-of-sport",
     "id": "wos-itv",
     "name": "ITV World of Sport Wrestling",
@@ -212,36 +72,6 @@
     "endDate": "1988-12-03",
     "aliases": [
       "World of Sport Wrestling"
-    ]
-  },
-  {
-    "promotionId": "wccw",
-    "id": "wccw-archive",
-    "name": "WCCW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1966-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World Class Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World Class Championship Wrestling",
-      "WCCW"
-    ]
-  },
-  {
-    "promotionId": "ajw",
-    "id": "ajw-archive",
-    "name": "AJW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1968-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for All Japan Women's Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "All Japan Women's Pro-Wrestling",
-      "AJW"
     ]
   },
   {
@@ -270,22 +100,6 @@
     "priority": "essential",
     "datePrecision": "exact",
     "endDate": "2005-04-17"
-  },
-  {
-    "promotionId": "all-star-uk",
-    "id": "all-star-uk-archive",
-    "name": "All Star Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1970-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for All Star Wrestling UK, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "All Star Wrestling UK",
-      "All Star"
-    ],
-    "officialUrl": "https://www.bigtimewrestlinguk.com/"
   },
   {
     "promotionId": "gcw-territory",
@@ -335,40 +149,6 @@
       "All-Star Wrestling",
       "WWWF All Star Wrestling"
     ]
-  },
-  {
-    "promotionId": "ajpw",
-    "id": "ajpw-archive",
-    "name": "AJPW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1972-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for All Japan Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "All Japan Pro Wrestling",
-      "AJPW"
-    ],
-    "officialUrl": "https://www.all-japan.co.jp/",
-    "youtubeUrl": "https://www.youtube.com/@ajpw"
-  },
-  {
-    "promotionId": "njpw",
-    "id": "njpw-archive",
-    "name": "NJPW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1972-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for New Japan Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "New Japan Pro-Wrestling",
-      "NJPW"
-    ],
-    "officialUrl": "https://www.njpw1972.com/",
-    "youtubeUrl": "https://www.youtube.com/@NJPWGLOBAL"
   },
   {
     "promotionId": "wwe",
@@ -456,22 +236,6 @@
     ]
   },
   {
-    "promotionId": "wwc",
-    "id": "wwc-archive",
-    "name": "WWC Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1973-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World Wrestling Council, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World Wrestling Council",
-      "WWC"
-    ],
-    "officialUrl": "https://www.facebook.com/wwcpr/"
-  },
-  {
     "promotionId": "ajpw",
     "id": "ajpw-carnival",
     "name": "Champion Carnival",
@@ -500,6 +264,18 @@
     ]
   },
   {
+    "promotionId": "uwa-mexico",
+    "id": "uwa-tv",
+    "name": "UWA / Lucha Libre Internacional Television",
+    "kind": "weekly",
+    "firstAirDate": "1975-01-01",
+    "cadence": "Weekly / highlights",
+    "description": "The El Toreo promotion's television and tape chronology.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1995-01-01"
+  },
+  {
     "promotionId": "jcp",
     "id": "jcp-worldwide",
     "name": "World Wide Wrestling",
@@ -513,33 +289,6 @@
     "aliases": [
       "NWA World Wide Wrestling",
       "NWA Pro Wrestling"
-    ]
-  },
-  {
-    "promotionId": "uwa-mexico",
-    "id": "uwa-tv",
-    "name": "UWA / Lucha Libre Internacional Television",
-    "kind": "weekly",
-    "firstAirDate": "1975-01-01",
-    "cadence": "Weekly / highlights",
-    "description": "The El Toreo promotion's television and tape chronology.",
-    "priority": "recommended",
-    "datePrecision": "year",
-    "endDate": "1995-01-01"
-  },
-  {
-    "promotionId": "uwa-mexico",
-    "id": "uwa-mexico-archive",
-    "name": "UWA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1975-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Universal Wrestling Association / Lucha Libre Internacional, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Universal Wrestling Association / Lucha Libre Internacional",
-      "UWA"
     ]
   },
   {
@@ -559,21 +308,6 @@
     ]
   },
   {
-    "promotionId": "memphis",
-    "id": "memphis-archive",
-    "name": "Memphis Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1977-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Continental Wrestling Association / Memphis Wrestling / USWA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Continental Wrestling Association / Memphis Wrestling / USWA",
-      "Memphis"
-    ]
-  },
-  {
     "promotionId": "ajpw",
     "id": "ajpw-rwtl",
     "name": "World's Strongest Tag Determination League",
@@ -586,21 +320,6 @@
     "aliases": [
       "Real World Tag League",
       "AJPW Tag League"
-    ]
-  },
-  {
-    "promotionId": "mid-south",
-    "id": "mid-south-archive",
-    "name": "Mid-South Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1979-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Mid-South Wrestling / Universal Wrestling Federation, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Mid-South Wrestling / Universal Wrestling Federation",
-      "Mid-South"
     ]
   },
   {
@@ -637,6 +356,22 @@
     "traktType": "show"
   },
   {
+    "promotionId": "jcp",
+    "id": "jcp-starrcade",
+    "name": "Starrcade (Jim Crockett Promotions)",
+    "kind": "supercard",
+    "firstAirDate": "1983-11-24",
+    "endDate": "1988-12-26",
+    "cadence": "Annual supercard",
+    "description": "Jim Crockett Promotions’ flagship Thanksgiving-season supercard before the event continued under WCW.",
+    "priority": "essential",
+    "datePrecision": "exact",
+    "aliases": [
+      "NWA Starrcade",
+      "Starrcade"
+    ]
+  },
+  {
     "promotionId": "wcw",
     "id": "wcw-ppv",
     "name": "WCW Pay-Per-View Archive",
@@ -665,6 +400,21 @@
     "endDate": "1988-05-08"
   },
   {
+    "promotionId": "awa",
+    "id": "awa-espn",
+    "name": "AWA Championship Wrestling on ESPN",
+    "kind": "weekly",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Weekly",
+    "description": "The national ESPN programme that documented the AWA's late period.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1990-01-01",
+    "aliases": [
+      "AWA on ESPN"
+    ]
+  },
+  {
     "promotionId": "ajw",
     "id": "ajw-japan-gp",
     "name": "Japan Grand Prix",
@@ -687,21 +437,6 @@
     "priority": "recommended",
     "datePrecision": "year",
     "endDate": "2004-01-01"
-  },
-  {
-    "promotionId": "awa",
-    "id": "awa-espn",
-    "name": "AWA Championship Wrestling on ESPN",
-    "kind": "weekly",
-    "firstAirDate": "1985-01-01",
-    "cadence": "Weekly",
-    "description": "The national ESPN programme that documented the AWA's late period.",
-    "priority": "recommended",
-    "datePrecision": "year",
-    "endDate": "1990-01-01",
-    "aliases": [
-      "AWA on ESPN"
-    ]
   },
   {
     "promotionId": "wwe",
@@ -818,21 +553,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "uwfi",
-    "id": "uwfi-archive",
-    "name": "UWF / UWFi Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1988-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for UWF Newborn / UWF International, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "UWF Newborn / UWF International",
-      "UWF / UWFi"
-    ]
-  },
-  {
     "promotionId": "wcw",
     "id": "wcw-main-event",
     "name": "WCW Main Event",
@@ -848,21 +568,6 @@
       "World Championship Wrestling Main Event"
     ],
     "sourceUrl": "https://en.wikipedia.org/wiki/WCW_Main_Event"
-  },
-  {
-    "promotionId": "wcw",
-    "id": "wcw-archive",
-    "name": "WCW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1988-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World Championship Wrestling",
-      "WCW"
-    ]
   },
   {
     "promotionId": "jcp",
@@ -893,21 +598,6 @@
     "priority": "essential",
     "datePrecision": "exact",
     "endDate": "1996-12-27"
-  },
-  {
-    "promotionId": "fmw",
-    "id": "fmw-archive",
-    "name": "FMW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1989-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Frontier Martial-Arts Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Frontier Martial-Arts Wrestling",
-      "FMW"
-    ]
   },
   {
     "promotionId": "wcw",
@@ -954,36 +644,6 @@
     "youtubeUrl": "https://www.youtube.com/@VideosOficialesCMLL"
   },
   {
-    "promotionId": "sws",
-    "id": "sws-archive",
-    "name": "SWS Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1990-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Super World of Sports, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Super World of Sports",
-      "SWS"
-    ]
-  },
-  {
-    "promotionId": "uwf-abrams",
-    "id": "uwf-abrams-archive",
-    "name": "UWF (Abrams) Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1990-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Universal Wrestling Federation — Herb Abrams, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Universal Wrestling Federation — Herb Abrams",
-      "UWF (Abrams)"
-    ]
-  },
-  {
     "promotionId": "uwf-abrams",
     "id": "uwf-fury",
     "name": "UWF Fury Hour",
@@ -999,36 +659,6 @@
     ]
   },
   {
-    "promotionId": "rings",
-    "id": "rings-archive",
-    "name": "RINGS Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1991-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Fighting Network RINGS, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Fighting Network RINGS",
-      "RINGS"
-    ]
-  },
-  {
-    "promotionId": "smw",
-    "id": "smw-archive",
-    "name": "SMW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1991-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Smoky Mountain Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Smoky Mountain Wrestling",
-      "SMW"
-    ]
-  },
-  {
     "promotionId": "njpw",
     "id": "njpw-g1",
     "name": "G1 Climax",
@@ -1040,69 +670,6 @@
     "datePrecision": "exact",
     "aliases": [
       "NJPW G1 Climax"
-    ]
-  },
-  {
-    "promotionId": "aaa",
-    "id": "aaa-archive",
-    "name": "AAA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1992-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Lucha Libre AAA Worldwide, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Lucha Libre AAA Worldwide",
-      "AAA"
-    ],
-    "officialUrl": "https://www.luchalibreaaa.com/",
-    "youtubeUrl": "https://www.youtube.com/@luchalibreaaa"
-  },
-  {
-    "promotionId": "ecw",
-    "id": "ecw-archive",
-    "name": "ECW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1992-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Eastern Championship Wrestling / Extreme Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Eastern Championship Wrestling / Extreme Championship Wrestling",
-      "ECW"
-    ]
-  },
-  {
-    "promotionId": "pure-j",
-    "id": "pure-j-archive",
-    "name": "JWP / PURE-J Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1992-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for JWP Joshi Puroresu / PURE-J, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "JWP Joshi Puroresu / PURE-J",
-      "JWP / PURE-J"
-    ],
-    "officialUrl": "https://pure-j.jp/"
-  },
-  {
-    "promotionId": "war-japan",
-    "id": "war-japan-archive",
-    "name": "WAR Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1992-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Wrestle Association R, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Wrestle Association R",
-      "WAR"
     ]
   },
   {
@@ -1169,6 +736,21 @@
   },
   {
     "promotionId": "aaa",
+    "id": "aaa-major-events",
+    "name": "AAA Major Events & International Specials",
+    "kind": "supercard",
+    "firstAirDate": "1992-05-15",
+    "cadence": "Selected major events",
+    "description": "Major AAA cards and international specials outside the recurring Triplemanía and Rey de Reyes series, including When Worlds Collide.",
+    "priority": "complete",
+    "datePrecision": "exact",
+    "aliases": [
+      "AAA PPV",
+      "AAA Special Events"
+    ]
+  },
+  {
+    "promotionId": "aaa",
     "id": "aaa-sin-limite",
     "name": "AAA Sin Límite / AAA Worldwide",
     "kind": "weekly",
@@ -1182,40 +764,6 @@
       "Lucha Libre AAA"
     ],
     "youtubeUrl": "https://www.youtube.com/@luchalibreaaa"
-  },
-  {
-    "promotionId": "michinoku",
-    "id": "michinoku-archive",
-    "name": "M-Pro Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1993-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Michinoku Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Michinoku Pro Wrestling",
-      "M-Pro"
-    ],
-    "officialUrl": "https://www.michipro.jp/",
-    "youtubeUrl": "https://www.youtube.com/@michinokuprowrestling"
-  },
-  {
-    "promotionId": "ovw",
-    "id": "ovw-archive",
-    "name": "OVW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1993-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Ohio Valley Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Ohio Valley Wrestling",
-      "OVW"
-    ],
-    "officialUrl": "https://ovwrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@OVWTV"
   },
   {
     "promotionId": "wwe",
@@ -1288,21 +836,6 @@
     ]
   },
   {
-    "promotionId": "iwa-pr",
-    "id": "iwa-pr-archive",
-    "name": "IWA-PR Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1994-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for International Wrestling Association Puerto Rico, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "International Wrestling Association Puerto Rico",
-      "IWA-PR"
-    ]
-  },
-  {
     "promotionId": "wcw",
     "id": "wcw-pro",
     "name": "WCW Pro",
@@ -1363,23 +896,6 @@
   },
   {
     "promotionId": "bjw",
-    "id": "bjw-archive",
-    "name": "BJW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1995-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Big Japan Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Big Japan Pro Wrestling",
-      "BJW"
-    ],
-    "officialUrl": "https://bjw.co.jp/",
-    "youtubeUrl": "https://www.youtube.com/@BJWOfficial"
-  },
-  {
-    "promotionId": "bjw",
     "id": "bjw-tv",
     "name": "Big Japan Wrestling Television & Streaming",
     "kind": "weekly",
@@ -1423,36 +939,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "eccw",
-    "id": "eccw-archive",
-    "name": "ECCW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1996-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Elite Canadian Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Elite Canadian Championship Wrestling",
-      "ECCW"
-    ]
-  },
-  {
-    "promotionId": "iwa-ms",
-    "id": "iwa-ms-archive",
-    "name": "IWA-MS Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1996-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for IWA Mid-South, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "IWA Mid-South",
-      "IWA-MS"
-    ]
-  },
-  {
     "promotionId": "iwrg",
     "id": "iwrg-tv",
     "name": "IWRG Arena Naucalpan",
@@ -1462,22 +948,6 @@
     "description": "IWRG's frequent Arena Naucalpan television and streaming cards.",
     "priority": "recommended",
     "datePrecision": "year"
-  },
-  {
-    "promotionId": "iwrg",
-    "id": "iwrg-archive",
-    "name": "IWRG Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1996-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for International Wrestling Revolution Group, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "International Wrestling Revolution Group",
-      "IWRG"
-    ],
-    "officialUrl": "https://www.facebook.com/IWRGoficial/"
   },
   {
     "promotionId": "wwe",
@@ -1494,23 +964,6 @@
       "LiveWire"
     ],
     "sourceUrl": "https://en.wikipedia.org/wiki/WWF_LiveWire"
-  },
-  {
-    "promotionId": "ddt",
-    "id": "ddt-archive",
-    "name": "DDT Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1997-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for DDT Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "DDT Pro-Wrestling",
-      "DDT"
-    ],
-    "officialUrl": "https://www.ddtpro.com/",
-    "youtubeUrl": "https://www.youtube.com/@ddtofficial"
   },
   {
     "promotionId": "iwa-ms",
@@ -1601,22 +1054,6 @@
     "youtubeUrl": "https://www.youtube.com/@OVWTV"
   },
   {
-    "promotionId": "oz-academy",
-    "id": "oz-academy-archive",
-    "name": "OZ Academy Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1998-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for OZ Academy, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "OZ Academy",
-      "OZ Academy"
-    ],
-    "officialUrl": "https://oz-academy.com/"
-  },
-  {
     "promotionId": "wcw",
     "id": "wcw-thunder",
     "name": "WCW Thunder",
@@ -1652,57 +1089,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "czw",
-    "id": "czw-archive",
-    "name": "CZW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1999-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Combat Zone Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Combat Zone Wrestling",
-      "CZW"
-    ],
-    "officialUrl": "https://www.czwrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@CZW"
-  },
-  {
-    "promotionId": "dragon-gate",
-    "id": "dragon-gate-archive",
-    "name": "Dragon Gate Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1999-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Toryumon Japan / Dragon Gate, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Toryumon Japan / Dragon Gate",
-      "Dragon Gate"
-    ],
-    "officialUrl": "https://www.gaora.co.jp/dragongate/",
-    "youtubeUrl": "https://www.youtube.com/@dragongatejp"
-  },
-  {
-    "promotionId": "gcw",
-    "id": "gcw-archive",
-    "name": "GCW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1999-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Game Changer Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Game Changer Wrestling",
-      "GCW"
-    ],
-    "officialUrl": "https://gcwmerch.com/",
-    "youtubeUrl": "https://www.youtube.com/@GCWrestling"
-  },
-  {
     "promotionId": "iwa-pr",
     "id": "iwa-impacto",
     "name": "IWA Impacto Total",
@@ -1714,38 +1100,6 @@
     "datePrecision": "year",
     "aliases": [
       "Impacto Total"
-    ]
-  },
-  {
-    "promotionId": "osaka-pro",
-    "id": "osaka-pro-archive",
-    "name": "Osaka Pro Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1999-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Osaka Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Osaka Pro Wrestling",
-      "Osaka Pro"
-    ],
-    "officialUrl": "https://www.osakaprowres.com/",
-    "youtubeUrl": "https://www.youtube.com/@osakaprowrestling"
-  },
-  {
-    "promotionId": "xpw",
-    "id": "xpw-archive",
-    "name": "XPW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "1999-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Xtreme Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Xtreme Pro Wrestling",
-      "XPW"
     ]
   },
   {
@@ -1835,57 +1189,6 @@
   },
   {
     "promotionId": "noah",
-    "id": "noah-archive",
-    "name": "NOAH Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2000-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro Wrestling NOAH, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro Wrestling NOAH",
-      "NOAH"
-    ],
-    "officialUrl": "https://www.noah.co.jp/",
-    "youtubeUrl": "https://www.youtube.com/@PROWRESTLINGNOAHenglish"
-  },
-  {
-    "promotionId": "wow",
-    "id": "wow-archive",
-    "name": "WOW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2000-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Women of Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Women of Wrestling",
-      "WOW"
-    ],
-    "officialUrl": "https://wowe.com/",
-    "youtubeUrl": "https://www.youtube.com/@WOWSuperheroes"
-  },
-  {
-    "promotionId": "wxw",
-    "id": "wxw-archive",
-    "name": "wXw Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2000-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Westside Xtreme Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Westside Xtreme Wrestling",
-      "wXw"
-    ],
-    "officialUrl": "https://www.wxw-wrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@wXwGermany"
-  },
-  {
-    "promotionId": "noah",
     "id": "noah-tv",
     "name": "Pro Wrestling NOAH Television & Streaming",
     "kind": "weekly",
@@ -1943,22 +1246,6 @@
     "youtubeUrl": "https://www.youtube.com/@CZW"
   },
   {
-    "promotionId": "zero1",
-    "id": "zero1-archive",
-    "name": "ZERO1 Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2001-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro Wrestling ZERO1, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro Wrestling ZERO1",
-      "ZERO1"
-    ],
-    "officialUrl": "https://www.z-1.co.jp/"
-  },
-  {
     "promotionId": "czw",
     "id": "czw-best",
     "name": "Best of the Best",
@@ -1982,89 +1269,6 @@
     "description": "ZERO1's annual heavyweight singles league.",
     "priority": "essential",
     "datePrecision": "month"
-  },
-  {
-    "promotionId": "2aw",
-    "id": "2aw-archive",
-    "name": "2AW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2002-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Kaientai Dojo / Active Advance Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Kaientai Dojo / Active Advance Pro Wrestling",
-      "2AW"
-    ],
-    "officialUrl": "https://www.2aw.jp/"
-  },
-  {
-    "promotionId": "chikara",
-    "id": "chikara-archive",
-    "name": "CHIKARA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2002-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for CHIKARA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "CHIKARA",
-      "CHIKARA"
-    ],
-    "youtubeUrl": "https://www.youtube.com/@CHIKARAoffice"
-  },
-  {
-    "promotionId": "mlw",
-    "id": "mlw-archive",
-    "name": "MLW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2002-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Major League Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Major League Wrestling",
-      "MLW"
-    ],
-    "officialUrl": "https://mlw.com/",
-    "youtubeUrl": "https://www.youtube.com/@MLW"
-  },
-  {
-    "promotionId": "roh",
-    "id": "roh-archive",
-    "name": "ROH Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2002-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Ring of Honor, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Ring of Honor",
-      "ROH"
-    ],
-    "officialUrl": "https://www.ringofhonor.com/",
-    "youtubeUrl": "https://www.youtube.com/@ringofhonor"
-  },
-  {
-    "promotionId": "tna",
-    "id": "tna-archive",
-    "name": "TNA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2002-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Total Nonstop Action Wrestling / Impact Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Total Nonstop Action Wrestling / Impact Wrestling",
-      "TNA"
-    ],
-    "officialUrl": "https://tnawrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@TNAWrestling"
   },
   {
     "promotionId": "wwe",
@@ -2232,22 +1436,6 @@
     ]
   },
   {
-    "promotionId": "pwg",
-    "id": "pwg-archive",
-    "name": "PWG Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2003-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro Wrestling Guerrilla, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro Wrestling Guerrilla",
-      "PWG"
-    ],
-    "officialUrl": "https://www.prowrestlingguerrilla.com/"
-  },
-  {
     "promotionId": "mlw",
     "id": "mlw-underground",
     "name": "MLW Underground TV",
@@ -2356,86 +1544,6 @@
     "datePrecision": "year"
   },
   {
-    "promotionId": "one-pw",
-    "id": "one-pw-archive",
-    "name": "1PW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2005-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for 1 Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "1 Pro Wrestling",
-      "1PW"
-    ]
-  },
-  {
-    "promotionId": "row",
-    "id": "row-archive",
-    "name": "ROW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2005-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Reality of Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Reality of Wrestling",
-      "ROW"
-    ],
-    "officialUrl": "https://www.realityofwrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
-  },
-  {
-    "promotionId": "sendai-girls",
-    "id": "sendai-girls-archive",
-    "name": "Sendai Girls Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2005-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Sendai Girls' Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Sendai Girls' Pro Wrestling",
-      "Sendai Girls"
-    ],
-    "officialUrl": "https://sendaigirls.jp/",
-    "youtubeUrl": "https://www.youtube.com/@SENDAIGIRLS"
-  },
-  {
-    "promotionId": "shimmer",
-    "id": "shimmer-archive",
-    "name": "SHIMMER Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2005-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for SHIMMER Women Athletes, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "SHIMMER Women Athletes",
-      "SHIMMER"
-    ]
-  },
-  {
-    "promotionId": "wsw",
-    "id": "wsw-archive",
-    "name": "WSW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2005-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World Series Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World Series Wrestling",
-      "WSW"
-    ],
-    "officialUrl": "https://worldserieswrestling.com.au/"
-  },
-  {
     "promotionId": "njpw",
     "id": "njpw-cup",
     "name": "New Japan Cup",
@@ -2498,40 +1606,6 @@
     "youtubeUrl": "https://www.youtube.com/@CHIKARAoffice"
   },
   {
-    "promotionId": "ice-ribbon",
-    "id": "ice-ribbon-archive",
-    "name": "Ice Ribbon Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2006-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Ice Ribbon, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Ice Ribbon",
-      "Ice Ribbon"
-    ],
-    "officialUrl": "https://iceribbon.com/",
-    "youtubeUrl": "https://www.youtube.com/@iceribbon"
-  },
-  {
-    "promotionId": "icw",
-    "id": "icw-archive",
-    "name": "ICW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2006-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Insane Championship Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Insane Championship Wrestling",
-      "ICW"
-    ],
-    "officialUrl": "https://www.insanewrestling.co.uk/",
-    "youtubeUrl": "https://www.youtube.com/@ICWOnline"
-  },
-  {
     "promotionId": "wxw",
     "id": "wxw-16carat",
     "name": "16 Carat Gold",
@@ -2579,39 +1653,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "pwa-australia",
-    "id": "pwa-australia-archive",
-    "name": "PWA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2007-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro Wrestling Australia — Black Label, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro Wrestling Australia — Black Label",
-      "PWA"
-    ],
-    "officialUrl": "https://pwaaustralia.com.au/",
-    "youtubeUrl": "https://www.youtube.com/@PWAAustralia"
-  },
-  {
-    "promotionId": "wave",
-    "id": "wave-archive",
-    "name": "WAVE Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2007-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro Wrestling WAVE, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro Wrestling WAVE",
-      "WAVE"
-    ],
-    "officialUrl": "https://pro-w-wave.com/"
-  },
-  {
     "promotionId": "chikara",
     "id": "chikara-kot",
     "name": "King of Trios",
@@ -2649,69 +1690,6 @@
     "description": "ICW's signature large-scale annual event.",
     "priority": "essential",
     "datePrecision": "year"
-  },
-  {
-    "promotionId": "beyond",
-    "id": "beyond-archive",
-    "name": "Beyond Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2009-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Beyond Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Beyond Wrestling",
-      "Beyond"
-    ],
-    "officialUrl": "https://beyondwrestlingonline.com/",
-    "youtubeUrl": "https://www.youtube.com/@BeyondWrestling"
-  },
-  {
-    "promotionId": "dgusa",
-    "id": "dgusa-archive",
-    "name": "DGUSA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2009-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Dragon Gate USA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Dragon Gate USA",
-      "DGUSA"
-    ]
-  },
-  {
-    "promotionId": "fight-club-pro",
-    "id": "fight-club-pro-archive",
-    "name": "FCP Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2009-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Fight Club: PRO, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Fight Club: PRO",
-      "FCP"
-    ]
-  },
-  {
-    "promotionId": "freedoms",
-    "id": "freedoms-archive",
-    "name": "FREEDOMS Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2009-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro Wrestling FREEDOMS, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro Wrestling FREEDOMS",
-      "FREEDOMS"
-    ],
-    "officialUrl": "https://pw-freedoms.co.jp/"
   },
   {
     "promotionId": "roh",
@@ -2788,72 +1766,6 @@
     ]
   },
   {
-    "promotionId": "eve",
-    "id": "eve-archive",
-    "name": "EVE Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2010-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro-Wrestling: EVE, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro-Wrestling: EVE",
-      "EVE"
-    ],
-    "officialUrl": "https://www.evewrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@ProWrestlingEVE"
-  },
-  {
-    "promotionId": "evolve",
-    "id": "evolve-archive",
-    "name": "EVOLVE Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2010-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for EVOLVE Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "EVOLVE Wrestling",
-      "EVOLVE"
-    ]
-  },
-  {
-    "promotionId": "mcw-australia",
-    "id": "mcw-australia-archive",
-    "name": "MCW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2010-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Melbourne City Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Melbourne City Wrestling",
-      "MCW"
-    ],
-    "officialUrl": "https://melbournecitywrestling.com.au/",
-    "youtubeUrl": "https://www.youtube.com/@MCWEncore"
-  },
-  {
-    "promotionId": "stardom",
-    "id": "stardom-archive",
-    "name": "STARDOM Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2010-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for World Wonder Ring Stardom, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "World Wonder Ring Stardom",
-      "STARDOM"
-    ],
-    "officialUrl": "https://wwr-stardom.com/",
-    "youtubeUrl": "https://www.youtube.com/@STARDOMofficial"
-  },
-  {
     "promotionId": "evolve",
     "id": "evolve-events",
     "name": "EVOLVE Numbered Events",
@@ -2912,37 +1824,6 @@
     "youtubeUrl": "https://www.youtube.com/@MCWEncore"
   },
   {
-    "promotionId": "attack",
-    "id": "attack-archive",
-    "name": "ATTACK! Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2011-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for ATTACK! Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "ATTACK! Pro Wrestling",
-      "ATTACK!"
-    ],
-    "officialUrl": "https://attackprowrestling.com/"
-  },
-  {
-    "promotionId": "the-crash",
-    "id": "the-crash-archive",
-    "name": "The Crash Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2011-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for The Crash Lucha Libre, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "The Crash Lucha Libre",
-      "The Crash"
-    ]
-  },
-  {
     "promotionId": "stardom",
     "id": "stardom-major",
     "name": "STARDOM Major Event Archive",
@@ -2973,74 +1854,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "gatoh-move",
-    "id": "gatoh-move-archive",
-    "name": "ChocoPro Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2012-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Gatoh Move / ChocoPro, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Gatoh Move / ChocoPro",
-      "ChocoPro"
-    ],
-    "officialUrl": "https://gatohmove.com/",
-    "youtubeUrl": "https://www.youtube.com/@gatohmove"
-  },
-  {
-    "promotionId": "hog",
-    "id": "hog-archive",
-    "name": "HOG Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2012-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for House of Glory, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "House of Glory",
-      "HOG"
-    ],
-    "officialUrl": "https://www.hogwrestling.net/",
-    "youtubeUrl": "https://www.youtube.com/@HouseOfGloryWrestling"
-  },
-  {
-    "promotionId": "progress",
-    "id": "progress-archive",
-    "name": "PROGRESS Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2012-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for PROGRESS Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "PROGRESS Wrestling",
-      "PROGRESS"
-    ],
-    "officialUrl": "https://progresswrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@ThisIsProgress"
-  },
-  {
-    "promotionId": "revpro",
-    "id": "revpro-archive",
-    "name": "RevPro Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2012-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Revolution Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Revolution Pro Wrestling",
-      "RevPro"
-    ],
-    "officialUrl": "https://www.revolutionprowrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@RevolutionProWrestling"
-  },
-  {
     "promotionId": "row",
     "id": "row-tv",
     "name": "Reality of Wrestling",
@@ -3054,39 +1867,6 @@
       "ROW TV"
     ],
     "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
-  },
-  {
-    "promotionId": "shine",
-    "id": "shine-archive",
-    "name": "SHINE Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2012-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for SHINE Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "SHINE Wrestling",
-      "SHINE"
-    ],
-    "officialUrl": "https://shinewrestling.com/"
-  },
-  {
-    "promotionId": "smash-canada",
-    "id": "smash-canada-archive",
-    "name": "Smash Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2012-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Smash Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Smash Wrestling",
-      "Smash"
-    ],
-    "officialUrl": "https://smash-wrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@SmashWrestling"
   },
   {
     "promotionId": "progress",
@@ -3144,54 +1924,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "ganbare",
-    "id": "ganbare-archive",
-    "name": "GanPro Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2013-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Ganbare Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Ganbare Pro-Wrestling",
-      "GanPro"
-    ],
-    "officialUrl": "https://ganpro.net/"
-  },
-  {
-    "promotionId": "tjpw",
-    "id": "tjpw-archive",
-    "name": "TJPW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2013-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Tokyo Joshi Pro-Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Tokyo Joshi Pro-Wrestling",
-      "TJPW"
-    ],
-    "officialUrl": "https://www.ddtpro.com/tjpw",
-    "youtubeUrl": "https://www.youtube.com/@tjpw2013"
-  },
-  {
-    "promotionId": "wrestle-1",
-    "id": "wrestle-1-archive",
-    "name": "W-1 Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2013-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for WRESTLE-1, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "WRESTLE-1",
-      "W-1"
-    ]
-  },
-  {
     "promotionId": "wxw",
     "id": "wxw-shotgun",
     "name": "wXw Shotgun",
@@ -3219,53 +1951,6 @@
     "aliases": [
       "RevPro High Stakes"
     ]
-  },
-  {
-    "promotionId": "gfw",
-    "id": "gfw-archive",
-    "name": "GFW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2014-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Global Force Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Global Force Wrestling",
-      "GFW"
-    ]
-  },
-  {
-    "promotionId": "lucha-underground",
-    "id": "lucha-underground-archive",
-    "name": "Lucha Underground Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2014-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Lucha Underground, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Lucha Underground",
-      "Lucha Underground"
-    ]
-  },
-  {
-    "promotionId": "ott",
-    "id": "ott-archive",
-    "name": "OTT Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2014-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Over the Top Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Over the Top Wrestling",
-      "OTT"
-    ],
-    "officialUrl": "https://www.ottwrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@OTTWrestling"
   },
   {
     "promotionId": "wwe",
@@ -3325,22 +2010,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "basara",
-    "id": "basara-archive",
-    "name": "BASARA Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2015-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Pro-Wrestling BASARA, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Pro-Wrestling BASARA",
-      "BASARA"
-    ],
-    "officialUrl": "https://basarapw.com/"
-  },
-  {
     "promotionId": "icw",
     "id": "icw-fight-club",
     "name": "ICW Fight Club",
@@ -3356,39 +2025,6 @@
     "youtubeUrl": "https://www.youtube.com/@ICWOnline"
   },
   {
-    "promotionId": "marvelous",
-    "id": "marvelous-archive",
-    "name": "Marvelous Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2015-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Marvelous That's Women Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Marvelous That's Women Pro Wrestling",
-      "Marvelous"
-    ],
-    "officialUrl": "https://www.marvelcompany.co.jp/",
-    "youtubeUrl": "https://www.youtube.com/@MarvelousPro"
-  },
-  {
-    "promotionId": "seadlinnng",
-    "id": "seadlinnng-archive",
-    "name": "SEAdLINNNG Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2015-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for SEAdLINNNG, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "SEAdLINNNG",
-      "SEAdLINNNG"
-    ],
-    "officialUrl": "https://seadlinnng.com/"
-  },
-  {
     "promotionId": "smash-canada",
     "id": "smash-tv",
     "name": "Smash Wrestling Television",
@@ -3402,22 +2038,6 @@
       "Smash Wrestling"
     ],
     "youtubeUrl": "https://www.youtube.com/@SmashWrestling"
-  },
-  {
-    "promotionId": "tnt",
-    "id": "tnt-archive",
-    "name": "TNT Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2015-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for TNT Extreme Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "TNT Extreme Wrestling",
-      "TNT"
-    ],
-    "officialUrl": "https://tntextremewrestling.co.uk/"
   },
   {
     "promotionId": "njpw",
@@ -3493,38 +2113,6 @@
     ]
   },
   {
-    "promotionId": "revolver",
-    "id": "revolver-archive",
-    "name": "Revolver Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2016-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for The Wrestling Revolver, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "The Wrestling Revolver",
-      "Revolver"
-    ],
-    "officialUrl": "https://www.prowrestlingrevolver.com/"
-  },
-  {
-    "promotionId": "wcpw-defiant",
-    "id": "wcpw-defiant-archive",
-    "name": "WCPW / Defiant Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2016-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for WhatCulture Pro Wrestling / Defiant Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "WhatCulture Pro Wrestling / Defiant Wrestling",
-      "WCPW / Defiant"
-    ],
-    "youtubeUrl": "https://www.youtube.com/@DefiantWrestling"
-  },
-  {
     "promotionId": "wcpw-defiant",
     "id": "wcpw-loaded",
     "name": "WCPW Loaded / Defiant",
@@ -3557,87 +2145,6 @@
     ],
     "tvMazeId": 22536,
     "traktType": "show"
-  },
-  {
-    "promotionId": "bar",
-    "id": "bar-archive",
-    "name": "BAR Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2017-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Bar Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Bar Wrestling",
-      "BAR"
-    ]
-  },
-  {
-    "promotionId": "black-label-pro",
-    "id": "black-label-pro-archive",
-    "name": "BLP Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2017-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Black Label Pro, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Black Label Pro",
-      "BLP"
-    ],
-    "officialUrl": "https://blacklabelpro.com/"
-  },
-  {
-    "promotionId": "defy",
-    "id": "defy-archive",
-    "name": "DEFY Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2017-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for DEFY Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "DEFY Wrestling",
-      "DEFY"
-    ],
-    "officialUrl": "https://www.defywrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@DEFYWrestling"
-  },
-  {
-    "promotionId": "nwa-modern",
-    "id": "nwa-modern-archive",
-    "name": "NWA (Modern) Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2017-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for National Wrestling Alliance — Modern, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "National Wrestling Alliance — Modern",
-      "NWA (Modern)"
-    ],
-    "officialUrl": "https://www.nationalwrestlingalliance.com/",
-    "youtubeUrl": "https://www.youtube.com/@NWA"
-  },
-  {
-    "promotionId": "prestige",
-    "id": "prestige-archive",
-    "name": "Prestige Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2017-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Prestige Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Prestige Wrestling",
-      "Prestige"
-    ],
-    "officialUrl": "https://prestigewrestling.net/"
   },
   {
     "promotionId": "pwa-australia",
@@ -3774,22 +2281,6 @@
     ]
   },
   {
-    "promotionId": "west-coast-pro",
-    "id": "west-coast-pro-archive",
-    "name": "West Coast Pro Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2018-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for West Coast Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "West Coast Pro Wrestling",
-      "West Coast Pro"
-    ],
-    "officialUrl": "https://www.westcoastproofficial.com/"
-  },
-  {
     "promotionId": "mlw",
     "id": "mlw-fusion",
     "name": "MLW Fusion",
@@ -3850,54 +2341,6 @@
     ],
     "tvMazeId": 39053,
     "traktType": "show"
-  },
-  {
-    "promotionId": "aew",
-    "id": "aew-archive",
-    "name": "AEW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2019-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for All Elite Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "All Elite Wrestling",
-      "AEW"
-    ],
-    "officialUrl": "https://www.allelitewrestling.com/",
-    "youtubeUrl": "https://www.youtube.com/@AEW"
-  },
-  {
-    "promotionId": "icw-nhb",
-    "id": "icw-nhb-archive",
-    "name": "ICW NHB Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2019-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for ICW No Holds Barred, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "ICW No Holds Barred",
-      "ICW NHB"
-    ]
-  },
-  {
-    "promotionId": "jto",
-    "id": "jto-archive",
-    "name": "JTO Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2019-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Just Tap Out, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Just Tap Out",
-      "JTO"
-    ],
-    "officialUrl": "https://pwjto.com/"
   },
   {
     "promotionId": "wow",
@@ -4031,23 +2474,6 @@
     "traktType": "show"
   },
   {
-    "promotionId": "gleat",
-    "id": "gleat-archive",
-    "name": "GLEAT Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2020-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for GLEAT, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "GLEAT",
-      "GLEAT"
-    ],
-    "officialUrl": "https://ent.lidet.co.jp/",
-    "youtubeUrl": "https://www.youtube.com/@LIDET_ENT"
-  },
-  {
     "promotionId": "stardom",
     "id": "we-are-stardom",
     "name": "We Are STARDOM!!",
@@ -4151,23 +2577,6 @@
     "description": "TJPW's flagship autumn arena event.",
     "priority": "essential",
     "datePrecision": "exact"
-  },
-  {
-    "promotionId": "dpw",
-    "id": "dpw-archive",
-    "name": "DPW Promotion Master Index",
-    "kind": "archive",
-    "firstAirDate": "2021-01-01",
-    "cadence": "All known cards",
-    "description": "The promotion-level index for Deadlock Pro Wrestling, designed to receive individual cards, television episodes, tournaments and specials from connected catalogues without implying unverified dates.",
-    "priority": "complete",
-    "datePrecision": "year",
-    "aliases": [
-      "Deadlock Pro Wrestling",
-      "DPW"
-    ],
-    "officialUrl": "https://www.deadlockpro.com/",
-    "youtubeUrl": "https://www.youtube.com/@deadlockprowrestling"
   },
   {
     "promotionId": "tna",

@@ -82,7 +82,7 @@ async function wikipediaSummaryArtwork(input) {
   if (!['wrestler','company'].includes(input.kind) || !input.title) return null;
   const slug = encodeURIComponent(String(input.title).trim().replace(/\s+/g, '_'));
   const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${slug}`, {
-    headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)' },
+    headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app/)' },
     signal: withTimeout(6000)
   }).catch(() => null);
   if (!response?.ok) return null;
@@ -122,7 +122,7 @@ async function wikipediaArtwork(input) {
       origin: '*'
     });
     const response = await fetch(`https://en.wikipedia.org/w/api.php?${params}`, {
-      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)' },
+      headers: { Accept: 'application/json', 'User-Agent': 'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app/)', 'Api-User-Agent': 'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app/)' },
       signal: withTimeout()
     });
     if (!response.ok) continue;
@@ -183,7 +183,7 @@ async function commonsArtwork(input){
       inprop:'url',format:'json',formatversion:'2',origin:'*'
     });
     const response=await fetch(`https://commons.wikimedia.org/w/api.php?${params}`,{
-      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app/)'},
+      headers:{Accept:'application/json','User-Agent':'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app/)','Api-User-Agent':'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app/)'},
       signal:withTimeout()
     }).catch(()=>null);
     if(!response?.ok)continue;
@@ -299,7 +299,7 @@ async function proxyArtworkAsset(asset, res) {
   const response = await fetch(asset, {
     headers: {
       Accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-      'User-Agent': 'RingsideArchive/5.4.0 (+https://ringside-archive.vercel.app)',
+      'User-Agent': 'RingsideArchive/5.4.1 (+https://ringside-archive.vercel.app)',
       Referer: new URL(asset).origin + '/'
     },
     signal: withTimeout(15000)

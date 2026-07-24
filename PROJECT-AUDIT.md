@@ -1,9 +1,9 @@
-# Ringside Archive v5.4.0 professional audit
+# Ringside Archive v5.4.1 professional audit
 
 ## Preserved archive foundation
 
 - 101 promotion profiles
-- 287 programme families
+- 188 programme families
 - 1,144 dated major events
 - 1,144 detail records
 - 71 curated recommendations
@@ -89,3 +89,12 @@ The recovered interface was functional but visually flat at large desktop sizes,
 - full browser rendering smoke test.
 
 Live Trakt and Plex access still depends on the deployed credentials and the network reachability of the user’s Plex server. The repository tests use controlled mock responses and do not impersonate the user’s accounts.
+
+
+## Scroll stability and catalogue cleanup
+
+- Full-document renders capture and restore the first visible record and exact viewport offset.
+- Quiet cloud sync skips rendering unless user-visible state actually changed.
+- Background artwork hydration and feed-progress reporting do not rebuild the timeline.
+- Service-worker controller changes never call `location.reload()`.
+- 101 synthetic promotion master-index placeholders were removed from programme data and the Complete Timeline.
