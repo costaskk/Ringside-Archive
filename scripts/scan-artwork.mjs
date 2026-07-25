@@ -1,191 +1,138 @@
 import fs from 'node:fs/promises';
+import { lookup } from '../api/artwork/search.js';
 
 const root = new URL('../', import.meta.url);
-const token = process.env.TMDB_READ_ACCESS_TOKEN || '';
+const token = String(process.env.TMDB_READ_ACCESS_TOKEN || '').trim().replace(/^['"]|['"]$/g, '');
 const args = new Set(process.argv.slice(2));
 const includeEpisodes = args.has('--episodes');
 const wikipediaOnly = args.has('--wikipedia-only');
 const refresh = args.has('--refresh');
 const limitArg = process.argv.find(value => value.startsWith('--limit='));
 const limit = limitArg ? Number(limitArg.split('=')[1]) : Infinity;
-const [programmes, events, current] = await Promise.all([
+const effectiveToken = wikipediaOnly ? '' : token;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const [programmes, promotions, events, current] = await Promise.all([
   fs.readFile(new URL('data/programmes.json', root), 'utf8').then(JSON.parse),
+  fs.readFile(new URL('data/promotions.json', root), 'utf8').then(JSON.parse),
   fs.readFile(new URL('data/major-events.json', root), 'utf8').then(JSON.parse),
   fs.readFile(new URL('data/artwork-catalog.json', root), 'utf8').then(JSON.parse)
 ]);
+const programmeMap = new Map(programmes.map(item => [item.id, item]));
+const promotionMap = new Map(promotions.map(item => [item.id, item]));
 
-const image = path => path ? `https://image.tmdb.org/t/p/original${path}` : '';
-const clean = value => String(value || '').replace(/\b(?:WWE|WWF|WCW|ECW|AEW|TNA|NWA|NJPW|ROH)\b/gi, '').replace(/\b(?:PPV|PLE)\b/gi, '').replace(/\s+/g, ' ').trim();
-const norm = value => clean(value).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-async function tmdb(path) {
-  if (!token || wikipediaOnly) return null;
-  const response = await fetch(`https://api.themoviedb.org/3${path}`, {
-    headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
-    signal: AbortSignal.timeout(15000)
-  });
-  if (!response.ok) throw new Error(`TMDB ${response.status}`);
-  return response.json();
+function accepted(result) {
+  return result && !result.error && Number(result.confidence || 0) >= 80
+    && Boolean(result.poster || result.backdrop || result.still || result.logo || result.headshot);
 }
-
-function best(results, title, year, dateField) {
-  const wanted = norm(title);
-  return (results || []).map(result => {
-    const name = result.title || result.name || '';
-    const normalized = norm(name);
-    const candidateYear = Number(String(result[dateField] || '').slice(0, 4));
-    let score = 0;
-    if (normalized === wanted) score += 100;
-    else if (normalized.includes(wanted) || wanted.includes(normalized)) score += 50;
-    if (year && candidateYear === year) score += 30;
-    score += Number(result.popularity || 0) / 100;
-    return { result, score };
-  }).sort((a, b) => b.score - a.score)[0]?.result || null;
+function compact(result) {
+  const allowed = ['source','sourceUrl','attribution','confidence','matchReason','mediaType','tmdbId','tvMazeId','pageId','poster','backdrop','still','logo','headshot','seasons'];
+  return Object.fromEntries(allowed.filter(key => result[key] !== undefined && result[key] !== '').map(key => [key, result[key]]));
 }
-
-function wikiScore(page, title, year, programmeTitle = '') {
-  const wanted = norm(title);
-  const candidate = norm(page.title);
-  let score = 0;
-  if (candidate === wanted) score += 120;
-  else if (candidate.includes(wanted) || wanted.includes(candidate)) score += 70;
-  if (year && String(page.title || '').includes(String(year))) score += 20;
-  if (programmeTitle && candidate.includes(norm(programmeTitle))) score += 15;
-  if (page.original?.source) score += 12;
-  return score;
-}
-
-async function wikipedia(title, year, programmeTitle = '', kind = 'professional wrestling') {
-  const queries = [
-    [title, year, kind].filter(Boolean).join(' '),
-    [title, programmeTitle, kind].filter(Boolean).join(' '),
-    [clean(title), year, kind].filter(Boolean).join(' ')
-  ].filter((value, index, all) => value && all.indexOf(value) === index);
-  for (const query of queries) {
-    const params = new URLSearchParams({
-      action: 'query', generator: 'search', gsrsearch: query, gsrnamespace: '0', gsrlimit: '10',
-      prop: 'pageimages|info', piprop: 'original|thumbnail', pithumbsize: '1400', inprop: 'url',
-      redirects: '1', format: 'json', formatversion: '2', origin: '*'
-    });
-    const response = await fetch(`https://en.wikipedia.org/w/api.php?${params}`, {
-      headers: { Accept: 'application/json', 'Api-User-Agent': 'RingsideArchive/4.1 (catalogue artwork discovery)' },
-      signal: AbortSignal.timeout(15000)
-    });
-    if (!response.ok) continue;
-    const payload = await response.json();
-    const hit = (payload.query?.pages || [])
-      .filter(page => page.original?.source || page.thumbnail?.source)
-      .map(page => ({ page, score: wikiScore(page, title, year, programmeTitle) }))
-      .filter(row => row.score >= 65)
-      .sort((a, b) => b.score - a.score)[0]?.page;
-    if (!hit) continue;
-    const artwork = hit.original?.source || hit.thumbnail?.source || '';
-    return {
-      source: 'Wikipedia/Wikimedia', sourceUrl: hit.fullurl || `https://en.wikipedia.org/?curid=${hit.pageid}`,
-      pageId: hit.pageid, poster: artwork, backdrop: artwork,
-      attribution: 'Lead image supplied by Wikipedia/Wikimedia; verify the image-page licence before redistribution.'
-    };
-  }
-  return null;
-}
-
-async function programmeArtwork(programme) {
-  const year = Number(String(programme.firstAirDate).slice(0, 4));
-  if (token && !wikipediaOnly) {
-    const search = await tmdb(`/search/tv?query=${encodeURIComponent(programme.name)}${year ? `&first_air_date_year=${year}` : ''}`);
-    const show = best(search?.results, programme.name, year, 'first_air_date');
-    if (show) {
-      const details = await tmdb(`/tv/${show.id}`);
-      const seasons = {};
-      for (const season of details?.seasons || []) if (season.poster_path) seasons[season.season_number] = { poster: image(season.poster_path) };
-      return {
-        source: 'TMDB', sourceUrl: `https://www.themoviedb.org/tv/${show.id}`, tmdbId: show.id,
-        poster: image(show.poster_path), backdrop: image(show.backdrop_path), seasons
-      };
-    }
-  }
-  return wikipedia(programme.name, year, '', 'professional wrestling television');
-}
-
-async function eventArtwork(event) {
-  const year = Number(event.date.slice(0, 4));
-  if (token && !wikipediaOnly) {
-    for (const query of [event.title, clean(event.title)]) {
-      const search = await tmdb(`/search/movie?query=${encodeURIComponent(query)}&year=${year}`);
-      const movie = best(search?.results, event.title, year, 'release_date');
-      if (movie) return {
-        source: 'TMDB', sourceUrl: `https://www.themoviedb.org/movie/${movie.id}`, tmdbId: movie.id,
-        poster: image(movie.poster_path), backdrop: image(movie.backdrop_path)
-      };
-    }
-  }
-  return wikipedia(event.title, year, '', 'professional wrestling event');
+function contextFor(item, programme = null) {
+  const promotion = promotionMap.get(item.promotionId || programme?.promotionId);
+  return {
+    promotionName: promotion?.name || '',
+    promotionShortName: promotion?.shortName || '',
+    programmeTitle: programme?.name || '',
+    tvMazeId: item.tvMazeId || programme?.tvMazeId || null
+  };
 }
 
 current.programmes ||= {};
 current.records ||= {};
 current.episodes ||= {};
-let processed = 0;
+let processed = 0, found = 0, rejected = 0;
 
 for (const programme of programmes) {
   if (processed >= limit) break;
-  if (!refresh && current.programmes[programme.id]?.poster) continue;
+  if (!refresh && Number(current.programmes[programme.id]?.confidence || 0) >= 80) continue;
   try {
-    const result = await programmeArtwork(programme);
-    if (result?.poster) {
-      current.programmes[programme.id] = result;
-      console.log(`Programme [${result.source}]: ${programme.name}`);
+    const result = await lookup({
+      key: `program:${programme.id}`,
+      id: programme.id,
+      title: programme.name,
+      aliases: programme.aliases || [],
+      year: Number(String(programme.firstAirDate || '').slice(0, 4)) || null,
+      kind: programme.kind,
+      ...contextFor(programme, programme)
+    }, effectiveToken);
+    if (accepted(result)) {
+      current.programmes[programme.id] = compact(result); found++;
+      console.log(`Programme [${result.source}, ${result.confidence}%]: ${programme.name}`);
+    } else {
+      delete current.programmes[programme.id]; rejected++;
+      console.warn(`Programme rejected: ${programme.name}: ${result?.error || 'low confidence'}`);
     }
   } catch (error) {
     console.warn(`Programme skipped: ${programme.name}: ${error.message}`);
   }
-  processed += 1;
-  await sleep(token && !wikipediaOnly ? 280 : 180);
+  processed++;
+  await sleep(effectiveToken ? 240 : 160);
 }
 
 for (const event of events) {
   if (processed >= limit) break;
-  if (!refresh && current.records[event.id]?.poster) continue;
+  if (!refresh && Number(current.records[event.id]?.confidence || 0) >= 80) continue;
+  const programme = programmeMap.get(event.programId);
   try {
-    const result = await eventArtwork(event);
-    if (result?.poster) {
-      current.records[event.id] = result;
-      console.log(`Event [${result.source}]: ${event.title} (${event.date.slice(0, 4)})`);
+    const result = await lookup({
+      key: event.id,
+      id: event.id,
+      title: event.title,
+      aliases: event.aliases || [],
+      year: Number(String(event.date || '').slice(0, 4)) || null,
+      kind: event.kind || programme?.kind || 'supercard',
+      ...contextFor(event, programme)
+    }, effectiveToken);
+    if (accepted(result)) {
+      current.records[event.id] = compact(result); found++;
+      console.log(`Event [${result.source}, ${result.confidence}%]: ${event.title} (${String(event.date).slice(0, 4)})`);
+    } else {
+      delete current.records[event.id]; rejected++;
     }
   } catch (error) {
     console.warn(`Event skipped: ${event.id}: ${error.message}`);
   }
-  processed += 1;
-  await sleep(token && !wikipediaOnly ? 280 : 180);
+  processed++;
+  await sleep(effectiveToken ? 240 : 160);
 }
 
-if (includeEpisodes && token && !wikipediaOnly) {
+if (includeEpisodes) {
   const files = (await fs.readdir(new URL('data/tvmaze/', root))).filter(name => name.endsWith('.json') && name !== 'index.json');
   for (const file of files) {
     const feed = JSON.parse(await fs.readFile(new URL(`data/tvmaze/${file}`, root), 'utf8'));
-    const programme = programmes.find(item => item.id === feed.programId);
-    const tmdbShow = current.programmes[programme?.id]?.tmdbId;
-    if (!programme || !tmdbShow) continue;
+    const programme = programmeMap.get(feed.programId);
+    if (!programme) continue;
     for (const episode of feed.episodes || []) {
-      if (!episode.airdate || episode.image?.original || episode.image?.medium) continue;
+      if (processed >= limit) break;
       const key = `${programme.id}:${episode.season}:${episode.number ?? 0}`;
-      if (!refresh && current.episodes[key]?.still) continue;
-      try {
-        const images = await tmdb(`/tv/${tmdbShow}/season/${episode.season}/episode/${episode.number ?? 0}/images?include_image_language=en,null`);
-        const still = image(images?.stills?.[0]?.file_path);
-        if (still) current.episodes[key] = {
-          source: 'TMDB', sourceUrl: `https://www.themoviedb.org/tv/${tmdbShow}/season/${episode.season}/episode/${episode.number ?? 0}`, still
+      if (!refresh && Number(current.episodes[key]?.confidence || 0) >= 80) continue;
+      const existingStill = episode.image?.original || episode.image?.medium || '';
+      if (existingStill) {
+        current.episodes[key] = {
+          source: 'TVMaze', sourceUrl: episode.url || feed.show?.url || '', still: existingStill,
+          confidence: 100, matchReason: 'Exact TVMaze snapshot episode image'
         };
+        found++; processed++; continue;
+      }
+      try {
+        const result = await lookup({
+          key, title: episode.name || `${programme.name} episode`, programmeTitle: programme.name,
+          year: Number(String(episode.airdate || '').slice(0, 4)) || null, kind: 'episode',
+          season: episode.season, episode: episode.number, ...contextFor(programme, programme)
+        }, effectiveToken);
+        if (accepted(result) && result.still) { current.episodes[key] = compact(result); found++; }
+        else { delete current.episodes[key]; rejected++; }
       } catch {}
-      await sleep(280);
+      processed++;
+      await sleep(effectiveToken ? 240 : 160);
     }
   }
-} else if (includeEpisodes) {
-  console.warn('Episode-still scanning requires TMDB_READ_ACCESS_TOKEN; Wikipedia fallback only supplies page lead images.');
 }
 
 current.generatedAt = new Date().toISOString();
-current.generatedWith = token && !wikipediaOnly ? 'TMDB with Wikipedia/Wikimedia fallback' : 'Wikipedia/Wikimedia fallback';
+current.generatedWith = effectiveToken ? 'Strict TVMaze/TMDB/Wikipedia/Wikimedia matcher v5.6' : 'Strict TVMaze/Wikipedia/Wikimedia matcher v5.6';
+current.minimumConfidence = 80;
 await fs.writeFile(new URL('data/artwork-catalog.json', root), `${JSON.stringify(current, null, 2)}\n`);
-console.log('Artwork catalogue updated.');
+console.log(`Artwork catalogue updated: ${found} accepted, ${rejected} rejected, ${processed} processed.`);

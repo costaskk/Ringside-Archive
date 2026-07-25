@@ -1,4 +1,4 @@
-# Ringside Archive v5.5.0 deployment checklist
+# Ringside Archive v5.6.0 deployment checklist
 
 ## Local verification
 
@@ -16,7 +16,7 @@
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.5.0 release"
+git commit -m "Initial Ringside Archive v5.6.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -80,10 +80,10 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Post-upgrade cache reset
 
-- [ ] Open the deployed URL once with `?v=5.5.0`.
+- [ ] Open the deployed URL once with `?v=5.6.0`.
 - [ ] Hard refresh with **Ctrl+Shift+R**.
 - [ ] If an older interface remains, unregister the old service worker and clear site data once.
-- [ ] Confirm the footer says **Catalogue v5.5.0** and the dashboard reports **188 programme families**.
+- [ ] Confirm the footer says **Catalogue v5.6.0** and the dashboard reports **294 programme families**.
 - [ ] Press **Scan visible artwork** and confirm only the button/progress indicator changes while the current scroll position remains stable.
 - [ ] Open a green free-viewing link and confirm it is a direct video, playlist or event page—not a channel/search page.
 
@@ -129,10 +129,19 @@ TMDB_READ_ACCESS_TOKEN        optional
 
 ## Vercel Hobby function check
 
-Version 5.5.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
+Version 5.6.0 contains exactly 12 deployable Vercel Functions. Before pushing future API changes, run:
 
 ```powershell
 npm test
 ```
 
 The smoke test will stop if more than 12 route files are present under `api/`.
+
+### v5.6 artwork and Plex checks
+
+- [ ] Confirm old scanned artwork is absent on first v5.6 load (`ringside-artwork-v2`).
+- [ ] Scan a mapped show and confirm TVMaze artwork is preferred.
+- [ ] Confirm a card without verified art uses the archive placeholder, not its company logo.
+- [ ] In Connections, confirm Plex LAN URL is `http://100.112.143.89:32400` or your preferred Tailscale address.
+- [ ] Open a matched item and confirm it goes to the local Plex Web details page.
+- [ ] Open TNA weekly PPVs and confirm the exact feed can load 111 episodes.

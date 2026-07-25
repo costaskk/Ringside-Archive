@@ -1,9 +1,9 @@
 {
   "name": "ringside-archive",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "private": true,
   "type": "module",
-  "description": "Professional wrestling chronology with non-blocking async actions, exact free-viewing links, Supabase accounts and Trakt/Plex sync",
+  "description": "Professional wrestling chronology with source-validated artwork, Plex LAN deep links, expanded territory/independent programmes, Supabase accounts and Trakt/Plex sync",
   "scripts": {
     "audit": "node scripts/audit-data.mjs",
     "test": "node scripts/audit-data.mjs && node scripts/audit-free-links.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/async-ui-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",

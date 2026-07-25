@@ -7,7 +7,7 @@ const PLEX_KEY = 'ringside-plex-v3';
 const LEGACY_PLEX_KEYS = ['ringside-plex-v2','ringside-plex-v1'];
 const TRAKT_KEY = 'ringside-trakt-v2';
 const LEGACY_TRAKT_KEY = 'ringside-trakt-v1';
-const ARTWORK_KEY = 'ringside-artwork-v1';
+const ARTWORK_KEY = 'ringside-artwork-v2';
 const REVIEWS_KEY = 'ringside-reviews-v1';
 const FEED_MAP_KEY = 'ringside-feed-map-v1';
 const CLOUD_META_KEY = 'ringside-cloud-meta-v1';
@@ -124,6 +124,7 @@ export const storage = {
     pushWatchedToPlex: false,
     syncPlexWatchedToTrakt: false,
     plexWatchedThreshold: 0.9,
+    plexLanBaseUrl: globalThis.RINGSIDE_CONFIG?.plexLanBaseUrl || 'http://100.112.143.89:32400',
     cloudAutoSync: true
   }),
   saveSettings(value) { write(SETTINGS_KEY, value); this.markCloudDirty(); },

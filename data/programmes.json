@@ -60,6 +60,19 @@
     ]
   },
   {
+    "id": "awa-major-events",
+    "promotionId": "awa",
+    "name": "AWA Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1960-01-01",
+    "endDate": "1991-01-01",
+    "cadence": "Major live events",
+    "description": "Major AWA arena cards and television specials outside its weekly programmes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/American_Wrestling_Association",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "world-of-sport",
     "id": "wos-itv",
     "name": "ITV World of Sport Wrestling",
@@ -236,6 +249,18 @@
     ]
   },
   {
+    "id": "njpw-anniversary",
+    "promotionId": "njpw",
+    "name": "NJPW Anniversary Event",
+    "kind": "supercard",
+    "firstAirDate": "1973-03-06",
+    "cadence": "Annual supercard",
+    "description": "New Japan’s annual anniversary cards.",
+    "sourceUrl": "https://www.njpw1972.com/",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "ajpw",
     "id": "ajpw-carnival",
     "name": "Champion Carnival",
@@ -264,16 +289,17 @@
     ]
   },
   {
-    "promotionId": "uwa-mexico",
-    "id": "uwa-tv",
-    "name": "UWA / Lucha Libre Internacional Television",
-    "kind": "weekly",
+    "id": "gcw-omni-events",
+    "promotionId": "gcw-territory",
+    "name": "Georgia Championship Wrestling Omni Supercards",
+    "kind": "supercard",
     "firstAirDate": "1975-01-01",
-    "cadence": "Weekly / highlights",
-    "description": "The El Toreo promotion's television and tape chronology.",
-    "priority": "recommended",
-    "datePrecision": "year",
-    "endDate": "1995-01-01"
+    "endDate": "1984-07-14",
+    "cadence": "Major arena cards",
+    "description": "Major Georgia Championship Wrestling events held at the Omni and other principal venues.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Georgia_Championship_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
   },
   {
     "promotionId": "jcp",
@@ -292,20 +318,63 @@
     ]
   },
   {
+    "promotionId": "uwa-mexico",
+    "id": "uwa-tv",
+    "name": "UWA / Lucha Libre Internacional Television",
+    "kind": "weekly",
+    "firstAirDate": "1975-01-01",
+    "cadence": "Weekly / highlights",
+    "description": "The El Toreo promotion's television and tape chronology.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1995-01-01"
+  },
+  {
+    "id": "memphis-cwa-tv",
     "promotionId": "memphis",
-    "id": "memphis-tv",
-    "name": "Memphis Championship Wrestling",
+    "name": "CWA Championship Wrestling / Memphis Wrestling",
     "kind": "territory-tv",
     "firstAirDate": "1977-01-01",
+    "endDate": "1989-12-31",
+    "cadence": "Weekly studio television",
+    "description": "The classic Saturday Memphis studio programme from the Continental Wrestling Association era.",
+    "aliases": [
+      "Championship Wrestling",
+      "Memphis Wrestling"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Continental_Wrestling_Association",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "memphis-coliseum-events",
+    "promotionId": "memphis",
+    "name": "Memphis Mid-South Coliseum Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1977-01-01",
+    "endDate": "1997-12-31",
+    "cadence": "Weekly arena cards / supercards",
+    "description": "The recurring Monday-night Mid-South Coliseum chronology across the CWA and USWA eras.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Continental_Wrestling_Association",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "promotionId": "memphis",
+    "id": "memphis-tv",
+    "name": "Memphis Territory Television Overview",
+    "kind": "archive",
+    "firstAirDate": "1977-01-01",
     "cadence": "Weekly",
-    "description": "The WMC-TV studio lineage across CWA and USWA eras.",
-    "priority": "essential",
+    "description": "A high-level lineage entry retained for compatibility. Use the separate CWA, USWA, Power Pro and Home of Rhythm and Bruise programme records for actual show navigation.",
+    "priority": "reference",
     "datePrecision": "year",
     "endDate": "1997-11-01",
     "aliases": [
       "CWA Wrestling",
       "USWA Championship Wrestling"
-    ]
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Continental_Wrestling_Association"
   },
   {
     "promotionId": "ajpw",
@@ -323,6 +392,19 @@
     ]
   },
   {
+    "id": "mid-south-major-events",
+    "promotionId": "mid-south",
+    "name": "Mid-South / UWF Major Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1979-10-01",
+    "endDate": "1987-12-31",
+    "cadence": "Major live events",
+    "description": "Major Mid-South and Bill Watts UWF cards outside the weekly television chronology.",
+    "sourceUrl": "https://www.prowrestlinghistory.com/supercards/usa/misc/midsouth/msindex.html",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "mid-south",
     "id": "mid-south-tv",
     "name": "Mid-South Wrestling",
@@ -336,6 +418,31 @@
     "aliases": [
       "Mid South Wrestling"
     ]
+  },
+  {
+    "id": "mid-south-superdome",
+    "promotionId": "mid-south",
+    "name": "Mid-South Superdome Extravaganza",
+    "kind": "supercard",
+    "firstAirDate": "1980-08-02",
+    "endDate": "1986-06-14",
+    "cadence": "Major stadium supercards",
+    "description": "The promotion’s New Orleans Superdome spectaculars and related major arena cards.",
+    "sourceUrl": "https://www.prowrestlinghistory.com/supercards/usa/misc/midsouth/msindex.html",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "njpw-world-tag-league",
+    "promotionId": "njpw",
+    "name": "World Tag League",
+    "kind": "tournament",
+    "firstAirDate": "1980-11-21",
+    "cadence": "Annual tag-team league",
+    "description": "The tag league lineage from the MSG Tag League and Super Grade Tag League to World Tag League.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/World_Tag_League_(NJPW)",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "wccw",
@@ -354,6 +461,18 @@
     "tvMazeId": 10402,
     "feedNote": "Verified episode feed currently covers the principal 1982–1986 syndicated run.",
     "traktType": "show"
+  },
+  {
+    "id": "gcw-last-battle-atlanta",
+    "promotionId": "gcw-territory",
+    "name": "The Last Battle of Atlanta",
+    "kind": "special",
+    "firstAirDate": "1983-10-23",
+    "cadence": "Historic special event",
+    "description": "The historic Buzz Sawyer–Tommy Rich cage-match event and its surrounding card.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Last_Battle_of_Atlanta",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "jcp",
@@ -400,21 +519,6 @@
     "endDate": "1988-05-08"
   },
   {
-    "promotionId": "awa",
-    "id": "awa-espn",
-    "name": "AWA Championship Wrestling on ESPN",
-    "kind": "weekly",
-    "firstAirDate": "1985-01-01",
-    "cadence": "Weekly",
-    "description": "The national ESPN programme that documented the AWA's late period.",
-    "priority": "recommended",
-    "datePrecision": "year",
-    "endDate": "1990-01-01",
-    "aliases": [
-      "AWA on ESPN"
-    ]
-  },
-  {
     "promotionId": "ajw",
     "id": "ajw-japan-gp",
     "name": "Japan Grand Prix",
@@ -437,6 +541,37 @@
     "priority": "recommended",
     "datePrecision": "year",
     "endDate": "2004-01-01"
+  },
+  {
+    "promotionId": "awa",
+    "id": "awa-espn",
+    "name": "AWA Championship Wrestling on ESPN",
+    "kind": "weekly",
+    "firstAirDate": "1985-01-01",
+    "cadence": "Weekly",
+    "description": "The national ESPN programme that documented the AWA's late period.",
+    "priority": "recommended",
+    "datePrecision": "year",
+    "endDate": "1990-01-01",
+    "aliases": [
+      "AWA on ESPN"
+    ]
+  },
+  {
+    "id": "jcp-nwa-pro",
+    "promotionId": "jcp",
+    "name": "NWA Pro Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1985-01-01",
+    "endDate": "1988-11-01",
+    "cadence": "Weekly syndicated television",
+    "description": "Jim Crockett Promotions’ syndicated NWA Pro Wrestling programme.",
+    "aliases": [
+      "NWA Pro"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Crockett_Promotions",
+    "priority": "complete",
+    "datePrecision": "year"
   },
   {
     "promotionId": "wwe",
@@ -505,6 +640,45 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/World_Championship_Wrestling_(1985_TV_series)"
   },
   {
+    "id": "jcp-great-american-bash",
+    "promotionId": "jcp",
+    "name": "The Great American Bash (JCP)",
+    "kind": "supercard",
+    "firstAirDate": "1985-07-06",
+    "endDate": "1988-07-10",
+    "cadence": "Annual / tour supercards",
+    "description": "The Jim Crockett Promotions Great American Bash events and multi-city summer tours.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Great_American_Bash",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "awa-superclash",
+    "promotionId": "awa",
+    "name": "SuperClash",
+    "kind": "ppv",
+    "firstAirDate": "1985-09-28",
+    "endDate": "1990-04-08",
+    "cadence": "Major event series",
+    "description": "The AWA SuperClash event chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SuperClash",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "jcp-bunkhouse-stampede",
+    "promotionId": "jcp",
+    "name": "Bunkhouse Stampede",
+    "kind": "supercard",
+    "firstAirDate": "1985-12-28",
+    "endDate": "1988-01-24",
+    "cadence": "Annual event series",
+    "description": "The JCP Bunkhouse Stampede event chronology, culminating in the 1988 pay-per-view.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bunkhouse_Stampede",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "mid-south",
     "id": "uwf-tv",
     "name": "UWF Television",
@@ -518,6 +692,31 @@
     "aliases": [
       "Universal Wrestling Federation"
     ]
+  },
+  {
+    "id": "jcp-crockett-cup",
+    "promotionId": "jcp",
+    "name": "Jim Crockett Sr. Memorial Cup",
+    "kind": "tournament",
+    "firstAirDate": "1986-04-19",
+    "endDate": "1988-04-23",
+    "cadence": "Annual tag-team tournament",
+    "description": "The original Jim Crockett Sr. Memorial Cup tag-team tournaments.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Crockett_Sr._Memorial_Cup_Tag_Team_Tournament",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "awa-wrestlerock",
+    "promotionId": "awa",
+    "name": "WrestleRock",
+    "kind": "supercard",
+    "firstAirDate": "1986-04-20",
+    "cadence": "Stadium supercard",
+    "description": "AWA WrestleRock and associated promotional programming.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/WrestleRock_86",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "wwe",
@@ -600,6 +799,23 @@
     "endDate": "1996-12-27"
   },
   {
+    "id": "memphis-uswa-tv",
+    "promotionId": "memphis",
+    "name": "USWA Championship Wrestling",
+    "kind": "territory-tv",
+    "firstAirDate": "1989-01-01",
+    "endDate": "1997-11-01",
+    "cadence": "Weekly studio television",
+    "description": "The Memphis-based USWA weekly television lineage following the CWA transition.",
+    "aliases": [
+      "USWA Wrestling",
+      "USWA Championship Wrestling"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/United_States_Wrestling_Association",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "wcw",
     "id": "wcw-power-hour",
     "name": "NWA / WCW Power Hour",
@@ -615,6 +831,19 @@
       "WCW Power Hour"
     ],
     "sourceUrl": "https://en.wikipedia.org/wiki/WCW_Power_Hour"
+  },
+  {
+    "id": "awa-team-challenge",
+    "promotionId": "awa",
+    "name": "AWA Team Challenge Series",
+    "kind": "weekly",
+    "firstAirDate": "1989-10-01",
+    "endDate": "1990-08-12",
+    "cadence": "Weekly television series",
+    "description": "The late-era AWA Team Challenge Series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Team_Challenge_Series",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "fmw",
@@ -836,6 +1065,18 @@
     ]
   },
   {
+    "id": "njpw-dontaku",
+    "promotionId": "njpw",
+    "name": "Wrestling Dontaku",
+    "kind": "ppv",
+    "firstAirDate": "1993-05-03",
+    "cadence": "Annual supercard",
+    "description": "New Japan’s annual Fukuoka Wrestling Dontaku event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Wrestling_Dontaku",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "wcw",
     "id": "wcw-pro",
     "name": "WCW Pro",
@@ -966,6 +1207,19 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/WWF_LiveWire"
   },
   {
+    "id": "iwa-ms-weekly-events",
+    "promotionId": "iwa-ms",
+    "name": "IWA Mid-South Weekly Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1996-10-10",
+    "endDate": "2022-12-31",
+    "cadence": "Frequent / often weekly live cards",
+    "description": "The main IWA Mid-South event chronology, including its early weekly Louisville cards and later Indiana touring schedule.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/IWA_Mid-South",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "iwa-ms",
     "id": "iwa-kotdm",
     "name": "King of the Deathmatches",
@@ -1071,6 +1325,19 @@
     "traktType": "show"
   },
   {
+    "id": "memphis-power-pro",
+    "promotionId": "memphis",
+    "name": "Power Pro Wrestling",
+    "kind": "weekly",
+    "firstAirDate": "1998-04-01",
+    "endDate": "2001-04-01",
+    "cadence": "Weekly television",
+    "description": "The Memphis Power Pro Wrestling television programme and developmental-era cards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Power_Pro_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "wwe",
     "id": "wwe-heat",
     "name": "WWF / WWE Sunday Night Heat",
@@ -1089,6 +1356,18 @@
     "traktType": "show"
   },
   {
+    "id": "gcw-events",
+    "promotionId": "gcw",
+    "name": "GCW Complete Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1999-01-01",
+    "cadence": "Frequent live / streaming events",
+    "description": "The main Jersey Championship Wrestling and Game Changer Wrestling event chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Game_Changer_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "iwa-pr",
     "id": "iwa-impacto",
     "name": "IWA Impacto Total",
@@ -1101,6 +1380,18 @@
     "aliases": [
       "Impacto Total"
     ]
+  },
+  {
+    "id": "czw-events",
+    "promotionId": "czw",
+    "name": "CZW Complete Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1999-02-13",
+    "cadence": "Frequent live events",
+    "description": "The main CZW event chronology outside its named tournament and annual-event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Combat_Zone_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "wwe",
@@ -1174,6 +1465,30 @@
     "traktType": "show"
   },
   {
+    "id": "czw-cage-of-death",
+    "promotionId": "czw",
+    "name": "Cage of Death",
+    "kind": "supercard",
+    "firstAirDate": "1999-10-16",
+    "cadence": "Annual supercard",
+    "description": "CZW’s flagship Cage of Death event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cage_of_Death",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "iwa-ms-strong-style",
+    "promotionId": "iwa-ms",
+    "name": "IWA Mid-South Strong Style Tournament",
+    "kind": "tournament",
+    "firstAirDate": "2000-01-01",
+    "cadence": "Tournament series",
+    "description": "IWA Mid-South strong-style tournament cards and successor editions.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/IWA_Mid-South",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "iwa-ms",
     "id": "iwa-tpi",
     "name": "Ted Petty Invitational",
@@ -1211,6 +1526,18 @@
     "cadence": "Major events",
     "description": "NOAH's Great Voyage, Departure, Destiny, Budokan and modern arena chronology.",
     "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "czw-down-sickness",
+    "promotionId": "czw",
+    "name": "Down with the Sickness",
+    "kind": "supercard",
+    "firstAirDate": "2000-09-09",
+    "cadence": "Annual memorial event",
+    "description": "CZW’s annual Down with the Sickness event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Combat_Zone_Wrestling",
+    "priority": "complete",
     "datePrecision": "exact"
   },
   {
@@ -1377,17 +1704,23 @@
   {
     "promotionId": "tna",
     "id": "tna-weekly-ppv",
-    "name": "TNA Weekly Pay-Per-Views",
+    "name": "NWA-TNA / TNA Weekly Pay-Per-Views",
     "kind": "ppv",
     "firstAirDate": "2002-06-19",
-    "cadence": "Weekly PPV",
-    "description": "The original Nashville weekly-PPV era that established TNA's roster and championships.",
+    "cadence": "Weekly pay-per-view",
+    "description": "The complete 111-show weekly pay-per-view era, now mapped to an exact episode feed rather than represented as a single placeholder.",
     "priority": "essential",
     "datePrecision": "exact",
     "endDate": "2004-09-08",
     "aliases": [
-      "NWA-TNA Weekly PPV"
-    ]
+      "NWA-TNA Weekly PPV",
+      "NWA: Total Nonstop Action",
+      "TNA Weekly PPV"
+    ],
+    "tvMazeId": 80637,
+    "traktType": "show",
+    "feedNote": "TVMaze show 80637 provides the exact weekly-PPV episode sequence from June 2002 through September 2004.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_TNA_pay-per-view_and_livestreaming_events"
   },
   {
     "promotionId": "czw",
@@ -1422,6 +1755,18 @@
     "traktType": "show"
   },
   {
+    "id": "czw-night-infamy",
+    "promotionId": "czw",
+    "name": "Night of Infamy",
+    "kind": "supercard",
+    "firstAirDate": "2002-11-09",
+    "cadence": "Recurring supercard",
+    "description": "CZW Night of Infamy cards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Combat_Zone_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "roh",
     "id": "roh-final-battle",
     "name": "Final Battle",
@@ -1434,6 +1779,32 @@
     "aliases": [
       "ROH Final Battle"
     ]
+  },
+  {
+    "id": "memphis-rhythm-bruise",
+    "promotionId": "memphis",
+    "name": "Memphis Wrestling: Home of Rhythm and Bruise",
+    "kind": "weekly",
+    "firstAirDate": "2003-01-01",
+    "endDate": "2014-12-31",
+    "cadence": "Weekly studio television",
+    "description": "Corey Maclin’s weekly Memphis Wrestling studio programme broadcast on WLMT-TV.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Memphis_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "tna-genesis-directv",
+    "promotionId": "tna",
+    "name": "TNA Genesis (DirecTV Highlights)",
+    "kind": "special",
+    "firstAirDate": "2003-01-01",
+    "endDate": "2003-12-31",
+    "cadence": "Television special",
+    "description": "A DirecTV highlights presentation from the weekly-PPV era.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Total_Nonstop_Action_Wrestling_programming",
+    "priority": "complete",
+    "datePrecision": "year"
   },
   {
     "promotionId": "mlw",
@@ -1544,6 +1915,18 @@
     "datePrecision": "year"
   },
   {
+    "id": "pwg-all-star-weekend",
+    "promotionId": "pwg",
+    "name": "All Star Weekend",
+    "kind": "supercard",
+    "firstAirDate": "2005-04-01",
+    "cadence": "Recurring multi-night event",
+    "description": "PWG’s All Star Weekend event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pro_Wrestling_Guerrilla",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "njpw",
     "id": "njpw-cup",
     "name": "New Japan Cup",
@@ -1606,6 +1989,19 @@
     "youtubeUrl": "https://www.youtube.com/@CHIKARAoffice"
   },
   {
+    "id": "tna-global-impact",
+    "promotionId": "tna",
+    "name": "TNA Global Impact!",
+    "kind": "streaming",
+    "firstAirDate": "2006-01-01",
+    "endDate": "2006-12-31",
+    "cadence": "Internet series",
+    "description": "TNA internet programming produced during the early iMPACT! era.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Total_Nonstop_Action_Wrestling_programming",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "wxw",
     "id": "wxw-16carat",
     "name": "16 Carat Gold",
@@ -1653,6 +2049,31 @@
     "traktType": "show"
   },
   {
+    "id": "pwg-threemendous",
+    "promotionId": "pwg",
+    "name": "Threemendous",
+    "kind": "supercard",
+    "firstAirDate": "2006-07-16",
+    "cadence": "Anniversary event series",
+    "description": "PWG’s Threemendous anniversary-event lineage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pro_Wrestling_Guerrilla",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "tna-today",
+    "promotionId": "tna",
+    "name": "TNA Today",
+    "kind": "streaming",
+    "firstAirDate": "2007-01-01",
+    "endDate": "2012-12-31",
+    "cadence": "Web series",
+    "description": "News, interviews and supplementary matches distributed through TNA online channels.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Total_Nonstop_Action_Wrestling_programming",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "chikara",
     "id": "chikara-kot",
     "name": "King of Trios",
@@ -1681,6 +2102,18 @@
     ]
   },
   {
+    "id": "njpw-destruction",
+    "promotionId": "njpw",
+    "name": "Destruction",
+    "kind": "ppv",
+    "firstAirDate": "2007-11-11",
+    "cadence": "Annual autumn event series",
+    "description": "The NJPW Destruction tour and major-event chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/NJPW_Destruction",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "icw",
     "id": "icw-fear-loathing",
     "name": "Fear & Loathing",
@@ -1689,6 +2122,19 @@
     "cadence": "Annual",
     "description": "ICW's signature large-scale annual event.",
     "priority": "essential",
+    "datePrecision": "year"
+  },
+  {
+    "id": "tna-epics",
+    "promotionId": "tna",
+    "name": "TNA Epics",
+    "kind": "studio",
+    "firstAirDate": "2009-01-01",
+    "endDate": "2010-12-31",
+    "cadence": "Archive series",
+    "description": "A retrospective archive programme built around notable TNA matches and rivalries.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Total_Nonstop_Action_Wrestling_programming",
+    "priority": "complete",
     "datePrecision": "year"
   },
   {
@@ -1766,6 +2212,18 @@
     ]
   },
   {
+    "id": "njpw-super-junior-tag-league",
+    "promotionId": "njpw",
+    "name": "Super Junior Tag League",
+    "kind": "tournament",
+    "firstAirDate": "2010-01-01",
+    "cadence": "Annual junior tag tournament",
+    "description": "New Japan’s junior-heavyweight tag-team tournament series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Super_Junior_Tag_League",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "evolve",
     "id": "evolve-events",
     "name": "EVOLVE Numbered Events",
@@ -1812,6 +2270,19 @@
     ]
   },
   {
+    "id": "tna-reaction",
+    "promotionId": "tna",
+    "name": "TNA Reaction",
+    "kind": "studio",
+    "firstAirDate": "2010-04-12",
+    "endDate": "2010-12-30",
+    "cadence": "Weekly companion",
+    "description": "A documentary-style companion programme to iMPACT! featuring interviews and backstage material.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/TNA_Reaction",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "mcw-australia",
     "id": "mcw-events",
     "name": "MCW Event Archive",
@@ -1824,6 +2295,31 @@
     "youtubeUrl": "https://www.youtube.com/@MCWEncore"
   },
   {
+    "id": "tna-greatest-matches",
+    "promotionId": "tna",
+    "name": "TNA Greatest Matches",
+    "kind": "archive",
+    "firstAirDate": "2011-01-01",
+    "endDate": "2015-12-31",
+    "cadence": "Archive series",
+    "description": "A themed compilation series revisiting notable TNA bouts.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Total_Nonstop_Action_Wrestling_programming",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "njpw-fantastica-mania",
+    "promotionId": "njpw",
+    "name": "Fantastica Mania",
+    "kind": "supercard",
+    "firstAirDate": "2011-01-22",
+    "cadence": "Annual co-promoted tour",
+    "description": "The NJPW–CMLL Fantastica Mania tour and special-event lineage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fantastica_Mania",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "stardom",
     "id": "stardom-major",
     "name": "STARDOM Major Event Archive",
@@ -1832,6 +2328,18 @@
     "cadence": "Major events",
     "description": "The complete major-event spine through Dream Queendom, Grand Queendom and arena PPVs.",
     "priority": "essential",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "njpw-new-beginning",
+    "promotionId": "njpw",
+    "name": "The New Beginning",
+    "kind": "ppv",
+    "firstAirDate": "2011-02-20",
+    "cadence": "Annual winter event series",
+    "description": "New Japan’s post–Tokyo Dome winter event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_New_Beginning_(professional_wrestling)",
+    "priority": "complete",
     "datePrecision": "exact"
   },
   {
@@ -1854,6 +2362,30 @@
     "traktType": "show"
   },
   {
+    "id": "njpw-power-struggle",
+    "promotionId": "njpw",
+    "name": "Power Struggle",
+    "kind": "ppv",
+    "firstAirDate": "2011-11-12",
+    "cadence": "Annual autumn supercard",
+    "description": "New Japan’s annual Osaka Power Struggle event.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Power_Struggle_(professional_wrestling)",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "progress-natural-progression",
+    "promotionId": "progress",
+    "name": "Natural Progression Series",
+    "kind": "tournament",
+    "firstAirDate": "2012-01-01",
+    "cadence": "Tournament series",
+    "description": "PROGRESS’s Natural Progression tournament chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Progress_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "row",
     "id": "row-tv",
     "name": "Reality of Wrestling",
@@ -1869,6 +2401,32 @@
     "youtubeUrl": "https://www.youtube.com/@RealityOfWrestling"
   },
   {
+    "id": "tna-british-boot-camp",
+    "promotionId": "tna",
+    "name": "TNA British Boot Camp",
+    "kind": "studio",
+    "firstAirDate": "2012-01-01",
+    "endDate": "2014-12-31",
+    "cadence": "Reality series",
+    "description": "TNA talent-search reality series produced in the United Kingdom.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/TNA_British_Boot_Camp",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "tna-unfinished-business",
+    "promotionId": "tna",
+    "name": "TNA Unfinished Business",
+    "kind": "archive",
+    "firstAirDate": "2012-01-01",
+    "endDate": "2015-12-31",
+    "cadence": "Archive series",
+    "description": "Retrospective specials focusing on major TNA feuds and stories.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Total_Nonstop_Action_Wrestling_programming",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
     "promotionId": "progress",
     "id": "progress-chapters",
     "name": "PROGRESS Chapters",
@@ -1881,6 +2439,18 @@
     "aliases": [
       "PROGRESS Wrestling Chapters"
     ]
+  },
+  {
+    "id": "progress-major-events",
+    "promotionId": "progress",
+    "name": "PROGRESS Major Events",
+    "kind": "ppv",
+    "firstAirDate": "2012-03-25",
+    "cadence": "Streaming / major events",
+    "description": "Major PROGRESS cards outside the numbered Chapter chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Progress_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "shine",
@@ -1924,6 +2494,18 @@
     "traktType": "show"
   },
   {
+    "id": "pwg-mystery-vortex",
+    "promotionId": "pwg",
+    "name": "Mystery Vortex",
+    "kind": "supercard",
+    "firstAirDate": "2012-12-01",
+    "cadence": "Recurring mystery-card event",
+    "description": "PWG’s unannounced-card Mystery Vortex series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pro_Wrestling_Guerrilla",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "wxw",
     "id": "wxw-shotgun",
     "name": "wXw Shotgun",
@@ -1951,6 +2533,48 @@
     "aliases": [
       "RevPro High Stakes"
     ]
+  },
+  {
+    "id": "tna-one-night-only",
+    "promotionId": "tna",
+    "name": "TNA One Night Only",
+    "kind": "ppv",
+    "firstAirDate": "2013-04-05",
+    "endDate": "2019-01-01",
+    "cadence": "Taped PPV specials",
+    "description": "The themed One Night Only pay-per-view series introduced after TNA reduced its live annual PPV schedule.",
+    "tvMazeId": 80638,
+    "traktType": "show",
+    "sourceUrl": "https://en.wikipedia.org/wiki/TNA_One_Night_Only",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "njpw-sakura-genesis",
+    "promotionId": "njpw",
+    "name": "Invasion Attack / Sakura Genesis",
+    "kind": "ppv",
+    "firstAirDate": "2013-04-07",
+    "cadence": "Annual spring supercard",
+    "description": "The spring event lineage renamed from Invasion Attack to Sakura Genesis.",
+    "aliases": [
+      "Invasion Attack"
+    ],
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sakura_Genesis",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "progress-thunderbastard",
+    "promotionId": "progress",
+    "name": "Thunderbastard",
+    "kind": "tournament",
+    "firstAirDate": "2014-01-01",
+    "cadence": "Recurring match/event series",
+    "description": "The PROGRESS Thunderbastard match and event chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Progress_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
   },
   {
     "promotionId": "wwe",
@@ -2074,6 +2698,19 @@
     "traktType": "show"
   },
   {
+    "id": "tna-unlocked",
+    "promotionId": "tna",
+    "name": "Impact Wrestling: Unlocked",
+    "kind": "studio",
+    "firstAirDate": "2015-01-17",
+    "endDate": "2015-03-28",
+    "cadence": "Weekly companion",
+    "description": "A companion programme with alternate commentary, analysis and archived footage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Impact_Wrestling:_Unlocked",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "stardom",
     "id": "stardom-cinderella",
     "name": "Cinderella Tournament",
@@ -2113,6 +2750,56 @@
     ]
   },
   {
+    "id": "gcw-nick-gage-invitational",
+    "promotionId": "gcw",
+    "name": "Nick Gage Invitational",
+    "kind": "tournament",
+    "firstAirDate": "2015-12-05",
+    "cadence": "Annual tournament",
+    "description": "The Nick Gage Invitational deathmatch tournament series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Game_Changer_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "progress-atlas",
+    "promotionId": "progress",
+    "name": "Atlas Championship Tournament",
+    "kind": "tournament",
+    "firstAirDate": "2016-01-01",
+    "cadence": "Tournament / division series",
+    "description": "PROGRESS Atlas division tournaments and major title events.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Progress_Atlas_Championship",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "wcpw-extra",
+    "promotionId": "wcpw-defiant",
+    "name": "WCPW Extra",
+    "kind": "streaming",
+    "firstAirDate": "2016-01-01",
+    "endDate": "2017-12-31",
+    "cadence": "Web companion series",
+    "description": "Supplementary WCPW interviews, matches and storyline content distributed online.",
+    "officialUrl": "https://www.youtube.com/@DefiantWrestling",
+    "sourceUrl": "https://en.wikipedia.org/wiki/WhatCulture",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "gcw-tournament-survival",
+    "promotionId": "gcw",
+    "name": "Tournament of Survival",
+    "kind": "tournament",
+    "firstAirDate": "2016-06-04",
+    "cadence": "Annual deathmatch tournament",
+    "description": "GCW’s annual Tournament of Survival chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Game_Changer_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "wcpw-defiant",
     "id": "wcpw-loaded",
     "name": "WCPW Loaded / Defiant",
@@ -2128,6 +2815,20 @@
       "Defiant Wrestling"
     ],
     "youtubeUrl": "https://www.youtube.com/@DefiantWrestling"
+  },
+  {
+    "id": "wcpw-special-events",
+    "promotionId": "wcpw-defiant",
+    "name": "WCPW / Defiant Special Events",
+    "kind": "ppv",
+    "firstAirDate": "2016-07-29",
+    "endDate": "2019-08-26",
+    "cadence": "Major event series",
+    "description": "The complete major-event lineage from WCPW Built to Destroy and Refuse to Lose through Defiant’s final supercards.",
+    "officialUrl": "https://www.youtube.com/@DefiantWrestling",
+    "sourceUrl": "https://en.wikipedia.org/wiki/WhatCulture",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "wwe",
@@ -2171,6 +2872,19 @@
     "youtubeUrl": "https://www.youtube.com/@DEFYWrestling"
   },
   {
+    "id": "defy-event-premieres",
+    "promotionId": "defy",
+    "name": "DEFY Event Premieres & Full Matches",
+    "kind": "streaming",
+    "firstAirDate": "2017-01-13",
+    "cadence": "Irregular official video releases",
+    "description": "Official DEFY event premieres, full-show releases and complete matches distributed through DEFY video channels.",
+    "officialUrl": "https://www.youtube.com/@DEFYWrestling",
+    "sourceUrl": "https://www.defywrestling.com/",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "wcpw-defiant",
     "id": "wcpw-world-cup",
     "name": "Pro Wrestling World Cup",
@@ -2200,6 +2914,19 @@
       "GCW Spring Break",
       "Joey Janela Spring Break"
     ]
+  },
+  {
+    "id": "wcpw-no-regrets",
+    "promotionId": "wcpw-defiant",
+    "name": "No Regrets",
+    "kind": "supercard",
+    "firstAirDate": "2017-04-29",
+    "endDate": "2019-05-04",
+    "cadence": "Annual supercard",
+    "description": "The WCPW/Defiant No Regrets event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/WhatCulture",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "bar",
@@ -2252,6 +2979,18 @@
     ]
   },
   {
+    "id": "mlw-never-say-never",
+    "promotionId": "mlw",
+    "name": "Never Say Never",
+    "kind": "supercard",
+    "firstAirDate": "2017-12-07",
+    "cadence": "Recurring event series",
+    "description": "MLW Never Say Never events, including premium live and television editions.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Major_League_Wrestling_events",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "nwa-modern",
     "id": "nwa-ppv",
     "name": "Modern NWA Pay-Per-View Archive",
@@ -2264,6 +3003,19 @@
     "aliases": [
       "NWA PPV"
     ]
+  },
+  {
+    "id": "tna-twitch-specials",
+    "promotionId": "tna",
+    "name": "Impact Wrestling Twitch Specials",
+    "kind": "streaming",
+    "firstAirDate": "2018-01-01",
+    "endDate": "2020-12-31",
+    "cadence": "Livestream specials",
+    "description": "Free livestreaming specials produced with partner promotions during the Impact Wrestling era.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_TNA_pay-per-view_and_livestreaming_events",
+    "priority": "complete",
+    "datePrecision": "year"
   },
   {
     "promotionId": "tna",
@@ -2279,6 +3031,18 @@
       "Impact Plus Specials",
       "TNA Plus Specials"
     ]
+  },
+  {
+    "id": "defy-anniversary",
+    "promotionId": "defy",
+    "name": "DEFY Anniversary Events",
+    "kind": "supercard",
+    "firstAirDate": "2018-01-19",
+    "cadence": "Annual supercard",
+    "description": "DEFY anniversary cards and milestone Washington Hall events.",
+    "sourceUrl": "https://www.defywrestling.com/",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "mlw",
@@ -2309,6 +3073,18 @@
     "datePrecision": "exact"
   },
   {
+    "id": "mlw-battle-riot",
+    "promotionId": "mlw",
+    "name": "Battle Riot",
+    "kind": "supercard",
+    "firstAirDate": "2018-07-19",
+    "cadence": "Annual supercard",
+    "description": "MLW’s Battle Riot match and event chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/MLW_Battle_Riot",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "world-of-sport",
     "id": "wos-revival",
     "name": "World of Sport Wrestling (Revival)",
@@ -2324,6 +3100,30 @@
     ],
     "tvMazeId": 36637,
     "traktType": "show"
+  },
+  {
+    "id": "mlw-war-chamber",
+    "promotionId": "mlw",
+    "name": "War Chamber",
+    "kind": "supercard",
+    "firstAirDate": "2018-09-06",
+    "cadence": "Recurring supercard",
+    "description": "MLW’s War Chamber cage-match event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Major_League_Wrestling_events",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "mlw-fightland",
+    "promotionId": "mlw",
+    "name": "Fightland",
+    "kind": "supercard",
+    "firstAirDate": "2018-10-04",
+    "cadence": "Recurring supercard",
+    "description": "MLW Fightland event and television-special chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/MLW_Fightland",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "wwe",
@@ -2358,6 +3158,18 @@
     "tvMazeId": 40037,
     "youtubeUrl": "https://www.youtube.com/@WOWSuperheroes",
     "traktType": "show"
+  },
+  {
+    "id": "mlw-superfight",
+    "promotionId": "mlw",
+    "name": "SuperFight",
+    "kind": "ppv",
+    "firstAirDate": "2019-02-02",
+    "cadence": "Recurring premium event",
+    "description": "MLW SuperFight premium events.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/MLW_SuperFight",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "beyond",
@@ -2418,6 +3230,18 @@
     ]
   },
   {
+    "id": "mlw-kings-colosseum",
+    "promotionId": "mlw",
+    "name": "Kings of Colosseum",
+    "kind": "supercard",
+    "firstAirDate": "2019-07-06",
+    "cadence": "Recurring supercard",
+    "description": "MLW Kings of Colosseum events and television specials.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_Major_League_Wrestling_events",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "aew",
     "id": "aew-dynamite",
     "name": "AEW Dynamite",
@@ -2474,6 +3298,18 @@
     "traktType": "show"
   },
   {
+    "id": "mlw-opera-cup",
+    "promotionId": "mlw",
+    "name": "Opera Cup",
+    "kind": "tournament",
+    "firstAirDate": "2019-12-05",
+    "cadence": "Tournament series",
+    "description": "MLW’s revived Opera Cup tournament chronology.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Opera_Cup",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "stardom",
     "id": "we-are-stardom",
     "name": "We Are STARDOM!!",
@@ -2520,6 +3356,18 @@
     "youtubeUrl": "https://www.youtube.com/@gatohmove"
   },
   {
+    "id": "tna-in-60",
+    "promotionId": "tna",
+    "name": "TNA in 60",
+    "kind": "archive",
+    "firstAirDate": "2020-06-02",
+    "cadence": "Weekly archive series",
+    "description": "A one-hour archive series built around wrestlers, rivalries and classic event themes.",
+    "sourceUrl": "https://tnawrestling.com/",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "revpro",
     "id": "revpro-epic",
     "name": "RevPro Live / Epic Encounters",
@@ -2533,6 +3381,18 @@
       "RevPro Epic Encounters"
     ],
     "youtubeUrl": "https://www.youtube.com/@RevolutionProWrestling"
+  },
+  {
+    "id": "gcw-homecoming",
+    "promotionId": "gcw",
+    "name": "GCW Homecoming",
+    "kind": "supercard",
+    "firstAirDate": "2020-07-25",
+    "cadence": "Recurring destination event",
+    "description": "GCW Homecoming events in Atlantic City and later locations.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Game_Changer_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "njpw",
@@ -2550,6 +3410,18 @@
     ],
     "officialUrl": "https://www.njpwworld.com/",
     "youtubeUrl": "https://www.youtube.com/@NJPWGLOBAL"
+  },
+  {
+    "id": "gcw-big-gay-brunch",
+    "promotionId": "gcw",
+    "name": "EFFY's Big Gay Brunch",
+    "kind": "supercard",
+    "firstAirDate": "2020-10-10",
+    "cadence": "Recurring themed event",
+    "description": "EFFY's recurring GCW-presented Big Gay Brunch event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Game_Changer_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "gleat",
@@ -2631,6 +3503,31 @@
     "traktType": "show"
   },
   {
+    "id": "mlw-fusion-alpha",
+    "promotionId": "mlw",
+    "name": "MLW Fusion: ALPHA",
+    "kind": "weekly",
+    "firstAirDate": "2021-09-22",
+    "endDate": "2021-12-15",
+    "cadence": "Weekly miniseries",
+    "description": "The Fusion: ALPHA television cycle.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/MLW_Fusion",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
+    "id": "gcw-fight-club",
+    "promotionId": "gcw",
+    "name": "GCW Fight Club",
+    "kind": "supercard",
+    "firstAirDate": "2021-10-09",
+    "cadence": "Recurring supercard",
+    "description": "GCW Fight Club event series.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Game_Changer_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
+  },
+  {
     "promotionId": "dpw",
     "id": "dpw-fire",
     "name": "DPW Fire",
@@ -2644,6 +3541,19 @@
       "Deadlock Pro Wrestling Fire"
     ],
     "youtubeUrl": "https://www.youtube.com/@deadlockprowrestling"
+  },
+  {
+    "id": "mlw-azteca",
+    "promotionId": "mlw",
+    "name": "MLW Azteca",
+    "kind": "weekly",
+    "firstAirDate": "2022-01-06",
+    "endDate": "2022-02-03",
+    "cadence": "Weekly miniseries",
+    "description": "The MLW Azteca television miniseries produced around Mexico tapings.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Major_League_Wrestling",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "aew",
@@ -2687,6 +3597,18 @@
       "NWA USA Wrestling"
     ],
     "youtubeUrl": "https://www.youtube.com/@NWA"
+  },
+  {
+    "id": "gcw-wrld",
+    "promotionId": "gcw",
+    "name": "The WRLD on GCW",
+    "kind": "ppv",
+    "firstAirDate": "2022-01-23",
+    "cadence": "Arena pay-per-view",
+    "description": "GCW’s Hammerstein Ballroom pay-per-view and related WRLD-branded events.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Wrld_on_GCW",
+    "priority": "complete",
+    "datePrecision": "exact"
   },
   {
     "promotionId": "wwe",
@@ -2815,5 +3737,420 @@
     "officialUrl": "https://www.wwe.com/shows/wwe-evolve/wwe-evolve",
     "sourceUrl": "https://corporate.wwe.com/about/news/2025/02-03-2025-0",
     "traktType": "show"
+  },
+  {
+    "id": "gfw-amped",
+    "promotionId": "gfw",
+    "name": "GFW Amped",
+    "kind": "weekly",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Television tapings",
+    "description": "Global Force Wrestling’s Amped television taping and episode catalogue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Global_Force_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "2018-12-31"
+  },
+  {
+    "id": "xpw-tv-events",
+    "promotionId": "xpw",
+    "name": "XPW Television & Event Archive",
+    "kind": "weekly",
+    "firstAirDate": "1999-01-01",
+    "cadence": "Television and live events",
+    "description": "XPW television episodes and named cards across the original and revival eras.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Xtreme_Pro_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "hog-events",
+    "promotionId": "hog",
+    "name": "House of Glory Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2012-01-01",
+    "cadence": "Recurring arena events",
+    "description": "House of Glory’s named New York events and championship cards.",
+    "sourceUrl": "https://www.hogwrestling.net/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "prestige-events",
+    "promotionId": "prestige",
+    "name": "Prestige Wrestling Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2017-01-01",
+    "cadence": "Recurring live events",
+    "description": "Prestige Wrestling’s named Pacific Northwest cards.",
+    "sourceUrl": "https://prestigewrestling.net/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "west-coast-pro-events",
+    "promotionId": "west-coast-pro",
+    "name": "West Coast Pro Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2018-01-01",
+    "cadence": "Recurring live events",
+    "description": "West Coast Pro Wrestling’s named California events.",
+    "sourceUrl": "https://www.westcoastproofficial.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "revolver-events",
+    "promotionId": "revolver",
+    "name": "Wrestling Revolver Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2016-01-01",
+    "cadence": "Recurring live events",
+    "description": "The Wrestling Revolver’s themed Midwest cards.",
+    "sourceUrl": "https://www.prowrestlingrevolver.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "icw-nhb-events",
+    "promotionId": "icw-nhb",
+    "name": "ICW No Holds Barred Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2019-01-01",
+    "cadence": "Recurring no-ring events",
+    "description": "ICW No Holds Barred’s numbered, Pitfighter and special-event cards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/ICW_No_Holds_Barred",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "blp-events",
+    "promotionId": "black-label-pro",
+    "name": "Black Label Pro Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2017-01-01",
+    "cadence": "Recurring live events",
+    "description": "Black Label Pro’s named Midwest events and tournaments.",
+    "sourceUrl": "https://blacklabelpro.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "rings-events",
+    "promotionId": "rings",
+    "name": "Fighting Network RINGS Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1991-01-01",
+    "cadence": "Touring event series",
+    "description": "The complete Fighting Network RINGS professional-wrestling and shoot-style event lineage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fighting_Network_Rings",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "2002-12-31"
+  },
+  {
+    "id": "war-events",
+    "promotionId": "war-japan",
+    "name": "Wrestle Association R Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1992-01-01",
+    "cadence": "Touring event series",
+    "description": "WAR’s named touring cards and cross-promotional events.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Wrestle_Association_R",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "2000-12-31"
+  },
+  {
+    "id": "sws-events",
+    "promotionId": "sws",
+    "name": "Super World of Sports Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1990-01-01",
+    "cadence": "Touring event series",
+    "description": "SWS arena cards and WWF co-promoted events.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Super_World_of_Sports",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "1992-12-31"
+  },
+  {
+    "id": "mpro-events",
+    "promotionId": "michinoku",
+    "name": "Michinoku Pro Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1993-01-01",
+    "cadence": "Touring event series",
+    "description": "Michinoku Pro Wrestling’s touring cards and major annual events.",
+    "sourceUrl": "https://www.michipro.jp/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "osaka-pro-events",
+    "promotionId": "osaka-pro",
+    "name": "Osaka Pro Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1999-01-01",
+    "cadence": "Touring event series",
+    "description": "Osaka Pro Wrestling’s festival, television and arena cards.",
+    "sourceUrl": "https://www.osakaprowres.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "wrestle1-events",
+    "promotionId": "wrestle-1",
+    "name": "WRESTLE-1 Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2013-01-01",
+    "cadence": "Touring event series",
+    "description": "WRESTLE-1 touring events, tournaments and major cards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Wrestle-1",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "2020-12-31"
+  },
+  {
+    "id": "freedoms-events",
+    "promotionId": "freedoms",
+    "name": "FREEDOMS Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2009-01-01",
+    "cadence": "Touring event series",
+    "description": "Pro Wrestling FREEDOMS touring and deathmatch events.",
+    "sourceUrl": "https://pw-freedoms.co.jp/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "ice-ribbon-events",
+    "promotionId": "ice-ribbon",
+    "name": "Ice Ribbon Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2006-01-01",
+    "cadence": "Frequent dojo and arena events",
+    "description": "Ice Ribbon dojo shows, Korakuen cards and major events.",
+    "sourceUrl": "https://iceribbon.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "sendai-girls-events",
+    "promotionId": "sendai-girls",
+    "name": "Sendai Girls Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2005-01-01",
+    "cadence": "Touring event series",
+    "description": "Sendai Girls television, touring and major-event cards.",
+    "sourceUrl": "https://sendaigirls.jp/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "marvelous-events",
+    "promotionId": "marvelous",
+    "name": "Marvelous Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Touring event series",
+    "description": "Marvelous joshi touring and major-event cards.",
+    "sourceUrl": "https://www.marvelcompany.co.jp/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "seadlinnng-events",
+    "promotionId": "seadlinnng",
+    "name": "SEAdLINNNG Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Touring event series",
+    "description": "SEAdLINNNG’s named cards and tournament events.",
+    "sourceUrl": "https://seadlinnng.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "oz-academy-events",
+    "promotionId": "oz-academy",
+    "name": "OZ Academy Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1998-01-01",
+    "cadence": "Touring event series",
+    "description": "OZ Academy’s faction-driven touring and major events.",
+    "sourceUrl": "https://oz-academy.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "pure-j-events",
+    "promotionId": "pure-j",
+    "name": "JWP / PURE-J Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1992-01-01",
+    "cadence": "Touring event series",
+    "description": "The event lineage from JWP Joshi Puroresu through PURE-J.",
+    "sourceUrl": "https://pure-j.jp/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "wave-events",
+    "promotionId": "wave",
+    "name": "Pro Wrestling WAVE Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2007-01-01",
+    "cadence": "Touring event series",
+    "description": "WAVE touring cards plus Catch the WAVE and related events.",
+    "sourceUrl": "https://pro-w-wave.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "basara-events",
+    "promotionId": "basara",
+    "name": "BASARA Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Touring event series",
+    "description": "Pro-Wrestling BASARA’s named touring events.",
+    "sourceUrl": "https://basarapw.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "ganpro-events",
+    "promotionId": "ganbare",
+    "name": "Ganbare Pro-Wrestling Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2013-01-01",
+    "cadence": "Touring event series",
+    "description": "GanPro’s named cards and major events.",
+    "sourceUrl": "https://ganpro.net/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "2aw-events",
+    "promotionId": "2aw",
+    "name": "Kaientai Dojo / 2AW Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2002-01-01",
+    "cadence": "Touring event series",
+    "description": "The Chiba promotion’s event lineage from Kaientai Dojo through 2AW.",
+    "sourceUrl": "https://www.2aw.jp/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "jto-events",
+    "promotionId": "jto",
+    "name": "Just Tap Out Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2019-01-01",
+    "cadence": "Touring event series",
+    "description": "JTO cards, tournaments and trainee showcases.",
+    "sourceUrl": "https://pwjto.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "joint-promotions-itv",
+    "promotionId": "joint-promotions",
+    "name": "Joint Promotions on ITV",
+    "kind": "territory-tv",
+    "firstAirDate": "1955-01-01",
+    "cadence": "Weekly television presentation",
+    "description": "The Joint Promotions bouts presented across ITV’s classic British wrestling coverage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Professional_wrestling_in_the_United_Kingdom",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "1995-12-31"
+  },
+  {
+    "id": "all-star-uk-events",
+    "promotionId": "all-star-uk",
+    "name": "All Star Wrestling UK Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "1970-01-01",
+    "cadence": "Touring event series",
+    "description": "All Star Wrestling UK touring cards and televised specials.",
+    "sourceUrl": "https://www.bigtimewrestlinguk.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "attack-events",
+    "promotionId": "attack",
+    "name": "ATTACK! Pro Wrestling Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2011-01-01",
+    "cadence": "Recurring live events",
+    "description": "ATTACK! Pro Wrestling’s character-driven named cards.",
+    "sourceUrl": "https://attackprowrestling.com/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "fight-club-pro-events",
+    "promotionId": "fight-club-pro",
+    "name": "Fight Club: PRO Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2009-01-01",
+    "cadence": "Recurring live events",
+    "description": "Fight Club: PRO’s Wolverhampton cards and Dream Tag Team Invitational events.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fight_Club:_Pro",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "tnt-events",
+    "promotionId": "tnt",
+    "name": "TNT Extreme Wrestling Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2015-01-01",
+    "cadence": "Recurring live events",
+    "description": "TNT Extreme Wrestling’s named cards and tournaments.",
+    "sourceUrl": "https://tntextremewrestling.co.uk/",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "one-pw-events",
+    "promotionId": "one-pw",
+    "name": "1PW Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2005-01-01",
+    "cadence": "Recurring live events",
+    "description": "1 Pro Wrestling’s original and revival event catalogues.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/1_Pro_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "the-crash-events",
+    "promotionId": "the-crash",
+    "name": "The Crash Lucha Libre Event Archive",
+    "kind": "supercard",
+    "firstAirDate": "2011-01-01",
+    "cadence": "Recurring live events",
+    "description": "The Crash’s Tijuana and touring supercards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/The_Crash_Lucha_Libre",
+    "priority": "complete",
+    "datePrecision": "year"
+  },
+  {
+    "id": "eccw-events",
+    "promotionId": "eccw",
+    "name": "ECCW Television & Event Archive",
+    "kind": "weekly",
+    "firstAirDate": "1996-01-01",
+    "cadence": "Television and live events",
+    "description": "Elite Canadian Championship Wrestling television and named event cards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elite_Canadian_Championship_Wrestling",
+    "priority": "complete",
+    "datePrecision": "year",
+    "endDate": "2020-12-31"
   }
 ]

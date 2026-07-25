@@ -1,18 +1,20 @@
-# Upgrade an existing Ringside Archive repository to v5.5.0
+# Upgrade an existing Ringside Archive repository to v5.6.0
 
 These steps are for an existing GitHub/Vercel deployment, including the deployment shown with the older 271-programme interface.
 
-## Important v5.5.0 behaviour changes
+## Important v5.6.0 behaviour changes
 
 The 101 synthetic `Promotion Master Index` rows have been removed. They were coverage placeholders rather than real shows or dated events. Use **Companies** for promotion-level navigation, **Show Index** for real programme families, and **Complete Timeline** for exact dated records.
 
 Background cloud, episode and artwork updates preserve the visible card and scroll offset. The service worker does not refresh an active page when a new version becomes available.
 
-In v5.5.0, button-triggered network operations are also non-blocking. Artwork scans patch cards incrementally, long jobs expose local progress, and generic YouTube channel/search URLs are no longer accepted as match or episode links. The new exact-link catalogue is `data/free-links.json`.
+In v5.6.0, button-triggered network operations are also non-blocking. Artwork scans patch cards incrementally, long jobs expose local progress, and generic YouTube channel/search URLs are no longer accepted as match or episode links. The new exact-link catalogue is `data/free-links.json`.
+
+The upgrade also starts a new artwork cache because earlier broad search rules could retain unrelated images. It adds strict confidence checks, mapped TVMaze-first lookup, a Wrong image control, configurable Plex LAN links and 106 additional sourced programme/event-series families. The NWA-TNA weekly PPVs use an exact 111-episode feed.
 
 ## 1. Replace the repository files cleanly
 
-Extract the v5.5.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
+Extract the v5.6.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
 
 Before committing, confirm these obsolete routes do not exist:
 
@@ -43,7 +45,7 @@ Use `git add -A`, not only `git add .`, so obsolete endpoint deletions are defin
 ```powershell
 git add -A
 git status
-git commit -m "Upgrade Ringside Archive to v5.5.0"
+git commit -m "Upgrade Ringside Archive to v5.6.0"
 git push
 ```
 
@@ -78,19 +80,19 @@ It must report Trakt as configured before the Connect Trakt button can succeed. 
 Open the new deployment with:
 
 ```text
-https://YOUR-DEPLOYMENT.vercel.app/?v=5.5.0
+https://YOUR-DEPLOYMENT.vercel.app/?v=5.6.0
 ```
 
 Then press **Ctrl+Shift+R**.
 
 Confirm:
 
-- the dashboard reports **188 programme families**;
-- the footer says **Catalogue v5.5.0**;
+- the dashboard reports **294 programme families**;
+- the footer says **Catalogue v5.6.0**;
 - the browser no longer calls `/api/trakt/device-code`;
 - the Filters panel is visible and shows active-filter reset chips;
 - the initial page becomes usable before account/episode background work finishes;
-- the footer reports **Catalogue v5.5.0**;
+- the footer reports **Catalogue v5.6.0**;
 - pressing **Scan visible artwork** shows a spinner/progress dock without replacing the page;
 - exact green viewing buttons open a direct video/event URL rather than a channel homepage or search page.
 
@@ -163,7 +165,8 @@ Expected essentials:
 
 ```text
 101 promotions
-188 programme families
+294 programme families
+44 mapped TVMaze feeds
 1,144 major events
 12 Vercel Functions
 Cloud smoke passed

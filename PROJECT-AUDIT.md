@@ -1,9 +1,9 @@
-# Ringside Archive v5.5.0 professional audit
+# Ringside Archive v5.6.0 professional audit
 
 ## Preserved archive foundation
 
 - 101 promotion profiles
-- 188 programme families
+- 294 programme families
 - 1,144 dated major events
 - 1,144 detail records
 - 71 curated recommendations
@@ -29,7 +29,7 @@ Headshots depended on a background artwork scan finishing and then rerendering t
 
 The recovered interface was functional but visually flat at large desktop sizes, and large directories did not consistently use browser rendering containment or bounded first-page sizes.
 
-## Additional v5.5.0 findings
+## v5.5.0 findings retained
 
 ### Button-triggered whole-page work
 
@@ -118,3 +118,22 @@ Live Trakt and Plex access still depends on the deployed credentials and the net
 - Background artwork hydration and feed-progress reporting do not rebuild the timeline.
 - Service-worker controller changes never call `location.reload()`.
 - 101 synthetic promotion master-index placeholders were removed from programme data and the Complete Timeline.
+
+
+## v5.6.0 audit findings and corrections
+
+### Incorrect artwork selection
+
+The old resolver accepted broad title containment and could use a Wikipedia lead photograph as a company logo or a company logo as fallback event art. The revised resolver prioritizes exact TVMaze mappings, applies media-specific rejection rules, scores aliases, years, promotion context and programme context, and requires at least 80% client confidence before caching. Older device results are invalidated by a new v2 cache key.
+
+### Ambiguous match-card wording
+
+`completeCard` is a useful internal assertion: it records whether the stored match list is known to be complete. The visible text is now **Known matches** or **All matches verified**, and the action button is **View details**.
+
+### Plex LAN navigation
+
+The browser now builds matched-record URLs against the configured Tailscale address, `http://100.112.143.89:32400`, while retaining `app.plex.tv` as a fallback if the user clears the LAN setting. Vercel scanning continues to use advertised remote/Relay connections rather than this private address.
+
+### Catalogue gaps
+
+One hundred and six programme/event-series records were added. This improves navigational coverage without inventing weekly dates. Exact TNA weekly PPVs are provided by the dedicated TVMaze feed; other series remain source-labelled programme families until exact individual cards are imported.

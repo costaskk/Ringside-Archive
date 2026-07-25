@@ -45,7 +45,7 @@ try{
         title:wrestler?'Hulk Hogan':'World Wrestling Entertainment',
         description:wrestler?'American professional wrestler':'American professional wrestling promotion',
         fullurl:wrestler?'https://en.wikipedia.org/wiki/Hulk_Hogan':'https://en.wikipedia.org/wiki/WWE',
-        original:{source:wrestler?'https://upload.wikimedia.org/hulk.jpg':'https://upload.wikimedia.org/wwe.svg'}
+        original:{source:wrestler?'https://upload.wikimedia.org/hulk.jpg':'https://upload.wikimedia.org/wwe-logo.svg'}
       }]}};
       return new Response(JSON.stringify(payload),{status:200,headers:{'content-type':'application/json'}});
     }
@@ -58,6 +58,18 @@ try{
   ]}},res);
   const results=res.record.body?.results||[];
   if(res.record.statusCode!==200||!results[0]?.result?.logo||!results[1]?.result?.headshot)throw new Error('Artwork logo/headshot batch test failed.');
+  if(Number(results[0]?.result?.confidence||0)<80||Number(results[1]?.result?.confidence||0)<80)throw new Error('Artwork confidence threshold test failed.');
+
+  globalThis.fetch=async url=>{
+    if(String(url)==='https://api.tvmaze.com/shows/80637')return new Response(JSON.stringify({
+      id:80637,name:'NWA: Total Nonstop Action',url:'https://www.tvmaze.com/shows/80637/nwa-total-nonstop-action',
+      image:{original:'https://static.tvmaze.com/uploads/images/original_untouched/tna.jpg'}
+    }),{status:200,headers:{'content-type':'application/json'}});
+    throw new Error(`Unexpected TVMaze artwork fetch: ${url}`);
+  };
+  res=responseRecorder();
+  await artworkSearch({method:'POST',body:{title:'NWA-TNA / TNA Weekly Pay-Per-Views',programmeTitle:'NWA-TNA / TNA Weekly Pay-Per-Views',aliases:['NWA: Total Nonstop Action'],kind:'ppv',tvMazeId:80637}},res);
+  if(res.record.statusCode!==200||res.record.body?.source!=='TVMaze'||Number(res.record.body?.confidence||0)<90)throw new Error('Mapped TVMaze artwork priority test failed.');
 
   globalThis.fetch=async (url,options={})=>{
     const value=String(url);

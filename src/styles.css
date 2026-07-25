@@ -262,3 +262,6 @@ button.isLoading small{font:700 9px ui-monospace,monospace;color:currentColor;op
 .operationSkeleton{position:relative;overflow:hidden;background:#10161d}.operationSkeleton:after{content:"";position:absolute;inset:0;transform:translateX(-100%);background:linear-gradient(90deg,transparent,rgba(255,255,255,.045),transparent);animation:operationShimmer 1.25s infinite}@keyframes operationShimmer{to{transform:translateX(100%)}}
 @media(max-width:700px){.asyncTaskDock{left:10px;right:10px;bottom:74px;width:auto}.asyncTaskDock>div{padding:9px 11px}.freeWatchLink{width:100%}}
 @media(prefers-reduced-motion:reduce){.buttonSpinner{animation:none;border-top-color:transparent}.asyncTaskDock>div{backdrop-filter:none}}
+
+/* v5.6 artwork-verification controls */
+.artworkGallery figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.textButton{border:0!important;background:transparent!important;color:var(--red-bright)!important;padding:2px 0!important;font-size:8px!important;text-decoration:underline;text-underline-offset:2px}.textButton:hover{color:#ff8b91!important}

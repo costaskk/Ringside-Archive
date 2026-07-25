@@ -1,24 +1,27 @@
 {
   "title": "Ringside Archive",
-  "catalogueVersion": "5.5.0-async-exact-links",
+  "catalogueVersion": "5.6.0-coverage-artwork-plex-lan",
   "reconstructedAt": "2026-07-24T08:14:43.499Z",
   "counts": {
     "promotions": 101,
-    "programmes": 188,
+    "programmes": 294,
     "majorEvents": 1144,
     "recommendations": 71,
     "wrestlers": 110,
-    "tvMazeFeeds": 42
+    "tvMazeFeeds": 44
   },
   "sources": [
     "Recovered from the published Ringside Archive client bundle",
     "Individual sourceUrl fields in major-events.json",
     "TVMaze live/snapshot episode feeds",
     "Official WWE programme announcements for WWE Speed and WWE Evolve",
-    "Historic programme lineage additions for WCW, JCP, Georgia and WWF/WWE"
+    "Historic programme lineage additions for WCW, JCP, Georgia and WWF/WWE",
+    "TVMaze NWA: Total Nonstop Action mapping for the 2002-2004 weekly pay-per-view run",
+    "Source-labelled programme and recurring event-series coverage expansion for requested territories and independent promotions",
+    "At least one source-labelled television or recurring-event family for every indexed promotion"
   ],
-  "version": "5.5.0",
-  "updatedAt": "2026-07-24T17:45:00.000Z",
+  "version": "5.6.0",
+  "updatedAt": "2026-07-25T06:30:00.000Z",
   "features": {
     "detailPopouts": true,
     "yearRangeFilters": true,
@@ -63,7 +66,15 @@
     "syntheticMasterIndexesRemoved": true,
     "scrollAnchorPreservation": true,
     "backgroundRenderIsolation": true,
-    "nonDisruptiveServiceWorkerUpdates": true
+    "nonDisruptiveServiceWorkerUpdates": true,
+    "strictArtworkConfidence": true,
+    "tvMazeArtworkPriority": true,
+    "artworkCacheV2": true,
+    "plexTailscaleDeepLinks": true,
+    "expandedPromotionCoverageV56": true,
+    "tnaWeeklyPpvExactFeed": true,
+    "knownMatchesLanguage": true,
+    "allPromotionsProgrammeCoverage": true
   },
   "freeLinkPolicy": "record-specific-only"
 }

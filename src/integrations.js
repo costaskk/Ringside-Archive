@@ -121,10 +121,13 @@ export function buildPlexMatches(data, plexItems = [], threshold = 0.9) {
   return { matches, links, viewing, diagnostics: { totalItems: plexItems.length, validItems, matchedItems } };
 }
 
-export function plexWebUrl(item, server) {
-  if (!item?.ratingKey || !server?.machineIdentifier) return '';
+export function plexWebUrl(item, server, lanBaseUrl = '') {
+  const machineIdentifier = item?.machineIdentifier || server?.machineIdentifier;
+  if (!item?.ratingKey || !machineIdentifier) return '';
   const key = encodeURIComponent(`/library/metadata/${item.ratingKey}`);
-  return `https://app.plex.tv/desktop/#!/server/${encodeURIComponent(server.machineIdentifier)}/details?key=${key}`;
+  const configured = String(lanBaseUrl || globalThis.RINGSIDE_CONFIG?.plexLanBaseUrl || '').trim().replace(/\/+$/, '');
+  if (configured) return `${configured}/web/index.html#!/server/${encodeURIComponent(machineIdentifier)}/details?key=${key}`;
+  return `https://app.plex.tv/desktop/#!/server/${encodeURIComponent(machineIdentifier)}/details?key=${key}`;
 }
 
 async function jsonResponse(response, fallback) {
@@ -212,9 +215,13 @@ function artworkInput(item, programme, extra = {}) {
     aliases: extra.aliases || item.aliases || [],
     year: yearOf(item.date || item.firstAirDate),
     kind: extra.kind || item.kind || programme?.kind || 'show',
-    programmeTitle: programme?.name || '',
+    programmeTitle: programme?.name || extra.programmeTitle || '',
+    promotionName: extra.promotionName || '',
+    promotionShortName: extra.promotionShortName || '',
+    tvMazeId: item.tvMazeId || programme?.tvMazeId || extra.tvMazeId || null,
     season: item.season ?? null,
-    episode: item.number ?? null
+    episode: item.number ?? null,
+    sourceUrl: item.sourceUrl || programme?.sourceUrl || extra.sourceUrl || ''
   };
 }
 

@@ -1,13 +1,16 @@
-Ringside Archive v5.5.0 final validation
-Date: 2026-07-24
+Ringside Archive v5.6.0 final validation
+Date: 2026-07-25
 
-Commands:
+Commands executed:
   npm run build:core
   npm test
 
 Validated catalogue:
   101 promotions
-  188 real programme/event-series families
+  294 television, streaming and recurring-event programme families
+  Every promotion has at least one source-labelled programme/event family
+  44 mapped TVMaze feeds
+  NWA-TNA weekly PPV mapping: TVMaze 80637, 2002-06-19 through 2004-09-08
   1,144 dated major events
   1,144 event-detail records
   71 curated recommendations with Archive editorial star ratings
@@ -15,54 +18,59 @@ Validated catalogue:
   11 verified record-specific free-viewing links
   12 Vercel Functions
 
-Non-blocking interaction checks:
-  Shared task controller present for account, feed, Trakt, Plex and artwork actions
-  Initiating buttons expose aria-busy, spinner text and progress where measurable
-  Long operations remain visible in a background operation dock
-  Scan-visible-artwork applies each completed batch with DOM patches
-  Single-record artwork scanning does not rebuild the root application
-  Account bootstrap/sign-out use partial view/modal updates
-  Filters, modal state and reading position remain available during operations
-  No forced service-worker reload
+Artwork validation:
+  Mapped TVMaze IDs are checked before heuristic services
+  Strict TMDB title/year thresholds are enforced
+  Wikipedia/Wikimedia results are filtered by media type, page context and filename
+  Company portraits cannot be accepted as logos
+  Wrestler logos, belts, posters and group imagery are rejected as headshots
+  Ambiguous event images are rejected instead of displayed
+  Company logos are not substituted for episode/show/event posters
+  Client accepts scanned results only at confidence >= 80
+  Device artwork cache upgraded to ringside-artwork-v2
+  Wrong-image removal and rescan control present
+  GitHub artwork scanner reuses the same strict resolver
 
-Free-viewing link checks:
-  data/free-links.json is included in data/core.json
-  All entries point to existing recommendation/programme/record IDs
-  Direct YouTube watch, playlist/live/short, Archive.org item and supported video URLs are allowed
-  YouTube channel homepages, search-result pages and generic root/category links are rejected
-  Legacy generated YouTube search URLs were removed from recommendations
-  Company channel links remain explicitly labelled as company channels, never match links
+Plex validation:
+  Default browser deep-link base is http://100.112.143.89:32400
+  LAN/Tailscale base URL is editable in Connections
+  Exact matched records generate Plex Web server/detail links
+  Private LAN URL is not used by Vercel server-side scanning
+  Plex direct-to-Relay fallback and selected-library scans pass
+  Exact show/episode/event matching passes
+  Compact storage quota and raw-token stripping pass
+
+Card-language validation:
+  No visible Full card action or unexplained label remains
+  Partial data is labelled Known matches
+  Fully sourced lists are labelled All matches verified
+  Internal completeCard flag remains available for data integrity
+
+Expanded coverage validation:
+  Requested DEFY, IWA-MS, Memphis, Mid-South/UWF, Mid-Atlantic/JCP, NJPW,
+  WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW, Georgia and TNA families present
+  Additional source-labelled coverage added for all formerly uncovered promotions
+  Programme indexes do not manufacture individual weekly dates
+  Only exact feed/custom/major-event records enter Complete Timeline
 
 Automated checks passed:
-  Data IDs, references and exact-date formats
+  Data IDs, promotion/programme references and date formats
+  All-promotion programme coverage
   Core bundle/source-catalogue consistency
-  Synthetic master-index exclusion
+  Meta programme/feed count consistency
+  Synthetic Master Index exclusion
   Free-link exactness and attribution audit
   Required files, JSON parsing and JavaScript syntax
   12-function Vercel Hobby limit
   Deferred boot, bounded rendering and cached chronology
+  Button-level async operation and incremental artwork markers
   Persistent Trakt device-code state and required Trakt headers
-  Supabase encryption, RLS and current/legacy key compatibility
-  Artwork discovery/proxy and incremental image patch markers
-  Plex direct-to-Relay fallback and selected-library scanning
-  Exact Plex show/episode/event matching
+  Supabase encryption, RLS and key compatibility
+  Mapped TVMaze artwork-priority test
+  Artwork confidence and proxy tests
+  Plex direct/Relay fallback, selected-library scan and exact matching
   Plex quota compaction and token stripping
-  Browser runtime initial timeline rendering
+  Browser runtime initial rendering
 
-Latest test output:
-  Data audit: passed with 6 future/TBA warnings
-  Free-link audit passed: 11 exact video/event links
-  Smoke test passed: 61 required files, 16 JSON files and 12 Vercel functions
-  Performance smoke passed
-  Async UI smoke passed
-  Cloud smoke passed
-  Integration smoke passed
-  Plex match smoke passed: 3 keys from 2 matched items
-  Plex storage smoke passed: 1,800 match keys, 12 compact item links, no raw token URLs
-  Runtime smoke passed: 65,403 characters rendered
-
-Warnings and external dependencies:
-  Six future/TBA scheduled records remain warnings rather than validation failures.
-  Free public videos can be removed, geo-restricted or changed by their publishers after validation.
-  Source artwork catalogues remain intentionally sparse; runtime discovery fills reviewed logos, posters, stills and headshots.
-  Live Trakt acceptance and Plex reachability depend on deployed credentials and the Plex server's advertised secure connection.
+Expected non-failing audit warnings:
+  Six future/TBA AEW or NJPW events already present in the recovered catalogue.

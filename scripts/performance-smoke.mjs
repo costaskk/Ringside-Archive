@@ -14,8 +14,8 @@ if(!app.includes('visible: 24'))throw new Error('Initial bounded rendering must 
 if(!app.includes('traktDeviceMarkup')||!app.includes('state.traktDevice={'))throw new Error('Persistent Trakt device-code state is missing.');
 if(!app.includes('topMatchesForProfile')||!app.includes('showsForProfile'))throw new Error('Wrestler Top 10/programme profile features are missing.');
 if(!sw.includes("url.pathname.startsWith('/data/')")||!sw.includes('staleWhileRevalidate'))throw new Error('Release-data repeat-visit caching is missing.');
-if(core.majorEvents?.length!==1144||core.programmes?.length!==188)throw new Error('data/core.json is missing the cleaned current catalogue.');
-if(core.programmes.some(row=>row.kind==='archive'||/master index/i.test(row.name||'')))throw new Error('Synthetic promotion Master Index rows must not remain in programme data.');
+if(core.majorEvents?.length!==1144||core.programmes?.length!==294)throw new Error('data/core.json is missing the cleaned current catalogue.');
+if(core.programmes.some(row=>/master index/i.test(row.name||'')))throw new Error('Synthetic promotion Master Index rows must not remain in programme data.');
 if(/location\.reload\?\.\(\)/.test(app))throw new Error('The application must not force-reload when a service worker changes controller.');
 if(recommendations.length!==71||recommendations.some(row=>!(Number(row.archiveStars)>0&&Number(row.archiveStars)<=5)))throw new Error('Every curated recommendation must carry a 0–5 Archive editorial rating.');
 const artworkScan=app.match(/async function scanVisibleArtwork\(\)[\s\S]*?\n}\n+const SCROLL_SESSION_KEY/)?.[0]||'';

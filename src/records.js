@@ -45,7 +45,7 @@ export function detailsFor(item, data) {
     competitors,
     editorial: direct.review || recommendations.map(rec => rec.why).filter(Boolean).join('\n\n'),
     completeCard: Boolean(direct.completeCard),
-    sourceNote: direct.sourceNote || (direct.completeCard ? 'Complete card from the linked source.' : 'Only verified matches currently present in the archive are shown.'),
+    sourceNote: direct.sourceNote || (direct.completeCard ? 'All matches in this record are verified by the linked source.' : 'Only matches currently verified in the archive are shown.'),
     year: yearOf(item.date)
   };
 }

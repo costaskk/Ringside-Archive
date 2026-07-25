@@ -1,5 +1,17 @@
 # Changelog
 
+## 5.6.0 — Source-validated artwork, Plex LAN links and expanded coverage
+
+- Prioritize mapped TVMaze images and enforce strict title/year/context thresholds for TMDB and Wikipedia/Wikimedia results.
+- Reject ambiguous company portraits, wrestler logos, generic promotion art and unrelated event images.
+- Stop using company logos as fallback posters for show, episode and event cards.
+- Start a new v2 device artwork cache and add a Wrong image action for scanned results.
+- Replace visible Full card terminology with Known matches / All matches verified.
+- Add configurable Plex LAN/Tailscale deep links, defaulting to `http://100.112.143.89:32400`.
+- Expand programme coverage from 188 to 294 real programme/event-series families.
+- Map the complete 111-show NWA-TNA weekly PPV run through TVMaze show 80637.
+- Add requested television, streaming, tournament and recurring-event families for DEFY, IWA-MS, Memphis, Mid-South/UWF, JCP/Mid-Atlantic, NJPW, WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW and Georgia Championship Wrestling.
+
 ## 5.5.0 — Non-blocking actions and exact free links
 
 - Add a shared button-task controller with spinners, progress percentages and a background operation dock.

@@ -2,5 +2,6 @@
    through /api/config from environment variables. Never put server secrets here. */
 window.RINGSIDE_CONFIG = window.RINGSIDE_CONFIG || {
   supabaseUrl: '',
-  supabasePublishableKey: ''
+  supabasePublishableKey: '',
+  plexLanBaseUrl: 'http://100.112.143.89:32400'
 };
