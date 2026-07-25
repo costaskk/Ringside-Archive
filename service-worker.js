@@ -1,8 +1,8 @@
-const CACHE = 'ringside-archive-v5.7.0';
+const CACHE = 'ringside-archive-v5.8.0';
 const CORE = [
-  './', './index.html?v=5.7.0', './runtime-config.js?v=5.7.0',
-  './src/app.js?v=5.7.0', './src/styles.css?v=5.7.0', './src/storage.js', './src/cloud.js',
-  './src/tvmaze.js', './src/utils.js', './src/records.js', './src/integrations.js',
+  './', './index.html?v=5.8.0', './runtime-config.js?v=5.8.0',
+  './src/app.js?v=5.8.0', './src/styles.css?v=5.8.0', './src/storage.js', './src/cloud.js',
+  './src/tvmaze.js', './src/utils.js', './src/records.js', './src/integrations.js', './src/plex-indexeddb.js',
   './favicon.svg', './manifest.webmanifest'
 ];
 

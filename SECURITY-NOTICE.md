@@ -1,37 +1,44 @@
-# Security notice: legacy Plex exports
+# Ringside Archive security notice
 
-Older Ringside Archive Plex-export scripts could write `X-Plex-Token` into `thumbUrl` and `artUrl` values. A Plex token grants authenticated access to the associated Plex account/server and must be treated like a password.
+## Rotate the exposed Plex token
 
-## If an old export contains `X-Plex-Token=`
+A Plex authentication token was displayed during the exporter troubleshooting. Even though the safe version 3 JSON does not include the token, the displayed credential should be considered exposed and rotated.
 
-1. Do **not** import, publish, email or commit that file.
-2. In Plex account security, change the password and choose **Sign out connected devices after password change** to invalidate existing tokens.
-3. Sign the Plex server and trusted Plex clients back into the account.
-4. Delete every copy of the unsafe export from GitHub history, cloud drives, chat attachments and shared folders where practical.
-5. Create a fresh export with `tools/export-plex-library.ps1` from this release.
-6. Audit the new file:
+Changing the Plex account password while selecting **Sign out connected devices after password change** invalidates existing tokens. Sign the server and trusted clients back in afterward.
+
+## Safe Plex exports
+
+Version 3 exports contain metadata and viewing state but do not generate tokenized `thumbUrl` or `artUrl` fields. Audit every export before importing:
 
 ```powershell
-npm run audit:plex -- .\plex-library-export.json
+npm run audit:plex -- ".\plex-library-export.json"
 ```
 
-A safe export reports:
+The result must say:
 
 ```text
-version: 3
 containsEmbeddedPlexToken: false
-likelyWrestlingRows: greater than 0
 ```
 
-## Protections in v5.7.0
+Never commit a private Plex export. The neutral committed supplement contains no rating keys, token, server URL or personal watch state.
 
-- The exporter never writes the token or tokenized image URLs.
-- The browser rejects a legacy Plex JSON import containing `X-Plex-Token=`.
-- Plex scans are matched in memory and only compact matched records are persisted.
-- Raw tokenized artwork URLs are stripped before browser or cloud storage.
-- Signed-in Plex credentials are encrypted in the server-only Supabase integration vault.
-- Plex artwork for account-linked devices uses signed same-origin proxy URLs.
+## Cloudflare R2 credentials
 
-## Exact free-viewing links
+These are server-only secrets:
 
-`data/free-links.json` contains public record-specific URLs only. Do not place authenticated streaming URLs, signed URLs, cookies or access tokens in this file. `npm run audit:free-links` rejects generic YouTube channel/search links but cannot make a private or token-bearing URL safe.
+```text
+R2_ACCESS_KEY_ID
+R2_SECRET_ACCESS_KEY
+```
+
+Restrict the credential to Object Read & Write on the dedicated artwork bucket. Do not place it in `runtime-config.js`, source files, browser storage or public GitHub variables.
+
+The app writes to R2 only after Supabase account authentication. Signed-out scans cannot use the bucket credential.
+
+## Integration vault
+
+Plex and Trakt connections are encrypted with AES-256-GCM before storage. Keep `INTEGRATION_ENCRYPTION_KEY` stable. Losing or changing it makes existing vault records undecryptable and requires reconnecting integrations.
+
+## Upgrade safety
+
+Use `tools/upgrade-preserve-r2.ps1` so a populated generated artwork catalogue is not replaced by the package’s empty template. The script leaves `.env` untouched.

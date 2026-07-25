@@ -1,4 +1,6 @@
-const APP_VERSION = '5.7.0';
+import { createHash, createHmac } from 'node:crypto';
+import { authenticateAccount } from '../_lib/account.js';
+const APP_VERSION = '5.8.0';
 const APP_URL = 'https://ringside-archive.vercel.app/';
 const USER_AGENT = `RingsideArchive/${APP_VERSION} (+${APP_URL})`;
 const image = path => path ? `https://image.tmdb.org/t/p/original${path}` : '';
@@ -464,6 +466,94 @@ function allowedArtworkAsset(value) {
   } catch { return false; }
 }
 
+
+const envValue = name => String(process.env[name] || '').trim().replace(/^['"]|['"]$/g, '');
+const sha256 = value => createHash('sha256').update(value).digest('hex');
+const hmac = (key, value, encoding) => createHmac('sha256', key).update(value, 'utf8').digest(encoding);
+const safeSegment = value => norm(value).replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '').slice(0, 72) || 'artwork';
+const encodePath = value => String(value).split('/').map(segment => encodeURIComponent(segment).replace(/[!'()*]/g, char => `%${char.charCodeAt(0).toString(16).toUpperCase()}`)).join('/');
+
+function r2Configuration() {
+  const accountId=envValue('CLOUDFLARE_ACCOUNT_ID');
+  const accessKeyId=envValue('R2_ACCESS_KEY_ID');
+  const secretAccessKey=envValue('R2_SECRET_ACCESS_KEY');
+  const bucket=envValue('R2_BUCKET_NAME')||'ringside-artwork';
+  const publicBaseUrl=envValue('R2_ARTWORK_PUBLIC_BASE_URL').replace(/\/+$/,'');
+  return {accountId,accessKeyId,secretAccessKey,bucket,publicBaseUrl,configured:Boolean(accountId&&accessKeyId&&secretAccessKey&&bucket&&publicBaseUrl)};
+}
+
+function awsDates(date=new Date()) {
+  const stamp=date.toISOString().replace(/[:-]|\.\d{3}/g,'');
+  return {amzDate:stamp,dateStamp:stamp.slice(0,8)};
+}
+
+async function putR2Object(config, objectKey, buffer, contentType) {
+  const host=`${config.accountId}.r2.cloudflarestorage.com`;
+  const path=`/${encodePath(config.bucket)}/${encodePath(objectKey)}`;
+  const payloadHash=sha256(buffer);
+  const {amzDate,dateStamp}=awsDates();
+  const canonicalHeaders=`cache-control:public,max-age=31536000,immutable\ncontent-type:${contentType}\nhost:${host}\nx-amz-content-sha256:${payloadHash}\nx-amz-date:${amzDate}\n`;
+  const signedHeaders='cache-control;content-type;host;x-amz-content-sha256;x-amz-date';
+  const canonicalRequest=['PUT',path,'',canonicalHeaders,signedHeaders,payloadHash].join('\n');
+  const scope=`${dateStamp}/auto/s3/aws4_request`;
+  const stringToSign=['AWS4-HMAC-SHA256',amzDate,scope,sha256(canonicalRequest)].join('\n');
+  const kDate=hmac(Buffer.from(`AWS4${config.secretAccessKey}`,'utf8'),dateStamp);
+  const kRegion=hmac(kDate,'auto');
+  const kService=hmac(kRegion,'s3');
+  const kSigning=hmac(kService,'aws4_request');
+  const signature=hmac(kSigning,stringToSign,'hex');
+  const authorization=`AWS4-HMAC-SHA256 Credential=${config.accessKeyId}/${scope}, SignedHeaders=${signedHeaders}, Signature=${signature}`;
+  const response=await fetch(`https://${host}${path}`,{method:'PUT',headers:{Authorization:authorization,'x-amz-date':amzDate,'x-amz-content-sha256':payloadHash,'Content-Type':contentType,'Cache-Control':'public,max-age=31536000,immutable'},body:buffer,signal:withTimeout(20000)});
+  if(!response.ok){const text=await response.text().catch(()=> '');throw new Error(`R2 upload returned ${response.status}${text?`: ${text.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').slice(0,180)}`:''}`);}
+  return `${config.publicBaseUrl}/${objectKey.split('/').map(encodeURIComponent).join('/')}`;
+}
+
+function imageExtension(contentType, sourceUrl='') {
+  const type=String(contentType||'').split(';')[0].toLowerCase();
+  const byType={'image/jpeg':'jpg','image/jpg':'jpg','image/png':'png','image/webp':'webp','image/avif':'avif','image/gif':'gif','image/svg+xml':'svg'};
+  if(byType[type])return byType[type];
+  const pathname=(()=>{try{return new URL(sourceUrl).pathname;}catch{return '';}})();
+  const ext=(pathname.match(/\.([a-z0-9]{2,5})$/i)||[])[1]?.toLowerCase();
+  return ['jpg','jpeg','png','webp','avif','gif','svg'].includes(ext)?(ext==='jpeg'?'jpg':ext):'img';
+}
+
+async function downloadArtworkAsset(asset) {
+  if(!allowedArtworkAsset(asset))throw new Error('The accepted artwork source is not on the upload allow-list.');
+  const response=await fetch(asset,{headers:{Accept:'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8','User-Agent':USER_AGENT,Referer:new URL(asset).origin+'/'},signal:withTimeout(18000)});
+  if(!response.ok)throw new Error(`Artwork source returned ${response.status}.`);
+  const contentType=response.headers.get('content-type')||'application/octet-stream';
+  if(!contentType.startsWith('image/'))throw new Error('Artwork source did not return an image.');
+  const buffer=Buffer.from(await response.arrayBuffer());
+  if(!buffer.length||buffer.length>10*1024*1024)throw new Error('Artwork image was empty or exceeded 10 MB.');
+  return {buffer,contentType};
+}
+
+async function persistArtworkToR2(result, input, account=null) {
+  const config=r2Configuration();
+  if(!config.configured||!result||result.error)return result;
+  if(!account?.id)return {...result,r2Cached:false,r2RequiresAccount:true};
+  const fields=['poster','backdrop','still','logo','headshot'];
+  const urls=new Map();
+  const cachedFields=[];
+  const updated={...result};
+  try{
+    for(const field of fields){
+      const source=String(result[field]||'');if(!source)continue;
+      if(source.startsWith(`${config.publicBaseUrl}/`)){updated[field]=source;cachedFields.push(field);continue;}
+      let publicUrl=urls.get(source);
+      if(!publicUrl){
+        const {buffer,contentType}=await downloadArtworkAsset(source);
+        const hash=sha256(buffer).slice(0,24),ext=imageExtension(contentType,source);
+        const objectKey=`runtime/${safeSegment(input.kind)}/${safeSegment(input.key||input.id||input.title)}/${hash}.${ext}`;
+        publicUrl=await putR2Object(config,objectKey,buffer,contentType);urls.set(source,publicUrl);
+      }
+      updated[field]=publicUrl;cachedFields.push(field);
+    }
+    if(cachedFields.length){updated.r2Cached=true;updated.r2CachedFields=[...new Set(cachedFields)];updated.r2PublicBaseUrl=config.publicBaseUrl;}
+  }catch(error){updated.r2Cached=false;updated.r2CacheError=error.message||'R2 persistence failed.';}
+  return updated;
+}
+
 async function proxyArtworkAsset(asset, res) {
   asset = String(asset || '');
   if (!allowedArtworkAsset(asset)) return res.status(400).json({ error: 'Unsupported artwork host.' });
@@ -519,6 +609,7 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
   const body = bodyOf(req);
   try {
+    const account=await authenticateAccount(req,{optional:true}).catch(()=>null);
     if (Array.isArray(body.items)) {
       const items = body.items.slice(0, 8).map(normalizeInput);
       const results = new Array(items.length);
@@ -528,10 +619,11 @@ export default async function handler(req, res) {
           const index = cursor++;
           const item = items[index];
           try {
-            const result = await Promise.race([
+            const found = await Promise.race([
               lookup(item, token),
               new Promise(resolve => setTimeout(() => resolve({ error: 'Artwork lookup timed out; retry later.' }), 20000))
             ]);
+            const result=found?.error?found:await persistArtworkToR2(found,item,account);
             results[index] = { key: item.key || item.id || item.title, result };
           } catch (error) {
             results[index] = { key: item.key || item.id || item.title, result: { error: error.message || 'Artwork lookup failed.' } };
@@ -543,9 +635,11 @@ export default async function handler(req, res) {
       return res.status(200).json({ results });
     }
 
-    const result = await lookup(body, token);
-    if (result.error) return res.status(404).json(result);
-    res.setHeader('Cache-Control', 's-maxage=86400, stale-while-revalidate=604800');
+    const input=normalizeInput(body);
+    const found = await lookup(input, token);
+    if (found.error) return res.status(404).json(found);
+    const result=await persistArtworkToR2(found,input,account);
+    res.setHeader('Cache-Control', 'private, no-store');
     return res.status(200).json(result);
   } catch (error) {
     return res.status(502).json({ error: error.message || 'Artwork lookup failed.' });

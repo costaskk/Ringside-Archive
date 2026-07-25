@@ -1,14 +1,15 @@
 {
   "title": "Ringside Archive",
-  "catalogueVersion": "5.7.0-r2-series-audit",
+  "catalogueVersion": "5.8.0-plex-catalogue-r2-runtime",
   "reconstructedAt": "2026-07-24T08:14:43.499Z",
   "counts": {
-    "promotions": 101,
-    "programmes": 431,
-    "majorEvents": 1144,
+    "promotions": 104,
+    "programmes": 504,
+    "majorEvents": 1904,
     "recommendations": 71,
     "wrestlers": 110,
-    "tvMazeFeeds": 44
+    "tvMazeFeeds": 44,
+    "plexSupplementEpisodes": 6572
   },
   "sources": [
     "Recovered from the published Ringside Archive client bundle",
@@ -20,10 +21,13 @@
     "Source-labelled programme and recurring event-series coverage expansion for requested territories and independent promotions",
     "At least one source-labelled television or recurring-event family for every indexed promotion",
     "Recurring-series audit of the existing 1,144 individually dated event records",
-    "Cloudflare R2 optional artwork publication workflow with immutable content-hashed assets"
+    "Cloudflare R2 optional artwork publication workflow with immutable content-hashed assets",
+    "Owner-supplied Plex Wrestling and Wrestling PPV export, version 3",
+    "Exact Plex title/date/season/episode mapping with JCP/WCW/NWA lineage date rules",
+    "Runtime Cloudflare R2 artwork persistence through the existing artwork API route"
   ],
-  "version": "5.7.0",
-  "updatedAt": "2026-07-25T10:30:00.000Z",
+  "version": "5.8.0",
+  "updatedAt": "2026-07-25T15:00:00.000Z",
   "features": {
     "detailPopouts": true,
     "yearRangeFilters": true,
@@ -79,7 +83,14 @@
     "allPromotionsProgrammeCoverage": true,
     "cloudflareR2ArtworkPublishing": true,
     "recurringSeriesAuditV57": true,
-    "exactEventSeriesReclassification": true
+    "exactEventSeriesReclassification": true,
+    "clickableArtworkLightbox": true,
+    "runtimeR2ArtworkPersistence": true,
+    "plexExactIdMatching": true,
+    "plexCatalogueSupplement": true,
+    "plexLineageAwarePromotionMapping": true,
+    "plexUnknownRecordRuntimeImport": true,
+    "nonDisruptiveCardActionsV58": true
   },
   "freeLinkPolicy": "record-specific-only"
 }

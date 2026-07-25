@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "sourceExportedAt": "2026-07-25T13:51:07.4828029Z",
+  "libraries": [
+    {
+      "key": "4",
+      "title": "Wrestling PPV",
+      "type": "movie",
+      "scanner": "Plex Movie",
+      "agent": "tv.plex.agents.movie"
+    },
+    {
+      "key": "2",
+      "title": "Wrestling",
+      "type": "show",
+      "scanner": "Plex TV Series",
+      "agent": "tv.plex.agents.series"
+    }
+  ],
+  "input": {
+    "rows": 13075,
+    "episodes": 12219,
+    "movies": 856
+  },
+  "output": {
+    "newPromotions": 3,
+    "programmeFamilies": 504,
+    "newExactEvents": 760,
+    "supplementEpisodes": 6572,
+    "mappedPlexShowTitles": 69
+  },
+  "excludedEpisodeRows": [
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "Power Pro",
+      "title": "Episode 11-15",
+      "date": "2024-11-14",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 01-01",
+      "date": "1969-12-31",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-21",
+      "date": "2012-07-21",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-21",
+      "date": "2012-07-21",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-21",
+      "date": "2012-07-21",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-21",
+      "date": "2012-07-21",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-21",
+      "date": "2012-07-21",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 07-23",
+      "date": "2012-07-23",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 08-05",
+      "date": "2012-08-05",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 08-06",
+      "date": "2012-08-06",
+      "reason": "No safe date-range mapping"
+    },
+    {
+      "show": "UWF",
+      "title": "Episode 08-06",
+      "date": "2012-08-06",
+      "reason": "No safe date-range mapping"
+    }
+  ],
+  "excludedMovieRows": [
+    {
+      "title": "The Best of ECW 1992: Volume 1",
+      "date": "1992-07-14",
+      "reason": "Compilation, documentary or ceremony"
+    },
+    {
+      "title": "The Best of ECW 1992: Volume 2",
+      "date": "1992-10-24",
+      "reason": "Compilation, documentary or ceremony"
+    },
+    {
+      "title": "Best of Paul London in ROH Please Don't Die",
+      "date": null,
+      "reason": "Compilation, documentary or ceremony"
+    },
+    {
+      "title": "Cheating Death, Stealing Life: The Eddie Guerrero Story",
+      "date": "2004-05-26",
+      "reason": "Compilation, documentary or ceremony"
+    },
+    {
+      "title": "ECW Extreme Warfare Vol. 1",
+      "date": "1995-06-15",
+      "reason": "Compilation, documentary or ceremony"
+    },
+    {
+      "title": "ECW Extreme Warfare Vol. 2",
+      "date": "1996-01-15",
+      "reason": "Compilation, documentary or ceremony"
+    }
+  ],
+  "unmappedMovieRows": [],
+  "promotionEventCounts": {
+    "aew": 5,
+    "awa": 19,
+    "czw": 3,
+    "ddt": 1,
+    "ecw": 26,
+    "gcw": 1,
+    "jcp": 19,
+    "maple-leaf-pro": 1,
+    "mid-south": 1,
+    "njpw": 4,
+    "nwa-historic": 5,
+    "progress": 1,
+    "pwg": 216,
+    "roh": 32,
+    "tjpw": 1,
+    "tna": 75,
+    "wccw": 12,
+    "wcw": 117,
+    "wwe": 208
+  },
+  "supplementProgrammeCounts": {
+    "aew-being-the-elite": 429,
+    "aew-johnny-loves-taya": 10,
+    "awa-all-star": 4,
+    "chikara-events": 7,
+    "czw-events": 12,
+    "gcw-events": 7,
+    "gcw-world-championship-wrestling": 224,
+    "gwf-dallas-tv": 77,
+    "jcp-main-event": 27,
+    "jcp-nwa-pro": 139,
+    "jcp-world-championship-wrestling-tbs": 187,
+    "jcp-worldwide": 261,
+    "mid-atlantic-tv": 206,
+    "mid-south-tv": 219,
+    "njpw-strong": 2,
+    "nwa-power-pro": 10,
+    "tna-ring-ka-king": 26,
+    "uwf-fury": 1,
+    "uwf-tv": 45,
+    "wccw-star-wars": 16,
+    "wcpw-loaded": 5,
+    "wcw-backstage-nitro-blast": 17,
+    "wcw-main-event": 409,
+    "wcw-nitro-xtra": 2,
+    "wcw-power-hour": 232,
+    "wcw-prime": 57,
+    "wcw-pro": 354,
+    "wcw-saturday-night": 581,
+    "wcw-worldwide": 594,
+    "wwe-blast-off": 15,
+    "wwe-byte-this": 136,
+    "wwe-confidential": 81,
+    "wwe-tough-enough": 71,
+    "wwf-action-zone": 97,
+    "wwf-all-american": 201,
+    "wwf-all-star": 178,
+    "wwf-excess": 39,
+    "wwf-friday-night-main-event": 2,
+    "wwf-livewire": 57,
+    "wwf-mania": 148,
+    "wwf-prime-time": 375,
+    "wwf-super-astros": 41,
+    "wwf-superstars": 785,
+    "wwf-the-main-event": 5,
+    "wwf-tuesday-night-titans": 100,
+    "wwf-wrestling-spotlight": 78,
+    "xwf-tv": 3
+  },
+  "classificationNotes": {
+    "ceremoniesAndPreShows": "Hall of Fame, Slammy Awards and WrestleMania Countdown broadcasts are indexed as WWE streaming specials. Compilation and documentary releases remain excluded from the chronological event spine."
+  },
+  "matcherValidation": {
+    "totalItems": 13075,
+    "matchedItems": 13040,
+    "matchedEpisodes": 11892,
+    "matchedEvents": 850,
+    "matchedProgrammes": 192,
+    "externalIdMatches": 749,
+    "exactDateMatches": 101,
+    "archiveKeys": 13058,
+    "linkedPlexItems": 12867,
+    "intentionallyExcludedEpisodes": 29,
+    "intentionallyExcludedMovies": 6,
+    "note": "Remaining rows are known metadata anomalies or compilation/documentary releases and are not inserted as chronology events."
+  }
+}

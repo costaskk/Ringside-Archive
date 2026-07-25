@@ -1,12 +1,12 @@
 {
   "name": "ringside-archive",
-  "version": "5.7.0",
+  "version": "5.8.0",
   "private": true,
   "type": "module",
-  "description": "Professional wrestling chronology with Cloudflare R2 artwork publishing, source-validated recurring series, Plex LAN deep links, Supabase accounts and Trakt/Plex sync",
+  "description": "Professional wrestling chronology with Plex owner-library catalogue ingestion, historical promotion lineage, R2-persisted artwork, image lightboxes and Trakt/Plex/Supabase sync",
   "scripts": {
     "audit": "node scripts/audit-data.mjs",
-    "test": "node scripts/audit-data.mjs && node scripts/audit-free-links.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/async-ui-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",
+    "test": "node scripts/audit-data.mjs && node scripts/audit-free-links.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/async-ui-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-catalogue-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",
     "sync:tvmaze": "node scripts/sync-tvmaze.mjs",
     "check:links": "node scripts/check-links.mjs",
     "discover:tvmaze": "node scripts/discover-tvmaze.mjs",

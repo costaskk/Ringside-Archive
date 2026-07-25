@@ -1,15 +1,28 @@
-# Artwork sources and scanning
+# Artwork sources, lightboxes and persistence
 
-Ringside Archive v5.3 supports show, season, episode and individual event artwork without presenting generated imitations as originals.
+Ringside Archive v5.8.0 supports show, season, episode and individual-event artwork without presenting generated imitations as originals.
 
 ## Resolution order
 
 1. `data/artwork-overrides.json`
 2. TVMaze episode/show images
 3. `data/artwork-catalog.json`
-4. browser-cached TMDB or Wikipedia/Wikimedia results
-5. imported Plex art
-6. labelled promotion-colour fallback
+4. strict TMDB or Wikipedia/Wikimedia discovery
+5. Plex artwork available to the current signed-in integration
+6. labelled archive placeholder
+
+A company logo is never silently substituted for an unrelated event poster.
+
+## Image lightbox
+
+Posters, stills, logos, wrestler headshots and gallery images use the shared `data-lightbox` behavior. Mouse click, Enter or Space opens a modal containing:
+
+- the largest accepted image URL;
+- the image title;
+- a direct original-image link;
+- source and attribution links when available.
+
+Escape, the close button or the modal backdrop closes it.
 
 ## Manual override
 
@@ -25,24 +38,35 @@ Ringside Archive v5.3 supports show, season, episode and individual event artwor
 }
 ```
 
-`images` arrays are also supported for multiple posters/backdrops.
+`images` arrays are supported for multiple posters or backdrops.
 
-## TMDB and Wikipedia/Wikimedia
+## Strict discovery
 
-The Vercel endpoint and `scripts/scan-artwork.mjs` can use Wikipedia/Wikimedia without a key. Set `TMDB_READ_ACCESS_TOKEN` in Vercel or in the shell for richer TMDB matching. Programme matches can populate show and season posters. Episode matches can populate stills. Event records are searched as movie-style releases first and television records second.
+The Vercel endpoint and `scripts/scan-artwork.mjs` use TVMaze, TMDB, Wikipedia and Wikimedia with title, year, promotion and content-type checks. Results below the client’s confidence threshold are rejected. Wrestler headshots reject logos, belts, posters and unrelated group photos.
 
-When TMDB has no confident result, the scanner can return a Wikipedia/Wikimedia lead image with a source-page link. A lead image is not necessarily an original event poster, and its individual image licence must be checked.
+Set `TMDB_READ_ACCESS_TOKEN` for richer TMDB coverage.
 
-Search results should be reviewed. Wrestling events often have repeated names, alternate years and inconsistent catalogue entries.
+## Incremental card scans
+
+In-app scans run asynchronously. The button and task dock show progress while accepted images are patched into existing cards. The root application is not rebuilt, so the scroll position, filters and open panels remain stable.
+
+A **Wrong image** action rejects the local cached candidate without reloading the page.
+
+## Cloudflare R2
+
+Two R2 workflows are supported:
+
+1. **Repository publication** — the CLI downloads accepted catalogue images, uploads content-hashed objects and rewrites `data/artwork-catalog.json`.
+2. **Runtime persistence** — an authenticated in-app scan uploads the accepted source image through `/api/artwork/search` and returns the R2 URL immediately.
+
+Runtime R2 writes require all five R2 environment variables and a valid Ringside/Supabase account. Signed-out scans remain local. R2 secrets never reach the browser.
+
+See `docs/CLOUDFLARE-R2-ARTWORK.md`.
 
 ## Plex artwork
 
-The direct Plex scanner and v2 PowerShell exporter include `thumbUrl` and `artUrl`. Direct local Plex artwork URLs can contain a Plex token and must be kept private. Account-linked cloud snapshots omit token-bearing Plex URLs. Vercel generates short-lived signed proxy URLs for each stored Plex thumb/background so artwork can appear on another signed-in device without exposing the Plex token.
+Plex tokens are never embedded in the safe export. Account-linked Plex images use signed same-origin proxy URLs, so the browser does not receive raw tokenized image addresses.
 
 ## Rights
 
-Copyright remains with the respective rights holders. The repository licence applies to the software, not third-party posters, logos or photography.
-
-## Cloudflare R2 publication
-
-Version 5.7 includes a content-hashed Cloudflare R2 publication workflow. See `docs/CLOUDFLARE-R2-ARTWORK.md`. The local catalogue retains attribution and original source URLs while public image fields are rewritten to the R2 custom domain only after a successful upload.
+Copyright remains with the respective rights holders. The repository licence applies to the software, not third-party posters, logos or photography. Only republish an image in R2 when its use is permitted.

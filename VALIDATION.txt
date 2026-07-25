@@ -1,85 +1,59 @@
-Ringside Archive v5.7.0 final validation
-Date: 2026-07-25
+Ringside Archive v5.8.0 final validation
+========================================
 
-Commands executed:
-  npm run build:core
-  npm test
+Validated catalogue
+-------------------
+Promotions:                         104
+Programme/event families:          504
+Dated major events:               1904
+Deferred Plex-derived episodes:   6572
+Curated recommendations:            71
+Wrestler profiles:                 110
+Vercel Functions:                   12
 
-Validated catalogue:
-  101 promotions
-  431 television, streaming and recurring-event programme families
-  137 recurring families added by exact-record audit
-  850 exact events reassigned from generic archives
-  Every promotion has at least one source-labelled programme/event family
-  44 mapped TVMaze feeds
-  NWA-TNA weekly PPV mapping: TVMaze 80637, 2002-06-19 through 2004-09-08
-  1,144 dated major events
-  1,144 event-detail records
-  71 curated recommendations with Archive editorial star ratings
-  110 wrestler profiles
-  11 verified record-specific free-viewing links
-  12 Vercel Functions
+Plex source audit
+-----------------
+Input rows:                       13075
+Matched rows:                     13040
+Input episodes:                   12219
+Input movie/event rows:             856
+Matched exact episodes:           11892
+Matched events:                     850
+Programme-level matches:            192
+External-ID matches:                749
+Exact-date matches:                 101
+Intentionally excluded episodes:     29
+Intentionally excluded movies:        6
+Unmapped movie/event rows:             0
 
-Cloudflare R2 validation:
-  Content-hashed artwork preparation script passes dry-run validation
-  Bucket-scoped AWS CLI upload script included
-  GitHub Actions R2 publication workflow included
-  Live catalogue is replaced only after upload succeeds
-  Source attribution and original URLs are retained
+Validated behavior
+------------------
+PASS  Data IDs, references, dates and promotion ownership
+PASS  JCP/WCW/NWA historical date-lineage mappings
+PASS  Exact Plex supplement and privacy reduction
+PASS  Plex external-ID/date/programme matching
+PASS  IndexedDB full-index storage and localStorage compaction
+PASS  Clickable content artwork and keyboard-accessible lightbox
+PASS  Incremental artwork patching without full-page reload
+PASS  Scroll preservation during asynchronous updates
+PASS  Authenticated Cloudflare R2 SigV4 persistence
+PASS  Anonymous R2 write protection
+PASS  Trakt required headers and persistent device code
+PASS  Supabase encryption and RLS compatibility
+PASS  Exact free-link policy
+PASS  12-function Vercel Hobby deployment limit
+PASS  Browser runtime rendering
 
-Artwork validation:
-  Mapped TVMaze IDs are checked before heuristic services
-  Strict TMDB title/year thresholds are enforced
-  Wikipedia/Wikimedia results are filtered by media type, page context and filename
-  Company portraits cannot be accepted as logos
-  Wrestler logos, belts, posters and group imagery are rejected as headshots
-  Ambiguous event images are rejected instead of displayed
-  Company logos are not substituted for episode/show/event posters
-  Client accepts scanned results only at confidence >= 80
-  Device artwork cache upgraded to ringside-artwork-v2
-  Wrong-image removal and rescan control present
-  GitHub artwork scanner reuses the same strict resolver
+Final command
+-------------
+npm run build:core && npm test
 
-Plex validation:
-  Default browser deep-link base is http://100.112.143.89:32400
-  LAN/Tailscale base URL is editable in Connections
-  Exact matched records generate Plex Web server/detail links
-  Private LAN URL is not used by Vercel server-side scanning
-  Plex direct-to-Relay fallback and selected-library scans pass
-  Exact show/episode/event matching passes
-  Compact storage quota and raw-token stripping pass
+Result
+------
+All automated tests passed.
 
-Card-language validation:
-  No visible Full card action or unexplained label remains
-  Partial data is labelled Known matches
-  Fully sourced lists are labelled All matches verified
-  Internal completeCard flag remains available for data integrity
-
-Expanded coverage validation:
-  Requested DEFY, IWA-MS, Memphis, Mid-South/UWF, Mid-Atlantic/JCP, NJPW,
-  WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW, Georgia and TNA families present
-  Additional source-labelled coverage added for all formerly uncovered promotions
-  Programme indexes do not manufacture individual weekly dates
-  Only exact feed/custom/major-event records enter Complete Timeline
-
-Automated checks passed:
-  Data IDs, promotion/programme references and date formats
-  All-promotion programme coverage
-  Core bundle/source-catalogue consistency
-  Meta programme/feed count consistency
-  Synthetic Master Index exclusion
-  Free-link exactness and attribution audit
-  Required files, JSON parsing and JavaScript syntax
-  12-function Vercel Hobby limit
-  Deferred boot, bounded rendering and cached chronology
-  Button-level async operation and incremental artwork markers
-  Persistent Trakt device-code state and required Trakt headers
-  Supabase encryption, RLS and key compatibility
-  Mapped TVMaze artwork-priority test
-  Artwork confidence and proxy tests
-  Plex direct/Relay fallback, selected-library scan and exact matching
-  Plex quota compaction and token stripping
-  Browser runtime initial rendering
-
-Expected non-failing audit warnings:
-  Six future/TBA AEW or NJPW events already present in the recovered catalogue.
+Notes
+-----
+Six future/TBA event warnings are expected catalogue entries, not validation failures.
+The package contains an empty artwork-catalogue template; use tools/upgrade-preserve-r2.ps1 when upgrading a repository that already has generated R2 artwork.
+Runtime R2 saves require complete R2 environment variables and a signed-in Ringside account.

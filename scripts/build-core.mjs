@@ -5,7 +5,7 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const files={
   promotions:'promotions.json',programmes:'programmes.json',majorEvents:'major-events.json',
   recommendations:'recommendations.json',wrestlers:'wrestlers.json',formatLabels:'format-labels.json',
-  customRecords:'custom-records.json',freeLinks:'free-links.json',meta:'meta.json'
+  customRecords:'custom-records.json',freeLinks:'free-links.json',plexTitleMap:'plex-title-map.json',meta:'meta.json'
 };
 const core={};
 for(const [key,file] of Object.entries(files))core[key]=JSON.parse(await fs.readFile(path.join(root,'data',file),'utf8'));

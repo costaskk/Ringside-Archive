@@ -1,52 +1,42 @@
 # Changelog
 
-## 5.7.0 — Cloudflare R2 artwork CDN and recurring-series audit
+## 5.8.0 — Plex catalogue ingestion, lineage repair and R2 runtime persistence
 
-- Add an optional Cloudflare R2 artwork preparation, upload and GitHub Actions workflow.
-- Store artwork with content-hashed immutable object names and preserve original source attribution.
-- Add 137 recurring programme/event-series families derived from exact records already in the archive.
-- Reassign 850 dated events from generic archives to their correct recurring series.
-- Add a machine-readable `data/series-coverage-audit.json` report.
+- Audit 13,075 owner-library Plex records and match 13,040 of them.
+- Add 6,572 exact deferred episode records and 760 missing dated events.
+- Expand the catalogue to 104 promotions, 504 programme families and 1,904 dated major events.
+- Add deterministic external-ID, date, programme and promotion-scoped Plex matching.
+- Add `data/plex-title-map.json`, `data/plex-supplement.json` and `data/plex-import-report.json`.
+- Split JCP, WCW, NWA, Georgia and modern GCW programme ownership by historical dates.
+- Store the full linked Plex item index in IndexedDB and retain a quota-safe subset in local/cloud state.
+- Make content images keyboard-accessible and open them in a full-size lightbox modal.
+- Persist authenticated in-app artwork scans directly to Cloudflare R2 through the existing artwork API route.
+- Patch artwork and action status incrementally without reloading the page or resetting scroll position.
+- Add `tools/upgrade-preserve-r2.ps1` to protect an existing generated R2 catalogue during upgrades.
+- Retain exactly 12 deployable Vercel Functions.
 
-## 5.7.0 — Source-validated artwork, Plex LAN links and expanded coverage
+## 5.7.0 — Cloudflare R2 publication and recurring-series audit
 
-- Prioritize mapped TVMaze images and enforce strict title/year/context thresholds for TMDB and Wikipedia/Wikimedia results.
-- Reject ambiguous company portraits, wrestler logos, generic promotion art and unrelated event images.
-- Stop using company logos as fallback posters for show, episode and event cards.
-- Start a new v2 device artwork cache and add a Wrong image action for scanned results.
-- Replace visible Full card terminology with Known matches / All matches verified.
-- Add configurable Plex LAN/Tailscale deep links, defaulting to `http://100.112.143.89:32400`.
-- Expand programme coverage from 188 to 294 real programme/event-series families in v5.6.
-- Map the complete 111-show NWA-TNA weekly PPV run through TVMaze show 80637.
-- Add requested television, streaming, tournament and recurring-event families for DEFY, IWA-MS, Memphis, Mid-South/UWF, JCP/Mid-Atlantic, NJPW, WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW and Georgia Championship Wrestling.
+- Add the R2 CLI publication workflow and content-hashed artwork assets.
+- Split generic archives into real recurring series and reassign existing dated events.
 
-## 5.5.0 — Non-blocking actions and exact free links
+## 5.6.0 — Artwork confidence, Plex LAN links and promotion coverage
 
-- Add a shared button-task controller with spinners, progress percentages and a background operation dock.
-- Replace remaining full-root renders in artwork scans, account bootstrap and sign-out flows with view/modal patches.
-- Apply discovered artwork directly to visible DOM targets as each bounded batch finishes.
-- Keep filters, scroll position, open detail panels and unrelated controls usable during network operations.
-- Add `data/free-links.json` for record-specific direct videos, playlists and event pages.
-- Reject YouTube channel homepages, search-result links and other generic landing pages as match/show links.
-- Remove legacy generated YouTube search URLs from all curated recommendations.
-- Add automated free-link and non-blocking UI audits to the full test suite.
+- Add stricter artwork-source validation and wrong-image rejection.
+- Add configurable Tailscale/LAN Plex detail links.
+- Expand programme coverage, including the 111 NWA-TNA weekly PPVs.
 
-## 5.4.1 — Performance and wrestler profiles
+## 5.5.0 — Async actions and exact free links
 
-- Render the core archive before cloud, event-detail, artwork and episode background work.
-- Cache the merged chronology and episode collection.
-- Reduce exact-feed concurrency and throttle progress rendering.
-- Limit initial Company and Wrestler directories to 24 cards.
-- Keep Trakt device codes persistent through all rerenders, with countdown/copy/cancel controls.
-- Add direct lazy wrestler headshot rendering through the existing artwork API.
-- Add wrestler profile heroes, Top 10 matches, five-star Archive editorial ratings, programme links and full career routes.
-- Add editorial star ratings to all curated recommendations.
-- Redesign major interface surfaces and add rendering containment/reduced-motion support.
-- Use stale-while-revalidate for release data on repeat visits.
+- Add button-level asynchronous progress and incremental artwork patches.
+- Reject generic channel/search URLs as match or episode links.
+
+## 5.4.x — Performance, wrestler profiles and stable scrolling
+
+- Add deferred startup data, persistent Trakt activation state, wrestler headshots and top-match profiles.
+- Remove synthetic master-index records and prevent background rerenders from resetting scroll.
 
 ## 5.3.0 — Trakt, Plex storage and artwork reliability
 
-- Add required Trakt request headers and readable Cloudflare diagnostics.
-- Compact Plex scans before browser/cloud storage.
-- Add safe Plex export v3 and token detection.
-- Proxy approved artwork sources and stop artwork-triggered cloud-sync loops.
+- Add complete Trakt headers and readable Cloudflare diagnostics.
+- Add safe Plex export v3 and quota-aware browser storage.

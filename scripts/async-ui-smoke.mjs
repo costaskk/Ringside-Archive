@@ -9,7 +9,7 @@ const styles=await fs.readFile(path.join(root,'src/styles.css'),'utf8');
 for(const marker of ['runButtonTask','runBackgroundTask','renderTaskDock','renderViewOnly','renderModalOnly','patchArtworkElements','setOperationMessage','specificFreeLinkFor','isSpecificFreeUrl']){
   if(!app.includes(marker))throw new Error(`Async UI marker missing: ${marker}`);
 }
-for(const marker of ['.buttonSpinner','.asyncTaskDock','button.isLoading','.freeWatchLink']){
+for(const marker of ['.buttonSpinner','.asyncTaskDock','button.isLoading','.freeWatchLink','.lightboxPanel','[data-lightbox]']){
   if(!styles.includes(marker))throw new Error(`Async UI style missing: ${marker}`);
 }
 if(app.includes('function youtubeUrlFor'))throw new Error('Legacy generic YouTube-link resolver must not remain.');
@@ -20,11 +20,11 @@ if(/\brender\s*\(/.test(scanBlock))throw new Error('Artwork scanning must patch 
 if(!scanBlock.includes('patchArtworkElements')||!scanBlock.includes('updateTask'))throw new Error('Artwork scanning lacks incremental DOM/progress updates.');
 const artworkKeyBlock=app.match(/async function scanArtworkKey\(key\)[\s\S]*?\n}\nasync function installServiceWorker/)?.[0]||'';
 if(/\brender\s*\(/.test(artworkKeyBlock))throw new Error('Single artwork scans must not rebuild the full page.');
-if(!app.includes("const version='5.7.0'"))throw new Error('Service worker registration is not versioned for 5.7.0.');
+if(!app.includes("const version='5.8.0'"))throw new Error('Service worker registration is not versioned for 5.8.0.');
 
-for(const marker of ["ringside-artwork-v2","Number(row.result.confidence||100)>=80","Wrong image","Open in Plex LAN"]){
+for(const marker of ["ringside-artwork-v2","Number(row.result.confidence||100)>=80","Wrong image","Open in Plex LAN","saved to Cloudflare R2","bindLightboxes"]){
   const haystack=marker==='ringside-artwork-v2'?storage:app;
-  if(!haystack.includes(marker))throw new Error(`v5.7 artwork/Plex marker missing: ${marker}`);
+  if(!haystack.includes(marker))throw new Error(`v5.8 artwork/Plex marker missing: ${marker}`);
 }
 if(app.includes('...companyArtworkCandidates(item.promotionId)'))throw new Error('Company logos must not be used as generic record artwork.');
 

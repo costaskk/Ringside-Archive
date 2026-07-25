@@ -1,85 +1,86 @@
 # Host Ringside artwork on Cloudflare R2
 
-Cloudflare R2 is the recommended storage product for this project. The archive mostly needs durable original files served through a CDN; it does not require paid per-image transformation on every request. Cloudflare Images remains useful when you specifically want managed resizing/cropping variants, but R2 is simpler and usually more economical for a large poster/episode-still archive.
+Cloudflare R2 is a practical fit for durable posters, logos, headshots and episode stills. The project supports both batch repository publication and authenticated runtime uploads.
 
 ## Architecture
 
-- `data/artwork-catalog.json` keeps attribution, confidence and source-page information.
-- `scripts/cache-artwork-assets.mjs` downloads only artwork already accepted by the strict matcher.
-- `public-artwork/` is uploaded to R2.
-- The catalogue is rewritten to your public R2 custom domain.
-- Original source URLs remain under `cachedFrom` and source attribution remains intact.
+### Batch publication
 
-Do not upload an image unless you have the right to republish it. R2 hosting does not change the copyright or licence of a poster, logo, photograph or episode still.
+- `data/artwork-catalog.json` retains attribution, confidence and original source pages.
+- `scripts/cache-artwork-assets.mjs` downloads images accepted by the strict matcher.
+- `public-artwork/` is a temporary ignored staging directory.
+- `tools/upload-artwork-r2.ps1` uploads content-hashed objects with immutable cache headers.
+- `data/artwork-r2-manifest.json` records published objects.
 
-## 1. Create the R2 bucket
+### Runtime persistence
 
-1. Sign in to Cloudflare.
-2. Open **R2 Object Storage**.
-3. Select **Create bucket**.
-4. Name it `ringside-artwork`.
-5. Leave location on **Automatic**, or choose the Eastern Europe location hint when most use is expected from Greece and nearby countries.
-6. Create the bucket.
-
-## 2. Attach a production custom domain
-
-The `r2.dev` address is intended for development. Use a domain that is already active in your Cloudflare account.
-
-1. Open the `ringside-artwork` bucket.
-2. Select **Settings → Public access**.
-3. Under **Custom domains**, select **Connect domain**.
-4. Enter a subdomain such as `artwork.yourdomain.com`.
-5. Confirm the DNS change.
-6. Disable the public `r2.dev` development URL after the custom domain works.
-7. Under **SSL/TLS → Edge Certificates**, enable **Always Use HTTPS**.
-
-Your public base URL will be:
+`/api/artwork/search` can upload a newly accepted image directly to R2. It uses AWS Signature V4 server-side and writes paths shaped like:
 
 ```text
-https://artwork.yourdomain.com
+runtime/<kind>/<record-key>/<content-hash>.<extension>
 ```
 
-## 3. Add a cache rule
+Runtime writes require a signed-in Ringside account. Public anonymous artwork search remains read-only.
 
-In **Rules → Cache Rules**, create a rule for the artwork hostname:
+## 1. Create the bucket
+
+1. Open **Cloudflare → R2 Object Storage**.
+2. Create `ringside-artwork`.
+3. Leave placement on Automatic or choose the Eastern Europe hint for primarily Greek/European usage.
+
+## 2. Attach a custom domain
+
+Use a Cloudflare-managed domain such as:
 
 ```text
-Hostname equals artwork.yourdomain.com
+https://artwork.example.com
 ```
 
-Use these settings:
+The public `r2.dev` URL is suitable for testing but is rate-limited. After the custom domain becomes active, use it as `R2_ARTWORK_PUBLIC_BASE_URL` and disable the development URL.
 
-- Cache eligibility: **Eligible for cache**
-- Edge TTL: **1 month** or longer
-- Browser TTL: **Respect existing headers**
+## 3. Cache behavior
 
-The upload script applies `Cache-Control: public,max-age=31536000,immutable`. Artwork filenames contain a content hash, so changed files receive a new URL rather than overwriting the old cached object.
+Create a Cache Rule for the artwork hostname and mark it eligible for cache. The project uploads objects with:
 
-## 4. Create bucket-scoped R2 credentials
+```text
+Cache-Control: public,max-age=31536000,immutable
+```
 
-1. Open **R2 Object Storage → Manage R2 API tokens**.
-2. Select **Create Account API token**.
-3. Choose **Object Read & Write**.
-4. Limit it to the `ringside-artwork` bucket only.
-5. Create the token.
-6. Copy the **Access Key ID** and **Secret Access Key** immediately. The secret is shown only once.
-7. Note your Cloudflare **Account ID**.
+Object keys include a content hash, so a changed image receives a new URL.
 
-Never put these values in `runtime-config.js`, the browser, the repository or Vercel public variables.
+## 4. Create bucket-scoped credentials
 
-## 5. Install AWS CLI on Windows
+Create an R2 S3 token with **Object Read & Write** limited to `ringside-artwork`. Save:
 
-Install AWS CLI v2, reopen PowerShell, and confirm:
+- Cloudflare Account ID
+- Access Key ID
+- Secret Access Key
+
+Never commit these values.
+
+## 5. Configure Vercel runtime persistence
+
+Add all five Production environment variables:
+
+```text
+CLOUDFLARE_ACCOUNT_ID
+R2_ACCESS_KEY_ID
+R2_SECRET_ACCESS_KEY
+R2_BUCKET_NAME=ringside-artwork
+R2_ARTWORK_PUBLIC_BASE_URL=https://artwork.example.com
+```
+
+Redeploy. In-app scans now persist accepted images when the user is signed into Ringside.
+
+## 6. Install AWS CLI for batch publication
+
+Verify on Windows:
 
 ```powershell
 aws --version
 ```
 
-## 6. Scan, prepare and upload artwork
-
-Open PowerShell in the Ringside Archive repository.
-
-Set the temporary credentials for that PowerShell window:
+Set temporary credentials in the current PowerShell window:
 
 ```powershell
 $env:AWS_ACCESS_KEY_ID="YOUR_R2_ACCESS_KEY_ID"
@@ -87,43 +88,40 @@ $env:AWS_SECRET_ACCESS_KEY="YOUR_R2_SECRET_ACCESS_KEY"
 $env:AWS_DEFAULT_REGION="auto"
 ```
 
-Populate the strict artwork catalogue first:
+## 7. Scan and publish repository artwork
 
 ```powershell
 $env:TMDB_READ_ACCESS_TOKEN="YOUR_TMDB_READ_ACCESS_TOKEN"
 npm run scan:artwork
-```
 
-Upload the accepted files:
-
-```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\upload-artwork-r2.ps1 `
   -AccountId "YOUR_CLOUDFLARE_ACCOUNT_ID" `
   -BucketName "ringside-artwork" `
-  -PublicBaseUrl "https://artwork.yourdomain.com"
+  -PublicBaseUrl "https://artwork.example.com"
 ```
 
-The script performs these steps safely:
+The script downloads accepted images, uploads them, replaces the staged catalogue only after success, rebuilds `data/core.json` and runs the test suite.
 
-1. Downloads accepted images into `public-artwork/`.
-2. Creates a staged R2 catalogue.
-3. Uploads the files with long immutable cache headers.
-4. Replaces the live catalogue only after the upload succeeds.
-5. Rebuilds `data/core.json` and runs the full test suite.
-
-Then commit:
+Commit generated catalogue data afterward:
 
 ```powershell
-git add data/artwork-catalog.json data/artwork-r2-manifest.json package.json scripts tools docs .github
-git commit -m "Publish Ringside artwork through Cloudflare R2"
+git add data/artwork-catalog.json data/artwork-r2-manifest.json data/core.json data/meta.json
+git commit -m "Publish artwork catalogue to Cloudflare R2"
 git push
 ```
 
-## 7. Optional GitHub Actions automation
+## 8. Upgrade without losing the catalogue
 
-The repository includes `.github/workflows/publish-artwork-r2.yml`.
+A release package contains an empty artwork-catalogue template. Preserve an existing populated R2 catalogue with:
 
-Add these GitHub repository secrets:
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\upgrade-preserve-r2.ps1 `
+  -TargetPath "R:\Files\ringside-archive-complete"
+```
+
+## GitHub Actions
+
+`.github/workflows/publish-artwork-r2.yml` supports manual batch publication. Store these as repository secrets:
 
 ```text
 CLOUDFLARE_ACCOUNT_ID
@@ -134,23 +132,10 @@ R2_PUBLIC_BASE_URL
 TMDB_READ_ACCESS_TOKEN
 ```
 
-Run **Actions → Publish artwork to Cloudflare R2 → Run workflow**. The workflow scans artwork, downloads accepted assets, uploads them, validates the project and commits the rewritten catalogue.
-
 ## CORS
 
-Normal `<img>` display does not require a permissive CORS policy. Add CORS only when browser JavaScript must read image bytes, use canvas without tainting, or upload directly. A restrictive example is:
+Normal `<img>` display does not require permissive CORS. Add a restrictive GET/HEAD policy only when browser JavaScript needs to read image bytes or use canvas.
 
-```json
-[
-  {
-    "AllowedOrigins": ["https://ringside-archive.vercel.app"],
-    "AllowedMethods": ["GET", "HEAD"],
-    "AllowedHeaders": ["*"],
-    "MaxAgeSeconds": 86400
-  }
-]
-```
+## Copyright
 
-## Purging and updates
-
-Because object names include a hash, normal image updates require no purge. When you intentionally remove an object or change cache behavior, purge the specific URL in Cloudflare rather than purging the entire zone.
+R2 changes hosting, not rights. Preserve attribution and upload only material that may lawfully be republished.

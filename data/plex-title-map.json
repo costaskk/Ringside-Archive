@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "source": "Supplied Plex Wrestling and Wrestling PPV export",
+  "shows": {
+    "World Wide Wrestling": [
+      {
+        "programId": "jcp-worldwide",
+        "before": "1988-11-27"
+      },
+      {
+        "programId": "wcw-worldwide",
+        "from": "1988-11-27"
+      }
+    ],
+    "WWF Superstars of Wrestling": [
+      {
+        "programId": "wwf-superstars"
+      }
+    ],
+    "WWE Raw": [
+      {
+        "programId": "wwe-raw"
+      }
+    ],
+    "WWF Championship Wrestling": [
+      {
+        "programId": "wwf-championship"
+      }
+    ],
+    "Sunday Night Heat": [
+      {
+        "programId": "wwe-heat"
+      }
+    ],
+    "WCW Pro": [
+      {
+        "programId": "jcp-nwa-pro",
+        "before": "1988-11-27"
+      },
+      {
+        "programId": "wcw-pro",
+        "from": "1988-11-27"
+      }
+    ],
+    "WWF Wrestling Challenge": [
+      {
+        "programId": "wwf-wrestling-challenge"
+      }
+    ],
+    "WCW Main Event": [
+      {
+        "programId": "jcp-main-event",
+        "before": "1988-11-27"
+      },
+      {
+        "programId": "wcw-main-event",
+        "from": "1988-11-27"
+      }
+    ],
+    "Being The Elite": [
+      {
+        "programId": "aew-being-the-elite"
+      }
+    ],
+    "WCW Saturday Night": [
+      {
+        "programId": "wcw-saturday-night"
+      }
+    ],
+    "ECW Hardcore TV": [
+      {
+        "programId": "ecw-hardcore-tv"
+      }
+    ],
+    "WWF Prime-Time Wrestling": [
+      {
+        "programId": "wwf-prime-time"
+      }
+    ],
+    "World Championship Wrestling": [
+      {
+        "programId": "jcp-world-championship-wrestling-tbs",
+        "before": "1988-11-27"
+      },
+      {
+        "programId": "wcw-saturday-night",
+        "from": "1988-11-27"
+      }
+    ],
+    "IMPACT! Wrestling": [
+      {
+        "programId": "tna-impact"
+      }
+    ],
+    "World Class Championship Wrestling": [
+      {
+        "programId": "wccw-tv"
+      }
+    ],
+    "WCW Monday Nitro": [
+      {
+        "programId": "wcw-nitro"
+      }
+    ],
+    "WWE SmackDown": [
+      {
+        "programId": "wwe-smackdown"
+      }
+    ],
+    "WCW Power Hour": [
+      {
+        "programId": "wcw-power-hour"
+      }
+    ],
+    "Game Changer Wrestling": [
+      {
+        "programId": "gcw-world-championship-wrestling",
+        "before": "1990-01-01"
+      },
+      {
+        "programId": "gcw-events",
+        "from": "1990-01-01"
+      }
+    ],
+    "Mid-South Wrestling": [
+      {
+        "programId": "mid-south-tv"
+      }
+    ],
+    "Mid-Atlantic Championship Wrestling": [
+      {
+        "programId": "mid-atlantic-tv"
+      }
+    ],
+    "WWF All American Wrestling": [
+      {
+        "programId": "wwf-all-american"
+      }
+    ],
+    "E.C.W.": [
+      {
+        "programId": "wwe-ecw"
+      }
+    ],
+    "All Elite Wrestling: Dynamite": [
+      {
+        "programId": "aew-dynamite"
+      }
+    ],
+    "WWE Velocity": [
+      {
+        "programId": "wwe-velocity"
+      }
+    ],
+    "WWWF All-Star Wrestling": [
+      {
+        "programId": "wwf-all-star"
+      }
+    ],
+    "WCW Thunder": [
+      {
+        "programId": "wcw-thunder"
+      }
+    ],
+    "WWF Mania": [
+      {
+        "programId": "wwf-mania"
+      }
+    ],
+    "WWF Jakked/Metal": [
+      {
+        "programId": "wwf-jakked-metal"
+      }
+    ],
+    "WWF Shotgun Saturday Night": [
+      {
+        "programId": "wwf-shotgun"
+      }
+    ],
+    "WWE Byte This!": [
+      {
+        "programId": "wwe-byte-this"
+      }
+    ],
+    "Lucha Underground": [
+      {
+        "programId": "lucha-underground-tv"
+      }
+    ],
+    "All Elite Wrestling: Collision": [
+      {
+        "programId": "aew-collision"
+      }
+    ],
+    "NWA-TNA": [
+      {
+        "programId": "tna-weekly-ppv"
+      }
+    ],
+    "Ring Of Honor on HDNet": [
+      {
+        "programId": "roh-hdnet"
+      }
+    ],
+    "Tuesday Night Titans": [
+      {
+        "programId": "wwf-tuesday-night-titans"
+      }
+    ],
+    "WWF Action Zone": [
+      {
+        "programId": "wwf-action-zone"
+      }
+    ],
+    "WWE Confidential": [
+      {
+        "programId": "wwe-confidential"
+      }
+    ],
+    "WWF Wrestling Spotlight": [
+      {
+        "programId": "wwf-wrestling-spotlight"
+      }
+    ],
+    "Global Wrestling Federation": [
+      {
+        "programId": "gwf-dallas-tv"
+      }
+    ],
+    "Tough Enough": [
+      {
+        "programId": "wwe-tough-enough"
+      }
+    ],
+    "UWF": [
+      {
+        "programId": "uwf-tv",
+        "from": "1986-01-01",
+        "before": "1988-01-01"
+      }
+    ],
+    "ECW on TNN": [
+      {
+        "programId": "ecw-tnt"
+      }
+    ],
+    "WCW Prime": [
+      {
+        "programId": "wcw-prime"
+      }
+    ],
+    "WWF LiveWire": [
+      {
+        "programId": "wwf-livewire"
+      }
+    ],
+    "WWF Super Astros": [
+      {
+        "programId": "wwf-super-astros"
+      }
+    ],
+    "WWE Saturday Night's Main Event": [
+      {
+        "programId": "wwe-saturday-main-event"
+      }
+    ],
+    "WWF Excess": [
+      {
+        "programId": "wwf-excess"
+      }
+    ],
+    "TNA RING KA KING Season 1 Complete": [
+      {
+        "programId": "tna-ring-ka-king"
+      }
+    ],
+    "AEW Dark": [
+      {
+        "programId": "aew-dark"
+      }
+    ],
+    "新日本プロレス": [
+      {
+        "programId": "njpw-world-feed"
+      }
+    ],
+    "Power Pro": [
+      {
+        "programId": "nwa-power-pro",
+        "before": "1990-01-01"
+      }
+    ],
+    "WCW Backstage Nitro Blast": [
+      {
+        "programId": "wcw-backstage-nitro-blast"
+      }
+    ],
+    "Wrestling Star Wars": [
+      {
+        "programId": "wccw-star-wars"
+      }
+    ],
+    "WWE Blast Off": [
+      {
+        "programId": "wwe-blast-off"
+      }
+    ],
+    "All Elite Wrestling: Battle of the Belts": [
+      {
+        "programId": "aew-battle-belts"
+      }
+    ],
+    "Combat Zone Wrestling": [
+      {
+        "programId": "czw-events"
+      }
+    ],
+    "Johnny Loves Taya": [
+      {
+        "programId": "aew-johnny-loves-taya"
+      }
+    ],
+    "Chikara": [
+      {
+        "programId": "chikara-events"
+      }
+    ],
+    "Loaded": [
+      {
+        "programId": "wcpw-loaded"
+      }
+    ],
+    "WWF The Main Event": [
+      {
+        "programId": "wwf-the-main-event"
+      }
+    ],
+    "AWA All-Star Wrestling": [
+      {
+        "programId": "awa-all-star"
+      }
+    ],
+    "Xplosion": [
+      {
+        "programId": "tna-xplosion"
+      }
+    ],
+    "XWF Wrestling": [
+      {
+        "programId": "xwf-tv"
+      }
+    ],
+    "All Elite Wrestling: Rampage": [
+      {
+        "programId": "aew-rampage"
+      }
+    ],
+    "NJPW Strong": [
+      {
+        "programId": "njpw-strong"
+      }
+    ],
+    "WCW NITRO Xtra": [
+      {
+        "programId": "wcw-nitro-xtra"
+      }
+    ],
+    "WWF Friday Night's Main Event": [
+      {
+        "programId": "wwf-friday-night-main-event"
+      }
+    ],
+    "Universal Wrestling Federation: Fury Hour": [
+      {
+        "programId": "uwf-fury"
+      }
+    ]
+  }
+}

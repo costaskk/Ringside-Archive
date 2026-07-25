@@ -3,8 +3,10 @@ import { buildPlexMatches } from '../src/integrations.js';
 
 const root = new URL('../', import.meta.url);
 const data = {
+  majorEvents: JSON.parse(fs.readFileSync(new URL('data/major-events.json', root), 'utf8')),
   programmes: JSON.parse(fs.readFileSync(new URL('data/programmes.json', root), 'utf8')),
-  majorEvents: JSON.parse(fs.readFileSync(new URL('data/major-events.json', root), 'utf8'))
+  plexTitleMap: JSON.parse(fs.readFileSync(new URL('data/plex-title-map.json', root), 'utf8')),
+  plexSupplement: JSON.parse(fs.readFileSync(new URL('data/plex-supplement.json', root), 'utf8'))
 };
 const sample = [
   { title: 'WWE Raw - S01E01 - January 11 1993.mkv', grandparentTitle: 'WWE Raw', type: 'episode', parentIndex: 1, index: 1, ratingKey: '1', library: 'Wrestling' },
