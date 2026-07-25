@@ -64,13 +64,13 @@ if ([string]::Equals($sourceRoot, $targetRoot, [System.StringComparison]::Ordina
 Source and target are the same directory:
   $targetRoot
 
-Extract the v5.8.0 ZIP to a separate folder, then run this script with:
-  -SourcePath <extracted-v5.8.0-folder>
+Extract the v5.8.1 ZIP to a separate folder, then run this script with:
+  -SourcePath <extracted-v5.8.1-folder>
   -TargetPath <existing-repository-folder>
 "@
 }
 
-$backupRoot = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ("ringside-v580-preserve-" + [Guid]::NewGuid().ToString('N'))
+$backupRoot = Join-Path -Path ([System.IO.Path]::GetTempPath()) -ChildPath ("ringside-v581-preserve-" + [Guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory -Path $backupRoot -Force | Out-Null
 
 $preserve = @(
@@ -96,7 +96,7 @@ try {
         }
     }
 
-    Write-Host 'Copying v5.8.0 over the existing repository...' -ForegroundColor Cyan
+    Write-Host 'Copying v5.8.1 over the existing repository...' -ForegroundColor Cyan
     $robocopyArgs = @(
         $sourceRoot,
         $targetRoot,
@@ -159,7 +159,7 @@ try {
     Write-Host "  Set-Location `"$targetRoot`""
     Write-Host '  git add -A'
     Write-Host '  git status'
-    Write-Host '  git commit -m "Upgrade Ringside Archive to v5.8.0"'
+    Write-Host '  git commit -m "Upgrade Ringside Archive to v5.8.1"'
     Write-Host '  git push'
 }
 finally {

@@ -1,6 +1,6 @@
 # Plex catalogue import and historical lineage
 
-Ringside Archive v5.8.0 was audited against the owner-supplied Plex version 3 export from the **Wrestling** and **Wrestling PPV** libraries. The import is used in two distinct ways:
+Ringside Archive v5.8.1 was audited against the owner-supplied Plex version 3 export from the **Wrestling** and **Wrestling PPV** libraries. The import is used in two distinct ways:
 
 1. A neutral catalogue supplement committed with the project supplies missing dates, programme families and exact episode records.
 2. A private browser import links the owner’s actual Plex rating keys, watched state and progress to those archive records.

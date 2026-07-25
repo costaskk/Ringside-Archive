@@ -1,4 +1,4 @@
-# Ringside Archive v5.8.0 deployment checklist
+# Ringside Archive v5.8.1 deployment checklist
 
 ## Repository
 
@@ -6,7 +6,7 @@
 - [ ] Run `npm run build:core`.
 - [ ] Run `npm test` and confirm every test passes.
 - [ ] Confirm `git status` does not contain `.env`, a private Plex export or `public-artwork/`.
-- [ ] Commit and push the complete v5.8.0 update.
+- [ ] Commit and push the complete v5.8.1 update.
 
 ## Expected validated counts
 
@@ -35,7 +35,7 @@
 
 ## Browser verification
 
-- [ ] Open `?v=5.8.0` and confirm the footer version.
+- [ ] Open `?v=5.8.1` and confirm the footer version.
 - [ ] Scroll deep into the timeline and run an artwork scan; confirm the page does not jump to the top.
 - [ ] Click a poster, logo, headshot and gallery image; confirm each opens in the lightbox.
 - [ ] Confirm Escape and the close button dismiss the lightbox.

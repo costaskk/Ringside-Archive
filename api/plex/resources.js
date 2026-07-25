@@ -8,7 +8,7 @@ export default async function handler(req,res){
   try {
     const body=bodyOf(req),context=await resolvePlexCredentials(req,body);
     const {clientId,token}=context.payload;
-    const headers={'Accept':'application/json','X-Plex-Token':token,'X-Plex-Product':PRODUCT,'X-Plex-Version':'5.8.0','X-Plex-Client-Identifier':clientId};
+    const headers={'Accept':'application/json','X-Plex-Token':token,'X-Plex-Product':PRODUCT,'X-Plex-Version':'5.8.1','X-Plex-Client-Identifier':clientId};
     const [accountResponse,resourcesResponse]=await Promise.all([
       fetch('https://plex.tv/api/v2/user',{headers,signal:AbortSignal.timeout(15000)}),
       fetch('https://plex.tv/api/v2/resources?includeHttps=1&includeRelay=1&includeIPv6=0',{headers,signal:AbortSignal.timeout(15000)})

@@ -1,10 +1,10 @@
-# Upgrade an existing Ringside Archive repository to v5.8.0
+# Upgrade an existing Ringside Archive repository to v5.8.1
 
-Version 5.8.0 changes both application code and catalogue data. It also introduces a large Plex supplement and direct authenticated R2 persistence.
+Version 5.8.1 is a reliability update for the v5.8 catalogue. It fixes empty show episode modals, Plex/TVMaze duplicate rows, search-input resets and delayed detail artwork while retaining the large Plex supplement and authenticated R2 persistence.
 
 ## Recommended upgrade: preserve your existing R2 catalogue automatically
 
-Extract the v5.8.0 package outside your current Git repository. From the extracted package folder, run:
+Extract the v5.8.1 package outside your current Git repository. From the extracted package folder, run:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\upgrade-preserve-r2.ps1 `
@@ -17,7 +17,7 @@ The script:
 - preserves `data/artwork-r2-manifest.json` when present;
 - does not copy over `.env` files;
 - excludes `.git`, `node_modules` and `public-artwork`;
-- copies all v5.8.0 code and catalogue files;
+- copies all v5.8.1 code and catalogue files;
 - restores the generated R2 files;
 - rebuilds `data/core.json`;
 - runs `npm test`.
@@ -28,7 +28,7 @@ After it completes:
 Set-Location "R:\Files\ringside-archive-complete"
 git add -A
 git status
-git commit -m "Upgrade Ringside Archive to v5.8.0"
+git commit -m "Upgrade Ringside Archive to v5.8.1"
 git push
 ```
 
@@ -48,7 +48,7 @@ Copy the package files, restore the two generated artwork files, then run:
 npm run build:core
 npm test
 git add -A
-git commit -m "Upgrade Ringside Archive to v5.8.0"
+git commit -m "Upgrade Ringside Archive to v5.8.1"
 git push
 ```
 
@@ -71,7 +71,7 @@ The R2 key should be restricted to Object Read & Write for the dedicated artwork
 Open:
 
 ```text
-https://ringside-archive.vercel.app/?v=5.8.0
+https://ringside-archive.vercel.app/?v=5.8.1
 ```
 
 Use `Ctrl+Shift+R` once. When an old service worker still controls the site:
@@ -84,7 +84,7 @@ Use `Ctrl+Shift+R` once. When an old service worker still controls the site:
 Verify:
 
 ```text
-Catalogue v5.8.0
+Catalogue v5.8.1
 104 promotions
 504 programme families
 1,904 dated major events

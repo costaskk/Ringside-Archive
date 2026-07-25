@@ -1,8 +1,24 @@
-# Ringside Archive v5.8.0
+# Ringside Archive v5.8.1
 
 Ringside Archive is a local-first professional-wrestling chronology covering television, weekly episodes, pay-per-views, premium live events, supercards and historically significant matches. It combines a curated catalogue with optional Supabase accounts, Trakt viewing synchronization, Plex ownership/progress matching and Cloudflare R2 artwork persistence.
 
-## v5.8.0 highlights
+## v5.8.1 highlights
+
+### Show episode indexes now open complete
+
+Show Index modals now combine the checked-in Plex supplement with any live TVMaze feed. A show no longer appears empty merely because its network feed has not been refreshed in the current browser session. For example, WWF Mania opens with its full **148-record** owner-library episode run immediately, and a later feed refresh enriches those rows instead of adding a second copy.
+
+### Plex/TVMaze episode deduplication
+
+Episodes are keyed by programme plus normalized season/episode identity. When Plex and TVMaze describe the same broadcast, Ringside keeps one row, preserves the owner-library title and Plex availability, and merges richer feed summaries, ratings and still artwork where available.
+
+### Stable live search
+
+Typing no longer replaces the filter bar. Only the results container updates, so focus, typed text and caret position survive deferred catalogue loading, Plex indexing, account synchronization and background episode refreshes.
+
+### Faster episode detail artwork
+
+Artwork is primed when a record receives pointer or keyboard focus. Detail-modal hero images use eager, high-priority loading, while long episode lists retain lazy loading for performance.
 
 ### Owner-library catalogue ingestion
 
@@ -146,23 +162,23 @@ R2_ARTWORK_PUBLIC_BASE_URL
 npm run build:core
 npm test
 git add -A
-git commit -m "Upgrade Ringside Archive to v5.8.0"
+git commit -m "Upgrade Ringside Archive to v5.8.1"
 git push
 ```
 
 Open the deployment once with:
 
 ```text
-https://ringside-archive.vercel.app/?v=5.8.0
+https://ringside-archive.vercel.app/?v=5.8.1
 ```
 
-The footer should display `Catalogue v5.8.0`.
+The footer should display `Catalogue v5.8.1`.
 
 ## Safely upgrading an existing R2-enabled repository
 
 Do not manually overwrite a populated `data/artwork-catalog.json` or `data/artwork-r2-manifest.json` with the empty package defaults.
 
-From the extracted v5.8.0 folder, run:
+From the extracted v5.8.1 folder, run:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\tools\upgrade-preserve-r2.ps1 `

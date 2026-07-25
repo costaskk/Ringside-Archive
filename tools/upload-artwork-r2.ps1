@@ -1,4 +1,4 @@
-﻿param(
+param(
     [Parameter(Mandatory=$true)][string]$AccountId,
     [Parameter(Mandatory=$true)][string]$BucketName,
     [Parameter(Mandatory=$true)][string]$PublicBaseUrl,
@@ -29,7 +29,7 @@ $syncArgs = @(
     "--cache-control", "public,max-age=31536000,immutable",
     "--no-progress"
 )
-# Preserve runtime artwork uploaded by authenticated in-app scans.
+if (-not $KeepRemoteFiles) { $syncArgs += "--delete" }
 
 Write-Host "Uploading artwork objects to R2..." -ForegroundColor Cyan
 & aws @syncArgs
@@ -46,4 +46,3 @@ if ($LASTEXITCODE -ne 0) { throw "Validation failed after the R2 catalogue updat
 
 Write-Host "Cloudflare R2 artwork publication completed." -ForegroundColor Green
 Write-Host "Commit data/artwork-catalog.json and data/artwork-r2-manifest.json to GitHub."
-

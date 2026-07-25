@@ -20,7 +20,7 @@ if(/\brender\s*\(/.test(scanBlock))throw new Error('Artwork scanning must patch 
 if(!scanBlock.includes('patchArtworkElements')||!scanBlock.includes('updateTask'))throw new Error('Artwork scanning lacks incremental DOM/progress updates.');
 const artworkKeyBlock=app.match(/async function scanArtworkKey\(key\)[\s\S]*?\n}\nasync function installServiceWorker/)?.[0]||'';
 if(/\brender\s*\(/.test(artworkKeyBlock))throw new Error('Single artwork scans must not rebuild the full page.');
-if(!app.includes("const version='5.8.0'"))throw new Error('Service worker registration is not versioned for 5.8.0.');
+if(!app.includes("const version='5.8.1'"))throw new Error('Service worker registration is not versioned for 5.8.1.');
 
 for(const marker of ["ringside-artwork-v2","Number(row.result.confidence||100)>=80","Wrong image","Open in Plex LAN","saved to Cloudflare R2","bindLightboxes"]){
   const haystack=marker==='ringside-artwork-v2'?storage:app;

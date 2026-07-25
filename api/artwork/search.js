@@ -1,6 +1,6 @@
 import { createHash, createHmac } from 'node:crypto';
 import { authenticateAccount } from '../_lib/account.js';
-const APP_VERSION = '5.8.0';
+const APP_VERSION = '5.8.1';
 const APP_URL = 'https://ringside-archive.vercel.app/';
 const USER_AGENT = `RingsideArchive/${APP_VERSION} (+${APP_URL})`;
 const image = path => path ? `https://image.tmdb.org/t/p/original${path}` : '';

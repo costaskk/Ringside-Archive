@@ -1,4 +1,4 @@
-﻿name: Publish artwork to Cloudflare R2
+name: Publish artwork to Cloudflare R2
 on:
   workflow_dispatch:
     inputs:
@@ -38,7 +38,7 @@ jobs:
           aws s3 sync public-artwork "s3://${{ secrets.R2_BUCKET_NAME }}" \
             --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com" \
             --cache-control "public,max-age=31536000,immutable" \
-            --no-progress
+            --delete --no-progress
           mv data/artwork-catalog.r2-staged.json data/artwork-catalog.json
       - run: npm run build:core
       - run: npm test
@@ -49,4 +49,3 @@ jobs:
           git add data/artwork-catalog.json data/artwork-r2-manifest.json data/core.json data/meta.json
           git diff --cached --quiet || git commit -m "chore: publish artwork catalogue to Cloudflare R2"
           git push
-

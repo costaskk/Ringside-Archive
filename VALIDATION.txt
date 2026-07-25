@@ -1,4 +1,4 @@
-Ringside Archive v5.8.0 final validation
+Ringside Archive v5.8.1 final validation
 ========================================
 
 Validated catalogue
@@ -35,6 +35,10 @@ PASS  Plex external-ID/date/programme matching
 PASS  IndexedDB full-index storage and localStorage compaction
 PASS  Clickable content artwork and keyboard-accessible lightbox
 PASS  Incremental artwork patching without full-page reload
+PASS  Immediate programme episode indexes from the Plex supplement
+PASS  Plex/TVMaze duplicate episode collapse by programme and S/E identity
+PASS  Search input remains mounted during result and background updates
+PASS  Eager high-priority artwork in record detail modals
 PASS  Scroll preservation during asynchronous updates
 PASS  Authenticated Cloudflare R2 SigV4 persistence
 PASS  Anonymous R2 write protection

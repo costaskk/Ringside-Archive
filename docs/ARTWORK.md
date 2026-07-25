@@ -1,6 +1,6 @@
 # Artwork sources, lightboxes and persistence
 
-Ringside Archive v5.8.0 supports show, season, episode and individual-event artwork without presenting generated imitations as originals.
+Ringside Archive v5.8.1 supports show, season, episode and individual-event artwork without presenting generated imitations as originals.
 
 ## Resolution order
 

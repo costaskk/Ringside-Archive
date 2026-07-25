@@ -1,6 +1,6 @@
 {
   "title": "Ringside Archive",
-  "catalogueVersion": "5.8.0-plex-catalogue-r2-runtime",
+  "catalogueVersion": "5.8.1-stable-search-episode-dedupe",
   "reconstructedAt": "2026-07-24T08:14:43.499Z",
   "counts": {
     "promotions": 104,
@@ -26,8 +26,8 @@
     "Exact Plex title/date/season/episode mapping with JCP/WCW/NWA lineage date rules",
     "Runtime Cloudflare R2 artwork persistence through the existing artwork API route"
   ],
-  "version": "5.8.0",
-  "updatedAt": "2026-07-25T15:00:00.000Z",
+  "version": "5.8.1",
+  "updatedAt": "2026-07-25T18:30:00.000Z",
   "features": {
     "detailPopouts": true,
     "yearRangeFilters": true,
@@ -90,7 +90,11 @@
     "plexCatalogueSupplement": true,
     "plexLineageAwarePromotionMapping": true,
     "plexUnknownRecordRuntimeImport": true,
-    "nonDisruptiveCardActionsV58": true
+    "nonDisruptiveCardActionsV58": true,
+    "programmeSupplementEpisodesImmediate": true,
+    "plexTvMazeEpisodeDeduplication": true,
+    "stableSearchInputV581": true,
+    "eagerModalArtworkV581": true
   },
   "freeLinkPolicy": "record-specific-only"
 }

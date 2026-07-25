@@ -2,7 +2,7 @@ import { authenticateAccount, writeIntegration, publicIntegration } from '../_li
 import { sendError } from '../_lib/http.js';
 
 const PRODUCT='Ringside Archive';
-const headers=clientId=>({'Accept':'application/json','Content-Type':'application/json','X-Plex-Product':PRODUCT,'X-Plex-Version':'5.8.0','X-Plex-Client-Identifier':clientId});
+const headers=clientId=>({'Accept':'application/json','Content-Type':'application/json','X-Plex-Product':PRODUCT,'X-Plex-Version':'5.8.1','X-Plex-Client-Identifier':clientId});
 export default async function handler(req,res){
   const clientId=String(req.method==='POST'?req.body?.clientId:req.query?.clientId||'');
   if(!clientId)return res.status(400).json({error:'Missing Plex client identifier.'});

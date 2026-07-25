@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.8.1 — Episode index, duplicate and live-search reliability
+
+- Populate show-index modals immediately from the checked-in Plex episode supplement, before any live feed refresh.
+- Merge Plex and TVMaze rows by programme plus season/episode identity so the same broadcast appears once.
+- Preserve owner-library titles and Plex matching while borrowing richer TVMaze summaries and still artwork.
+- Keep the search input mounted while results update, including during deferred data, Plex and cloud refreshes.
+- Prime record artwork on pointer/focus and load modal hero artwork eagerly at high priority.
+- Add a dedicated UI regression smoke test for WWF Mania S01E01 deduplication and the stable-search path.
+
 ## 5.8.0 — Plex catalogue ingestion, lineage repair and R2 runtime persistence
 
 - Audit 13,075 owner-library Plex records and match 13,040 of them.

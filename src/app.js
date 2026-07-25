@@ -5,6 +5,7 @@ import { detailsFor, parseCompetitors, recordTraktPayload } from './records.js';
 import { makeClientId, buildPlexMatches, plexWebUrl, createPlexPin, pollPlexPin, loadPlexResources, listPlexLibraries, scanPlexLibrary, updatePlexViewState, searchArtwork, searchArtworkBatch } from './integrations.js';
 import { loadCloudConfig, consumeCloudAuthRedirect, updateCloudPassword, getCloudUser, signUpCloud, signInCloud, sendPasswordReset, signOutCloud, pullCloudState, pushCloudState, cloudApiHeaders, loadCloudIntegrations, saveCloudIntegration, deleteCloudIntegration } from './cloud.js';
 import { savePlexItems, loadPlexItems, clearPlexItems } from './plex-indexeddb.js';
+import { mergeExactRows as mergeRecordRows } from './record-merge.js';
 
 const app = document.querySelector('#app');
 const filePicker = document.querySelector('#filePicker');
@@ -56,7 +57,11 @@ const state = {
   renderGeneration: 0,
   tasks: new Map(),
   actionSequence: 0,
-  keyboardBound: false
+  keyboardBound: false,
+  searchEditing: false,
+  pendingViewRefresh: false,
+  searchRenderTimer: null,
+  artworkWarmups: new Map()
 };
 
 const CORE_DATA_FILES = ['promotions','programmes','major-events','recommendations','wrestlers','format-labels','custom-records','free-links','plex-title-map','meta'];
@@ -126,7 +131,7 @@ async function loadPlexSupplementData({render=true}={}) {
     state.plexSupplementRecords=Array.isArray(payload?.records)?payload.records:[];
     state.plexSupplementLoaded=true;
     invalidateRecordCache();rebuildWrestlerIndex();refreshPlexIndex();
-    if(render)renderViewOnly({preserveScroll:true});
+    if(render){renderViewOnly({preserveScroll:true});if(state.modal?.type==='programme')renderModalOnly();}
   } catch (error) {
     console.warn('Plex catalogue supplement:', error.message);
     state.plexSupplementLoaded=true;
@@ -143,19 +148,34 @@ function allLoadedEpisodes(){
   if(!state.recordCache.episodes) state.recordCache.episodes=[...state.loadedEpisodes.values()].flat();
   return state.recordCache.episodes;
 }
-function recordNaturalKey(item){
-  return `${String(item?.date||'').slice(0,10)}|${item?.programId||''}|${normalize(item?.title||item?.name||item?.id||'')}`;
+function recordSourcePriority(item){
+  if(!item)return 0;
+  if(state.data?.customRecords?.includes?.(item))return 120;
+  if(state.data?.majorEvents?.includes?.(item))return 110;
+  if(String(item.id||'').startsWith('plex-supplement-')||/Plex owner-library/i.test(String(item.sourceLabel||'')))return 90;
+  if(String(item.id||'').startsWith('tvmaze:')||/TVMaze exact/i.test(String(item.sourceLabel||'')))return 80;
+  return 60;
+}
+function mergeExactRows(rows=[]){return mergeRecordRows(rows,{priority:recordSourcePriority});}
+function programmeEpisodes(programId){
+  return mergeExactRows([
+    ...state.plexSupplementRecords.filter(item=>item?.programId===programId),
+    ...(state.loadedEpisodes.get(programId)||[]),
+    ...state.data.majorEvents.filter(item=>item?.programId===programId),
+    ...state.data.customRecords.filter(item=>item?.programId===programId)
+  ]);
 }
 function exactRecords(){
   if(!state.recordCache.exact||state.recordCache.dirty){
-    // Prefer curated/static records over Plex-derived supplements and live-feed rows,
-    // while still exposing every independently dated owner-library item.
-    const merged=new Map();
-    for(const item of [...state.plexSupplementRecords,...allLoadedEpisodes(),...state.data.majorEvents,...state.data.customRecords]){
-      if(!item?.date)continue;
-      merged.set(recordNaturalKey(item),item);
-    }
-    state.recordCache.exact=[...merged.values()].sort((a,b)=>String(a.date).localeCompare(String(b.date))||String(a.title).localeCompare(String(b.title)));
+    // Episode rows from Plex and live feeds frequently describe the same broadcast
+    // with different titles. Merge by programme + S/E identity, preserving the
+    // owner-library record while borrowing richer feed summaries and still artwork.
+    state.recordCache.exact=mergeExactRows([
+      ...state.plexSupplementRecords,
+      ...allLoadedEpisodes(),
+      ...state.data.majorEvents,
+      ...state.data.customRecords
+    ]);
     state.recordCache.dirty=false;
   }
   return state.recordCache.exact;
@@ -717,7 +737,8 @@ function artwork(item, context='card', isProgramme=false) {
   const p=promotion(item.promotionId), candidates=artworkCandidates(item,isProgramme),key=isProgramme?`program:${item.id}`:statusKey(item);
   const selected=candidates.find(x=>item.kind==='episode'&&x.type==='episode') || candidates.find(x=>x.type==='poster') || candidates[0] || null;
   const src=selected?.url||'',title=item.title||item.name,alt=`${title} artwork`;
-  return `<div class="artwork ${context} ${src?'hasImage':''}" data-artwork-key="${h(key)}" data-artwork-context="${h(context)}" data-artwork-programme="${isProgramme?'1':'0'}" style="--accent:${h(p?.color||'#d7a84f')}"><div class="artworkFallback artworkInner"><span>${h(p?.shortName||'Archive')}</span><strong>${h(title)}</strong></div>${src?`<img loading="lazy" decoding="async" fetchpriority="low" src="${h(src)}" alt="${h(alt)}" ${lightboxImageAttrs(src,alt,selected?.sourceUrl)} referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"/>`:''}</div>`;
+  const priority=['detailArtwork','heroArtwork'].includes(context);
+  return `<div class="artwork ${context} ${src?'hasImage':''}" data-artwork-key="${h(key)}" data-artwork-context="${h(context)}" data-artwork-programme="${isProgramme?'1':'0'}" style="--accent:${h(p?.color||'#d7a84f')}"><div class="artworkFallback artworkInner"><span>${h(p?.shortName||'Archive')}</span><strong>${h(title)}</strong></div>${src?`<img loading="${priority?'eager':'lazy'}" decoding="${priority?'sync':'async'}" fetchpriority="${priority?'high':'low'}" src="${h(src)}" alt="${h(alt)}" ${lightboxImageAttrs(src,alt,selected?.sourceUrl)} referrerpolicy="no-referrer" onerror="this.remove();this.parentElement?.classList.remove('hasImage')"/>`:''}</div>`;
 }
 function artworkGallery(item,isProgramme=false){
   const candidates=artworkCandidates(item,isProgramme);
@@ -820,7 +841,7 @@ function exactView(){
   const filtered=exactRecords().filter(x=>matchFilters(x));
   const visible=filtered.slice(0,state.visible);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=filtered.length.toLocaleString();});
-  return `<div class="viewHeader"><div><span class="eyebrow">Individual dated records</span><h2>Exact episodes, PPVs & supercards</h2></div><div class="viewControls"><span>${allLoadedEpisodes().length.toLocaleString()} exact weekly episodes loaded</span></div></div>
+  return `<div class="viewHeader"><div><span class="eyebrow">Individual dated records</span><h2>Exact episodes, PPVs & supercards</h2></div><div class="viewControls"><span>${exactRecords().filter(item=>item.kind==='episode').length.toLocaleString()} exact weekly episodes indexed</span></div></div>
   <section class="exactChronologyView"><div class="exactCoverageBar"><div><span class="eyebrow">Unified watch chronology</span><h3>Television, PPVs, PLEs, tournaments & supercards</h3><p>Only individually dated records appear here. Show landing pages and company hubs remain available in Show Index and Companies without occupying artificial dates in the chronology. Use filters for company, wrestler, date range, YouTube, Plex or artwork.</p>${state.syncMessage?`<div class="syncProgress" id="episodeLoadStatus">${h(state.syncMessage)}</div>`:''}</div><div class="coverageActions"><button data-action="reload-all-episodes">Refresh all exact feeds</button><button data-action="discover-feeds">Discover more feeds</button><button data-action="scan-visible-artwork">Scan visible artwork</button></div></div>
   <div class="exactRecordsList">${visible.map(exactCard).join('')||empty('No records match the current filters.','Reset the filters or widen the year range.',true)}</div>${filtered.length>state.visible?`<div class="loadMoreRow"><button data-action="load-more">Show ${Math.min(50,filtered.length-state.visible)} more</button></div>`:''}</section>`;
 }
@@ -839,7 +860,7 @@ function chronologyView(){
   return `<div class="viewHeader"><div><span class="eyebrow">Programme-first catalogue</span><h2>Weekly shows, television, streaming & event series</h2></div><div class="viewControls"><span>${state.data.programmes.length} total programme families</span></div></div><section class="programmeGrid">${items.map(programmeCard).join('')||empty('No programmes found.','Try another company, year range or search term.',true)}</section>${filtered.length>state.visible?`<div class="loadMoreRow"><button data-action="load-more">Show more</button></div>`:''}`;
 }
 function programmeCard(p){
-  const company=promotion(p.promotionId), status=currentStatus(`program:${p.id}`), loaded=state.loadedEpisodes.get(p.id)?.length||0, mapped=p.tvMazeId||state.feedMap[p.id], freeLink=specificFreeLinkFor(p,{programmeEntry:true});
+  const company=promotion(p.promotionId), status=currentStatus(`program:${p.id}`), loaded=programmeEpisodes(p.id).length, mapped=p.tvMazeId||state.feedMap[p.id], freeLink=specificFreeLinkFor(p,{programmeEntry:true});
   return `<article class="programmeCard" style="--accent:${h(company?.color||'#d7a84f')}" data-scroll-key="program:${h(p.id)}" data-open-programme="${h(p.id)}" role="button" tabindex="0">${artwork(p,'programmeArtwork',true)}<div class="programmeCardBody"><div class="programmeKicker"><span>${h(company?.shortName||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h3>${h(p.name)}</h3><p>${h(p.description)}</p><div class="heroMeta"><span>${h(p.firstAirDate)}${p.endDate?` – ${h(p.endDate)}`:''}</span><span>${h(p.cadence)}</span>${mapped?`<span class="statusPill status-watching">${loaded?`${loaded.toLocaleString()} episodes`:'Exact feed'}</span>`:'<span>Index only</span>'}</div><div class="programmeCardActions"><button data-open-programme="${h(p.id)}">Open show</button>${freeLink?freeLinkAnchor(freeLink):''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Unwatch':'Watched'}</button></div></div></article>`;
 }
 
@@ -854,7 +875,7 @@ function companiesView(){
   const programmeCounts=new Map(),eventCounts=new Map(),episodeCounts=new Map();
   for(const row of state.data.programmes)programmeCounts.set(row.promotionId,(programmeCounts.get(row.promotionId)||0)+1);
   for(const row of state.data.majorEvents)eventCounts.set(row.promotionId,(eventCounts.get(row.promotionId)||0)+1);
-  for(const row of allLoadedEpisodes())episodeCounts.set(row.promotionId,(episodeCounts.get(row.promotionId)||0)+1);
+  for(const row of exactRecords())if(row.kind==='episode')episodeCounts.set(row.promotionId,(episodeCounts.get(row.promotionId)||0)+1);
   queueMicrotask(()=>{const el=document.querySelector('#resultCount');if(el)el.textContent=items.length.toLocaleString();});
   return `<div class="viewHeader"><div><span class="eyebrow">Promotion directory</span><h2>Companies, territories & lineages</h2></div><div class="viewControls"><button type="button" data-action="scan-visible-artwork">Scan visible logos</button></div></div><section class="cardGrid companyDirectory">${visibleItems.map(p=>`<article class="companyCard" style="--accent:${h(p.color)}">${companyLogo(p)}<div class="companySwatch"></div><span class="eyebrow">${h(p.region)}</span><h3>${h(p.shortName)}</h3><strong>${h(p.name)}</strong><p>${h(p.description)}</p><div class="heroMeta"><span>${programmeCounts.get(p.id)||0} programmes</span><span>${eventCounts.get(p.id)||0} events</span><span>${(episodeCounts.get(p.id)||0).toLocaleString()} episodes</span></div><div class="cardActions"><button type="button" data-company="${h(p.id)}">Open chronology</button>${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank" rel="noreferrer">Official ↗</a>`:''}${p.youtubeUrl?`<a href="${h(p.youtubeUrl)}" target="_blank" rel="noreferrer">Official channel ↗</a>`:''}</div></article>`).join('')}</section>${items.length>visibleItems.length?`<div class="loadMoreRow"><button type="button" data-action="load-more">Show ${Math.min(50,items.length-visibleItems.length)} more companies</button></div>`:''}`;
 }
@@ -942,7 +963,7 @@ function recordModal(item){
 }
 function programmeModal(p){
   if(!p)return '';
-  const company=promotion(p.promotionId),loaded=state.loadedEpisodes.get(p.id)||[],status=currentStatus(`program:${p.id}`),mapped=p.tvMazeId||state.feedMap[p.id],freeLink=specificFreeLinkFor(p,{programmeEntry:true}),catalog={...(state.data.artworkCatalog?.programmes?.[p.id]||{}),...(state.artworkCache[`program:${p.id}`]||{})};
+  const company=promotion(p.promotionId),loaded=programmeEpisodes(p.id),status=currentStatus(`program:${p.id}`),mapped=p.tvMazeId||state.feedMap[p.id],freeLink=specificFreeLinkFor(p,{programmeEntry:true}),catalog={...(state.data.artworkCatalog?.programmes?.[p.id]||{}),...(state.artworkCache[`program:${p.id}`]||{})};
   const seasons=Object.entries(catalog.seasons||{});
   return modalShell(p.name,`<div class="detailHero">${artwork(p,'detailArtwork',true)}<div class="detailHeroText"><div class="programmeKicker"><span>${h(company?.name||'')}</span><span>•</span><span>${h(state.data.formatLabels[p.kind]||p.kind)}</span></div><h2>${h(p.name)}</h2><p class="detailLead">${h(p.description)}</p><div class="detailFacts"><span><small>First aired</small><strong>${h(p.firstAirDate)}</strong></span>${p.endDate?`<span><small>Final date</small><strong>${h(p.endDate)}</strong></span>`:''}<span><small>Cadence</small><strong>${h(p.cadence)}</strong></span><span><small>Exact episodes</small><strong>${loaded.length.toLocaleString()}</strong></span></div><div class="modalActions">${mapped?`<button data-load-programme="${h(p.id)}">${icon('refresh')} Refresh episodes</button>`:`<button data-discover-programme="${h(p.id)}">Discover exact feed</button>`}${p.officialUrl?`<a href="${h(p.officialUrl)}" target="_blank">Official ↗</a>`:''}${p.sourceUrl?`<a href="${h(p.sourceUrl)}" target="_blank" rel="noreferrer">Catalogue source ↗</a>`:''}${freeLink?freeLinkAnchor(freeLink):''}<button data-status-key="program:${h(p.id)}" data-status="${status==='watched'?'unwatched':'watched'}">${status==='watched'?'Remove watched':'Mark programme watched'}</button></div>${p.feedNote?`<p class="sourceNote">${h(p.feedNote)}</p>`:''}</div></div>
     <section class="detailSection"><div class="sectionHeading"><div><span class="eyebrow">Show and season visuals</span><h3>Artwork</h3></div><button data-scan-art="program:${h(p.id)}">Scan artwork</button></div>${artworkGallery(p,true)}${seasons.length?`<h4 class="subheading">Season artwork</h4><div class="seasonArtworkGrid">${seasons.map(([season,art])=>`<figure><img src="${h(art.poster||art.backdrop||'')}" alt="Season ${h(season)} artwork" ${lightboxImageAttrs(art.poster||art.backdrop||'',`Season ${season} artwork`,art.sourceUrl||'')} loading="lazy" decoding="async" referrerpolicy="no-referrer"><figcaption>Season ${h(season)}</figcaption></figure>`).join('')}</div>`:''}</section>
@@ -998,24 +1019,37 @@ function connectionsModal(){
   <section class="connectionPanel"><h3>Backup & recovery</h3><p>Account sync is automatic when configured, but a private JSON backup remains useful for offline recovery. Legacy backups can also migrate local Plex/Trakt connections into your signed-in account.</p><div class="modalActions"><button data-action="export">Export JSON</button><button data-action="import-backup">Import JSON</button><button data-action="cloud-sync" ${accountConnected()?'':'disabled'}>Sync account</button></div></section></div>`,true);
 }
 
-function footer(){const exactEpisodes=exactRecords().filter(item=>item.kind==='episode').length;return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds and the supplied owner-library catalogue. Artwork retains source attribution and production scans are persisted to Cloudflare R2. Historical NWA, JCP and WCW lineages are split by their actual dates instead of being merged under one company.</p><span>Catalogue v5.8.0 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${exactEpisodes.toLocaleString()} exact episode records</span></footer>`;}
+function footer(){const exactEpisodes=exactRecords().filter(item=>item.kind==='episode').length;return `<footer><div class="footerBrand"><span class="brandMark">RA</span><div><strong>Ringside Archive</strong><small>Account-synced, local-first project</small></div></div><p>Episode metadata uses verified feeds and the supplied owner-library catalogue. Artwork retains source attribution and production scans are persisted to Cloudflare R2. Historical NWA, JCP and WCW lineages are split by their actual dates instead of being merged under one company.</p><span>Catalogue v5.8.1 • ${state.data.meta.counts.majorEvents.toLocaleString()} major events • ${state.data.programmes.length} programme families • ${exactEpisodes.toLocaleString()} exact episode records</span></footer>`;}
 function mobileNav(){return `<nav class="mobileNav">${navItems.map(([id,ic,label])=>`<button data-view="${id}" class="${state.view===id?'active':''}"><span>${icon(ic)}</span>${label.replace('Complete ','')}</button>`).join('')}</nav>`;}
 
+function currentViewBody(){
+  if(state.view==='exact')return exactView();
+  if(state.view==='chronology')return chronologyView();
+  if(state.view==='wrestlers')return wrestlersView();
+  if(state.view==='recommended')return recommendedView();
+  if(state.view==='companies')return companiesView();
+  if(state.view==='library')return libraryView();
+  return '';
+}
 function currentViewContent(){
-  let content='';
-  if(state.view==='exact')content=exactView();
-  if(state.view==='chronology')content=chronologyView();
-  if(state.view==='wrestlers')content=wrestlersView();
-  if(state.view==='recommended')content=recommendedView();
-  if(state.view==='companies')content=companiesView();
-  if(state.view==='library')content=libraryView();
   const overview=state.view==='exact'?`${dashboard()}${catalogueStatement()}`:'';
   const filters=['exact','chronology','wrestlers','companies','recommended'].includes(state.view)?filterPanel():'';
-  return `${overview}${filters}${content}${footer()}`;
+  return `${overview}${filters}<div id="viewResultsRoot" data-results-view="${h(state.view)}">${currentViewBody()}</div>${footer()}`;
+}
+function renderResultsOnly({preserveScroll=true}={}){
+  if(!state.data)return;
+  const root=document.querySelector('#viewResultsRoot');
+  if(!root||root.dataset.resultsView!==state.view){renderViewOnly({preserveScroll});return;}
+  const viewport=preserveScroll?captureViewportState():null,generation=++state.renderGeneration;
+  root.innerHTML=currentViewBody();
+  bind();renderToast();syncTaskButtons();if(viewport)restoreViewportState(viewport,generation);
 }
 function renderViewOnly({preserveScroll=true}={}){
   if(!state.data)return;
   const main=document.querySelector('.appShell');if(!main){render({preserveScroll});return;}
+  if(document.activeElement?.id==='searchInput'&&document.querySelector('#viewResultsRoot')){
+    state.pendingViewRefresh=true;renderResultsOnly({preserveScroll});return;
+  }
   const viewport=preserveScroll?captureViewportState():null,generation=++state.renderGeneration;
   main.className=`appShell view-${state.view}`;main.innerHTML=currentViewContent();state.lastRenderView=state.view;
   bind();renderToast();syncTaskButtons();if(viewport)restoreViewportState(viewport,generation);
@@ -1031,16 +1065,31 @@ function render({preserveScroll=state.lastRenderView===state.view}={}){
   if(viewport)restoreViewportState(viewport,generation);
 }
 
+function primeRecordArtwork(id){
+  const item=exactRecords().find(row=>String(row.id)===String(id));
+  if(!item||typeof Image==='undefined')return;
+  const candidates=artworkCandidates(item),candidate=candidates.find(value=>item.kind==='episode'&&value.type==='episode')||candidates.find(value=>value.type==='poster')||candidates[0];
+  if(!candidate?.url||state.artworkWarmups.has(candidate.url))return;
+  const image=new Image();state.artworkWarmups.set(candidate.url,image);image.decoding='async';image.fetchPriority='high';
+  const release=()=>setTimeout(()=>state.artworkWarmups.delete(candidate.url),15000);image.onload=release;image.onerror=release;image.src=candidate.url;
+}
 function bind(){
   document.querySelectorAll('[data-view]').forEach(el=>el.onclick=()=>setView(el.dataset.view));
   document.querySelectorAll('[data-status-key]').forEach(el=>el.onclick=e=>{e.stopPropagation();setStatus(el.dataset.statusKey,el.dataset.status);});
   document.querySelectorAll('[data-open-programme]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a'))return;state.modal={type:'programme',id:el.dataset.openProgramme};renderModalOnly();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'programme',id:el.dataset.openProgramme};renderModalOnly();}};});
-  document.querySelectorAll('[data-open-record]').forEach(el=>{el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a,select,textarea,input'))return;state.modal={type:'record',id:el.dataset.openRecord};renderModalOnly();};el.onkeydown=e=>{if(e.key==='Enter'){state.modal={type:'record',id:el.dataset.openRecord};renderModalOnly();}};});
+  document.querySelectorAll('[data-open-record]').forEach(el=>{const open=()=>{primeRecordArtwork(el.dataset.openRecord);state.modal={type:'record',id:el.dataset.openRecord};renderModalOnly();};el.onpointerenter=()=>primeRecordArtwork(el.dataset.openRecord);el.onfocus=()=>primeRecordArtwork(el.dataset.openRecord);el.onclick=e=>{if(el.tagName!=='BUTTON'&&e.target.closest('button,a,select,textarea,input'))return;open();};el.onkeydown=e=>{if(e.key==='Enter'){open();}};});
   document.querySelectorAll('[data-company]').forEach(el=>el.onclick=()=>{state.filters.promotion=el.dataset.company;state.filtersOpen=true;state.visible=24;setView('exact');});
   document.querySelectorAll('[data-wrestler]').forEach(el=>el.onclick=e=>{e.stopPropagation();state.filters.wrestler=el.dataset.wrestler;state.filtersOpen=true;state.modal=null;state.visible=24;setView('wrestlers');});
   document.querySelectorAll('[data-library-tab]').forEach(el=>el.onclick=()=>{state.libraryTab=el.dataset.libraryTab;renderViewOnly();});
   document.querySelectorAll('[data-filter]').forEach(el=>{const apply=()=>{state.filters[el.dataset.filter]=el.type==='checkbox'?el.checked:el.value;state.visible=24;renderViewOnly();};if(el.tagName==='INPUT'&&el.type==='number')el.oninput=debounce(apply,250);else el.onchange=apply;});
-  const search=document.querySelector('#searchInput');if(search)search.oninput=debounce(()=>{state.filters.query=search.value;state.visible=24;renderViewOnly();},150);
+  const search=document.querySelector('#searchInput');if(search){
+    search.onfocus=()=>{state.searchEditing=true;};
+    search.onblur=()=>{state.searchEditing=false;if(state.pendingViewRefresh){state.pendingViewRefresh=false;renderViewOnly({preserveScroll:true});}};
+    search.oninput=()=>{
+      state.searchEditing=true;state.filters.query=search.value;state.visible=24;
+      clearTimeout(state.searchRenderTimer);state.searchRenderTimer=setTimeout(()=>renderResultsOnly({preserveScroll:true}),90);
+    };
+  }
   document.querySelectorAll('[data-load-programme]').forEach(el=>{const key=taskButtonKey(el);el.onclick=e=>{e.stopPropagation();runButtonTask(el,key,()=>loadProgramme(el.dataset.loadProgramme,true),{label:'Loading exact episodes'}).catch(()=>{});};});
   document.querySelectorAll('[data-discover-programme]').forEach(el=>{const key=taskButtonKey(el);el.onclick=e=>{e.stopPropagation();runButtonTask(el,key,()=>discoverProgramme(el.dataset.discoverProgramme),{label:'Discovering exact feed'}).catch(()=>{});};});
   document.querySelectorAll('[data-save-review]').forEach(el=>el.onclick=()=>saveReview(el.dataset.saveReview));
@@ -1426,7 +1475,7 @@ async function scanArtworkKey(key){
 }
 async function installServiceWorker(){
   if(!('serviceWorker' in navigator))return;
-  const version='5.8.0',versionKey='ringside-app-version';
+  const version='5.8.1',versionKey='ringside-app-version';
   try{
     const previous=localStorage.getItem(versionKey);
     if(previous!==version&&globalThis.caches){
@@ -1434,7 +1483,7 @@ async function installServiceWorker(){
       await Promise.all(keys.filter(key=>key.startsWith('ringside-archive-')).map(key=>caches.delete(key)));
       localStorage.setItem(versionKey,version);
     }
-    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.8.0',{updateViaCache:'none'});
+    const registration=await navigator.serviceWorker.register('./service-worker.js?v=5.8.1',{updateViaCache:'none'});
     await registration.update().catch(()=>{});
     const activateWaiting=()=>registration.waiting?.postMessage({type:'SKIP_WAITING'});
     activateWaiting();
