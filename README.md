@@ -1,9 +1,9 @@
-# Ringside Archive v5.6.0
+# Ringside Archive v5.7.0
 
 A GitHub-ready professional wrestling chronology and viewing tracker with:
 
 - 101 promotion profiles
-- 294 television, streaming, PPV, tournament and supercard programme families
+- 431 television, streaming, PPV, tournament and supercard programme families
 - 1,144 individually dated major-event records
 - exact weekly episode feeds where a dependable TVMaze mapping exists
 - complete record popouts, known cards, competitors, reviews and personal ratings
@@ -15,14 +15,24 @@ A GitHub-ready professional wrestling chronology and viewing tracker with:
 
 See [`CHANGELOG.md`](CHANGELOG.md) for the release-by-release changes and [`PROJECT-AUDIT.md`](PROJECT-AUDIT.md) for the engineering audit.
 
-## v5.6.0 artwork, Plex LAN and catalogue coverage overhaul
+## v5.7.0 Cloudflare R2 artwork CDN and recurring-series audit
+
+- **Cloudflare R2 publishing:** accepted artwork can be downloaded, content-hashed and uploaded to a public R2 bucket behind your own custom domain. The project keeps source attribution and only rewrites the catalogue after the upload succeeds.
+- **Automated R2 workflow:** use `tools/upload-artwork-r2.ps1` from Windows or run `.github/workflows/publish-artwork-r2.yml` from GitHub Actions.
+- **137 real recurring series added:** a deterministic audit split 850 exact records out of seven generic archives into the correct recurring families, including ROH Death Before Dishonor, NJPW Royal Quest, ECW Heat Wave, NOAH Star Navigation, AEW All Out, WCCW Star Wars and the NWA Crockett Cup.
+- **No invented event dates:** the new families are derived only from exact records already stored in `data/major-events.json`; one-off cards remain in their promotion archive.
+- **Machine-readable audit:** `data/series-coverage-audit.json` records every reassignment and the remaining generic archive totals.
+
+See [`docs/CLOUDFLARE-R2-ARTWORK.md`](docs/CLOUDFLARE-R2-ARTWORK.md) for the exact Cloudflare setup.
+
+## v5.6.0 foundation retained: artwork, Plex LAN and promotion coverage
 
 - **Stricter image matching:** mapped TVMaze IDs are tried first, TMDB titles and years must meet high confidence thresholds, and Wikipedia/Wikimedia candidates are validated by page type, filename and title-token coverage. Ambiguous results are rejected instead of being displayed.
 - **No promotion-logo substitution:** a company logo is no longer shown as though it were the poster for an unrelated episode, PPV or recurring show. Cards without trustworthy art retain the designed archive placeholder.
-- **Fresh artwork cache:** v5.6 uses `ringside-artwork-v2`, so low-quality results cached by older releases do not survive the upgrade. Scanned gallery images also include a **Wrong image** action for local rejection and rescan.
+- **Fresh artwork cache:** v5.7 uses `ringside-artwork-v2`, so low-quality results cached by older releases do not survive the upgrade. Scanned gallery images also include a **Wrong image** action for local rejection and rescan.
 - **Clear match-list language:** the former visible “Full card” wording is replaced by **Known matches** or **All matches verified**. The internal `completeCard` flag remains useful for data integrity but is no longer presented as an unexplained action label.
 - **Tailscale Plex deep links:** matched records open Plex Web at `http://100.112.143.89:32400` by default. The address is editable under Connections and is used only by the browser, never by Vercel's server-side scanner.
-- **Expanded programme catalogue:** 106 sourced programme and recurring-event families were added across DEFY, IWA Mid-South, Memphis, Mid-South/UWF, Mid-Atlantic/JCP, NJPW, WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW, Georgia Championship Wrestling and TNA.
+- **Expanded programme catalogue:** 106 source-labelled programme and recurring-event families were added in v5.6 across DEFY, IWA Mid-South, Memphis, Mid-South/UWF, Mid-Atlantic/JCP, NJPW, WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW, Georgia Championship Wrestling and TNA.
 - **Exact TNA weekly PPVs:** the 2002–2004 NWA-TNA weekly pay-per-view run is mapped to TVMaze show `80637`, allowing all 111 dated programmes to load into Complete Timeline as exact records.
 
 Programme families are not fabricated into weekly episodes. A series without a dependable episode feed appears in Show Index with its source and date span; only verified individual dates enter Complete Timeline.
@@ -48,7 +58,7 @@ This release focuses on making the archive feel immediate and polished on real d
 - **Stable reading position:** background account sync, artwork hydration and episode-feed progress no longer repeatedly rebuild the full document. When a real render is required, the first visible record and its precise viewport offset are restored.
 - **No forced refreshes:** service-worker activation never reloads an active page. An update is applied in the background and the user remains at the same record.
 - **Refresh recovery:** an accidental refresh in the same tab restores the recent scroll position for up to 30 minutes.
-- **Clean chronology:** the 101 synthetic promotion-level “Master Index” placeholders were removed. Companies are the promotion hubs, Show Index contains 294 programme/event-series families, and Complete Timeline contains only individually dated records.
+- **Clean chronology:** the 101 synthetic promotion-level “Master Index” placeholders were removed. Companies are the promotion hubs, Show Index contains 431 programme/event-series families, and Complete Timeline contains only individually dated records.
 - **Faster first paint:** the initial screen now waits only for the core catalogue. The 588 KB event-detail file, artwork catalogues, Supabase account restoration and exact episode feeds load after the interface is already usable.
 - **Cached chronology:** the merged timeline and flattened episode collection are cached instead of being rebuilt and resorted on every click, filter change or cloud update.
 - **Progressive episode loading:** exact TVMaze feeds start during browser idle time, use only two concurrent workers and refresh the interface at a bounded interval instead of rerendering after every feed.
@@ -145,7 +155,7 @@ Not every historic territory episode or independent supercard has a usable Trakt
 
 ## Data accuracy
 
-The project never creates fictional weekly dates. Show Index contains all 294 programme and recurring event-series families. Complete Timeline contains:
+The project never creates fictional weekly dates. Show Index contains all 431 programme and recurring event-series families. Complete Timeline contains:
 
 - all 1,144 recovered dated major events;
 - exact episodes loaded from approved feeds;
@@ -238,7 +248,7 @@ Open PowerShell in the project folder:
 ```powershell
 git init
 git add .
-git commit -m "Initial Ringside Archive v5.6.0 release"
+git commit -m "Initial Ringside Archive v5.7.0 release"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/ringside-archive.git
 git push -u origin main
@@ -334,6 +344,7 @@ INTEGRATION_ENCRYPTION_KEY
 TRAKT_CLIENT_ID
 TRAKT_CLIENT_SECRET
 TMDB_READ_ACCESS_TOKEN        # optional
+R2_ARTWORK_PUBLIC_BASE_URL    # optional public CDN status/base URL
 ```
 
 A legacy Supabase server key may instead use:
@@ -469,21 +480,21 @@ npm run check:links
 
 ## The page still shows 271 programme families or calls `/api/trakt/device-code`
 
-That is the older application being served by its service-worker cache. Version 5.6.0 contains 294 programme/event-series families and uses only `/api/trakt/device`.
+That is the older application being served by its service-worker cache. Version 5.7.0 contains 431 programme/event-series families and uses only `/api/trakt/device`.
 
 After deploying the new commit:
 
-1. Open `https://YOUR-SITE.vercel.app/?v=5.6.0` once.
+1. Open `https://YOUR-SITE.vercel.app/?v=5.7.0` once.
 2. Press **Ctrl+Shift+R**.
 3. If the old interface remains, open DevTools → **Application** → **Service Workers** → **Unregister**.
 4. Under **Storage**, select **Clear site data**.
 5. Reload the normal site URL.
 
-The v5.6.0 service worker handles later upgrades without force-reloading an active reading session.
+The v5.7.0 service worker handles later upgrades without force-reloading an active reading session.
 
 ## TVMaze snapshot 404 messages
 
-Version 5.6.0 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
+Version 5.7.0 includes `data/tvmaze/index.json`. Only files listed in that manifest are requested. Run `npm run sync:tvmaze` or the GitHub workflow to populate snapshots; otherwise mapped feeds are loaded live without first generating a local 404.
 
 ## Trakt returns a Cloudflare “Attention Required” page
 
@@ -600,3 +611,9 @@ vercel.json                  deployment and security headers
 ## Licence
 
 The software licence does not grant rights to third-party wrestling artwork, logos, photography, video or metadata. Copyright remains with the respective owners and sources.
+
+## Cloudflare R2 artwork hosting
+
+Cloudflare R2 is optional but recommended when you want the accepted artwork cache to be durable, fast and independent of third-party hotlinking. Use a public bucket attached to a custom domain, not the development-only `r2.dev` URL. The repository can scan accepted artwork, download it with content-hashed filenames, upload it with immutable cache headers and rewrite `data/artwork-catalog.json` while retaining source attribution.
+
+Exact setup: [`docs/CLOUDFLARE-R2-ARTWORK.md`](docs/CLOUDFLARE-R2-ARTWORK.md).

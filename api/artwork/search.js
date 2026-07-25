@@ -1,4 +1,4 @@
-const APP_VERSION = '5.6.0';
+const APP_VERSION = '5.7.0';
 const APP_URL = 'https://ringside-archive.vercel.app/';
 const USER_AGENT = `RingsideArchive/${APP_VERSION} (+${APP_URL})`;
 const image = path => path ? `https://image.tmdb.org/t/p/original${path}` : '';

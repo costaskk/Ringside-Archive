@@ -6,3 +6,7 @@ Thumbs.db
 !/.env.example
 node_modules/
 *.log
+
+# Generated Cloudflare R2 artwork staging
+public-artwork/
+data/artwork-catalog.r2-staged.json

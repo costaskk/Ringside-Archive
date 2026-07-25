@@ -3,5 +3,6 @@
 window.RINGSIDE_CONFIG = window.RINGSIDE_CONFIG || {
   supabaseUrl: '',
   supabasePublishableKey: '',
-  plexLanBaseUrl: 'http://100.112.143.89:32400'
+  plexLanBaseUrl: 'http://100.112.143.89:32400',
+  r2ArtworkPublicBaseUrl: ''
 };

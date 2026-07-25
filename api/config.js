@@ -8,6 +8,7 @@ export default function handler(req, res) {
   const traktClientId = clean(process.env.TRAKT_CLIENT_ID);
   const traktClientSecret = clean(process.env.TRAKT_CLIENT_SECRET);
   const tmdbToken = clean(process.env.TMDB_READ_ACCESS_TOKEN);
+  const r2ArtworkPublicBaseUrl = clean(process.env.R2_ARTWORK_PUBLIC_BASE_URL);
   const encryptedIntegrationStorage = Boolean(supabaseUrl && supabasePublishableKey && supabaseSecretKey && encryptionKey);
   res.setHeader('Cache-Control', 'private, no-store');
   return res.status(200).json({
@@ -17,6 +18,8 @@ export default function handler(req, res) {
     encryptedIntegrationStorage,
     traktConfigured: Boolean(traktClientId && traktClientSecret),
     tmdbConfigured: Boolean(tmdbToken),
+    r2ArtworkPublicBaseUrl,
+    r2ArtworkConfigured: Boolean(r2ArtworkPublicBaseUrl),
     diagnostics: {
       supabaseUrl: Boolean(supabaseUrl),
       supabasePublishableKey: Boolean(supabasePublishableKey),
@@ -24,7 +27,8 @@ export default function handler(req, res) {
       integrationEncryptionKey: Boolean(encryptionKey),
       traktClientId: Boolean(traktClientId),
       traktClientSecret: Boolean(traktClientSecret),
-      tmdbReadAccessToken: Boolean(tmdbToken)
+      tmdbReadAccessToken: Boolean(tmdbToken),
+      r2ArtworkPublicBaseUrl: Boolean(r2ArtworkPublicBaseUrl)
     }
   });
 }

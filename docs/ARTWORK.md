@@ -42,3 +42,7 @@ The direct Plex scanner and v2 PowerShell exporter include `thumbUrl` and `artUr
 ## Rights
 
 Copyright remains with the respective rights holders. The repository licence applies to the software, not third-party posters, logos or photography.
+
+## Cloudflare R2 publication
+
+Version 5.7 includes a content-hashed Cloudflare R2 publication workflow. See `docs/CLOUDFLARE-R2-ARTWORK.md`. The local catalogue retains attribution and original source URLs while public image fields are rewritten to the R2 custom domain only after a successful upload.

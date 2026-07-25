@@ -11,8 +11,8 @@ export function traktClientSecret() {
 export function traktHeaders({ accessToken = '', json = true, clientId = traktClientId() } = {}) {
   const headers = {
     Accept: 'application/json',
-    'User-Agent': 'RingsideArchive/5.6.0 (+https://ringside-archive.vercel.app)',
-    'Api-User-Agent': 'RingsideArchive/5.6.0 (+https://ringside-archive.vercel.app)',
+    'User-Agent': 'RingsideArchive/5.7.0 (+https://ringside-archive.vercel.app)',
+    'Api-User-Agent': 'RingsideArchive/5.7.0 (+https://ringside-archive.vercel.app)',
     'Accept-Language': 'en-US,en;q=0.9',
     'Cache-Control': 'no-cache',
     'trakt-api-version': '2'

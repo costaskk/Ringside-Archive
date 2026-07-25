@@ -1,9 +1,9 @@
 {
   "name": "ringside-archive",
-  "version": "5.6.0",
+  "version": "5.7.0",
   "private": true,
   "type": "module",
-  "description": "Professional wrestling chronology with source-validated artwork, Plex LAN deep links, expanded territory/independent programmes, Supabase accounts and Trakt/Plex sync",
+  "description": "Professional wrestling chronology with Cloudflare R2 artwork publishing, source-validated recurring series, Plex LAN deep links, Supabase accounts and Trakt/Plex sync",
   "scripts": {
     "audit": "node scripts/audit-data.mjs",
     "test": "node scripts/audit-data.mjs && node scripts/audit-free-links.mjs && node scripts/smoke-test.mjs && node scripts/performance-smoke.mjs && node scripts/async-ui-smoke.mjs && node scripts/cloud-smoke.mjs && node scripts/integration-smoke.mjs && node scripts/plex-match-smoke.mjs && node scripts/plex-storage-smoke.mjs && node scripts/runtime-smoke.mjs",
@@ -15,7 +15,8 @@
     "scan:wikipedia": "node scripts/scan-artwork.mjs --wikipedia-only",
     "audit:plex": "node scripts/audit-plex-export.mjs",
     "build:core": "node scripts/build-core.mjs",
-    "audit:free-links": "node scripts/audit-free-links.mjs"
+    "audit:free-links": "node scripts/audit-free-links.mjs",
+    "artwork:r2:prepare": "node scripts/cache-artwork-assets.mjs"
   },
   "engines": {
     "node": "22.x"

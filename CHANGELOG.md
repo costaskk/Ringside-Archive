@@ -1,6 +1,14 @@
 # Changelog
 
-## 5.6.0 — Source-validated artwork, Plex LAN links and expanded coverage
+## 5.7.0 — Cloudflare R2 artwork CDN and recurring-series audit
+
+- Add an optional Cloudflare R2 artwork preparation, upload and GitHub Actions workflow.
+- Store artwork with content-hashed immutable object names and preserve original source attribution.
+- Add 137 recurring programme/event-series families derived from exact records already in the archive.
+- Reassign 850 dated events from generic archives to their correct recurring series.
+- Add a machine-readable `data/series-coverage-audit.json` report.
+
+## 5.7.0 — Source-validated artwork, Plex LAN links and expanded coverage
 
 - Prioritize mapped TVMaze images and enforce strict title/year/context thresholds for TMDB and Wikipedia/Wikimedia results.
 - Reject ambiguous company portraits, wrestler logos, generic promotion art and unrelated event images.
@@ -8,7 +16,7 @@
 - Start a new v2 device artwork cache and add a Wrong image action for scanned results.
 - Replace visible Full card terminology with Known matches / All matches verified.
 - Add configurable Plex LAN/Tailscale deep links, defaulting to `http://100.112.143.89:32400`.
-- Expand programme coverage from 188 to 294 real programme/event-series families.
+- Expand programme coverage from 188 to 294 real programme/event-series families in v5.6.
 - Map the complete 111-show NWA-TNA weekly PPV run through TVMaze show 80637.
 - Add requested television, streaming, tournament and recurring-event families for DEFY, IWA-MS, Memphis, Mid-South/UWF, JCP/Mid-Atlantic, NJPW, WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, GCW and Georgia Championship Wrestling.
 

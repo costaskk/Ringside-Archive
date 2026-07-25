@@ -1,8 +1,8 @@
 # Data coverage and accuracy
 
-The 294 programme count excludes 101 former synthetic promotion-level master-index placeholders. Promotion navigation is handled by the Companies directory; only actual television, streaming and recurring event-series families remain in programme data.
+The 431 programme count excludes 101 former synthetic promotion-level master-index placeholders. Promotion navigation is handled by the Companies directory; only actual television, streaming and recurring event-series families remain in programme data.
 
-The current catalogue contains 101 promotions, 294 programme families, 1,144 individually dated major events, 71 curated recommendations and 44 pre-mapped TVMaze feeds.
+The current catalogue contains 101 promotions, 431 programme families, 1,144 individually dated major events, 71 curated recommendations and 44 pre-mapped TVMaze feeds.
 
 ## Complete Timeline
 
@@ -32,3 +32,11 @@ Artwork can come from manual overrides, TVMaze, TMDB, Wikipedia/Wikimedia or Ple
 The catalogue adds programme or recurring-event families for DEFY, IWA Mid-South, Memphis/CWA/USWA/Power Pro, Mid-South/UWF, Mid-Atlantic/JCP, NJPW, WCPW/Defiant, MLW, AWA, PROGRESS, PWG, CZW, modern GCW and Georgia Championship Wrestling. These are coverage indexes, not claims that every individual historic card is already present.
 
 The NWA-TNA weekly PPV run is the major exception: TVMaze show 80637 supplies exact season/episode numbering and air dates for all 111 broadcasts from June 2002 through September 2004.
+
+## v5.7 recurring-series audit
+
+A deterministic audit reviewed all 1,144 individually dated major-event records. It identified repeated event names that were still assigned to seven generic archive buckets. Version 5.7 adds 137 real recurring-series families and reassigns 850 exact records to them. Examples include ROH Death Before Dishonor, NJPW Royal Quest, ECW Heat Wave, NOAH Star Navigation, AEW All Out, WCCW Star Wars and the NWA Crockett Cup.
+
+The machine-readable audit is stored in `data/series-coverage-audit.json`. One-off events remain in their promotion's generic event archive rather than being forced into a false series.
+
+This is a completeness improvement within the available exact-event dataset, not a claim that every wrestling card ever held has a surviving public record.

@@ -1,0 +1,51 @@
+name: Publish artwork to Cloudflare R2
+on:
+  workflow_dispatch:
+    inputs:
+      scan_limit:
+        description: Optional maximum artwork records to scan
+        required: false
+        type: string
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+      R2_ARTWORK_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan artwork
+        shell: bash
+        run: |
+          if [ -n "${{ inputs.scan_limit }}" ]; then
+            node scripts/scan-artwork.mjs "--limit=${{ inputs.scan_limit }}"
+          else
+            node scripts/scan-artwork.mjs
+          fi
+      - name: Prepare immutable R2 objects
+        run: node scripts/cache-artwork-assets.mjs --public-base-url="$R2_ARTWORK_PUBLIC_BASE_URL"
+      - name: Upload to R2
+        shell: bash
+        run: |
+          aws s3 sync public-artwork "s3://${{ secrets.R2_BUCKET_NAME }}" \
+            --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com" \
+            --cache-control "public,max-age=31536000,immutable" \
+            --delete --no-progress
+          mv data/artwork-catalog.r2-staged.json data/artwork-catalog.json
+      - run: npm run build:core
+      - run: npm test
+      - name: Commit R2 catalogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artwork-catalog.json data/artwork-r2-manifest.json data/core.json data/meta.json
+          git diff --cached --quiet || git commit -m "chore: publish artwork catalogue to Cloudflare R2"
+          git push

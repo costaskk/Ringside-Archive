@@ -1,0 +1,610 @@
+{
+  "generatedAt": "2026-07-25T10:29:10.974352+00:00",
+  "programmeFamiliesAdded": 137,
+  "eventsReassigned": 850,
+  "series": [
+    {
+      "programId": "njpw-new-beginning",
+      "records": 40
+    },
+    {
+      "programId": "njpw-wk",
+      "records": 34
+    },
+    {
+      "programId": "njpw-destruction",
+      "records": 28
+    },
+    {
+      "programId": "njpw-dontaku",
+      "records": 28
+    },
+    {
+      "programId": "roh-final-battle",
+      "records": 25
+    },
+    {
+      "programId": "roh-death-before-dishonor",
+      "records": 24
+    },
+    {
+      "programId": "njpw-war-worlds",
+      "records": 21
+    },
+    {
+      "programId": "roh-glory-by-honor",
+      "records": 20
+    },
+    {
+      "programId": "roh-global-wars",
+      "records": 19
+    },
+    {
+      "programId": "njpw-dominion",
+      "records": 18
+    },
+    {
+      "programId": "roh-war-worlds",
+      "records": 18
+    },
+    {
+      "programId": "roh-anniversary",
+      "records": 16
+    },
+    {
+      "programId": "roh-survival-fittest",
+      "records": 16
+    },
+    {
+      "programId": "roh-supercard",
+      "records": 15
+    },
+    {
+      "programId": "noah-star-navigation",
+      "records": 14
+    },
+    {
+      "programId": "njpw-power-struggle",
+      "records": 13
+    },
+    {
+      "programId": "njpw-sakura-genesis",
+      "records": 11
+    },
+    {
+      "programId": "roh-best-world",
+      "records": 11
+    },
+    {
+      "programId": "wccw-memorial-parade",
+      "records": 11
+    },
+    {
+      "programId": "wccw-star-wars",
+      "records": 11
+    },
+    {
+      "programId": "njpw-king-pro",
+      "records": 10
+    },
+    {
+      "programId": "njpw-fantastica-mania",
+      "records": 9
+    },
+    {
+      "programId": "njpw-new-year-dash",
+      "records": 9
+    },
+    {
+      "programId": "roh-honor-united",
+      "records": 9
+    },
+    {
+      "programId": "aew-all-out",
+      "records": 8
+    },
+    {
+      "programId": "aew-double-nothing",
+      "records": 8
+    },
+    {
+      "programId": "aew-full-gear",
+      "records": 8
+    },
+    {
+      "programId": "ecw-november-remember",
+      "records": 8
+    },
+    {
+      "programId": "njpw-global-wars",
+      "records": 8
+    },
+    {
+      "programId": "roh-honor-rising",
+      "records": 8
+    },
+    {
+      "programId": "aew-revolution",
+      "records": 7
+    },
+    {
+      "programId": "ecw-heat-wave",
+      "records": 7
+    },
+    {
+      "programId": "wccw-christmas-star-wars",
+      "records": 7
+    },
+    {
+      "programId": "ecw-cyberslam",
+      "records": 6
+    },
+    {
+      "programId": "ecw-hardcore-heaven",
+      "records": 6
+    },
+    {
+      "programId": "ecw-hostile-city",
+      "records": 6
+    },
+    {
+      "programId": "njpw-honor-rising",
+      "records": 6
+    },
+    {
+      "programId": "njpw-summer-struggle",
+      "records": 6
+    },
+    {
+      "programId": "nwa-anniversary",
+      "records": 6
+    },
+    {
+      "programId": "roh-all-star-extravaganza",
+      "records": 6
+    },
+    {
+      "programId": "roh-fifth-year-festival",
+      "records": 6
+    },
+    {
+      "programId": "roh-manhattan-mayhem",
+      "records": 6
+    },
+    {
+      "programId": "aew-forbidden-door",
+      "records": 5
+    },
+    {
+      "programId": "ecw-holiday-hell",
+      "records": 5
+    },
+    {
+      "programId": "njpw-all-together",
+      "records": 5
+    },
+    {
+      "programId": "njpw-anniversary",
+      "records": 5
+    },
+    {
+      "programId": "njpw-fighting-spirit-unleashed",
+      "records": 5
+    },
+    {
+      "programId": "njpw-forbidden-door",
+      "records": 5
+    },
+    {
+      "programId": "njpw-royal-quest",
+      "records": 5
+    },
+    {
+      "programId": "noah-new-year",
+      "records": 5
+    },
+    {
+      "programId": "nwa-crockett-cup",
+      "records": 5
+    },
+    {
+      "programId": "wccw-cotton-bowl",
+      "records": 5
+    },
+    {
+      "programId": "wccw-labor-star-wars",
+      "records": 5
+    },
+    {
+      "programId": "wccw-thanksgiving-star-wars",
+      "records": 5
+    },
+    {
+      "programId": "aew-all-in",
+      "records": 4
+    },
+    {
+      "programId": "ecw-house-party",
+      "records": 4
+    },
+    {
+      "programId": "ecw-wrestlepalooza",
+      "records": 4
+    },
+    {
+      "programId": "njpw-battle-valley",
+      "records": 4
+    },
+    {
+      "programId": "njpw-leonis",
+      "records": 4
+    },
+    {
+      "programId": "njpw-resurgence",
+      "records": 4
+    },
+    {
+      "programId": "noah-cross-over",
+      "records": 4
+    },
+    {
+      "programId": "noah-departure",
+      "records": 4
+    },
+    {
+      "programId": "roh-bound-honor",
+      "records": 4
+    },
+    {
+      "programId": "roh-honor-reigns-supreme",
+      "records": 4
+    },
+    {
+      "programId": "roh-road-g1-supercard",
+      "records": 4
+    },
+    {
+      "programId": "roh-state-art",
+      "records": 4
+    },
+    {
+      "programId": "wccw-independence-star-wars",
+      "records": 4
+    },
+    {
+      "programId": "aew-dynasty",
+      "records": 3
+    },
+    {
+      "programId": "aew-worlds-end",
+      "records": 3
+    },
+    {
+      "programId": "aew-wrestledream",
+      "records": 3
+    },
+    {
+      "programId": "ecw-guilty-charged",
+      "records": 3
+    },
+    {
+      "programId": "ecw-living-dangerously",
+      "records": 3
+    },
+    {
+      "programId": "ecw-ultimate-jeopardy",
+      "records": 3
+    },
+    {
+      "programId": "njpw-capital-collision",
+      "records": 3
+    },
+    {
+      "programId": "njpw-historic-x-over",
+      "records": 3
+    },
+    {
+      "programId": "njpw-invasion-tour",
+      "records": 3
+    },
+    {
+      "programId": "njpw-nexess",
+      "records": 3
+    },
+    {
+      "programId": "njpw-windy-city-riot",
+      "records": 3
+    },
+    {
+      "programId": "njpw-wrestle-grand-slam",
+      "records": 3
+    },
+    {
+      "programId": "noah-destination",
+      "records": 3
+    },
+    {
+      "programId": "noah-majestic",
+      "records": 3
+    },
+    {
+      "programId": "nwa-hard-times",
+      "records": 3
+    },
+    {
+      "programId": "roh-field-honor",
+      "records": 3
+    },
+    {
+      "programId": "roh-future-honor",
+      "records": 3
+    },
+    {
+      "programId": "roh-honor-for-all",
+      "records": 3
+    },
+    {
+      "programId": "roh-masters-craft",
+      "records": 3
+    },
+    {
+      "programId": "roh-reach-sky",
+      "records": 3
+    },
+    {
+      "programId": "roh-rising-above",
+      "records": 3
+    },
+    {
+      "programId": "roh-unscripted",
+      "records": 3
+    },
+    {
+      "programId": "roh-winter-warriors",
+      "records": 3
+    },
+    {
+      "programId": "ecw-anarchy-rulz",
+      "records": 2
+    },
+    {
+      "programId": "ecw-big-ass-extreme-bash",
+      "records": 2
+    },
+    {
+      "programId": "ecw-fmw-supershow",
+      "records": 2
+    },
+    {
+      "programId": "ecw-matter-respect",
+      "records": 2
+    },
+    {
+      "programId": "ecw-midtown-massacre",
+      "records": 2
+    },
+    {
+      "programId": "ecw-midwest-massacre",
+      "records": 2
+    },
+    {
+      "programId": "ecw-mountain-top-madness",
+      "records": 2
+    },
+    {
+      "programId": "ecw-nwa-bloodfest",
+      "records": 2
+    },
+    {
+      "programId": "ecw-total-war",
+      "records": 2
+    },
+    {
+      "programId": "ecw-ultraclash",
+      "records": 2
+    },
+    {
+      "programId": "ecw-when-worlds-collide",
+      "records": 2
+    },
+    {
+      "programId": "njpw-battle-formation",
+      "records": 2
+    },
+    {
+      "programId": "njpw-castle-attack",
+      "records": 2
+    },
+    {
+      "programId": "njpw-g1-special-usa",
+      "records": 2
+    },
+    {
+      "programId": "njpw-independence-day",
+      "records": 2
+    },
+    {
+      "programId": "njpw-lonestar-shootout",
+      "records": 2
+    },
+    {
+      "programId": "njpw-multiverse-united",
+      "records": 2
+    },
+    {
+      "programId": "njpw-southern-showdown",
+      "records": 2
+    },
+    {
+      "programId": "njpw-strong-style-evolved",
+      "records": 2
+    },
+    {
+      "programId": "njpw-toukon-festival",
+      "records": 2
+    },
+    {
+      "programId": "njpw-ultimate-crush",
+      "records": 2
+    },
+    {
+      "programId": "njpw-wcw-world-japan",
+      "records": 2
+    },
+    {
+      "programId": "njpw-wrestling-hinokuni",
+      "records": 2
+    },
+    {
+      "programId": "njpw-wrestling-love-taiwan",
+      "records": 2
+    },
+    {
+      "programId": "noah-apex-conquest",
+      "records": 2
+    },
+    {
+      "programId": "noah-cyberfight-festival",
+      "records": 2
+    },
+    {
+      "programId": "noah-grand-ship",
+      "records": 2
+    },
+    {
+      "programId": "noah-great-voyage-yokohama",
+      "records": 2
+    },
+    {
+      "programId": "noah-legacy-rise",
+      "records": 2
+    },
+    {
+      "programId": "noah-the-best",
+      "records": 2
+    },
+    {
+      "programId": "roh-aftershock",
+      "records": 2
+    },
+    {
+      "programId": "roh-bitter-friends",
+      "records": 2
+    },
+    {
+      "programId": "roh-border-wars",
+      "records": 2
+    },
+    {
+      "programId": "roh-boxing-day-brawl",
+      "records": 2
+    },
+    {
+      "programId": "roh-champions-all-stars",
+      "records": 2
+    },
+    {
+      "programId": "roh-conquest-tour",
+      "records": 2
+    },
+    {
+      "programId": "roh-dean",
+      "records": 2
+    },
+    {
+      "programId": "roh-defy-deny",
+      "records": 2
+    },
+    {
+      "programId": "roh-driven",
+      "records": 2
+    },
+    {
+      "programId": "roh-epic-encounter",
+      "records": 2
+    },
+    {
+      "programId": "roh-experience",
+      "records": 2
+    },
+    {
+      "programId": "roh-gateway-honor",
+      "records": 2
+    },
+    {
+      "programId": "roh-honor-center-stage",
+      "records": 2
+    },
+    {
+      "programId": "roh-pursuit",
+      "records": 2
+    },
+    {
+      "programId": "roh-race-top",
+      "records": 2
+    },
+    {
+      "programId": "roh-raising-bar",
+      "records": 2
+    },
+    {
+      "programId": "roh-reclamation",
+      "records": 2
+    },
+    {
+      "programId": "roh-respect-earned",
+      "records": 2
+    },
+    {
+      "programId": "roh-revolution-series",
+      "records": 2
+    },
+    {
+      "programId": "roh-road-best-world",
+      "records": 2
+    },
+    {
+      "programId": "roh-road-greatness",
+      "records": 2
+    },
+    {
+      "programId": "roh-saturday-center-stage",
+      "records": 2
+    },
+    {
+      "programId": "roh-showdown-sun",
+      "records": 2
+    },
+    {
+      "programId": "roh-socal-showdown",
+      "records": 2
+    },
+    {
+      "programId": "roh-summer-heat-tour",
+      "records": 2
+    },
+    {
+      "programId": "roh-tag-wars",
+      "records": 2
+    },
+    {
+      "programId": "roh-take-no-prisoners",
+      "records": 2
+    },
+    {
+      "programId": "roh-unauthorized",
+      "records": 2
+    }
+  ],
+  "remainingGenericArchiveRecords": {
+    "wccw-parade": 2,
+    "njpw-major-events": 78,
+    "ecw-ppv": 43,
+    "roh-ppv": 124,
+    "noah-voyage": 33,
+    "nwa-ppv": 10,
+    "aew-ppv": 4
+  },
+  "secondPassAdded": 58,
+  "secondPassReassigned": 361
+}

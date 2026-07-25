@@ -1,9 +1,9 @@
-# Ringside Archive v5.6.0 professional audit
+# Ringside Archive v5.7.0 professional audit
 
 ## Preserved archive foundation
 
 - 101 promotion profiles
-- 294 programme families
+- 431 programme families
 - 1,144 dated major events
 - 1,144 detail records
 - 71 curated recommendations
@@ -120,7 +120,7 @@ Live Trakt and Plex access still depends on the deployed credentials and the net
 - 101 synthetic promotion master-index placeholders were removed from programme data and the Complete Timeline.
 
 
-## v5.6.0 audit findings and corrections
+## v5.7.0 audit findings and corrections
 
 ### Incorrect artwork selection
 

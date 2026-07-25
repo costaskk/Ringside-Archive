@@ -1,20 +1,20 @@
-# Upgrade an existing Ringside Archive repository to v5.6.0
+# Upgrade an existing Ringside Archive repository to v5.7.0
 
 These steps are for an existing GitHub/Vercel deployment, including the deployment shown with the older 271-programme interface.
 
-## Important v5.6.0 behaviour changes
+## Important v5.7.0 behaviour changes
 
 The 101 synthetic `Promotion Master Index` rows have been removed. They were coverage placeholders rather than real shows or dated events. Use **Companies** for promotion-level navigation, **Show Index** for real programme families, and **Complete Timeline** for exact dated records.
 
 Background cloud, episode and artwork updates preserve the visible card and scroll offset. The service worker does not refresh an active page when a new version becomes available.
 
-In v5.6.0, button-triggered network operations are also non-blocking. Artwork scans patch cards incrementally, long jobs expose local progress, and generic YouTube channel/search URLs are no longer accepted as match or episode links. The new exact-link catalogue is `data/free-links.json`.
+In v5.7.0, button-triggered network operations are also non-blocking. Artwork scans patch cards incrementally, long jobs expose local progress, and generic YouTube channel/search URLs are no longer accepted as match or episode links. The new exact-link catalogue is `data/free-links.json`.
 
-The upgrade also starts a new artwork cache because earlier broad search rules could retain unrelated images. It adds strict confidence checks, mapped TVMaze-first lookup, a Wrong image control, configurable Plex LAN links and 106 additional sourced programme/event-series families. The NWA-TNA weekly PPVs use an exact 111-episode feed.
+The upgrade retains the strict artwork cache and adds an optional Cloudflare R2 publication pipeline. It also adds 137 recurring families derived from 850 already-dated records, so major event series are no longer hidden inside generic ROH, NJPW, ECW, NOAH, AEW, WCCW and NWA archive buckets. The NWA-TNA weekly PPVs continue to use an exact 111-episode feed.
 
 ## 1. Replace the repository files cleanly
 
-Extract the v5.6.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
+Extract the v5.7.0 ZIP into a new temporary folder. Copy **all** contents over the local Git repository, allowing replacements.
 
 Before committing, confirm these obsolete routes do not exist:
 
@@ -45,7 +45,7 @@ Use `git add -A`, not only `git add .`, so obsolete endpoint deletions are defin
 ```powershell
 git add -A
 git status
-git commit -m "Upgrade Ringside Archive to v5.6.0"
+git commit -m "Upgrade Ringside Archive to v5.7.0"
 git push
 ```
 
@@ -63,6 +63,7 @@ INTEGRATION_ENCRYPTION_KEY
 TRAKT_CLIENT_ID
 TRAKT_CLIENT_SECRET
 TMDB_READ_ACCESS_TOKEN        optional
+R2_ARTWORK_PUBLIC_BASE_URL    optional public CDN status/base URL
 ```
 
 Do not put quotes around the Trakt ID or secret. Redeploy after changing any variable.
@@ -80,19 +81,19 @@ It must report Trakt as configured before the Connect Trakt button can succeed. 
 Open the new deployment with:
 
 ```text
-https://YOUR-DEPLOYMENT.vercel.app/?v=5.6.0
+https://YOUR-DEPLOYMENT.vercel.app/?v=5.7.0
 ```
 
 Then press **Ctrl+Shift+R**.
 
 Confirm:
 
-- the dashboard reports **294 programme families**;
-- the footer says **Catalogue v5.6.0**;
+- the dashboard reports **431 programme families**;
+- the footer says **Catalogue v5.7.0**;
 - the browser no longer calls `/api/trakt/device-code`;
 - the Filters panel is visible and shows active-filter reset chips;
 - the initial page becomes usable before account/episode background work finishes;
-- the footer reports **Catalogue v5.6.0**;
+- the footer reports **Catalogue v5.7.0**;
 - pressing **Scan visible artwork** shows a spinner/progress dock without replacing the page;
 - exact green viewing buttons open a direct video/event URL rather than a channel homepage or search page.
 
@@ -155,6 +156,20 @@ A Vercel function cannot contact a private LAN-only `192.168.x.x` Plex address. 
 - Open Filters, select a company/wrestler/year range and remove each selection through its chip or **Reset all**.
 - Add `TMDB_READ_ACCESS_TOKEN` for richer show/season/episode/event artwork; Wikipedia/Wikimedia remain the no-key fallback.
 
+
+## Optional: publish artwork through Cloudflare R2
+
+R2 is recommended when you want the discovered posters, logos, headshots and stills to load from a stable CDN that you control. Follow `docs/CLOUDFLARE-R2-ARTWORK.md`. The short Windows command is:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\upload-artwork-r2.ps1 `
+  -AccountId "YOUR_CLOUDFLARE_ACCOUNT_ID" `
+  -BucketName "ringside-artwork" `
+  -PublicBaseUrl "https://artwork.yourdomain.com"
+```
+
+Do not commit R2 access keys. Add only the public base URL as `R2_ARTWORK_PUBLIC_BASE_URL` in Vercel when you want it shown in integration diagnostics.
+
 ## 9. Final acceptance
 
 ```powershell
@@ -165,7 +180,7 @@ Expected essentials:
 
 ```text
 101 promotions
-294 programme families
+431 programme families
 44 mapped TVMaze feeds
 1,144 major events
 12 Vercel Functions

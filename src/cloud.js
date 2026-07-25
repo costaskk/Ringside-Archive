@@ -28,6 +28,8 @@ export async function loadCloudConfig(force = false) {
     supabaseUrl: normalizeUrl(remote.supabaseUrl || local.supabaseUrl),
     supabasePublishableKey: remote.supabasePublishableKey || local.supabasePublishableKey || '',
     traktConfigured: Boolean(remote.traktConfigured), tmdbConfigured: Boolean(remote.tmdbConfigured),
+    r2ArtworkConfigured: Boolean(remote.r2ArtworkConfigured),
+    r2ArtworkPublicBaseUrl: normalizeUrl(remote.r2ArtworkPublicBaseUrl || local.r2ArtworkPublicBaseUrl),
     encryptedIntegrationStorage: Boolean(remote.encryptedIntegrationStorage),
     diagnostics: remote.diagnostics || {}
   };

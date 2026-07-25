@@ -132,7 +132,7 @@ if (includeEpisodes) {
 }
 
 current.generatedAt = new Date().toISOString();
-current.generatedWith = effectiveToken ? 'Strict TVMaze/TMDB/Wikipedia/Wikimedia matcher v5.6' : 'Strict TVMaze/Wikipedia/Wikimedia matcher v5.6';
+current.generatedWith = effectiveToken ? 'Strict TVMaze/TMDB/Wikipedia/Wikimedia matcher v5.7' : 'Strict TVMaze/Wikipedia/Wikimedia matcher v5.7';
 current.minimumConfidence = 80;
 await fs.writeFile(new URL('data/artwork-catalog.json', root), `${JSON.stringify(current, null, 2)}\n`);
 console.log(`Artwork catalogue updated: ${found} accepted, ${rejected} rejected, ${processed} processed.`);

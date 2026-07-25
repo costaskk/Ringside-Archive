@@ -1,4 +1,4 @@
-Ringside Archive v5.6.0 final validation
+Ringside Archive v5.7.0 final validation
 Date: 2026-07-25
 
 Commands executed:
@@ -7,7 +7,9 @@ Commands executed:
 
 Validated catalogue:
   101 promotions
-  294 television, streaming and recurring-event programme families
+  431 television, streaming and recurring-event programme families
+  137 recurring families added by exact-record audit
+  850 exact events reassigned from generic archives
   Every promotion has at least one source-labelled programme/event family
   44 mapped TVMaze feeds
   NWA-TNA weekly PPV mapping: TVMaze 80637, 2002-06-19 through 2004-09-08
@@ -17,6 +19,13 @@ Validated catalogue:
   110 wrestler profiles
   11 verified record-specific free-viewing links
   12 Vercel Functions
+
+Cloudflare R2 validation:
+  Content-hashed artwork preparation script passes dry-run validation
+  Bucket-scoped AWS CLI upload script included
+  GitHub Actions R2 publication workflow included
+  Live catalogue is replaced only after upload succeeds
+  Source attribution and original URLs are retained
 
 Artwork validation:
   Mapped TVMaze IDs are checked before heuristic services
