@@ -1,0 +1,2951 @@
+{
+  "programId": "tna-weekly-ppv",
+  "tvMazeId": 80637,
+  "fetchedAt": "2026-07-27T07:57:31.959Z",
+  "show": {
+    "id": 80637,
+    "url": "https://www.tvmaze.com/shows/80637/nwa-total-nonstop-action",
+    "name": "NWA: Total Nonstop Action",
+    "type": "Sports",
+    "language": "English",
+    "genres": [
+      "Action"
+    ],
+    "status": "Ended",
+    "runtime": 120,
+    "averageRuntime": null,
+    "premiered": "2002-06-19",
+    "ended": "2004-09-08",
+    "officialSite": "https://watch.tnawrestling.com/home",
+    "schedule": {
+      "time": "",
+      "days": [
+        "Wednesday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 8,
+    "network": {
+      "id": 138,
+      "name": "Pay-Per-View",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 277313,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365168.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365168.jpg"
+    },
+    "summary": "<p>NWA-TNA procured weekly pay-per-view events every Wednesday night for $9.95.</p>",
+    "updated": 1733071399,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/80637"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3045639",
+        "name": "NWA-TNA PPV #111"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 3045530,
+      "url": "https://www.tvmaze.com/episodes/3045530/nwa-total-nonstop-action-1x01-nwa-tna-ppv-1",
+      "name": "NWA-TNA PPV #1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2002-06-19",
+      "airtime": "",
+      "airstamp": "2002-06-19T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045530"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045531,
+      "url": "https://www.tvmaze.com/episodes/3045531/nwa-total-nonstop-action-1x02-nwa-tna-ppv-2",
+      "name": "NWA-TNA PPV #2",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2002-06-26",
+      "airtime": "",
+      "airstamp": "2002-06-26T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045531"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045532,
+      "url": "https://www.tvmaze.com/episodes/3045532/nwa-total-nonstop-action-1x03-nwa-tna-ppv-3",
+      "name": "NWA-TNA PPV #3",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2002-07-03",
+      "airtime": "",
+      "airstamp": "2002-07-03T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045532"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045533,
+      "url": "https://www.tvmaze.com/episodes/3045533/nwa-total-nonstop-action-1x04-nwa-tna-ppv-4",
+      "name": "NWA-TNA PPV #4",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2002-07-10",
+      "airtime": "",
+      "airstamp": "2002-07-10T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045533"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045534,
+      "url": "https://www.tvmaze.com/episodes/3045534/nwa-total-nonstop-action-1x05-nwa-tna-ppv-5",
+      "name": "NWA-TNA PPV #5",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2002-07-17",
+      "airtime": "",
+      "airstamp": "2002-07-17T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045534"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045535,
+      "url": "https://www.tvmaze.com/episodes/3045535/nwa-total-nonstop-action-1x06-nwa-tna-ppv-6",
+      "name": "NWA-TNA PPV #6",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2002-07-24",
+      "airtime": "",
+      "airstamp": "2002-07-24T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045535"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045536,
+      "url": "https://www.tvmaze.com/episodes/3045536/nwa-total-nonstop-action-1x07-nwa-tna-ppv-7",
+      "name": "NWA-TNA PPV #7",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2002-07-31",
+      "airtime": "",
+      "airstamp": "2002-07-31T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045536"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045537,
+      "url": "https://www.tvmaze.com/episodes/3045537/nwa-total-nonstop-action-1x08-nwa-tna-ppv-8",
+      "name": "NWA-TNA PPV #8",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2002-08-07",
+      "airtime": "",
+      "airstamp": "2002-08-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045537"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045538,
+      "url": "https://www.tvmaze.com/episodes/3045538/nwa-total-nonstop-action-1x09-nwa-tna-ppv-9",
+      "name": "NWA-TNA PPV #9",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2002-08-14",
+      "airtime": "",
+      "airstamp": "2002-08-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045538"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045539,
+      "url": "https://www.tvmaze.com/episodes/3045539/nwa-total-nonstop-action-1x10-nwa-tna-ppv-10",
+      "name": "NWA-TNA PPV #10",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2002-08-21",
+      "airtime": "",
+      "airstamp": "2002-08-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045539"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045540,
+      "url": "https://www.tvmaze.com/episodes/3045540/nwa-total-nonstop-action-1x11-nwa-tna-ppv-11",
+      "name": "NWA-TNA PPV #11",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2002-08-28",
+      "airtime": "",
+      "airstamp": "2002-08-28T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045540"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045640,
+      "url": "https://www.tvmaze.com/episodes/3045640/nwa-total-nonstop-action-1x12-nwa-tna-ppv-12",
+      "name": "NWA-TNA PPV #12",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2002-09-04",
+      "airtime": "",
+      "airstamp": "2002-09-04T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045541,
+      "url": "https://www.tvmaze.com/episodes/3045541/nwa-total-nonstop-action-1x13-nwa-tna-ppv-13",
+      "name": "NWA-TNA PPV #13",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2002-09-18",
+      "airtime": "",
+      "airstamp": "2002-09-18T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045541"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045542,
+      "url": "https://www.tvmaze.com/episodes/3045542/nwa-total-nonstop-action-1x14-nwa-tna-ppv-14",
+      "name": "NWA-TNA PPV #14",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2002-09-25",
+      "airtime": "",
+      "airstamp": "2002-09-25T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045542"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045543,
+      "url": "https://www.tvmaze.com/episodes/3045543/nwa-total-nonstop-action-1x15-nwa-tna-ppv-15",
+      "name": "NWA-TNA PPV #15",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2002-10-02",
+      "airtime": "",
+      "airstamp": "2002-10-02T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045543"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045544,
+      "url": "https://www.tvmaze.com/episodes/3045544/nwa-total-nonstop-action-1x16-nwa-tna-ppv-16",
+      "name": "NWA-TNA PPV #16",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2002-10-09",
+      "airtime": "",
+      "airstamp": "2002-10-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045544"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045545,
+      "url": "https://www.tvmaze.com/episodes/3045545/nwa-total-nonstop-action-1x17-nwa-tna-ppv-17",
+      "name": "NWA-TNA PPV #17",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2002-10-16",
+      "airtime": "",
+      "airstamp": "2002-10-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045545"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045546,
+      "url": "https://www.tvmaze.com/episodes/3045546/nwa-total-nonstop-action-1x18-nwa-tna-ppv-18",
+      "name": "NWA-TNA PPV #18",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2002-10-23",
+      "airtime": "",
+      "airstamp": "2002-10-23T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045546"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045547,
+      "url": "https://www.tvmaze.com/episodes/3045547/nwa-total-nonstop-action-1x19-nwa-tna-ppv-19",
+      "name": "NWA-TNA PPV #19",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2002-10-30",
+      "airtime": "",
+      "airstamp": "2002-10-30T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045547"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045548,
+      "url": "https://www.tvmaze.com/episodes/3045548/nwa-total-nonstop-action-1x20-nwa-tna-ppv-20",
+      "name": "NWA-TNA PPV #20",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2002-11-06",
+      "airtime": "",
+      "airstamp": "2002-11-06T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045548"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045549,
+      "url": "https://www.tvmaze.com/episodes/3045549/nwa-total-nonstop-action-1x21-nwa-tna-ppv-21",
+      "name": "NWA-TNA PPV #21",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2002-11-13",
+      "airtime": "",
+      "airstamp": "2002-11-13T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045549"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045550,
+      "url": "https://www.tvmaze.com/episodes/3045550/nwa-total-nonstop-action-1x22-nwa-tna-ppv-22",
+      "name": "NWA-TNA PPV #22",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2002-11-20",
+      "airtime": "",
+      "airstamp": "2002-11-20T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045550"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045551,
+      "url": "https://www.tvmaze.com/episodes/3045551/nwa-total-nonstop-action-1x23-nwa-tna-ppv-23",
+      "name": "NWA-TNA PPV #23",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2002-11-27",
+      "airtime": "",
+      "airstamp": "2002-11-27T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045551"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045552,
+      "url": "https://www.tvmaze.com/episodes/3045552/nwa-total-nonstop-action-1x24-nwa-tna-ppv-24",
+      "name": "NWA-TNA PPV #24",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2002-12-04",
+      "airtime": "",
+      "airstamp": "2002-12-04T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045552"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045553,
+      "url": "https://www.tvmaze.com/episodes/3045553/nwa-total-nonstop-action-1x25-nwa-tna-ppv-25",
+      "name": "NWA-TNA PPV #25",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2002-12-11",
+      "airtime": "",
+      "airstamp": "2002-12-11T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045553"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045554,
+      "url": "https://www.tvmaze.com/episodes/3045554/nwa-total-nonstop-action-1x26-nwa-tna-ppv-26",
+      "name": "NWA-TNA PPV #26",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2002-12-18",
+      "airtime": "",
+      "airstamp": "2002-12-18T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045554"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045555,
+      "url": "https://www.tvmaze.com/episodes/3045555/nwa-total-nonstop-action-2x01-nwa-tna-ppv-27",
+      "name": "NWA-TNA PPV #27",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2003-01-08",
+      "airtime": "",
+      "airstamp": "2003-01-08T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045555"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045556,
+      "url": "https://www.tvmaze.com/episodes/3045556/nwa-total-nonstop-action-2x02-nwa-tna-ppv-28",
+      "name": "NWA-TNA PPV #28",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2003-01-15",
+      "airtime": "",
+      "airstamp": "2003-01-15T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045556"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045557,
+      "url": "https://www.tvmaze.com/episodes/3045557/nwa-total-nonstop-action-2x03-nwa-tna-ppv-29",
+      "name": "NWA-TNA PPV #29",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2003-01-22",
+      "airtime": "",
+      "airstamp": "2003-01-22T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045557"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045558,
+      "url": "https://www.tvmaze.com/episodes/3045558/nwa-total-nonstop-action-2x04-nwa-tna-ppv-30",
+      "name": "NWA-TNA PPV #30",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2003-01-29",
+      "airtime": "",
+      "airstamp": "2003-01-29T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045558"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045559,
+      "url": "https://www.tvmaze.com/episodes/3045559/nwa-total-nonstop-action-2x05-nwa-tna-ppv-31",
+      "name": "NWA-TNA PPV #31",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2003-02-05",
+      "airtime": "",
+      "airstamp": "2003-02-05T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045559"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045560,
+      "url": "https://www.tvmaze.com/episodes/3045560/nwa-total-nonstop-action-2x06-nwa-tna-ppv-32",
+      "name": "NWA-TNA PPV #32",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2003-02-12",
+      "airtime": "",
+      "airstamp": "2003-02-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045560"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045561,
+      "url": "https://www.tvmaze.com/episodes/3045561/nwa-total-nonstop-action-2x07-nwa-tna-ppv-33",
+      "name": "NWA-TNA PPV #33",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2003-02-19",
+      "airtime": "",
+      "airstamp": "2003-02-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045562,
+      "url": "https://www.tvmaze.com/episodes/3045562/nwa-total-nonstop-action-2x08-nwa-tna-ppv-34",
+      "name": "NWA-TNA PPV #34",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2003-02-26",
+      "airtime": "",
+      "airstamp": "2003-02-26T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045562"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045563,
+      "url": "https://www.tvmaze.com/episodes/3045563/nwa-total-nonstop-action-2x09-nwa-tna-ppv-35",
+      "name": "NWA-TNA PPV #35",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2003-03-05",
+      "airtime": "",
+      "airstamp": "2003-03-05T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045563"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045564,
+      "url": "https://www.tvmaze.com/episodes/3045564/nwa-total-nonstop-action-2x10-nwa-tna-ppv-36",
+      "name": "NWA-TNA PPV #36",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2003-03-12",
+      "airtime": "",
+      "airstamp": "2003-03-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045564"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045565,
+      "url": "https://www.tvmaze.com/episodes/3045565/nwa-total-nonstop-action-2x11-nwa-tna-ppv-37",
+      "name": "NWA-TNA PPV #37",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2003-03-19",
+      "airtime": "",
+      "airstamp": "2003-03-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045565"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045566,
+      "url": "https://www.tvmaze.com/episodes/3045566/nwa-total-nonstop-action-2x12-nwa-tna-ppv-38",
+      "name": "NWA-TNA PPV #38",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2003-03-26",
+      "airtime": "",
+      "airstamp": "2003-03-26T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045566"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045567,
+      "url": "https://www.tvmaze.com/episodes/3045567/nwa-total-nonstop-action-2x13-nwa-tna-ppv-39",
+      "name": "NWA-TNA PPV #39",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2003-04-02",
+      "airtime": "",
+      "airstamp": "2003-04-02T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045567"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045568,
+      "url": "https://www.tvmaze.com/episodes/3045568/nwa-total-nonstop-action-2x14-nwa-tna-ppv-40",
+      "name": "NWA-TNA PPV #40",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2003-04-09",
+      "airtime": "",
+      "airstamp": "2003-04-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045568"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045569,
+      "url": "https://www.tvmaze.com/episodes/3045569/nwa-total-nonstop-action-2x15-nwa-tna-ppv-41",
+      "name": "NWA-TNA PPV #41",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2003-04-16",
+      "airtime": "",
+      "airstamp": "2003-04-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045569"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045570,
+      "url": "https://www.tvmaze.com/episodes/3045570/nwa-total-nonstop-action-2x16-nwa-tna-ppv-42",
+      "name": "NWA-TNA PPV #42",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2003-04-23",
+      "airtime": "",
+      "airstamp": "2003-04-23T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045570"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045571,
+      "url": "https://www.tvmaze.com/episodes/3045571/nwa-total-nonstop-action-2x17-nwa-tna-ppv-43",
+      "name": "NWA-TNA PPV #43",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2003-04-30",
+      "airtime": "",
+      "airstamp": "2003-04-30T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045571"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045572,
+      "url": "https://www.tvmaze.com/episodes/3045572/nwa-total-nonstop-action-2x18-nwa-tna-ppv-44",
+      "name": "NWA-TNA PPV #44",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2003-05-07",
+      "airtime": "",
+      "airstamp": "2003-05-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045572"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045573,
+      "url": "https://www.tvmaze.com/episodes/3045573/nwa-total-nonstop-action-2x19-nwa-tna-ppv-45",
+      "name": "NWA-TNA PPV #45",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2003-05-14",
+      "airtime": "",
+      "airstamp": "2003-05-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045574,
+      "url": "https://www.tvmaze.com/episodes/3045574/nwa-total-nonstop-action-2x20-nwa-tna-ppv-46",
+      "name": "NWA-TNA PPV #46",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2003-05-21",
+      "airtime": "",
+      "airstamp": "2003-05-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045575,
+      "url": "https://www.tvmaze.com/episodes/3045575/nwa-total-nonstop-action-2x21-nwa-tna-ppv-47",
+      "name": "NWA-TNA PPV #47",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2003-05-28",
+      "airtime": "",
+      "airstamp": "2003-05-28T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045575"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045576,
+      "url": "https://www.tvmaze.com/episodes/3045576/nwa-total-nonstop-action-2x22-nwa-tna-ppv-48",
+      "name": "NWA-TNA PPV #48",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2003-06-04",
+      "airtime": "",
+      "airstamp": "2003-06-04T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045576"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045577,
+      "url": "https://www.tvmaze.com/episodes/3045577/nwa-total-nonstop-action-2x23-nwa-tna-ppv-49",
+      "name": "NWA-TNA PPV #49",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2003-06-11",
+      "airtime": "",
+      "airstamp": "2003-06-11T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045577"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045578,
+      "url": "https://www.tvmaze.com/episodes/3045578/nwa-total-nonstop-action-2x24-nwa-tna-ppv-50",
+      "name": "NWA-TNA PPV #50",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2003-06-18",
+      "airtime": "",
+      "airstamp": "2003-06-18T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045578"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045579,
+      "url": "https://www.tvmaze.com/episodes/3045579/nwa-total-nonstop-action-2x25-nwa-tna-ppv-51",
+      "name": "NWA-TNA PPV #51",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2003-06-25",
+      "airtime": "",
+      "airstamp": "2003-06-25T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045580,
+      "url": "https://www.tvmaze.com/episodes/3045580/nwa-total-nonstop-action-2x26-nwa-tna-ppv-52",
+      "name": "NWA-TNA PPV #52",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2003-07-02",
+      "airtime": "",
+      "airstamp": "2003-07-02T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045580"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045581,
+      "url": "https://www.tvmaze.com/episodes/3045581/nwa-total-nonstop-action-2x27-nwa-tna-ppv-53",
+      "name": "NWA-TNA PPV #53",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2003-07-09",
+      "airtime": "",
+      "airstamp": "2003-07-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045581"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045582,
+      "url": "https://www.tvmaze.com/episodes/3045582/nwa-total-nonstop-action-2x28-nwa-tna-ppv-54",
+      "name": "NWA-TNA PPV #54",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2003-07-16",
+      "airtime": "",
+      "airstamp": "2003-07-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045582"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045583,
+      "url": "https://www.tvmaze.com/episodes/3045583/nwa-total-nonstop-action-2x29-nwa-tna-ppv-55",
+      "name": "NWA-TNA PPV #55",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2003-07-23",
+      "airtime": "",
+      "airstamp": "2003-07-23T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045584,
+      "url": "https://www.tvmaze.com/episodes/3045584/nwa-total-nonstop-action-2x30-nwa-tna-ppv-56",
+      "name": "NWA-TNA PPV #56",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2003-07-30",
+      "airtime": "",
+      "airstamp": "2003-07-30T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045585,
+      "url": "https://www.tvmaze.com/episodes/3045585/nwa-total-nonstop-action-2x31-nwa-tna-ppv-57",
+      "name": "NWA-TNA PPV #57",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2003-08-06",
+      "airtime": "",
+      "airstamp": "2003-08-06T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045586,
+      "url": "https://www.tvmaze.com/episodes/3045586/nwa-total-nonstop-action-2x32-nwa-tna-ppv-58",
+      "name": "NWA-TNA PPV #58",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2003-08-13",
+      "airtime": "",
+      "airstamp": "2003-08-13T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045587,
+      "url": "https://www.tvmaze.com/episodes/3045587/nwa-total-nonstop-action-2x33-nwa-tna-ppv-59",
+      "name": "NWA-TNA PPV #59",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2003-08-20",
+      "airtime": "",
+      "airstamp": "2003-08-20T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045587"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045588,
+      "url": "https://www.tvmaze.com/episodes/3045588/nwa-total-nonstop-action-2x34-nwa-tna-ppv-60",
+      "name": "NWA-TNA PPV #60",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2003-08-27",
+      "airtime": "",
+      "airstamp": "2003-08-27T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045588"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045589,
+      "url": "https://www.tvmaze.com/episodes/3045589/nwa-total-nonstop-action-2x35-nwa-tna-ppv-61",
+      "name": "NWA-TNA PPV #61",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2003-09-03",
+      "airtime": "",
+      "airstamp": "2003-09-03T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045589"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045590,
+      "url": "https://www.tvmaze.com/episodes/3045590/nwa-total-nonstop-action-2x36-nwa-tna-ppv-62",
+      "name": "NWA-TNA PPV #62",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2003-09-17",
+      "airtime": "",
+      "airstamp": "2003-09-17T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045590"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045591,
+      "url": "https://www.tvmaze.com/episodes/3045591/nwa-total-nonstop-action-2x37-nwa-tna-ppv-63",
+      "name": "NWA-TNA PPV #63",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2003-09-24",
+      "airtime": "",
+      "airstamp": "2003-09-24T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045591"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045592,
+      "url": "https://www.tvmaze.com/episodes/3045592/nwa-total-nonstop-action-2x38-nwa-tna-ppv-64",
+      "name": "NWA-TNA PPV #64",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2003-10-01",
+      "airtime": "",
+      "airstamp": "2003-10-01T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045592"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045593,
+      "url": "https://www.tvmaze.com/episodes/3045593/nwa-total-nonstop-action-2x39-nwa-tna-ppv-65",
+      "name": "NWA-TNA PPV #65",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2003-10-08",
+      "airtime": "",
+      "airstamp": "2003-10-08T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045594,
+      "url": "https://www.tvmaze.com/episodes/3045594/nwa-total-nonstop-action-2x40-nwa-tna-ppv-66",
+      "name": "NWA-TNA PPV #66",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2003-10-15",
+      "airtime": "",
+      "airstamp": "2003-10-15T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045594"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045595,
+      "url": "https://www.tvmaze.com/episodes/3045595/nwa-total-nonstop-action-2x41-nwa-tna-ppv-67",
+      "name": "NWA-TNA PPV #67",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2003-10-22",
+      "airtime": "",
+      "airstamp": "2003-10-22T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045596,
+      "url": "https://www.tvmaze.com/episodes/3045596/nwa-total-nonstop-action-2x42-nwa-tna-ppv-68",
+      "name": "NWA-TNA PPV #68",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2003-10-29",
+      "airtime": "",
+      "airstamp": "2003-10-29T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045597,
+      "url": "https://www.tvmaze.com/episodes/3045597/nwa-total-nonstop-action-2x43-nwa-tna-ppv-69",
+      "name": "NWA-TNA PPV #69",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2003-11-05",
+      "airtime": "",
+      "airstamp": "2003-11-05T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045598,
+      "url": "https://www.tvmaze.com/episodes/3045598/nwa-total-nonstop-action-2x44-nwa-tna-ppv-70",
+      "name": "NWA-TNA PPV #70",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2003-11-12",
+      "airtime": "",
+      "airstamp": "2003-11-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045599,
+      "url": "https://www.tvmaze.com/episodes/3045599/nwa-total-nonstop-action-2x45-nwa-tna-ppv-71",
+      "name": "NWA-TNA PPV #71",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2003-11-19",
+      "airtime": "",
+      "airstamp": "2003-11-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045600,
+      "url": "https://www.tvmaze.com/episodes/3045600/nwa-total-nonstop-action-2x46-nwa-tna-ppv-72",
+      "name": "NWA-TNA PPV #72",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2003-11-26",
+      "airtime": "",
+      "airstamp": "2003-11-26T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045600"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045601,
+      "url": "https://www.tvmaze.com/episodes/3045601/nwa-total-nonstop-action-2x47-nwa-tna-ppv-73",
+      "name": "NWA-TNA PPV #73",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2003-12-03",
+      "airtime": "",
+      "airstamp": "2003-12-03T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045601"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045602,
+      "url": "https://www.tvmaze.com/episodes/3045602/nwa-total-nonstop-action-2x48-nwa-tna-ppv-74",
+      "name": "NWA-TNA PPV #74",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2003-12-10",
+      "airtime": "",
+      "airstamp": "2003-12-10T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045602"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045603,
+      "url": "https://www.tvmaze.com/episodes/3045603/nwa-total-nonstop-action-2x49-nwa-tna-ppv-75",
+      "name": "NWA-TNA PPV #75",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2003-12-17",
+      "airtime": "",
+      "airstamp": "2003-12-17T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045603"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045604,
+      "url": "https://www.tvmaze.com/episodes/3045604/nwa-total-nonstop-action-3x01-nwa-tna-ppv-76",
+      "name": "NWA-TNA PPV #76",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2004-01-07",
+      "airtime": "",
+      "airstamp": "2004-01-07T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045604"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045605,
+      "url": "https://www.tvmaze.com/episodes/3045605/nwa-total-nonstop-action-3x02-nwa-tna-ppv-77",
+      "name": "NWA-TNA PPV #77",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2004-01-14",
+      "airtime": "",
+      "airstamp": "2004-01-14T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045605"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045606,
+      "url": "https://www.tvmaze.com/episodes/3045606/nwa-total-nonstop-action-3x03-nwa-tna-ppv-78",
+      "name": "NWA-TNA PPV #78",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2004-01-21",
+      "airtime": "",
+      "airstamp": "2004-01-21T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045606"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045607,
+      "url": "https://www.tvmaze.com/episodes/3045607/nwa-total-nonstop-action-3x04-nwa-tna-ppv-79",
+      "name": "NWA-TNA PPV #79",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2004-01-28",
+      "airtime": "",
+      "airstamp": "2004-01-28T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045607"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045608,
+      "url": "https://www.tvmaze.com/episodes/3045608/nwa-total-nonstop-action-3x05-nwa-tna-ppv-80",
+      "name": "NWA-TNA PPV #80",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2004-02-04",
+      "airtime": "",
+      "airstamp": "2004-02-04T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045608"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045609,
+      "url": "https://www.tvmaze.com/episodes/3045609/nwa-total-nonstop-action-3x06-nwa-tna-ppv-81",
+      "name": "NWA-TNA PPV #81",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2004-02-11",
+      "airtime": "",
+      "airstamp": "2004-02-11T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045609"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045610,
+      "url": "https://www.tvmaze.com/episodes/3045610/nwa-total-nonstop-action-3x07-nwa-tna-ppv-82",
+      "name": "NWA-TNA PPV #82",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2004-02-18",
+      "airtime": "",
+      "airstamp": "2004-02-18T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045610"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045611,
+      "url": "https://www.tvmaze.com/episodes/3045611/nwa-total-nonstop-action-3x08-nwa-tna-ppv-83",
+      "name": "NWA-TNA PPV #83",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2004-02-25",
+      "airtime": "",
+      "airstamp": "2004-02-25T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045611"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045612,
+      "url": "https://www.tvmaze.com/episodes/3045612/nwa-total-nonstop-action-3x09-nwa-tna-ppv-84",
+      "name": "NWA-TNA PPV #84",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2004-03-03",
+      "airtime": "",
+      "airstamp": "2004-03-03T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045612"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045613,
+      "url": "https://www.tvmaze.com/episodes/3045613/nwa-total-nonstop-action-3x10-nwa-tna-ppv-85",
+      "name": "NWA-TNA PPV #85",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2004-03-10",
+      "airtime": "",
+      "airstamp": "2004-03-10T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045613"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045614,
+      "url": "https://www.tvmaze.com/episodes/3045614/nwa-total-nonstop-action-3x11-nwa-tna-ppv-86",
+      "name": "NWA-TNA PPV #86",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2004-03-17",
+      "airtime": "",
+      "airstamp": "2004-03-17T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045615,
+      "url": "https://www.tvmaze.com/episodes/3045615/nwa-total-nonstop-action-3x12-nwa-tna-ppv-87",
+      "name": "NWA-TNA PPV #87",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2004-03-24",
+      "airtime": "",
+      "airstamp": "2004-03-24T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045615"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045616,
+      "url": "https://www.tvmaze.com/episodes/3045616/nwa-total-nonstop-action-3x13-nwa-tna-ppv-88",
+      "name": "NWA-TNA PPV #88",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2004-03-31",
+      "airtime": "",
+      "airstamp": "2004-03-31T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045616"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045617,
+      "url": "https://www.tvmaze.com/episodes/3045617/nwa-total-nonstop-action-3x14-nwa-tna-ppv-89",
+      "name": "NWA-TNA PPV #89",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2004-04-07",
+      "airtime": "",
+      "airstamp": "2004-04-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045617"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045618,
+      "url": "https://www.tvmaze.com/episodes/3045618/nwa-total-nonstop-action-3x15-nwa-tna-ppv-90",
+      "name": "NWA-TNA PPV #90",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2004-04-14",
+      "airtime": "",
+      "airstamp": "2004-04-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045618"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045619,
+      "url": "https://www.tvmaze.com/episodes/3045619/nwa-total-nonstop-action-3x16-nwa-tna-ppv-91",
+      "name": "NWA-TNA PPV #91",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2004-04-21",
+      "airtime": "",
+      "airstamp": "2004-04-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045619"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045620,
+      "url": "https://www.tvmaze.com/episodes/3045620/nwa-total-nonstop-action-3x17-nwa-tna-ppv-92",
+      "name": "NWA-TNA PPV #92",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2004-04-28",
+      "airtime": "",
+      "airstamp": "2004-04-28T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045620"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045621,
+      "url": "https://www.tvmaze.com/episodes/3045621/nwa-total-nonstop-action-3x18-nwa-tna-ppv-93",
+      "name": "NWA-TNA PPV #93",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2004-05-05",
+      "airtime": "",
+      "airstamp": "2004-05-05T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045621"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045622,
+      "url": "https://www.tvmaze.com/episodes/3045622/nwa-total-nonstop-action-3x19-nwa-tna-ppv-94",
+      "name": "NWA-TNA PPV #94",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2004-05-12",
+      "airtime": "",
+      "airstamp": "2004-05-12T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045622"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045623,
+      "url": "https://www.tvmaze.com/episodes/3045623/nwa-total-nonstop-action-3x20-nwa-tna-ppv-95",
+      "name": "NWA-TNA PPV #95",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2004-05-19",
+      "airtime": "",
+      "airstamp": "2004-05-19T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045623"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045624,
+      "url": "https://www.tvmaze.com/episodes/3045624/nwa-total-nonstop-action-3x21-nwa-tna-ppv-96",
+      "name": "NWA-TNA PPV #96",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2004-05-26",
+      "airtime": "",
+      "airstamp": "2004-05-26T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045624"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045625,
+      "url": "https://www.tvmaze.com/episodes/3045625/nwa-total-nonstop-action-3x22-nwa-tna-ppv-97",
+      "name": "NWA-TNA PPV #97",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2004-06-02",
+      "airtime": "",
+      "airstamp": "2004-06-02T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045625"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045626,
+      "url": "https://www.tvmaze.com/episodes/3045626/nwa-total-nonstop-action-3x23-nwa-tna-ppv-98",
+      "name": "NWA-TNA PPV #98",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2004-06-09",
+      "airtime": "",
+      "airstamp": "2004-06-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045626"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045627,
+      "url": "https://www.tvmaze.com/episodes/3045627/nwa-total-nonstop-action-3x24-nwa-tna-ppv-99",
+      "name": "NWA-TNA PPV #99",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2004-06-16",
+      "airtime": "",
+      "airstamp": "2004-06-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045627"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045628,
+      "url": "https://www.tvmaze.com/episodes/3045628/nwa-total-nonstop-action-3x25-nwa-tna-ppv-100",
+      "name": "NWA-TNA PPV #100",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2004-06-23",
+      "airtime": "",
+      "airstamp": "2004-06-23T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045628"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045629,
+      "url": "https://www.tvmaze.com/episodes/3045629/nwa-total-nonstop-action-3x26-nwa-tna-ppv-101",
+      "name": "NWA-TNA PPV #101",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2004-06-30",
+      "airtime": "",
+      "airstamp": "2004-06-30T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045629"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045630,
+      "url": "https://www.tvmaze.com/episodes/3045630/nwa-total-nonstop-action-3x27-nwa-tna-ppv-102",
+      "name": "NWA-TNA PPV #102",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2004-07-07",
+      "airtime": "",
+      "airstamp": "2004-07-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045631,
+      "url": "https://www.tvmaze.com/episodes/3045631/nwa-total-nonstop-action-3x28-nwa-tna-ppv-103",
+      "name": "NWA-TNA PPV #103",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2004-07-14",
+      "airtime": "",
+      "airstamp": "2004-07-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045632,
+      "url": "https://www.tvmaze.com/episodes/3045632/nwa-total-nonstop-action-3x29-nwa-tna-ppv-104",
+      "name": "NWA-TNA PPV #104",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2004-07-21",
+      "airtime": "",
+      "airstamp": "2004-07-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045633,
+      "url": "https://www.tvmaze.com/episodes/3045633/nwa-total-nonstop-action-3x30-nwa-tna-ppv-105",
+      "name": "NWA-TNA PPV #105",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2004-07-28",
+      "airtime": "",
+      "airstamp": "2004-07-28T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045634,
+      "url": "https://www.tvmaze.com/episodes/3045634/nwa-total-nonstop-action-3x31-nwa-tna-ppv-106",
+      "name": "NWA-TNA PPV #106",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2004-08-04",
+      "airtime": "",
+      "airstamp": "2004-08-04T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045635,
+      "url": "https://www.tvmaze.com/episodes/3045635/nwa-total-nonstop-action-3x32-nwa-tna-ppv-107",
+      "name": "NWA-TNA PPV #107",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2004-08-11",
+      "airtime": "",
+      "airstamp": "2004-08-11T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045635"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045636,
+      "url": "https://www.tvmaze.com/episodes/3045636/nwa-total-nonstop-action-3x33-nwa-tna-ppv-108",
+      "name": "NWA-TNA PPV #108",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2004-08-18",
+      "airtime": "",
+      "airstamp": "2004-08-18T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045637,
+      "url": "https://www.tvmaze.com/episodes/3045637/nwa-total-nonstop-action-3x34-nwa-tna-ppv-109",
+      "name": "NWA-TNA PPV #109",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2004-08-25",
+      "airtime": "",
+      "airstamp": "2004-08-25T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045637"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045638,
+      "url": "https://www.tvmaze.com/episodes/3045638/nwa-total-nonstop-action-3x35-nwa-tna-ppv-110",
+      "name": "NWA-TNA PPV #110",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2004-09-01",
+      "airtime": "",
+      "airstamp": "2004-09-01T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    },
+    {
+      "id": 3045639,
+      "url": "https://www.tvmaze.com/episodes/3045639/nwa-total-nonstop-action-3x36-nwa-tna-ppv-111",
+      "name": "NWA-TNA PPV #111",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2004-09-08",
+      "airtime": "",
+      "airstamp": "2004-09-08T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80637",
+          "name": "NWA: Total Nonstop Action"
+        }
+      }
+    }
+  ]
+}

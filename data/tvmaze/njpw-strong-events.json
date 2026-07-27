@@ -1,0 +1,4509 @@
+{
+  "programId": "njpw-strong-events",
+  "tvMazeId": 50263,
+  "fetchedAt": "2026-07-27T07:57:36.159Z",
+  "show": {
+    "id": 50263,
+    "url": "https://www.tvmaze.com/shows/50263/njpw-strong",
+    "name": "NJPW Strong",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2023-05-13",
+    "ended": null,
+    "officialSite": "https://njpwworld.com/",
+    "schedule": {
+      "time": "09:00",
+      "days": [
+        "Sunday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 44,
+    "network": {
+      "id": 263,
+      "name": "TV Asahi",
+      "country": {
+        "name": "Japan",
+        "code": "JP",
+        "timezone": "Asia/Tokyo"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 386940,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/272/680660.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/272/680660.jpg"
+    },
+    "summary": "<p><b>NJPW Strong</b> is a professional wrestling television series produced by Japanese professional wrestling promotion New Japan Pro-Wrestling (NJPW).</p>",
+    "updated": 1713007386,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/50263"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2828145",
+        "name": "Windy City Riot 2024 - Press Conference"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2372013,
+      "url": "https://www.tvmaze.com/episodes/2372013/njpw-strong-2022-special-njpw-strong-2nd-anniversary-special-episode",
+      "name": "NJPW STRONG 2nd Anniversary Special Episode",
+      "season": 2022,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2022-08-06",
+      "airtime": "09:00",
+      "airstamp": "2022-08-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2372013"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569556,
+      "url": "https://www.tvmaze.com/episodes/2569556/njpw-strong-2023-05-13-capital-collision-night-1",
+      "name": "Capital Collision - Night 1",
+      "season": 2013,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-05-13",
+      "airtime": "09:00",
+      "airstamp": "2023-05-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569556"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569557,
+      "url": "https://www.tvmaze.com/episodes/2569557/njpw-strong-2023-05-20-capital-collision-night-2",
+      "name": "Capital Collision - Night 2",
+      "season": 2013,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-05-20",
+      "airtime": "09:00",
+      "airstamp": "2023-05-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569557"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569558,
+      "url": "https://www.tvmaze.com/episodes/2569558/njpw-strong-2023-05-27-capital-collision-night-3",
+      "name": "Capital Collision - Night 3",
+      "season": 2013,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-05-27",
+      "airtime": "09:00",
+      "airstamp": "2023-05-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569558"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569559,
+      "url": "https://www.tvmaze.com/episodes/2569559/njpw-strong-2023-06-03-capital-collision-night-4",
+      "name": "Capital Collision - Night 4",
+      "season": 2013,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-06-03",
+      "airtime": "09:00",
+      "airstamp": "2023-06-03T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569559"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569560,
+      "url": "https://www.tvmaze.com/episodes/2569560/njpw-strong-2023-06-10-collision-in-philadelphia-night-1",
+      "name": "Collision In Philadelphia - Night 1",
+      "season": 2013,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-06-10",
+      "airtime": "09:00",
+      "airstamp": "2023-06-10T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569560"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569561,
+      "url": "https://www.tvmaze.com/episodes/2569561/njpw-strong-2023-06-17-collision-in-philadelphia-night-2",
+      "name": "Collision In Philadelphia - Night 2",
+      "season": 2013,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2023-06-17",
+      "airtime": "09:00",
+      "airstamp": "2023-06-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569562,
+      "url": "https://www.tvmaze.com/episodes/2569562/njpw-strong-2023-06-24-collision-in-philadelphia-night-3",
+      "name": "Collision In Philadelphia - Night 3",
+      "season": 2013,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2023-06-24",
+      "airtime": "09:00",
+      "airstamp": "2023-06-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569562"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2569563,
+      "url": "https://www.tvmaze.com/episodes/2569563/njpw-strong-2023-07-01-collision-in-philadelphia-night-4",
+      "name": "Collision In Philadelphia - Night 4",
+      "season": 2013,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2023-07-01",
+      "airtime": "09:00",
+      "airstamp": "2023-07-01T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2569563"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1927035,
+      "url": "https://www.tvmaze.com/episodes/1927035/njpw-strong-2020-08-07-njpw-strong-episode-1-08-07-2020",
+      "name": "NJPW Strong Episode 1 (08-07-2020)",
+      "season": 2020,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2020-08-07",
+      "airtime": "22:00",
+      "airstamp": "2020-08-07T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1927035"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1927037,
+      "url": "https://www.tvmaze.com/episodes/1927037/njpw-strong-2020-08-14-njpw-strong-episode-2-08-14-2020",
+      "name": "NJPW Strong Episode 2 (08-14-2020)",
+      "season": 2020,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2020-08-14",
+      "airtime": "22:00",
+      "airstamp": "2020-08-14T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1927037"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1927038,
+      "url": "https://www.tvmaze.com/episodes/1927038/njpw-strong-2020-08-22-njpw-strong-episode-3-new-japan-cup-in-the-usa-final",
+      "name": "NJPW Strong Episode 3: New Japan Cup in the USA Final",
+      "season": 2020,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2020-08-22",
+      "airtime": "22:00",
+      "airstamp": "2020-08-22T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1927038"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1927039,
+      "url": "https://www.tvmaze.com/episodes/1927039/njpw-strong-2020-08-28-njpw-strong-episode-4-road-to-fighting-spirit-unleashed",
+      "name": "NJPW Strong Episode 4: Road to Fighting Spirit Unleashed",
+      "season": 2020,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2020-08-28",
+      "airtime": "22:00",
+      "airstamp": "2020-08-28T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1927039"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1927055,
+      "url": "https://www.tvmaze.com/episodes/1927055/njpw-strong-2020-09-04-fighting-spirit-unleashed-week-1",
+      "name": "Fighting Spirit Unleashed Week 1",
+      "season": 2020,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2020-09-04",
+      "airtime": "22:00",
+      "airstamp": "2020-09-04T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1927055"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1927163,
+      "url": "https://www.tvmaze.com/episodes/1927163/njpw-strong-2020-09-11-fighting-spirit-unleashed-week-2",
+      "name": "Fighting Spirit Unleashed Week 2",
+      "season": 2020,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2020-09-11",
+      "airtime": "22:00",
+      "airstamp": "2020-09-11T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1927163"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1935457,
+      "url": "https://www.tvmaze.com/episodes/1935457/njpw-strong-2020-09-18-new-japan-cup-2020-usa",
+      "name": "New Japan Cup 2020 USA",
+      "season": 2020,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2020-09-18",
+      "airtime": "22:00",
+      "airstamp": "2020-09-18T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1935457"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1938062,
+      "url": "https://www.tvmaze.com/episodes/1938062/njpw-strong-2020-09-25-njpw-strong-episode-8",
+      "name": "NJPW Strong Episode 8",
+      "season": 2020,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2020-09-25",
+      "airtime": "22:00",
+      "airstamp": "2020-09-25T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1938062"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1942549,
+      "url": "https://www.tvmaze.com/episodes/1942549/njpw-strong-2020-10-02-njpw-strong-episode-9",
+      "name": "NJPW Strong Episode 9",
+      "season": 2020,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2020-10-02",
+      "airtime": "22:00",
+      "airstamp": "2020-10-02T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1942549"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1942550,
+      "url": "https://www.tvmaze.com/episodes/1942550/njpw-strong-2020-10-09-njpw-strong-episode-10",
+      "name": "NJPW Strong Episode 10",
+      "season": 2020,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2020-10-09",
+      "airtime": "22:00",
+      "airstamp": "2020-10-09T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1942550"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1942551,
+      "url": "https://www.tvmaze.com/episodes/1942551/njpw-strong-2020-10-16-njpw-strong-episode-11",
+      "name": "NJPW Strong Episode 11",
+      "season": 2020,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2020-10-16",
+      "airtime": "22:00",
+      "airstamp": "2020-10-16T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1942551"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1950781,
+      "url": "https://www.tvmaze.com/episodes/1950781/njpw-strong-2020-10-23-episode-12",
+      "name": "Episode 12",
+      "season": 2020,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2020-10-23",
+      "airtime": "22:00",
+      "airstamp": "2020-10-23T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1950781"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1963504,
+      "url": "https://www.tvmaze.com/episodes/1963504/njpw-strong-2020-10-30-episode-13",
+      "name": "Episode 13",
+      "season": 2020,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2020-10-30",
+      "airtime": "22:00",
+      "airstamp": "2020-10-30T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1963504"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1963528,
+      "url": "https://www.tvmaze.com/episodes/1963528/njpw-strong-2020-11-06-episode-14",
+      "name": "Episode 14",
+      "season": 2020,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2020-11-06",
+      "airtime": "22:00",
+      "airstamp": "2020-11-06T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1963528"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1963529,
+      "url": "https://www.tvmaze.com/episodes/1963529/njpw-strong-2020-11-13-episode-15",
+      "name": "Episode 15",
+      "season": 2020,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2020-11-13",
+      "airtime": "22:00",
+      "airstamp": "2020-11-13T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1963529"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1965925,
+      "url": "https://www.tvmaze.com/episodes/1965925/njpw-strong-2020-11-20-episode-16",
+      "name": "Episode 16",
+      "season": 2020,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2020-11-20",
+      "airtime": "22:00",
+      "airstamp": "2020-11-20T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1965925"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1965926,
+      "url": "https://www.tvmaze.com/episodes/1965926/njpw-strong-2020-11-27-episode-17",
+      "name": "Episode 17",
+      "season": 2020,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2020-11-27",
+      "airtime": "22:00",
+      "airstamp": "2020-11-27T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1965926"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1965927,
+      "url": "https://www.tvmaze.com/episodes/1965927/njpw-strong-2020-12-04-episode-18",
+      "name": "Episode 18",
+      "season": 2020,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2020-12-04",
+      "airtime": "22:00",
+      "airstamp": "2020-12-04T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1965927"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1965928,
+      "url": "https://www.tvmaze.com/episodes/1965928/njpw-strong-2020-12-11-episode-19",
+      "name": "Episode 19",
+      "season": 2020,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2020-12-11",
+      "airtime": "22:00",
+      "airstamp": "2020-12-11T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1965928"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1965929,
+      "url": "https://www.tvmaze.com/episodes/1965929/njpw-strong-2020-12-18-episode-20",
+      "name": "Episode 20",
+      "season": 2020,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2020-12-18",
+      "airtime": "22:00",
+      "airstamp": "2020-12-18T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1965929"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 1965930,
+      "url": "https://www.tvmaze.com/episodes/1965930/njpw-strong-2020-12-25-episode-21",
+      "name": "Episode 21",
+      "season": 2020,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2020-12-25",
+      "airtime": "22:00",
+      "airstamp": "2020-12-25T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1965930"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2005432,
+      "url": "https://www.tvmaze.com/episodes/2005432/njpw-strong-2021-01-08-road-to-lions-break-contenders",
+      "name": "Road To Lion's Break: Contenders",
+      "season": 2021,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-01-08",
+      "airtime": "22:00",
+      "airstamp": "2021-01-08T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2005432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2009261,
+      "url": "https://www.tvmaze.com/episodes/2009261/njpw-strong-2021-01-15-episode-2",
+      "name": "Episode 2",
+      "season": 2021,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-01-15",
+      "airtime": "22:00",
+      "airstamp": "2021-01-15T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2009261"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2009262,
+      "url": "https://www.tvmaze.com/episodes/2009262/njpw-strong-2021-01-22-episode-3",
+      "name": "Episode 3",
+      "season": 2021,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-01-22",
+      "airtime": "22:00",
+      "airstamp": "2021-01-22T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2009262"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2009263,
+      "url": "https://www.tvmaze.com/episodes/2009263/njpw-strong-2021-01-29-episode-4",
+      "name": "Episode 4",
+      "season": 2021,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-01-29",
+      "airtime": "22:00",
+      "airstamp": "2021-01-29T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2009263"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2022907,
+      "url": "https://www.tvmaze.com/episodes/2022907/njpw-strong-2021-02-05-episode-5",
+      "name": "Episode 5",
+      "season": 2021,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-02-05",
+      "airtime": "22:00",
+      "airstamp": "2021-02-05T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022907"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2022908,
+      "url": "https://www.tvmaze.com/episodes/2022908/njpw-strong-2021-02-12-episode-6",
+      "name": "Episode 6",
+      "season": 2021,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-02-12",
+      "airtime": "22:00",
+      "airstamp": "2021-02-12T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022908"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2022909,
+      "url": "https://www.tvmaze.com/episodes/2022909/njpw-strong-2021-02-19-episode-7",
+      "name": "Episode 7",
+      "season": 2021,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-02-19",
+      "airtime": "22:00",
+      "airstamp": "2021-02-19T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022909"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2022910,
+      "url": "https://www.tvmaze.com/episodes/2022910/njpw-strong-2021-02-26-episode-8-new-beginning-in-usa-john-moxley-vs-kenta",
+      "name": "Episode 8: New Beginning in USA John Moxley vs Kenta",
+      "season": 2021,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-02-26",
+      "airtime": "22:00",
+      "airstamp": "2021-02-26T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022910"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2031441,
+      "url": "https://www.tvmaze.com/episodes/2031441/njpw-strong-2021-03-05-njpw-strong-30",
+      "name": "NJPW STRONG #30",
+      "season": 2021,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-03-05",
+      "airtime": "22:00",
+      "airstamp": "2021-03-05T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2031441"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2031442,
+      "url": "https://www.tvmaze.com/episodes/2031442/njpw-strong-2021-03-12-njpw-strong-31",
+      "name": "NJPW STRONG #31",
+      "season": 2021,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-03-12",
+      "airtime": "22:00",
+      "airstamp": "2021-03-12T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2031442"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2031443,
+      "url": "https://www.tvmaze.com/episodes/2031443/njpw-strong-2021-03-19-njpw-strong-32",
+      "name": "NJPW STRONG #32",
+      "season": 2021,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-03-19",
+      "airtime": "22:00",
+      "airstamp": "2021-03-19T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2031443"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2031444,
+      "url": "https://www.tvmaze.com/episodes/2031444/njpw-strong-2021-03-26-njpw-strong-33",
+      "name": "NJPW STRONG #33",
+      "season": 2021,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-03-26",
+      "airtime": "22:00",
+      "airstamp": "2021-03-26T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2031444"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2059755,
+      "url": "https://www.tvmaze.com/episodes/2059755/njpw-strong-2021-04-02-episode-13",
+      "name": "Episode 13",
+      "season": 2021,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-04-02",
+      "airtime": "22:00",
+      "airstamp": "2021-04-02T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2059755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2059756,
+      "url": "https://www.tvmaze.com/episodes/2059756/njpw-strong-2021-04-09-episode-14",
+      "name": "Episode 14",
+      "season": 2021,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-04-09",
+      "airtime": "22:00",
+      "airstamp": "2021-04-09T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2059756"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2059757,
+      "url": "https://www.tvmaze.com/episodes/2059757/njpw-strong-2021-04-16-episode-15",
+      "name": "Episode 15",
+      "season": 2021,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-04-16",
+      "airtime": "22:00",
+      "airstamp": "2021-04-16T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2059757"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2059758,
+      "url": "https://www.tvmaze.com/episodes/2059758/njpw-strong-2021-04-23-episode-16",
+      "name": "Episode 16",
+      "season": 2021,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-04-23",
+      "airtime": "22:00",
+      "airstamp": "2021-04-23T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2059758"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2059759,
+      "url": "https://www.tvmaze.com/episodes/2059759/njpw-strong-2021-04-30-episode-17",
+      "name": "Episode 17",
+      "season": 2021,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2021-04-30",
+      "airtime": "22:00",
+      "airstamp": "2021-04-30T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2059759"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2084560,
+      "url": "https://www.tvmaze.com/episodes/2084560/njpw-strong-2021-05-07-episode-18",
+      "name": "Episode 18",
+      "season": 2021,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2021-05-07",
+      "airtime": "22:00",
+      "airstamp": "2021-05-07T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2084560"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2084561,
+      "url": "https://www.tvmaze.com/episodes/2084561/njpw-strong-2021-05-14-episode-19",
+      "name": "Episode 19",
+      "season": 2021,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2021-05-14",
+      "airtime": "22:00",
+      "airstamp": "2021-05-14T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2084561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2084562,
+      "url": "https://www.tvmaze.com/episodes/2084562/njpw-strong-2021-05-21-episode-20",
+      "name": "Episode 20",
+      "season": 2021,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2021-05-21",
+      "airtime": "22:00",
+      "airstamp": "2021-05-21T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2084562"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2084563,
+      "url": "https://www.tvmaze.com/episodes/2084563/njpw-strong-2021-05-28-episode-21",
+      "name": "Episode 21",
+      "season": 2021,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2021-05-28",
+      "airtime": "22:00",
+      "airstamp": "2021-05-28T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2084563"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2106311,
+      "url": "https://www.tvmaze.com/episodes/2106311/njpw-strong-2021-06-04-episode-22",
+      "name": "Episode 22",
+      "season": 2021,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2021-06-04",
+      "airtime": "22:00",
+      "airstamp": "2021-06-04T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106311"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2106312,
+      "url": "https://www.tvmaze.com/episodes/2106312/njpw-strong-2021-06-11-episode-23",
+      "name": "Episode 23",
+      "season": 2021,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2021-06-11",
+      "airtime": "22:00",
+      "airstamp": "2021-06-11T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106312"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2106313,
+      "url": "https://www.tvmaze.com/episodes/2106313/njpw-strong-2021-06-18-episode-24",
+      "name": "Episode 24",
+      "season": 2021,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2021-06-18",
+      "airtime": "22:00",
+      "airstamp": "2021-06-18T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106313"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2106314,
+      "url": "https://www.tvmaze.com/episodes/2106314/njpw-strong-2021-06-25-episode-25",
+      "name": "Episode 25",
+      "season": 2021,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2021-06-25",
+      "airtime": "22:00",
+      "airstamp": "2021-06-25T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106314"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2121284,
+      "url": "https://www.tvmaze.com/episodes/2121284/njpw-strong-2021-07-02-episode-26",
+      "name": "Episode 26",
+      "season": 2021,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2021-07-02",
+      "airtime": "22:00",
+      "airstamp": "2021-07-02T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2121284"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2121285,
+      "url": "https://www.tvmaze.com/episodes/2121285/njpw-strong-2021-07-09-episode-27",
+      "name": "Episode 27",
+      "season": 2021,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2021-07-09",
+      "airtime": "22:00",
+      "airstamp": "2021-07-09T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2121285"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2121286,
+      "url": "https://www.tvmaze.com/episodes/2121286/njpw-strong-2021-07-16-episode-28",
+      "name": "Episode 28",
+      "season": 2021,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2021-07-16",
+      "airtime": "22:00",
+      "airstamp": "2021-07-16T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2121286"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2121287,
+      "url": "https://www.tvmaze.com/episodes/2121287/njpw-strong-2021-07-23-episode-29",
+      "name": "Episode 29",
+      "season": 2021,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2021-07-23",
+      "airtime": "22:00",
+      "airstamp": "2021-07-23T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2121287"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2121288,
+      "url": "https://www.tvmaze.com/episodes/2121288/njpw-strong-2021-07-30-episode-30",
+      "name": "Episode 30",
+      "season": 2021,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2021-07-30",
+      "airtime": "22:00",
+      "airstamp": "2021-07-30T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2121288"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2144199,
+      "url": "https://www.tvmaze.com/episodes/2144199/njpw-strong-2021-08-06-road-to-summer-struggle-usa-night-one",
+      "name": "Road to Summer Struggle USA Night One",
+      "season": 2021,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2021-08-06",
+      "airtime": "22:00",
+      "airstamp": "2021-08-06T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2144199"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2148117,
+      "url": "https://www.tvmaze.com/episodes/2148117/njpw-strong-2021-08-13-road-to-summer-struggle-usa-night-2",
+      "name": "Road to Summer Struggle USA Night 2",
+      "season": 2021,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2021-08-13",
+      "airtime": "22:00",
+      "airstamp": "2021-08-13T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2148117"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2157217,
+      "url": "https://www.tvmaze.com/episodes/2157217/njpw-strong-2021-08-20-summer-struggle-usa-night-1",
+      "name": "Summer Struggle USA Night 1",
+      "season": 2021,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2021-08-20",
+      "airtime": "22:00",
+      "airstamp": "2021-08-20T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2157217"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2169522,
+      "url": "https://www.tvmaze.com/episodes/2169522/njpw-strong-2021-08-27-summer-struggle-usa-night-2",
+      "name": "Summer Struggle USA Night 2",
+      "season": 2021,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2021-08-27",
+      "airtime": "22:00",
+      "airstamp": "2021-08-27T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2169522"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2169521,
+      "url": "https://www.tvmaze.com/episodes/2169521/njpw-strong-2021-09-03-bbq-brawl",
+      "name": "BBQ Brawl",
+      "season": 2021,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2021-09-03",
+      "airtime": "22:00",
+      "airstamp": "2021-09-03T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2169521"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2169523,
+      "url": "https://www.tvmaze.com/episodes/2169523/njpw-strong-2021-09-10-la-dojo-showcase-2",
+      "name": "LA Dojo Showcase 2",
+      "season": 2021,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2021-09-10",
+      "airtime": "22:00",
+      "airstamp": "2021-09-10T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2169523"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2175499,
+      "url": "https://www.tvmaze.com/episodes/2175499/njpw-strong-2021-09-18-fighting-spirit-unleashed-2021-night-1",
+      "name": "Fighting Spirit Unleashed 2021 Night 1",
+      "season": 2021,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2021-09-18",
+      "airtime": "22:00",
+      "airstamp": "2021-09-18T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2175499"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2181574,
+      "url": "https://www.tvmaze.com/episodes/2181574/njpw-strong-2021-09-25-fighting-spirit-unleashed-2021-night-2",
+      "name": "Fighting Spirit Unleashed 2021 Night 2",
+      "season": 2021,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2021-09-25",
+      "airtime": "22:00",
+      "airstamp": "2021-09-25T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2181574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2186828,
+      "url": "https://www.tvmaze.com/episodes/2186828/njpw-strong-2021-10-02-fighting-spirit-unleashed-2021-night-3",
+      "name": "Fighting Spirit Unleashed 2021 Night 3",
+      "season": 2021,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2021-10-02",
+      "airtime": "22:00",
+      "airstamp": "2021-10-02T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186828"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2197319,
+      "url": "https://www.tvmaze.com/episodes/2197319/njpw-strong-2021-10-09-autumn-attack-2021-night-1",
+      "name": "Autumn Attack 2021 Night 1",
+      "season": 2021,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2021-10-09",
+      "airtime": "22:00",
+      "airstamp": "2021-10-09T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197319"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2197320,
+      "url": "https://www.tvmaze.com/episodes/2197320/njpw-strong-2021-10-16-autumn-attack-2021-night-2",
+      "name": "Autumn Attack 2021 Night 2",
+      "season": 2021,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2021-10-16",
+      "airtime": "22:00",
+      "airstamp": "2021-10-16T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197320"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2197321,
+      "url": "https://www.tvmaze.com/episodes/2197321/njpw-strong-2021-10-23-autumn-attack-2021-night-3",
+      "name": "Autumn Attack 2021 Night 3",
+      "season": 2021,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2021-10-23",
+      "airtime": "22:00",
+      "airstamp": "2021-10-23T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197321"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2197322,
+      "url": "https://www.tvmaze.com/episodes/2197322/njpw-strong-2021-10-30-autumn-attack-2021-night-4",
+      "name": "Autumn Attack 2021 Night 4",
+      "season": 2021,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2021-10-30",
+      "airtime": "22:00",
+      "airstamp": "2021-10-30T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197322"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2211091,
+      "url": "https://www.tvmaze.com/episodes/2211091/njpw-strong-2021-11-06-showdown-2021-night-1",
+      "name": "Showdown 2021 Night 1",
+      "season": 2021,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2021-11-06",
+      "airtime": "22:00",
+      "airstamp": "2021-11-06T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2211091"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2211092,
+      "url": "https://www.tvmaze.com/episodes/2211092/njpw-strong-2021-11-13-showdown-2021-night-2",
+      "name": "Showdown 2021 Night 2",
+      "season": 2021,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2021-11-13",
+      "airtime": "22:00",
+      "airstamp": "2021-11-13T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2211092"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2211093,
+      "url": "https://www.tvmaze.com/episodes/2211093/njpw-strong-2021-11-20-showdown-2021-night-3",
+      "name": "Showdown 2021 Night 3",
+      "season": 2021,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2021-11-20",
+      "airtime": "22:00",
+      "airstamp": "2021-11-20T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2211093"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2211094,
+      "url": "https://www.tvmaze.com/episodes/2211094/njpw-strong-2021-11-27-showdown-2021-night-4",
+      "name": "Showdown 2021 Night 4",
+      "season": 2021,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2021-11-27",
+      "airtime": "22:00",
+      "airstamp": "2021-11-27T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2211094"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2238905,
+      "url": "https://www.tvmaze.com/episodes/2238905/njpw-strong-2021-12-04-njpw-strong-episode-69-detonation",
+      "name": "NJPW Strong Episode 69: Detonation",
+      "season": 2021,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2021-12-04",
+      "airtime": "22:00",
+      "airstamp": "2021-12-04T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2238905"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2238906,
+      "url": "https://www.tvmaze.com/episodes/2238906/njpw-strong-2021-12-12-njpw-strong-episode-70-detonation",
+      "name": "NJPW Strong Episode 70: Detonation",
+      "season": 2021,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2021-12-12",
+      "airtime": "22:00",
+      "airstamp": "2021-12-12T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2238906"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2253851,
+      "url": "https://www.tvmaze.com/episodes/2253851/njpw-strong-2021-12-18-detonation-2021-night-3",
+      "name": "Detonation 2021 Night 3",
+      "season": 2021,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2021-12-18",
+      "airtime": "22:00",
+      "airstamp": "2021-12-18T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253851"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2253852,
+      "url": "https://www.tvmaze.com/episodes/2253852/njpw-strong-2021-12-25-best-of-njpw-strong-2021",
+      "name": "Best of NJPW Strong 2021",
+      "season": 2021,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2021-12-25",
+      "airtime": "22:00",
+      "airstamp": "2021-12-25T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253852"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2253853,
+      "url": "https://www.tvmaze.com/episodes/2253853/njpw-strong-2022-01-08-nemesis-night-1",
+      "name": "Nemesis Night 1",
+      "season": 2022,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-08",
+      "airtime": "22:00",
+      "airstamp": "2022-01-08T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253853"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2253854,
+      "url": "https://www.tvmaze.com/episodes/2253854/njpw-strong-2022-01-15-nemesis-night-2",
+      "name": "Nemesis Night 2",
+      "season": 2022,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-01-15",
+      "airtime": "22:00",
+      "airstamp": "2022-01-15T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253854"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2253855,
+      "url": "https://www.tvmaze.com/episodes/2253855/njpw-strong-2022-01-22-nemesis-night-3",
+      "name": "Nemesis Night 3",
+      "season": 2022,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "22:00",
+      "airstamp": "2022-01-22T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253855"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2253856,
+      "url": "https://www.tvmaze.com/episodes/2253856/njpw-strong-2022-01-29-nemesis-night-4",
+      "name": "Nemesis Night 4",
+      "season": 2022,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-01-29",
+      "airtime": "22:00",
+      "airstamp": "2022-01-29T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253856"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2275826,
+      "url": "https://www.tvmaze.com/episodes/2275826/njpw-strong-2022-02-05-the-new-beginning-usa-2022-night-1",
+      "name": "The New Beginning USA 2022 Night 1",
+      "season": 2022,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-02-05",
+      "airtime": "22:00",
+      "airstamp": "2022-02-05T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2275826"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2288975,
+      "url": "https://www.tvmaze.com/episodes/2288975/njpw-strong-2022-02-12-the-new-beginning-usa-2022-night-2",
+      "name": "The New Beginning USA 2022 Night 2",
+      "season": 2022,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-02-12",
+      "airtime": "22:00",
+      "airstamp": "2022-02-12T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2288975"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2288976,
+      "url": "https://www.tvmaze.com/episodes/2288976/njpw-strong-2022-02-19-the-new-beginning-usa-2022-night-3",
+      "name": "The New Beginning USA 2022 Night 3",
+      "season": 2022,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-02-19",
+      "airtime": "22:00",
+      "airstamp": "2022-02-19T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2288976"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2288977,
+      "url": "https://www.tvmaze.com/episodes/2288977/njpw-strong-2022-02-26-the-new-beginning-usa-2022-night-4",
+      "name": "The New Beginning USA 2022 Night 4",
+      "season": 2022,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-02-26",
+      "airtime": "22:00",
+      "airstamp": "2022-02-26T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2288977"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2288978,
+      "url": "https://www.tvmaze.com/episodes/2288978/njpw-strong-2022-03-05-rivals-night-1",
+      "name": "Rivals Night 1",
+      "season": 2022,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-03-05",
+      "airtime": "22:00",
+      "airstamp": "2022-03-05T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2288978"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2288979,
+      "url": "https://www.tvmaze.com/episodes/2288979/njpw-strong-2022-03-12-rivals-night-2",
+      "name": "Rivals Night 2",
+      "season": 2022,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-03-12",
+      "airtime": "22:00",
+      "airstamp": "2022-03-12T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2288979"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2288980,
+      "url": "https://www.tvmaze.com/episodes/2288980/njpw-strong-2022-03-19-rivals-night-3",
+      "name": "Rivals Night 3",
+      "season": 2022,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-03-19",
+      "airtime": "22:00",
+      "airstamp": "2022-03-19T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2288980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2304155,
+      "url": "https://www.tvmaze.com/episodes/2304155/njpw-strong-2022-03-26-rivals-night-4",
+      "name": "Rivals - Night 4",
+      "season": 2022,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-03-26",
+      "airtime": "22:00",
+      "airstamp": "2022-03-26T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2304155"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2316279,
+      "url": "https://www.tvmaze.com/episodes/2316279/njpw-strong-2022-04-02-strong-style-evolved-2022-night-1",
+      "name": "Strong Style Evolved 2022 Night 1",
+      "season": 2022,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-04-02",
+      "airtime": "22:00",
+      "airstamp": "2022-04-02T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2316279"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2316280,
+      "url": "https://www.tvmaze.com/episodes/2316280/njpw-strong-2022-04-09-strong-style-evolved-2022-night-2",
+      "name": "Strong Style Evolved 2022 Night 2",
+      "season": 2022,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2022-04-09",
+      "airtime": "22:00",
+      "airstamp": "2022-04-09T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2316280"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2316281,
+      "url": "https://www.tvmaze.com/episodes/2316281/njpw-strong-2022-04-23-strong-style-evolved-2022-night-3",
+      "name": "Strong Style Evolved 2022 Night 3",
+      "season": 2022,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2022-04-23",
+      "airtime": "22:00",
+      "airstamp": "2022-04-23T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2316281"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2316282,
+      "url": "https://www.tvmaze.com/episodes/2316282/njpw-strong-2022-04-30-strong-style-evolved-2022-night-4",
+      "name": "Strong Style Evolved 2022 Night 4",
+      "season": 2022,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2022-04-30",
+      "airtime": "22:00",
+      "airstamp": "2022-04-30T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2316282"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2325466,
+      "url": "https://www.tvmaze.com/episodes/2325466/njpw-strong-2022-05-07-lonestar-shootoutmutiny-2022",
+      "name": "Lonestar Shootout/Mutiny 2022",
+      "season": 2022,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2022-05-07",
+      "airtime": "22:00",
+      "airstamp": "2022-05-07T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2325466"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2328737,
+      "url": "https://www.tvmaze.com/episodes/2328737/njpw-strong-2022-05-13-mutiny-night-1",
+      "name": "Mutiny - Night 1",
+      "season": 2022,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2022-05-13",
+      "airtime": "22:00",
+      "airstamp": "2022-05-13T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2328737"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2328738,
+      "url": "https://www.tvmaze.com/episodes/2328738/njpw-strong-2022-05-21-mutiny-night-2",
+      "name": "Mutiny - Night 2",
+      "season": 2022,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2022-05-21",
+      "airtime": "22:00",
+      "airstamp": "2022-05-21T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2328738"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2328739,
+      "url": "https://www.tvmaze.com/episodes/2328739/njpw-strong-2022-05-28-mutiny-night-3",
+      "name": "Mutiny - Night 3",
+      "season": 2022,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2022-05-28",
+      "airtime": "22:00",
+      "airstamp": "2022-05-28T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2328739"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2328740,
+      "url": "https://www.tvmaze.com/episodes/2328740/njpw-strong-2022-06-04-mutiny-night-4",
+      "name": "Mutiny - Night 4",
+      "season": 2022,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2022-06-04",
+      "airtime": "22:00",
+      "airstamp": "2022-06-04T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2328740"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2347253,
+      "url": "https://www.tvmaze.com/episodes/2347253/njpw-strong-2022-06-11-collision-night-1",
+      "name": "Collision - Night 1",
+      "season": 2022,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2022-06-11",
+      "airtime": "22:00",
+      "airstamp": "2022-06-11T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2347253"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2347254,
+      "url": "https://www.tvmaze.com/episodes/2347254/njpw-strong-2022-06-18-collision-night-2",
+      "name": "Collision - Night 2",
+      "season": 2022,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2022-06-18",
+      "airtime": "22:00",
+      "airstamp": "2022-06-18T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2347254"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2347255,
+      "url": "https://www.tvmaze.com/episodes/2347255/njpw-strong-2022-06-25-collision-night-3",
+      "name": "Collision - Night 3",
+      "season": 2022,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2022-06-25",
+      "airtime": "22:00",
+      "airstamp": "2022-06-25T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2347255"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2347256,
+      "url": "https://www.tvmaze.com/episodes/2347256/njpw-strong-2022-07-02-collision-night-4",
+      "name": "Collision - Night 4",
+      "season": 2022,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2022-07-02",
+      "airtime": "22:00",
+      "airstamp": "2022-07-02T13:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2347256"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2359595,
+      "url": "https://www.tvmaze.com/episodes/2359595/njpw-strong-2022-07-10-ignition-night-1",
+      "name": "Ignition - Night 1",
+      "season": 2022,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2022-07-10",
+      "airtime": "09:00",
+      "airstamp": "2022-07-10T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2359595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2359596,
+      "url": "https://www.tvmaze.com/episodes/2359596/njpw-strong-2022-07-17-ignition-night-2",
+      "name": "Ignition - Night 2",
+      "season": 2022,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2022-07-17",
+      "airtime": "09:00",
+      "airstamp": "2022-07-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2359596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2359597,
+      "url": "https://www.tvmaze.com/episodes/2359597/njpw-strong-2022-07-24-ignition-night-3",
+      "name": "Ignition - Night 3",
+      "season": 2022,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2022-07-24",
+      "airtime": "09:00",
+      "airstamp": "2022-07-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2359597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2359598,
+      "url": "https://www.tvmaze.com/episodes/2359598/njpw-strong-2022-07-31-ignition-night-4",
+      "name": "Ignition - Night 4",
+      "season": 2022,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2022-07-31",
+      "airtime": "09:00",
+      "airstamp": "2022-07-31T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2359598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2367453,
+      "url": "https://www.tvmaze.com/episodes/2367453/njpw-strong-2022-08-07-episode-30",
+      "name": "Episode 30",
+      "season": 2022,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2022-08-07",
+      "airtime": "09:00",
+      "airstamp": "2022-08-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2367453"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2367454,
+      "url": "https://www.tvmaze.com/episodes/2367454/njpw-strong-2022-08-14-episode-31",
+      "name": "Episode 31",
+      "season": 2022,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2022-08-14",
+      "airtime": "09:00",
+      "airstamp": "2022-08-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2367454"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2367455,
+      "url": "https://www.tvmaze.com/episodes/2367455/njpw-strong-2022-08-21-episode-32",
+      "name": "Episode 32",
+      "season": 2022,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2022-08-21",
+      "airtime": "09:00",
+      "airstamp": "2022-08-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2367455"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2367456,
+      "url": "https://www.tvmaze.com/episodes/2367456/njpw-strong-2022-08-28-episode-33",
+      "name": "Episode 33",
+      "season": 2022,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2022-08-28",
+      "airtime": "09:00",
+      "airstamp": "2022-08-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2367456"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2383149,
+      "url": "https://www.tvmaze.com/episodes/2383149/njpw-strong-2022-09-04-episode-34",
+      "name": "Episode 34",
+      "season": 2022,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2022-09-04",
+      "airtime": "09:00",
+      "airstamp": "2022-09-04T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383149"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2383150,
+      "url": "https://www.tvmaze.com/episodes/2383150/njpw-strong-2022-09-11-episode-35",
+      "name": "Episode 35",
+      "season": 2022,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2022-09-11",
+      "airtime": "09:00",
+      "airstamp": "2022-09-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383150"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2383151,
+      "url": "https://www.tvmaze.com/episodes/2383151/njpw-strong-2022-09-18-episode-36",
+      "name": "Episode 36",
+      "season": 2022,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2022-09-18",
+      "airtime": "09:00",
+      "airstamp": "2022-09-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383151"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2383152,
+      "url": "https://www.tvmaze.com/episodes/2383152/njpw-strong-2022-09-25-episode-37",
+      "name": "Episode 37",
+      "season": 2022,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2022-09-25",
+      "airtime": "09:00",
+      "airstamp": "2022-09-25T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383152"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2399921,
+      "url": "https://www.tvmaze.com/episodes/2399921/njpw-strong-2022-10-02-episode-38",
+      "name": "Episode 38",
+      "season": 2022,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2022-10-02",
+      "airtime": "09:00",
+      "airstamp": "2022-10-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2399921"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2399922,
+      "url": "https://www.tvmaze.com/episodes/2399922/njpw-strong-2022-10-09-episode-39",
+      "name": "Episode 39",
+      "season": 2022,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2022-10-09",
+      "airtime": "09:00",
+      "airstamp": "2022-10-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2399922"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2399923,
+      "url": "https://www.tvmaze.com/episodes/2399923/njpw-strong-2022-10-16-episode-40",
+      "name": "Episode 40",
+      "season": 2022,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2022-10-16",
+      "airtime": "09:00",
+      "airstamp": "2022-10-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2399923"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2399924,
+      "url": "https://www.tvmaze.com/episodes/2399924/njpw-strong-2022-10-23-episode-41",
+      "name": "Episode 41",
+      "season": 2022,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2022-10-23",
+      "airtime": "09:00",
+      "airstamp": "2022-10-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2399924"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2399925,
+      "url": "https://www.tvmaze.com/episodes/2399925/njpw-strong-2022-10-30-episode-42",
+      "name": "Episode 42",
+      "season": 2022,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2022-10-30",
+      "airtime": "09:00",
+      "airstamp": "2022-10-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2399925"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2429687,
+      "url": "https://www.tvmaze.com/episodes/2429687/njpw-strong-2022-11-05-new-japan-showdown-night-1",
+      "name": "New Japan Showdown - Night 1",
+      "season": 2022,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2022-11-05",
+      "airtime": "09:00",
+      "airstamp": "2022-11-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2429687"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2429688,
+      "url": "https://www.tvmaze.com/episodes/2429688/njpw-strong-2022-11-12-new-japan-showdown-night-2",
+      "name": "New Japan Showdown - Night 2",
+      "season": 2022,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2022-11-12",
+      "airtime": "09:00",
+      "airstamp": "2022-11-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2429688"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2429689,
+      "url": "https://www.tvmaze.com/episodes/2429689/njpw-strong-2022-11-19-new-japan-showdown-night-3",
+      "name": "New Japan Showdown - Night 3",
+      "season": 2022,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2022-11-19",
+      "airtime": "09:00",
+      "airstamp": "2022-11-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2429689"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2429690,
+      "url": "https://www.tvmaze.com/episodes/2429690/njpw-strong-2022-11-26-new-japan-showdown-night-4",
+      "name": "New Japan Showdown - Night 4",
+      "season": 2022,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2022-11-26",
+      "airtime": "09:00",
+      "airstamp": "2022-11-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2429690"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2443439,
+      "url": "https://www.tvmaze.com/episodes/2443439/njpw-strong-2022-12-03-detonation-night-1",
+      "name": "Detonation - Night 1",
+      "season": 2022,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2022-12-03",
+      "airtime": "09:00",
+      "airstamp": "2022-12-03T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2443439"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2443440,
+      "url": "https://www.tvmaze.com/episodes/2443440/njpw-strong-2022-12-10-detonation-night-2",
+      "name": "Detonation - Night 2",
+      "season": 2022,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2022-12-10",
+      "airtime": "09:00",
+      "airstamp": "2022-12-10T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2443440"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2443441,
+      "url": "https://www.tvmaze.com/episodes/2443441/njpw-strong-2022-12-17-detonation-night-3",
+      "name": "Detonation - Night 3",
+      "season": 2022,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2022-12-17",
+      "airtime": "09:00",
+      "airstamp": "2022-12-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2443441"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2443442,
+      "url": "https://www.tvmaze.com/episodes/2443442/njpw-strong-2022-12-24-detonation-night-4",
+      "name": "Detonation - Night 4",
+      "season": 2022,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2022-12-24",
+      "airtime": "09:00",
+      "airstamp": "2022-12-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2443442"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2466157,
+      "url": "https://www.tvmaze.com/episodes/2466157/njpw-strong-2022-12-31-best-of-strong-2022",
+      "name": "Best Of STRONG 2022",
+      "season": 2022,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2022-12-31",
+      "airtime": "09:00",
+      "airstamp": "2022-12-31T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2466157"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2466158,
+      "url": "https://www.tvmaze.com/episodes/2466158/njpw-strong-2023-01-07-nemesis-night-1",
+      "name": "Nemesis - Night 1",
+      "season": 2023,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-01-07",
+      "airtime": "09:00",
+      "airstamp": "2023-01-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2466158"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2466159,
+      "url": "https://www.tvmaze.com/episodes/2466159/njpw-strong-2023-01-14-nemesis-night-2",
+      "name": "Nemesis - Night 2",
+      "season": 2023,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-01-14",
+      "airtime": "09:00",
+      "airstamp": "2023-01-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2466159"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2466160,
+      "url": "https://www.tvmaze.com/episodes/2466160/njpw-strong-2023-01-21-nemesis-night-3",
+      "name": "Nemesis - Night 3",
+      "season": 2023,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-01-21",
+      "airtime": "09:00",
+      "airstamp": "2023-01-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2466160"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2466161,
+      "url": "https://www.tvmaze.com/episodes/2466161/njpw-strong-2023-01-28-nemesis-night-4",
+      "name": "Nemesis - Night 4",
+      "season": 2023,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-01-28",
+      "airtime": "09:00",
+      "airstamp": "2023-01-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2466161"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2501485,
+      "url": "https://www.tvmaze.com/episodes/2501485/njpw-strong-2023-03-11-battle-in-the-valley-night-1",
+      "name": "Battle In The Valley - Night 1",
+      "season": 2023,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-03-11",
+      "airtime": "09:00",
+      "airstamp": "2023-03-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2501485"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2501486,
+      "url": "https://www.tvmaze.com/episodes/2501486/njpw-strong-2023-03-18-battle-in-the-valley-night-2",
+      "name": "Battle In The Valley - Night 2",
+      "season": 2023,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-03-18",
+      "airtime": "09:00",
+      "airstamp": "2023-03-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2501486"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2501487,
+      "url": "https://www.tvmaze.com/episodes/2501487/njpw-strong-2023-03-25-battle-in-the-valley-night-3",
+      "name": "Battle In The Valley - Night 3",
+      "season": 2023,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-03-25",
+      "airtime": "09:00",
+      "airstamp": "2023-03-25T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2501487"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2501488,
+      "url": "https://www.tvmaze.com/episodes/2501488/njpw-strong-2023-04-01-battle-in-the-valley-night-4",
+      "name": "Battle In The Valley - Night 4",
+      "season": 2023,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-04-01",
+      "airtime": "09:00",
+      "airstamp": "2023-04-01T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2501488"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2527437,
+      "url": "https://www.tvmaze.com/episodes/2527437/njpw-strong-2023-04-15-multiverse-united-only-the-strong-survive-night-1",
+      "name": "Multiverse United: Only The STRONG Survive - Night 1",
+      "season": 2023,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-04-15",
+      "airtime": "09:00",
+      "airstamp": "2023-04-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2527437"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2527438,
+      "url": "https://www.tvmaze.com/episodes/2527438/njpw-strong-2023-04-23-multiverse-united-only-the-strong-survive-night-2",
+      "name": "Multiverse United: Only The STRONG Survive - Night 2",
+      "season": 2023,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-04-23",
+      "airtime": "09:00",
+      "airstamp": "2023-04-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2527438"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2527439,
+      "url": "https://www.tvmaze.com/episodes/2527439/njpw-strong-2023-04-30-multiverse-united-only-the-strong-survive-night-3",
+      "name": "Multiverse United: Only The STRONG Survive - Night 3",
+      "season": 2023,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-04-30",
+      "airtime": "09:00",
+      "airstamp": "2023-04-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2527439"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2527440,
+      "url": "https://www.tvmaze.com/episodes/2527440/njpw-strong-2023-05-07-multiverse-united-only-the-strong-survive-night-4",
+      "name": "Multiverse United: Only The STRONG Survive - Night 4",
+      "season": 2023,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-05-07",
+      "airtime": "09:00",
+      "airstamp": "2023-05-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2527440"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2588891,
+      "url": "https://www.tvmaze.com/episodes/2588891/njpw-strong-2023-07-04-independence-day-day-1",
+      "name": "Independence Day - Day 1",
+      "season": 2023,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-07-04",
+      "airtime": "09:00",
+      "airstamp": "2023-07-04T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2588891"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2588892,
+      "url": "https://www.tvmaze.com/episodes/2588892/njpw-strong-2023-07-05-independence-day-day-2",
+      "name": "Independence Day - Day 2",
+      "season": 2023,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-07-05",
+      "airtime": "09:00",
+      "airstamp": "2023-07-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2588892"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2592342,
+      "url": "https://www.tvmaze.com/episodes/2592342/njpw-strong-2023-07-08-resurgence-night-1",
+      "name": "Resurgence - Night 1",
+      "season": 2023,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-07-08",
+      "airtime": "09:00",
+      "airstamp": "2023-07-08T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2592342"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2592343,
+      "url": "https://www.tvmaze.com/episodes/2592343/njpw-strong-2023-07-15-resurgence-night-2",
+      "name": "Resurgence - Night 2",
+      "season": 2023,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-07-15",
+      "airtime": "09:00",
+      "airstamp": "2023-07-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2592343"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2592344,
+      "url": "https://www.tvmaze.com/episodes/2592344/njpw-strong-2023-07-22-resurgence-night-3",
+      "name": "Resurgence - Night 3",
+      "season": 2023,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-07-22",
+      "airtime": "09:00",
+      "airstamp": "2023-07-22T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2592344"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2592345,
+      "url": "https://www.tvmaze.com/episodes/2592345/njpw-strong-2023-07-29-resurgence-night-4",
+      "name": "Resurgence - Night 4",
+      "season": 2023,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2023-07-29",
+      "airtime": "09:00",
+      "airstamp": "2023-07-29T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2592345"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2616647,
+      "url": "https://www.tvmaze.com/episodes/2616647/njpw-strong-2023-08-05-independence-day-night-1",
+      "name": "Independence Day - Night 1",
+      "season": 2023,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2023-08-05",
+      "airtime": "09:00",
+      "airstamp": "2023-08-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2616647"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2616648,
+      "url": "https://www.tvmaze.com/episodes/2616648/njpw-strong-2023-08-12-independence-day-night-2",
+      "name": "Independence Day - Night 2",
+      "season": 2023,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2023-08-12",
+      "airtime": "09:00",
+      "airstamp": "2023-08-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2616648"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2616649,
+      "url": "https://www.tvmaze.com/episodes/2616649/njpw-strong-2023-08-19-independence-day-night-3",
+      "name": "Independence Day - Night 3",
+      "season": 2023,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2023-08-19",
+      "airtime": "09:00",
+      "airstamp": "2023-08-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2616649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2616650,
+      "url": "https://www.tvmaze.com/episodes/2616650/njpw-strong-2023-08-26-independence-day-night-4",
+      "name": "Independence Day - Night 4",
+      "season": 2023,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2023-08-26",
+      "airtime": "09:00",
+      "airstamp": "2023-08-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2616650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2619389,
+      "url": "https://www.tvmaze.com/episodes/2619389/njpw-strong-2023-09-02-independence-day-night-5",
+      "name": "Independence Day - Night 5",
+      "season": 2023,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2023-09-02",
+      "airtime": "09:00",
+      "airstamp": "2023-09-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2619389"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2619390,
+      "url": "https://www.tvmaze.com/episodes/2619390/njpw-strong-2023-09-09-independence-day-night-6",
+      "name": "Independence Day - Night 6",
+      "season": 2023,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2023-09-09",
+      "airtime": "09:00",
+      "airstamp": "2023-09-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2619390"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2619391,
+      "url": "https://www.tvmaze.com/episodes/2619391/njpw-strong-2023-09-16-independence-day-night-7",
+      "name": "Independence Day - Night 7",
+      "season": 2023,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2023-09-16",
+      "airtime": "09:00",
+      "airstamp": "2023-09-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2619391"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2619392,
+      "url": "https://www.tvmaze.com/episodes/2619392/njpw-strong-2023-09-23-independence-day-night-8",
+      "name": "Independence Day - Night 8",
+      "season": 2023,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2023-09-23",
+      "airtime": "09:00",
+      "airstamp": "2023-09-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2619392"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2657650,
+      "url": "https://www.tvmaze.com/episodes/2657650/njpw-strong-2023-09-30-all-star-junior-festival-usa-2023-night-1",
+      "name": "All Star Junior Festival USA 2023 - Night 1",
+      "season": 2023,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2023-09-30",
+      "airtime": "09:00",
+      "airstamp": "2023-09-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2657650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2657651,
+      "url": "https://www.tvmaze.com/episodes/2657651/njpw-strong-2023-10-07-all-star-junior-festival-usa-2023-night-2",
+      "name": "All Star Junior Festival USA 2023 - Night 2",
+      "season": 2023,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2023-10-07",
+      "airtime": "09:00",
+      "airstamp": "2023-10-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2657651"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2657652,
+      "url": "https://www.tvmaze.com/episodes/2657652/njpw-strong-2023-10-14-all-star-junior-festival-usa-2023-night-3",
+      "name": "All Star Junior Festival USA 2023 - Night 3",
+      "season": 2023,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2023-10-14",
+      "airtime": "09:00",
+      "airstamp": "2023-10-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2657652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2657653,
+      "url": "https://www.tvmaze.com/episodes/2657653/njpw-strong-2023-10-21-all-star-junior-festival-usa-2023-night-1",
+      "name": "All Star Junior Festival USA 2023 - Night 1",
+      "season": 2023,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2023-10-21",
+      "airtime": "09:00",
+      "airstamp": "2023-10-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2657653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2676812,
+      "url": "https://www.tvmaze.com/episodes/2676812/njpw-strong-2023-10-28-multiverse-united-ii-for-whom-the-bell-tolls-night-1",
+      "name": "Multiverse United II: For Whom The Bell Tolls - Night 1",
+      "season": 2023,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2023-10-28",
+      "airtime": "09:00",
+      "airstamp": "2023-10-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2676812"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2676813,
+      "url": "https://www.tvmaze.com/episodes/2676813/njpw-strong-2023-11-04-multiverse-united-ii-for-whom-the-bell-tolls-night-2",
+      "name": "Multiverse United II: For Whom The Bell Tolls - Night 2",
+      "season": 2023,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2023-11-04",
+      "airtime": "09:00",
+      "airstamp": "2023-11-04T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2676813"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2676814,
+      "url": "https://www.tvmaze.com/episodes/2676814/njpw-strong-2023-11-11-multiverse-united-ii-for-whom-the-bell-tolls-night-3",
+      "name": "Multiverse United II: For Whom The Bell Tolls - Night 3",
+      "season": 2023,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2023-11-11",
+      "airtime": "09:00",
+      "airstamp": "2023-11-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2676814"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2676815,
+      "url": "https://www.tvmaze.com/episodes/2676815/njpw-strong-2023-11-18-multiverse-united-ii-for-whom-the-bell-tolls-night-4",
+      "name": "Multiverse United II: For Whom The Bell Tolls - Night 4",
+      "season": 2023,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2023-11-18",
+      "airtime": "09:00",
+      "airstamp": "2023-11-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2676815"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2726530,
+      "url": "https://www.tvmaze.com/episodes/2726530/njpw-strong-2024-01-06-best-of-strong-2023-night-1",
+      "name": "Best Of STRONG 2023 - Night 1",
+      "season": 2024,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-01-06",
+      "airtime": "09:00",
+      "airstamp": "2024-01-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726530"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2726531,
+      "url": "https://www.tvmaze.com/episodes/2726531/njpw-strong-2024-01-13-best-of-strong-2023-night-2",
+      "name": "Best Of STRONG 2023 - Night 2",
+      "season": 2024,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-01-13",
+      "airtime": "09:00",
+      "airstamp": "2024-01-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726531"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2726532,
+      "url": "https://www.tvmaze.com/episodes/2726532/njpw-strong-2024-01-20-best-of-strong-2023-night-3",
+      "name": "Best Of STRONG 2023 - Night 3",
+      "season": 2024,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-01-20",
+      "airtime": "09:00",
+      "airstamp": "2024-01-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726532"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2726533,
+      "url": "https://www.tvmaze.com/episodes/2726533/njpw-strong-2024-01-27-best-of-strong-2023-night-4",
+      "name": "Best Of STRONG 2023 - Night 4",
+      "season": 2024,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-01-27",
+      "airtime": "09:00",
+      "airstamp": "2024-01-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726533"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    },
+    {
+      "id": 2828145,
+      "url": "https://www.tvmaze.com/episodes/2828145/njpw-strong-2024-04-11-windy-city-riot-2024-press-conference",
+      "name": "Windy City Riot 2024 - Press Conference",
+      "season": 2024,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-04-11",
+      "airtime": "09:00",
+      "airstamp": "2024-04-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2828145"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/50263",
+          "name": "NJPW Strong"
+        }
+      }
+    }
+  ]
+}

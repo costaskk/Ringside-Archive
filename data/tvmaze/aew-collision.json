@@ -1,0 +1,4591 @@
+{
+  "programId": "aew-collision",
+  "tvMazeId": 68778,
+  "fetchedAt": "2026-07-27T07:57:36.391Z",
+  "show": {
+    "id": 68778,
+    "url": "https://www.tvmaze.com/shows/68778/aew-collision",
+    "name": "AEW: Collision",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": 120,
+    "averageRuntime": 116,
+    "premiered": "2023-06-17",
+    "ended": null,
+    "officialSite": "https://www.tntdrama.com/shows/all-elite-wrestling-collision",
+    "schedule": {
+      "time": "20:00",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": 3.3
+    },
+    "weight": 95,
+    "network": {
+      "id": 14,
+      "name": "TNT",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.tntdrama.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 435034,
+      "imdb": "tt27776045"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/572/1432197.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
+    },
+    "summary": "<p>This live, two-hour, in-ring show will air every Saturday night from 8-10 p.m. ET and feature more wrestlers, more stories and more action to super-serve fans. <b>AEW: Collision </b>will feature headliners including Miro, Samoa Joe, Thunder Rosa, Powerhouse Hobbs, and Andrade El Idolo. </p>",
+    "updated": 1785037283,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/68778"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3605909",
+        "name": "#162 - The Pinnacle in Nashville, TN"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3605910",
+        "name": "#163 - Masonic Temple Theater in Detroit, MI"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2550431,
+      "url": "https://www.tvmaze.com/episodes/2550431/aew-collision-1x01-1-united-center-in-chicago-il",
+      "name": "#1 - United Center in Chicago, IL",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-06-17",
+      "airtime": "20:00",
+      "airstamp": "2023-06-18T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Debut of Collision. CM Punk returns to team with FTR in a trios match against Samoa Joe, Jay White, Juice Robinson.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550431"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2550579,
+      "url": "https://www.tvmaze.com/episodes/2550579/aew-collision-1x02-2-scotiabank-arena-in-toronto-on",
+      "name": "#2 - Scotiabank Arena in Toronto, ON",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-06-24",
+      "airtime": "20:00",
+      "airstamp": "2023-06-25T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2550580,
+      "url": "https://www.tvmaze.com/episodes/2550580/aew-collision-1x03-3-firstontario-centre-in-hamilton-on",
+      "name": "#3 - FirstOntario Centre in Hamilton, ON",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-07-01",
+      "airtime": "20:00",
+      "airstamp": "2023-07-02T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550580"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2550581,
+      "url": "https://www.tvmaze.com/episodes/2550581/aew-collision-1x04-4-brandt-centre-in-regina-sk",
+      "name": "#4 - Brandt Centre in Regina, SK",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-07-08",
+      "airtime": "20:00",
+      "airstamp": "2023-07-09T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550581"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2550582,
+      "url": "https://www.tvmaze.com/episodes/2550582/aew-collision-1x05-5-calgary-stampede-saddledome-in-calgary-ab",
+      "name": "#5 - Calgary Stampede Saddledome in Calgary, AB",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-07-15",
+      "airtime": "20:00",
+      "airstamp": "2023-07-16T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550582"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2550583,
+      "url": "https://www.tvmaze.com/episodes/2550583/aew-collision-1x06-6-prudential-center-in-newark-nj",
+      "name": "#6 - Prudential Center in Newark, NJ",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-07-22",
+      "airtime": "20:00",
+      "airstamp": "2023-07-23T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2568467,
+      "url": "https://www.tvmaze.com/episodes/2568467/aew-collision-1x07-7-xl-center-in-hartford-ct",
+      "name": "#7 - XL Center in Hartford, CT",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-07-29",
+      "airtime": "20:00",
+      "airstamp": "2023-07-30T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>AEW World Tag titles: FTR vs MJF, Adam Cole 'BayBay'. Buddy Mathews vs Andrade El ídolo. Del Vikingo, Andretti, Darius Martin vs The Gunns, Juice Robinson.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2568467"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2568468,
+      "url": "https://www.tvmaze.com/episodes/2568468/aew-collision-1x08-8-bon-secours-wellness-arena-in-greenville-sc",
+      "name": "#8 - Bon Secours Wellness Arena in Greenville, SC",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-08-05",
+      "airtime": "20:00",
+      "airstamp": "2023-08-06T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2568468"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2568469,
+      "url": "https://www.tvmaze.com/episodes/2568469/aew-collision-1x09-9-greensboro-coliseum-in-greensboro-nc",
+      "name": "#9 - Greensboro Coliseum in Greensboro, NC",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-08-12",
+      "airtime": "20:00",
+      "airstamp": "2023-08-13T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2568469"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2578714,
+      "url": "https://www.tvmaze.com/episodes/2578714/aew-collision-1x10-10-fight-for-the-fallen-rupp-arena-in-lexington-ky",
+      "name": "#10 - Fight for the Fallen: Rupp Arena in Lexington, KY",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-08-19",
+      "airtime": "20:00",
+      "airstamp": "2023-08-20T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2578714"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2578715,
+      "url": "https://www.tvmaze.com/episodes/2578715/aew-collision-1x11-11-fyter-fest-gas-south-arena-in-duluth-ga",
+      "name": "#11 - Fyter Fest: Gas South Arena in Duluth, GA",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-08-26",
+      "airtime": "20:00",
+      "airstamp": "2023-08-27T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2578715"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2578716,
+      "url": "https://www.tvmaze.com/episodes/2578716/aew-collision-1x12-12-united-center-in-chicago-il",
+      "name": "#12 - United Center in Chicago, IL",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-09-02",
+      "airtime": "20:00",
+      "airstamp": "2023-09-03T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>World Trios title: The Acclaimed vs Daddy Magic, Angelo Parker, Daniel Garcia. Dax Harwood vs Jay White. The Outcasts vs Britt Baker, Kris Statlander, Shida. Ricky Starks calls out Steamboat.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2578716"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2596846,
+      "url": "https://www.tvmaze.com/episodes/2596846/aew-collision-1x13-13-rocket-mortgage-fieldhouse-in-cleveland-oh",
+      "name": "#13 - Rocket Mortgage Fieldhouse in Cleveland, OH",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-09-09",
+      "airtime": "20:00",
+      "airstamp": "2023-09-10T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2596846"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2596847,
+      "url": "https://www.tvmaze.com/episodes/2596847/aew-collision-1x14-14-bryce-jordan-center-in-state-college-pa",
+      "name": "#14 - Bryce Jordan Center in State College, PA",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-09-16",
+      "airtime": "20:00",
+      "airstamp": "2023-09-17T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2596847"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2618316,
+      "url": "https://www.tvmaze.com/episodes/2618316/aew-collision-1x15-15-van-andel-arena-in-grand-rapids-mi",
+      "name": "#15 - Van Andel Arena in Grand Rapids, MI",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-09-23",
+      "airtime": "20:00",
+      "airstamp": "2023-09-24T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2618316"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2618317,
+      "url": "https://www.tvmaze.com/episodes/2618317/aew-collision-1x16-16-climate-pledge-arena-in-seattle-wa",
+      "name": "#16 - Climate Pledge Arena in Seattle, WA",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-09-30",
+      "airtime": "20:00",
+      "airstamp": "2023-10-01T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2618317"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2618318,
+      "url": "https://www.tvmaze.com/episodes/2618318/aew-collision-1x17-17-maverik-center-in-salt-lake-city-ut",
+      "name": "#17 - Maverik Center in Salt Lake City, UT",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-10-07",
+      "airtime": "19:00",
+      "airstamp": "2023-10-07T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2618318"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2625383,
+      "url": "https://www.tvmaze.com/episodes/2625383/aew-collision-1x18-18-huntington-center-in-toledo-oh",
+      "name": "#18 - Huntington Center in Toledo, OH",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2023-10-14",
+      "airtime": "19:00",
+      "airstamp": "2023-10-14T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2625383"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635886,
+      "url": "https://www.tvmaze.com/episodes/2635886/aew-collision-1x19-19-fedexforum-in-memphis-tn",
+      "name": "#19 - FedExForum in Memphis, TN",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2023-10-21",
+      "airtime": "20:00",
+      "airstamp": "2023-10-22T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635886"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635887,
+      "url": "https://www.tvmaze.com/episodes/2635887/aew-collision-1x20-20-mohegan-sun-arena-in-uncasville-ct",
+      "name": "#20 - Mohegan Sun Arena in Uncasville, CT",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2023-10-28",
+      "airtime": "20:00",
+      "airstamp": "2023-10-29T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635887"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635888,
+      "url": "https://www.tvmaze.com/episodes/2635888/aew-collision-1x21-21-intrust-bank-arena-in-wichita-ks",
+      "name": "#21 - Intrust Bank Arena in Wichita, KS",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2023-11-04",
+      "airtime": "20:00",
+      "airstamp": "2023-11-05T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635888"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635889,
+      "url": "https://www.tvmaze.com/episodes/2635889/aew-collision-1x22-22-oakland-arena-in-oakland-ca",
+      "name": "#22 - Oakland Arena in Oakland, CA",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2023-11-11",
+      "airtime": "20:00",
+      "airstamp": "2023-11-12T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635889"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635890,
+      "url": "https://www.tvmaze.com/episodes/2635890/aew-collision-1x23-23-kia-forum-in-los-angeles-ca",
+      "name": "#23 - Kia Forum in Los Angeles, CA",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2023-11-17",
+      "airtime": "20:00",
+      "airstamp": "2023-11-18T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635890"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635891,
+      "url": "https://www.tvmaze.com/episodes/2635891/aew-collision-1x24-24-petersen-events-center-in-pittsburgh-pa",
+      "name": "#24 - Petersen Events Center in Pittsburgh, PA",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2023-11-25",
+      "airtime": "20:00",
+      "airstamp": "2023-11-26T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635891"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635892,
+      "url": "https://www.tvmaze.com/episodes/2635892/aew-collision-1x25-25-erie-insurance-arena-in-erie-pa",
+      "name": "#25 - Erie Insurance Arena in Erie, PA",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2023-12-02",
+      "airtime": "20:00",
+      "airstamp": "2023-12-03T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635892"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635893,
+      "url": "https://www.tvmaze.com/episodes/2635893/aew-collision-1x26-26-bell-centre-in-montreal-qc",
+      "name": "#26 - Bell Centre in Montreal, QC",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2023-12-09",
+      "airtime": "20:00",
+      "airstamp": "2023-12-10T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635893"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635894,
+      "url": "https://www.tvmaze.com/episodes/2635894/aew-collision-1x27-27-winter-is-coming-curtis-culwell-center-in-garland-tx",
+      "name": "#27 - Winter is Coming: Curtis Culwell Center in Garland, TX",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2023-12-16",
+      "airtime": "20:00",
+      "airstamp": "2023-12-17T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635894"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635895,
+      "url": "https://www.tvmaze.com/episodes/2635895/aew-collision-1x28-28-holiday-bash-frost-bank-center-in-san-antonio-tx",
+      "name": "#28 - Holiday Bash: Frost Bank Center in San Antonio, TX",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2023-12-23",
+      "airtime": "20:00",
+      "airstamp": "2023-12-24T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635895"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2635896,
+      "url": "https://www.tvmaze.com/episodes/2635896/aew-collision-2x01-29-bojangles-coliseum-in-charlotte-nc",
+      "name": "#29 - Bojangles Coliseum in Charlotte, NC",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-01-06",
+      "airtime": "20:00",
+      "airstamp": "2024-01-07T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635896"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2687587,
+      "url": "https://www.tvmaze.com/episodes/2687587/aew-collision-2x02-30-chartway-arena-in-norfolk-va",
+      "name": "#30 - Chartway Arena in Norfolk, VA",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-01-13",
+      "airtime": "20:00",
+      "airstamp": "2024-01-14T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2687587"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2696335,
+      "url": "https://www.tvmaze.com/episodes/2696335/aew-collision-2x03-31-chaifetz-arena-in-st-louis-mo",
+      "name": "#31 - Chaifetz Arena in St. Louis, MO",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-01-20",
+      "airtime": "20:00",
+      "airstamp": "2024-01-21T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2696335"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2696336,
+      "url": "https://www.tvmaze.com/episodes/2696336/aew-collision-2x04-32-brookshire-grocery-arena-in-bossier-city-la",
+      "name": "#32 - Brookshire Grocery Arena in Bossier City, LA",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-01-27",
+      "airtime": "20:00",
+      "airstamp": "2024-01-28T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2696336"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2705729,
+      "url": "https://www.tvmaze.com/episodes/2705729/aew-collision-2x05-33-bert-ogden-arena-in-edinburg-tx",
+      "name": "#33 - Bert Ogden Arena in Edinburg, TX",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-02-03",
+      "airtime": "20:00",
+      "airstamp": "2024-02-04T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2705729"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2705730,
+      "url": "https://www.tvmaze.com/episodes/2705730/aew-collision-2x06-34-the-dollar-loan-center-in-henderson-nv",
+      "name": "#34 - The Dollar Loan Center in Henderson, NV",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2024-02-10",
+      "airtime": "20:00",
+      "airstamp": "2024-02-11T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2705730"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2720220,
+      "url": "https://www.tvmaze.com/episodes/2720220/aew-collision-2x08-35-great-southern-bank-arena-in-springfield-mo",
+      "name": "#35 - Great Southern Bank Arena in Springfield, MO",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2024-02-24",
+      "airtime": "20:00",
+      "airstamp": "2024-02-25T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720220"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2720221,
+      "url": "https://www.tvmaze.com/episodes/2720221/aew-collision-2x09-36-propst-arena-at-von-braun-center-in-huntsville-al",
+      "name": "#36 - Propst Arena at Von Braun Center in Huntsville, AL",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2024-03-02",
+      "airtime": "20:00",
+      "airstamp": "2024-03-03T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720221"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2720223,
+      "url": "https://www.tvmaze.com/episodes/2720223/aew-collision-2x10-37-gas-south-arena-in-duluth-ga",
+      "name": "#37 - Gas South Arena in Duluth, GA",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2024-03-09",
+      "airtime": "20:00",
+      "airstamp": "2024-03-10T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720223"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2720224,
+      "url": "https://www.tvmaze.com/episodes/2720224/aew-collision-2x11-38-canadian-tire-centre-in-ottawa-on",
+      "name": "#38 - Canadian Tire Centre in Ottawa, ON",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2024-03-16",
+      "airtime": "20:00",
+      "airstamp": "2024-03-17T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720224"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2720228,
+      "url": "https://www.tvmaze.com/episodes/2720228/aew-collision-2x13-39-budweiser-gardens-in-london-on",
+      "name": "#39 - Budweiser Gardens in London, ON",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2024-03-30",
+      "airtime": "20:00",
+      "airstamp": "2024-03-31T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720228"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726479,
+      "url": "https://www.tvmaze.com/episodes/2726479/aew-collision-2x14-40-dcu-center-in-worcester-ma",
+      "name": "#40 - DCU Center in Worcester, MA",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2024-04-06",
+      "airtime": "23:30",
+      "airstamp": "2024-04-07T03:30:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726479"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726480,
+      "url": "https://www.tvmaze.com/episodes/2726480/aew-collision-2x15-41-truist-arena-in-highland-heights-ky",
+      "name": "#41 - Truist Arena in Highland Heights, KY",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2024-04-13",
+      "airtime": "20:00",
+      "airstamp": "2024-04-14T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726480"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726481,
+      "url": "https://www.tvmaze.com/episodes/2726481/aew-collision-2x16-42-peoria-civic-center-in-peoria-il",
+      "name": "#42 - Peoria Civic Center in Peoria, IL",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2024-04-20",
+      "airtime": "20:00",
+      "airstamp": "2024-04-21T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726481"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726482,
+      "url": "https://www.tvmaze.com/episodes/2726482/aew-collision-2x17-43-dailys-place-in-jacksonville-fl",
+      "name": "#43 - Daily's Place in Jacksonville, FL",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2024-04-27",
+      "airtime": "20:22",
+      "airstamp": "2024-04-28T00:22:00+00:00",
+      "runtime": 128,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726482"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726484,
+      "url": "https://www.tvmaze.com/episodes/2726484/aew-collision-2x19-44-rogers-arena-in-vancouver-bc",
+      "name": "#44 - Rogers Arena in Vancouver, BC",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2024-05-11",
+      "airtime": "20:00",
+      "airstamp": "2024-05-12T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726484"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726485,
+      "url": "https://www.tvmaze.com/episodes/2726485/aew-collision-2x20-45-moda-center-in-portland-or",
+      "name": "#45 - Moda Center in Portland, OR",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2024-05-18",
+      "airtime": "20:00",
+      "airstamp": "2024-05-19T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726485"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726486,
+      "url": "https://www.tvmaze.com/episodes/2726486/aew-collision-2x21-46-mgm-grand-garden-arena-in-las-vegas-nv",
+      "name": "#46 - MGM Grand Garden Arena in Las Vegas, NV",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2024-05-25",
+      "airtime": "20:00",
+      "airstamp": "2024-05-26T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726486"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726487,
+      "url": "https://www.tvmaze.com/episodes/2726487/aew-collision-2x22-47-acrisure-arena-in-palm-springs-ca",
+      "name": "#47 - Acrisure Arena in Palm Springs, CA",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2024-06-01",
+      "airtime": "20:00",
+      "airstamp": "2024-06-02T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726487"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726488,
+      "url": "https://www.tvmaze.com/episodes/2726488/aew-collision-2x23-48-mid-america-center-in-council-bluffs-ia",
+      "name": "#48 - Mid-America Center in Council Bluffs, IA",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2024-06-08",
+      "airtime": "20:00",
+      "airstamp": "2024-06-09T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726488"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726489,
+      "url": "https://www.tvmaze.com/episodes/2726489/aew-collision-2x24-49-1-year-anniversary-covelli-centre-in-youngstown-oh",
+      "name": "#49 - 1 Year Anniversary: Covelli Centre in Youngstown, OH",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2024-06-15",
+      "airtime": "20:00",
+      "airstamp": "2024-06-16T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726489"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2726490,
+      "url": "https://www.tvmaze.com/episodes/2726490/aew-collision-2x25-50-ppl-center-in-allentown-pa",
+      "name": "#50 - PPL Center in Allentown, PA",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2024-06-22",
+      "airtime": "20:00",
+      "airstamp": "2024-06-23T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2726490"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732638,
+      "url": "https://www.tvmaze.com/episodes/2732638/aew-collision-2x26-51-keybank-center-in-buffalo-ny",
+      "name": "#51 - KeyBank Center in Buffalo, NY",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2024-06-29",
+      "airtime": "20:00",
+      "airstamp": "2024-06-30T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732639,
+      "url": "https://www.tvmaze.com/episodes/2732639/aew-collision-2x27-52-landers-center-in-southaven-ms",
+      "name": "#52 - Landers Center in Southaven, MS",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2024-07-06",
+      "airtime": "20:00",
+      "airstamp": "2024-07-07T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732640,
+      "url": "https://www.tvmaze.com/episodes/2732640/aew-collision-2x28-53-scotiabank-saddledome-in-calgary-ab",
+      "name": "#53 - Scotiabank Saddledome in Calgary, AB",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2024-07-13",
+      "airtime": "20:00",
+      "airstamp": "2024-07-14T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732641,
+      "url": "https://www.tvmaze.com/episodes/2732641/aew-collision-2x29-54-esports-stadium-in-arlington-tx",
+      "name": "#54 - Esports Stadium in Arlington, TX",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2024-07-20",
+      "airtime": "20:00",
+      "airstamp": "2024-07-21T00:00:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732641"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732642,
+      "url": "https://www.tvmaze.com/episodes/2732642/aew-collision-2x30-55-esports-stadium-in-arlington-tx",
+      "name": "#55 - Esports Stadium in Arlington, TX",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2024-07-27",
+      "airtime": "20:00",
+      "airstamp": "2024-07-28T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732642"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732643,
+      "url": "https://www.tvmaze.com/episodes/2732643/aew-collision-2x31-56-esports-stadium-in-arlington-tx",
+      "name": "#56 - Esports Stadium in Arlington, TX",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2024-08-03",
+      "airtime": "17:00",
+      "airstamp": "2024-08-03T21:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732644,
+      "url": "https://www.tvmaze.com/episodes/2732644/aew-collision-2x32-57-esports-stadium-in-arlington-tx",
+      "name": "#57 - Esports Stadium in Arlington, TX",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2024-08-10",
+      "airtime": "20:00",
+      "airstamp": "2024-08-11T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732645,
+      "url": "https://www.tvmaze.com/episodes/2732645/aew-collision-2x33-58-esports-stadium-in-arlington-tx",
+      "name": "#58 - Esports Stadium in Arlington, TX",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2024-08-17",
+      "airtime": "20:00",
+      "airstamp": "2024-08-18T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732646,
+      "url": "https://www.tvmaze.com/episodes/2732646/aew-collision-2x34-59-utilita-arena-cardiff-in-cardiff-wales",
+      "name": "#59 - Utilita Arena Cardiff in Cardiff, Wales",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2024-08-24",
+      "airtime": "20:00",
+      "airstamp": "2024-08-25T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732646"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732647,
+      "url": "https://www.tvmaze.com/episodes/2732647/aew-collision-2x35-60-denny-sanford-premier-center-in-sioux-falls-sd",
+      "name": "#60 - Denny Sanford Premier Center in Sioux Falls, SD",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2024-08-31",
+      "airtime": "20:00",
+      "airstamp": "2024-09-01T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732647"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732648,
+      "url": "https://www.tvmaze.com/episodes/2732648/aew-collision-2x36-61-now-arena-in-hoffman-estates-il",
+      "name": "#61 - NOW Arena in Hoffman Estates, IL",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2024-09-06",
+      "airtime": "20:00",
+      "airstamp": "2024-09-07T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732648"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732649,
+      "url": "https://www.tvmaze.com/episodes/2732649/aew-collision-2x37-62-nutter-center-in-dayton-oh",
+      "name": "#62 - Nutter Center in Dayton, OH",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2024-09-14",
+      "airtime": "20:00",
+      "airstamp": "2024-09-15T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732650,
+      "url": "https://www.tvmaze.com/episodes/2732650/aew-collision-2x38-63-massmutual-center-in-springfield-ma",
+      "name": "#63 - MassMutual Center in Springfield, MA",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2024-09-21",
+      "airtime": "20:00",
+      "airstamp": "2024-09-22T00:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732651,
+      "url": "https://www.tvmaze.com/episodes/2732651/aew-collision-2x39-64-grand-slam-arthur-ashe-stadium-in-queens-ny",
+      "name": "#64 - Grand Slam: Arthur Ashe Stadium in Queens, NY",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2024-09-28",
+      "airtime": "20:00",
+      "airstamp": "2024-09-29T00:00:00+00:00",
+      "runtime": 125,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732651"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732652,
+      "url": "https://www.tvmaze.com/episodes/2732652/aew-collision-2x40-65-huntington-center-in-toledo-oh",
+      "name": "#65 - Huntington Center in Toledo, OH",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2024-10-05",
+      "airtime": "20:00",
+      "airstamp": "2024-10-06T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732654,
+      "url": "https://www.tvmaze.com/episodes/2732654/aew-collision-2x42-66-adventist-health-arena-in-stockton-ca",
+      "name": "#66 - Adventist Health Arena in Stockton, CA",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2024-10-19",
+      "airtime": "20:00",
+      "airstamp": "2024-10-20T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732655,
+      "url": "https://www.tvmaze.com/episodes/2732655/aew-collision-2x43-67-alliant-energy-powerhouse-in-cedar-rapids-ia",
+      "name": "#67 - Alliant Energy Powerhouse in Cedar Rapids, IA",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2024-10-26",
+      "airtime": "20:00",
+      "airstamp": "2024-10-27T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732656,
+      "url": "https://www.tvmaze.com/episodes/2732656/aew-collision-2x44-68-liacouras-center-in-philadelphia-pa",
+      "name": "#68 - Liacouras Center in Philadelphia, PA",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2024-11-02",
+      "airtime": "20:00",
+      "airstamp": "2024-11-03T00:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732657,
+      "url": "https://www.tvmaze.com/episodes/2732657/aew-collision-2x45-69-amica-mutual-pavilion-in-providence-ri",
+      "name": "#69 - Amica Mutual Pavilion in Providence, RI",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2024-11-09",
+      "airtime": "20:00",
+      "airstamp": "2024-11-10T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732657"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732658,
+      "url": "https://www.tvmaze.com/episodes/2732658/aew-collision-2x46-70-mvp-arena-in-albany-ny",
+      "name": "#70 - MVP Arena in Albany, NY",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2024-11-16",
+      "airtime": "20:00",
+      "airstamp": "2024-11-17T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732658"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732660,
+      "url": "https://www.tvmaze.com/episodes/2732660/aew-collision-2x48-71-wintrust-arena-in-chicago-il",
+      "name": "#71 - Wintrust Arena in Chicago, IL",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2024-11-30",
+      "airtime": "16:00",
+      "airstamp": "2024-11-30T21:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732660"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732661,
+      "url": "https://www.tvmaze.com/episodes/2732661/aew-collision-2x49-72-greater-columbus-convention-center-in-columbus-oh",
+      "name": "#72 - Greater Columbus Convention Center in Columbus, OH",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2024-12-07",
+      "airtime": "20:00",
+      "airstamp": "2024-12-08T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732661"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732662,
+      "url": "https://www.tvmaze.com/episodes/2732662/aew-collision-2x50-73-winter-is-coming-chaifetz-arena-in-st-louis-mo",
+      "name": "#73 - Winter is Coming: Chaifetz Arena in St. Louis, MO",
+      "season": 2,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2024-12-14",
+      "airtime": "20:00",
+      "airstamp": "2024-12-15T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732662"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732663,
+      "url": "https://www.tvmaze.com/episodes/2732663/aew-collision-2x51-74-christmas-collision-hammerstein-ballroom-in-new-york-ny",
+      "name": "#74 - Christmas Collision: Hammerstein Ballroom in New York, NY",
+      "season": 2,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2024-12-21",
+      "airtime": "20:00",
+      "airstamp": "2024-12-22T01:00:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732663"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3030029,
+      "url": "https://www.tvmaze.com/episodes/3030029/aew-collision-3x01-75-bojangles-coliseum-in-charlotte-nc",
+      "name": "#75 - Bojangles Coliseum in Charlotte, NC",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2025-01-04",
+      "airtime": "20:00",
+      "airstamp": "2025-01-05T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030029"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3030030,
+      "url": "https://www.tvmaze.com/episodes/3030030/aew-collision-3x02-76-akins-ford-arena-in-athens-ga",
+      "name": "#76 - Akins Ford Arena in Athens, GA",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2025-01-11",
+      "airtime": "20:00",
+      "airstamp": "2025-01-12T01:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030030"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3030028,
+      "url": "https://www.tvmaze.com/episodes/3030028/aew-collision-3x03-77-maximum-carnage-brady-music-center-in-cincinnati-oh",
+      "name": "#77 - Maximum Carnage: Brady Music Center in Cincinnati, OH",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2025-01-18",
+      "airtime": "20:00",
+      "airstamp": "2025-01-19T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030028"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3030031,
+      "url": "https://www.tvmaze.com/episodes/3030031/aew-collision-3x04-78-homecoming-dailys-place-in-jacksonville-fl",
+      "name": "#78 - Homecoming: Daily's Place in Jacksonville, FL",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2025-01-25",
+      "airtime": "20:00",
+      "airstamp": "2025-01-26T01:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030031"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3065737,
+      "url": "https://www.tvmaze.com/episodes/3065737/aew-collision-3x05-79-probst-arena-in-huntsville-al",
+      "name": "#79 - Probst Arena in Huntsville, AL",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2025-02-01",
+      "airtime": "20:00",
+      "airstamp": "2025-02-02T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3065737"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3065738,
+      "url": "https://www.tvmaze.com/episodes/3065738/aew-collision-3x06-80-fort-bend-county-epicenter-in-houston-tx",
+      "name": "#80 - Fort Bend County Epicenter in Houston, TX",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2025-02-08",
+      "airtime": "20:00",
+      "airstamp": "2025-02-09T01:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3065738"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3146711,
+      "url": "https://www.tvmaze.com/episodes/3146711/aew-collision-3x07-81-grand-slam-australia-brisbane-entertainment-centre-in-brisbane-australia",
+      "name": "#81 - Grand Slam Australia: Brisbane Entertainment Centre in Brisbane, Australia",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2025-02-15",
+      "airtime": "22:52",
+      "airstamp": "2025-02-16T03:52:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3146711"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3065740,
+      "url": "https://www.tvmaze.com/episodes/3065740/aew-collision-3x08-82-arizona-financial-theater-in-phoenix-az",
+      "name": "#82 - Arizona Financial Theater in Phoenix, AZ",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2025-02-22",
+      "airtime": "20:00",
+      "airstamp": "2025-02-23T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3065740"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3065741,
+      "url": "https://www.tvmaze.com/episodes/3065741/aew-collision-3x09-83-frontwave-arena-in-oceanside-ca",
+      "name": "#83 - Frontwave Arena in Oceanside, CA",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2025-03-01",
+      "airtime": "20:00",
+      "airstamp": "2025-03-02T01:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3065741"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3065742,
+      "url": "https://www.tvmaze.com/episodes/3065742/aew-collision-3x10-84-sacramento-memorial-auditorium-in-sacramento-ca",
+      "name": "#84 - Sacramento Memorial Auditorium in Sacramento, CA",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2025-03-08",
+      "airtime": "20:00",
+      "airstamp": "2025-03-09T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3065742"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3065743,
+      "url": "https://www.tvmaze.com/episodes/3065743/aew-collision-3x11-85-the-theater-at-virgin-hotels-in-las-vegas-nv",
+      "name": "#85 - The Theater at Virgin Hotels in Las Vegas, NV",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2025-03-15",
+      "airtime": "20:00",
+      "airstamp": "2025-03-16T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3065743"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3120066,
+      "url": "https://www.tvmaze.com/episodes/3120066/aew-collision-3x12-86-slam-dunk-saturday-liberty-first-credit-union-arena-in-omaha-ne",
+      "name": "#86 - Slam Dunk Saturday: Liberty First Credit Union Arena in Omaha, NE",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2025-03-22",
+      "airtime": "23:09",
+      "airstamp": "2025-03-23T03:09:00+00:00",
+      "runtime": 61,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3120066"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3170945,
+      "url": "https://www.tvmaze.com/episodes/3170945/aew-collision-3x13-86-slam-dunk-sunday-liberty-first-credit-union-arena-in-omaha-ne",
+      "name": "#86 - Slam Dunk Sunday: Liberty First Credit Union Arena in Omaha, NE",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2025-03-23",
+      "airtime": "23:14",
+      "airstamp": "2025-03-24T03:14:00+00:00",
+      "runtime": 61,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3170945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3120067,
+      "url": "https://www.tvmaze.com/episodes/3120067/aew-collision-3x14-87-uw-milwaukee-panther-arena-in-milwaukee-wi",
+      "name": "#87 - UW-Milwaukee Panther Arena in Milwaukee, WI",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2025-03-29",
+      "airtime": "20:00",
+      "airstamp": "2025-03-30T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3120067"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3120068,
+      "url": "https://www.tvmaze.com/episodes/3120068/aew-collision-3x15-88-peoria-civic-center-in-peoria-il",
+      "name": "#88 - Peoria Civic Center in Peoria, IL",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2025-04-05",
+      "airtime": "20:00",
+      "airstamp": "2025-04-06T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3120068"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3154303,
+      "url": "https://www.tvmaze.com/episodes/3154303/aew-collision-3x16-89-massmutual-center-in-springfield-ma",
+      "name": "#89 - MassMutual Center in Springfield, MA",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2025-04-12",
+      "airtime": "20:00",
+      "airstamp": "2025-04-13T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3154303"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3154304,
+      "url": "https://www.tvmaze.com/episodes/3154304/aew-collision-3x17-90-spring-breakthru-mgm-music-hall-at-fenway-in-boston-ma",
+      "name": "#90 - Spring Breakthru: MGM Music Hall at Fenway in Boston, MA",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2025-04-17",
+      "airtime": "20:00",
+      "airstamp": "2025-04-18T00:00:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3154304"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3154305,
+      "url": "https://www.tvmaze.com/episodes/3154305/aew-collision-3x18-91-playoff-palooza-lakefront-arena-in-new-orleans-la",
+      "name": "#91 - Playoff Palooza: Lakefront Arena in New Orleans, LA",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2025-04-26",
+      "airtime": "20:50",
+      "airstamp": "2025-04-27T00:50:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3154305"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3154306,
+      "url": "https://www.tvmaze.com/episodes/3154306/aew-collision-3x19-92-adrian-phillips-theater-at-boardwalk-hall-in-atlantic-city-nj",
+      "name": "#92 - Adrian Phillips Theater at Boardwalk Hall in Atlantic City, NJ",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2025-05-03",
+      "airtime": "20:00",
+      "airstamp": "2025-05-04T00:00:00+00:00",
+      "runtime": 125,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3154306"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3154307,
+      "url": "https://www.tvmaze.com/episodes/3154307/aew-collision-3x20-93-masonic-temple-theatre-in-detroit-mi",
+      "name": "#93 - Masonic Temple Theatre in Detroit, MI",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2025-05-08",
+      "airtime": "20:00",
+      "airstamp": "2025-05-09T00:00:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3154307"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3169918,
+      "url": "https://www.tvmaze.com/episodes/3169918/aew-collision-3x21-94-beach-break-now-arena-in-hoffman-estates-il",
+      "name": "#94 - Beach Break: NOW Arena in Hoffman Estates, IL",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2025-05-17",
+      "airtime": "20:00",
+      "airstamp": "2025-05-18T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3169918"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3169919,
+      "url": "https://www.tvmaze.com/episodes/3169919/aew-collision-3x22-95-rio-rancho-events-center-in-albuquerque-nm",
+      "name": "#95 - Rio Rancho Events Center in Albuquerque, NM",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2025-05-22",
+      "airtime": "20:00",
+      "airstamp": "2025-05-23T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3169919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3184329,
+      "url": "https://www.tvmaze.com/episodes/3184329/aew-collision-3x23-96-el-paso-county-coliseum-in-el-paso-tx",
+      "name": "#96 - El Paso County Coliseum in El Paso, TX",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2025-05-31",
+      "airtime": "23:43",
+      "airstamp": "2025-06-01T03:43:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3184329"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3209888,
+      "url": "https://www.tvmaze.com/episodes/3209888/aew-collision-3x24-97-fyter-fest-mission-ballroom-in-denver-co",
+      "name": "#97 - Fyter Fest: Mission Ballroom in Denver, CO",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2025-06-04",
+      "airtime": "22:05",
+      "airstamp": "2025-06-05T02:05:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3209888"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3209889,
+      "url": "https://www.tvmaze.com/episodes/3209889/aew-collision-3x25-98-summer-blockbuster-theater-of-the-clouds-at-moda-center-in-portland-or",
+      "name": "#98 - Summer Blockbuster: Theater of the Clouds at Moda Center in Portland, OR",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2025-06-11",
+      "airtime": "22:01",
+      "airstamp": "2025-06-12T02:01:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3209889"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3209890,
+      "url": "https://www.tvmaze.com/episodes/3209890/aew-collision-3x26-99-accesso-showare-center-in-kent-wa",
+      "name": "#99 - accesso ShoWare Center in Kent, WA",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2025-06-21",
+      "airtime": "20:00",
+      "airstamp": "2025-06-22T00:00:00+00:00",
+      "runtime": 126,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3209890"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3209891,
+      "url": "https://www.tvmaze.com/episodes/3209891/aew-collision-3x27-100-accesso-showare-center-in-kent-wa",
+      "name": "#100 - accesso ShoWare Center in Kent, WA",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2025-06-26",
+      "airtime": "20:00",
+      "airstamp": "2025-06-27T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3209891"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3209892,
+      "url": "https://www.tvmaze.com/episodes/3209892/aew-collision-3x28-101-100-toyota-arena-in-ontario-ca",
+      "name": "#101 - 100: Toyota Arena in Ontario, CA",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2025-07-05",
+      "airtime": "20:00",
+      "airstamp": "2025-07-06T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3209892"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3209893,
+      "url": "https://www.tvmaze.com/episodes/3209893/aew-collision-3x29-102-curtis-culwell-center-in-garland-tx",
+      "name": "#102 - Curtis Culwell Center in Garland, TX",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2025-07-10",
+      "airtime": "20:00",
+      "airstamp": "2025-07-11T00:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3209893"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225828,
+      "url": "https://www.tvmaze.com/episodes/3225828/aew-collision-3x31-103-byline-bank-aragon-ballroom-in-chicago-il",
+      "name": "#103 - Byline Bank Aragon Ballroom in Chicago, IL",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2025-07-19",
+      "airtime": "20:00",
+      "airstamp": "2025-07-20T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225828"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225829,
+      "url": "https://www.tvmaze.com/episodes/3225829/aew-collision-3x32-104-byline-bank-aragon-ballroom-in-chicago-il",
+      "name": "#104 - Byline Bank Aragon Ballroom in Chicago, IL",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2025-07-26",
+      "airtime": "20:00",
+      "airstamp": "2025-07-27T00:00:00+00:00",
+      "runtime": 126,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225829"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225830,
+      "url": "https://www.tvmaze.com/episodes/3225830/aew-collision-3x33-105-byline-bank-aragon-ballroom-in-chicago-il",
+      "name": "#105 - Byline Bank Aragon Ballroom in Chicago, IL",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2025-07-31",
+      "airtime": "20:00",
+      "airstamp": "2025-08-01T00:00:00+00:00",
+      "runtime": 129,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225830"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225831,
+      "url": "https://www.tvmaze.com/episodes/3225831/aew-collision-3x34-106-berglund-center-in-roanoke-va",
+      "name": "#106 - Berglund Center in Roanoke, VA",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2025-08-09",
+      "airtime": "20:00",
+      "airstamp": "2025-08-10T00:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225831"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225832,
+      "url": "https://www.tvmaze.com/episodes/3225832/aew-collision-3x35-107-andrew-j-brady-music-center-in-cincinnati-oh",
+      "name": "#107 - Andrew J Brady Music Center in Cincinnati, OH",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2025-08-16",
+      "airtime": "20:00",
+      "airstamp": "2025-08-17T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225832"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225833,
+      "url": "https://www.tvmaze.com/episodes/3225833/aew-collision-3x36-108-ovo-hydro-in-glasgow-scotland",
+      "name": "#108 - OVO Hydro in Glasgow, Scotland",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2025-08-23",
+      "airtime": "20:00",
+      "airstamp": "2025-08-24T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225833"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225834,
+      "url": "https://www.tvmaze.com/episodes/3225834/aew-collision-3x37-109-2300-arena-in-philadelphia-pa",
+      "name": "#109 - 2300 Arena in Philadelphia, PA",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2025-08-30",
+      "airtime": "20:00",
+      "airstamp": "2025-08-31T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225834"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225835,
+      "url": "https://www.tvmaze.com/episodes/3225835/aew-collision-3x38-110-2300-arena-in-philadelphia-pa",
+      "name": "#110 - 2300 Arena in Philadelphia, PA",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2025-09-06",
+      "airtime": "20:00",
+      "airstamp": "2025-09-07T00:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225835"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3225836,
+      "url": "https://www.tvmaze.com/episodes/3225836/aew-collision-3x39-111-2300-arena-in-philadelphia-pa",
+      "name": "#111 - 2300 Arena in Philadelphia, PA",
+      "season": 3,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2025-09-13",
+      "airtime": "20:00",
+      "airstamp": "2025-09-14T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3225836"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3364374,
+      "url": "https://www.tvmaze.com/episodes/3364374/aew-collision-3x40-112-september-to-remember-canada-life-place-in-london-on",
+      "name": "#112 - September to Remember: Canada Life Place in London, ON",
+      "season": 3,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2025-09-17",
+      "airtime": "23:01",
+      "airstamp": "2025-09-18T03:01:00+00:00",
+      "runtime": 64,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3364374"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3371850,
+      "url": "https://www.tvmaze.com/episodes/3371850/aew-collision-3x41-113-aew-saturday-tailgate-brawl-all-out-scotiabank-centre-in-toronto-on",
+      "name": "#113 - AEW Saturday Tailgate Brawl: All Out: Scotiabank Centre in Toronto, ON",
+      "season": 3,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2025-09-20",
+      "airtime": "14:00",
+      "airstamp": "2025-09-20T18:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3371850"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3331425,
+      "url": "https://www.tvmaze.com/episodes/3331425/aew-collision-3x42-114-marshall-health-network-arena-in-huntington-wv",
+      "name": "#114 - Marshall Health Network Arena in Huntington, WV",
+      "season": 3,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2025-09-27",
+      "airtime": "20:00",
+      "airstamp": "2025-09-28T00:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3331425"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3335039,
+      "url": "https://www.tvmaze.com/episodes/3335039/aew-collision-3x43-115-rp-funding-center-in-lakeland-fl",
+      "name": "#115 - RP Funding Center in Lakeland, FL",
+      "season": 3,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2025-10-04",
+      "airtime": "19:00",
+      "airstamp": "2025-10-04T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3335039"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3335040,
+      "url": "https://www.tvmaze.com/episodes/3335040/aew-collision-3x44-116-dailys-place-in-jacksonville-fl",
+      "name": "#116 - Daily's Place in Jacksonville, FL",
+      "season": 3,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2025-10-11",
+      "airtime": "20:00",
+      "airstamp": "2025-10-12T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3335040"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3350766,
+      "url": "https://www.tvmaze.com/episodes/3350766/aew-collision-3x45-117-cable-dahmer-arena-in-kansas-city-mo",
+      "name": "#117 - Cable Dahmer Arena in Kansas City, MO",
+      "season": 3,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2025-10-15",
+      "airtime": "22:00",
+      "airstamp": "2025-10-16T02:00:00+00:00",
+      "runtime": 66,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3350766"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3391432,
+      "url": "https://www.tvmaze.com/episodes/3391432/aew-collision-3x46-118-aew-saturday-tailgate-brawl-wrestledream-chaifetz-arena-in-st-louis-mo",
+      "name": "#118 - AEW Saturday Tailgate Brawl: WrestleDream: Chaifetz Arena in St. Louis, MO",
+      "season": 3,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2025-10-18",
+      "airtime": "19:00",
+      "airstamp": "2025-10-18T23:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3391432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3350767,
+      "url": "https://www.tvmaze.com/episodes/3350767/aew-collision-3x47-119-boeing-center-at-techport-in-san-antonio-tx",
+      "name": "#119 - Boeing Center at TechPort in San Antonio, TX",
+      "season": 3,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2025-10-25",
+      "airtime": "20:00",
+      "airstamp": "2025-10-26T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3350767"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3350768,
+      "url": "https://www.tvmaze.com/episodes/3350768/aew-collision-3x48-120-fright-night-bert-ogden-arena-in-edinburg-tx",
+      "name": "#120 - Fright Night: Bert Ogden Arena in Edinburg, TX",
+      "season": 3,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2025-11-01",
+      "airtime": "20:00",
+      "airstamp": "2025-11-02T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3350768"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3350769,
+      "url": "https://www.tvmaze.com/episodes/3350769/aew-collision-3x49-121-bayou-music-center-in-houston-tx",
+      "name": "#121 - Bayou Music Center in Houston, TX",
+      "season": 3,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2025-11-08",
+      "airtime": "20:00",
+      "airstamp": "2025-11-09T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3350769"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3350770,
+      "url": "https://www.tvmaze.com/episodes/3350770/aew-collision-3x50-122-erie-insurance-arena-in-erie-pa",
+      "name": "#122 - Erie Insurance Arena in Erie, PA",
+      "season": 3,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2025-11-15",
+      "airtime": "20:00",
+      "airstamp": "2025-11-16T01:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3350770"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3436399,
+      "url": "https://www.tvmaze.com/episodes/3436399/aew-collision-3x51-123-agganis-arena-in-boston-ma",
+      "name": "#123 - Agganis Arena in Boston, MA",
+      "season": 3,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2025-11-19",
+      "airtime": "22:02",
+      "airstamp": "2025-11-20T03:02:00+00:00",
+      "runtime": 65,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3436399"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3436400,
+      "url": "https://www.tvmaze.com/episodes/3436400/aew-collision-3x52-124-aew-saturday-tailgate-brawl-full-gear-prudential-center-in-newark-nj",
+      "name": "#124 - AEW Saturday Tailgate Brawl: Full Gear: Prudential Center in Newark, NJ",
+      "season": 3,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2025-11-22",
+      "airtime": "19:00",
+      "airstamp": "2025-11-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3436400"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3398713,
+      "url": "https://www.tvmaze.com/episodes/3398713/aew-collision-3x53-125-thanksgiving-the-pinnacle-in-nashville-tn",
+      "name": "#125 - Thanksgiving: The Pinnacle in Nashville, TN",
+      "season": 3,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2025-11-27",
+      "airtime": "20:00",
+      "airstamp": "2025-11-28T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3398713"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3398714,
+      "url": "https://www.tvmaze.com/episodes/3398714/aew-collision-3x54-126-greater-columbus-convention-center-in-columbus-oh",
+      "name": "#126 - Greater Columbus Convention Center in Columbus, OH",
+      "season": 3,
+      "number": 54,
+      "type": "regular",
+      "airdate": "2025-12-06",
+      "airtime": "20:00",
+      "airstamp": "2025-12-07T01:00:00+00:00",
+      "runtime": 126,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3398714"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3398715,
+      "url": "https://www.tvmaze.com/episodes/3398715/aew-collision-3x55-127-winter-is-coming-utilita-arena-in-cardiff-wales",
+      "name": "#127 - Winter is Coming: Utilita Arena in Cardiff, Wales",
+      "season": 3,
+      "number": 55,
+      "type": "regular",
+      "airdate": "2025-12-13",
+      "airtime": "16:51",
+      "airstamp": "2025-12-13T21:51:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3398715"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3450093,
+      "url": "https://www.tvmaze.com/episodes/3450093/aew-collision-3x56-128-holiday-bash-co-op-live-in-manchester-england",
+      "name": "#128 - Holiday Bash: Co-op Live in Manchester, England",
+      "season": 3,
+      "number": 56,
+      "type": "regular",
+      "airdate": "2025-12-17",
+      "airtime": "22:09",
+      "airstamp": "2025-12-18T03:09:00+00:00",
+      "runtime": 54,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3450093"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446873,
+      "url": "https://www.tvmaze.com/episodes/3446873/aew-collision-3x57-129-holiday-bash-co-op-live-in-manchester-england",
+      "name": "#129 - Holiday Bash: Co-op Live in Manchester, England",
+      "season": 3,
+      "number": 57,
+      "type": "regular",
+      "airdate": "2025-12-20",
+      "airtime": "14:30",
+      "airstamp": "2025-12-20T19:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446873"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446874,
+      "url": "https://www.tvmaze.com/episodes/3446874/aew-collision-3x58-130-christmas-collision-hammerstein-ballroom-in-new-york-ny",
+      "name": "#130 - Christmas Collision: Hammerstein Ballroom in New York, NY",
+      "season": 3,
+      "number": 58,
+      "type": "regular",
+      "airdate": "2025-12-25",
+      "airtime": "21:00",
+      "airstamp": "2025-12-26T02:00:00+00:00",
+      "runtime": 150,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446874"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446881,
+      "url": "https://www.tvmaze.com/episodes/3446881/aew-collision-4x01-130-esports-stadium-in-arlington-tx",
+      "name": "#130 - Esports Stadium in Arlington, TX",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2026-01-03",
+      "airtime": "20:00",
+      "airstamp": "2026-01-04T01:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446881"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446882,
+      "url": "https://www.tvmaze.com/episodes/3446882/aew-collision-4x02-131-esports-stadium-in-arlington-tx",
+      "name": "#131 - Esports Stadium in Arlington, TX",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2026-01-10",
+      "airtime": "20:00",
+      "airstamp": "2026-01-11T01:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446882"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446883,
+      "url": "https://www.tvmaze.com/episodes/3446883/aew-collision-4x03-132-maximum-carnage-arizona-financial-theater-in-phoenix-az",
+      "name": "#132 - Maximum Carnage: Arizona Financial Theater in Phoenix, AZ",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2026-01-17",
+      "airtime": "20:00",
+      "airstamp": "2026-01-18T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446883"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446884,
+      "url": "https://www.tvmaze.com/episodes/3446884/aew-collision-4x04-133-addition-financial-arena-in-orlando-fl",
+      "name": "#133 - Addition Financial Arena in Orlando, FL",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2026-01-24",
+      "airtime": "20:00",
+      "airstamp": "2026-01-25T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446884"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3446885,
+      "url": "https://www.tvmaze.com/episodes/3446885/aew-collision-4x05-134-esports-stadium-in-arlington-tx",
+      "name": "#134 - Esports Stadium in Arlington, TX",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2026-01-31",
+      "airtime": "20:00",
+      "airstamp": "2026-02-01T01:00:00+00:00",
+      "runtime": 124,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3446885"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3516760,
+      "url": "https://www.tvmaze.com/episodes/3516760/aew-collision-4x06-135-pearl-theater-at-the-palms-in-las-vegas-nv",
+      "name": "#135 - Pearl Theater at the Palms in Las Vegas, NV",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2026-02-07",
+      "airtime": "20:00",
+      "airstamp": "2026-02-08T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3516760"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3516761,
+      "url": "https://www.tvmaze.com/episodes/3516761/aew-collision-4x07-136-grand-slam-australia-qudos-bank-arena-in-sydney-australia",
+      "name": "#136 - Grand Slam Australia: Qudos Bank Arena in Sydney, Australia",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2026-02-14",
+      "airtime": "20:00",
+      "airstamp": "2026-02-15T01:00:00+00:00",
+      "runtime": 150,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3516761"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3516762,
+      "url": "https://www.tvmaze.com/episodes/3516762/aew-collision-4x08-137-frontwave-arena-in-oceanside-ca",
+      "name": "#137 - Frontwave Arena in Oceanside, CA",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2026-02-21",
+      "airtime": "20:00",
+      "airstamp": "2026-02-22T01:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3516762"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3516763,
+      "url": "https://www.tvmaze.com/episodes/3516763/aew-collision-4x09-138-mission-ballroom-in-denver-co",
+      "name": "#138 - Mission Ballroom in Denver, CO",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2026-02-28",
+      "airtime": "20:00",
+      "airstamp": "2026-03-01T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3516763"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3531050,
+      "url": "https://www.tvmaze.com/episodes/3531050/aew-collision-4x10-139-tucson-arena-in-tucson-az",
+      "name": "#139 - Tucson Arena in Tucson, AZ",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2026-03-07",
+      "airtime": "20:00",
+      "airstamp": "2026-03-08T01:00:00+00:00",
+      "runtime": 127,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531050"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3531051,
+      "url": "https://www.tvmaze.com/episodes/3531051/aew-collision-4x11-140-san-jose-civic-center-in-san-jose-ca",
+      "name": "#140 - San Jose Civic Center in San Jose, CA",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2026-03-14",
+      "airtime": "20:00",
+      "airstamp": "2026-03-15T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531051"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3531052,
+      "url": "https://www.tvmaze.com/episodes/3531052/aew-collision-4x12-141-slam-dunk-saturday-save-mart-center-in-fresno-ca",
+      "name": "#141 - Slam Dunk Saturday: Save Mart Center in Fresno, CA",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2026-03-21",
+      "airtime": "23:26",
+      "airstamp": "2026-03-22T03:26:00+00:00",
+      "runtime": 61,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531052"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3572922,
+      "url": "https://www.tvmaze.com/episodes/3572922/aew-collision-4x13-142-slam-dunk-sunday-save-mart-center-in-fresno-ca",
+      "name": "#142 - Slam Dunk Sunday: Save Mart Center in Fresno, CA",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2026-03-22",
+      "airtime": "23:35",
+      "airstamp": "2026-03-23T03:35:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3572922"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3531053,
+      "url": "https://www.tvmaze.com/episodes/3531053/aew-collision-4x14-143-alliant-energy-power-house-in-cedar-rapids-ia",
+      "name": "#143 - Alliant Energy Power House in Cedar Rapids, IA",
+      "season": 4,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2026-03-28",
+      "airtime": "20:00",
+      "airstamp": "2026-03-29T00:00:00+00:00",
+      "runtime": 127,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531053"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3531054,
+      "url": "https://www.tvmaze.com/episodes/3531054/aew-collision-4x15-144-canada-life-centre-in-winnipeg-mb",
+      "name": "#144 - Canada Life Centre in Winnipeg, MB",
+      "season": 4,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2026-04-02",
+      "airtime": "20:00",
+      "airstamp": "2026-04-03T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531054"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3531055,
+      "url": "https://www.tvmaze.com/episodes/3531055/aew-collision-4x16-145-rogers-place-in-edmonton-ab",
+      "name": "#145 - Rogers Place in Edmonton, AB",
+      "season": 4,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2026-04-11",
+      "airtime": "20:00",
+      "airstamp": "2026-04-12T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531055"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3552412,
+      "url": "https://www.tvmaze.com/episodes/3552412/aew-collision-4x17-146-spring-breakthru-angels-of-the-wind-arena-in-everett-wa",
+      "name": "#146 - Spring Breakthru: Angels of the Wind Arena in Everett, WA",
+      "season": 4,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2026-04-16",
+      "airtime": "20:00",
+      "airstamp": "2026-04-17T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3552412"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3552413,
+      "url": "https://www.tvmaze.com/episodes/3552413/aew-collision-4x18-147-playoff-palooza-veterans-memorial-coliseum-in-portland-or",
+      "name": "#147 - Playoff Palooza: Veterans Memorial Coliseum in Portland, OR",
+      "season": 4,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2026-04-25",
+      "airtime": "20:00",
+      "airstamp": "2026-04-26T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3552413"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3567261,
+      "url": "https://www.tvmaze.com/episodes/3567261/aew-collision-4x19-148-peoria-civic-center-in-peoria-il",
+      "name": "#148 - Peoria Civic Center in Peoria, IL",
+      "season": 4,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2026-05-02",
+      "airtime": "20:00",
+      "airstamp": "2026-05-03T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3567261"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3611285,
+      "url": "https://www.tvmaze.com/episodes/3611285/aew-collision-4x20-149-north-charleston-coliseum-in-north-charleston-sc",
+      "name": "#149 - North Charleston Coliseum in North Charleston, SC",
+      "season": 4,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2026-05-06",
+      "airtime": "22:04",
+      "airstamp": "2026-05-07T02:04:00+00:00",
+      "runtime": 64,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3611285"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3595644,
+      "url": "https://www.tvmaze.com/episodes/3595644/aew-collision-4x21-150-fairway-to-hell-sofi-center-in-palm-beach-gardens-fl",
+      "name": "#150 - Fairway to Hell: SoFi Center in Palm Beach Gardens, FL",
+      "season": 4,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2026-05-09",
+      "airtime": "20:00",
+      "airstamp": "2026-05-10T00:00:00+00:00",
+      "runtime": 72,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3595644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3595645,
+      "url": "https://www.tvmaze.com/episodes/3595645/aew-collision-4x22-151-wicomico-civic-center-in-salisbury-md",
+      "name": "#151 - Wicomico Civic Center in Salisbury, MD",
+      "season": 4,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2026-05-16",
+      "airtime": "20:00",
+      "airstamp": "2026-05-17T00:00:00+00:00",
+      "runtime": 132,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3595645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3595647,
+      "url": "https://www.tvmaze.com/episodes/3595647/aew-collision-4x23-152-cross-insurance-arena-in-portland-me",
+      "name": "#152 - Cross Insurance Arena in Portland, ME",
+      "season": 4,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2026-05-20",
+      "airtime": "22:05",
+      "airstamp": "2026-05-21T02:05:00+00:00",
+      "runtime": 68,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3595647"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3627110,
+      "url": "https://www.tvmaze.com/episodes/3627110/aew-collision-4x24-153-the-liacouras-center-in-philadelphia-pa",
+      "name": "#153 - The Liacouras Center in Philadelphia, PA",
+      "season": 4,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2026-05-27",
+      "airtime": "22:13",
+      "airstamp": "2026-05-28T02:13:00+00:00",
+      "runtime": 66,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3627110"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3595648,
+      "url": "https://www.tvmaze.com/episodes/3595648/aew-collision-4x25-154-von-braun-center-in-huntsville-al",
+      "name": "#154 - Von Braun Center in Huntsville, AL",
+      "season": 4,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2026-05-30",
+      "airtime": "20:00",
+      "airstamp": "2026-05-31T00:00:00+00:00",
+      "runtime": 127,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3595648"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3595649,
+      "url": "https://www.tvmaze.com/episodes/3595649/aew-collision-4x26-155-covelli-centre-in-youngstown-oh",
+      "name": "#155 - Covelli Centre in Youngstown, OH",
+      "season": 4,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2026-06-06",
+      "airtime": "20:00",
+      "airstamp": "2026-06-07T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3595649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3595652,
+      "url": "https://www.tvmaze.com/episodes/3595652/aew-collision-4x27-156-summer-blockbuster-the-andrew-j-brady-music-center-in-cincinnati-oh",
+      "name": "#156 - Summer Blockbuster: The Andrew J. Brady Music Center in Cincinnati, OH",
+      "season": 4,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2026-06-13",
+      "airtime": "20:00",
+      "airstamp": "2026-06-14T00:00:00+00:00",
+      "runtime": 150,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3595652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605904,
+      "url": "https://www.tvmaze.com/episodes/3605904/aew-collision-4x28-157-smart-financial-centre-in-sugar-land-tx",
+      "name": "#157 - Smart Financial Centre in Sugar Land, TX",
+      "season": 4,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2026-06-20",
+      "airtime": "20:00",
+      "airstamp": "2026-06-21T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605904"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605905,
+      "url": "https://www.tvmaze.com/episodes/3605905/aew-collision-4x29-158-rio-rancho-events-center-in-rio-rancho-nm",
+      "name": "#158 - Rio Rancho Events Center in Rio Rancho, NM",
+      "season": 4,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2026-06-27",
+      "airtime": "20:00",
+      "airstamp": "2026-06-28T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605905"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605906,
+      "url": "https://www.tvmaze.com/episodes/3605906/aew-collision-4x30-159-viejas-arena-in-san-diego-ca",
+      "name": "#159 - Viejas Arena in San Diego, CA",
+      "season": 4,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2026-07-02",
+      "airtime": "20:00",
+      "airstamp": "2026-07-03T00:00:00+00:00",
+      "runtime": 151,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605906"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605907,
+      "url": "https://www.tvmaze.com/episodes/3605907/aew-collision-4x31-160-berglund-center-in-roanoke-va",
+      "name": "#160 - Berglund Center in Roanoke, VA",
+      "season": 4,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2026-07-11",
+      "airtime": "20:00",
+      "airstamp": "2026-07-12T00:00:00+00:00",
+      "runtime": 126,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605907"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605908,
+      "url": "https://www.tvmaze.com/episodes/3605908/aew-collision-4x32-161-mgm-music-hall-in-boston-ma",
+      "name": "#161 - MGM Music Hall in Boston, MA",
+      "season": 4,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2026-07-18",
+      "airtime": "20:00",
+      "airstamp": "2026-07-19T00:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605908"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605909,
+      "url": "https://www.tvmaze.com/episodes/3605909/aew-collision-4x33-162-the-pinnacle-in-nashville-tn",
+      "name": "#162 - The Pinnacle in Nashville, TN",
+      "season": 4,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2026-07-25",
+      "airtime": "20:00",
+      "airstamp": "2026-07-26T00:00:00+00:00",
+      "runtime": 123,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605909"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3605910,
+      "url": "https://www.tvmaze.com/episodes/3605910/aew-collision-4x34-163-masonic-temple-theater-in-detroit-mi",
+      "name": "#163 - Masonic Temple Theater in Detroit, MI",
+      "season": 4,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2026-07-30",
+      "airtime": "20:00",
+      "airstamp": "2026-07-31T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3605910"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3650441,
+      "url": "https://www.tvmaze.com/episodes/3650441/aew-collision-4x35-164-broadmoor-world-arena-in-colorado-springs-co",
+      "name": "#164 - Broadmoor World Arena in Colorado Springs, CO",
+      "season": 4,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2026-08-08",
+      "airtime": "20:00",
+      "airstamp": "2026-08-09T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3650441"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3650442,
+      "url": "https://www.tvmaze.com/episodes/3650442/aew-collision-4x36-165-the-pearl-theater-at-the-palms-in-las-vegas-nv",
+      "name": "#165 - The Pearl Theater at the Palms in Las Vegas, NV",
+      "season": 4,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2026-08-15",
+      "airtime": "20:00",
+      "airstamp": "2026-08-16T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3650442"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3650443,
+      "url": "https://www.tvmaze.com/episodes/3650443/aew-collision-4x37-166-santander-arena-in-reading-pa",
+      "name": "#166 - Santander Arena in Reading, PA",
+      "season": 4,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2026-08-22",
+      "airtime": "20:00",
+      "airstamp": "2026-08-23T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3650443"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3650444,
+      "url": "https://www.tvmaze.com/episodes/3650444/aew-collision-4x38-167-ovo-hydro-in-glasgow-scotland",
+      "name": "#167 - OVO Hydro in Glasgow, Scotland",
+      "season": 4,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2026-08-29",
+      "airtime": "20:00",
+      "airstamp": "2026-08-30T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3650444"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3666919,
+      "url": "https://www.tvmaze.com/episodes/3666919/aew-collision-4x39-168-credit-union-of-texas-event-center-in-allen-tx",
+      "name": "#168 - Credit Union of Texas Event Center in Allen, TX",
+      "season": 4,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2026-09-05",
+      "airtime": "20:00",
+      "airstamp": "2026-09-06T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3666919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3675933,
+      "url": "https://www.tvmaze.com/episodes/3675933/aew-collision-4x40-169-massmutual-center-in-springfield-ma",
+      "name": "#169 - MassMutual Center in Springfield, MA",
+      "season": 4,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2026-09-12",
+      "airtime": "20:00",
+      "airstamp": "2026-09-13T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3675933"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3675934,
+      "url": "https://www.tvmaze.com/episodes/3675934/aew-collision-4x41-170-charleston-coliseum-in-charleston-wv",
+      "name": "#170 - Charleston Coliseum in Charleston, WV",
+      "season": 4,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2026-09-19",
+      "airtime": "20:00",
+      "airstamp": "2026-09-20T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3675934"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3681634,
+      "url": "https://www.tvmaze.com/episodes/3681634/aew-collision-4x42-171-fishers-event-center-in-fishers-in",
+      "name": "#171 - Fishers Event Center in Fishers, IN",
+      "season": 4,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2026-09-26",
+      "airtime": "20:00",
+      "airstamp": "2026-09-27T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3681634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 2732665,
+      "url": "https://www.tvmaze.com/episodes/2732665/aew-collision-s01-special-aew-collision-best-of-2023",
+      "name": "AEW Collision: Best of 2023",
+      "season": 1,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2023-12-31",
+      "airtime": "",
+      "airstamp": "2023-12-31T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732665"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    }
+  ]
+}

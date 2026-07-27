@@ -1,0 +1,3781 @@
+{
+  "programId": "wwf-jakked-metal",
+  "tvMazeId": 27905,
+  "fetchedAt": "2026-07-27T07:57:31.550Z",
+  "show": {
+    "id": 27905,
+    "url": "https://www.tvmaze.com/shows/27905/wwe-metal",
+    "name": "WWE Metal",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "1999-08-28",
+    "ended": "2002-05-18",
+    "officialSite": "http://corporate.wwe.com/what-we-do/media/televised-entertainment",
+    "schedule": {
+      "time": "",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 48,
+    "network": {
+      "id": 72,
+      "name": "Syndication",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 426958,
+      "imdb": "tt0287897"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/365/914030.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/365/914030.jpg"
+    },
+    "summary": "<p><b>WWE Metal</b> (originally known as WWF Metal) was a professional wrestling television program produced by the World Wrestling Federation (now known as WWE). The show aired syndicated weekly from 1999 until 2002 and replaced WWF Shotgun Saturday Night. Originally produced under the World Wrestling Federation (WWF) banner, they were replaced by the similarly formatted WWE Bottom Line and WWE Afterburn in syndication.</p>",
+    "updated": 1764605534,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/27905"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3252969",
+        "name": "Episode 143"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 3252827,
+      "url": "https://www.tvmaze.com/episodes/3252827/wwe-metal-1x01-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1999-08-28",
+      "airtime": "",
+      "airstamp": "1999-08-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252827"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252828,
+      "url": "https://www.tvmaze.com/episodes/3252828/wwe-metal-1x02-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1999-09-04",
+      "airtime": "",
+      "airstamp": "1999-09-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252828"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252829,
+      "url": "https://www.tvmaze.com/episodes/3252829/wwe-metal-1x03-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1999-09-11",
+      "airtime": "",
+      "airstamp": "1999-09-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252829"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252830,
+      "url": "https://www.tvmaze.com/episodes/3252830/wwe-metal-1x04-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1999-09-18",
+      "airtime": "",
+      "airstamp": "1999-09-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252830"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252831,
+      "url": "https://www.tvmaze.com/episodes/3252831/wwe-metal-1x05-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1999-09-25",
+      "airtime": "",
+      "airstamp": "1999-09-25T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252831"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252832,
+      "url": "https://www.tvmaze.com/episodes/3252832/wwe-metal-1x06-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1999-10-02",
+      "airtime": "",
+      "airstamp": "1999-10-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252832"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252833,
+      "url": "https://www.tvmaze.com/episodes/3252833/wwe-metal-1x07-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1999-10-09",
+      "airtime": "",
+      "airstamp": "1999-10-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252833"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252834,
+      "url": "https://www.tvmaze.com/episodes/3252834/wwe-metal-1x08-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1999-10-16",
+      "airtime": "",
+      "airstamp": "1999-10-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252834"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252835,
+      "url": "https://www.tvmaze.com/episodes/3252835/wwe-metal-1x09-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1999-10-23",
+      "airtime": "",
+      "airstamp": "1999-10-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252835"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252836,
+      "url": "https://www.tvmaze.com/episodes/3252836/wwe-metal-1x10-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1999-10-30",
+      "airtime": "",
+      "airstamp": "1999-10-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252836"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252837,
+      "url": "https://www.tvmaze.com/episodes/3252837/wwe-metal-1x11-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1999-11-06",
+      "airtime": "",
+      "airstamp": "1999-11-06T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252837"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252838,
+      "url": "https://www.tvmaze.com/episodes/3252838/wwe-metal-1x12-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1999-11-13",
+      "airtime": "",
+      "airstamp": "1999-11-13T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252838"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252839,
+      "url": "https://www.tvmaze.com/episodes/3252839/wwe-metal-1x13-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "1999-11-20",
+      "airtime": "",
+      "airstamp": "1999-11-20T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252839"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252840,
+      "url": "https://www.tvmaze.com/episodes/3252840/wwe-metal-1x14-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "1999-11-27",
+      "airtime": "",
+      "airstamp": "1999-11-27T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252840"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252841,
+      "url": "https://www.tvmaze.com/episodes/3252841/wwe-metal-1x15-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "1999-12-04",
+      "airtime": "",
+      "airstamp": "1999-12-04T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252841"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252842,
+      "url": "https://www.tvmaze.com/episodes/3252842/wwe-metal-1x16-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "1999-12-11",
+      "airtime": "",
+      "airstamp": "1999-12-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252842"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252843,
+      "url": "https://www.tvmaze.com/episodes/3252843/wwe-metal-1x17-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "1999-12-18",
+      "airtime": "",
+      "airstamp": "1999-12-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252843"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252844,
+      "url": "https://www.tvmaze.com/episodes/3252844/wwe-metal-1x18-wwf-metal",
+      "name": "WWF Metal",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "1999-12-25",
+      "airtime": "",
+      "airstamp": "1999-12-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252844"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252845,
+      "url": "https://www.tvmaze.com/episodes/3252845/wwe-metal-2x01-episode-19",
+      "name": "Episode 19",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2000-01-01",
+      "airtime": "",
+      "airstamp": "2000-01-01T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252845"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252846,
+      "url": "https://www.tvmaze.com/episodes/3252846/wwe-metal-2x02-episode-20",
+      "name": "Episode 20",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2000-01-08",
+      "airtime": "",
+      "airstamp": "2000-01-08T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252846"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252847,
+      "url": "https://www.tvmaze.com/episodes/3252847/wwe-metal-2x03-episode-21",
+      "name": "Episode 21",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2000-01-15",
+      "airtime": "",
+      "airstamp": "2000-01-15T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252847"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252848,
+      "url": "https://www.tvmaze.com/episodes/3252848/wwe-metal-2x04-episode-22",
+      "name": "Episode 22",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2000-01-22",
+      "airtime": "",
+      "airstamp": "2000-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252848"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252849,
+      "url": "https://www.tvmaze.com/episodes/3252849/wwe-metal-2x05-episode-23",
+      "name": "Episode 23",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2000-01-29",
+      "airtime": "",
+      "airstamp": "2000-01-29T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252849"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252850,
+      "url": "https://www.tvmaze.com/episodes/3252850/wwe-metal-2x06-episode-24",
+      "name": "Episode 24",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2000-02-05",
+      "airtime": "",
+      "airstamp": "2000-02-05T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252850"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252851,
+      "url": "https://www.tvmaze.com/episodes/3252851/wwe-metal-2x07-episode-25",
+      "name": "Episode 25",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2000-02-12",
+      "airtime": "",
+      "airstamp": "2000-02-12T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252851"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252852,
+      "url": "https://www.tvmaze.com/episodes/3252852/wwe-metal-2x08-episode-26",
+      "name": "Episode 26",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2000-02-19",
+      "airtime": "",
+      "airstamp": "2000-02-19T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252852"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252853,
+      "url": "https://www.tvmaze.com/episodes/3252853/wwe-metal-2x09-episode-27",
+      "name": "Episode 27",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2000-02-26",
+      "airtime": "",
+      "airstamp": "2000-02-26T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252853"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252854,
+      "url": "https://www.tvmaze.com/episodes/3252854/wwe-metal-2x10-episode-28",
+      "name": "Episode 28",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2000-03-04",
+      "airtime": "",
+      "airstamp": "2000-03-04T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252854"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252855,
+      "url": "https://www.tvmaze.com/episodes/3252855/wwe-metal-2x11-episode-29",
+      "name": "Episode 29",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2000-03-11",
+      "airtime": "",
+      "airstamp": "2000-03-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252855"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252856,
+      "url": "https://www.tvmaze.com/episodes/3252856/wwe-metal-2x12-episode-30",
+      "name": "Episode 30",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2000-03-18",
+      "airtime": "",
+      "airstamp": "2000-03-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252856"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252857,
+      "url": "https://www.tvmaze.com/episodes/3252857/wwe-metal-2x13-episode-31",
+      "name": "Episode 31",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2000-03-25",
+      "airtime": "",
+      "airstamp": "2000-03-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252857"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252858,
+      "url": "https://www.tvmaze.com/episodes/3252858/wwe-metal-2x14-episode-32",
+      "name": "Episode 32",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2000-04-01",
+      "airtime": "",
+      "airstamp": "2000-04-01T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252858"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252859,
+      "url": "https://www.tvmaze.com/episodes/3252859/wwe-metal-2x15-episode-33",
+      "name": "Episode 33",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2000-04-08",
+      "airtime": "",
+      "airstamp": "2000-04-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252859"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252860,
+      "url": "https://www.tvmaze.com/episodes/3252860/wwe-metal-2x16-episode-34",
+      "name": "Episode 34",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2000-04-15",
+      "airtime": "",
+      "airstamp": "2000-04-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252860"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252861,
+      "url": "https://www.tvmaze.com/episodes/3252861/wwe-metal-2x17-episode-35",
+      "name": "Episode 35",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2000-04-22",
+      "airtime": "",
+      "airstamp": "2000-04-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252861"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252862,
+      "url": "https://www.tvmaze.com/episodes/3252862/wwe-metal-2x18-episode-36",
+      "name": "Episode 36",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2000-04-29",
+      "airtime": "",
+      "airstamp": "2000-04-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252862"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252863,
+      "url": "https://www.tvmaze.com/episodes/3252863/wwe-metal-2x19-episode-37",
+      "name": "Episode 37",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2000-05-06",
+      "airtime": "",
+      "airstamp": "2000-05-06T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252863"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252864,
+      "url": "https://www.tvmaze.com/episodes/3252864/wwe-metal-2x20-episode-38",
+      "name": "Episode 38",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2000-05-13",
+      "airtime": "",
+      "airstamp": "2000-05-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252864"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252865,
+      "url": "https://www.tvmaze.com/episodes/3252865/wwe-metal-2x21-episode-39",
+      "name": "Episode 39",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2000-05-20",
+      "airtime": "",
+      "airstamp": "2000-05-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252865"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252866,
+      "url": "https://www.tvmaze.com/episodes/3252866/wwe-metal-2x22-episode-40",
+      "name": "Episode 40",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2000-05-27",
+      "airtime": "",
+      "airstamp": "2000-05-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252866"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252867,
+      "url": "https://www.tvmaze.com/episodes/3252867/wwe-metal-2x23-episode-41",
+      "name": "Episode 41",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2000-06-03",
+      "airtime": "",
+      "airstamp": "2000-06-03T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252867"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252868,
+      "url": "https://www.tvmaze.com/episodes/3252868/wwe-metal-2x24-episode-42",
+      "name": "Episode 42",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2000-06-10",
+      "airtime": "",
+      "airstamp": "2000-06-10T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252868"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252869,
+      "url": "https://www.tvmaze.com/episodes/3252869/wwe-metal-2x25-episode-43",
+      "name": "Episode 43",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2000-06-17",
+      "airtime": "",
+      "airstamp": "2000-06-17T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252869"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252870,
+      "url": "https://www.tvmaze.com/episodes/3252870/wwe-metal-2x26-episode-44",
+      "name": "Episode 44",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2000-06-24",
+      "airtime": "",
+      "airstamp": "2000-06-24T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252870"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252871,
+      "url": "https://www.tvmaze.com/episodes/3252871/wwe-metal-2x27-episode-45",
+      "name": "Episode 45",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2000-07-01",
+      "airtime": "",
+      "airstamp": "2000-07-01T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252871"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252872,
+      "url": "https://www.tvmaze.com/episodes/3252872/wwe-metal-2x28-episode-46",
+      "name": "Episode 46",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2000-07-08",
+      "airtime": "",
+      "airstamp": "2000-07-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252872"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252873,
+      "url": "https://www.tvmaze.com/episodes/3252873/wwe-metal-2x29-episode-47",
+      "name": "Episode 47",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2000-07-15",
+      "airtime": "",
+      "airstamp": "2000-07-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252873"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252874,
+      "url": "https://www.tvmaze.com/episodes/3252874/wwe-metal-2x30-episode-48",
+      "name": "Episode 48",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2000-07-22",
+      "airtime": "",
+      "airstamp": "2000-07-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252874"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252875,
+      "url": "https://www.tvmaze.com/episodes/3252875/wwe-metal-2x31-episode-49",
+      "name": "Episode 49",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2000-07-29",
+      "airtime": "",
+      "airstamp": "2000-07-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252875"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252876,
+      "url": "https://www.tvmaze.com/episodes/3252876/wwe-metal-2x32-episode-50",
+      "name": "Episode 50",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2000-08-05",
+      "airtime": "",
+      "airstamp": "2000-08-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252876"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252877,
+      "url": "https://www.tvmaze.com/episodes/3252877/wwe-metal-2x33-episode-51",
+      "name": "Episode 51",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2000-08-12",
+      "airtime": "",
+      "airstamp": "2000-08-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252877"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252878,
+      "url": "https://www.tvmaze.com/episodes/3252878/wwe-metal-2x34-episode-52",
+      "name": "Episode 52",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2000-08-19",
+      "airtime": "",
+      "airstamp": "2000-08-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252878"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252879,
+      "url": "https://www.tvmaze.com/episodes/3252879/wwe-metal-2x35-episode-53",
+      "name": "Episode 53",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2000-08-26",
+      "airtime": "",
+      "airstamp": "2000-08-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252879"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252880,
+      "url": "https://www.tvmaze.com/episodes/3252880/wwe-metal-2x36-episode-54",
+      "name": "Episode 54",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2000-09-02",
+      "airtime": "",
+      "airstamp": "2000-09-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252880"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252881,
+      "url": "https://www.tvmaze.com/episodes/3252881/wwe-metal-2x37-episode-55",
+      "name": "Episode 55",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2000-09-09",
+      "airtime": "",
+      "airstamp": "2000-09-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252881"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252882,
+      "url": "https://www.tvmaze.com/episodes/3252882/wwe-metal-2x38-episode-56",
+      "name": "Episode 56",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2000-09-16",
+      "airtime": "",
+      "airstamp": "2000-09-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252882"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252883,
+      "url": "https://www.tvmaze.com/episodes/3252883/wwe-metal-2x39-episode-57",
+      "name": "Episode 57",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2000-09-23",
+      "airtime": "",
+      "airstamp": "2000-09-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252883"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252884,
+      "url": "https://www.tvmaze.com/episodes/3252884/wwe-metal-2x40-episode-58",
+      "name": "Episode 58",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2000-09-30",
+      "airtime": "",
+      "airstamp": "2000-09-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252884"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252885,
+      "url": "https://www.tvmaze.com/episodes/3252885/wwe-metal-2x41-episode-59",
+      "name": "Episode 59",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2000-10-07",
+      "airtime": "",
+      "airstamp": "2000-10-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252885"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252886,
+      "url": "https://www.tvmaze.com/episodes/3252886/wwe-metal-2x42-episode-60",
+      "name": "Episode 60",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2000-10-14",
+      "airtime": "",
+      "airstamp": "2000-10-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252886"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252887,
+      "url": "https://www.tvmaze.com/episodes/3252887/wwe-metal-2x43-episode-61",
+      "name": "Episode 61",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2000-10-21",
+      "airtime": "",
+      "airstamp": "2000-10-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252887"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252888,
+      "url": "https://www.tvmaze.com/episodes/3252888/wwe-metal-2x44-episode-62",
+      "name": "Episode 62",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2000-10-28",
+      "airtime": "",
+      "airstamp": "2000-10-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252888"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252889,
+      "url": "https://www.tvmaze.com/episodes/3252889/wwe-metal-2x45-episode-63",
+      "name": "Episode 63",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2000-11-04",
+      "airtime": "",
+      "airstamp": "2000-11-04T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252889"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252890,
+      "url": "https://www.tvmaze.com/episodes/3252890/wwe-metal-2x46-episode-64",
+      "name": "Episode 64",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2000-11-11",
+      "airtime": "",
+      "airstamp": "2000-11-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252890"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252891,
+      "url": "https://www.tvmaze.com/episodes/3252891/wwe-metal-2x47-episode-65",
+      "name": "Episode 65",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2000-11-18",
+      "airtime": "",
+      "airstamp": "2000-11-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252891"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252892,
+      "url": "https://www.tvmaze.com/episodes/3252892/wwe-metal-2x48-episode-66",
+      "name": "Episode 66",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2000-11-25",
+      "airtime": "",
+      "airstamp": "2000-11-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252892"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252893,
+      "url": "https://www.tvmaze.com/episodes/3252893/wwe-metal-2x49-episode-67",
+      "name": "Episode 67",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2000-12-02",
+      "airtime": "",
+      "airstamp": "2000-12-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252893"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252894,
+      "url": "https://www.tvmaze.com/episodes/3252894/wwe-metal-2x50-episode-68",
+      "name": "Episode 68",
+      "season": 2,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2000-12-09",
+      "airtime": "",
+      "airstamp": "2000-12-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252894"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252895,
+      "url": "https://www.tvmaze.com/episodes/3252895/wwe-metal-2x51-episode-69",
+      "name": "Episode 69",
+      "season": 2,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2000-12-16",
+      "airtime": "",
+      "airstamp": "2000-12-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252895"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252896,
+      "url": "https://www.tvmaze.com/episodes/3252896/wwe-metal-2x52-episode-70",
+      "name": "Episode 70",
+      "season": 2,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2000-12-23",
+      "airtime": "",
+      "airstamp": "2000-12-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252896"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252897,
+      "url": "https://www.tvmaze.com/episodes/3252897/wwe-metal-2x53-episode-71",
+      "name": "Episode 71",
+      "season": 2,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2000-12-30",
+      "airtime": "",
+      "airstamp": "2000-12-30T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252897"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252898,
+      "url": "https://www.tvmaze.com/episodes/3252898/wwe-metal-3x01-episode-72",
+      "name": "Episode 72",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2001-01-06",
+      "airtime": "",
+      "airstamp": "2001-01-06T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252898"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252899,
+      "url": "https://www.tvmaze.com/episodes/3252899/wwe-metal-3x02-episode-73",
+      "name": "Episode 73",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2001-01-13",
+      "airtime": "",
+      "airstamp": "2001-01-13T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252899"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252900,
+      "url": "https://www.tvmaze.com/episodes/3252900/wwe-metal-3x03-episode-74",
+      "name": "Episode 74",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2001-01-20",
+      "airtime": "",
+      "airstamp": "2001-01-20T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252900"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252901,
+      "url": "https://www.tvmaze.com/episodes/3252901/wwe-metal-3x04-episode-75",
+      "name": "Episode 75",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2001-01-27",
+      "airtime": "",
+      "airstamp": "2001-01-27T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252901"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252902,
+      "url": "https://www.tvmaze.com/episodes/3252902/wwe-metal-3x05-episode-76",
+      "name": "Episode 76",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2001-02-03",
+      "airtime": "",
+      "airstamp": "2001-02-03T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252902"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252903,
+      "url": "https://www.tvmaze.com/episodes/3252903/wwe-metal-3x06-episode-77",
+      "name": "Episode 77",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2001-02-10",
+      "airtime": "",
+      "airstamp": "2001-02-10T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252903"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252904,
+      "url": "https://www.tvmaze.com/episodes/3252904/wwe-metal-3x07-episode-78",
+      "name": "Episode 78",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2001-02-17",
+      "airtime": "",
+      "airstamp": "2001-02-17T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252904"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252905,
+      "url": "https://www.tvmaze.com/episodes/3252905/wwe-metal-3x08-episode-79",
+      "name": "Episode 79",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2001-02-24",
+      "airtime": "",
+      "airstamp": "2001-02-24T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252905"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252906,
+      "url": "https://www.tvmaze.com/episodes/3252906/wwe-metal-3x09-episode-80",
+      "name": "Episode 80",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2001-03-03",
+      "airtime": "",
+      "airstamp": "2001-03-03T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252906"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252907,
+      "url": "https://www.tvmaze.com/episodes/3252907/wwe-metal-3x10-episode-81",
+      "name": "Episode 81",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2001-03-10",
+      "airtime": "",
+      "airstamp": "2001-03-10T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252907"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252908,
+      "url": "https://www.tvmaze.com/episodes/3252908/wwe-metal-3x11-episode-82",
+      "name": "Episode 82",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2001-03-17",
+      "airtime": "",
+      "airstamp": "2001-03-17T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252908"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252909,
+      "url": "https://www.tvmaze.com/episodes/3252909/wwe-metal-3x12-episode-83",
+      "name": "Episode 83",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2001-03-24",
+      "airtime": "",
+      "airstamp": "2001-03-24T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252909"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252910,
+      "url": "https://www.tvmaze.com/episodes/3252910/wwe-metal-3x13-episode-84",
+      "name": "Episode 84",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2001-03-31",
+      "airtime": "",
+      "airstamp": "2001-03-31T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252910"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252911,
+      "url": "https://www.tvmaze.com/episodes/3252911/wwe-metal-3x14-episode-85",
+      "name": "Episode 85",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2001-04-07",
+      "airtime": "",
+      "airstamp": "2001-04-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252911"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252912,
+      "url": "https://www.tvmaze.com/episodes/3252912/wwe-metal-3x15-episode-86",
+      "name": "Episode 86",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2001-04-14",
+      "airtime": "",
+      "airstamp": "2001-04-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252912"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252913,
+      "url": "https://www.tvmaze.com/episodes/3252913/wwe-metal-3x16-episode-87",
+      "name": "Episode 87",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2001-04-21",
+      "airtime": "",
+      "airstamp": "2001-04-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252913"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252914,
+      "url": "https://www.tvmaze.com/episodes/3252914/wwe-metal-3x17-episode-88",
+      "name": "Episode 88",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2001-04-28",
+      "airtime": "",
+      "airstamp": "2001-04-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252914"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252915,
+      "url": "https://www.tvmaze.com/episodes/3252915/wwe-metal-3x18-episode-89",
+      "name": "Episode 89",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2001-05-05",
+      "airtime": "",
+      "airstamp": "2001-05-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252915"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252916,
+      "url": "https://www.tvmaze.com/episodes/3252916/wwe-metal-3x19-episode-90",
+      "name": "Episode 90",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2001-05-12",
+      "airtime": "",
+      "airstamp": "2001-05-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252916"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252917,
+      "url": "https://www.tvmaze.com/episodes/3252917/wwe-metal-3x20-episode-91",
+      "name": "Episode 91",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2001-05-19",
+      "airtime": "",
+      "airstamp": "2001-05-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252917"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252918,
+      "url": "https://www.tvmaze.com/episodes/3252918/wwe-metal-3x21-episode-92",
+      "name": "Episode 92",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2001-05-26",
+      "airtime": "",
+      "airstamp": "2001-05-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252918"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252919,
+      "url": "https://www.tvmaze.com/episodes/3252919/wwe-metal-3x22-episode-93",
+      "name": "Episode 93",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2001-06-02",
+      "airtime": "",
+      "airstamp": "2001-06-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252920,
+      "url": "https://www.tvmaze.com/episodes/3252920/wwe-metal-3x23-episode-94",
+      "name": "Episode 94",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2001-06-09",
+      "airtime": "",
+      "airstamp": "2001-06-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252920"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252921,
+      "url": "https://www.tvmaze.com/episodes/3252921/wwe-metal-3x24-episode-95",
+      "name": "Episode 95",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2001-06-16",
+      "airtime": "",
+      "airstamp": "2001-06-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252921"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252922,
+      "url": "https://www.tvmaze.com/episodes/3252922/wwe-metal-3x25-episode-96",
+      "name": "Episode 96",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2001-06-23",
+      "airtime": "",
+      "airstamp": "2001-06-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252922"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252923,
+      "url": "https://www.tvmaze.com/episodes/3252923/wwe-metal-3x26-episode-97",
+      "name": "Episode 97",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2001-06-30",
+      "airtime": "",
+      "airstamp": "2001-06-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252923"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252924,
+      "url": "https://www.tvmaze.com/episodes/3252924/wwe-metal-3x27-episode-98",
+      "name": "Episode 98",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2001-07-07",
+      "airtime": "",
+      "airstamp": "2001-07-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252924"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252925,
+      "url": "https://www.tvmaze.com/episodes/3252925/wwe-metal-3x28-episode-99",
+      "name": "Episode 99",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2001-07-14",
+      "airtime": "",
+      "airstamp": "2001-07-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252925"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252926,
+      "url": "https://www.tvmaze.com/episodes/3252926/wwe-metal-3x29-episode-100",
+      "name": "Episode 100",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2001-07-21",
+      "airtime": "",
+      "airstamp": "2001-07-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252926"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252927,
+      "url": "https://www.tvmaze.com/episodes/3252927/wwe-metal-3x30-episode-101",
+      "name": "Episode 101",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2001-07-28",
+      "airtime": "",
+      "airstamp": "2001-07-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252927"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252928,
+      "url": "https://www.tvmaze.com/episodes/3252928/wwe-metal-3x31-episode-102",
+      "name": "Episode 102",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2001-08-04",
+      "airtime": "",
+      "airstamp": "2001-08-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252928"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252929,
+      "url": "https://www.tvmaze.com/episodes/3252929/wwe-metal-3x32-episode-103",
+      "name": "Episode 103",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2001-08-11",
+      "airtime": "",
+      "airstamp": "2001-08-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252929"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252930,
+      "url": "https://www.tvmaze.com/episodes/3252930/wwe-metal-3x33-episode-104",
+      "name": "Episode 104",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2001-08-18",
+      "airtime": "",
+      "airstamp": "2001-08-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252930"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252931,
+      "url": "https://www.tvmaze.com/episodes/3252931/wwe-metal-3x34-episode-105",
+      "name": "Episode 105",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2001-08-25",
+      "airtime": "",
+      "airstamp": "2001-08-25T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252931"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252932,
+      "url": "https://www.tvmaze.com/episodes/3252932/wwe-metal-3x35-episode-106",
+      "name": "Episode 106",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2001-09-01",
+      "airtime": "",
+      "airstamp": "2001-09-01T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252932"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252933,
+      "url": "https://www.tvmaze.com/episodes/3252933/wwe-metal-3x36-episode-107",
+      "name": "Episode 107",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2001-09-08",
+      "airtime": "",
+      "airstamp": "2001-09-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252933"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252934,
+      "url": "https://www.tvmaze.com/episodes/3252934/wwe-metal-3x37-episode-108",
+      "name": "Episode 108",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2001-09-15",
+      "airtime": "",
+      "airstamp": "2001-09-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252934"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252935,
+      "url": "https://www.tvmaze.com/episodes/3252935/wwe-metal-3x38-episode-109",
+      "name": "Episode 109",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2001-09-22",
+      "airtime": "",
+      "airstamp": "2001-09-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252935"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252936,
+      "url": "https://www.tvmaze.com/episodes/3252936/wwe-metal-3x39-episode-110",
+      "name": "Episode 110",
+      "season": 3,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2001-09-29",
+      "airtime": "",
+      "airstamp": "2001-09-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252936"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252937,
+      "url": "https://www.tvmaze.com/episodes/3252937/wwe-metal-3x40-episode-111",
+      "name": "Episode 111",
+      "season": 3,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2001-10-06",
+      "airtime": "",
+      "airstamp": "2001-10-06T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252937"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252938,
+      "url": "https://www.tvmaze.com/episodes/3252938/wwe-metal-3x41-episode-112",
+      "name": "Episode 112",
+      "season": 3,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2001-10-13",
+      "airtime": "",
+      "airstamp": "2001-10-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252938"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252939,
+      "url": "https://www.tvmaze.com/episodes/3252939/wwe-metal-3x42-episode-113",
+      "name": "Episode 113",
+      "season": 3,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2001-10-20",
+      "airtime": "",
+      "airstamp": "2001-10-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252939"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252940,
+      "url": "https://www.tvmaze.com/episodes/3252940/wwe-metal-3x43-episode-114",
+      "name": "Episode 114",
+      "season": 3,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2001-10-27",
+      "airtime": "",
+      "airstamp": "2001-10-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252940"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252941,
+      "url": "https://www.tvmaze.com/episodes/3252941/wwe-metal-3x44-episode-115",
+      "name": "Episode 115",
+      "season": 3,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2001-11-03",
+      "airtime": "",
+      "airstamp": "2001-11-03T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252941"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252942,
+      "url": "https://www.tvmaze.com/episodes/3252942/wwe-metal-3x45-episode-116",
+      "name": "Episode 116",
+      "season": 3,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2001-11-10",
+      "airtime": "",
+      "airstamp": "2001-11-10T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252942"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252943,
+      "url": "https://www.tvmaze.com/episodes/3252943/wwe-metal-3x46-episode-117",
+      "name": "Episode 117",
+      "season": 3,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2001-11-17",
+      "airtime": "",
+      "airstamp": "2001-11-17T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252943"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252944,
+      "url": "https://www.tvmaze.com/episodes/3252944/wwe-metal-3x47-episode-118",
+      "name": "Episode 118",
+      "season": 3,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2001-11-24",
+      "airtime": "",
+      "airstamp": "2001-11-24T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252944"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252945,
+      "url": "https://www.tvmaze.com/episodes/3252945/wwe-metal-3x48-episode-119",
+      "name": "Episode 119",
+      "season": 3,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2001-12-01",
+      "airtime": "",
+      "airstamp": "2001-12-01T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252946,
+      "url": "https://www.tvmaze.com/episodes/3252946/wwe-metal-3x49-episode-120",
+      "name": "Episode 120",
+      "season": 3,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2001-12-08",
+      "airtime": "",
+      "airstamp": "2001-12-08T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252946"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252947,
+      "url": "https://www.tvmaze.com/episodes/3252947/wwe-metal-3x50-episode-121",
+      "name": "Episode 121",
+      "season": 3,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2001-12-15",
+      "airtime": "",
+      "airstamp": "2001-12-15T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252947"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252948,
+      "url": "https://www.tvmaze.com/episodes/3252948/wwe-metal-3x51-episode-122",
+      "name": "Episode 122",
+      "season": 3,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2001-12-22",
+      "airtime": "",
+      "airstamp": "2001-12-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252948"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252949,
+      "url": "https://www.tvmaze.com/episodes/3252949/wwe-metal-3x52-episode-123",
+      "name": "Episode 123",
+      "season": 3,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2001-12-29",
+      "airtime": "",
+      "airstamp": "2001-12-29T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252949"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252950,
+      "url": "https://www.tvmaze.com/episodes/3252950/wwe-metal-4x01-episode-124",
+      "name": "Episode 124",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2002-01-05",
+      "airtime": "",
+      "airstamp": "2002-01-05T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252950"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252951,
+      "url": "https://www.tvmaze.com/episodes/3252951/wwe-metal-4x02-episode-125",
+      "name": "Episode 125",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2002-01-12",
+      "airtime": "",
+      "airstamp": "2002-01-12T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252951"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252952,
+      "url": "https://www.tvmaze.com/episodes/3252952/wwe-metal-4x03-episode-126",
+      "name": "Episode 126",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2002-01-19",
+      "airtime": "",
+      "airstamp": "2002-01-19T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252953,
+      "url": "https://www.tvmaze.com/episodes/3252953/wwe-metal-4x04-episode-127",
+      "name": "Episode 127",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2002-01-26",
+      "airtime": "",
+      "airstamp": "2002-01-26T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252953"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252954,
+      "url": "https://www.tvmaze.com/episodes/3252954/wwe-metal-4x05-episode-128",
+      "name": "Episode 128",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2002-02-02",
+      "airtime": "",
+      "airstamp": "2002-02-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252955,
+      "url": "https://www.tvmaze.com/episodes/3252955/wwe-metal-4x06-episode-129",
+      "name": "Episode 129",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2002-02-09",
+      "airtime": "",
+      "airstamp": "2002-02-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252955"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252956,
+      "url": "https://www.tvmaze.com/episodes/3252956/wwe-metal-4x07-episode-130",
+      "name": "Episode 130",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2002-02-16",
+      "airtime": "",
+      "airstamp": "2002-02-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252956"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252957,
+      "url": "https://www.tvmaze.com/episodes/3252957/wwe-metal-4x08-episode-131",
+      "name": "Episode 131",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2002-02-23",
+      "airtime": "",
+      "airstamp": "2002-02-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252958,
+      "url": "https://www.tvmaze.com/episodes/3252958/wwe-metal-4x09-episode-132",
+      "name": "Episode 132",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2002-03-02",
+      "airtime": "",
+      "airstamp": "2002-03-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252959,
+      "url": "https://www.tvmaze.com/episodes/3252959/wwe-metal-4x10-episode-133",
+      "name": "Episode 133",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2002-03-09",
+      "airtime": "",
+      "airstamp": "2002-03-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252959"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252960,
+      "url": "https://www.tvmaze.com/episodes/3252960/wwe-metal-4x11-episode-134",
+      "name": "Episode 134",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2002-03-16",
+      "airtime": "",
+      "airstamp": "2002-03-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252960"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252961,
+      "url": "https://www.tvmaze.com/episodes/3252961/wwe-metal-4x12-episode-135",
+      "name": "Episode 135",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2002-03-23",
+      "airtime": "",
+      "airstamp": "2002-03-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252961"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252962,
+      "url": "https://www.tvmaze.com/episodes/3252962/wwe-metal-4x13-episode-136",
+      "name": "Episode 136",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2002-03-30",
+      "airtime": "",
+      "airstamp": "2002-03-30T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252962"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252963,
+      "url": "https://www.tvmaze.com/episodes/3252963/wwe-metal-4x14-episode-137",
+      "name": "Episode 137",
+      "season": 4,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2002-04-06",
+      "airtime": "",
+      "airstamp": "2002-04-06T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252963"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252964,
+      "url": "https://www.tvmaze.com/episodes/3252964/wwe-metal-4x15-episode-138",
+      "name": "Episode 138",
+      "season": 4,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2002-04-13",
+      "airtime": "",
+      "airstamp": "2002-04-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252964"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252965,
+      "url": "https://www.tvmaze.com/episodes/3252965/wwe-metal-4x16-episode-139",
+      "name": "Episode 139",
+      "season": 4,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2002-04-20",
+      "airtime": "",
+      "airstamp": "2002-04-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252965"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252966,
+      "url": "https://www.tvmaze.com/episodes/3252966/wwe-metal-4x17-episode-140",
+      "name": "Episode 140",
+      "season": 4,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2002-04-27",
+      "airtime": "",
+      "airstamp": "2002-04-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252966"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252967,
+      "url": "https://www.tvmaze.com/episodes/3252967/wwe-metal-4x18-episode-141",
+      "name": "Episode 141",
+      "season": 4,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2002-05-04",
+      "airtime": "",
+      "airstamp": "2002-05-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252967"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252968,
+      "url": "https://www.tvmaze.com/episodes/3252968/wwe-metal-4x19-episode-142",
+      "name": "Episode 142",
+      "season": 4,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2002-05-11",
+      "airtime": "",
+      "airstamp": "2002-05-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252968"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    },
+    {
+      "id": 3252969,
+      "url": "https://www.tvmaze.com/episodes/3252969/wwe-metal-4x20-episode-143",
+      "name": "Episode 143",
+      "season": 4,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2002-05-18",
+      "airtime": "",
+      "airstamp": "2002-05-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3252969"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27905",
+          "name": "WWE Metal"
+        }
+      }
+    }
+  ]
+}

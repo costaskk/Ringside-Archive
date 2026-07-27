@@ -1,0 +1,219 @@
+{
+  "programId": "wwf-shotgun",
+  "tvMazeId": 27909,
+  "fetchedAt": "2026-07-27T07:57:30.750Z",
+  "show": {
+    "id": 27909,
+    "url": "https://www.tvmaze.com/shows/27909/wwf-shotgun-saturday-night",
+    "name": "WWF Shotgun Saturday Night",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "1997-01-04",
+    "ended": "1999-08-21",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 68,
+    "network": {
+      "id": 72,
+      "name": "Syndication",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": "tt3960686"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/365/914032.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/365/914032.jpg"
+    },
+    "summary": "<p><b>WWF Shotgun Saturday Night</b> was a professional wrestling television program produced by the World Wrestling Federation (WWF). It aired from January 4, 1997 through August 21, 1999 as a syndicated broadcast. <i>Shotgun Saturday Night</i> was replaced by <i>WWF Jakked</i> in 1999.</p>",
+    "updated": 1731430097,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/27909"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1164362",
+        "name": "Episode 34"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1164361,
+      "url": "https://www.tvmaze.com/episodes/1164361/wwf-shotgun-saturday-night-1x01-january-4th-1997",
+      "name": "January 4th, 1997",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1997-01-04",
+      "airtime": "",
+      "airstamp": "1997-01-04T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Live from New York City it's the debut of Shotgun Saturday Night with...</p><p> • The Flying Nuns (Mother Smucker &amp; Sister Angelica) vs. The Godwinns (Henry O. &amp; Phineas I. Godwinn)<br /> • Goldust vs. The Sultan<br /> • Ahmed Johnson vs. Crush<br /> • Mascarita Sagrada Jr. vs. Mini Vader.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1164361"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27909",
+          "name": "WWF Shotgun Saturday Night"
+        }
+      }
+    },
+    {
+      "id": 3050279,
+      "url": "https://www.tvmaze.com/episodes/3050279/wwf-shotgun-saturday-night-1x02-january-11th-1997",
+      "name": "January 11th, 1997",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1997-01-11",
+      "airtime": "",
+      "airstamp": "1997-01-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sunny promises to debut her home sex video as she joins Vince McMahon to host...<br />• \"Wildman\" Marc Mero vs. \"Diesel\"<br />• Savio Vega vs. Faarooq<br />• Rocky Maivia vs. \"Razor Ramon\"<br />and more late-night action.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3050279"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27909",
+          "name": "WWF Shotgun Saturday Night"
+        }
+      }
+    },
+    {
+      "id": 3050280,
+      "url": "https://www.tvmaze.com/episodes/3050280/wwf-shotgun-saturday-night-1x03-january-18th-1997",
+      "name": "January 18th, 1997",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1997-01-18",
+      "airtime": "",
+      "airstamp": "1997-01-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Live at Denim &amp; Diamonds the night before the Royal Rumble in San Antonio. Vince McMahon and Jim Ross host...<br />• Golddust vs. Stone Cold Steve Austin<br />• Rocky vs. Hunter Hearst Helmsley<br />• Jeff Jarrett vs. Faarooq.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3050280"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27909",
+          "name": "WWF Shotgun Saturday Night"
+        }
+      }
+    },
+    {
+      "id": 3050281,
+      "url": "https://www.tvmaze.com/episodes/3050281/wwf-shotgun-saturday-night-1x04-january-25th-1997",
+      "name": "January 25th, 1997",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1997-01-25",
+      "airtime": "",
+      "airstamp": "1997-01-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Live from New York's Webster Hall, Vince McMahon and Sunny host...<br />• Sid vs. Crush<br />• Savio Vega vs. Rocky Maivia<br />• Jake \"The Snake\" Roberts vs. Salvatore Sincere<br />• Bret \"Hitman\" Hart vs. Mankind.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3050281"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27909",
+          "name": "WWF Shotgun Saturday Night"
+        }
+      }
+    },
+    {
+      "id": 3050282,
+      "url": "https://www.tvmaze.com/episodes/3050282/wwf-shotgun-saturday-night-1x05-february-1st-1997",
+      "name": "February 1st, 1997",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1997-02-01",
+      "airtime": "",
+      "airstamp": "1997-02-01T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Live from the Mirage Night Club in NYC. Vince McMahon and Sunny host...<br />• Ahmed Johnson vs. Vader<br />• Mankind vs. British Bulldog<br />• Savio Vega vs. Jesse James<br />• The Godwinns vs. The Headbangers.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3050282"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27909",
+          "name": "WWF Shotgun Saturday Night"
+        }
+      }
+    },
+    {
+      "id": 1164362,
+      "url": "https://www.tvmaze.com/episodes/1164362/wwf-shotgun-saturday-night-3x34-episode-34",
+      "name": "Episode 34",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "1999-08-21",
+      "airtime": "",
+      "airstamp": "1999-08-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1164362"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27909",
+          "name": "WWF Shotgun Saturday Night"
+        }
+      }
+    }
+  ]
+}

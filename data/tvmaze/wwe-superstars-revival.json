@@ -1,0 +1,660 @@
+{
+  "programId": "wwe-superstars-revival",
+  "tvMazeId": 16770,
+  "fetchedAt": "2026-07-27T07:57:32.960Z",
+  "show": {
+    "id": 16770,
+    "url": "https://www.tvmaze.com/shows/16770/wwe-superstars",
+    "name": "WWE Superstars",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": 60,
+    "premiered": "2009-04-16",
+    "ended": "2016-12-30",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": [
+        "Friday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 37,
+    "network": null,
+    "webChannel": {
+      "id": 15,
+      "name": "WWE Network",
+      "country": null,
+      "officialSite": null
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": "tt1401882"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/401/1002770.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002770.jpg"
+    },
+    "summary": "<p><b>WWE Superstars</b> is a professional wrestling television program produced by WWE that originally aired on WGN America in the United States and is broadcast on the WWE Network. It debuted on April 16,2009. The show features mid-to-low card WWE superstars and also looks back on past events from RAW, Smackdown and Pay Per Views.</p>",
+    "updated": 1762525413,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/16770"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/989531",
+        "name": "Episode 51"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 789612,
+      "url": "https://www.tvmaze.com/episodes/789612/wwe-superstars-1x01-episode-1",
+      "name": "Episode 1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2009-04-16",
+      "airtime": "",
+      "airstamp": "2009-04-16T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/789612"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 861482,
+      "url": "https://www.tvmaze.com/episodes/861482/wwe-superstars-7x01-episode-1",
+      "name": "Episode 1",
+      "season": 7,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2015-01-09",
+      "airtime": "",
+      "airstamp": "2015-01-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/861482"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 888754,
+      "url": "https://www.tvmaze.com/episodes/888754/wwe-superstars-8x01-episode-1",
+      "name": "Episode 1",
+      "season": 8,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-01-08",
+      "airtime": "",
+      "airstamp": "2016-01-08T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Superstars features the best of the best in matches you'll have to see to believe. You never know what to expect - so expect everything!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/888754"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 888755,
+      "url": "https://www.tvmaze.com/episodes/888755/wwe-superstars-8x32-episode-32",
+      "name": "Episode 32",
+      "season": 8,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2016-08-12",
+      "airtime": "",
+      "airstamp": "2016-08-12T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Superstars features the best of the best in matches you'll have to see to believe. You never know what to expect - so expect everything!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/888755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 888756,
+      "url": "https://www.tvmaze.com/episodes/888756/wwe-superstars-8x33-episode-33",
+      "name": "Episode 33",
+      "season": 8,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2016-08-19",
+      "airtime": "",
+      "airstamp": "2016-08-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week on WWE Superstars The Real American Jack Swagger takes on The Inspirational Bo Dallas. Also, Sin Cara battles Curtis Axel.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/888756"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 888757,
+      "url": "https://www.tvmaze.com/episodes/888757/wwe-superstars-8x34-episode-34",
+      "name": "Episode 34",
+      "season": 8,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2016-08-26",
+      "airtime": "",
+      "airstamp": "2016-08-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week on WWE Superstars The Golden Truth take on the duo of Mr. Irrelevant Curtis Axel and The Inspirational Bo Dallas.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/888757"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 895782,
+      "url": "https://www.tvmaze.com/episodes/895782/wwe-superstars-8x35-episode-35",
+      "name": "Episode 35",
+      "season": 8,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2016-09-02",
+      "airtime": "",
+      "airstamp": "2016-09-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week, Jack Swagger faces off with the United States Champion, Rusev. Plus, The Golden Truth take on The Shining Stars.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/895782"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 923441,
+      "url": "https://www.tvmaze.com/episodes/923441/wwe-superstars-8x36-episode-36",
+      "name": "Episode 36",
+      "season": 8,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2016-09-09",
+      "airtime": "",
+      "airstamp": "2016-09-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week on WWE Superstars, Jack Swagger faces off against Titus O'Neil. Also, Neville takes on Curtis Axel.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/923441"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 931735,
+      "url": "https://www.tvmaze.com/episodes/931735/wwe-superstars-8x37-episode-37",
+      "name": "Episode 37",
+      "season": 8,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2016-09-16",
+      "airtime": "",
+      "airstamp": "2016-09-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week, our main event is Darren Young and Neville vs. Titus O'Neil and Curtis Axel. Plus, Braun Strowman takes on Sin Cara.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/931735"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 945352,
+      "url": "https://www.tvmaze.com/episodes/945352/wwe-superstars-8x38-episode-38",
+      "name": "Episode 38",
+      "season": 8,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2016-09-23",
+      "airtime": "",
+      "airstamp": "2016-09-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/77/193584.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/77/193584.jpg"
+      },
+      "summary": "<p>This week, The Golden Truth face off against the team of Titus O' Neil and Jinder Mahal. Plus, Darren Young takes on Curtis Axel.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/945352"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 945354,
+      "url": "https://www.tvmaze.com/episodes/945354/wwe-superstars-8x39-episode-39",
+      "name": "Episode 39",
+      "season": 8,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2016-09-30",
+      "airtime": "",
+      "airstamp": "2016-09-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week 'The Man That Gravity Forgot' faces off against 'The Newly Enlightened' Jinder Mahal. Plus, Sami Zayn takes on Curtis Axel.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/945354"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 953505,
+      "url": "https://www.tvmaze.com/episodes/953505/wwe-superstars-8x40-episode-40",
+      "name": "Episode 40",
+      "season": 8,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2016-10-07",
+      "airtime": "",
+      "airstamp": "2016-10-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week 'Mr. Irrelevant' Curtis Axel takes on 'The Man That Gravity Forgot' Neville. Plus, Darren Young faces off with Jinder Mahal.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/953505"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 960029,
+      "url": "https://www.tvmaze.com/episodes/960029/wwe-superstars-8x41-episode-41",
+      "name": "Episode 41",
+      "season": 8,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2016-10-14",
+      "airtime": "",
+      "airstamp": "2016-10-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week, Darren Young takes on Jinder Mahal. Also, The Shining Stars in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/960029"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 975358,
+      "url": "https://www.tvmaze.com/episodes/975358/wwe-superstars-8x42-episode-42",
+      "name": "Episode 42",
+      "season": 8,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2016-10-21",
+      "airtime": "",
+      "airstamp": "2016-10-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Darren Young faces off against Jinder Mahal in a rematch from last week. Plus, Alicia Fox takes on Nia Jax.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/975358"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 975359,
+      "url": "https://www.tvmaze.com/episodes/975359/wwe-superstars-8x43-episode-43",
+      "name": "Episode 43",
+      "season": 8,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2016-10-28",
+      "airtime": "",
+      "airstamp": "2016-10-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>The Cruiserweight Division debuts on Superstars! Plus, Neville takes on Titus O'Neil.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/975359"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 977940,
+      "url": "https://www.tvmaze.com/episodes/977940/wwe-superstars-8x44-episode-44",
+      "name": "Episode 44",
+      "season": 8,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2016-11-04",
+      "airtime": "",
+      "airstamp": "2016-11-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Curtis Axel goes one-on-one with Jinder Mahal. Also, Alicia Fox battles Dana Brooke in Women's Division action.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/977940"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 984802,
+      "url": "https://www.tvmaze.com/episodes/984802/wwe-superstars-8x45-episode-45",
+      "name": "Episode 45",
+      "season": 8,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2016-11-11",
+      "airtime": "",
+      "airstamp": "2016-11-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week, The Real Deal, Titus O'Neil takes on The Man that Gravity Forgot, Neville. Plus, Darren Young faces off with Bo Dallas.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/984802"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 984803,
+      "url": "https://www.tvmaze.com/episodes/984803/wwe-superstars-8x46-episode-46",
+      "name": "Episode 46",
+      "season": 8,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2016-11-18",
+      "airtime": "",
+      "airstamp": "2016-11-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week, Darren Young faces off against The Enlightened Jinder Mahal. Plus, Curtis Axel takes on Titus O'Neil.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/984803"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 984804,
+      "url": "https://www.tvmaze.com/episodes/984804/wwe-superstars-8x47-episode-47",
+      "name": "Episode 47",
+      "season": 8,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2016-11-25",
+      "airtime": "",
+      "airstamp": "2016-11-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>This week, the UnBoLievable Bo Dallas faces off against Curtis Axel. Plus, Jinder Mahal takes on Sin Cara.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/984804"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 989528,
+      "url": "https://www.tvmaze.com/episodes/989528/wwe-superstars-8x48-episode-48",
+      "name": "Episode 48",
+      "season": 8,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2016-12-09",
+      "airtime": "",
+      "airstamp": "2016-12-09T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Superstars features the best of the best in matches you'll have to see to believe. You never know what to expect - so expect everything!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/989528"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 989529,
+      "url": "https://www.tvmaze.com/episodes/989529/wwe-superstars-8x49-episode-49",
+      "name": "Episode 49",
+      "season": 8,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2016-12-16",
+      "airtime": "",
+      "airstamp": "2016-12-16T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Superstars features the best of the best in matches you'll have to see to believe. You never know what to expect - so expect everything!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/989529"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 989530,
+      "url": "https://www.tvmaze.com/episodes/989530/wwe-superstars-8x50-episode-50",
+      "name": "Episode 50",
+      "season": 8,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2016-12-23",
+      "airtime": "",
+      "airstamp": "2016-12-23T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Superstars features the best of the best in matches you'll have to see to believe. You never know what to expect - so expect everything!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/989530"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    },
+    {
+      "id": 989531,
+      "url": "https://www.tvmaze.com/episodes/989531/wwe-superstars-8x51-episode-51",
+      "name": "Episode 51",
+      "season": 8,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2016-12-30",
+      "airtime": "",
+      "airstamp": "2016-12-30T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Superstars features the best of the best in matches you'll have to see to believe. You never know what to expect - so expect everything!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/989531"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/16770",
+          "name": "WWE Superstars"
+        }
+      }
+    }
+  ]
+}

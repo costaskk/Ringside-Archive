@@ -1,0 +1,5080 @@
+{
+  "programId": "aew-dark",
+  "tvMazeId": 48302,
+  "fetchedAt": "2026-07-27T07:57:35.437Z",
+  "show": {
+    "id": 48302,
+    "url": "https://www.tvmaze.com/shows/48302/all-elite-wrestling-dark",
+    "name": "All Elite Wrestling: Dark",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": null,
+    "premiered": "2019-10-08",
+    "ended": "2023-04-25",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": [
+        "Tuesday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 55,
+    "network": null,
+    "webChannel": {
+      "id": 21,
+      "name": "YouTube",
+      "country": null,
+      "officialSite": "https://www.youtube.com"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 370561,
+      "imdb": "tt11092482"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/258/645558.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645558.jpg"
+    },
+    "summary": "<p><b>All Elite Wrestling: Dark</b> features the matches you didn't see on All Elite Wrestling: Dynamite.</p>",
+    "updated": 1765908444,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/48302"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2447280",
+        "name": "AEW Dark 193"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1871140,
+      "url": "https://www.tvmaze.com/episodes/1871140/all-elite-wrestling-dark-2019-10-08-aew-dark-01-washington-dc",
+      "name": "AEW Dark 01 - Washington, D.C.",
+      "season": 2019,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-10-08",
+      "airtime": "",
+      "airstamp": "2019-10-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645567.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645567.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871140"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871141,
+      "url": "https://www.tvmaze.com/episodes/1871141/all-elite-wrestling-dark-2019-10-15-aew-dark-02-boston-ma",
+      "name": "AEW Dark 02 - Boston, MA",
+      "season": 2019,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-10-15",
+      "airtime": "",
+      "airstamp": "2019-10-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645568.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645568.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871141"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871142,
+      "url": "https://www.tvmaze.com/episodes/1871142/all-elite-wrestling-dark-2019-10-22-aew-dark-03-philadelphia-pa",
+      "name": "AEW Dark 03 - Philadelphia, PA",
+      "season": 2019,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-10-22",
+      "airtime": "",
+      "airstamp": "2019-10-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645569.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645569.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871142"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871143,
+      "url": "https://www.tvmaze.com/episodes/1871143/all-elite-wrestling-dark-2019-10-29-aew-dark-04-pittsburgh-pa",
+      "name": "AEW Dark 04 - Pittsburgh, PA",
+      "season": 2019,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-10-29",
+      "airtime": "",
+      "airstamp": "2019-10-29T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645570.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645570.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871143"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871144,
+      "url": "https://www.tvmaze.com/episodes/1871144/all-elite-wrestling-dark-2019-11-05-aew-dark-05-charleston-wv",
+      "name": "AEW Dark 05 - Charleston, WV",
+      "season": 2019,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-11-05",
+      "airtime": "",
+      "airstamp": "2019-11-05T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645571.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645571.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871144"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871145,
+      "url": "https://www.tvmaze.com/episodes/1871145/all-elite-wrestling-dark-2019-11-08-aew-dark-06-charlotte-nc",
+      "name": "AEW Dark 06 - Charlotte, NC",
+      "season": 2019,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-11-08",
+      "airtime": "",
+      "airstamp": "2019-11-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645572.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645572.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871145"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871146,
+      "url": "https://www.tvmaze.com/episodes/1871146/all-elite-wrestling-dark-2019-11-19-aew-dark-07-nashville-tn",
+      "name": "AEW Dark 07 - Nashville, TN",
+      "season": 2019,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-11-19",
+      "airtime": "",
+      "airstamp": "2019-11-19T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645573.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645573.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871146"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871147,
+      "url": "https://www.tvmaze.com/episodes/1871147/all-elite-wrestling-dark-2019-11-26-aew-dark-08-indianapolis-in",
+      "name": "AEW Dark 08 - Indianapolis, IN",
+      "season": 2019,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-11-26",
+      "airtime": "",
+      "airstamp": "2019-11-26T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645574.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645574.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871147"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871148,
+      "url": "https://www.tvmaze.com/episodes/1871148/all-elite-wrestling-dark-2019-12-03-aew-dark-09-chicago-il",
+      "name": "AEW Dark 09 - Chicago, IL",
+      "season": 2019,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2019-12-03",
+      "airtime": "",
+      "airstamp": "2019-12-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645575.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645575.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871148"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871149,
+      "url": "https://www.tvmaze.com/episodes/1871149/all-elite-wrestling-dark-2019-12-10-aew-dark-10-champaign-il",
+      "name": "AEW Dark 10 - Champaign, IL",
+      "season": 2019,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2019-12-10",
+      "airtime": "",
+      "airstamp": "2019-12-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645576.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645576.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871149"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871150,
+      "url": "https://www.tvmaze.com/episodes/1871150/all-elite-wrestling-dark-2019-12-17-aew-dark-11-garland-tx",
+      "name": "AEW Dark 11 - Garland, TX",
+      "season": 2019,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2019-12-17",
+      "airtime": "",
+      "airstamp": "2019-12-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645577.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645577.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871150"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871151,
+      "url": "https://www.tvmaze.com/episodes/1871151/all-elite-wrestling-dark-2019-12-24-aew-dark-12-corpus-christi-tx",
+      "name": "AEW Dark 12 - Corpus Christi, TX",
+      "season": 2019,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2019-12-24",
+      "airtime": "",
+      "airstamp": "2019-12-24T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645578.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645578.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871151"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871155,
+      "url": "https://www.tvmaze.com/episodes/1871155/all-elite-wrestling-dark-2019-12-31-aew-dark-13-2019-year-in-review",
+      "name": "AEW Dark 13 - 2019 Year in Review",
+      "season": 2019,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2019-12-31",
+      "airtime": "",
+      "airstamp": "2019-12-31T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645579.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645579.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871155"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871152,
+      "url": "https://www.tvmaze.com/episodes/1871152/all-elite-wrestling-dark-2020-01-07-aew-dark-14-jacksonville-fl",
+      "name": "AEW Dark 14 - Jacksonville, FL",
+      "season": 2020,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2020-01-07",
+      "airtime": "",
+      "airstamp": "2020-01-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645581.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645581.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871152"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871153,
+      "url": "https://www.tvmaze.com/episodes/1871153/all-elite-wrestling-dark-2020-01-14-aew-dark-15-southaven-ms",
+      "name": "AEW Dark 15 - Southaven, MS",
+      "season": 2020,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2020-01-14",
+      "airtime": "",
+      "airstamp": "2020-01-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645582.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645582.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871153"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871154,
+      "url": "https://www.tvmaze.com/episodes/1871154/all-elite-wrestling-dark-2020-01-21-aew-dark-16-miami-fl",
+      "name": "AEW Dark 16 - Miami, FL",
+      "season": 2020,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2020-01-21",
+      "airtime": "",
+      "airstamp": "2020-01-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645583.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645583.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871154"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871156,
+      "url": "https://www.tvmaze.com/episodes/1871156/all-elite-wrestling-dark-2020-01-28-aew-dark-17-rock-n-wrestling-rager-at-sea",
+      "name": "AEW Dark 17 - Rock n' Wrestling Rager at Sea",
+      "season": 2020,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2020-01-28",
+      "airtime": "",
+      "airstamp": "2020-01-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645584.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645584.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871156"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871157,
+      "url": "https://www.tvmaze.com/episodes/1871157/all-elite-wrestling-dark-2020-02-04-aew-dark-18-cleveland-oh",
+      "name": "AEW Dark 18 - Cleveland, OH",
+      "season": 2020,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2020-02-04",
+      "airtime": "",
+      "airstamp": "2020-02-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645585.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645585.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871157"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871158,
+      "url": "https://www.tvmaze.com/episodes/1871158/all-elite-wrestling-dark-2020-02-11-aew-dark-19-huntsville-al",
+      "name": "AEW Dark 19 - Huntsville, AL",
+      "season": 2020,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2020-02-11",
+      "airtime": "",
+      "airstamp": "2020-02-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645586.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645586.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871158"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871159,
+      "url": "https://www.tvmaze.com/episodes/1871159/all-elite-wrestling-dark-2020-02-18-aew-dark-20-austin-tx",
+      "name": "AEW Dark 20 - Austin, TX",
+      "season": 2020,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2020-02-18",
+      "airtime": "",
+      "airstamp": "2020-02-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645587.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645587.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871159"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871160,
+      "url": "https://www.tvmaze.com/episodes/1871160/all-elite-wrestling-dark-2020-02-25-aew-dark-21-atlanta-ga",
+      "name": "AEW Dark 21 - Atlanta, GA",
+      "season": 2020,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2020-02-25",
+      "airtime": "",
+      "airstamp": "2020-02-25T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645588.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645588.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871160"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871161,
+      "url": "https://www.tvmaze.com/episodes/1871161/all-elite-wrestling-dark-2020-02-28-aew-dark-22-kansas-city-mo",
+      "name": "AEW Dark 22 - Kansas City, MO",
+      "season": 2020,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2020-02-28",
+      "airtime": "",
+      "airstamp": "2020-02-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645589.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645589.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871161"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871166,
+      "url": "https://www.tvmaze.com/episodes/1871166/all-elite-wrestling-dark-2020-03-03-aew-dark-23-chicago-il",
+      "name": "AEW Dark 23 - Chicago, IL",
+      "season": 2020,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2020-03-03",
+      "airtime": "",
+      "airstamp": "2020-03-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645590.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645590.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871166"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871162,
+      "url": "https://www.tvmaze.com/episodes/1871162/all-elite-wrestling-dark-2020-03-10-aew-dark-24-denver-co",
+      "name": "AEW Dark 24 - Denver, CO",
+      "season": 2020,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2020-03-10",
+      "airtime": "",
+      "airstamp": "2020-03-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645591.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645591.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871162"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871163,
+      "url": "https://www.tvmaze.com/episodes/1871163/all-elite-wrestling-dark-2020-03-17-aew-dark-25-salt-lake-city-ut",
+      "name": "AEW Dark 25 - Salt Lake City, UT",
+      "season": 2020,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2020-03-17",
+      "airtime": "",
+      "airstamp": "2020-03-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645592.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645592.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871163"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871164,
+      "url": "https://www.tvmaze.com/episodes/1871164/all-elite-wrestling-dark-2020-03-24-aew-dark-26-jacksonville-fl",
+      "name": "AEW Dark 26 - Jacksonville, FL",
+      "season": 2020,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2020-03-24",
+      "airtime": "",
+      "airstamp": "2020-03-24T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645593.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645593.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871164"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871165,
+      "url": "https://www.tvmaze.com/episodes/1871165/all-elite-wrestling-dark-2020-03-31-aew-dark-27-norcross-ga",
+      "name": "AEW Dark 27 - Norcross, GA",
+      "season": 2020,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2020-03-31",
+      "airtime": "",
+      "airstamp": "2020-03-31T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645594.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645594.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871165"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871167,
+      "url": "https://www.tvmaze.com/episodes/1871167/all-elite-wrestling-dark-2020-04-07-aew-dark-28-norcross-ga",
+      "name": "AEW Dark 28 - Norcross, GA",
+      "season": 2020,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2020-04-07",
+      "airtime": "",
+      "airstamp": "2020-04-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645595.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645595.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871167"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871168,
+      "url": "https://www.tvmaze.com/episodes/1871168/all-elite-wrestling-dark-2020-04-14-aew-dark-29-norcross-ga",
+      "name": "AEW Dark 29 - Norcross, GA",
+      "season": 2020,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2020-04-14",
+      "airtime": "",
+      "airstamp": "2020-04-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645596.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645596.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871168"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871169,
+      "url": "https://www.tvmaze.com/episodes/1871169/all-elite-wrestling-dark-2020-04-21-aew-dark-30-norcross-ga",
+      "name": "AEW Dark 30 - Norcross, GA",
+      "season": 2020,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2020-04-21",
+      "airtime": "",
+      "airstamp": "2020-04-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645597.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645597.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871169"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871170,
+      "url": "https://www.tvmaze.com/episodes/1871170/all-elite-wrestling-dark-2020-04-28-aew-dark-31-norcross-ga",
+      "name": "AEW Dark 31 - Norcross, GA",
+      "season": 2020,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2020-04-28",
+      "airtime": "",
+      "airstamp": "2020-04-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645598.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645598.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871170"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871171,
+      "url": "https://www.tvmaze.com/episodes/1871171/all-elite-wrestling-dark-2020-05-05-aew-dark-32-jacksonville-fl",
+      "name": "AEW Dark 32 - Jacksonville, FL",
+      "season": 2020,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2020-05-05",
+      "airtime": "",
+      "airstamp": "2020-05-05T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645599.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645599.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871171"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871172,
+      "url": "https://www.tvmaze.com/episodes/1871172/all-elite-wrestling-dark-2020-05-12-aew-dark-33-jacksonville-fl",
+      "name": "AEW Dark 33 - Jacksonville, FL",
+      "season": 2020,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2020-05-12",
+      "airtime": "",
+      "airstamp": "2020-05-12T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645600.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645600.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871172"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871173,
+      "url": "https://www.tvmaze.com/episodes/1871173/all-elite-wrestling-dark-2020-05-19-aew-dark-34-jacksonville-fl",
+      "name": "AEW Dark 34 - Jacksonville, FL",
+      "season": 2020,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2020-05-19",
+      "airtime": "",
+      "airstamp": "2020-05-19T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/645601.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/645601.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871173"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871174,
+      "url": "https://www.tvmaze.com/episodes/1871174/all-elite-wrestling-dark-2020-05-26-aew-dark-35-jacksonville-fl",
+      "name": "AEW Dark 35 - Jacksonville, FL",
+      "season": 2020,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2020-05-26",
+      "airtime": "",
+      "airstamp": "2020-05-26T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/647149.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/647149.jpg"
+      },
+      "summary": "<p>Darby Allin vs. Serpentico. Luther vs. Jon Cruz. Sammy Guevara faces Alan Angels. Fenix vs. Shawn Dean. QT Marshall vs. Clutch Adams. Private Party versus the team of Ryan Rembrandt and Mike Reed. Jimmy Havoc &amp; Kip Sabian (w/Penelope Ford) vs. Musa and Lee Johnson. Marko Stunt vs. Jason Cade.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871174"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871175,
+      "url": "https://www.tvmaze.com/episodes/1871175/all-elite-wrestling-dark-2020-06-02-aew-dark-36-jacksonville-fl",
+      "name": "AEW Dark 36 - Jacksonville, FL",
+      "season": 2020,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2020-06-02",
+      "airtime": "",
+      "airstamp": "2020-06-02T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/264/661410.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661410.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871175"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871176,
+      "url": "https://www.tvmaze.com/episodes/1871176/all-elite-wrestling-dark-2020-06-09-aew-dark-37-jacksonville-fl",
+      "name": "AEW Dark 37 - Jacksonville, FL",
+      "season": 2020,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2020-06-09",
+      "airtime": "",
+      "airstamp": "2020-06-09T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/264/661411.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661411.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871176"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871177,
+      "url": "https://www.tvmaze.com/episodes/1871177/all-elite-wrestling-dark-2020-06-16-aew-dark-38-jacksonville-fl",
+      "name": "AEW Dark 38 - Jacksonville, FL",
+      "season": 2020,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2020-06-16",
+      "airtime": "",
+      "airstamp": "2020-06-16T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/264/661412.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661412.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871177"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871178,
+      "url": "https://www.tvmaze.com/episodes/1871178/all-elite-wrestling-dark-2020-06-23-aew-dark-39-jacksonville-fl",
+      "name": "AEW Dark 39 - Jacksonville, FL",
+      "season": 2020,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2020-06-23",
+      "airtime": "",
+      "airstamp": "2020-06-23T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/264/661413.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661413.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871178"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1871179,
+      "url": "https://www.tvmaze.com/episodes/1871179/all-elite-wrestling-dark-2020-06-30-aew-dark-40-jacksonville-fl",
+      "name": "AEW Dark 40 - Jacksonville, FL",
+      "season": 2020,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2020-06-30",
+      "airtime": "",
+      "airstamp": "2020-06-30T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/264/661414.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661414.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871179"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1893838,
+      "url": "https://www.tvmaze.com/episodes/1893838/all-elite-wrestling-dark-2020-07-07-aew-dark-41-jacksonville-fl",
+      "name": "AEW Dark 41 - Jacksonville, FL",
+      "season": 2020,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2020-07-07",
+      "airtime": "",
+      "airstamp": "2020-07-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/264/661415.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/661415.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1893838"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1893839,
+      "url": "https://www.tvmaze.com/episodes/1893839/all-elite-wrestling-dark-2020-07-14-aew-dark-42",
+      "name": "AEW Dark 42",
+      "season": 2020,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2020-07-14",
+      "airtime": "",
+      "airstamp": "2020-07-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/271/679539.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/679539.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1893839"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1893840,
+      "url": "https://www.tvmaze.com/episodes/1893840/all-elite-wrestling-dark-2020-07-21-aew-dark-43",
+      "name": "AEW Dark 43",
+      "season": 2020,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2020-07-21",
+      "airtime": "",
+      "airstamp": "2020-07-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/271/679540.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/679540.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1893840"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1893841,
+      "url": "https://www.tvmaze.com/episodes/1893841/all-elite-wrestling-dark-2020-07-28-aew-dark-44",
+      "name": "AEW Dark 44",
+      "season": 2020,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2020-07-28",
+      "airtime": "",
+      "airstamp": "2020-07-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/271/679541.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/679541.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1893841"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1911170,
+      "url": "https://www.tvmaze.com/episodes/1911170/all-elite-wrestling-dark-2020-08-04-aew-dark-45",
+      "name": "AEW Dark 45",
+      "season": 2020,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2020-08-04",
+      "airtime": "",
+      "airstamp": "2020-08-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/271/679542.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/679542.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1911170"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1911171,
+      "url": "https://www.tvmaze.com/episodes/1911171/all-elite-wrestling-dark-2020-08-11-aew-dark-46",
+      "name": "AEW Dark 46",
+      "season": 2020,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2020-08-11",
+      "airtime": "",
+      "airstamp": "2020-08-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/271/679543.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/679543.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1911171"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1911172,
+      "url": "https://www.tvmaze.com/episodes/1911172/all-elite-wrestling-dark-2020-08-18-aew-dark-47",
+      "name": "AEW Dark 47",
+      "season": 2020,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2020-08-18",
+      "airtime": "",
+      "airstamp": "2020-08-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701697.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701697.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1911172"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1911173,
+      "url": "https://www.tvmaze.com/episodes/1911173/all-elite-wrestling-dark-2020-08-25-aew-dark-48",
+      "name": "AEW Dark 48",
+      "season": 2020,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2020-08-25",
+      "airtime": "",
+      "airstamp": "2020-08-25T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701698.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701698.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1911173"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1920372,
+      "url": "https://www.tvmaze.com/episodes/1920372/all-elite-wrestling-dark-2020-09-01-aew-dark-49",
+      "name": "AEW Dark 49",
+      "season": 2020,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2020-09-01",
+      "airtime": "",
+      "airstamp": "2020-09-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701699.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701699.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1920372"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1920373,
+      "url": "https://www.tvmaze.com/episodes/1920373/all-elite-wrestling-dark-2020-09-08-aew-dark-50",
+      "name": "AEW Dark 50",
+      "season": 2020,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2020-09-08",
+      "airtime": "",
+      "airstamp": "2020-09-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701700.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701700.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1920373"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1920374,
+      "url": "https://www.tvmaze.com/episodes/1920374/all-elite-wrestling-dark-2020-09-15-aew-dark-51",
+      "name": "AEW Dark 51",
+      "season": 2020,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2020-09-15",
+      "airtime": "",
+      "airstamp": "2020-09-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701701.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701701.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1920374"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1920376,
+      "url": "https://www.tvmaze.com/episodes/1920376/all-elite-wrestling-dark-2020-09-22-aew-dark-52",
+      "name": "AEW Dark 52",
+      "season": 2020,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2020-09-22",
+      "airtime": "",
+      "airstamp": "2020-09-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701702.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701702.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1920376"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1920377,
+      "url": "https://www.tvmaze.com/episodes/1920377/all-elite-wrestling-dark-2020-09-29-aew-dark-53",
+      "name": "AEW Dark 53",
+      "season": 2020,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2020-09-29",
+      "airtime": "",
+      "airstamp": "2020-09-29T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/280/701704.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/280/701704.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1920377"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960487,
+      "url": "https://www.tvmaze.com/episodes/1960487/all-elite-wrestling-dark-2020-10-06-aew-dark-55",
+      "name": "AEW Dark 55",
+      "season": 2020,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2020-10-06",
+      "airtime": "",
+      "airstamp": "2020-10-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960487"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960488,
+      "url": "https://www.tvmaze.com/episodes/1960488/all-elite-wrestling-dark-2020-10-13-aew-dark-56",
+      "name": "AEW Dark 56",
+      "season": 2020,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2020-10-13",
+      "airtime": "",
+      "airstamp": "2020-10-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960488"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960489,
+      "url": "https://www.tvmaze.com/episodes/1960489/all-elite-wrestling-dark-2020-10-20-aew-dark-57",
+      "name": "AEW Dark 57",
+      "season": 2020,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2020-10-20",
+      "airtime": "",
+      "airstamp": "2020-10-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960489"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960490,
+      "url": "https://www.tvmaze.com/episodes/1960490/all-elite-wrestling-dark-2020-10-27-aew-dark-58",
+      "name": "AEW Dark 58",
+      "season": 2020,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2020-10-27",
+      "airtime": "",
+      "airstamp": "2020-10-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960490"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960491,
+      "url": "https://www.tvmaze.com/episodes/1960491/all-elite-wrestling-dark-2020-11-03-aew-dark-59",
+      "name": "AEW Dark 59",
+      "season": 2020,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2020-11-03",
+      "airtime": "",
+      "airstamp": "2020-11-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960491"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960493,
+      "url": "https://www.tvmaze.com/episodes/1960493/all-elite-wrestling-dark-2020-11-10-aew-dark-60",
+      "name": "AEW Dark 60",
+      "season": 2020,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2020-11-10",
+      "airtime": "",
+      "airstamp": "2020-11-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960493"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960494,
+      "url": "https://www.tvmaze.com/episodes/1960494/all-elite-wrestling-dark-2020-11-17-aew-dark-61",
+      "name": "AEW Dark 61",
+      "season": 2020,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2020-11-17",
+      "airtime": "",
+      "airstamp": "2020-11-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960494"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960495,
+      "url": "https://www.tvmaze.com/episodes/1960495/all-elite-wrestling-dark-2020-11-24-aew-dark-62",
+      "name": "AEW Dark 62",
+      "season": 2020,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2020-11-24",
+      "airtime": "",
+      "airstamp": "2020-11-24T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960495"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960496,
+      "url": "https://www.tvmaze.com/episodes/1960496/all-elite-wrestling-dark-2020-12-01-aew-dark-63",
+      "name": "AEW Dark 63",
+      "season": 2020,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2020-12-01",
+      "airtime": "",
+      "airstamp": "2020-12-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960496"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960497,
+      "url": "https://www.tvmaze.com/episodes/1960497/all-elite-wrestling-dark-2020-12-08-aew-dark-64",
+      "name": "AEW Dark 64",
+      "season": 2020,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2020-12-08",
+      "airtime": "",
+      "airstamp": "2020-12-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960497"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960498,
+      "url": "https://www.tvmaze.com/episodes/1960498/all-elite-wrestling-dark-2020-12-15-aew-dark-65",
+      "name": "AEW Dark 65",
+      "season": 2020,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2020-12-15",
+      "airtime": "",
+      "airstamp": "2020-12-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960498"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960499,
+      "url": "https://www.tvmaze.com/episodes/1960499/all-elite-wrestling-dark-2020-12-22-aew-dark-66",
+      "name": "AEW Dark 66",
+      "season": 2020,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2020-12-22",
+      "airtime": "",
+      "airstamp": "2020-12-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960499"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1960500,
+      "url": "https://www.tvmaze.com/episodes/1960500/all-elite-wrestling-dark-2020-12-29-aew-dark-67",
+      "name": "AEW Dark 67",
+      "season": 2020,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2020-12-29",
+      "airtime": "",
+      "airstamp": "2020-12-29T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1960500"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1980943,
+      "url": "https://www.tvmaze.com/episodes/1980943/all-elite-wrestling-dark-2021-01-05-aew-dark-68",
+      "name": "AEW Dark 68",
+      "season": 2021,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-01-05",
+      "airtime": "",
+      "airstamp": "2021-01-05T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1980943"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1990861,
+      "url": "https://www.tvmaze.com/episodes/1990861/all-elite-wrestling-dark-2021-01-12-aew-dark-69",
+      "name": "AEW Dark 69",
+      "season": 2021,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-01-12",
+      "airtime": "",
+      "airstamp": "2021-01-12T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1990861"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1990862,
+      "url": "https://www.tvmaze.com/episodes/1990862/all-elite-wrestling-dark-2021-01-19-aew-dark-70",
+      "name": "AEW Dark 70",
+      "season": 2021,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-01-19",
+      "airtime": "",
+      "airstamp": "2021-01-19T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1990862"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 1990863,
+      "url": "https://www.tvmaze.com/episodes/1990863/all-elite-wrestling-dark-2021-01-26-aew-dark-71",
+      "name": "AEW Dark 71",
+      "season": 2021,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-01-26",
+      "airtime": "",
+      "airstamp": "2021-01-26T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1990863"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2024431,
+      "url": "https://www.tvmaze.com/episodes/2024431/all-elite-wrestling-dark-2021-02-02-aew-dark-72",
+      "name": "AEW Dark 72",
+      "season": 2021,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-02-02",
+      "airtime": "",
+      "airstamp": "2021-02-02T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2024431"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2024432,
+      "url": "https://www.tvmaze.com/episodes/2024432/all-elite-wrestling-dark-2021-02-09-aew-dark-73",
+      "name": "AEW Dark 73",
+      "season": 2021,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-02-09",
+      "airtime": "",
+      "airstamp": "2021-02-09T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2024432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2024433,
+      "url": "https://www.tvmaze.com/episodes/2024433/all-elite-wrestling-dark-2021-02-16-aew-dark-74",
+      "name": "AEW Dark 74",
+      "season": 2021,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-02-16",
+      "airtime": "",
+      "airstamp": "2021-02-16T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2024433"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2024434,
+      "url": "https://www.tvmaze.com/episodes/2024434/all-elite-wrestling-dark-2021-02-23-aew-dark-75",
+      "name": "AEW Dark 75",
+      "season": 2021,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-02-23",
+      "airtime": "",
+      "airstamp": "2021-02-23T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2024434"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2039265,
+      "url": "https://www.tvmaze.com/episodes/2039265/all-elite-wrestling-dark-2021-03-02-aew-dark-76",
+      "name": "AEW Dark 76",
+      "season": 2021,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-03-02",
+      "airtime": "",
+      "airstamp": "2021-03-02T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2039265"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2039266,
+      "url": "https://www.tvmaze.com/episodes/2039266/all-elite-wrestling-dark-2021-03-09-aew-dark-77",
+      "name": "AEW Dark 77",
+      "season": 2021,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-03-09",
+      "airtime": "",
+      "airstamp": "2021-03-09T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2039266"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2039267,
+      "url": "https://www.tvmaze.com/episodes/2039267/all-elite-wrestling-dark-2021-03-16-aew-dark-78",
+      "name": "AEW Dark 78",
+      "season": 2021,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-03-16",
+      "airtime": "",
+      "airstamp": "2021-03-16T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2039267"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2039268,
+      "url": "https://www.tvmaze.com/episodes/2039268/all-elite-wrestling-dark-2021-03-23-aew-dark-79",
+      "name": "AEW Dark 79",
+      "season": 2021,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-03-23",
+      "airtime": "",
+      "airstamp": "2021-03-23T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2039268"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2039269,
+      "url": "https://www.tvmaze.com/episodes/2039269/all-elite-wrestling-dark-2021-03-30-aew-dark-80",
+      "name": "AEW Dark 80",
+      "season": 2021,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-03-30",
+      "airtime": "",
+      "airstamp": "2021-03-30T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2039269"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2062495,
+      "url": "https://www.tvmaze.com/episodes/2062495/all-elite-wrestling-dark-2021-04-06-aew-dark-81",
+      "name": "AEW Dark 81",
+      "season": 2021,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-04-06",
+      "airtime": "",
+      "airstamp": "2021-04-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2062495"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2062496,
+      "url": "https://www.tvmaze.com/episodes/2062496/all-elite-wrestling-dark-2021-04-13-aew-dark-82",
+      "name": "AEW Dark 82",
+      "season": 2021,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-04-13",
+      "airtime": "",
+      "airstamp": "2021-04-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2062496"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2062497,
+      "url": "https://www.tvmaze.com/episodes/2062497/all-elite-wrestling-dark-2021-04-20-aew-dark-83",
+      "name": "AEW Dark 83",
+      "season": 2021,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-04-20",
+      "airtime": "",
+      "airstamp": "2021-04-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2062497"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2062498,
+      "url": "https://www.tvmaze.com/episodes/2062498/all-elite-wrestling-dark-2021-04-27-aew-dark-84",
+      "name": "AEW Dark 84",
+      "season": 2021,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2021-04-27",
+      "airtime": "",
+      "airstamp": "2021-04-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2062498"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2093267,
+      "url": "https://www.tvmaze.com/episodes/2093267/all-elite-wrestling-dark-2021-05-04-aew-dark-85",
+      "name": "AEW Dark 85",
+      "season": 2021,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2021-05-04",
+      "airtime": "",
+      "airstamp": "2021-05-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2093267"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2093268,
+      "url": "https://www.tvmaze.com/episodes/2093268/all-elite-wrestling-dark-2021-05-11-aew-dark-86",
+      "name": "AEW Dark 86",
+      "season": 2021,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2021-05-11",
+      "airtime": "",
+      "airstamp": "2021-05-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2093268"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2093269,
+      "url": "https://www.tvmaze.com/episodes/2093269/all-elite-wrestling-dark-2021-05-18-aew-dark-87",
+      "name": "AEW Dark 87",
+      "season": 2021,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2021-05-18",
+      "airtime": "",
+      "airstamp": "2021-05-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2093269"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2105591,
+      "url": "https://www.tvmaze.com/episodes/2105591/all-elite-wrestling-dark-2021-06-01-aew-dark-88",
+      "name": "AEW Dark 88",
+      "season": 2021,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2021-06-01",
+      "airtime": "",
+      "airstamp": "2021-06-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2105591"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2105592,
+      "url": "https://www.tvmaze.com/episodes/2105592/all-elite-wrestling-dark-2021-06-08-aew-dark-89",
+      "name": "AEW Dark 89",
+      "season": 2021,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2021-06-08",
+      "airtime": "",
+      "airstamp": "2021-06-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2105592"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2105593,
+      "url": "https://www.tvmaze.com/episodes/2105593/all-elite-wrestling-dark-2021-06-15-aew-dark-90",
+      "name": "AEW Dark 90",
+      "season": 2021,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2021-06-15",
+      "airtime": "",
+      "airstamp": "2021-06-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2105593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2114825,
+      "url": "https://www.tvmaze.com/episodes/2114825/all-elite-wrestling-dark-2021-06-22-aew-dark-91",
+      "name": "AEW Dark 91",
+      "season": 2021,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2021-06-22",
+      "airtime": "",
+      "airstamp": "2021-06-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2114825"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2114826,
+      "url": "https://www.tvmaze.com/episodes/2114826/all-elite-wrestling-dark-2021-06-29-aew-dark-92",
+      "name": "AEW Dark 92",
+      "season": 2021,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2021-06-29",
+      "airtime": "",
+      "airstamp": "2021-06-29T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2114826"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2124508,
+      "url": "https://www.tvmaze.com/episodes/2124508/all-elite-wrestling-dark-2021-07-06-aew-dark-93",
+      "name": "AEW Dark 93",
+      "season": 2021,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2021-07-06",
+      "airtime": "",
+      "airstamp": "2021-07-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2124508"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2127962,
+      "url": "https://www.tvmaze.com/episodes/2127962/all-elite-wrestling-dark-2021-07-13-aew-dark-94",
+      "name": "AEW Dark 94",
+      "season": 2021,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2021-07-13",
+      "airtime": "",
+      "airstamp": "2021-07-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2127962"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2134861,
+      "url": "https://www.tvmaze.com/episodes/2134861/all-elite-wrestling-dark-2021-07-20-aew-dark-95",
+      "name": "AEW Dark 95",
+      "season": 2021,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2021-07-20",
+      "airtime": "",
+      "airstamp": "2021-07-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2134861"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2137915,
+      "url": "https://www.tvmaze.com/episodes/2137915/all-elite-wrestling-dark-2021-07-27-aew-dark-96",
+      "name": "AEW Dark 96",
+      "season": 2021,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2021-07-27",
+      "airtime": "",
+      "airstamp": "2021-07-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2137915"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2137916,
+      "url": "https://www.tvmaze.com/episodes/2137916/all-elite-wrestling-dark-2021-08-03-aew-dark-97",
+      "name": "AEW Dark 97",
+      "season": 2021,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2021-08-03",
+      "airtime": "",
+      "airstamp": "2021-08-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2137916"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2137917,
+      "url": "https://www.tvmaze.com/episodes/2137917/all-elite-wrestling-dark-2021-08-10-aew-dark-98",
+      "name": "AEW Dark 98",
+      "season": 2021,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2021-08-10",
+      "airtime": "",
+      "airstamp": "2021-08-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2137917"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2149471,
+      "url": "https://www.tvmaze.com/episodes/2149471/all-elite-wrestling-dark-2021-08-17-aew-dark-99",
+      "name": "AEW Dark 99",
+      "season": 2021,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2021-08-17",
+      "airtime": "",
+      "airstamp": "2021-08-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2149471"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2149472,
+      "url": "https://www.tvmaze.com/episodes/2149472/all-elite-wrestling-dark-2021-08-24-aew-dark-100",
+      "name": "AEW Dark 100",
+      "season": 2021,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2021-08-24",
+      "airtime": "",
+      "airstamp": "2021-08-24T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2149472"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2149473,
+      "url": "https://www.tvmaze.com/episodes/2149473/all-elite-wrestling-dark-2021-08-31-aew-dark-101",
+      "name": "AEW Dark 101",
+      "season": 2021,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2021-08-31",
+      "airtime": "",
+      "airstamp": "2021-08-31T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2149473"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2166106,
+      "url": "https://www.tvmaze.com/episodes/2166106/all-elite-wrestling-dark-2021-09-04-aew-dark-102",
+      "name": "AEW Dark 102",
+      "season": 2021,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2021-09-04",
+      "airtime": "",
+      "airstamp": "2021-09-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2166106"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2166107,
+      "url": "https://www.tvmaze.com/episodes/2166107/all-elite-wrestling-dark-2021-09-07-aew-dark-103",
+      "name": "AEW Dark 103",
+      "season": 2021,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2021-09-07",
+      "airtime": "",
+      "airstamp": "2021-09-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2166107"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2166108,
+      "url": "https://www.tvmaze.com/episodes/2166108/all-elite-wrestling-dark-2021-09-14-aew-dark-104",
+      "name": "AEW Dark 104",
+      "season": 2021,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2021-09-14",
+      "airtime": "",
+      "airstamp": "2021-09-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2166108"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2166109,
+      "url": "https://www.tvmaze.com/episodes/2166109/all-elite-wrestling-dark-2021-09-21-aew-dark-105",
+      "name": "AEW Dark 105",
+      "season": 2021,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2021-09-21",
+      "airtime": "",
+      "airstamp": "2021-09-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2166109"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2166110,
+      "url": "https://www.tvmaze.com/episodes/2166110/all-elite-wrestling-dark-2021-09-28-aew-dark-106",
+      "name": "AEW Dark 106",
+      "season": 2021,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2021-09-28",
+      "airtime": "",
+      "airstamp": "2021-09-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2166110"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2186262,
+      "url": "https://www.tvmaze.com/episodes/2186262/all-elite-wrestling-dark-2021-10-05-aew-dark-107",
+      "name": "AEW Dark 107",
+      "season": 2021,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2021-10-05",
+      "airtime": "",
+      "airstamp": "2021-10-05T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186262"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2186263,
+      "url": "https://www.tvmaze.com/episodes/2186263/all-elite-wrestling-dark-2021-10-12-aew-dark-108",
+      "name": "AEW Dark 108",
+      "season": 2021,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2021-10-12",
+      "airtime": "",
+      "airstamp": "2021-10-12T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186263"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2186264,
+      "url": "https://www.tvmaze.com/episodes/2186264/all-elite-wrestling-dark-2021-10-19-aew-dark-109",
+      "name": "AEW Dark 109",
+      "season": 2021,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2021-10-19",
+      "airtime": "",
+      "airstamp": "2021-10-19T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186264"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2186265,
+      "url": "https://www.tvmaze.com/episodes/2186265/all-elite-wrestling-dark-2021-10-26-aew-dark-110",
+      "name": "AEW Dark 110",
+      "season": 2021,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2021-10-26",
+      "airtime": "",
+      "airstamp": "2021-10-26T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186265"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2207954,
+      "url": "https://www.tvmaze.com/episodes/2207954/all-elite-wrestling-dark-2021-11-02-aew-dark-111",
+      "name": "AEW Dark 111",
+      "season": 2021,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2021-11-02",
+      "airtime": "",
+      "airstamp": "2021-11-02T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2207954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2207955,
+      "url": "https://www.tvmaze.com/episodes/2207955/all-elite-wrestling-dark-2021-11-09-aew-dark-112",
+      "name": "AEW Dark 112",
+      "season": 2021,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2021-11-09",
+      "airtime": "",
+      "airstamp": "2021-11-09T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2207955"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2207956,
+      "url": "https://www.tvmaze.com/episodes/2207956/all-elite-wrestling-dark-2021-11-16-aew-dark-113",
+      "name": "AEW Dark 113",
+      "season": 2021,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2021-11-16",
+      "airtime": "",
+      "airstamp": "2021-11-16T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2207956"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2207957,
+      "url": "https://www.tvmaze.com/episodes/2207957/all-elite-wrestling-dark-2021-11-23-aew-dark-114",
+      "name": "AEW Dark 114",
+      "season": 2021,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2021-11-23",
+      "airtime": "",
+      "airstamp": "2021-11-23T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2207957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2207958,
+      "url": "https://www.tvmaze.com/episodes/2207958/all-elite-wrestling-dark-2021-11-30-aew-dark-115",
+      "name": "AEW Dark 115",
+      "season": 2021,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2021-11-30",
+      "airtime": "",
+      "airstamp": "2021-11-30T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2207958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2209962,
+      "url": "https://www.tvmaze.com/episodes/2209962/all-elite-wrestling-dark-2021-12-07-aew-dark-116",
+      "name": "AEW Dark 116",
+      "season": 2021,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2021-12-07",
+      "airtime": "",
+      "airstamp": "2021-12-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2209962"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2209963,
+      "url": "https://www.tvmaze.com/episodes/2209963/all-elite-wrestling-dark-2021-12-14-aew-dark-117",
+      "name": "AEW Dark 117",
+      "season": 2021,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2021-12-14",
+      "airtime": "",
+      "airstamp": "2021-12-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2209963"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2209964,
+      "url": "https://www.tvmaze.com/episodes/2209964/all-elite-wrestling-dark-2021-12-21-aew-dark-118",
+      "name": "AEW Dark 118",
+      "season": 2021,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2021-12-21",
+      "airtime": "",
+      "airstamp": "2021-12-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2209964"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2209965,
+      "url": "https://www.tvmaze.com/episodes/2209965/all-elite-wrestling-dark-2021-12-28-aew-dark-119",
+      "name": "AEW Dark 119",
+      "season": 2021,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2021-12-28",
+      "airtime": "",
+      "airstamp": "2021-12-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2209965"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2209966,
+      "url": "https://www.tvmaze.com/episodes/2209966/all-elite-wrestling-dark-2022-01-04-aew-dark-120",
+      "name": "AEW Dark 120",
+      "season": 2022,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-04",
+      "airtime": "",
+      "airstamp": "2022-01-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2209966"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2245896,
+      "url": "https://www.tvmaze.com/episodes/2245896/all-elite-wrestling-dark-2022-01-11-aew-dark-125",
+      "name": "AEW Dark 125",
+      "season": 2022,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-01-11",
+      "airtime": "",
+      "airstamp": "2022-01-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2245896"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2245897,
+      "url": "https://www.tvmaze.com/episodes/2245897/all-elite-wrestling-dark-2022-01-18-aew-dark-126",
+      "name": "AEW Dark 126",
+      "season": 2022,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-01-18",
+      "airtime": "",
+      "airstamp": "2022-01-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2245897"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2245898,
+      "url": "https://www.tvmaze.com/episodes/2245898/all-elite-wrestling-dark-2022-01-25-aew-dark-127",
+      "name": "AEW Dark 127",
+      "season": 2022,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-01-25",
+      "airtime": "",
+      "airstamp": "2022-01-25T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2245898"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2269189,
+      "url": "https://www.tvmaze.com/episodes/2269189/all-elite-wrestling-dark-2022-02-01-aew-dark-128",
+      "name": "AEW Dark 128",
+      "season": 2022,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-02-01",
+      "airtime": "",
+      "airstamp": "2022-02-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269189"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2269190,
+      "url": "https://www.tvmaze.com/episodes/2269190/all-elite-wrestling-dark-2022-02-08-aew-dark-129",
+      "name": "AEW Dark 129",
+      "season": 2022,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-02-08",
+      "airtime": "",
+      "airstamp": "2022-02-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269190"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2269191,
+      "url": "https://www.tvmaze.com/episodes/2269191/all-elite-wrestling-dark-2022-02-15-aew-dark-130",
+      "name": "AEW Dark 130",
+      "season": 2022,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-02-15",
+      "airtime": "",
+      "airstamp": "2022-02-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269191"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2269192,
+      "url": "https://www.tvmaze.com/episodes/2269192/all-elite-wrestling-dark-2022-02-22-aew-dark-131",
+      "name": "AEW Dark 131",
+      "season": 2022,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-02-22",
+      "airtime": "",
+      "airstamp": "2022-02-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269192"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2269193,
+      "url": "https://www.tvmaze.com/episodes/2269193/all-elite-wrestling-dark-2022-03-01-aew-dark-132",
+      "name": "AEW Dark 132",
+      "season": 2022,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-03-01",
+      "airtime": "",
+      "airstamp": "2022-03-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269193"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285452,
+      "url": "https://www.tvmaze.com/episodes/2285452/all-elite-wrestling-dark-2022-03-08-aew-dark-133",
+      "name": "AEW Dark 133",
+      "season": 2022,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-03-08",
+      "airtime": "",
+      "airstamp": "2022-03-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285452"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285453,
+      "url": "https://www.tvmaze.com/episodes/2285453/all-elite-wrestling-dark-2022-03-15-aew-dark-134",
+      "name": "AEW Dark 134",
+      "season": 2022,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-03-15",
+      "airtime": "",
+      "airstamp": "2022-03-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285453"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285454,
+      "url": "https://www.tvmaze.com/episodes/2285454/all-elite-wrestling-dark-2022-03-22-aew-dark-135",
+      "name": "AEW Dark 135",
+      "season": 2022,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-03-22",
+      "airtime": "",
+      "airstamp": "2022-03-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285454"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285455,
+      "url": "https://www.tvmaze.com/episodes/2285455/all-elite-wrestling-dark-2022-03-29-aew-dark-136",
+      "name": "AEW Dark 136",
+      "season": 2022,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-03-29",
+      "airtime": "",
+      "airstamp": "2022-03-29T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285455"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285456,
+      "url": "https://www.tvmaze.com/episodes/2285456/all-elite-wrestling-dark-2022-04-05-aew-dark-137",
+      "name": "AEW Dark 137",
+      "season": 2022,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2022-04-05",
+      "airtime": "",
+      "airstamp": "2022-04-05T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285456"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285457,
+      "url": "https://www.tvmaze.com/episodes/2285457/all-elite-wrestling-dark-2022-04-12-aew-dark-138",
+      "name": "AEW Dark 138",
+      "season": 2022,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2022-04-12",
+      "airtime": "",
+      "airstamp": "2022-04-12T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285457"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285458,
+      "url": "https://www.tvmaze.com/episodes/2285458/all-elite-wrestling-dark-2022-04-19-aew-dark-139",
+      "name": "AEW Dark 139",
+      "season": 2022,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2022-04-19",
+      "airtime": "",
+      "airstamp": "2022-04-19T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285458"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2285459,
+      "url": "https://www.tvmaze.com/episodes/2285459/all-elite-wrestling-dark-2022-04-26-aew-dark-140",
+      "name": "AEW Dark 140",
+      "season": 2022,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2022-04-26",
+      "airtime": "",
+      "airstamp": "2022-04-26T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2285459"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2321196,
+      "url": "https://www.tvmaze.com/episodes/2321196/all-elite-wrestling-dark-2022-05-03-aew-dark-141",
+      "name": "AEW Dark 141",
+      "season": 2022,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2022-05-03",
+      "airtime": "",
+      "airstamp": "2022-05-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2321196"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2321197,
+      "url": "https://www.tvmaze.com/episodes/2321197/all-elite-wrestling-dark-2022-05-10-aew-dark-142",
+      "name": "AEW Dark 142",
+      "season": 2022,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2022-05-10",
+      "airtime": "",
+      "airstamp": "2022-05-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2321197"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2321198,
+      "url": "https://www.tvmaze.com/episodes/2321198/all-elite-wrestling-dark-2022-05-17-aew-dark-143",
+      "name": "AEW Dark 143",
+      "season": 2022,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2022-05-17",
+      "airtime": "",
+      "airstamp": "2022-05-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2321198"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2321199,
+      "url": "https://www.tvmaze.com/episodes/2321199/all-elite-wrestling-dark-2022-05-24-aew-dark-144",
+      "name": "AEW Dark 144",
+      "season": 2022,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2022-05-24",
+      "airtime": "",
+      "airstamp": "2022-05-24T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2321199"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2321200,
+      "url": "https://www.tvmaze.com/episodes/2321200/all-elite-wrestling-dark-2022-05-31-aew-dark-145",
+      "name": "AEW Dark 145",
+      "season": 2022,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2022-05-31",
+      "airtime": "",
+      "airstamp": "2022-05-31T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2321200"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2321201,
+      "url": "https://www.tvmaze.com/episodes/2321201/all-elite-wrestling-dark-2022-06-07-aew-dark-146",
+      "name": "AEW Dark 146",
+      "season": 2022,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2022-06-07",
+      "airtime": "",
+      "airstamp": "2022-06-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2321201"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2340553,
+      "url": "https://www.tvmaze.com/episodes/2340553/all-elite-wrestling-dark-2022-06-14-aew-dark-147",
+      "name": "AEW Dark 147",
+      "season": 2022,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2022-06-14",
+      "airtime": "",
+      "airstamp": "2022-06-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2340553"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2340554,
+      "url": "https://www.tvmaze.com/episodes/2340554/all-elite-wrestling-dark-2022-06-21-aew-dark-148",
+      "name": "AEW Dark 148",
+      "season": 2022,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2022-06-21",
+      "airtime": "",
+      "airstamp": "2022-06-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2340554"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2340555,
+      "url": "https://www.tvmaze.com/episodes/2340555/all-elite-wrestling-dark-2022-06-28-aew-dark-149",
+      "name": "AEW Dark 149",
+      "season": 2022,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2022-06-28",
+      "airtime": "",
+      "airstamp": "2022-06-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2340555"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2340556,
+      "url": "https://www.tvmaze.com/episodes/2340556/all-elite-wrestling-dark-2022-07-05-aew-dark-150",
+      "name": "AEW Dark 150",
+      "season": 2022,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2022-07-05",
+      "airtime": "",
+      "airstamp": "2022-07-05T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2340556"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2357113,
+      "url": "https://www.tvmaze.com/episodes/2357113/all-elite-wrestling-dark-2022-07-12-aew-dark-151",
+      "name": "AEW Dark 151",
+      "season": 2022,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2022-07-12",
+      "airtime": "",
+      "airstamp": "2022-07-12T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357113"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2357114,
+      "url": "https://www.tvmaze.com/episodes/2357114/all-elite-wrestling-dark-2022-07-19-aew-dark-152",
+      "name": "AEW Dark 152",
+      "season": 2022,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2022-07-19",
+      "airtime": "",
+      "airstamp": "2022-07-19T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357114"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2357115,
+      "url": "https://www.tvmaze.com/episodes/2357115/all-elite-wrestling-dark-2022-07-26-aew-dark-153",
+      "name": "AEW Dark 153",
+      "season": 2022,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2022-07-26",
+      "airtime": "",
+      "airstamp": "2022-07-26T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357115"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2357116,
+      "url": "https://www.tvmaze.com/episodes/2357116/all-elite-wrestling-dark-2022-08-02-aew-dark-154",
+      "name": "AEW Dark 154",
+      "season": 2022,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2022-08-02",
+      "airtime": "",
+      "airstamp": "2022-08-02T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357116"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2371932,
+      "url": "https://www.tvmaze.com/episodes/2371932/all-elite-wrestling-dark-2022-08-09-aew-dark-155",
+      "name": "AEW Dark 155",
+      "season": 2022,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2022-08-09",
+      "airtime": "",
+      "airstamp": "2022-08-09T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371932"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2371933,
+      "url": "https://www.tvmaze.com/episodes/2371933/all-elite-wrestling-dark-2022-08-16-aew-dark-156",
+      "name": "AEW Dark 156",
+      "season": 2022,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2022-08-16",
+      "airtime": "",
+      "airstamp": "2022-08-16T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371933"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2371934,
+      "url": "https://www.tvmaze.com/episodes/2371934/all-elite-wrestling-dark-2022-08-23-aew-dark-157",
+      "name": "AEW Dark 157",
+      "season": 2022,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2022-08-23",
+      "airtime": "",
+      "airstamp": "2022-08-23T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371934"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2371935,
+      "url": "https://www.tvmaze.com/episodes/2371935/all-elite-wrestling-dark-2022-08-30-aew-dark-158",
+      "name": "AEW Dark 158",
+      "season": 2022,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2022-08-30",
+      "airtime": "",
+      "airstamp": "2022-08-30T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371935"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2383145,
+      "url": "https://www.tvmaze.com/episodes/2383145/all-elite-wrestling-dark-2022-09-06-aew-dark-159",
+      "name": "AEW Dark 159",
+      "season": 2022,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2022-09-06",
+      "airtime": "",
+      "airstamp": "2022-09-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383145"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2383146,
+      "url": "https://www.tvmaze.com/episodes/2383146/all-elite-wrestling-dark-2022-09-13-aew-dark-160",
+      "name": "AEW Dark 160",
+      "season": 2022,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2022-09-13",
+      "airtime": "",
+      "airstamp": "2022-09-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383146"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2383147,
+      "url": "https://www.tvmaze.com/episodes/2383147/all-elite-wrestling-dark-2022-09-20-aew-dark-161",
+      "name": "AEW Dark 161",
+      "season": 2022,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2022-09-20",
+      "airtime": "",
+      "airstamp": "2022-09-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383147"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2383148,
+      "url": "https://www.tvmaze.com/episodes/2383148/all-elite-wrestling-dark-2022-09-27-aew-dark-162",
+      "name": "AEW Dark 162",
+      "season": 2022,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2022-09-27",
+      "airtime": "",
+      "airstamp": "2022-09-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383148"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413727,
+      "url": "https://www.tvmaze.com/episodes/2413727/all-elite-wrestling-dark-2022-10-04-aew-dark-163",
+      "name": "AEW Dark 163",
+      "season": 2022,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2022-10-04",
+      "airtime": "",
+      "airstamp": "2022-10-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413727"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413728,
+      "url": "https://www.tvmaze.com/episodes/2413728/all-elite-wrestling-dark-2022-10-11-aew-dark-164",
+      "name": "AEW Dark 164",
+      "season": 2022,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2022-10-11",
+      "airtime": "",
+      "airstamp": "2022-10-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413728"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413729,
+      "url": "https://www.tvmaze.com/episodes/2413729/all-elite-wrestling-dark-2022-10-18-aew-dark-165",
+      "name": "AEW Dark 165",
+      "season": 2022,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2022-10-18",
+      "airtime": "",
+      "airstamp": "2022-10-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413729"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413730,
+      "url": "https://www.tvmaze.com/episodes/2413730/all-elite-wrestling-dark-2022-10-25-aew-dark-166",
+      "name": "AEW Dark 166",
+      "season": 2022,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2022-10-25",
+      "airtime": "",
+      "airstamp": "2022-10-25T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413730"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413731,
+      "url": "https://www.tvmaze.com/episodes/2413731/all-elite-wrestling-dark-2022-11-01-aew-dark-167",
+      "name": "AEW Dark 167",
+      "season": 2022,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2022-11-01",
+      "airtime": "",
+      "airstamp": "2022-11-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413731"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413732,
+      "url": "https://www.tvmaze.com/episodes/2413732/all-elite-wrestling-dark-2022-11-08-aew-dark-168",
+      "name": "AEW Dark 168",
+      "season": 2022,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2022-11-08",
+      "airtime": "",
+      "airstamp": "2022-11-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413732"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413733,
+      "url": "https://www.tvmaze.com/episodes/2413733/all-elite-wrestling-dark-2022-11-15-aew-dark-169",
+      "name": "AEW Dark 169",
+      "season": 2022,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2022-11-15",
+      "airtime": "",
+      "airstamp": "2022-11-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413733"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413734,
+      "url": "https://www.tvmaze.com/episodes/2413734/all-elite-wrestling-dark-2022-11-22-aew-dark-170",
+      "name": "AEW Dark 170",
+      "season": 2022,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2022-11-22",
+      "airtime": "",
+      "airstamp": "2022-11-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413734"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413735,
+      "url": "https://www.tvmaze.com/episodes/2413735/all-elite-wrestling-dark-2022-11-29-aew-dark-171",
+      "name": "AEW Dark 171",
+      "season": 2022,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2022-11-29",
+      "airtime": "",
+      "airstamp": "2022-11-29T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413735"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413736,
+      "url": "https://www.tvmaze.com/episodes/2413736/all-elite-wrestling-dark-2022-12-06-aew-dark-172",
+      "name": "AEW Dark 172",
+      "season": 2022,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2022-12-06",
+      "airtime": "",
+      "airstamp": "2022-12-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413736"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413737,
+      "url": "https://www.tvmaze.com/episodes/2413737/all-elite-wrestling-dark-2022-12-13-aew-dark-173",
+      "name": "AEW Dark 173",
+      "season": 2022,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2022-12-13",
+      "airtime": "",
+      "airstamp": "2022-12-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413737"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2413738,
+      "url": "https://www.tvmaze.com/episodes/2413738/all-elite-wrestling-dark-2022-12-20-aew-dark-174",
+      "name": "AEW Dark 174",
+      "season": 2022,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2022-12-20",
+      "airtime": "",
+      "airstamp": "2022-12-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413738"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2444849,
+      "url": "https://www.tvmaze.com/episodes/2444849/all-elite-wrestling-dark-2022-12-27-aew-dark-175",
+      "name": "AEW Dark 175",
+      "season": 2022,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2022-12-27",
+      "airtime": "",
+      "airstamp": "2022-12-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2444849"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447264,
+      "url": "https://www.tvmaze.com/episodes/2447264/all-elite-wrestling-dark-2023-01-03-aew-dark-177",
+      "name": "AEW Dark 177",
+      "season": 2023,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-01-03",
+      "airtime": "",
+      "airstamp": "2023-01-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447264"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447265,
+      "url": "https://www.tvmaze.com/episodes/2447265/all-elite-wrestling-dark-2023-01-10-aew-dark-178",
+      "name": "AEW Dark 178",
+      "season": 2023,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-01-10",
+      "airtime": "",
+      "airstamp": "2023-01-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447265"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447266,
+      "url": "https://www.tvmaze.com/episodes/2447266/all-elite-wrestling-dark-2023-01-17-aew-dark-179",
+      "name": "AEW Dark 179",
+      "season": 2023,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-01-17",
+      "airtime": "",
+      "airstamp": "2023-01-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447266"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447267,
+      "url": "https://www.tvmaze.com/episodes/2447267/all-elite-wrestling-dark-2023-01-24-aew-dark-180",
+      "name": "AEW Dark 180",
+      "season": 2023,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-01-24",
+      "airtime": "",
+      "airstamp": "2023-01-24T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447267"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447268,
+      "url": "https://www.tvmaze.com/episodes/2447268/all-elite-wrestling-dark-2023-01-31-aew-dark-181",
+      "name": "AEW Dark 181",
+      "season": 2023,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-01-31",
+      "airtime": "",
+      "airstamp": "2023-01-31T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447268"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447269,
+      "url": "https://www.tvmaze.com/episodes/2447269/all-elite-wrestling-dark-2023-02-07-aew-dark-182",
+      "name": "AEW Dark 182",
+      "season": 2023,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-02-07",
+      "airtime": "",
+      "airstamp": "2023-02-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447269"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447270,
+      "url": "https://www.tvmaze.com/episodes/2447270/all-elite-wrestling-dark-2023-02-14-aew-dark-183",
+      "name": "AEW Dark 183",
+      "season": 2023,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-02-14",
+      "airtime": "",
+      "airstamp": "2023-02-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447270"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447271,
+      "url": "https://www.tvmaze.com/episodes/2447271/all-elite-wrestling-dark-2023-02-21-aew-dark-184",
+      "name": "AEW Dark 184",
+      "season": 2023,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-02-21",
+      "airtime": "",
+      "airstamp": "2023-02-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447271"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447272,
+      "url": "https://www.tvmaze.com/episodes/2447272/all-elite-wrestling-dark-2023-02-28-aew-dark-185",
+      "name": "AEW Dark 185",
+      "season": 2023,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-02-28",
+      "airtime": "",
+      "airstamp": "2023-02-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447272"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447273,
+      "url": "https://www.tvmaze.com/episodes/2447273/all-elite-wrestling-dark-2023-03-07-aew-dark-186",
+      "name": "AEW Dark 186",
+      "season": 2023,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-03-07",
+      "airtime": "",
+      "airstamp": "2023-03-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447273"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447274,
+      "url": "https://www.tvmaze.com/episodes/2447274/all-elite-wrestling-dark-2023-03-14-aew-dark-187",
+      "name": "AEW Dark 187",
+      "season": 2023,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-03-14",
+      "airtime": "",
+      "airstamp": "2023-03-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447274"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447275,
+      "url": "https://www.tvmaze.com/episodes/2447275/all-elite-wrestling-dark-2023-03-21-aew-dark-188",
+      "name": "AEW Dark 188",
+      "season": 2023,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-03-21",
+      "airtime": "",
+      "airstamp": "2023-03-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447275"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447276,
+      "url": "https://www.tvmaze.com/episodes/2447276/all-elite-wrestling-dark-2023-03-28-aew-dark-189",
+      "name": "AEW Dark 189",
+      "season": 2023,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-03-28",
+      "airtime": "",
+      "airstamp": "2023-03-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447276"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447277,
+      "url": "https://www.tvmaze.com/episodes/2447277/all-elite-wrestling-dark-2023-04-04-aew-dark-190",
+      "name": "AEW Dark 190",
+      "season": 2023,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-04-04",
+      "airtime": "",
+      "airstamp": "2023-04-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447277"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447278,
+      "url": "https://www.tvmaze.com/episodes/2447278/all-elite-wrestling-dark-2023-04-11-aew-dark-191",
+      "name": "AEW Dark 191",
+      "season": 2023,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-04-11",
+      "airtime": "",
+      "airstamp": "2023-04-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447278"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447279,
+      "url": "https://www.tvmaze.com/episodes/2447279/all-elite-wrestling-dark-2023-04-18-aew-dark-192",
+      "name": "AEW Dark 192",
+      "season": 2023,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-04-18",
+      "airtime": "",
+      "airstamp": "2023-04-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447279"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    },
+    {
+      "id": 2447280,
+      "url": "https://www.tvmaze.com/episodes/2447280/all-elite-wrestling-dark-2023-04-25-aew-dark-193",
+      "name": "AEW Dark 193",
+      "season": 2023,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-04-25",
+      "airtime": "",
+      "airstamp": "2023-04-25T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2447280"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/48302",
+          "name": "All Elite Wrestling: Dark"
+        }
+      }
+    }
+  ]
+}

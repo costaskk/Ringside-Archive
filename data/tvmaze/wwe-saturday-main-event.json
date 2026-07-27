@@ -1,0 +1,1278 @@
+{
+  "programId": "wwe-saturday-main-event",
+  "tvMazeId": 5757,
+  "fetchedAt": "2026-07-27T07:57:29.646Z",
+  "show": {
+    "id": 5757,
+    "url": "https://www.tvmaze.com/shows/5757/wwe-saturday-nights-main-event",
+    "name": "WWE Saturday Night's Main Event",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 97,
+    "premiered": "1985-05-11",
+    "ended": null,
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 94,
+    "network": null,
+    "webChannel": {
+      "id": 347,
+      "name": "Peacock",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.peacocktv.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 71114,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1367091.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1367091.jpg"
+    },
+    "summary": "<p><b>WWE Saturday Night's Main Event</b> returned to NBC in March 2006 after a 13-year hiatus. In the mid-1980s through early 1990s, WWE fans would scour the television listings each month - making sure they didn't miss the highly anticipated special that replaced network staple Saturday Night Live on occasion. When Jon Lovitz, Dennis Miller and Dana Carvey weren't performing comedy sketches, WWE Superstars were squaring off in matches that often took on a pay-per-view feel. The show's original theme song was \"Obsession\" by the band Animotion, but by the time the first run of the series ended in 1992, the music was changed to a generic theme.</p><p>WWE‘s iconic series \"Saturday Night's Main Event\" has set its return premiere date at NBC.</p>",
+    "updated": 1784975094,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/5757"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3583167",
+        "name": "Saturday Night's Main Event XLV"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3639713",
+        "name": "Sunday Night's Main Event XLVI"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 347284,
+      "url": "https://www.tvmaze.com/episodes/347284/wwe-saturday-nights-main-event-1985-05-11-saturday-nights-main-event-i",
+      "name": "Saturday Night's Main Event I",
+      "season": 1985,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1985-05-11",
+      "airtime": "",
+      "airstamp": "1985-05-11T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347284"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347285,
+      "url": "https://www.tvmaze.com/episodes/347285/wwe-saturday-nights-main-event-1985-10-05-saturday-nights-main-event-ii",
+      "name": "Saturday Night's Main Event II",
+      "season": 1985,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1985-10-05",
+      "airtime": "",
+      "airstamp": "1985-10-05T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347285"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347286,
+      "url": "https://www.tvmaze.com/episodes/347286/wwe-saturday-nights-main-event-1985-11-02-saturday-nights-main-event-iii",
+      "name": "Saturday Night's Main Event III",
+      "season": 1985,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1985-11-02",
+      "airtime": "",
+      "airstamp": "1985-11-02T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347286"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347288,
+      "url": "https://www.tvmaze.com/episodes/347288/wwe-saturday-nights-main-event-1986-01-04-saturday-nights-main-event-iv",
+      "name": "Saturday Night's Main Event IV",
+      "season": 1986,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1986-01-04",
+      "airtime": "23:30",
+      "airstamp": "1986-01-05T04:30:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347288"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347289,
+      "url": "https://www.tvmaze.com/episodes/347289/wwe-saturday-nights-main-event-1986-03-01-saturday-nights-main-event-v",
+      "name": "Saturday Night's Main Event V",
+      "season": 1986,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1986-03-01",
+      "airtime": "",
+      "airstamp": "1986-03-01T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347289"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347290,
+      "url": "https://www.tvmaze.com/episodes/347290/wwe-saturday-nights-main-event-1986-05-01-saturday-nights-main-event-vi",
+      "name": "Saturday Night's Main Event VI",
+      "season": 1986,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1986-05-01",
+      "airtime": "",
+      "airstamp": "1986-05-01T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347290"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347291,
+      "url": "https://www.tvmaze.com/episodes/347291/wwe-saturday-nights-main-event-1986-10-04-saturday-nights-main-event-vii",
+      "name": "Saturday Night's Main Event VII",
+      "season": 1986,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1986-10-04",
+      "airtime": "",
+      "airstamp": "1986-10-04T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347291"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347292,
+      "url": "https://www.tvmaze.com/episodes/347292/wwe-saturday-nights-main-event-1986-11-29-saturday-nights-main-event-viii",
+      "name": "Saturday Night's Main Event VIII",
+      "season": 1986,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1986-11-29",
+      "airtime": "",
+      "airstamp": "1986-11-29T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347292"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347293,
+      "url": "https://www.tvmaze.com/episodes/347293/wwe-saturday-nights-main-event-1987-01-03-saturday-nights-main-event-ix",
+      "name": "Saturday Night's Main Event IX",
+      "season": 1987,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1987-01-03",
+      "airtime": "",
+      "airstamp": "1987-01-03T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347293"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347294,
+      "url": "https://www.tvmaze.com/episodes/347294/wwe-saturday-nights-main-event-1987-03-14-saturday-nights-main-event-x",
+      "name": "Saturday Night's Main Event X",
+      "season": 1987,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1987-03-14",
+      "airtime": "",
+      "airstamp": "1987-03-14T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347294"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347295,
+      "url": "https://www.tvmaze.com/episodes/347295/wwe-saturday-nights-main-event-1987-05-02-saturday-nights-main-event-xi",
+      "name": "Saturday Night's Main Event XI",
+      "season": 1987,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1987-05-02",
+      "airtime": "",
+      "airstamp": "1987-05-02T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347295"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347296,
+      "url": "https://www.tvmaze.com/episodes/347296/wwe-saturday-nights-main-event-1987-10-03-saturday-nights-main-event-xii",
+      "name": "Saturday Night's Main Event XII",
+      "season": 1987,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1987-10-03",
+      "airtime": "",
+      "airstamp": "1987-10-03T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347296"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347297,
+      "url": "https://www.tvmaze.com/episodes/347297/wwe-saturday-nights-main-event-1987-11-28-saturday-nights-main-event-xiii",
+      "name": "Saturday Night's Main Event XIII",
+      "season": 1987,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1987-11-28",
+      "airtime": "",
+      "airstamp": "1987-11-28T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347297"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347298,
+      "url": "https://www.tvmaze.com/episodes/347298/wwe-saturday-nights-main-event-1988-01-02-saturday-nights-main-event-xiv",
+      "name": "Saturday Night's Main Event XIV",
+      "season": 1988,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1988-01-02",
+      "airtime": "",
+      "airstamp": "1988-01-02T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347298"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347301,
+      "url": "https://www.tvmaze.com/episodes/347301/wwe-saturday-nights-main-event-1988-03-12-saturday-nights-main-event-xv",
+      "name": "Saturday Night's Main Event XV",
+      "season": 1988,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1988-03-12",
+      "airtime": "",
+      "airstamp": "1988-03-12T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347301"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347302,
+      "url": "https://www.tvmaze.com/episodes/347302/wwe-saturday-nights-main-event-1988-04-30-saturday-nights-main-event-xvi",
+      "name": "Saturday Night's Main Event XVI",
+      "season": 1988,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1988-04-30",
+      "airtime": "",
+      "airstamp": "1988-04-30T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347302"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347303,
+      "url": "https://www.tvmaze.com/episodes/347303/wwe-saturday-nights-main-event-1988-10-29-saturday-nights-main-event-xvii",
+      "name": "Saturday Night's Main Event XVII",
+      "season": 1988,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1988-10-29",
+      "airtime": "",
+      "airstamp": "1988-10-29T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347303"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347304,
+      "url": "https://www.tvmaze.com/episodes/347304/wwe-saturday-nights-main-event-1988-11-26-saturday-nights-main-event-xviii",
+      "name": "Saturday Night's Main Event XVIII",
+      "season": 1988,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1988-11-26",
+      "airtime": "",
+      "airstamp": "1988-11-26T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347304"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347305,
+      "url": "https://www.tvmaze.com/episodes/347305/wwe-saturday-nights-main-event-1989-01-07-saturday-nights-main-event-xix",
+      "name": "Saturday Night's Main Event XIX",
+      "season": 1989,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1989-01-07",
+      "airtime": "",
+      "airstamp": "1989-01-07T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347305"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347307,
+      "url": "https://www.tvmaze.com/episodes/347307/wwe-saturday-nights-main-event-1989-03-11-saturday-nights-main-event-xx",
+      "name": "Saturday Night's Main Event XX",
+      "season": 1989,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1989-03-11",
+      "airtime": "",
+      "airstamp": "1989-03-11T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347307"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347308,
+      "url": "https://www.tvmaze.com/episodes/347308/wwe-saturday-nights-main-event-1989-05-27-saturday-nights-main-event-xxi",
+      "name": "Saturday Night's Main Event XXI",
+      "season": 1989,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1989-05-27",
+      "airtime": "",
+      "airstamp": "1989-05-27T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347308"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347309,
+      "url": "https://www.tvmaze.com/episodes/347309/wwe-saturday-nights-main-event-1989-07-29-saturday-nights-main-event-xxii",
+      "name": "Saturday Night's Main Event XXII",
+      "season": 1989,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1989-07-29",
+      "airtime": "",
+      "airstamp": "1989-07-29T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347309"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347310,
+      "url": "https://www.tvmaze.com/episodes/347310/wwe-saturday-nights-main-event-1989-10-14-saturday-nights-main-event-xxiii",
+      "name": "Saturday Night's Main Event XXIII",
+      "season": 1989,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1989-10-14",
+      "airtime": "",
+      "airstamp": "1989-10-14T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347310"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347311,
+      "url": "https://www.tvmaze.com/episodes/347311/wwe-saturday-nights-main-event-1989-11-25-saturday-nights-main-event-xxiv",
+      "name": "Saturday Night's Main Event XXIV",
+      "season": 1989,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1989-11-25",
+      "airtime": "",
+      "airstamp": "1989-11-25T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347311"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347312,
+      "url": "https://www.tvmaze.com/episodes/347312/wwe-saturday-nights-main-event-1990-01-27-saturday-nights-main-event-xxv",
+      "name": "Saturday Night's Main Event XXV",
+      "season": 1990,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1990-01-27",
+      "airtime": "",
+      "airstamp": "1990-01-27T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347312"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347315,
+      "url": "https://www.tvmaze.com/episodes/347315/wwe-saturday-nights-main-event-1990-04-28-saturday-nights-main-event-xxvi",
+      "name": "Saturday Night's Main Event XXVI",
+      "season": 1990,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1990-04-28",
+      "airtime": "",
+      "airstamp": "1990-04-28T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347315"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347316,
+      "url": "https://www.tvmaze.com/episodes/347316/wwe-saturday-nights-main-event-1990-07-28-saturday-nights-main-event-xxvii",
+      "name": "Saturday Night's Main Event XXVII",
+      "season": 1990,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1990-07-28",
+      "airtime": "",
+      "airstamp": "1990-07-28T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347316"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347317,
+      "url": "https://www.tvmaze.com/episodes/347317/wwe-saturday-nights-main-event-1990-10-13-saturday-nights-main-event-xxviii",
+      "name": "Saturday Night's Main Event XXVIII",
+      "season": 1990,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1990-10-13",
+      "airtime": "",
+      "airstamp": "1990-10-13T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347317"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347320,
+      "url": "https://www.tvmaze.com/episodes/347320/wwe-saturday-nights-main-event-1991-04-27-saturday-nights-main-event-xxix",
+      "name": "Saturday Night's Main Event XXIX",
+      "season": 1991,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1991-04-27",
+      "airtime": "",
+      "airstamp": "1991-04-27T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347320"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347321,
+      "url": "https://www.tvmaze.com/episodes/347321/wwe-saturday-nights-main-event-1992-02-08-saturday-nights-main-event-xxx",
+      "name": "Saturday Night's Main Event XXX",
+      "season": 1992,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1992-02-08",
+      "airtime": "",
+      "airstamp": "1992-02-08T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347321"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347322,
+      "url": "https://www.tvmaze.com/episodes/347322/wwe-saturday-nights-main-event-1992-11-14-saturday-nights-main-event-xxxi",
+      "name": "Saturday Night's Main Event XXXI",
+      "season": 1992,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1992-11-14",
+      "airtime": "",
+      "airstamp": "1992-11-14T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347322"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347318,
+      "url": "https://www.tvmaze.com/episodes/347318/wwe-saturday-nights-main-event-2006-03-18-saturday-nights-main-event-xxxii",
+      "name": "Saturday Night's Main Event XXXII",
+      "season": 2006,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2006-03-18",
+      "airtime": "",
+      "airstamp": "2006-03-18T17:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347318"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347319,
+      "url": "https://www.tvmaze.com/episodes/347319/wwe-saturday-nights-main-event-2006-07-15-saturday-nights-main-event-xxxiii",
+      "name": "Saturday Night's Main Event XXXIII",
+      "season": 2006,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2006-07-15",
+      "airtime": "",
+      "airstamp": "2006-07-15T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347319"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347299,
+      "url": "https://www.tvmaze.com/episodes/347299/wwe-saturday-nights-main-event-2007-06-02-saturday-nights-main-event-xxxiv",
+      "name": "Saturday Night's Main Event XXXIV",
+      "season": 2007,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2007-06-02",
+      "airtime": "",
+      "airstamp": "2007-06-02T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347299"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347306,
+      "url": "https://www.tvmaze.com/episodes/347306/wwe-saturday-nights-main-event-2007-08-18-saturday-nights-main-event-xxxv",
+      "name": "Saturday Night's Main Event XXXV",
+      "season": 2007,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2007-08-18",
+      "airtime": "",
+      "airstamp": "2007-08-18T16:00:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347306"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 347313,
+      "url": "https://www.tvmaze.com/episodes/347313/wwe-saturday-nights-main-event-2008-08-02-saturday-nights-main-event-xxxvi",
+      "name": "Saturday Night's Main Event XXXVI",
+      "season": 2008,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2008-08-02",
+      "airtime": "23:30",
+      "airstamp": "2008-08-03T03:30:00+00:00",
+      "runtime": 90,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/347313"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3006857,
+      "url": "https://www.tvmaze.com/episodes/3006857/wwe-saturday-nights-main-event-2024-12-14-saturday-nights-main-event-xxxvii",
+      "name": "Saturday Night's Main Event XXXVII",
+      "season": 2024,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-12-14",
+      "airtime": "20:00",
+      "airstamp": "2024-12-15T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/552/1380220.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/552/1380220.jpg"
+      },
+      "summary": "<p>Cody Rhodes puts the Undisputed WWE Title on the line against former ally Kevin Owens in the return of WWE's long-running special; IYO SKY challenges Liv Morgan for the Women's World Title; Finn Bálor takes on World Heavyweight Champion Gunther.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3006857"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3081243,
+      "url": "https://www.tvmaze.com/episodes/3081243/wwe-saturday-nights-main-event-2025-01-25-saturday-nights-main-event-xxxviii",
+      "name": "Saturday Night's Main Event XXXVIII",
+      "season": 2025,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2025-01-25",
+      "airtime": "20:00",
+      "airstamp": "2025-01-26T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/553/1384220.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/553/1384220.jpg"
+      },
+      "summary": "<p>Jey Uso looks to win his first world title as he challenges Gunther for the World Heavyweight Championship; Sheamus aims to capture the Intercontinental Title for the first time in his career when he battles Bron Breakker.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3081243"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3110665,
+      "url": "https://www.tvmaze.com/episodes/3110665/wwe-saturday-nights-main-event-2025-05-24-saturday-nights-main-event-xxxix",
+      "name": "Saturday Night's Main Event XXXIX",
+      "season": 2025,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2025-05-24",
+      "airtime": "20:00",
+      "airstamp": "2025-05-25T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/570/1426961.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/570/1426961.jpg"
+      },
+      "summary": "<p>World Heavyweight champion Jey Uso defends his title against Logan Paul; CM Punk &amp; Sami Zayn vs. Seth Rollins &amp; Bron Breaker; John Cena vs. R-Truth; Damian Priest vs. Drew McIntyre, steel cage match. From Yeungling Center in Tampa, Fla.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3110665"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3110666,
+      "url": "https://www.tvmaze.com/episodes/3110666/wwe-saturday-nights-main-event-2025-07-12-saturday-nights-main-event-xl",
+      "name": "Saturday Night's Main Event XL",
+      "season": 2025,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2025-07-12",
+      "airtime": "20:00",
+      "airstamp": "2025-07-13T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/578/1445369.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/578/1445369.jpg"
+      },
+      "summary": "<p>Live from State Farm Arena in Atlanta, Georgia. </p><p>Goldberg returns for one last ride to challenge \"The Ring General\" Gunther for the World Heavyweight Championship; LA Knight clashes with Seth \"Freakin\" Rollins.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3110666"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3336227,
+      "url": "https://www.tvmaze.com/episodes/3336227/wwe-saturday-nights-main-event-2025-11-01-saturday-nights-main-event-xli",
+      "name": "Saturday Night's Main Event XLI",
+      "season": 2025,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2025-11-01",
+      "airtime": "19:00",
+      "airstamp": "2025-11-01T23:00:00+00:00",
+      "runtime": 122,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/594/1485005.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/594/1485005.jpg"
+      },
+      "summary": "<p>Undisputed WWE Champion Cody Rhodes will once again go to war with the vicious Drew McIntyre.</p><p>CM Punk will go one-on-one against Jey Uso for the vacant World Heavyweight Championship at Saturday Night's Main Event.</p><p>Tiffany Stratton will once again defend the WWE Women's Championship against Jade Cargill. </p><p>Dominik Mysterio will be forced to defend his Intercontinental Championship against Rusev and Penta in a Triple Threat Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3336227"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3336228,
+      "url": "https://www.tvmaze.com/episodes/3336228/wwe-saturday-nights-main-event-2025-12-13-saturday-nights-main-event-xlii",
+      "name": "Saturday Night's Main Event XLII",
+      "season": 2025,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2025-12-13",
+      "airtime": "20:00",
+      "airstamp": "2025-12-14T01:00:00+00:00",
+      "runtime": 138,
+      "rating": {
+        "average": 7.7
+      },
+      "image": null,
+      "summary": "<p>At Saturday Night's Main Event, John Cena's Farewell Tour will come to an end when he goes head-to-head with Gunther. </p><p>Oba Femi recaptured the NXT Championship from Ricky Saints in an instant classic at NXT Deadline, setting the stage for a clash with Undisputed WWE Champion Cody Rhodes in what will be Femi's first bout on the main roster. </p><p>World Tag Team Champions AJ Styles and Dragon Lee will battle two of the hottest prospects in NXT, the explosive Je'Von Evans and TNA X Division Champion Leon Slater. </p><p>Saturday Night's Main Event will play host to an incredible matchup between Monday Night Raw's Bayley and NXT's Sol Ruca.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3336228"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3429652,
+      "url": "https://www.tvmaze.com/episodes/3429652/wwe-saturday-nights-main-event-2026-01-24-saturday-nights-main-event-xliii",
+      "name": "Saturday Night's Main Event XLIII",
+      "season": 2026,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2026-01-24",
+      "airtime": "20:00",
+      "airstamp": "2026-01-25T01:00:00+00:00",
+      "runtime": 121,
+      "rating": {
+        "average": 7
+      },
+      "image": null,
+      "summary": "<p>Rhea Ripley and IYO SKY face their first test as WWE Women's Tag Team Champions as they take on The Judgment Day's Liv Morgan and Roxanne Perez.</p><p>Cody Rhodes and Jacob Fatu will bring their animosity to the ring at Saturday Night's Main Event.</p><p>The next challenger to Undisputed WWE Champion Drew McIntyre will be decided at Saturday Night's Main Event in a Fatal 4-Way Match between Randy Orton, Sami Zayn, Damian Priest and Solo Sikoa.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3429652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3571013,
+      "url": "https://www.tvmaze.com/episodes/3571013/wwe-saturday-nights-main-event-2026-05-23-saturday-nights-main-event-xliv",
+      "name": "Saturday Night's Main Event XLIV",
+      "season": 2026,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2026-05-23",
+      "airtime": "20:00",
+      "airstamp": "2026-05-24T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": 7.5
+      },
+      "image": null,
+      "summary": "<p>Intercontinental Champion Penta will battle Ethan Page for the title at Saturday Night's Main Event. </p><p>Logan Paul and Austin Theory will put the World Tag Team Championship on the line against Angelo Dawkins and Montez Ford at Saturday Night's Main Event. </p><p>At Saturday Night's Main Event, WWE Women's Champion Rhea Ripley will once again team with Charlotte Flair and Alexa Bliss to square off against Jade Cargill, Michin and B-Fab in a Six-Woman Tag Team Match. </p><p>WWE Women's Tag Team Champions Paige and Brie Bella will compete on Saturday Night's Main Event for the first time ever as they defend the title against Lash Legend and Nia Jax.</p><p>Sol Ruca will enter Saturday Night's Main Event for the biggest match of her career as she faces Women's Intercontinental Champion Becky Lynch in a non-title bout.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3571013"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3583167,
+      "url": "https://www.tvmaze.com/episodes/3583167/wwe-saturday-nights-main-event-2026-07-18-saturday-nights-main-event-xlv",
+      "name": "Saturday Night's Main Event XLV",
+      "season": 2026,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2026-07-18",
+      "airtime": "20:00",
+      "airstamp": "2026-07-19T00:00:00+00:00",
+      "runtime": 133,
+      "rating": {
+        "average": 8
+      },
+      "image": null,
+      "summary": "<p>At Saturday Night's Main Event, Undisputed WWE Champion CM Punk will join forces with Cody Rhodes against Gunther and Sami Zayn. </p><p>WWE Women's Tag Team Champions Paige and Brie Bella will defend their title at Saturday Night's Main Event against Lainey Reid and Fallon Henley of Fatal Influence.</p><p>After \"helping\" the New York Knicks win their first NBA Championship in more than 50 years, Danhausen will compete in his first match at Madison Square Garden when he takes on JD McDonagh in a No Disqualification Match.</p><p>Bayley will settle things with Lyra Valkyria at Saturday Night's Main Event. </p><p>This Saturday at Madison Square Garden, The OTC Roman Reigns and The King of New York Jalen Brunson will join up for an acknowledgment fit for The World's Most Famous Arena.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3583167"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    },
+    {
+      "id": 3639713,
+      "url": "https://www.tvmaze.com/episodes/3639713/wwe-saturday-nights-main-event-2026-09-06-sunday-nights-main-event-xlvi",
+      "name": "Sunday Night's Main Event XLVI",
+      "season": 2026,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2026-09-06",
+      "airtime": "20:00",
+      "airstamp": "2026-09-07T00:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3639713"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/5757",
+          "name": "WWE Saturday Night's Main Event"
+        }
+      }
+    }
+  ]
+}

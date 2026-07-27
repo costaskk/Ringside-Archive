@@ -1,0 +1,5081 @@
+{
+  "programId": "wwe-ecw",
+  "tvMazeId": 10404,
+  "fetchedAt": "2026-07-27T07:57:32.606Z",
+  "show": {
+    "id": 10404,
+    "url": "https://www.tvmaze.com/shows/10404/extreme-championship-wrestling",
+    "name": "Extreme Championship Wrestling",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2006-06-13",
+    "ended": "2010-02-16",
+    "officialSite": "http://www.wwe.com",
+    "schedule": {
+      "time": "22:00",
+      "days": [
+        "Tuesday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 79,
+    "network": {
+      "id": 16,
+      "name": "Syfy",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 79859,
+      "imdb": "tt0810614"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/96/241328.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/96/241328.jpg"
+    },
+    "summary": "<p><b>ECW </b>was a professional wrestling television program produced by WWE. The show's name also referred to the ECW brand, in which WWE employees were assigned to work and perform, complementary to WWE's other brands, Raw and SmackDown. It debuted on June 13, 2006, on Sci Fi in the United States and ran for close to four years until it aired its final episode on February 16, 2010, on the rebranded Syfy. It was replaced the following week with <i>WWE NXT</i>.</p>",
+    "updated": 1704793406,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/10404"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1070136",
+        "name": "An Extreme Farewell"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1069932,
+      "url": "https://www.tvmaze.com/episodes/1069932/extreme-championship-wrestling-1x01-an-extreme-debut",
+      "name": "An Extreme Debut",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2006-06-13",
+      "airtime": "22:00",
+      "airstamp": "2006-06-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Zombie vs. The Sandman<br>Kurt Angle vs. Justin Credible</p><p>10-Man \"All Weapons Legal\" Extreme Battle Royal: Tommy Dreamer, Sabu, Danny Doring, Roadkill, Al Snow, Stevie Richards, The FBI (Little Guido, Tony Mamaluke w/Big Guido and Trinity), Balls Mahoney and The Big Show</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069932"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069933,
+      "url": "https://www.tvmaze.com/episodes/1069933/extreme-championship-wrestling-1x02-extreme-momentum",
+      "name": "Extreme Momentum",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2006-06-20",
+      "airtime": "22:00",
+      "airstamp": "2006-06-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sabu vs. Tony Mamaluke w/Trinity</p><p>Macho Libre vs. The Sandman<br></p><p>Edge w/Lita and Randy Orton vs. Kurt Angle and RVD<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069933"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069934,
+      "url": "https://www.tvmaze.com/episodes/1069934/extreme-championship-wrestling-1x03-spear-ii",
+      "name": "Spear II",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2006-06-27",
+      "airtime": "22:00",
+      "airstamp": "2006-06-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sabu vs. Roadkill</p><p>Mike Knox w/Kelly vs. Danny Doring<br></p><p>Random Stripper Guy vs. Sandman<br></p><p>Non-Title Match: RVD © vs. Kurt Angle<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069934"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069935,
+      "url": "https://www.tvmaze.com/episodes/1069935/extreme-championship-wrestling-1x04-south-philly-screwjob",
+      "name": "South Philly Screwjob",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2006-07-04",
+      "airtime": "22:00",
+      "airstamp": "2006-07-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Knox vs. Little Guido</p><p>Test vs. Al Snow<br></p><p>Extreme Rules: ECW Title Match: RVD © vs. The Big Show<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069935"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069936,
+      "url": "https://www.tvmaze.com/episodes/1069936/extreme-championship-wrestling-1x05-extreme-assault",
+      "name": "Extreme Assault",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2006-07-11",
+      "airtime": "22:00",
+      "airstamp": "2006-07-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer vs. Test</p><p>Sabu vs. Justin Credible<br></p><p>Extreme Rules match for the ECW Title: Ric Flair vs. The Big Show ©<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069936"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069937,
+      "url": "https://www.tvmaze.com/episodes/1069937/extreme-championship-wrestling-1x06-deadmans-fate-in-jeopardy",
+      "name": "Deadman's Fate in Jeopardy",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2006-07-18",
+      "airtime": "22:00",
+      "airstamp": "2006-07-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Knox vs. The Sandman</p><p>Sabu vs. Stevie Richards</p><p>ECW Champion Big Show vs. The Undertaker</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069937"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069938,
+      "url": "https://www.tvmaze.com/episodes/1069938/extreme-championship-wrestling-1x07-sabu-makes-a-statement",
+      "name": "Sabu Makes a Statement",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2006-07-25",
+      "airtime": "22:00",
+      "airstamp": "2006-07-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Sandman vs. Mike Knox (w/Kelly Kelly)</p><p>Little Guido vs. Kevin Thorn (w/Ariel)</p><p>Balls Mahoney vs. Justin Credible</p><p>ECW World Title Extreme Rules: The Big Show vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069938"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069939,
+      "url": "https://www.tvmaze.com/episodes/1069939/extreme-championship-wrestling-1x08-sabu-strikes-again",
+      "name": "Sabu Strikes Again",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2006-08-01",
+      "airtime": "22:00",
+      "airstamp": "2006-08-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Rules Tag Match: Tommy Dreamer and The Sandman vs. Mike Knox and Test w/Kelly Kelley</p><p>CM Punk vs. Justin Credible<br></p><p>The Brooklyn Brawler vs. Kurt Angle<br></p><p>ECW Title Match: The Big Show © vs. Batista<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069939"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069940,
+      "url": "https://www.tvmaze.com/episodes/1069940/extreme-championship-wrestling-1x09-the-whole-fn-spoiler",
+      "name": "The Whole F'N Spoiler",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2006-08-08",
+      "airtime": "22:00",
+      "airstamp": "2006-08-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer vs. Mike Knox</p><p>The Sandman vs. Test &amp; Mike Knox<br></p><p>Kevin Thorne w/ Ariel vs. Al Snow<br></p><p>Kurt Angle vs. Sabu<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069940"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069941,
+      "url": "https://www.tvmaze.com/episodes/1069941/extreme-championship-wrestling-1x10-sabu-steals-the-show",
+      "name": "Sabu Steals the Show",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2006-08-15",
+      "airtime": "22:00",
+      "airstamp": "2006-08-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Justin Credible</p><p>The FBI (Mamaluke and Little Guido) vs. Test and Knox w/Kelly<br></p><p>#1 Contender's Ladder Match: Sabu vs. RVD<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069941"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069942,
+      "url": "https://www.tvmaze.com/episodes/1069942/extreme-championship-wrestling-1x11-sabu-snaps",
+      "name": "Sabu Snaps",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2006-08-22",
+      "airtime": "22:00",
+      "airstamp": "2006-08-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Test, Knox and Kelly vs. Sandman, Dreamer and Torrie</p><p>Extreme Rules Match: Kevin Thorne w/Ariel vs. Balls Mahoney<br></p><p>CM Punk vs. C.W. Anderson<br></p><p>RVD vs. Danny Doring<br></p><p>ECW Title Match: The Big Show © vs. Sabu<br></p><p><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069942"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069943,
+      "url": "https://www.tvmaze.com/episodes/1069943/extreme-championship-wrestling-1x12-dr-frankenstein-prevails",
+      "name": "Dr. Frankenstein Prevails",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2006-08-29",
+      "airtime": "22:00",
+      "airstamp": "2006-08-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>RVD vs. Hardcore Holly</p><p>CM Punk vs. Stevie Richards<br></p><p>Extreme Rules: Sabu vs. Paul Heyman w/Security<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069943"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069944,
+      "url": "https://www.tvmaze.com/episodes/1069944/extreme-championship-wrestling-1x13-d-generation-extreme",
+      "name": "D-Generation Extreme",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2006-09-05",
+      "airtime": "22:00",
+      "airstamp": "2006-09-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Rules Tag Match: Sabu and RVD vs. Test and Mike Knox w/Kelly</p><p>Stevie Richards vs. Balls Mahoney</p><p>Handicap Match: The Big Show © vs. DX (HHH and Shawn Michaels)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069944"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069945,
+      "url": "https://www.tvmaze.com/episodes/1069945/extreme-championship-wrestling-1x14-garden-showstopper",
+      "name": "Garden Showstopper",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2006-09-12",
+      "airtime": "22:00",
+      "airstamp": "2006-09-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rob Van Dam vs. Hardcore Holly</p><p>CM Punk vs. \"The Reject\" Shannon Moore<br></p><p>Rene Dupree vs. Balls Mahoney<br></p><p><i>ECW Championship </i>Big Show w/ Paul Heyman &amp; Personal Enforcers vs. Sabu<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069946,
+      "url": "https://www.tvmaze.com/episodes/1069946/extreme-championship-wrestling-1x15-taken-to-royal-extremes",
+      "name": "Taken to Royal Extremes",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2006-09-19",
+      "airtime": "22:00",
+      "airstamp": "2006-09-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sabu, Sandman &amp; Tommy Dreamer vs. Test, Mike Knox w/K. Kelly &amp; Matt Striker</p><p>Balls Mahoney w/Francine vs. Kevin Thorn w/Ariel<br></p><p>C.M. Punk vs. Shannon Moore<br></p><p><i>Non-Title –</i> EXTREME RULES MATCH: World Heavyweight Champion King Booker © vs. RVD<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069946"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069947,
+      "url": "https://www.tvmaze.com/episodes/1069947/extreme-championship-wrestling-1x16-a-grisly-night-on-sci-fi",
+      "name": "A Grisly Night on Sci Fi",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2006-09-26",
+      "airtime": "22:00",
+      "airstamp": "2006-09-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>EXTREME RULES: RVD vs. Hardcore Holly</p><p>EXTREME CAT FIGHT: Ariel w/Thorn vs. Francine<br></p><p>ECW TITLE MATCH – Singapore Cane Legal: The Sandman vs. The Big Show ©<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069947"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069948,
+      "url": "https://www.tvmaze.com/episodes/1069948/extreme-championship-wrestling-1x17-extreme-supremacy",
+      "name": "Extreme Supremacy",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2006-10-03",
+      "airtime": "22:00",
+      "airstamp": "2006-10-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sabu and The Sandman vs. The Big Show © and Matt Striker</p><p>Tommy Dreamer vs. Kevin Thorn w/Ariel<br></p><p>C.M. Punk vs. Danny Doring<br></p><p>EXTREME RULES: RVD vs. Test<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069948"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069949,
+      "url": "https://www.tvmaze.com/episodes/1069949/extreme-championship-wrestling-1x18-originals-strike-back",
+      "name": "Originals Strike Back",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2006-10-10",
+      "airtime": "22:00",
+      "airstamp": "2006-10-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rene Dupree vs. CM Punk</p><p>Tommy Dreamer vs. Kevin Thorn w/Ariel<br></p><p>Sabu, Rob Van Dam &amp; The Sandman vs. The Big Show ©, Matt Striker &amp; Test<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069949"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069950,
+      "url": "https://www.tvmaze.com/episodes/1069950/extreme-championship-wrestling-1x19-extreme-impact",
+      "name": "Extreme Impact",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2006-10-17",
+      "airtime": "22:00",
+      "airstamp": "2006-10-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Singapore Cane on a Pole Match: Matt Striker vs. The Sandman</p><p>CM Punk vs. Rene Dupree<br></p><p>Test vs. Balls Mahoney<br></p><p>Sabu vs. Shannon Moore<br></p><p>NON-TITLE MATCH: Rob Van Dam vs. The Big Show ©<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069950"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069951,
+      "url": "https://www.tvmaze.com/episodes/1069951/extreme-championship-wrestling-1x20-reaching-the-top",
+      "name": "Reaching the Top",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2006-10-24",
+      "airtime": "22:00",
+      "airstamp": "2006-10-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Matt Striker</p><p>Test vs. Hardcore Holly</p><p>NON-TITLE: EXTREME RULES LADDER MATCH: RVD vs. The Big Show ©</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069951"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069952,
+      "url": "https://www.tvmaze.com/episodes/1069952/extreme-championship-wrestling-1x21-tricks-and-treats",
+      "name": "Tricks and Treats",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2006-10-31",
+      "airtime": "22:00",
+      "airstamp": "2006-11-01T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Elimination Chamber Qualifying Match: Kevin Thorn vs. Sabu<br>Shannon Moore vs. \" A new ECW star\"<br>Costume Contest: Kelly vs. Trinity vs. Ariel <br>RVD and Hardcore Holly vs. The Big Show and Test</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069953,
+      "url": "https://www.tvmaze.com/episodes/1069953/extreme-championship-wrestling-1x22-rvd-gets-screwed",
+      "name": "RVD Gets Screwed",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2006-11-07",
+      "airtime": "22:00",
+      "airstamp": "2006-11-08T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Elimination Chamber Qualifying Match: CM Punk vs. Mike Knox<br>Extreme Elimination Chamber Qualifying Match: Tommy Dreamer vs. Test<br>Davari w/Khali vs. Little Guido<br>RVD and Hardcore Holly vs. The Big Show and Paul Heyman</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069953"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069954,
+      "url": "https://www.tvmaze.com/episodes/1069954/extreme-championship-wrestling-1x23-lashley-unleashed-on-ecw",
+      "name": "Lashley Unleashed on ECW",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2006-11-14",
+      "airtime": "22:00",
+      "airstamp": "2006-11-15T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Mike Knox w/Kelly</p><p>Davari w/Khali vs. Tommy Dreamer<br></p><p>Lashley vs. Hardcore Holly<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069955,
+      "url": "https://www.tvmaze.com/episodes/1069955/extreme-championship-wrestling-1x24-one-man-one-mission",
+      "name": "One Man. One Mission.",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2006-11-21",
+      "airtime": "22:00",
+      "airstamp": "2006-11-22T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Lashley vs. Matt Striker</p><p>The Hardy Boyz vs. The FBI<br></p><p>Kevin Thorn vs. CM Punk<br></p><p>Hardcore Holly vs. Rob Van Dam in an Extreme Rules Match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069955"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069956,
+      "url": "https://www.tvmaze.com/episodes/1069956/extreme-championship-wrestling-1x25-countdown-to-dismemberment",
+      "name": "Countdown to Dismemberment",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2006-11-28",
+      "airtime": "22:00",
+      "airstamp": "2006-11-29T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>RVD vs. Sabu</p><p>Team eXtreme (Matt and Jeff Hardy) vs. Elijah Burke and Sylvester Terkay<br></p><p>Test vs. CM Punk<br></p><p>NON-TITLE MATCH: Lashley vs. The Big Show © w/Paul E.<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069956"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069957,
+      "url": "https://www.tvmaze.com/episodes/1069957/extreme-championship-wrestling-1x26-mission-accomplished",
+      "name": "Mission Accomplished",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2006-12-05",
+      "airtime": "22:00",
+      "airstamp": "2006-12-06T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rob Van Dam &amp; CM Punk vs. Test &amp; Hardcore Holly<br>Tommy Dreamer vs. Daivari<br>Kelly Kelly vs. Ariel<br>Bobby Lashley vs. The Big Show for the ECW World Title</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069958,
+      "url": "https://www.tvmaze.com/episodes/1069958/extreme-championship-wrestling-1x27-lashley-dominates",
+      "name": "Lashley Dominates",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2006-12-16",
+      "airtime": "22:00",
+      "airstamp": "2006-12-17T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Test vs. Rob Van Dam</p><p>CM Punk vs. Hardcore Holly<br></p><p>Daivari vs. Tommy Dreamer<br></p><p>Bobby Lashley vs. Heyman's Security<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069959,
+      "url": "https://www.tvmaze.com/episodes/1069959/extreme-championship-wrestling-1x28-golden-vote",
+      "name": "Golden Vote",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2006-12-19",
+      "airtime": "22:00",
+      "airstamp": "2006-12-20T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Bobby Lashley vs. Rene Dupree (non-title)</p><p>Matt Striker vs. Balls Mahoney<br></p><p>Hardcore Holly vs. CM Punk<br></p><p>Shannon Moore vs. Daivari<br></p><p>RVD vs. Sabu vs. Test<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069959"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069960,
+      "url": "https://www.tvmaze.com/episodes/1069960/extreme-championship-wrestling-1x29-best-of-2006",
+      "name": "Best of 2006",
+      "season": 1,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2006-12-26",
+      "airtime": "22:00",
+      "airstamp": "2006-12-27T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>One Night Stand: John Cena vs. Rob Van Dam</p><p>July 4th: The South Philly Screw Job – RVD vs. The Big Show<br></p><p>December to Dismember: Extreme Elimination Chamber<br></p><p>December 19th: RVD vs. Sabu vs. Test<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069960"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069973,
+      "url": "https://www.tvmaze.com/episodes/1069973/extreme-championship-wrestling-2x01-an-extreme-challenge",
+      "name": "An Extreme Challenge",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2007-01-02",
+      "airtime": "22:00",
+      "airstamp": "2007-01-03T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sabu vs. Test</p><p>Elijah Burke &amp; Sylvester Terkay vs. The FBI (Little Guido &amp; Tony Mamaluke) (w/Trinity)</p><p>Balls Mahoney vs. Kevin Thorn (w/Ariel)</p><p>ECW World Heavyweight Title Match - Bobby Lashley (c) vs. Rob Van Dam</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069973"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069974,
+      "url": "https://www.tvmaze.com/episodes/1069974/extreme-championship-wrestling-2x02-an-extreme-rematch",
+      "name": "An Extreme Rematch",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2007-01-09",
+      "airtime": "22:00",
+      "airstamp": "2007-01-10T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Hardcore Holly</p><p>Extreme Rules Match - The Great Khali (w/Daivari) vs. Tommy Dreamer</p><p>Kevin Thorn (w/Ariel) vs. Shannon Moore</p><p>ECW World Heavyweight Title Match - Bobby Lashley (c) vs. Rob Van Dam</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069974"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069975,
+      "url": "https://www.tvmaze.com/episodes/1069975/extreme-championship-wrestling-2x03-test-gets-his-title-shot",
+      "name": "Test Gets His Title Shot",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2007-01-16",
+      "airtime": "22:00",
+      "airstamp": "2007-01-17T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Matt Striker</p><p>Cassidy Riley vs. Marquis Cor Von</p><p>Elijah Burke (w/Sylvester Terkay) vs. The Sandman</p><p>ECW World Heavyweight Title Triple Threat No Disqualification Match - Bobby Lashley (c) vs. Rob Van Dam vs. Test</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069975"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069976,
+      "url": "https://www.tvmaze.com/episodes/1069976/extreme-championship-wrestling-2x04-royal-rumble-preview",
+      "name": "Royal Rumble Preview",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2007-01-23",
+      "airtime": "22:00",
+      "airstamp": "2007-01-24T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Over The Top Rope Challenge Match - Kevin Thorn vs. Rob Van Dam vs. Sabu vs. The Sandman vs. Tommy Dreamer</p><p>Marcus Cor Von vs. Wes Adams</p><p>CM Punk vs. Elijah Burke</p><p>Non Title Extreme Rules Match - Bobby Lashley vs. Test</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069976"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069977,
+      "url": "https://www.tvmaze.com/episodes/1069977/extreme-championship-wrestling-2x05-dead-ringer",
+      "name": "Dead Ringer",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2007-01-30",
+      "airtime": "22:00",
+      "airstamp": "2007-01-31T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Matt Striker</p><p>Hardcore Holly vs. Rob Van Dam</p><p>ECW World Heavyweight Title Match - Bobby Lashley (c) vs. Test</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069977"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069978,
+      "url": "https://www.tvmaze.com/episodes/1069978/extreme-championship-wrestling-2x06-payback",
+      "name": "Payback",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2007-02-06",
+      "airtime": "22:00",
+      "airstamp": "2007-02-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Thorn (w/Ariel) vs. Tommy Dreamer</p><p>Non Title Match - Bobby Lashley vs. Hardcore Holly</p><p>Balls Mahoney vs. Marcus Cor Von</p><p>Elijah Burke vs. Rob Van Dam</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069978"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069979,
+      "url": "https://www.tvmaze.com/episodes/1069979/extreme-championship-wrestling-2x07-well-bred",
+      "name": "Well-bred",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2007-02-13",
+      "airtime": "22:00",
+      "airstamp": "2007-02-14T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Extreme Rules Match - Bobby Lashley (c) vs. Hardcore Holly</p><p>Kevin Thorn &amp; Marcus Cor Von (w/Ariel) vs. The Sandman &amp; Tommy Dreamer</p><p>CM Punk vs. Mike Knox</p><p>Elijah Burke &amp; Matt Striker vs. Rob Van Dam &amp; Sabu</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069979"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069980,
+      "url": "https://www.tvmaze.com/episodes/1069980/extreme-championship-wrestling-2x08-dominant-gene",
+      "name": "Dominant Gene",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2007-02-20",
+      "airtime": "22:00",
+      "airstamp": "2007-02-21T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Thorn (w/Ariel, Elijah Burke, Marcus Cor Von &amp; Matt Striker) vs. Rob Van Dam (w/Sabu, The Sandman &amp; Tommy Dreamer)</p><p>Money In The Bank Qualifying Match - CM Punk vs. Johnny Nitro (w/Melina)</p><p>La Resistance (Rene Dupree &amp; Sylvan) vs. Los Luchas (Phoenix Star &amp; Zokre)</p><p>ECW World Heavyweight Title Triple Threat Match - Bobby Lashley (c) vs. Hardcore Holly vs. Mr. Kennedy</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069981,
+      "url": "https://www.tvmaze.com/episodes/1069981/extreme-championship-wrestling-2x09-to-hell-and-back",
+      "name": "To Hell and Back",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2007-02-27",
+      "airtime": "22:00",
+      "airstamp": "2007-02-28T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Money In The Bank Qualifying Extreme Rules Match - Mr. Kennedy vs. Sabu</p><p>Balls Mahoney vs. Matt Striker</p><p>Kevin Thorn &amp; Marcus Cor Von (w/Ariel &amp; Elijah Burke) vs. Rob Van Dam &amp; Tommy Dreamer</p><p>CM Punk vs. Stevie Richards</p><p>ECW World Heavyweight Title Steel Cage Match - Bobby Lashley (c) vs. Hardcore Holly</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069981"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069982,
+      "url": "https://www.tvmaze.com/episodes/1069982/extreme-championship-wrestling-2x10-rattlesnakes-venomous-visit",
+      "name": "Rattlesnake's Venomous Visit",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2007-03-06",
+      "airtime": "22:00",
+      "airstamp": "2007-03-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Balls Mahoney vs. Hardcore Holly</p><p>Elijah Burke (w/Ariel, Kevin Thorn, Marcus Cor Von &amp; Matt Striker) vs. Rob Van Dam (w/Sabu, The Sandman &amp; Tommy Dreamer)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069982"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069983,
+      "url": "https://www.tvmaze.com/episodes/1069983/extreme-championship-wrestling-2x11-cold-sweat",
+      "name": "Cold Sweat",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2007-03-13",
+      "airtime": "22:00",
+      "airstamp": "2007-03-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Battle Royal - Elijah Burke vs. Kevin Thorn (w/Ariel) vs. Marcus Cor Von vs. Matt Striker vs. Rob Van Dam vs. Sabu vs. The Sandman vs. Tommy Dreamer</p><p>Two On One Handicap Match - Danny Jaxx &amp; Michael Deek vs. Snitsky</p><p>Bobby Lashley vs. Randy Orton (w/Edge)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069983"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069984,
+      "url": "https://www.tvmaze.com/episodes/1069984/extreme-championship-wrestling-2x12-broken-masterpiece",
+      "name": "Broken Masterpiece",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2007-03-20",
+      "airtime": "22:00",
+      "airstamp": "2007-03-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Thorn &amp; Marcus Cor Von (w/Ariel) vs. Rob Van Dam &amp; Sabu</p><p>Mike Tolar vs. Snitsky</p><p>CM Punk vs. Hardcore Holly</p><p>Elijah Burke vs. Tommy Dreamer</p><p>Bobby Lashley vs. Chris Masters</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069984"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069985,
+      "url": "https://www.tvmaze.com/episodes/1069985/extreme-championship-wrestling-2x13-money-in-the-bank",
+      "name": "Money in the Bank",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2007-03-27",
+      "airtime": "22:00",
+      "airstamp": "2007-03-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Elijah Burke vs. Rob Van Dam</p><p>Balls Mahoney vs. Snitsky</p><p>Eight Man Tag Team Match - CM Punk, Edge &amp; The Hardys (Jeff Hardy &amp; Matt Hardy) vs. Finlay, King Booker, Mr. Kennedy &amp; Randy Orton</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069985"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069986,
+      "url": "https://www.tvmaze.com/episodes/1069986/extreme-championship-wrestling-2x14-wrestlemania-backlash-to-the-extreme",
+      "name": "WrestleMania Backlash to the Extreme",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2007-04-03",
+      "airtime": "22:00",
+      "airstamp": "2007-04-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Stevie Richards</p><p>Hardcore Holly vs. Snitsky</p><p>Extreme Rules Eight Man Tag Team Match - The ECW Originals (Rob Van Dam, Sabu, The Sandman &amp; Tommy Dreamer) vs. The New Breed (Elijah Burke, Kevin Thorn, Marcus Cor Von &amp; Matt Striker)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069986"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069987,
+      "url": "https://www.tvmaze.com/episodes/1069987/extreme-championship-wrestling-2x15-post-mania-mania",
+      "name": "Post-'Mania Mania",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2007-04-10",
+      "airtime": "22:00",
+      "airstamp": "2007-04-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Thorn (w/Ariel) vs. Tommy Dreamer</p><p>CM Punk vs. Stevie Richards</p><p>Marcus Cor Von (w/Elijah Burke) vs. Rob Van Dam (w/Sabu)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069987"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069988,
+      "url": "https://www.tvmaze.com/episodes/1069988/extreme-championship-wrestling-2x16-extreme-in-italy",
+      "name": "Extreme in Italy",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2007-04-17",
+      "airtime": "22:00",
+      "airstamp": "2007-04-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Nunzio vs. Snitsky</p><p>Kevin Thorn &amp; Marcus Cor Von vs. The Sandman &amp; Tommy Dreamer</p><p>Elijah Burke vs. Rob Van Dam</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069988"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069989,
+      "url": "https://www.tvmaze.com/episodes/1069989/extreme-championship-wrestling-2x17-lashing-out-before-backlash",
+      "name": "Lashing Out Before Backlash",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2007-04-27",
+      "airtime": "22:00",
+      "airstamp": "2007-04-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Bobby Lashley vs. Umaga (w/Armando Estrada)</p><p>Balls Mahoney vs. Snitsky</p><p>Eight Man Elimination Tag Team Match - The ECW Originals (Rob Van Dam, Sabu, The Sandman &amp; Tommy Dreamer) vs. The New Breed (Elijah Burke, Kevin Thorn, Marcus Cor Von &amp; Matt Striker) (w/Ariel &amp; CM Punk)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069989"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069990,
+      "url": "https://www.tvmaze.com/episodes/1069990/extreme-championship-wrestling-2x18-choices-and-consequences",
+      "name": "Choices and Consequences",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2007-05-01",
+      "airtime": "22:00",
+      "airstamp": "2007-05-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Kevin Thorn (w/Ariel, Elijah Burke, Marcus Cor Von &amp; Matt Striker)</p><p>Marcus Cor Von &amp; Matt Striker (w/Elijah Burke) vs. The Major Brothers (Brett Major &amp; Brian Major)</p><p>Extreme Rules Fatal Four Way Match - Rob Van Dam vs. Sabu vs. The Sandman vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069990"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069991,
+      "url": "https://www.tvmaze.com/episodes/1069991/extreme-championship-wrestling-2x19-chance-to-bash-the-boss",
+      "name": "Chance to Bash the Boss",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2007-05-08",
+      "airtime": "22:00",
+      "airstamp": "2007-05-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Marcus Cor Von (w/Elijah Burke)</p><p>Snitsky vs. The Sandman</p><p>Brian Major (w/Brett Major) vs. Elijah Burke (w/Matt Striker)</p><p>ECW World Heavyweight Title Three On One Handicap Match - Vince McMahon (c), Shane McMahon &amp; Umaga vs. Rob Van Dam</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069991"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069992,
+      "url": "https://www.tvmaze.com/episodes/1069992/extreme-championship-wrestling-2x20-focused-on-judgment",
+      "name": "Focused on Judgment",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2007-05-15",
+      "airtime": "22:00",
+      "airstamp": "2007-05-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rob Van Dam vs. Snitsky</p><p>CM Punk vs. Stevie Richards</p><p>Kevin Thorn (w/Ariel) vs. Nunzio</p><p>Three On One Handicap Match - Bobby Lashley vs. The New Breed (Elijah Burke, Marcus Cor Von &amp; Matt Striker)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069992"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069993,
+      "url": "https://www.tvmaze.com/episodes/1069993/extreme-championship-wrestling-2x21-the-new-breed-back-in-full-force",
+      "name": "The New Breed Back in Full Force?",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2007-05-22",
+      "airtime": "22:00",
+      "airstamp": "2007-05-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Snitsky vs. Tommy Dreamer</p><p>Kevin Thorn vs. Wyatt Lara</p><p>Brett Major (w/Brian Major) vs. Matt Striker</p><p>CM Punk &amp; Rob Van Dam vs. Elijah Burke &amp; Marcus Cor Von</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069993"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069994,
+      "url": "https://www.tvmaze.com/episodes/1069994/extreme-championship-wrestling-2x22-defending-the-legend-of-ecw-against-a-killer",
+      "name": "Defending the Legend of ECW Against a Killer",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2007-05-29",
+      "airtime": "22:00",
+      "airstamp": "2007-05-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Elijah Burke</p><p>Balls Mahoney vs. Kevin Thorn</p><p>Randy Orton vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069994"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069995,
+      "url": "https://www.tvmaze.com/episodes/1069995/extreme-championship-wrestling-2x23-coming-soon-the-new-landscape-of-ecw",
+      "name": "Coming Soon: The New Landscape of ECW",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2007-06-05",
+      "airtime": "22:00",
+      "airstamp": "2007-06-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Three On One Handicap Extreme Rules Match - Bobby Lashley vs. The ECW Originals (Balls Mahoney, The Sandman &amp; Tommy Dreamer)</p><p>Kevin Thorn vs. Stevie Richards</p><p>Elijah Burke &amp; Marcus Cor Von vs. The Major Brothers (Brett Major &amp; Brian Major)</p><p>CM Punk vs. Matt Striker</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069995"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069996,
+      "url": "https://www.tvmaze.com/episodes/1069996/extreme-championship-wrestling-2x24-lingering-questions-about-the-ecw-world-title",
+      "name": "Lingering Questions About the ECW World Title",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2007-06-12",
+      "airtime": "22:00",
+      "airstamp": "2007-06-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Balls Mahoney vs. Tommy Dreamer</p><p>Matt Striker vs. The Boogeyman</p><p>Chris Benoit &amp; CM Punk vs. Elijah Burke &amp; Marcus Cor Von</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069996"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069997,
+      "url": "https://www.tvmaze.com/episodes/1069997/extreme-championship-wrestling-2x25-number-one-contenders",
+      "name": "Number One Contenders",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2007-06-19",
+      "airtime": "22:00",
+      "airstamp": "2007-06-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW World Heavyweight Title Tournament Semi Final Match - Chris Benoit vs. Elijah Burke</p><p>Sean Alexander vs. The Boogeyman</p><p>Kevin Thorn vs. Tommy Dreamer</p><p>Johnny Nitro vs. Nunzio</p><p>ECW World Heavyweight Title Tournament Semi Final Match - CM Punk vs. Marcus Cor Von</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069997"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069998,
+      "url": "https://www.tvmaze.com/episodes/1069998/extreme-championship-wrestling-2x26-straightedge-collision-course",
+      "name": "Straightedge Collision Course",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2007-06-26",
+      "airtime": "22:00",
+      "airstamp": "2007-06-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - John Cena vs. Johnny Nitro</p><p>ECW World Heavyweight Title #1 Contendership Best Two Out Of Three Falls Match - CM Punk vs. Elijah Burke</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069998"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1069999,
+      "url": "https://www.tvmaze.com/episodes/1069999/extreme-championship-wrestling-2x27-pick-your-poison",
+      "name": "Pick Your Poison",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2007-07-03",
+      "airtime": "22:00",
+      "airstamp": "2007-07-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Singles Match - Johnny Nitro vs. Tommy Dreamer</p><p>CM Punk vs. Kevin Thorn</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1069999"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070000,
+      "url": "https://www.tvmaze.com/episodes/1070000/extreme-championship-wrestling-2x28-last-stop-before-the-bash",
+      "name": "Last Stop Before the Bash",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2007-07-10",
+      "airtime": "22:00",
+      "airstamp": "2007-07-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Balls Mahoney vs. Elijah Burke</p><p>CM Punk vs. Stevie Richards</p><p>Nunzio vs. The Miz</p><p>Non Title Extreme Rules Match - Johnny Nitro vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070000"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070001,
+      "url": "https://www.tvmaze.com/episodes/1070001/extreme-championship-wrestling-2x29-john-morrison",
+      "name": "John Morrison?",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2007-07-17",
+      "airtime": "22:00",
+      "airstamp": "2007-07-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. Elijah Burke</p><p>Big Daddy V (w/Matt Striker) vs. Tim Storm</p><p>Kevin Thorn vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070001"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070002,
+      "url": "https://www.tvmaze.com/episodes/1070002/extreme-championship-wrestling-2x30-the-face-of-extreme",
+      "name": "The Face of Extreme",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2007-07-24",
+      "airtime": "22:00",
+      "airstamp": "2007-07-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Fifteen Minutes Of Fame Challenge Match - John Morrison vs. Zokre</p><p>Kevin Thorn vs. Stevie Richards</p><p>Nunzio vs. The Miz</p><p>Two On One Handicap Match - Big Daddy V (w/Matt Striker) vs. Jimmy Cruz &amp; Victor Calvio</p><p>CM Punk &amp; Tommy Dreamer vs. Elijah Burke &amp; John Morrison</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070002"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070003,
+      "url": "https://www.tvmaze.com/episodes/1070003/extreme-championship-wrestling-2x31-who-will-get-their-15-minutes-of-fame",
+      "name": "Who Will Get Their 15 Minutes of Fame?",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2007-07-31",
+      "airtime": "22:00",
+      "airstamp": "2007-08-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Fifteen Minutes Of Fame Challenge Match - Joey Blalock vs. John Morrison</p><p>Kevin Thorn vs. Stevie Richards</p><p>Three On One Handicap Match - Big Daddy V (w/Matt Striker) vs. Brandon Gatson, Jeff Michaels &amp; John Mason</p><p>Balls Mahoney vs. The Miz</p><p>Triple Threat Match - CM Punk vs. Elijah Burke vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070003"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070004,
+      "url": "https://www.tvmaze.com/episodes/1070004/extreme-championship-wrestling-2x32-aiming-for-fame",
+      "name": "Aiming for Fame",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2007-08-07",
+      "airtime": "22:00",
+      "airstamp": "2007-08-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jesse Guilmette vs. The Boogeyman</p><p>Elijah Burke vs. Tommy Dreamer</p><p>Balls Mahoney vs. The Miz (w/Brooke, Kelly Kelly &amp; Layla)</p><p>Fifteen Minutes Of Fame Challenge Match - CM Punk vs. John Morrison</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070004"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070005,
+      "url": "https://www.tvmaze.com/episodes/1070005/extreme-championship-wrestling-2x33-strange-days-for-morrison",
+      "name": "Strange Days for Morrison",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2007-08-14",
+      "airtime": "22:00",
+      "airstamp": "2007-08-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Big Daddy V (w/Matt Striker) vs. CM Punk</p><p>Big Daddy V (w/Matt Striker) vs. Tommy Dreamer</p><p>Kevin Thorn vs. Stevie Richards</p><p>Non Title Match - John Morrison vs. The Boogeyman</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070005"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070006,
+      "url": "https://www.tvmaze.com/episodes/1070006/extreme-championship-wrestling-2x34-strange-days-over",
+      "name": "Strange Days Over?",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2007-08-21",
+      "airtime": "22:00",
+      "airstamp": "2007-08-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Rules Match - Big Daddy V (w/Matt Striker) vs. Tommy Dreamer</p><p>Balls Mahoney vs. Elijah Burke</p><p>CM Punk &amp; The Boogeyman vs. John Morrison &amp; The Miz (w/Brooke, Kelly Kelly &amp; Layla)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070006"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070007,
+      "url": "https://www.tvmaze.com/episodes/1070007/extreme-championship-wrestling-2x35-storming-the-palace",
+      "name": "Storming the Palace",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2007-08-28",
+      "airtime": "22:00",
+      "airstamp": "2007-08-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Thorn vs. Stevie Richards</p><p>Balls Mahoney vs. Elijah Burke</p><p>ECW Heavyweight Title #1 Contendership Fatal Four Way Match - Big Daddy V (w/Matt Striker) vs. CM Punk vs. The Boogeyman vs. The Miz (w/Brooke, Kelly Kelly &amp; Layla)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070007"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070008,
+      "url": "https://www.tvmaze.com/episodes/1070008/extreme-championship-wrestling-2x36-the-end-for-morrison",
+      "name": "The End for Morrison",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2007-09-04",
+      "airtime": "22:00",
+      "airstamp": "2007-09-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Matt Striker (w/Big Daddy V) vs. The Boogeyman</p><p>Balls Mahoney vs. The Miz (w/Brooke, Kelly Kelly &amp; Layla)</p><p>Elijah Burke &amp; Kevin Thorn vs. Stevie Richards &amp; Tommy Dreamer</p><p>ECW Heavyweight Title Match - John Morrison (c) vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070008"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070009,
+      "url": "https://www.tvmaze.com/episodes/1070009/extreme-championship-wrestling-2x37-the-era-of-punk-begins",
+      "name": "The Era of Punk Begins",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2007-09-11",
+      "airtime": "22:00",
+      "airstamp": "2007-09-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Miz (w/Brooke, Kelly Kelly &amp; Layla) vs. Tommy Dreamer</p><p>Matt Striker (w/Big Daddy V) vs. Nunzio</p><p>Balls Mahoney vs. Mike Knox</p><p>CM Punk &amp; Stevie Richards vs. Elijah Burke &amp; Kevin Thorn</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070009"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070010,
+      "url": "https://www.tvmaze.com/episodes/1070010/extreme-championship-wrestling-2x38-fatal-road-to-no-mercy",
+      "name": "Fatal Road to No Mercy",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2007-09-18",
+      "airtime": "22:00",
+      "airstamp": "2007-09-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Elimination Chase Fatal Four Way Match - Elijah Burke vs. Kevin Thorn vs. Stevie Richards vs. Tommy Dreamer</p><p>Balls Mahoney vs. Mike Knox</p><p>Big Daddy V (w/Matt Striker) vs. The Boogeyman</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070010"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070011,
+      "url": "https://www.tvmaze.com/episodes/1070011/extreme-championship-wrestling-2x39-and-then-there-were-two",
+      "name": "And Then There Were Two…",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2007-09-25",
+      "airtime": "22:00",
+      "airstamp": "2007-09-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Elimination Chase Triple Threat Match - Elijah Burke vs. Kevin Thorn vs. Tommy Dreamer</p><p>Mike Knox vs. Nunzio</p><p>Silas Young vs. The Miz (w/Brooke, Kelly Kelly &amp; Layla)</p><p>Non Title Match - CM Punk vs. Matt Striker (w/Big Daddy V)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070011"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070012,
+      "url": "https://www.tvmaze.com/episodes/1070012/extreme-championship-wrestling-2x40-big-results",
+      "name": "Big Results",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2007-10-02",
+      "airtime": "22:00",
+      "airstamp": "2007-10-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - CM Punk vs. Mike Knox</p><p>Elimination Chase Match - Elijah Burke vs. Tommy Dreamer</p><p>Elimination Chase Final Match - Big Daddy V (w/Matt Striker) vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070012"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070013,
+      "url": "https://www.tvmaze.com/episodes/1070013/extreme-championship-wrestling-2x41-strange-days-return-to-ecw",
+      "name": "Strange Days Return to ECW",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2007-10-09",
+      "airtime": "22:00",
+      "airstamp": "2007-10-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Big Daddy V (w/Matt Striker) vs. Tommy Dreamer</p><p>James Curtis vs. Kevin Thorn</p><p>Balls Mahoney vs. The Miz (w/Brooke, Kelly Kelly &amp; Layla)</p><p>Non Title Match - CM Punk vs. John Morrison</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070013"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070014,
+      "url": "https://www.tvmaze.com/episodes/1070014/extreme-championship-wrestling-2x42-fate-of-the-gold",
+      "name": "Fate of the gold",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2007-10-16",
+      "airtime": "22:00",
+      "airstamp": "2007-10-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Three On Two Handicap Match - CM Punk &amp; Kane vs. Big Daddy V, John Morrison &amp; The Miz</p><p>Elijah Burke &amp; Nunzio vs. Festus &amp; Jesse</p><p>John Morrison vs. The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070014"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070015,
+      "url": "https://www.tvmaze.com/episodes/1070015/extreme-championship-wrestling-2x43-freedom-of-choice",
+      "name": "Freedom of Choice",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2007-10-23",
+      "airtime": "22:00",
+      "airstamp": "2007-10-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Big Daddy V (w/Matt Striker) vs. Kane</p><p>Elijah Burke vs. Nunzio</p><p>Balls Mahoney &amp; CM Punk vs. John Morrison &amp; The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070015"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070016,
+      "url": "https://www.tvmaze.com/episodes/1070016/extreme-championship-wrestling-2x44-the-crystal-ship-sails-forward",
+      "name": "The Crystal Ship Sails Forward",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2007-10-30",
+      "airtime": "22:00",
+      "airstamp": "2007-10-31T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Elijah Burke vs. Jimmy Wang Yang</p><p>Trick Or Treat Match - Nunzio vs. Tommy Dreamer</p><p>ECW Heavyweight Title #1 Contendership Match - John Morrison vs. The Miz</p><p>Non Title Match - CM Punk vs. James Curtis</p><p>Monster Mash Battle Royal - Big Daddy V (w/Matt Striker) vs. Kane vs. Mark Henry vs. The Great Khali (w/Ranjin Singh)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070016"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070017,
+      "url": "https://www.tvmaze.com/episodes/1070017/extreme-championship-wrestling-2x45-mad-hatter",
+      "name": "Mad Hatter",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2007-11-06",
+      "airtime": "22:00",
+      "airstamp": "2007-11-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kane vs. Mark Henry</p><p>Jamie Noble vs. Nunzio</p><p>Kelly Kelly vs. Layla</p><p>Elijah Burke vs. Shannon Moore</p><p>ECW Heavyweight Title Match - CM Punk (c) vs. John Morrison</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070017"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070018,
+      "url": "https://www.tvmaze.com/episodes/1070018/extreme-championship-wrestling-2x46-trying-to-survive",
+      "name": "Trying to Survive",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2007-11-13",
+      "airtime": "22:00",
+      "airstamp": "2007-11-14T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Montel Vontavious Porter &amp; Mr. Kennedy vs. The Hardys (Jeff Hardy &amp; Matt Hardy)</p><p>Kelly Kelly &amp; Michelle McCool vs. Layla &amp; Melina</p><p>Non Title Match - CM Punk vs. Jamie Noble</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070018"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070019,
+      "url": "https://www.tvmaze.com/episodes/1070019/extreme-championship-wrestling-2x47-who-laughs-last",
+      "name": "Who Laughs Last?",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2007-11-20",
+      "airtime": "22:00",
+      "airstamp": "2007-11-21T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - CM Punk vs. Kenny Dykstra</p><p>Shelton Benjamin (w/Elijah Burke) vs. Tommy Dreamer</p><p>Deuce &amp; Domino (w/Cherry) vs. Festus &amp; Jesse</p><p>Kevin Thorn vs. Nunzio</p><p>Two On One Handicap Match - Big Daddy V &amp; Matt Striker vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070019"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070020,
+      "url": "https://www.tvmaze.com/episodes/1070020/extreme-championship-wrestling-2x48-beast-bash",
+      "name": "Beast Bash",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2007-11-27",
+      "airtime": "22:00",
+      "airstamp": "2007-11-28T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kelly Kelly vs. Layla</p><p>Non Title Tag Team Match - Festus &amp; Jesse vs. John Morrison &amp; The Miz</p><p>Shannon Moore vs. Shelton Benjamin (w/Elijah Burke)</p><p>Extreme Rules Match - Big Daddy V (w/Matt Striker) vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070020"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070021,
+      "url": "https://www.tvmaze.com/episodes/1070021/extreme-championship-wrestling-2x49-champions-choice",
+      "name": "Champion's Choice",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2007-12-06",
+      "airtime": "22:00",
+      "airstamp": "2007-12-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - John Morrison &amp; The Miz vs. The Major Brothers (Brett Major &amp; Brian Major)</p><p>Mixed Tag Team Match - Balls Mahoney &amp; Kelly Kelly vs. Kenny Dykstra &amp; Victoria</p><p>Jimmy Wang Yang vs. Shelton Benjamin</p><p>Jeff Lewis vs. Kevin Thorn</p><p>Non Title Match - CM Punk vs. Mark Henry</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070021"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070022,
+      "url": "https://www.tvmaze.com/episodes/1070022/extreme-championship-wrestling-2x50-animal-tracks",
+      "name": "Animal Tracks",
+      "season": 2,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2007-12-11",
+      "airtime": "22:00",
+      "airstamp": "2007-12-12T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk &amp; Kane vs. Deuce &amp; Domino (w/Cherry)</p><p>Non Title Tag Team Match - John Morrison &amp; The Miz vs. Jimmy Wang Yang &amp; Shannon Moore</p><p>Two On One Handicap Match - Kelly Kelly vs. Layla &amp; Victoria</p><p>Non Title Match - Batista vs. Elijah Burke</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070022"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070023,
+      "url": "https://www.tvmaze.com/episodes/1070023/extreme-championship-wrestling-2x51-champion-vs-champion",
+      "name": "Champion vs Champion",
+      "season": 2,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2007-12-18",
+      "airtime": "22:00",
+      "airstamp": "2007-12-19T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - Jimmy Wang Yang &amp; Shannon Moore vs. John Morrison &amp; The Miz</p><p>Colin Delaney vs. Shelton Benjamin</p><p>Kenny Dykstra (w/Victoria) vs. Nunzio</p><p>Non Title Match - CM Punk vs. Montel Vontavious Porter</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070023"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070024,
+      "url": "https://www.tvmaze.com/episodes/1070024/extreme-championship-wrestling-2x52-best-of-ecw-2007",
+      "name": "Best of ECW 2007",
+      "season": 2,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2007-12-25",
+      "airtime": "22:00",
+      "airstamp": "2007-12-26T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW World Heavyweight Title Street Fight - Vince McMahon (c) vs. Bobby Lashley</p><p>Extreme Rules Eight Man Tag Team Match - The ECW Originals (Rob Van Dam, Sabu, The Sandman &amp; Tommy Dreamer) vs. The New Breed (Elijah Burke, Kevin Thorn, Marcus Cor Von &amp; Matt Striker)</p><p>ECW World Heavyweight Title Tournament Final Match - CM Punk vs. Johnny Nitro</p><p>ECW Heavyweight Title Match - John Morrison (c) vs. CM Punk</p><p>ECW Heavyweight Title Triple Threat Match - CM Punk (c) vs. John Morrison vs. The Miz</p><p>Non Title Match - CM Punk vs. Montel Vontavious Porter</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070024"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070025,
+      "url": "https://www.tvmaze.com/episodes/1070025/extreme-championship-wrestling-3x01-enhancing-the-problem",
+      "name": "Enhancing the Problem",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2008-01-01",
+      "airtime": "22:00",
+      "airstamp": "2008-01-02T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mixed Six Man Tag Team Match - Jimmy Wang Yang, Kelly Kelly &amp; Shannon Moore vs. John Morrison, Layla &amp; The Miz</p><p>Big Daddy V vs. Colin Delaney</p><p>James Curtis vs. Shelton Benjamin</p><p>Non Title Match - Chavo Guerrero vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070025"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070026,
+      "url": "https://www.tvmaze.com/episodes/1070026/extreme-championship-wrestling-3x02-15-minutes-of-reign-left",
+      "name": "15 Minutes of Reign Left?",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2008-01-08",
+      "airtime": "22:00",
+      "airstamp": "2008-01-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Tag Team Title Fifteen Minutes Of Fame Iron Man Match - John Morrison &amp; The Miz (c) vs. Jimmy Wang Yang &amp; Shannon Moore</p><p>Colin Delaney vs. Mark Henry</p><p>Non Title Match - Chavo Guerrero vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070026"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070027,
+      "url": "https://www.tvmaze.com/episodes/1070027/extreme-championship-wrestling-3x03-chavos-last-dance",
+      "name": "Chavo's Last Dance",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2008-01-15",
+      "airtime": "22:00",
+      "airstamp": "2008-01-16T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Tag Team Match - John Morrison &amp; The Miz vs. The Highlanders (Robbie &amp; Rory)</p><p>Colin Delaney vs. Kane</p><p>Nunzio vs. Shelton Benjamin</p><p>Non Title Match - Chavo Guerrero vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070027"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070028,
+      "url": "https://www.tvmaze.com/episodes/1070028/extreme-championship-wrestling-3x04-ecw-goes-hd",
+      "name": "ECW Goes HD",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2008-01-22",
+      "airtime": "22:00",
+      "airstamp": "2008-01-23T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Battle Royal - John Morrison vs. Kane vs. Shelton Benjamin vs. The Miz vs. Tommy Dreamer</p><p>David Owen vs. Kofi Kingston</p><p>Colin Delaney vs. The Great Khali (w/Ranjin Singh)</p><p>ECW Heavyweight Title Match - CM Punk (c) vs. Chavo Guerrero (w/Edge)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070028"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070029,
+      "url": "https://www.tvmaze.com/episodes/1070029/extreme-championship-wrestling-3x05-cm-punk-crashes-chavos-fiesta",
+      "name": "CM Punk Crashes Chavo's Fiesta",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2008-01-29",
+      "airtime": "22:00",
+      "airstamp": "2008-01-30T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kane vs. Shelton Benjamin</p><p>Kelly Kelly vs. Victoria</p><p>Two On One Handicap Match - Colin Delaney vs. John Morrison &amp; The Miz</p><p>CM Punk vs. Elijah Burke</p><p>Kofi Kingston vs. Rob Eckos</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070029"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070030,
+      "url": "https://www.tvmaze.com/episodes/1070030/extreme-championship-wrestling-3x06-gulf-of-mexico-match",
+      "name": "Gulf of Mexico Match",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2008-02-05",
+      "airtime": "22:00",
+      "airstamp": "2008-02-06T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kelly Kelly &amp; Michelle McCool vs. Layla &amp; Victoria (w/Lena Yada)</p><p>John Morrison (w/The Miz) vs. Tommy Dreamer (w/Colin Delaney)</p><p>James Curtis vs. Kofi Kingston</p><p>Gulf Of Mexico Non Title Match - Chavo Guerrero vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070030"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070031,
+      "url": "https://www.tvmaze.com/episodes/1070031/extreme-championship-wrestling-3x07-mining-for-gold",
+      "name": "Mining for Gold",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2008-02-12",
+      "airtime": "22:00",
+      "airstamp": "2008-02-13T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rory Fox vs. Stevie Richards</p><p>Kelly Kelly vs. Layla (w/Lena Yada)</p><p>Kofi Kingston vs. Mike Knox</p><p>John Morrison (w/The Miz) vs. Tommy Dreamer (w/Colin Delaney)</p><p>CM Punk vs. Mark Henry</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070031"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070032,
+      "url": "https://www.tvmaze.com/episodes/1070032/extreme-championship-wrestling-3x08-time-is-on-their-side",
+      "name": "Time is on Their Side",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2008-02-19",
+      "airtime": "22:00",
+      "airstamp": "2008-02-20T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jason Riggs vs. Kofi Kingston</p><p>Colin Delaney (w/Tommy Dreamer) vs. The Miz (w/John Morrison)</p><p>James Curtis vs. Stevie Richards</p><p>CM Punk &amp; Ric Flair vs. Elijah Burke &amp; Shelton Benjamin</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070032"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070033,
+      "url": "https://www.tvmaze.com/episodes/1070033/extreme-championship-wrestling-3x09-jamaican-me-crazy",
+      "name": "Jamaican Me Crazy",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2008-02-26",
+      "airtime": "22:00",
+      "airstamp": "2008-02-27T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kelly Kelly &amp; Kofi Kingston vs. Layla &amp; Santino Marella</p><p>Mike Knox vs. Stevie Richards</p><p>Non Title Tag Team Match - John Morrison &amp; The Miz vs. Colin Delaney &amp; Tommy Dreamer</p><p>ECW Heavyweight Title #1 Contendership Triple Threat Match - CM Punk vs. Elijah Burke vs. Shelton Benjamin</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070033"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070034,
+      "url": "https://www.tvmaze.com/episodes/1070034/extreme-championship-wrestling-3x10-a-championship-evening",
+      "name": "A Championship Evening",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2008-03-04",
+      "airtime": "22:00",
+      "airstamp": "2008-03-05T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Tag Team Title Match - John Morrison &amp; The Miz (c) vs. Colin Delaney &amp; Tommy Dreamer</p><p>Shelton Benjamin vs. Stevie Richards</p><p>James Curtis vs. Kane</p><p>ECW Heavyweight Title Match - Chavo Guerrero (c) vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070034"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070035,
+      "url": "https://www.tvmaze.com/episodes/1070035/extreme-championship-wrestling-3x11-tables-helmets-and-champions",
+      "name": "Tables, Helmets and Champions",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2008-03-11",
+      "airtime": "22:00",
+      "airstamp": "2008-03-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>WWE Tag Team Title Extreme Rules Match - John Morrison &amp; The Miz (c) vs. Colin Delaney &amp; Tommy Dreamer</p><p>Stevie Richards vs. The Great Khali</p><p>Deuce (w/Cherry &amp; Domino) vs. Kofi Kingston</p><p>Elijah Burke vs. Festus (w/Jesse)</p><p>Money In The Bank Qualifying Match - Big Daddy V (w/Matt Striker) vs. CM Punk</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070035"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070036,
+      "url": "https://www.tvmaze.com/episodes/1070036/extreme-championship-wrestling-3x12-punk-steps-on-the-road-ahead",
+      "name": "Punk Steps on the Road Ahead",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2008-03-18",
+      "airtime": "22:00",
+      "airstamp": "2008-03-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Elijah Burke vs. Kane</p><p>James Curtis vs. Kofi Kingston</p><p>Six Man Tag Team Match - CM Punk, Festus &amp; Jesse vs. John Morrison, Shelton Benjamin &amp; The Miz</p><p>Non Title Match - Chavo Guerrero vs. Colin Delaney</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070036"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070037,
+      "url": "https://www.tvmaze.com/episodes/1070037/extreme-championship-wrestling-3x13-mayhem-before-mania",
+      "name": "Mayhem Before 'Mania?",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2008-03-25",
+      "airtime": "22:00",
+      "airstamp": "2008-03-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>24 Man Tag Team Match - Cody Rhodes, Festus, Hardcore Holly, Jamie Noble, Jesse, Jim Duggan, Jimmy Wang Yang, Kane, Kofi Kingston, Shannon Moore, Tommy Dreamer &amp; Val Venis vs. Brian Kendrick, Chuck Palumbo, Deuce, Domino, Elijah Burke, Lance Cade, Mark Henry, Matt Striker, Snitsky, The Great Khali, The Miz &amp; Trevor Murdoch</p><p>Carlito vs. Shelton Benjamin</p><p>Mixed Tag Team Match - Layla &amp; Mike Knox vs. Kelly Kelly &amp; Stevie Richards</p><p>Non Title Match - Chavo Guerrero vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070037"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070038,
+      "url": "https://www.tvmaze.com/episodes/1070038/extreme-championship-wrestling-3x14-making-the-way-for-mania",
+      "name": "Making the Way for 'Mania",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2008-04-01",
+      "airtime": "22:00",
+      "airstamp": "2008-04-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Knox vs. Stevie Richards</p><p>Colin Delaney vs. The Big Show</p><p>Chavo Guerrero &amp; Shelton Benjamin vs. CM Punk &amp; Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070038"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070039,
+      "url": "https://www.tvmaze.com/episodes/1070039/extreme-championship-wrestling-3x15-extreme-retribution",
+      "name": "Extreme Retribution",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2008-04-08",
+      "airtime": "22:00",
+      "airstamp": "2008-04-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. The Miz (w/John Morrison)</p><p>Elijah Burke vs. Nunzio</p><p>Domino vs. Kofi Kingston</p><p>Contract Vs. Contract Match - Colin Delaney vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070039"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070040,
+      "url": "https://www.tvmaze.com/episodes/1070040/extreme-championship-wrestling-3x16-vengeful-champion",
+      "name": "Vengeful Champion?",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2008-04-15",
+      "airtime": "22:00",
+      "airstamp": "2008-04-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk, Jimmy Wang Yang, Kofi Kingston &amp; Shannon Moore vs. Deuce, Domino, Elijah Burke &amp; Shelton Benjamin</p><p>Colin Delaney (w/Tommy Dreamer) vs. Mike Knox</p><p>Non Title Tag Team Match - John Morrison &amp; The Miz vs. The Brothers Of Destruction (Kane &amp; The Undertaker)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070040"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070041,
+      "url": "https://www.tvmaze.com/episodes/1070041/extreme-championship-wrestling-3x17-paving-the-way-to-backlash",
+      "name": "Paving the Way to Backlash",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2008-04-22",
+      "airtime": "22:00",
+      "airstamp": "2008-04-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mixed Tag Team Match - Kelly Kelly &amp; Tommy Dreamer vs. Layla &amp; Mike Knox</p><p>Jimmy Wang Yang (w/Shannon Moore) vs. John Morrison (w/The Miz)</p><p>Kofi Kingston vs. Shelton Benjamin</p><p>Mark Henry vs. Nunzio</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070041"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070042,
+      "url": "https://www.tvmaze.com/episodes/1070042/extreme-championship-wrestling-3x18-brothers-dominate-backlash",
+      "name": "Brothers Dominate Backlash",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2008-04-29",
+      "airtime": "22:00",
+      "airstamp": "2008-04-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kofi Kingston vs. Shelton Benjamin</p><p>Mike Knox vs. Tommy Dreamer (w/Colin Delaney)</p><p>Chuck Palumbo vs. CM Punk</p><p>Two On One Handicap Match - Bam Neely &amp; Chavo Guerrero vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070042"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070043,
+      "url": "https://www.tvmaze.com/episodes/1070043/extreme-championship-wrestling-3x19-extreme-centennial",
+      "name": "Extreme Centennial",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2008-05-06",
+      "airtime": "22:00",
+      "airstamp": "2008-05-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Knox vs. Tommy Dreamer</p><p>Kofi Kingston vs. Matt Striker</p><p>Armando Estrada vs. Colin Delaney</p><p>Bam Neely &amp; Chavo Guerrero vs. CM Punk &amp; Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070043"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070044,
+      "url": "https://www.tvmaze.com/episodes/1070044/extreme-championship-wrestling-3x20-sign-on-the-extreme-line",
+      "name": "Sign on the Extreme Line",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2008-05-13",
+      "airtime": "22:00",
+      "airstamp": "2008-05-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CM Punk vs. The Miz (w/John Morrison)</p><p>Cherry, Kelly Kelly &amp; Michelle McCool vs. Layla, Natalya &amp; Victoria</p><p>Colin Delaney vs. Mike Knox</p><p>Armando Estrada vs. Colin Delaney</p><p>Non Title Match - John Morrison (w/The Miz) vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070044"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070045,
+      "url": "https://www.tvmaze.com/episodes/1070045/extreme-championship-wrestling-3x21-golden-trouble-in-paradise",
+      "name": "Golden Trouble in Paradise",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2008-05-20",
+      "airtime": "22:00",
+      "airstamp": "2008-05-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - Kane vs. The Miz</p><p>Kofi Kingston vs. Shelton Benjamin</p><p>Colin Delaney &amp; Kelly Kelly vs. Layla &amp; Mike Knox</p><p>Armando Estrada vs. Colin Delaney</p><p>Chavo Guerrero &amp; John Morrison vs. CM Punk &amp; Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070045"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070046,
+      "url": "https://www.tvmaze.com/episodes/1070046/extreme-championship-wrestling-3x22-and-then-there-were-five",
+      "name": "And Then There Were Five",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2008-05-27",
+      "airtime": "22:00",
+      "airstamp": "2008-05-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Big Show vs. Tommy Dreamer</p><p>Kofi Kingston vs. Mike Knox</p><p>Chavo Guerrero (w/Bam Neely) vs. CM Punk</p><p>Two On One Handicap Match - John Morrison &amp; The Miz vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070046"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070047,
+      "url": "https://www.tvmaze.com/episodes/1070047/extreme-championship-wrestling-3x23-as-the-dust-settles",
+      "name": "As the Dust Settles",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2008-06-03",
+      "airtime": "22:00",
+      "airstamp": "2008-06-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Fatal Four Way Match - Chavo Guerrero vs. CM Punk vs. John Morrison vs. Tommy Dreamer</p><p>Matt Sydal vs. Shelton Benjamin</p><p>Non Title Match - Armando Estrada vs. Matt Hardy</p><p>Armando Estrada vs. Colin Delaney</p><p>Non Title Match - CM Punk vs. Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070047"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070048,
+      "url": "https://www.tvmaze.com/episodes/1070048/extreme-championship-wrestling-3x24-extreme-changes-playa",
+      "name": "Extreme Changes, Playa",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2008-06-10",
+      "airtime": "22:00",
+      "airstamp": "2008-06-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne &amp; Kofi Kingston vs. Mike Knox &amp; Shelton Benjamin</p><p>Kelly Kelly vs. Victoria</p><p>Armando Estrada vs. Finlay (w/Hornswoggle)</p><p>Armando Estrada vs. Colin Delaney</p><p>Armando Estrada vs. Hornswoggle</p><p>WWE Tag Team Title Match - John Morrison &amp; The Miz (c) vs. CM Punk &amp; Kane</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070048"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070049,
+      "url": "https://www.tvmaze.com/episodes/1070049/extreme-championship-wrestling-3x25-fierce-forum",
+      "name": "Fierce Forum",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2008-06-17",
+      "airtime": "22:00",
+      "airstamp": "2008-06-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Armando Estrada vs. Hornswoggle (w/Finlay)</p><p>Evan Bourne vs. Matt Striker</p><p>Kofi Kingston vs. Mike Knox</p><p>CM Punk vs. John Morrison</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070049"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070050,
+      "url": "https://www.tvmaze.com/episodes/1070050/extreme-championship-wrestling-3x26-explosive-encounter",
+      "name": "Explosive Encounter",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2008-06-24",
+      "airtime": "22:00",
+      "airstamp": "2008-06-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Tag Team Match - CM Punk &amp; Matt Hardy vs. John Morrison &amp; The Miz</p><p>Extreme Rules Match - Kofi Kingston vs. Shelton Benjamin</p><p>Evan Bourne vs. Mike Knox</p><p>Non Title Match - Kane vs. Mark Henry</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070050"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070051,
+      "url": "https://www.tvmaze.com/episodes/1070051/extreme-championship-wrestling-3x27-ecw-championship-comes-home",
+      "name": "ECW Championship Comes Home",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2008-07-01",
+      "airtime": "22:00",
+      "airstamp": "2008-07-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Finlay, Hornswoggle &amp; Matt Hardy vs. Chavo Guerrero, John Morrison &amp; The Miz (w/Bam Neely)</p><p>Armando Estrada vs. Atlas Ortiz</p><p>Non Title Match - Colin Delaney (w/Tommy Dreamer) vs. Mark Henry</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070051"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070052,
+      "url": "https://www.tvmaze.com/episodes/1070052/extreme-championship-wrestling-3x28-worlds-strongest-man-up",
+      "name": "World's Strongest Man-Up",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2008-07-08",
+      "airtime": "22:00",
+      "airstamp": "2008-07-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Finlay (w/Hornswoggle) vs. The Miz (w/John Morrison)</p><p>Armando Estrada vs. Braden Walker</p><p>Evan Bourne vs. Nunzio</p><p>Non Title Match - Mark Henry vs. Tommy Dreamer (w/Colin Delaney)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070052"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070053,
+      "url": "https://www.tvmaze.com/episodes/1070053/extreme-championship-wrestling-3x29-two-hardys-for-the-price-of-one",
+      "name": "Two Hardys for the Price of One",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2008-07-15",
+      "airtime": "22:00",
+      "airstamp": "2008-07-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Knox vs. Shannon Moore</p><p>Chavo Guerrero (w/Bam Neely) vs. Evan Bourne</p><p>Non Title Tag Team Match - John Morrison &amp; The Miz vs. The Hardys (Jeff Hardy &amp; Matt Hardy)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070053"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070054,
+      "url": "https://www.tvmaze.com/episodes/1070054/extreme-championship-wrestling-3x30-betrayal-at-the-bash",
+      "name": "Betrayal at the Bash",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2008-07-22",
+      "airtime": "22:00",
+      "airstamp": "2008-07-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Colin Delaney vs. Tommy Dreamer</p><p>Evan Bourne vs. James Curtis</p><p>ECW Heavyweight Title #1 Contendership Fatal Four Way Match - Finlay (w/Hornswoggle) vs. John Morrison vs. Matt Hardy vs. The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070054"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070055,
+      "url": "https://www.tvmaze.com/episodes/1070055/extreme-championship-wrestling-3x31-challenging-the-worlds-strongest",
+      "name": "Challenging the World's Strongest",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2008-07-29",
+      "airtime": "22:00",
+      "airstamp": "2008-07-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Chavo Guerrero (w/Bam Neely) vs. Ricky Ortiz</p><p>Finlay &amp; Hornswoggle vs. John Morrison &amp; The Miz</p><p>Colin Delaney (w/Mark Henry &amp; Tony Atlas) vs. Matt Hardy</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070055"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070056,
+      "url": "https://www.tvmaze.com/episodes/1070056/extreme-championship-wrestling-3x32-ecw-gets-dirty",
+      "name": "ECW Gets Dirty",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2008-08-05",
+      "airtime": "22:00",
+      "airstamp": "2008-08-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Bam Neely &amp; Chavo Guerrero vs. Evan Bourne &amp; Ricky Ortiz</p><p>Armando Estrada vs. Tommy Dreamer</p><p>Braden Walker vs. James Curtis</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070056"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070057,
+      "url": "https://www.tvmaze.com/episodes/1070057/extreme-championship-wrestling-3x33-temperature-rising",
+      "name": "Temperature Rising",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2008-08-12",
+      "airtime": "22:00",
+      "airstamp": "2008-08-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Rules Match - Colin Delaney vs. Tommy Dreamer</p><p>Bam Neely (w/Chavo Guerrero) vs. Evan Bourne</p><p>Armando Estrada vs. Finlay (w/Hornswoggle)</p><p>Mark Henry &amp; Matt Hardy (w/Tony Atlas) vs. John Morrison &amp; The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070057"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070058,
+      "url": "https://www.tvmaze.com/episodes/1070058/extreme-championship-wrestling-3x34-extreme-rematch",
+      "name": "Extreme Rematch",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2008-08-19",
+      "airtime": "22:00",
+      "airstamp": "2008-08-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne, Super Crazy &amp; Tommy Dreamer vs. Chavo Guerrero, John Morrison &amp; The Miz (w/Bam Neely)</p><p>Gavin Spears vs. Ricky Ortiz</p><p>ECW Heavyweight Title Match - Mark Henry (w/Tony Atlas) (c) vs. Matt Hardy</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070058"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070059,
+      "url": "https://www.tvmaze.com/episodes/1070059/extreme-championship-wrestling-3x35-looking-for-gold",
+      "name": "Looking for Gold",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2008-08-26",
+      "airtime": "22:00",
+      "airstamp": "2008-08-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Championship Scramble Qualifying Match - John Morrison vs. Matt Hardy</p><p>Championship Scramble Qualifying Match - Evan Bourne vs. The Miz</p><p>Championship Scramble Qualifying Match - Chavo Guerrero (w/Bam Neely) vs. Tommy Dreamer</p><p>Championship Scramble Qualifying Match - Finlay (w/Hornswoggle) vs. Mike Knox</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070059"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070060,
+      "url": "https://www.tvmaze.com/episodes/1070060/extreme-championship-wrestling-3x36-vying-for-greatness",
+      "name": "Vying for Greatness",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2008-09-02",
+      "airtime": "22:00",
+      "airstamp": "2008-09-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Gavin Spears vs. Super Crazy</p><p>Ricky Ortiz vs. Ryan Braddock</p><p>Chavo Guerrero (w/Bam Neely), John Morrison, Mark Henry &amp; The Miz (w/Tony Atlas) vs. Evan Bourne, Finlay (w/Hornswoggle), Matt Hardy &amp; Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070060"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070061,
+      "url": "https://www.tvmaze.com/episodes/1070061/extreme-championship-wrestling-3x37-matt-hardy-new-ecw-champion",
+      "name": "Matt Hardy: New ECW Champion",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2008-09-09",
+      "airtime": "22:00",
+      "airstamp": "2008-09-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne vs. John Morrison (w/The Miz)</p><p>Jack Swagger vs. Josh Daniels</p><p>Mark Henry &amp; Mike Knox (w/Tony Atlas) vs. Finlay &amp; Matt Hardy (w/Hornswoggle)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070061"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070062,
+      "url": "https://www.tvmaze.com/episodes/1070062/extreme-championship-wrestling-3x38-staying-on-top",
+      "name": "Staying on Top",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2008-09-16",
+      "airtime": "22:00",
+      "airstamp": "2008-09-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Matt Hardy vs. Mike Knox</p><p>Evan Bourne (w/Ricky Ortiz) vs. The Miz (w/John Morrison)</p><p>Chase Stevens vs. Jack Swagger</p><p>Finlay (w/Hornswoggle) vs. Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070062"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070063,
+      "url": "https://www.tvmaze.com/episodes/1070063/extreme-championship-wrestling-3x39-the-extreme-road-to-no-mercy",
+      "name": "The Extreme Road to No Mercy",
+      "season": 3,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2008-09-23",
+      "airtime": "22:00",
+      "airstamp": "2008-09-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Bam Neely vs. Finlay (w/Hornswoggle)</p><p>Non Title Match - Maryse vs. Michelle McCool</p><p>Chase Stevens vs. Mike Knox</p><p>John Morrison vs. The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070063"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070064,
+      "url": "https://www.tvmaze.com/episodes/1070064/extreme-championship-wrestling-3x40-extreme-face-off",
+      "name": "Extreme Face-Off",
+      "season": 3,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2008-09-30",
+      "airtime": "22:00",
+      "airstamp": "2008-10-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jack Swagger vs. Lenny Lane</p><p>Mike Knox vs. Tommy Dreamer</p><p>Evan Bourne, Matt Hardy &amp; Ricky Ortiz vs. John Morrison, Mark Henry &amp; The Miz (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070064"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070065,
+      "url": "https://www.tvmaze.com/episodes/1070065/extreme-championship-wrestling-3x41-an-extreme-no-mercy-aftermath",
+      "name": "An Extreme No Mercy Aftermath",
+      "season": 3,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2008-10-07",
+      "airtime": "22:00",
+      "airstamp": "2008-10-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jack Swagger &amp; Mike Knox vs. Finlay &amp; Tommy Dreamer (w/Hornswoggle)</p><p>Jamie Noble vs. Mark Henry (w/Tony Atlas)</p><p>CM Punk, Evan Bourne, Kofi Kingston &amp; Ricky Ortiz vs. Cody Rhodes, John Morrison, Ted DiBiase &amp; The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070065"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070066,
+      "url": "https://www.tvmaze.com/episodes/1070066/extreme-championship-wrestling-3x42-extreme-luck",
+      "name": "Extreme Luck",
+      "season": 3,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2008-10-14",
+      "airtime": "22:00",
+      "airstamp": "2008-10-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Fans' Vote Qualifying Match - Chavo Guerrero vs. Evan Bourne</p><p>Fans' Vote Qualifying Match - Finlay (w/Hornswoggle) vs. John Morrison (w/The Miz)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070066"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070067,
+      "url": "https://www.tvmaze.com/episodes/1070067/extreme-championship-wrestling-3x43-the-final-debate",
+      "name": "The Final Debate",
+      "season": 3,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2008-10-21",
+      "airtime": "22:00",
+      "airstamp": "2008-10-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Brett Badery vs. Jack Swagger</p><p>Shad (w/JTG) vs. The Miz (w/John Morrison)</p><p>Triple Threat Match - Evan Bourne vs. Finlay (w/Hornswoggle) vs. Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070067"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070068,
+      "url": "https://www.tvmaze.com/episodes/1070068/extreme-championship-wrestling-3x44-california-dreamin",
+      "name": "California Dreamin",
+      "season": 3,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2008-10-28",
+      "airtime": "22:00",
+      "airstamp": "2008-10-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Six Man Tag Team Match - Bam Neely, Chavo Guerrero &amp; Mark Henry (w/Tony Atlas) vs. Evan Bourne, Finlay &amp; Matt Hardy (w/Hornswoggle)</p><p>Jack Swagger vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070068"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070069,
+      "url": "https://www.tvmaze.com/episodes/1070069/extreme-championship-wrestling-3x45-irish-eyes-are-smiling",
+      "name": "Irish Eyes Are Smiling",
+      "season": 3,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2008-11-04",
+      "airtime": "22:00",
+      "airstamp": "2008-11-05T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - Bam Neely vs. Matt Hardy</p><p>Jon Davis vs. Ricky Ortiz</p><p>ECW Heavyweight Title #1 Contendership Match - Finlay (w/Hornswoggle) vs. Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070069"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070070,
+      "url": "https://www.tvmaze.com/episodes/1070070/extreme-championship-wrestling-3x46-irish-eyes-on-prize",
+      "name": "Irish Eyes on Prize",
+      "season": 3,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2008-11-11",
+      "airtime": "22:00",
+      "airstamp": "2008-11-12T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Cryme Tyme (JTG &amp; Shad) &amp; Tommy Dreamer vs. Jack Swagger, John Morrison &amp; The Miz</p><p>Mark Henry (w/Tony Atlas) vs. Oliver Biney</p><p>ECW Heavyweight Title Match - Matt Hardy (c) vs. Finlay (w/Hornswoggle)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070070"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070071,
+      "url": "https://www.tvmaze.com/episodes/1070071/extreme-championship-wrestling-3x47-six-man-mayhem",
+      "name": "Six-Man Mayhem",
+      "season": 3,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2008-11-18",
+      "airtime": "22:00",
+      "airstamp": "2008-11-19T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DJ Gabriel (w/Alicia Fox) vs. Sal Rinauro</p><p>Amateur Wrestling Challenge Match - Jack Swagger vs. Tommy Dreamer</p><p>Cody Rhodes, Mark Henry &amp; William Regal (w/Tony Atlas) vs. Finlay, Kofi Kingston &amp; Matt Hardy (w/Hornswoggle)</p><p></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070071"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070072,
+      "url": "https://www.tvmaze.com/episodes/1070072/extreme-championship-wrestling-3x48-extreme-brawl",
+      "name": "Extreme Brawl",
+      "season": 3,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2008-11-25",
+      "airtime": "22:00",
+      "airstamp": "2008-11-26T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Extreme Rules Match - Jack Swagger vs. Tommy Dreamer</p><p>DJ Gabriel (w/Alicia Fox) vs. Jared Ganem</p><p>Finlay (w/Hornswoggle) vs. Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070072"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070073,
+      "url": "https://www.tvmaze.com/episodes/1070073/extreme-championship-wrestling-3x49-repeat-rivals",
+      "name": "Repeat Rivals",
+      "season": 3,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2008-12-02",
+      "airtime": "22:00",
+      "airstamp": "2008-12-03T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jack Swagger vs. Ricky Ortiz</p><p>DJ Gabriel (w/Alicia Fox) vs. Josh Daniels</p><p>Non Title Match - Matt Hardy vs. Montel Vontavious Porter</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070073"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070074,
+      "url": "https://www.tvmaze.com/episodes/1070074/extreme-championship-wrestling-3x50-all-eyes-occupied",
+      "name": "All Eyes Occupied",
+      "season": 3,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2008-12-08",
+      "airtime": "22:00",
+      "airstamp": "2008-12-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jimmy Wang Yang &amp; Kung Fu Naki vs. John Morrison &amp; The Miz</p><p>Scott Reed vs. The Boogeyman</p><p>Finlay &amp; Hornswoggle vs. Mark Henry &amp; Tony Atlas</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070074"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070075,
+      "url": "https://www.tvmaze.com/episodes/1070075/extreme-championship-wrestling-3x51-baltimore-brawl",
+      "name": "Baltimore Brawl",
+      "season": 3,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2008-12-16",
+      "airtime": "22:00",
+      "airstamp": "2008-12-17T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Heavyweight Title Match - Matt Hardy (c) vs. Chavo Guerrero</p><p>Finlay (w/Hornswoggle) vs. Gavin Spears</p><p>CM Punk, Kofi Kingston &amp; Ricky Ortiz vs. Jack Swagger, John Morrison &amp; The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070075"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070076,
+      "url": "https://www.tvmaze.com/episodes/1070076/extreme-championship-wrestling-3x52-best-of-ecw-2008",
+      "name": "Best of ECW 2008",
+      "season": 3,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2008-12-23",
+      "airtime": "22:00",
+      "airstamp": "2008-12-24T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Todd Grisham and Matt Striker go over the best of ECW in 2008</p><p></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070076"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070077,
+      "url": "https://www.tvmaze.com/episodes/1070077/extreme-championship-wrestling-3x53-ringing-in-2009",
+      "name": "Ringing in 2009",
+      "season": 3,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2008-12-30",
+      "airtime": "22:00",
+      "airstamp": "2008-12-31T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Ricky Ortiz vs. Tommy Dreamer</p><p>Mark Henry (w/Tony Atlas) vs. Matt Hardy</p><p>DJ Gabriel (w/Alicia Fox) vs. Paul Burchill (w/Katie Lea)</p><p>Non Title No Disqualification Tag Team Match - Finlay &amp; The Boogeyman (w/Hornswoggle) vs. John Morrison &amp; The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070077"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070078,
+      "url": "https://www.tvmaze.com/episodes/1070078/extreme-championship-wrestling-4x01-unfinished-business",
+      "name": "Unfinished Business",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2009-01-06",
+      "airtime": "22:00",
+      "airstamp": "2009-01-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Finlay (w/Hornswoggle) vs. Jack Swagger</p><p>Alicia Fox (w/DJ Gabriel) vs. Katie Lea (w/Paul Burchill)</p><p>Brett Barnes vs. The Boogeyman</p><p>Non Title Match - Mark Henry (w/Tony Atlas) vs. Matt Hardy</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070078"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070079,
+      "url": "https://www.tvmaze.com/episodes/1070079/extreme-championship-wrestling-4x02-opportunity-knocks",
+      "name": "Opportunity Knocks",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2009-01-13",
+      "airtime": "22:00",
+      "airstamp": "2009-01-14T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Alicia Fox &amp; DJ Gabriel vs. Katie Lea &amp; Paul Burchill</p><p>Sammy Savard vs. The Boogeyman</p><p>ECW Heavyweight Title Match - Matt Hardy (c) vs. Jack Swagger</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070079"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070080,
+      "url": "https://www.tvmaze.com/episodes/1070080/extreme-championship-wrestling-4x03-extreme-four-way",
+      "name": "Extreme Four Way",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2009-01-20",
+      "airtime": "22:00",
+      "airstamp": "2009-01-21T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Adam Evans vs. Ricky Ortiz</p><p>Paul Burchill (w/Katie Lea) vs. The Boogeyman</p><p>Fatal Four Way Match - Finlay (w/Hornswoggle) vs. John Morrison vs. Mark Henry (w/Tony Atlas) vs. The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070080"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070081,
+      "url": "https://www.tvmaze.com/episodes/1070081/extreme-championship-wrestling-4x04-american-celebration",
+      "name": "American Celebration",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2009-01-27",
+      "airtime": "22:00",
+      "airstamp": "2009-01-28T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Ricky Ortiz vs. The Boogeyman</p><p>Finlay (w/Hornswoggle) vs. Paul Burchill (w/Katie Lea)</p><p>Mark Henry (w/Tony Atlas) vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070081"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070082,
+      "url": "https://www.tvmaze.com/episodes/1070082/extreme-championship-wrestling-4x05-possible-payback",
+      "name": "Possible Payback",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2009-02-03",
+      "airtime": "22:00",
+      "airstamp": "2009-02-04T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Paul Burchill (w/Katie Lea) vs. Tommy Dreamer</p><p>Jamie Noble vs. The Boogeyman</p><p>Non Title Match - Finlay (w/Hornswoggle) vs. Jack Swagger</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070082"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070083,
+      "url": "https://www.tvmaze.com/episodes/1070083/extreme-championship-wrestling-4x06-a-little-respect",
+      "name": "A Little Respect",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2009-02-10",
+      "airtime": "22:00",
+      "airstamp": "2009-02-11T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Miz (w/John Morrison) vs. Tommy Dreamer</p><p>Bao Nguyen vs. Tyson Kidd (w/Natalya)</p><p>Non Title Match - Christian vs. Jack Swagger</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070083"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070084,
+      "url": "https://www.tvmaze.com/episodes/1070084/extreme-championship-wrestling-4x07-all-american-gladiators",
+      "name": "All-American Gladiators",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2009-02-17",
+      "airtime": "22:00",
+      "airstamp": "2009-02-18T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Paul Burchill (w/Katie Lea) vs. The Boogeyman</p><p>John Morrison (w/The Miz) vs. Tommy Dreamer</p><p>Caden Mathews vs. Tyson Kidd (w/Natalya)</p><p>Christian &amp; Finlay (w/Hornswoggle) vs. Jack Swagger &amp; Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070084"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070085,
+      "url": "https://www.tvmaze.com/episodes/1070085/extreme-championship-wrestling-4x08-face-to-face",
+      "name": "Face-to-Face",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2009-02-24",
+      "airtime": "22:00",
+      "airstamp": "2009-02-25T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DJ Gabriel (w/Alicia Fox) vs. Mark Henry (w/Tony Atlas)</p><p>Matt Boyce vs. Tyson Kidd (w/Natalya)</p><p>Paul Burchill (w/Katie Lea) vs. Tommy Dreamer</p><p>ECW Heavyweight Title Match - Jack Swagger (c) vs. Christian</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070085"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070086,
+      "url": "https://www.tvmaze.com/episodes/1070086/extreme-championship-wrestling-4x09-evil-on-ecw",
+      "name": "Evil on ECW",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2009-03-03",
+      "airtime": "22:00",
+      "airstamp": "2009-03-04T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kane vs. The Boogeyman</p><p>Money In The Bank Qualifying Match - Mark Henry (w/Tony Atlas) vs. Santino Marella (w/Beth Phoenix &amp; Rosa Mendes)</p><p>Alicia Fox (w/DJ Gabriel) vs. Natalya (w/Tyson Kidd)</p><p>Christian, Finlay &amp; Tommy Dreamer (w/Hornswoggle) vs. Jack Swagger, John Morrison &amp; The Miz</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070086"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070087,
+      "url": "https://www.tvmaze.com/episodes/1070087/extreme-championship-wrestling-4x10-bank-battle",
+      "name": "Bank Battle",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2009-03-10",
+      "airtime": "22:00",
+      "airstamp": "2009-03-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Primo (w/Carlito) vs. The Miz (w/John Morrison)</p><p>DJ Gabriel (w/Alicia Fox) vs. Tyson Kidd (w/Natalya)</p><p>Money In The Bank Qualifying Battle Royal - Charlie Haas vs. Chavo Guerrero vs. Christian vs. Dolph Ziggler vs. Goldust vs. Jimmy Wang Yang vs. JTG vs. Kung Fu Naki vs. Paul Burchill (w/Katie Lea) vs. R-Truth vs. Ricky Ortiz vs. Shad vs. The Great Khali (w/Ranjin Singh) vs. Tommy Dreamer vs. Vladimir Kozlov vs. William Regal (w/Layla)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070087"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070088,
+      "url": "https://www.tvmaze.com/episodes/1070088/extreme-championship-wrestling-4x11-bournes-back",
+      "name": "Bourne's Back",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2009-03-17",
+      "airtime": "22:00",
+      "airstamp": "2009-03-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Christian &amp; Montel Vontavious Porter vs. Mark Henry &amp; Shelton Benjamin (w/Tony Atlas)</p><p>Evan Bourne vs. Jamie Noble</p><p>Finlay (w/Hornswoggle) vs. Paul Burchill (w/Katie Lea)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070088"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070089,
+      "url": "https://www.tvmaze.com/episodes/1070089/extreme-championship-wrestling-4x12-money-lounge",
+      "name": "Money Lounge",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2009-03-24",
+      "airtime": "22:00",
+      "airstamp": "2009-03-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Carlito (w/Brie Bella &amp; Primo) vs. John Morrison (w/Nikki Bella &amp; The Miz)</p><p>Jack Swagger &amp; Tyson Kidd (w/Natalya) vs. Evan Bourne &amp; Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070089"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070090,
+      "url": "https://www.tvmaze.com/episodes/1070090/extreme-championship-wrestling-4x13-money-match",
+      "name": "Money Match",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2009-03-31",
+      "airtime": "22:00",
+      "airstamp": "2009-04-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Christian &amp; Finlay (w/Hornswoggle) vs. Kane &amp; Mark Henry (w/Tony Atlas)</p><p>Brie Bella (w/Carlito &amp; Primo) vs. Nikki Bella (w/John Morrison &amp; The Miz)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070090"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070091,
+      "url": "https://www.tvmaze.com/episodes/1070091/extreme-championship-wrestling-4x14-let-the-chase-to-backlash-begin",
+      "name": "Let the Chase to Backlash Begin",
+      "season": 4,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2009-04-07",
+      "airtime": "22:00",
+      "airstamp": "2009-04-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Carlito, Evan Bourne &amp; Primo vs. John Morrison, The Miz &amp; Tyson Kidd (w/Natalya)</p><p>Elimination Chase Fatal Four Way Match - Christian vs. Finlay (w/Hornswoggle) vs. Mark Henry (w/Tony Atlas) vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070091"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070092,
+      "url": "https://www.tvmaze.com/episodes/1070092/extreme-championship-wrestling-4x15-changes-and-chases",
+      "name": "Changes and Chases",
+      "season": 4,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2009-04-14",
+      "airtime": "22:00",
+      "airstamp": "2009-04-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne vs. John Morrison</p><p>David Floridia vs. Vladimir Kozlov</p><p>Elimination Chase Triple Threat Match - Christian vs. Finlay (w/Hornswoggle) vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070092"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070093,
+      "url": "https://www.tvmaze.com/episodes/1070093/extreme-championship-wrestling-4x16-pre-backlash-brawl",
+      "name": "Pre-Backlash Brawl",
+      "season": 4,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2009-04-21",
+      "airtime": "22:00",
+      "airstamp": "2009-04-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Hornswoggle (w/Finlay) vs. Natalya (w/Tyson Kidd)</p><p>Evan Bourne vs. Paul Burchill (w/Katie Lea)</p><p>Frankie Sloan vs. Vladimir Kozlov</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070093"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070094,
+      "url": "https://www.tvmaze.com/episodes/1070094/extreme-championship-wrestling-4x17-championship-interrupted",
+      "name": "Championship Interrupted",
+      "season": 4,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2009-04-28",
+      "airtime": "22:00",
+      "airstamp": "2009-04-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Finlay vs. Tyson Kidd (w/Natalya)</p><p>ECW Heavyweight Title Match - Christian (c) vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070094"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070095,
+      "url": "https://www.tvmaze.com/episodes/1070095/extreme-championship-wrestling-4x18-swaggers-cinco-de-mayo-fiesta",
+      "name": "Swagger's Cinco de Mayo Fiesta",
+      "season": 4,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2009-05-05",
+      "airtime": "22:00",
+      "airstamp": "2009-05-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne vs. Tyson Kidd (w/Natalya)</p><p>Jesse Guilmette vs. Vladimir Kozlov</p><p>Non Title Match - Christian vs. Mark Henry (w/Tony Atlas)</p><p>Christian &amp; Tommy Dreamer vs. Jack Swagger &amp; Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070095"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070096,
+      "url": "https://www.tvmaze.com/episodes/1070096/extreme-championship-wrestling-4x19-the-peep-shows-explosive-return",
+      "name": "'The Peep Show's' Explosive Return",
+      "season": 4,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2009-05-12",
+      "airtime": "22:00",
+      "airstamp": "2009-05-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mark Henry (w/Tony Atlas) vs. Tommy Dreamer</p><p>Finlay vs. Tyson Kidd</p><p>Chad Collyer vs. Vladimir Kozlov</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070096"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070097,
+      "url": "https://www.tvmaze.com/episodes/1070097/extreme-championship-wrestling-4x20-extreme-hart",
+      "name": "Extreme Hart",
+      "season": 4,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2009-05-19",
+      "airtime": "22:00",
+      "airstamp": "2009-05-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match - Christian vs. Paul Burchill (w/Katie Lea)</p><p>Adam Green vs. Zack Ryder</p><p>David Hart Smith (w/Natalya &amp; Tyson Kidd) vs. Finlay</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070097"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070098,
+      "url": "https://www.tvmaze.com/episodes/1070098/extreme-championship-wrestling-4x21-extreme-to-the-third-power",
+      "name": "Extreme to the Third Power",
+      "season": 4,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2009-05-26",
+      "airtime": "22:00",
+      "airstamp": "2009-05-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Two On One Handicap Match - Joey Munoz &amp; Russ Taylor vs. Vladimir Kozlov</p><p>Evan Bourne vs. Mark Henry (w/Tony Atlas)</p><p>Three On Two Handicap Match - The Hart Dynasty (David Hart Smith &amp; Tyson Kidd) &amp; Jack Swagger (w/Natalya) vs. Christian &amp; Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070098"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070099,
+      "url": "https://www.tvmaze.com/episodes/1070099/extreme-championship-wrestling-4x22-dream-big",
+      "name": "Dream Big",
+      "season": 4,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2009-06-02",
+      "airtime": "22:00",
+      "airstamp": "2009-06-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne vs. Mark Henry (w/Tony Atlas)</p><p>Dustin Carwile vs. Zack Ryder</p><p>Paul Burchill (w/Katie Lea) vs. Tommy Dreamer</p><p>Non Title Match - Christian vs. Tyson Kidd (w/David Hart Smith &amp; Natalya)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070099"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070100,
+      "url": "https://www.tvmaze.com/episodes/1070100/extreme-championship-wrestling-4x23-scandalous-signing",
+      "name": "Scandalous Signing",
+      "season": 4,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2009-06-09",
+      "airtime": "22:00",
+      "airstamp": "2009-06-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne vs. Tony Atlas (w/Mark Henry)</p><p>Two On One Handicap Match - Kris Lewie &amp; Luke Hawx vs. Vladimir Kozlov</p><p>Christian &amp; Jack Swagger vs. The Hart Dynasty (David Hart Smith &amp; Tyson Kidd) (w/Natalya)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070100"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070101,
+      "url": "https://www.tvmaze.com/episodes/1070101/extreme-championship-wrestling-4x24-ready-for-a-fight",
+      "name": "Ready for a Fight",
+      "season": 4,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2009-06-16",
+      "airtime": "22:00",
+      "airstamp": "2009-06-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Christian vs. David Hart Smith (w/Natalya &amp; Tyson Kidd)</p><p>Evan Bourne vs. Mark Henry (w/Tony Atlas)</p><p>Non Title Match - Jack Swagger vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070101"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070102,
+      "url": "https://www.tvmaze.com/episodes/1070102/extreme-championship-wrestling-4x25-worlds-strongest-clash-before-the-bash",
+      "name": "World's Strongest Clash Before the Bash",
+      "season": 4,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2009-06-23",
+      "airtime": "22:00",
+      "airstamp": "2009-06-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Evan Bourne vs. Tyson Kidd (w/David Hart Smith &amp; Natalya)</p><p>Finlay vs. Zack Ryder</p><p>Christian &amp; Tommy Dreamer vs. Jack Swagger &amp; Mark Henry (w/Tony Atlas)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070102"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070103,
+      "url": "https://www.tvmaze.com/episodes/1070103/extreme-championship-wrestling-4x26-extreme-changes",
+      "name": "Extreme Changes",
+      "season": 4,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2009-06-30",
+      "airtime": "22:00",
+      "airstamp": "2009-07-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Shelton Benjamin vs. Yoshi Tatsu</p><p>Oliver John vs. Sheamus</p><p>Christian &amp; Tommy Dreamer vs. Vladimir Kozlov &amp; William Regal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070103"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070104,
+      "url": "https://www.tvmaze.com/episodes/1070104/extreme-championship-wrestling-4x27-charismatic-fate",
+      "name": "Charismatic Fate",
+      "season": 4,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2009-07-09",
+      "airtime": "22:00",
+      "airstamp": "2009-07-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Katie Lea vs. Nikki Bella (w/Brie Bella)</p><p>Shelton Benjamin vs. Yoshi Tatsu</p><p>Ezekiel Jackson vs. Jack Mecidol</p><p>ECW Heavyweight Title #1 Contendership Match - Christian vs. Vladimir Kozlov</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070104"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070105,
+      "url": "https://www.tvmaze.com/episodes/1070105/extreme-championship-wrestling-4x28-monumental-mauling",
+      "name": "Monumental Mauling",
+      "season": 4,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2009-07-14",
+      "airtime": "22:00",
+      "airstamp": "2009-07-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Christian vs. Shelton Benjamin</p><p>Paul Burchill (w/Katie Lea) vs. Yoshi Tatsu</p><p>Goldust vs. Zack Ryder</p><p>Roman Cornell vs. Sheamus</p><p>Non Title Match - Tommy Dreamer vs. Vladimir Kozlov</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070105"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070106,
+      "url": "https://www.tvmaze.com/episodes/1070106/extreme-championship-wrestling-4x29-whats-in-the-cards-for-ecw",
+      "name": "What's in the Cards for ECW?",
+      "season": 4,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2009-07-21",
+      "airtime": "22:00",
+      "airstamp": "2009-07-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>William Regal vs. Yoshi Tatsu</p><p>Ezekiel Jackson vs. Mike Williams</p><p>Goldust vs. Shelton Benjamin</p><p>Paul Burchill (w/Katie Lea) vs. Tyler Reks</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070106"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070107,
+      "url": "https://www.tvmaze.com/episodes/1070107/extreme-championship-wrestling-4x30-the-christian-era-begins",
+      "name": "The Christian Era Begins",
+      "season": 4,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2009-07-28",
+      "airtime": "22:00",
+      "airstamp": "2009-07-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Paul Burchill (w/Katie Lea) vs. Tyler Reks</p><p>Bill Bain vs. Vladimir Kozlov</p><p>Goldust vs. Sheamus</p><p>Non Title Match - Christian vs. Zack Ryder</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070107"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070108,
+      "url": "https://www.tvmaze.com/episodes/1070108/extreme-championship-wrestling-4x31-extreme-fight-to-the-finish",
+      "name": "Extreme Fight to the Finish",
+      "season": 4,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2009-08-04",
+      "airtime": "22:00",
+      "airstamp": "2009-08-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Danny Danger vs. Ezekiel Jackson</p><p>Goldust vs. Sheamus</p><p>ECW Heavyweight Title Extreme Rules Match - Christian (c) vs. Tommy Dreamer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070108"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070109,
+      "url": "https://www.tvmaze.com/episodes/1070109/extreme-championship-wrestling-4x32-a-regal-no-1-contender",
+      "name": "A Regal No. 1 Contender",
+      "season": 4,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2009-08-11",
+      "airtime": "22:00",
+      "airstamp": "2009-08-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Shelton Benjamin vs. Zack Ryder</p><p>Kevin Brooks vs. Vladimir Kozlov</p><p>Paul Burchill (w/Katie Lea) vs. Yoshi Tatsu</p><p>Tom James vs. Tyler Reks</p><p>Tommy Dreamer vs. William Regal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070109"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070110,
+      "url": "https://www.tvmaze.com/episodes/1070110/extreme-championship-wrestling-4x33-a-regal-road-to-summerslam",
+      "name": "A Regal Road to SummerSlam",
+      "season": 4,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2009-08-18",
+      "airtime": "22:00",
+      "airstamp": "2009-08-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Hurricane Helms vs. Paul Burchill (w/Katie Lea)</p><p>Yoshi Tatsu vs. Zack Ryder</p><p>Christian &amp; Ezekiel Jackson vs. Vladimir Kozlov &amp; William Regal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070110"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070111,
+      "url": "https://www.tvmaze.com/episodes/1070111/extreme-championship-wrestling-4x34-regals-second-chance",
+      "name": "Regal's Second Chance",
+      "season": 4,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2009-08-25",
+      "airtime": "22:00",
+      "airstamp": "2009-08-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Goldust vs. Sheamus</p><p>Shelton Benjamin &amp; Zack Ryder vs. Tyler Reks &amp; Yoshi Tatsu</p><p>Non Title Match - Christian vs. William Regal (w/Ezekiel Jackson &amp; Vladimir Kozlov)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070111"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070112,
+      "url": "https://www.tvmaze.com/episodes/1070112/extreme-championship-wrestling-4x35-the-celtic-warriors-golden-win",
+      "name": "The Celtic Warrior's Golden Win",
+      "season": 4,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2009-09-01",
+      "airtime": "22:00",
+      "airstamp": "2009-09-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Shelton Benjamin vs. Zack Ryder</p><p>Jim Parks &amp; Mike Tolar vs. Ezekiel Jackson &amp; Vladimir Kozlov (w/William Regal)</p><p>No Disqualification Match - Goldust vs. Sheamus</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070112"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070113,
+      "url": "https://www.tvmaze.com/episodes/1070113/extreme-championship-wrestling-4x36-beast-wars",
+      "name": "Beast Wars",
+      "season": 4,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2009-09-08",
+      "airtime": "22:00",
+      "airstamp": "2009-09-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Paul Burchill (w/Katie Lea) vs. The Hurricane</p><p>Sheamus &amp; Shelton Benjamin vs. Goldust &amp; Yoshi Tatsu</p><p>Rory Fargo vs. Zack Ryder</p><p>Christian &amp; Tommy Dreamer vs. Ezekiel Jackson &amp; Vladimir Kozlov (w/William Regal)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070113"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070114,
+      "url": "https://www.tvmaze.com/episodes/1070114/extreme-championship-wrestling-4x37-no-1-contender-you-know-it",
+      "name": "No. 1 Contender... You Know It!",
+      "season": 4,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2009-09-15",
+      "airtime": "22:00",
+      "airstamp": "2009-09-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Hurricane vs. William Regal</p><p>Yoshi Tatsu vs. Zack Ryder</p><p>ECW Heavyweight Title #1 Contendership Ten Man Battle Royal - Ezekiel Jackson vs. Goldust vs. Paul Burchill vs. Sheamus vs. Shelton Benjamin vs. Tommy Dreamer vs. Tyler Reks vs. Vladimir Kozlov vs. Yoshi Tatsu vs. Zack Ryder</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070114"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070115,
+      "url": "https://www.tvmaze.com/episodes/1070115/extreme-championship-wrestling-4x38-another-knock-on-christians-door",
+      "name": "Another Knock on Christian's Door",
+      "season": 4,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2009-09-22",
+      "airtime": "22:00",
+      "airstamp": "2009-09-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Paul Burchill (w/Katie Lea) vs. Yoshi Tatsu</p><p>Brandon Young &amp; Dustin Brady vs. Ezekiel Jackson &amp; Vladimir Kozlov (w/William Regal)</p><p>ECW Heavyweight Title Match - Christian (c) vs. Zack Ryder</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070115"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070116,
+      "url": "https://www.tvmaze.com/episodes/1070116/extreme-championship-wrestling-4x39-a-royally-spoiled-night",
+      "name": "A Royally Spoiled Night",
+      "season": 4,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2009-09-29",
+      "airtime": "22:00",
+      "airstamp": "2009-09-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Paul Burchill (w/Katie Lea) vs. Shelton Benjamin</p><p>Christian, Goldust, Tommy Dreamer &amp; Yoshi Tatsu vs. Ezekiel Jackson, Vladimir Kozlov, William Regal &amp; Zack Ryder</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070116"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070117,
+      "url": "https://www.tvmaze.com/episodes/1070117/extreme-championship-wrestling-4x40-extreme-interruption",
+      "name": "Extreme Interruption",
+      "season": 4,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2009-10-06",
+      "airtime": "22:00",
+      "airstamp": "2009-10-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Goldust &amp; Tommy Dreamer vs. Ezekiel Jackson &amp; Vladimir Kozlov</p><p>William Regal vs. Yoshi Tatsu</p><p>Non Title Match - Christian vs. Zack Ryder</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070117"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070118,
+      "url": "https://www.tvmaze.com/episodes/1070118/extreme-championship-wrestling-4x41-decisive-disloyalty",
+      "name": "Decisive Disloyalty",
+      "season": 4,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2009-10-13",
+      "airtime": "22:00",
+      "airstamp": "2009-10-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Ezekiel Jackson (w/Vladimir Kozlov) vs. Goldust</p><p>Paul Burchill (w/Katie Lea) vs. The Hurricane</p><p>William Regal &amp; Zack Ryder vs. Christian &amp; Yoshi Tatsu</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070118"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070119,
+      "url": "https://www.tvmaze.com/episodes/1070119/extreme-championship-wrestling-4x42-unwelcome-visitor",
+      "name": "Unwelcome Visitor",
+      "season": 4,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2009-10-20",
+      "airtime": "22:00",
+      "airstamp": "2009-10-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Heavyweight Title #1 Contendership Match - Yoshi Tatsu vs. Zack Ryder</p><p>JT Quinn vs. Sheamus</p><p>Non Title Match - Chris Jericho vs. Christian</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070119"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070120,
+      "url": "https://www.tvmaze.com/episodes/1070120/extreme-championship-wrestling-4x43-royal-pain",
+      "name": "Royal Pain",
+      "season": 4,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2009-10-27",
+      "airtime": "22:00",
+      "airstamp": "2009-10-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Sheamus vs. Shelton Benjamin</p><p>ECW Heavyweight Title Match - Christian (c) vs. Yoshi Tatsu</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070120"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070121,
+      "url": "https://www.tvmaze.com/episodes/1070121/extreme-championship-wrestling-4x44-wish-granted",
+      "name": "Wish Granted",
+      "season": 4,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2009-11-03",
+      "airtime": "22:00",
+      "airstamp": "2009-11-04T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Goldust vs. William Regal</p><p>Shelton Benjamin vs. Zack Ryder</p><p>Logan Jones vs. Vance Archer</p><p>Christian &amp; Yoshi Tatsu vs. Ezekiel Jackson &amp; Vladimir Kozlov</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070121"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070122,
+      "url": "https://www.tvmaze.com/episodes/1070122/extreme-championship-wrestling-4x45-christian-retains",
+      "name": "Christian Retains",
+      "season": 4,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2009-11-10",
+      "airtime": "22:00",
+      "airstamp": "2009-11-11T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Goldust vs. Paul Burchill (w/Katie Lea)</p><p>Jason Blackwell vs. Vance Archer</p><p>ECW Heavyweight Title Match - Christian (c) vs. William Regal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070122"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070123,
+      "url": "https://www.tvmaze.com/episodes/1070123/extreme-championship-wrestling-4x46-straightedge-survivor",
+      "name": "Straightedge Survivor",
+      "season": 4,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2009-11-17",
+      "airtime": "22:00",
+      "airstamp": "2009-11-18T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Career vs. Mask Match - Paul Burchill (w/Katie Lea) vs. The Hurricane</p><p>Johnny Andrews vs. Vance Archer</p><p>Christian &amp; R-Truth vs. CM Punk &amp; William Regal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070123"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070124,
+      "url": "https://www.tvmaze.com/episodes/1070124/extreme-championship-wrestling-4x47-roundtable-rift",
+      "name": "Roundtable Rift",
+      "season": 4,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2009-11-24",
+      "airtime": "22:00",
+      "airstamp": "2009-11-25T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Heavyweight Title #1 Contendership Match - Shelton Benjamin vs. Zack Ryder (w/Rosa Mendes)</p><p>Alex Reynolds vs. Vance Archer</p><p>William Regal (w/Ezekiel Jackson &amp; Vladimir Kozlov) vs. Yoshi Tatsu</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070124"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070125,
+      "url": "https://www.tvmaze.com/episodes/1070125/extreme-championship-wrestling-4x48-live-results-opponents-unite-partnerships-crumble",
+      "name": "Live Results: Opponents Unite, Partnerships Crumble",
+      "season": 4,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2009-12-01",
+      "airtime": "22:00",
+      "airstamp": "2009-12-02T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Goldust vs. William Regal (w/Ezekiel Jackson &amp; Vladimir Kozlov)</p><p>Bobby Fields &amp; Tyler Hilton vs. Caylen Croft &amp; Trent Barreta</p><p>Christian &amp; Shelton Benjamin vs. Ezekiel Jackson &amp; Vladimir Kozlov (w/William Regal)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070125"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070126,
+      "url": "https://www.tvmaze.com/episodes/1070126/extreme-championship-wrestling-4x49-extreme-climb-to-top",
+      "name": "Extreme Climb to Top",
+      "season": 4,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2009-12-08",
+      "airtime": "22:00",
+      "airstamp": "2009-12-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer vs. Vance Archer</p><p>Danny Franks &amp; Mark Vaughn vs. Caylen Croft &amp; Trent Barreta</p><p>Christian, Shelton Benjamin &amp; Yoshi Tatsu vs. Ezekiel Jackson, Vladimir Kozlov &amp; William Regal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070126"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070127,
+      "url": "https://www.tvmaze.com/episodes/1070127/extreme-championship-wrestling-4x50-ryder-sees-red",
+      "name": "Ryder Sees Red",
+      "season": 4,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2009-12-15",
+      "airtime": "22:00",
+      "airstamp": "2009-12-16T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Hurricane vs. The Ripper (Paul Burchill) (w/The Beautiful Nightmare (Katie Lea))</p><p>ECW Homecoming Qualifying Match - Ezekiel Jackson vs. Vladimir Kozlov (w/William Regal)</p><p>Jorge Arias &amp; Julio Cruz vs. Caylen Croft &amp; Trent Barreta</p><p>ECW Homecoming Qualifying Match - Kane vs. Zack Ryder (w/Rosa Mendes)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070127"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070128,
+      "url": "https://www.tvmaze.com/episodes/1070128/extreme-championship-wrestling-4x51-losing-his-swagger",
+      "name": "Losing His Swagger",
+      "season": 4,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2009-12-22",
+      "airtime": "22:00",
+      "airstamp": "2009-12-23T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer vs. Zack Ryder (w/Rosa Mendes)</p><p>ECW Homecoming Qualifying Match - Goldust vs. Vance Archer</p><p>ECW Homecoming Qualifying Match - Jack Swagger vs. Yoshi Tatsu</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070128"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070129,
+      "url": "https://www.tvmaze.com/episodes/1070129/extreme-championship-wrestling-4x52-an-original-goodbye",
+      "name": "An Original Goodbye",
+      "season": 4,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2009-12-29",
+      "airtime": "22:00",
+      "airstamp": "2009-12-30T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Homecoming Qualifying Match - Finlay vs. Matt Hardy</p><p>ECW Homecoming Qualifying Match - Evan Bourne vs. Mike Knox</p><p>Tommy Dreamer vs. Zack Ryder (w/Rosa Mendes)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070129"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070130,
+      "url": "https://www.tvmaze.com/episodes/1070130/extreme-championship-wrestling-5x01-straightedge-homecoming",
+      "name": "Straightedge Homecoming",
+      "season": 5,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2010-01-05",
+      "airtime": "22:00",
+      "airstamp": "2010-01-06T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Homecoming Qualifying Match - Chavo Guerrero vs. Shelton Benjamin</p><p>Ezekiel Jackson (w/William Regal) vs. Vladimir Kozlov</p><p>ECW Homecoming Qualifying Match - CM Punk (w/Luke Gallows) vs. Mark Henry</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070130"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070131,
+      "url": "https://www.tvmaze.com/episodes/1070131/extreme-championship-wrestling-5x02-homecoming-king",
+      "name": "Homecoming King",
+      "season": 5,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2010-01-12",
+      "airtime": "22:00",
+      "airstamp": "2010-01-13T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Hurricane vs. Zack Ryder (w/Rosa Mendes)</p><p>Goldust vs. Trent Barreta (w/Caylen Croft)</p><p>ECW Heavyweight Title #1 Contendership ECW Homecoming Final Eight Man Battle Royal - CM Punk vs. Evan Bourne vs. Ezekiel Jackson vs. Kane vs. Matt Hardy vs. Shelton Benjamin vs. Vance Archer vs. Yoshi Tatsu</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070131"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070132,
+      "url": "https://www.tvmaze.com/episodes/1070132/extreme-championship-wrestling-5x03-royal-domination",
+      "name": "Royal Domination",
+      "season": 5,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2010-01-19",
+      "airtime": "22:00",
+      "airstamp": "2010-01-20T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Caylen Croft &amp; Trent Barreta vs. Goldust &amp; Yoshi Tatsu</p><p>Non Title Match - Christian vs. William Regal (w/Ezekiel Jackson)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070132"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070133,
+      "url": "https://www.tvmaze.com/episodes/1070133/extreme-championship-wrestling-5x04-road-to-domination",
+      "name": "Road to Domination",
+      "season": 5,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2010-01-26",
+      "airtime": "22:00",
+      "airstamp": "2010-01-27T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Christian &amp; Kane vs. Ezekiel Jackson &amp; William Regal</p><p>Goldust, The Hurricane &amp; Yoshi Tatsu vs. Caylen Croft, Trent Barreta &amp; Zack Ryder (w/Rosa Mendes)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070133"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070134,
+      "url": "https://www.tvmaze.com/episodes/1070134/extreme-championship-wrestling-5x05-change-is-in-the-air",
+      "name": "Change is in the Air",
+      "season": 5,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2010-02-02",
+      "airtime": "22:00",
+      "airstamp": "2010-02-03T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Shelton Benjamin vs. Vance Archer</p><p>Trent Barreta (w/Caylen Croft) vs. Yoshi Tatsu (w/Goldust)</p><p>Non Title Match - Christian vs. Zack Ryder (w/Rosa Mendes)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070134"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070135,
+      "url": "https://www.tvmaze.com/episodes/1070135/extreme-championship-wrestling-5x06-the-end-is-near",
+      "name": "The End is Near",
+      "season": 5,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2010-02-09",
+      "airtime": "22:00",
+      "airstamp": "2010-02-10T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Unified WWE Tag Team Title #1 Contendership Match - Caylen Croft &amp; Trent Barreta vs. Goldust &amp; Yoshi Tatsu</p><p>Ezekiel Jackson (w/William Regal) vs. Perry Wallace</p><p>No Disqualification Match - Shelton Benjamin vs. Vance Archer</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070135"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1070136,
+      "url": "https://www.tvmaze.com/episodes/1070136/extreme-championship-wrestling-5x07-an-extreme-farewell",
+      "name": "An Extreme Farewell",
+      "season": 5,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2010-02-16",
+      "airtime": "22:00",
+      "airstamp": "2010-02-17T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Unified WWE Tag Team Title Match - The Big Show &amp; The Miz (c) vs. Goldust &amp; Yoshi Tatsu</p><p>ECW Heavyweight Title Extreme Rules Match - Christian (c) vs. Ezekiel Jackson (w/William Regal)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1070136"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10404",
+          "name": "Extreme Championship Wrestling"
+        }
+      }
+    }
+  ]
+}

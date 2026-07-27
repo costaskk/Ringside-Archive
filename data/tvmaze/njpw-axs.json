@@ -1,0 +1,4509 @@
+{
+  "programId": "njpw-axs",
+  "tvMazeId": 2515,
+  "fetchedAt": "2026-07-27T07:57:34.487Z",
+  "show": {
+    "id": 2515,
+    "url": "https://www.tvmaze.com/shows/2515/new-japan-pro-wrestling-on-axs-tv",
+    "name": "New Japan Pro Wrestling on AXS TV",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": 60,
+    "averageRuntime": 68,
+    "premiered": "2015-01-16",
+    "ended": null,
+    "officialSite": "http://www.axs.tv/programs/new-japan-pro-wrestling/",
+    "schedule": {
+      "time": "22:00",
+      "days": [
+        "Thursday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 81,
+    "network": {
+      "id": 170,
+      "name": "AXS TV",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 46569,
+      "thetvdb": 292170,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/13/33589.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/13/33589.jpg"
+    },
+    "summary": "<p><b>New Japan Pro Wrestling</b> presents the biggest stars and best matches from the premier wrestling organization in Japan and the second largest and fastest growing wrestling promotion in the world. WWE Hall of Fame commentator Jim Ross and former UFC Heavyweight champion and NJPW veteran Josh Barnett provide English language commentary for the series.</p>",
+    "updated": 1734404010,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/2515"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3040993",
+        "name": "Episode 52"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 3007393,
+      "url": "https://www.tvmaze.com/episodes/3007393/new-japan-pro-wrestling-on-axs-tv-2015-01-16-njpw-world-pro-wrestling-1",
+      "name": "NJPW World Pro-Wrestling 1",
+      "season": 2015,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2015-01-16",
+      "airtime": "21:00",
+      "airstamp": "2015-01-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007393"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007394,
+      "url": "https://www.tvmaze.com/episodes/3007394/new-japan-pro-wrestling-on-axs-tv-2015-01-23-njpw-world-pro-wrestling-2",
+      "name": "NJPW World Pro-Wrestling 2",
+      "season": 2015,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2015-01-23",
+      "airtime": "21:00",
+      "airstamp": "2015-01-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007394"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007395,
+      "url": "https://www.tvmaze.com/episodes/3007395/new-japan-pro-wrestling-on-axs-tv-2015-01-23-njpw-world-pro-wrestling-3",
+      "name": "NJPW World Pro-Wrestling 3",
+      "season": 2015,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2015-01-23",
+      "airtime": "21:00",
+      "airstamp": "2015-01-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007395"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007396,
+      "url": "https://www.tvmaze.com/episodes/3007396/new-japan-pro-wrestling-on-axs-tv-2015-02-06-njpw-world-pro-wrestling-4",
+      "name": "NJPW World Pro-Wrestling 4",
+      "season": 2015,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2015-02-06",
+      "airtime": "21:00",
+      "airstamp": "2015-02-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007396"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007397,
+      "url": "https://www.tvmaze.com/episodes/3007397/new-japan-pro-wrestling-on-axs-tv-2015-02-13-njpw-world-pro-wrestling-5",
+      "name": "NJPW World Pro-Wrestling 5",
+      "season": 2015,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2015-02-13",
+      "airtime": "21:00",
+      "airstamp": "2015-02-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007397"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007398,
+      "url": "https://www.tvmaze.com/episodes/3007398/new-japan-pro-wrestling-on-axs-tv-2015-02-20-njpw-world-pro-wrestling-6",
+      "name": "NJPW World Pro-Wrestling 6",
+      "season": 2015,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2015-02-20",
+      "airtime": "21:00",
+      "airstamp": "2015-02-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007398"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007399,
+      "url": "https://www.tvmaze.com/episodes/3007399/new-japan-pro-wrestling-on-axs-tv-2015-02-27-njpw-world-pro-wrestling-7",
+      "name": "NJPW World Pro-Wrestling 7",
+      "season": 2015,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2015-02-27",
+      "airtime": "21:00",
+      "airstamp": "2015-02-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007399"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007400,
+      "url": "https://www.tvmaze.com/episodes/3007400/new-japan-pro-wrestling-on-axs-tv-2015-03-06-njpw-world-pro-wrestling-8",
+      "name": "NJPW World Pro-Wrestling 8",
+      "season": 2015,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2015-03-06",
+      "airtime": "21:00",
+      "airstamp": "2015-03-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007400"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007401,
+      "url": "https://www.tvmaze.com/episodes/3007401/new-japan-pro-wrestling-on-axs-tv-2015-03-13-njpw-world-pro-wrestling-9",
+      "name": "NJPW World Pro-Wrestling 9",
+      "season": 2015,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2015-03-13",
+      "airtime": "21:00",
+      "airstamp": "2015-03-14T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007401"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007402,
+      "url": "https://www.tvmaze.com/episodes/3007402/new-japan-pro-wrestling-on-axs-tv-2015-03-20-njpw-world-pro-wrestling-10",
+      "name": "NJPW World Pro-Wrestling 10",
+      "season": 2015,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2015-03-20",
+      "airtime": "21:00",
+      "airstamp": "2015-03-21T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007402"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007403,
+      "url": "https://www.tvmaze.com/episodes/3007403/new-japan-pro-wrestling-on-axs-tv-2015-03-27-njpw-world-pro-wrestling-11",
+      "name": "NJPW World Pro-Wrestling 11",
+      "season": 2015,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2015-03-27",
+      "airtime": "21:00",
+      "airstamp": "2015-03-28T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007403"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007404,
+      "url": "https://www.tvmaze.com/episodes/3007404/new-japan-pro-wrestling-on-axs-tv-2015-04-03-njpw-world-pro-wrestling-12",
+      "name": "NJPW World Pro-Wrestling 12",
+      "season": 2015,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2015-04-03",
+      "airtime": "21:00",
+      "airstamp": "2015-04-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007404"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007405,
+      "url": "https://www.tvmaze.com/episodes/3007405/new-japan-pro-wrestling-on-axs-tv-2015-04-10-njpw-world-pro-wrestling-13",
+      "name": "NJPW World Pro-Wrestling 13",
+      "season": 2015,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2015-04-10",
+      "airtime": "21:00",
+      "airstamp": "2015-04-11T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007405"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007406,
+      "url": "https://www.tvmaze.com/episodes/3007406/new-japan-pro-wrestling-on-axs-tv-2015-05-22-njpw-world-pro-wrestling-14",
+      "name": "NJPW World Pro-Wrestling 14",
+      "season": 2015,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2015-05-22",
+      "airtime": "21:00",
+      "airstamp": "2015-05-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007406"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007407,
+      "url": "https://www.tvmaze.com/episodes/3007407/new-japan-pro-wrestling-on-axs-tv-2015-05-29-njpw-world-pro-wrestling-15",
+      "name": "NJPW World Pro-Wrestling 15",
+      "season": 2015,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2015-05-29",
+      "airtime": "21:00",
+      "airstamp": "2015-05-30T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007407"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007408,
+      "url": "https://www.tvmaze.com/episodes/3007408/new-japan-pro-wrestling-on-axs-tv-2015-06-05-njpw-world-pro-wrestling-16",
+      "name": "NJPW World Pro-Wrestling 16",
+      "season": 2015,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2015-06-05",
+      "airtime": "21:00",
+      "airstamp": "2015-06-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007408"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007409,
+      "url": "https://www.tvmaze.com/episodes/3007409/new-japan-pro-wrestling-on-axs-tv-2015-06-12-njpw-world-pro-wrestling-17",
+      "name": "NJPW World Pro-Wrestling 17",
+      "season": 2015,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2015-06-12",
+      "airtime": "21:00",
+      "airstamp": "2015-06-13T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007409"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007410,
+      "url": "https://www.tvmaze.com/episodes/3007410/new-japan-pro-wrestling-on-axs-tv-2015-06-26-njpw-world-pro-wrestling-18",
+      "name": "NJPW World Pro-Wrestling 18",
+      "season": 2015,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2015-06-26",
+      "airtime": "21:00",
+      "airstamp": "2015-06-27T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007410"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007411,
+      "url": "https://www.tvmaze.com/episodes/3007411/new-japan-pro-wrestling-on-axs-tv-2015-07-03-njpw-world-pro-wrestling-19",
+      "name": "NJPW World Pro-Wrestling 19",
+      "season": 2015,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2015-07-03",
+      "airtime": "21:00",
+      "airstamp": "2015-07-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007411"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007412,
+      "url": "https://www.tvmaze.com/episodes/3007412/new-japan-pro-wrestling-on-axs-tv-2015-07-10-njpw-world-pro-wrestling-20",
+      "name": "NJPW World Pro-Wrestling 20",
+      "season": 2015,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2015-07-10",
+      "airtime": "21:00",
+      "airstamp": "2015-07-11T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007412"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007413,
+      "url": "https://www.tvmaze.com/episodes/3007413/new-japan-pro-wrestling-on-axs-tv-2015-07-17-njpw-world-pro-wrestling-21",
+      "name": "NJPW World Pro-Wrestling 21",
+      "season": 2015,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2015-07-17",
+      "airtime": "21:00",
+      "airstamp": "2015-07-18T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007413"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007414,
+      "url": "https://www.tvmaze.com/episodes/3007414/new-japan-pro-wrestling-on-axs-tv-2015-07-24-njpw-world-pro-wrestling-22",
+      "name": "NJPW World Pro-Wrestling 22",
+      "season": 2015,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2015-07-24",
+      "airtime": "21:00",
+      "airstamp": "2015-07-25T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007414"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007415,
+      "url": "https://www.tvmaze.com/episodes/3007415/new-japan-pro-wrestling-on-axs-tv-2015-07-31-njpw-world-pro-wrestling-23",
+      "name": "NJPW World Pro-Wrestling 23",
+      "season": 2015,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2015-07-31",
+      "airtime": "21:00",
+      "airstamp": "2015-08-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007415"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007416,
+      "url": "https://www.tvmaze.com/episodes/3007416/new-japan-pro-wrestling-on-axs-tv-2015-08-07-njpw-world-pro-wrestling-24",
+      "name": "NJPW World Pro-Wrestling 24",
+      "season": 2015,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2015-08-07",
+      "airtime": "21:00",
+      "airstamp": "2015-08-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007416"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007417,
+      "url": "https://www.tvmaze.com/episodes/3007417/new-japan-pro-wrestling-on-axs-tv-2015-08-07-njpw-world-pro-wrestling-25",
+      "name": "NJPW World Pro-Wrestling 25",
+      "season": 2015,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2015-08-07",
+      "airtime": "21:00",
+      "airstamp": "2015-08-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007417"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007418,
+      "url": "https://www.tvmaze.com/episodes/3007418/new-japan-pro-wrestling-on-axs-tv-2015-08-14-njpw-world-pro-wrestling-26",
+      "name": "NJPW World Pro-Wrestling 26",
+      "season": 2015,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2015-08-14",
+      "airtime": "21:00",
+      "airstamp": "2015-08-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007418"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007419,
+      "url": "https://www.tvmaze.com/episodes/3007419/new-japan-pro-wrestling-on-axs-tv-2015-08-21-njpw-world-pro-wrestling-27",
+      "name": "NJPW World Pro-Wrestling 27",
+      "season": 2015,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2015-08-21",
+      "airtime": "21:00",
+      "airstamp": "2015-08-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007419"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007420,
+      "url": "https://www.tvmaze.com/episodes/3007420/new-japan-pro-wrestling-on-axs-tv-2015-08-28-njpw-world-pro-wrestling-28",
+      "name": "NJPW World Pro-Wrestling 28",
+      "season": 2015,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2015-08-28",
+      "airtime": "21:00",
+      "airstamp": "2015-08-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007420"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007421,
+      "url": "https://www.tvmaze.com/episodes/3007421/new-japan-pro-wrestling-on-axs-tv-2015-09-04-njpw-world-pro-wrestling-29",
+      "name": "NJPW World Pro-Wrestling 29",
+      "season": 2015,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2015-09-04",
+      "airtime": "21:00",
+      "airstamp": "2015-09-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007421"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007422,
+      "url": "https://www.tvmaze.com/episodes/3007422/new-japan-pro-wrestling-on-axs-tv-2015-09-11-njpw-world-pro-wrestling-30",
+      "name": "NJPW World Pro-Wrestling 30",
+      "season": 2015,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2015-09-11",
+      "airtime": "21:00",
+      "airstamp": "2015-09-12T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007422"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007423,
+      "url": "https://www.tvmaze.com/episodes/3007423/new-japan-pro-wrestling-on-axs-tv-2015-09-18-njpw-world-pro-wrestling-31",
+      "name": "NJPW World Pro-Wrestling 31",
+      "season": 2015,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2015-09-18",
+      "airtime": "21:00",
+      "airstamp": "2015-09-19T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007423"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007424,
+      "url": "https://www.tvmaze.com/episodes/3007424/new-japan-pro-wrestling-on-axs-tv-2015-09-25-njpw-world-pro-wrestling-32",
+      "name": "NJPW World Pro-Wrestling 32",
+      "season": 2015,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2015-09-25",
+      "airtime": "21:00",
+      "airstamp": "2015-09-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007424"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007425,
+      "url": "https://www.tvmaze.com/episodes/3007425/new-japan-pro-wrestling-on-axs-tv-2015-10-02-njpw-world-pro-wrestling-33",
+      "name": "NJPW World Pro-Wrestling 33",
+      "season": 2015,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2015-10-02",
+      "airtime": "21:00",
+      "airstamp": "2015-10-03T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007425"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007426,
+      "url": "https://www.tvmaze.com/episodes/3007426/new-japan-pro-wrestling-on-axs-tv-2015-10-09-njpw-world-pro-wrestling-34",
+      "name": "NJPW World Pro-Wrestling 34",
+      "season": 2015,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2015-10-09",
+      "airtime": "21:00",
+      "airstamp": "2015-10-10T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007426"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007427,
+      "url": "https://www.tvmaze.com/episodes/3007427/new-japan-pro-wrestling-on-axs-tv-2015-10-16-njpw-world-pro-wrestling-35",
+      "name": "NJPW World Pro-Wrestling 35",
+      "season": 2015,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2015-10-16",
+      "airtime": "21:00",
+      "airstamp": "2015-10-17T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007427"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007428,
+      "url": "https://www.tvmaze.com/episodes/3007428/new-japan-pro-wrestling-on-axs-tv-2015-10-23-njpw-world-pro-wrestling-36",
+      "name": "NJPW World Pro-Wrestling 36",
+      "season": 2015,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2015-10-23",
+      "airtime": "21:00",
+      "airstamp": "2015-10-24T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007428"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007429,
+      "url": "https://www.tvmaze.com/episodes/3007429/new-japan-pro-wrestling-on-axs-tv-2015-10-30-njpw-world-pro-wrestling-37",
+      "name": "NJPW World Pro-Wrestling 37",
+      "season": 2015,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2015-10-30",
+      "airtime": "21:00",
+      "airstamp": "2015-10-31T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007429"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007430,
+      "url": "https://www.tvmaze.com/episodes/3007430/new-japan-pro-wrestling-on-axs-tv-2015-11-06-njpw-world-pro-wrestling-38",
+      "name": "NJPW World Pro-Wrestling 38",
+      "season": 2015,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2015-11-06",
+      "airtime": "21:00",
+      "airstamp": "2015-11-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007430"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007431,
+      "url": "https://www.tvmaze.com/episodes/3007431/new-japan-pro-wrestling-on-axs-tv-2015-11-13-njpw-world-pro-wrestling-39",
+      "name": "NJPW World Pro-Wrestling 39",
+      "season": 2015,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2015-11-13",
+      "airtime": "21:00",
+      "airstamp": "2015-11-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007431"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007432,
+      "url": "https://www.tvmaze.com/episodes/3007432/new-japan-pro-wrestling-on-axs-tv-2015-11-20-njpw-world-pro-wrestling-40",
+      "name": "NJPW World Pro-Wrestling 40",
+      "season": 2015,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2015-11-20",
+      "airtime": "21:00",
+      "airstamp": "2015-11-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007433,
+      "url": "https://www.tvmaze.com/episodes/3007433/new-japan-pro-wrestling-on-axs-tv-2015-12-04-njpw-world-pro-wrestling-41",
+      "name": "NJPW World Pro-Wrestling 41",
+      "season": 2015,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2015-12-04",
+      "airtime": "21:00",
+      "airstamp": "2015-12-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007433"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007434,
+      "url": "https://www.tvmaze.com/episodes/3007434/new-japan-pro-wrestling-on-axs-tv-2015-12-11-njpw-world-pro-wrestling-42",
+      "name": "NJPW World Pro-Wrestling 42",
+      "season": 2015,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2015-12-11",
+      "airtime": "21:00",
+      "airstamp": "2015-12-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007434"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 591642,
+      "url": "https://www.tvmaze.com/episodes/591642/new-japan-pro-wrestling-on-axs-tv-2016-01-15-njpw-world-pro-wrestling-43",
+      "name": "NJPW World Pro-Wrestling 43",
+      "season": 2016,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-01-15",
+      "airtime": "21:00",
+      "airstamp": "2016-01-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>IWGP Tag Team Title Match: Champions The Bullet Club (Doc Gallows &amp; Karl Anderson) vs. The Kingdom (Mike Bennett &amp; Matt Taven)<br />Kazuchika Okada vs. Bad Luck Fale</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/591642"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 691714,
+      "url": "https://www.tvmaze.com/episodes/691714/new-japan-pro-wrestling-on-axs-tv-2016-01-22-njpw-world-pro-wrestling-44",
+      "name": "NJPW World Pro-Wrestling 44",
+      "season": 2016,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-01-22",
+      "airtime": "21:00",
+      "airstamp": "2016-01-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Katsuyori Shibata meets Kazushi Sakuraba. Togi Makabe defends the NEVER Openweight Championship against Tomohiro Ishii.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/691714"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 716177,
+      "url": "https://www.tvmaze.com/episodes/716177/new-japan-pro-wrestling-on-axs-tv-2016-01-29-njpw-world-pro-wrestling-45",
+      "name": "NJPW World Pro-Wrestling 45",
+      "season": 2016,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2016-01-29",
+      "airtime": "21:00",
+      "airstamp": "2016-01-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Hirooki Goto defends the IWGP Intercontinential Championship against Shinsuke Nakamura. KUSHIDA battles Kenny Omega for the IWGP Jr. Heavyweight Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/716177"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 716178,
+      "url": "https://www.tvmaze.com/episodes/716178/new-japan-pro-wrestling-on-axs-tv-2016-02-06-njpw-world-pro-wrestling-46",
+      "name": "NJPW World Pro-Wrestling 46",
+      "season": 2016,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2016-02-06",
+      "airtime": "21:00",
+      "airstamp": "2016-02-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>A.J. Styles defends the IWGP Heavyweight Championship against \"The Rainmaker\" Kazuchika Okada.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/716178"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007435,
+      "url": "https://www.tvmaze.com/episodes/3007435/new-japan-pro-wrestling-on-axs-tv-2016-02-12-njpw-world-pro-wrestling-47",
+      "name": "NJPW World Pro-Wrestling 47",
+      "season": 2016,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2016-02-12",
+      "airtime": "21:00",
+      "airstamp": "2016-02-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007435"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007436,
+      "url": "https://www.tvmaze.com/episodes/3007436/new-japan-pro-wrestling-on-axs-tv-2016-02-19-njpw-world-pro-wrestling-48",
+      "name": "NJPW World Pro-Wrestling 48",
+      "season": 2016,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2016-02-19",
+      "airtime": "21:00",
+      "airstamp": "2016-02-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007436"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007437,
+      "url": "https://www.tvmaze.com/episodes/3007437/new-japan-pro-wrestling-on-axs-tv-2016-03-04-njpw-world-pro-wrestling-49",
+      "name": "NJPW World Pro-Wrestling 49",
+      "season": 2016,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2016-03-04",
+      "airtime": "21:00",
+      "airstamp": "2016-03-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007437"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007438,
+      "url": "https://www.tvmaze.com/episodes/3007438/new-japan-pro-wrestling-on-axs-tv-2016-03-11-njpw-world-pro-wrestling-50",
+      "name": "NJPW World Pro-Wrestling 50",
+      "season": 2016,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2016-03-11",
+      "airtime": "21:00",
+      "airstamp": "2016-03-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007438"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007439,
+      "url": "https://www.tvmaze.com/episodes/3007439/new-japan-pro-wrestling-on-axs-tv-2016-03-18-njpw-world-pro-wrestling-51",
+      "name": "NJPW World Pro-Wrestling 51",
+      "season": 2016,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2016-03-18",
+      "airtime": "21:00",
+      "airstamp": "2016-03-19T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007439"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007440,
+      "url": "https://www.tvmaze.com/episodes/3007440/new-japan-pro-wrestling-on-axs-tv-2016-03-25-njpw-world-pro-wrestling-52",
+      "name": "NJPW World Pro-Wrestling 52",
+      "season": 2016,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2016-03-25",
+      "airtime": "21:00",
+      "airstamp": "2016-03-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007440"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007441,
+      "url": "https://www.tvmaze.com/episodes/3007441/new-japan-pro-wrestling-on-axs-tv-2016-04-01-njpw-world-pro-wrestling-53",
+      "name": "NJPW World Pro-Wrestling 53",
+      "season": 2016,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2016-04-01",
+      "airtime": "21:00",
+      "airstamp": "2016-04-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007441"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007442,
+      "url": "https://www.tvmaze.com/episodes/3007442/new-japan-pro-wrestling-on-axs-tv-2016-04-08-njpw-world-pro-wrestling-54",
+      "name": "NJPW World Pro-Wrestling 54",
+      "season": 2016,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2016-04-08",
+      "airtime": "21:00",
+      "airstamp": "2016-04-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007442"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007443,
+      "url": "https://www.tvmaze.com/episodes/3007443/new-japan-pro-wrestling-on-axs-tv-2016-04-15-njpw-world-pro-wrestling-55",
+      "name": "NJPW World Pro-Wrestling 55",
+      "season": 2016,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2016-04-15",
+      "airtime": "21:00",
+      "airstamp": "2016-04-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007443"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007444,
+      "url": "https://www.tvmaze.com/episodes/3007444/new-japan-pro-wrestling-on-axs-tv-2016-04-22-njpw-world-pro-wrestling-56",
+      "name": "NJPW World Pro-Wrestling 56",
+      "season": 2016,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2016-04-22",
+      "airtime": "21:00",
+      "airstamp": "2016-04-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007444"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007445,
+      "url": "https://www.tvmaze.com/episodes/3007445/new-japan-pro-wrestling-on-axs-tv-2016-04-27-njpw-world-pro-wrestling-57",
+      "name": "NJPW World Pro-Wrestling 57",
+      "season": 2016,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2016-04-27",
+      "airtime": "21:00",
+      "airstamp": "2016-04-28T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007445"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007446,
+      "url": "https://www.tvmaze.com/episodes/3007446/new-japan-pro-wrestling-on-axs-tv-2016-06-03-njpw-world-pro-wrestling-58",
+      "name": "NJPW World Pro-Wrestling 58",
+      "season": 2016,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2016-06-03",
+      "airtime": "21:00",
+      "airstamp": "2016-06-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007446"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007447,
+      "url": "https://www.tvmaze.com/episodes/3007447/new-japan-pro-wrestling-on-axs-tv-2016-06-03-njpw-world-pro-wrestling-59",
+      "name": "NJPW World Pro-Wrestling 59",
+      "season": 2016,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2016-06-03",
+      "airtime": "21:00",
+      "airstamp": "2016-06-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007447"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007448,
+      "url": "https://www.tvmaze.com/episodes/3007448/new-japan-pro-wrestling-on-axs-tv-2016-06-25-njpw-world-pro-wrestling-60",
+      "name": "NJPW World Pro-Wrestling 60",
+      "season": 2016,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2016-06-25",
+      "airtime": "21:00",
+      "airstamp": "2016-06-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007448"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007449,
+      "url": "https://www.tvmaze.com/episodes/3007449/new-japan-pro-wrestling-on-axs-tv-2016-06-25-njpw-world-pro-wrestling-61",
+      "name": "NJPW World Pro-Wrestling 61",
+      "season": 2016,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2016-06-25",
+      "airtime": "21:00",
+      "airstamp": "2016-06-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007449"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007450,
+      "url": "https://www.tvmaze.com/episodes/3007450/new-japan-pro-wrestling-on-axs-tv-2016-07-01-njpw-world-pro-wrestling-62",
+      "name": "NJPW World Pro-Wrestling 62",
+      "season": 2016,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2016-07-01",
+      "airtime": "21:00",
+      "airstamp": "2016-07-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007450"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007451,
+      "url": "https://www.tvmaze.com/episodes/3007451/new-japan-pro-wrestling-on-axs-tv-2016-07-01-njpw-world-pro-wrestling-63",
+      "name": "NJPW World Pro-Wrestling 63",
+      "season": 2016,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2016-07-01",
+      "airtime": "21:00",
+      "airstamp": "2016-07-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007451"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007453,
+      "url": "https://www.tvmaze.com/episodes/3007453/new-japan-pro-wrestling-on-axs-tv-2016-07-01-njpw-world-pro-wrestling-65",
+      "name": "NJPW World Pro-Wrestling 65",
+      "season": 2016,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2016-07-01",
+      "airtime": "21:00",
+      "airstamp": "2016-07-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007453"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007454,
+      "url": "https://www.tvmaze.com/episodes/3007454/new-japan-pro-wrestling-on-axs-tv-2016-07-01-njpw-world-pro-wrestling-66",
+      "name": "NJPW World Pro-Wrestling 66",
+      "season": 2016,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2016-07-01",
+      "airtime": "21:00",
+      "airstamp": "2016-07-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007454"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007452,
+      "url": "https://www.tvmaze.com/episodes/3007452/new-japan-pro-wrestling-on-axs-tv-2016-07-15-njpw-world-pro-wrestling-64",
+      "name": "NJPW World Pro-Wrestling 64",
+      "season": 2016,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2016-07-15",
+      "airtime": "21:00",
+      "airstamp": "2016-07-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007452"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007455,
+      "url": "https://www.tvmaze.com/episodes/3007455/new-japan-pro-wrestling-on-axs-tv-2016-07-15-njpw-world-pro-wrestling-67",
+      "name": "NJPW World Pro-Wrestling 67",
+      "season": 2016,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2016-07-15",
+      "airtime": "21:00",
+      "airstamp": "2016-07-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007455"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007456,
+      "url": "https://www.tvmaze.com/episodes/3007456/new-japan-pro-wrestling-on-axs-tv-2016-07-22-njpw-world-pro-wrestling-68",
+      "name": "NJPW World Pro-Wrestling 68",
+      "season": 2016,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2016-07-22",
+      "airtime": "21:00",
+      "airstamp": "2016-07-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007456"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007457,
+      "url": "https://www.tvmaze.com/episodes/3007457/new-japan-pro-wrestling-on-axs-tv-2016-07-29-njpw-world-pro-wrestling-69",
+      "name": "NJPW World Pro-Wrestling 69",
+      "season": 2016,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2016-07-29",
+      "airtime": "21:00",
+      "airstamp": "2016-07-30T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007457"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007458,
+      "url": "https://www.tvmaze.com/episodes/3007458/new-japan-pro-wrestling-on-axs-tv-2016-08-05-njpw-world-pro-wrestling-70",
+      "name": "NJPW World Pro-Wrestling 70",
+      "season": 2016,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2016-08-05",
+      "airtime": "21:00",
+      "airstamp": "2016-08-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007458"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007459,
+      "url": "https://www.tvmaze.com/episodes/3007459/new-japan-pro-wrestling-on-axs-tv-2016-08-05-njpw-world-pro-wrestling-71",
+      "name": "NJPW World Pro-Wrestling 71",
+      "season": 2016,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2016-08-05",
+      "airtime": "21:00",
+      "airstamp": "2016-08-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007459"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007460,
+      "url": "https://www.tvmaze.com/episodes/3007460/new-japan-pro-wrestling-on-axs-tv-2016-08-05-njpw-world-pro-wrestling-72",
+      "name": "NJPW World Pro-Wrestling 72",
+      "season": 2016,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2016-08-05",
+      "airtime": "21:00",
+      "airstamp": "2016-08-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007460"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007461,
+      "url": "https://www.tvmaze.com/episodes/3007461/new-japan-pro-wrestling-on-axs-tv-2016-08-19-njpw-world-pro-wrestling-73",
+      "name": "NJPW World Pro-Wrestling 73",
+      "season": 2016,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2016-08-19",
+      "airtime": "21:00",
+      "airstamp": "2016-08-20T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007461"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007462,
+      "url": "https://www.tvmaze.com/episodes/3007462/new-japan-pro-wrestling-on-axs-tv-2016-08-26-njpw-world-pro-wrestling-74",
+      "name": "NJPW World Pro-Wrestling 74",
+      "season": 2016,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2016-08-26",
+      "airtime": "21:00",
+      "airstamp": "2016-08-27T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007462"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007463,
+      "url": "https://www.tvmaze.com/episodes/3007463/new-japan-pro-wrestling-on-axs-tv-2016-09-09-njpw-world-pro-wrestling-75",
+      "name": "NJPW World Pro-Wrestling 75",
+      "season": 2016,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2016-09-09",
+      "airtime": "21:00",
+      "airstamp": "2016-09-10T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007463"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007464,
+      "url": "https://www.tvmaze.com/episodes/3007464/new-japan-pro-wrestling-on-axs-tv-2016-09-16-njpw-world-pro-wrestling-76",
+      "name": "NJPW World Pro-Wrestling 76",
+      "season": 2016,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2016-09-16",
+      "airtime": "21:00",
+      "airstamp": "2016-09-17T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007464"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007465,
+      "url": "https://www.tvmaze.com/episodes/3007465/new-japan-pro-wrestling-on-axs-tv-2016-09-23-njpw-world-pro-wrestling-77",
+      "name": "NJPW World Pro-Wrestling 77",
+      "season": 2016,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2016-09-23",
+      "airtime": "21:00",
+      "airstamp": "2016-09-24T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007465"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007466,
+      "url": "https://www.tvmaze.com/episodes/3007466/new-japan-pro-wrestling-on-axs-tv-2016-09-30-njpw-world-pro-wrestling-78",
+      "name": "NJPW World Pro-Wrestling 78",
+      "season": 2016,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2016-09-30",
+      "airtime": "21:00",
+      "airstamp": "2016-10-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007466"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007467,
+      "url": "https://www.tvmaze.com/episodes/3007467/new-japan-pro-wrestling-on-axs-tv-2016-10-07-njpw-world-pro-wrestling-79",
+      "name": "NJPW World Pro-Wrestling 79",
+      "season": 2016,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2016-10-07",
+      "airtime": "21:00",
+      "airstamp": "2016-10-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007467"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007468,
+      "url": "https://www.tvmaze.com/episodes/3007468/new-japan-pro-wrestling-on-axs-tv-2016-10-14-njpw-world-pro-wrestling-80",
+      "name": "NJPW World Pro-Wrestling 80",
+      "season": 2016,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2016-10-14",
+      "airtime": "21:00",
+      "airstamp": "2016-10-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007468"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007469,
+      "url": "https://www.tvmaze.com/episodes/3007469/new-japan-pro-wrestling-on-axs-tv-2016-10-21-njpw-world-pro-wrestling-81",
+      "name": "NJPW World Pro-Wrestling 81",
+      "season": 2016,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2016-10-21",
+      "airtime": "21:00",
+      "airstamp": "2016-10-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007469"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007471,
+      "url": "https://www.tvmaze.com/episodes/3007471/new-japan-pro-wrestling-on-axs-tv-2016-10-28-njpw-world-pro-wrestling-82",
+      "name": "NJPW World Pro-Wrestling 82",
+      "season": 2016,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2016-10-28",
+      "airtime": "21:00",
+      "airstamp": "2016-10-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007471"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007472,
+      "url": "https://www.tvmaze.com/episodes/3007472/new-japan-pro-wrestling-on-axs-tv-2016-11-04-njpw-world-pro-wrestling-83",
+      "name": "NJPW World Pro-Wrestling 83",
+      "season": 2016,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2016-11-04",
+      "airtime": "21:00",
+      "airstamp": "2016-11-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007472"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007473,
+      "url": "https://www.tvmaze.com/episodes/3007473/new-japan-pro-wrestling-on-axs-tv-2016-11-11-njpw-world-pro-wrestling-84",
+      "name": "NJPW World Pro-Wrestling 84",
+      "season": 2016,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2016-11-11",
+      "airtime": "21:00",
+      "airstamp": "2016-11-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007473"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007474,
+      "url": "https://www.tvmaze.com/episodes/3007474/new-japan-pro-wrestling-on-axs-tv-2016-11-11-njpw-world-pro-wrestling-85",
+      "name": "NJPW World Pro-Wrestling 85",
+      "season": 2016,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2016-11-11",
+      "airtime": "21:00",
+      "airstamp": "2016-11-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007474"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007475,
+      "url": "https://www.tvmaze.com/episodes/3007475/new-japan-pro-wrestling-on-axs-tv-2016-11-18-njpw-world-pro-wrestling-86",
+      "name": "NJPW World Pro-Wrestling 86",
+      "season": 2016,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2016-11-18",
+      "airtime": "21:00",
+      "airstamp": "2016-11-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007475"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007476,
+      "url": "https://www.tvmaze.com/episodes/3007476/new-japan-pro-wrestling-on-axs-tv-2016-12-02-njpw-world-pro-wrestling-87",
+      "name": "NJPW World Pro-Wrestling 87",
+      "season": 2016,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2016-12-02",
+      "airtime": "21:00",
+      "airstamp": "2016-12-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007476"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007477,
+      "url": "https://www.tvmaze.com/episodes/3007477/new-japan-pro-wrestling-on-axs-tv-2016-12-02-njpw-world-pro-wrestling-88",
+      "name": "NJPW World Pro-Wrestling 88",
+      "season": 2016,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2016-12-02",
+      "airtime": "21:00",
+      "airstamp": "2016-12-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007477"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007478,
+      "url": "https://www.tvmaze.com/episodes/3007478/new-japan-pro-wrestling-on-axs-tv-2016-12-09-njpw-world-pro-wrestling-89",
+      "name": "NJPW World Pro-Wrestling 89",
+      "season": 2016,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2016-12-09",
+      "airtime": "21:00",
+      "airstamp": "2016-12-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007478"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007479,
+      "url": "https://www.tvmaze.com/episodes/3007479/new-japan-pro-wrestling-on-axs-tv-2016-12-09-njpw-world-pro-wrestling-90",
+      "name": "NJPW World Pro-Wrestling 90",
+      "season": 2016,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2016-12-09",
+      "airtime": "21:00",
+      "airstamp": "2016-12-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007479"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007480,
+      "url": "https://www.tvmaze.com/episodes/3007480/new-japan-pro-wrestling-on-axs-tv-2016-12-16-njpw-world-pro-wrestling-91",
+      "name": "NJPW World Pro-Wrestling 91",
+      "season": 2016,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2016-12-16",
+      "airtime": "21:00",
+      "airstamp": "2016-12-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007480"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007481,
+      "url": "https://www.tvmaze.com/episodes/3007481/new-japan-pro-wrestling-on-axs-tv-2016-12-16-njpw-world-pro-wrestling-92",
+      "name": "NJPW World Pro-Wrestling 92",
+      "season": 2016,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2016-12-16",
+      "airtime": "21:00",
+      "airstamp": "2016-12-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007481"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007482,
+      "url": "https://www.tvmaze.com/episodes/3007482/new-japan-pro-wrestling-on-axs-tv-2016-12-16-njpw-world-pro-wrestling-93",
+      "name": "NJPW World Pro-Wrestling 93",
+      "season": 2016,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2016-12-16",
+      "airtime": "21:00",
+      "airstamp": "2016-12-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007482"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007488,
+      "url": "https://www.tvmaze.com/episodes/3007488/new-japan-pro-wrestling-on-axs-tv-2019-01-04-wrestle-kingdom-13-omega-vs-tanahashi",
+      "name": "Wrestle Kingdom 13: Omega vs. Tanahashi",
+      "season": 2019,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-01-04",
+      "airtime": "20:00",
+      "airstamp": "2019-01-05T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007488"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007489,
+      "url": "https://www.tvmaze.com/episodes/3007489/new-japan-pro-wrestling-on-axs-tv-2019-01-11-wrestle-kingdom-13-okada-vs-white",
+      "name": "Wrestle Kingdom 13: Okada vs. White",
+      "season": 2019,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-01-11",
+      "airtime": "20:00",
+      "airstamp": "2019-01-12T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007489"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007490,
+      "url": "https://www.tvmaze.com/episodes/3007490/new-japan-pro-wrestling-on-axs-tv-2019-01-18-wrestle-kingdom-13-kushida-vs-ishimori",
+      "name": "Wrestle Kingdom 13: KUSHIDA vs. Ishimori",
+      "season": 2019,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-01-18",
+      "airtime": "20:00",
+      "airstamp": "2019-01-19T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007490"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007491,
+      "url": "https://www.tvmaze.com/episodes/3007491/new-japan-pro-wrestling-on-axs-tv-2019-01-25-new-year-dash-2019-part-1",
+      "name": "New Year Dash!! 2019 - Part 1",
+      "season": 2019,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-01-25",
+      "airtime": "20:00",
+      "airstamp": "2019-01-26T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007491"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007492,
+      "url": "https://www.tvmaze.com/episodes/3007492/new-japan-pro-wrestling-on-axs-tv-2019-02-01-new-year-dash-2019-part-2",
+      "name": "New Year Dash!! 2019 - Part 2",
+      "season": 2019,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-02-01",
+      "airtime": "20:00",
+      "airstamp": "2019-02-02T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007492"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007493,
+      "url": "https://www.tvmaze.com/episodes/3007493/new-japan-pro-wrestling-on-axs-tv-2019-02-08-new-beginning-evil-vs-sabre-jr",
+      "name": "New Beginning: EVIL vs. Sabre Jr.",
+      "season": 2019,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-02-08",
+      "airtime": "20:00",
+      "airstamp": "2019-02-09T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007493"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007494,
+      "url": "https://www.tvmaze.com/episodes/3007494/new-japan-pro-wrestling-on-axs-tv-2019-02-08-wrestle-kingdom-13-okada-vs-white",
+      "name": "Wrestle Kingdom 13: Okada vs. White",
+      "season": 2019,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-02-08",
+      "airtime": "22:00",
+      "airstamp": "2019-02-09T03:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007494"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007500,
+      "url": "https://www.tvmaze.com/episodes/3007500/new-japan-pro-wrestling-on-axs-tv-2019-02-15-new-beginning-tanahashiokada-vs-whitefale",
+      "name": "New Beginning: Tanahashi/Okada vs. White/Fale",
+      "season": 2019,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-02-15",
+      "airtime": "20:00",
+      "airstamp": "2019-02-16T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007500"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007504,
+      "url": "https://www.tvmaze.com/episodes/3007504/new-japan-pro-wrestling-on-axs-tv-2019-02-22-new-beginning-naito-vs-taichi",
+      "name": "New Beginning: Naito vs. Taichi",
+      "season": 2019,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2019-02-22",
+      "airtime": "20:00",
+      "airstamp": "2019-02-23T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007504"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007505,
+      "url": "https://www.tvmaze.com/episodes/3007505/new-japan-pro-wrestling-on-axs-tv-2019-03-01-new-beginning-tanahashi-vs-white",
+      "name": "New Beginning: Tanahashi vs. White",
+      "season": 2019,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2019-03-01",
+      "airtime": "20:00",
+      "airstamp": "2019-03-02T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007505"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007506,
+      "url": "https://www.tvmaze.com/episodes/3007506/new-japan-pro-wrestling-on-axs-tv-2019-03-02-wrestle-kingdom-13-omega-vs-tanahashi",
+      "name": "Wrestle Kingdom 13: Omega vs. Tanahashi",
+      "season": 2019,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2019-03-02",
+      "airtime": "22:00",
+      "airstamp": "2019-03-03T03:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007506"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007507,
+      "url": "https://www.tvmaze.com/episodes/3007507/new-japan-pro-wrestling-on-axs-tv-2019-03-08-new-beginning-okada-vs-fale",
+      "name": "New Beginning: Okada vs. Fale",
+      "season": 2019,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2019-03-08",
+      "airtime": "20:00",
+      "airstamp": "2019-03-09T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007507"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007508,
+      "url": "https://www.tvmaze.com/episodes/3007508/new-japan-pro-wrestling-on-axs-tv-2019-03-08-wrestle-kingdom-13-jericho-vs-naito",
+      "name": "Wrestle Kingdom 13: Jericho vs. Naito",
+      "season": 2019,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2019-03-08",
+      "airtime": "22:00",
+      "airstamp": "2019-03-09T03:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007508"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007509,
+      "url": "https://www.tvmaze.com/episodes/3007509/new-japan-pro-wrestling-on-axs-tv-2019-03-15-47th-anniversary-event",
+      "name": "47th Anniversary Event",
+      "season": 2019,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2019-03-15",
+      "airtime": "20:00",
+      "airstamp": "2019-03-16T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007509"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007510,
+      "url": "https://www.tvmaze.com/episodes/3007510/new-japan-pro-wrestling-on-axs-tv-2019-03-22-nj-cup-19-first-round",
+      "name": "NJ Cup 19: First Round",
+      "season": 2019,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2019-03-22",
+      "airtime": "20:00",
+      "airstamp": "2019-03-23T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007510"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007511,
+      "url": "https://www.tvmaze.com/episodes/3007511/new-japan-pro-wrestling-on-axs-tv-2019-03-29-nj-cup-19-second-round",
+      "name": "NJ Cup 19: Second Round",
+      "season": 2019,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2019-03-29",
+      "airtime": "20:00",
+      "airstamp": "2019-03-30T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007511"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007512,
+      "url": "https://www.tvmaze.com/episodes/3007512/new-japan-pro-wrestling-on-axs-tv-2019-04-05-nj-cup-19-quarterfinals",
+      "name": "NJ Cup 19: Quarterfinals",
+      "season": 2019,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2019-04-05",
+      "airtime": "20:00",
+      "airstamp": "2019-04-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007512"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007513,
+      "url": "https://www.tvmaze.com/episodes/3007513/new-japan-pro-wrestling-on-axs-tv-2019-04-05-nj-cup-19-semi-finals",
+      "name": "NJ Cup 19: Semi-finals",
+      "season": 2019,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2019-04-05",
+      "airtime": "21:00",
+      "airstamp": "2019-04-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007513"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007515,
+      "url": "https://www.tvmaze.com/episodes/3007515/new-japan-pro-wrestling-on-axs-tv-2019-04-05-nj-cup-19-final",
+      "name": "NJ Cup 19: Final",
+      "season": 2019,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2019-04-05",
+      "airtime": "22:00",
+      "airstamp": "2019-04-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007515"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007517,
+      "url": "https://www.tvmaze.com/episodes/3007517/new-japan-pro-wrestling-on-axs-tv-2019-04-12-g1-supercard-white-vs-okada",
+      "name": "G1 Supercard - White vs. Okada",
+      "season": 2019,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2019-04-12",
+      "airtime": "20:00",
+      "airstamp": "2019-04-13T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007517"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007518,
+      "url": "https://www.tvmaze.com/episodes/3007518/new-japan-pro-wrestling-on-axs-tv-2019-04-19-g1-supercard-lethal-vs-taven-vs-scurll",
+      "name": "G1 Supercard - Lethal vs. Taven vs. Scurll",
+      "season": 2019,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2019-04-19",
+      "airtime": "20:00",
+      "airstamp": "2019-04-20T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007518"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007519,
+      "url": "https://www.tvmaze.com/episodes/3007519/new-japan-pro-wrestling-on-axs-tv-2019-04-26-sengoku-lord-ibushi-vs-sabre-jr",
+      "name": "Sengoku Lord: Ibushi vs. Sabre Jr",
+      "season": 2019,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2019-04-26",
+      "airtime": "20:00",
+      "airstamp": "2019-04-27T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007519"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007520,
+      "url": "https://www.tvmaze.com/episodes/3007520/new-japan-pro-wrestling-on-axs-tv-2019-05-03-hi-no-kuni-goto-vs-white",
+      "name": "Hi No Kuni: Goto vs. White",
+      "season": 2019,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2019-05-03",
+      "airtime": "20:00",
+      "airstamp": "2019-05-04T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007520"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007521,
+      "url": "https://www.tvmaze.com/episodes/3007521/new-japan-pro-wrestling-on-axs-tv-2019-05-10-dontaku-19-lee-vs-ishimori",
+      "name": "Dontaku 19: Lee vs. Ishimori",
+      "season": 2019,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2019-05-10",
+      "airtime": "20:00",
+      "airstamp": "2019-05-11T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007521"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007522,
+      "url": "https://www.tvmaze.com/episodes/3007522/new-japan-pro-wrestling-on-axs-tv-2019-05-17-dontaku-19-okada-vs-sanada",
+      "name": "Dontaku 19: Okada vs. SANADA",
+      "season": 2019,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2019-05-17",
+      "airtime": "20:00",
+      "airstamp": "2019-05-18T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007522"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007523,
+      "url": "https://www.tvmaze.com/episodes/3007523/new-japan-pro-wrestling-on-axs-tv-2019-05-24-best-of-the-super-jr-xxiv",
+      "name": "Best of the Super Jr. XXIV",
+      "season": 2019,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2019-05-24",
+      "airtime": "20:00",
+      "airstamp": "2019-05-25T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007523"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3007524,
+      "url": "https://www.tvmaze.com/episodes/3007524/new-japan-pro-wrestling-on-axs-tv-2019-05-31-best-of-the-super-jr-25-final",
+      "name": "Best of the Super Jr. 25 Final",
+      "season": 2019,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2019-05-31",
+      "airtime": "20:00",
+      "airstamp": "2019-06-01T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3007524"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040942,
+      "url": "https://www.tvmaze.com/episodes/3040942/new-japan-pro-wrestling-on-axs-tv-2024-01-04-episode-1",
+      "name": "Episode 1",
+      "season": 2024,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-01-04",
+      "airtime": "22:00",
+      "airstamp": "2024-01-05T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040942"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040943,
+      "url": "https://www.tvmaze.com/episodes/3040943/new-japan-pro-wrestling-on-axs-tv-2024-01-11-episode-2",
+      "name": "Episode 2",
+      "season": 2024,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-01-11",
+      "airtime": "22:00",
+      "airstamp": "2024-01-12T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040943"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040944,
+      "url": "https://www.tvmaze.com/episodes/3040944/new-japan-pro-wrestling-on-axs-tv-2024-01-18-episode-3",
+      "name": "Episode 3",
+      "season": 2024,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-01-18",
+      "airtime": "22:00",
+      "airstamp": "2024-01-19T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040944"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040945,
+      "url": "https://www.tvmaze.com/episodes/3040945/new-japan-pro-wrestling-on-axs-tv-2024-01-25-episode-4",
+      "name": "Episode 4",
+      "season": 2024,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-01-25",
+      "airtime": "22:00",
+      "airstamp": "2024-01-26T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040946,
+      "url": "https://www.tvmaze.com/episodes/3040946/new-japan-pro-wrestling-on-axs-tv-2024-02-01-episode-5",
+      "name": "Episode 5",
+      "season": 2024,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-02-01",
+      "airtime": "22:00",
+      "airstamp": "2024-02-02T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040946"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040947,
+      "url": "https://www.tvmaze.com/episodes/3040947/new-japan-pro-wrestling-on-axs-tv-2024-02-08-episode-6",
+      "name": "Episode 6",
+      "season": 2024,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2024-02-08",
+      "airtime": "22:00",
+      "airstamp": "2024-02-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040947"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040948,
+      "url": "https://www.tvmaze.com/episodes/3040948/new-japan-pro-wrestling-on-axs-tv-2024-02-15-episode-7",
+      "name": "Episode 7",
+      "season": 2024,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2024-02-15",
+      "airtime": "22:00",
+      "airstamp": "2024-02-16T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040948"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040949,
+      "url": "https://www.tvmaze.com/episodes/3040949/new-japan-pro-wrestling-on-axs-tv-2024-02-22-episode-8",
+      "name": "Episode 8",
+      "season": 2024,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2024-02-22",
+      "airtime": "22:00",
+      "airstamp": "2024-02-23T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040949"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040950,
+      "url": "https://www.tvmaze.com/episodes/3040950/new-japan-pro-wrestling-on-axs-tv-2024-02-29-episode-9",
+      "name": "Episode 9",
+      "season": 2024,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2024-02-29",
+      "airtime": "22:00",
+      "airstamp": "2024-03-01T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040950"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040951,
+      "url": "https://www.tvmaze.com/episodes/3040951/new-japan-pro-wrestling-on-axs-tv-2024-03-07-episode-10",
+      "name": "Episode 10",
+      "season": 2024,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2024-03-07",
+      "airtime": "22:00",
+      "airstamp": "2024-03-08T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040951"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040952,
+      "url": "https://www.tvmaze.com/episodes/3040952/new-japan-pro-wrestling-on-axs-tv-2024-03-14-episode-11",
+      "name": "Episode 11",
+      "season": 2024,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2024-03-14",
+      "airtime": "22:00",
+      "airstamp": "2024-03-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040953,
+      "url": "https://www.tvmaze.com/episodes/3040953/new-japan-pro-wrestling-on-axs-tv-2024-03-21-episode-12",
+      "name": "Episode 12",
+      "season": 2024,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2024-03-21",
+      "airtime": "22:00",
+      "airstamp": "2024-03-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040953"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040954,
+      "url": "https://www.tvmaze.com/episodes/3040954/new-japan-pro-wrestling-on-axs-tv-2024-03-28-episode-13",
+      "name": "Episode 13",
+      "season": 2024,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2024-03-28",
+      "airtime": "22:00",
+      "airstamp": "2024-03-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040955,
+      "url": "https://www.tvmaze.com/episodes/3040955/new-japan-pro-wrestling-on-axs-tv-2024-04-04-episode-14",
+      "name": "Episode 14",
+      "season": 2024,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2024-04-04",
+      "airtime": "22:00",
+      "airstamp": "2024-04-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040955"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040956,
+      "url": "https://www.tvmaze.com/episodes/3040956/new-japan-pro-wrestling-on-axs-tv-2024-04-11-episode-15",
+      "name": "Episode 15",
+      "season": 2024,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2024-04-11",
+      "airtime": "22:00",
+      "airstamp": "2024-04-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040956"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040957,
+      "url": "https://www.tvmaze.com/episodes/3040957/new-japan-pro-wrestling-on-axs-tv-2024-04-17-episode-16",
+      "name": "Episode 16",
+      "season": 2024,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2024-04-17",
+      "airtime": "22:00",
+      "airstamp": "2024-04-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040958,
+      "url": "https://www.tvmaze.com/episodes/3040958/new-japan-pro-wrestling-on-axs-tv-2024-04-24-episode-17",
+      "name": "Episode 17",
+      "season": 2024,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2024-04-24",
+      "airtime": "22:00",
+      "airstamp": "2024-04-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040959,
+      "url": "https://www.tvmaze.com/episodes/3040959/new-japan-pro-wrestling-on-axs-tv-2024-05-01-episode-18",
+      "name": "Episode 18",
+      "season": 2024,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2024-05-01",
+      "airtime": "22:00",
+      "airstamp": "2024-05-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040959"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040960,
+      "url": "https://www.tvmaze.com/episodes/3040960/new-japan-pro-wrestling-on-axs-tv-2024-05-08-episode-19",
+      "name": "Episode 19",
+      "season": 2024,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2024-05-08",
+      "airtime": "22:00",
+      "airstamp": "2024-05-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040960"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040961,
+      "url": "https://www.tvmaze.com/episodes/3040961/new-japan-pro-wrestling-on-axs-tv-2024-05-15-episode-20",
+      "name": "Episode 20",
+      "season": 2024,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2024-05-15",
+      "airtime": "22:00",
+      "airstamp": "2024-05-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040961"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040962,
+      "url": "https://www.tvmaze.com/episodes/3040962/new-japan-pro-wrestling-on-axs-tv-2024-05-22-episode-21",
+      "name": "Episode 21",
+      "season": 2024,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2024-05-22",
+      "airtime": "22:00",
+      "airstamp": "2024-05-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040962"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040963,
+      "url": "https://www.tvmaze.com/episodes/3040963/new-japan-pro-wrestling-on-axs-tv-2024-05-29-episode-22",
+      "name": "Episode 22",
+      "season": 2024,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2024-05-29",
+      "airtime": "22:00",
+      "airstamp": "2024-05-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040963"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040964,
+      "url": "https://www.tvmaze.com/episodes/3040964/new-japan-pro-wrestling-on-axs-tv-2024-06-05-episode-23",
+      "name": "Episode 23",
+      "season": 2024,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2024-06-05",
+      "airtime": "22:00",
+      "airstamp": "2024-06-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040964"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040965,
+      "url": "https://www.tvmaze.com/episodes/3040965/new-japan-pro-wrestling-on-axs-tv-2024-06-12-episode-24",
+      "name": "Episode 24",
+      "season": 2024,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2024-06-12",
+      "airtime": "22:00",
+      "airstamp": "2024-06-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040965"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040966,
+      "url": "https://www.tvmaze.com/episodes/3040966/new-japan-pro-wrestling-on-axs-tv-2024-06-19-episode-25",
+      "name": "Episode 25",
+      "season": 2024,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2024-06-19",
+      "airtime": "22:00",
+      "airstamp": "2024-06-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040966"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040967,
+      "url": "https://www.tvmaze.com/episodes/3040967/new-japan-pro-wrestling-on-axs-tv-2024-06-26-episode-26",
+      "name": "Episode 26",
+      "season": 2024,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2024-06-26",
+      "airtime": "22:00",
+      "airstamp": "2024-06-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040967"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040968,
+      "url": "https://www.tvmaze.com/episodes/3040968/new-japan-pro-wrestling-on-axs-tv-2024-07-04-episode-27",
+      "name": "Episode 27",
+      "season": 2024,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2024-07-04",
+      "airtime": "22:00",
+      "airstamp": "2024-07-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040968"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040969,
+      "url": "https://www.tvmaze.com/episodes/3040969/new-japan-pro-wrestling-on-axs-tv-2024-07-11-episode-28",
+      "name": "Episode 28",
+      "season": 2024,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2024-07-11",
+      "airtime": "22:00",
+      "airstamp": "2024-07-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040969"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040970,
+      "url": "https://www.tvmaze.com/episodes/3040970/new-japan-pro-wrestling-on-axs-tv-2024-07-18-episode-29",
+      "name": "Episode 29",
+      "season": 2024,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2024-07-18",
+      "airtime": "22:00",
+      "airstamp": "2024-07-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040970"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040971,
+      "url": "https://www.tvmaze.com/episodes/3040971/new-japan-pro-wrestling-on-axs-tv-2024-07-25-episode-30",
+      "name": "Episode 30",
+      "season": 2024,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2024-07-25",
+      "airtime": "22:00",
+      "airstamp": "2024-07-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040971"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040972,
+      "url": "https://www.tvmaze.com/episodes/3040972/new-japan-pro-wrestling-on-axs-tv-2024-08-01-episode-31",
+      "name": "Episode 31",
+      "season": 2024,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2024-08-01",
+      "airtime": "22:00",
+      "airstamp": "2024-08-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040972"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040973,
+      "url": "https://www.tvmaze.com/episodes/3040973/new-japan-pro-wrestling-on-axs-tv-2024-08-08-episode-32",
+      "name": "Episode 32",
+      "season": 2024,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2024-08-08",
+      "airtime": "22:00",
+      "airstamp": "2024-08-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040973"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040974,
+      "url": "https://www.tvmaze.com/episodes/3040974/new-japan-pro-wrestling-on-axs-tv-2024-08-15-episode-33",
+      "name": "Episode 33",
+      "season": 2024,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2024-08-15",
+      "airtime": "22:00",
+      "airstamp": "2024-08-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040974"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040975,
+      "url": "https://www.tvmaze.com/episodes/3040975/new-japan-pro-wrestling-on-axs-tv-2024-08-22-episode-34",
+      "name": "Episode 34",
+      "season": 2024,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2024-08-22",
+      "airtime": "22:00",
+      "airstamp": "2024-08-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040975"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040976,
+      "url": "https://www.tvmaze.com/episodes/3040976/new-japan-pro-wrestling-on-axs-tv-2024-08-29-episode-35",
+      "name": "Episode 35",
+      "season": 2024,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2024-08-29",
+      "airtime": "22:00",
+      "airstamp": "2024-08-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040976"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040977,
+      "url": "https://www.tvmaze.com/episodes/3040977/new-japan-pro-wrestling-on-axs-tv-2024-09-05-episode-36",
+      "name": "Episode 36",
+      "season": 2024,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2024-09-05",
+      "airtime": "22:00",
+      "airstamp": "2024-09-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040977"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040978,
+      "url": "https://www.tvmaze.com/episodes/3040978/new-japan-pro-wrestling-on-axs-tv-2024-09-12-episode-37",
+      "name": "Episode 37",
+      "season": 2024,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2024-09-12",
+      "airtime": "22:00",
+      "airstamp": "2024-09-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040978"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040979,
+      "url": "https://www.tvmaze.com/episodes/3040979/new-japan-pro-wrestling-on-axs-tv-2024-09-19-episode-38",
+      "name": "Episode 38",
+      "season": 2024,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2024-09-19",
+      "airtime": "22:00",
+      "airstamp": "2024-09-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040979"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040980,
+      "url": "https://www.tvmaze.com/episodes/3040980/new-japan-pro-wrestling-on-axs-tv-2024-09-26-episode-39",
+      "name": "Episode 39",
+      "season": 2024,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2024-09-26",
+      "airtime": "22:00",
+      "airstamp": "2024-09-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040981,
+      "url": "https://www.tvmaze.com/episodes/3040981/new-japan-pro-wrestling-on-axs-tv-2024-10-03-episode-40",
+      "name": "Episode 40",
+      "season": 2024,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2024-10-03",
+      "airtime": "22:00",
+      "airstamp": "2024-10-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040981"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040982,
+      "url": "https://www.tvmaze.com/episodes/3040982/new-japan-pro-wrestling-on-axs-tv-2024-10-10-episode-41",
+      "name": "Episode 41",
+      "season": 2024,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2024-10-10",
+      "airtime": "22:00",
+      "airstamp": "2024-10-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040982"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040983,
+      "url": "https://www.tvmaze.com/episodes/3040983/new-japan-pro-wrestling-on-axs-tv-2024-10-17-episode-42",
+      "name": "Episode 42",
+      "season": 2024,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2024-10-17",
+      "airtime": "22:00",
+      "airstamp": "2024-10-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040983"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040984,
+      "url": "https://www.tvmaze.com/episodes/3040984/new-japan-pro-wrestling-on-axs-tv-2024-10-24-episode-43",
+      "name": "Episode 43",
+      "season": 2024,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2024-10-24",
+      "airtime": "22:00",
+      "airstamp": "2024-10-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040984"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040985,
+      "url": "https://www.tvmaze.com/episodes/3040985/new-japan-pro-wrestling-on-axs-tv-2024-10-31-kopw-24-naito-vs-sabre-jr",
+      "name": "KOPW 24: Naito vs. Sabre Jr.",
+      "season": 2024,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2024-10-31",
+      "airtime": "22:00",
+      "airstamp": "2024-11-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Zack Sabre Jr. defends the IWGP World Heavyweight Championship against SANADA. Hiroshi Tanahashi and Tomohiro Ishii challenge TMDK for the STRONG Openweight Tag Team titles.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040985"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040986,
+      "url": "https://www.tvmaze.com/episodes/3040986/new-japan-pro-wrestling-on-axs-tv-2024-11-07-royal-quest-iv-sabre-jr-vs-sanada",
+      "name": "Royal Quest IV: Sabre Jr. vs. SANADA",
+      "season": 2024,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2024-11-07",
+      "airtime": "22:00",
+      "airstamp": "2024-11-08T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040986"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040987,
+      "url": "https://www.tvmaze.com/episodes/3040987/new-japan-pro-wrestling-on-axs-tv-2024-11-14-power-struggle-24-sabre-jr-vs-takagi",
+      "name": "Power Struggle 24: Sabre Jr. vs. Takagi",
+      "season": 2024,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2024-11-14",
+      "airtime": "22:00",
+      "airstamp": "2024-11-15T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Shingo Takagi challenges Zack Sabre Jr. for the IWGP World Heavyweight Championship. Kenny Omega returns to New Japan.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040987"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040988,
+      "url": "https://www.tvmaze.com/episodes/3040988/new-japan-pro-wrestling-on-axs-tv-2024-11-21-power-struggle-24-finlay-vs-taichi",
+      "name": "Power Struggle 24: Finlay vs. Taichi",
+      "season": 2024,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2024-11-21",
+      "airtime": "22:00",
+      "airstamp": "2024-11-22T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Taichi challenges David Finlay for the IWGP Global Heavyweight Championship. Ichiban Sweet Boys face Catch 2/2 in the finals of the 2024 Super Jr. Tag League tournament.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040988"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040990,
+      "url": "https://www.tvmaze.com/episodes/3040990/new-japan-pro-wrestling-on-axs-tv-2024-12-05-fighting-spirit-unleashed-24-kidd-vs-fujita",
+      "name": "Fighting Spirit Unleashed 24: Kidd vs. Fujita",
+      "season": 2024,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2024-12-05",
+      "airtime": "22:00",
+      "airstamp": "2024-12-06T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Gabe Kidd defends the STRONG Openweight Championship against Kosei Fujita.  Grizzled Young Veterans challenge TMDK for the STRONG Openweight Tag Team titles.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040990"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040991,
+      "url": "https://www.tvmaze.com/episodes/3040991/new-japan-pro-wrestling-on-axs-tv-2024-12-12-historic-x-over-ii",
+      "name": "Historic X-over II",
+      "season": 2024,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2024-12-12",
+      "airtime": "22:00",
+      "airstamp": "2024-12-13T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>El Desperado and Starlight Kid face Zack Sabre Jr. and Maika in mixed tag team action.  Mayu Iwantani defends the IWGP Women's Championship against Momo Watanabe.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040991"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040992,
+      "url": "https://www.tvmaze.com/episodes/3040992/new-japan-pro-wrestling-on-axs-tv-2024-12-19-world-tag-league-2024-final",
+      "name": "World Tag League 2024 Final",
+      "season": 2024,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2024-12-19",
+      "airtime": "22:00",
+      "airstamp": "2024-12-20T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>LIJ's Tetsuya Naito and Hiromu Takahashi face Bullet Club War Dogs' Gabe Kidd and SANADA in the finals of World Tag League 2024.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040992"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    },
+    {
+      "id": 3040993,
+      "url": "https://www.tvmaze.com/episodes/3040993/new-japan-pro-wrestling-on-axs-tv-2024-12-26-episode-52",
+      "name": "Episode 52",
+      "season": 2024,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2024-12-26",
+      "airtime": "22:00",
+      "airstamp": "2024-12-27T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3040993"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2515",
+          "name": "New Japan Pro Wrestling on AXS TV"
+        }
+      }
+    }
+  ]
+}

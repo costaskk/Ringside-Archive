@@ -1,0 +1,6093 @@
+{
+  "programId": "tna-ppv",
+  "tvMazeId": 80684,
+  "fetchedAt": "2026-07-27T07:57:32.482Z",
+  "show": {
+    "id": 80684,
+    "url": "https://www.tvmaze.com/shows/80684/tna-ppv",
+    "name": "TNA PPV",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": 180,
+    "averageRuntime": 180,
+    "premiered": "2004-11-07",
+    "ended": null,
+    "officialSite": "https://watch.tnawrestling.com/section/Pay-Per-Views",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 36,
+    "network": {
+      "id": 138,
+      "name": "Pay-Per-View",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365166.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365166.jpg"
+    },
+    "summary": "<p>Binge on classic and current IMPACT Wrestling pay-per-views, dating all the way back to the first three-hour extravaganza in 2004!</p>",
+    "updated": 1752111953,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/80684"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3299375",
+        "name": "Victory Road"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 3047401,
+      "url": "https://www.tvmaze.com/episodes/3047401/tna-ppv-2004-11-07-victory-road",
+      "name": "Victory Road",
+      "season": 2004,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2004-11-07",
+      "airtime": "",
+      "airstamp": "2004-11-07T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047401"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047402,
+      "url": "https://www.tvmaze.com/episodes/3047402/tna-ppv-2004-12-05-turning-point",
+      "name": "Turning Point",
+      "season": 2004,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2004-12-05",
+      "airtime": "",
+      "airstamp": "2004-12-05T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047402"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047403,
+      "url": "https://www.tvmaze.com/episodes/3047403/tna-ppv-2005-01-16-final-resolution",
+      "name": "Final Resolution",
+      "season": 2005,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2005-01-16",
+      "airtime": "",
+      "airstamp": "2005-01-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047403"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047404,
+      "url": "https://www.tvmaze.com/episodes/3047404/tna-ppv-2005-02-13-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2005,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2005-02-13",
+      "airtime": "",
+      "airstamp": "2005-02-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047404"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047570,
+      "url": "https://www.tvmaze.com/episodes/3047570/tna-ppv-2005-03-15-destination-x",
+      "name": "Destination-X",
+      "season": 2005,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2005-03-15",
+      "airtime": "",
+      "airstamp": "2005-03-15T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047570"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047571,
+      "url": "https://www.tvmaze.com/episodes/3047571/tna-ppv-2005-04-24-lockdown",
+      "name": "Lockdown",
+      "season": 2005,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2005-04-24",
+      "airtime": "",
+      "airstamp": "2005-04-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047571"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047572,
+      "url": "https://www.tvmaze.com/episodes/3047572/tna-ppv-2005-05-15-hard-justice",
+      "name": "Hard Justice",
+      "season": 2005,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2005-05-15",
+      "airtime": "",
+      "airstamp": "2005-05-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047572"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047573,
+      "url": "https://www.tvmaze.com/episodes/3047573/tna-ppv-2005-06-19-slammiversary",
+      "name": "Slammiversary",
+      "season": 2005,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2005-06-19",
+      "airtime": "",
+      "airstamp": "2005-06-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047574,
+      "url": "https://www.tvmaze.com/episodes/3047574/tna-ppv-2005-07-17-no-surrender",
+      "name": "No Surrender",
+      "season": 2005,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2005-07-17",
+      "airtime": "",
+      "airstamp": "2005-07-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047575,
+      "url": "https://www.tvmaze.com/episodes/3047575/tna-ppv-2005-08-14-sacrifice",
+      "name": "Sacrifice",
+      "season": 2005,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2005-08-14",
+      "airtime": "",
+      "airstamp": "2005-08-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047575"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047576,
+      "url": "https://www.tvmaze.com/episodes/3047576/tna-ppv-2005-09-11-unbreakable",
+      "name": "Unbreakable",
+      "season": 2005,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2005-09-11",
+      "airtime": "",
+      "airstamp": "2005-09-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047576"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047577,
+      "url": "https://www.tvmaze.com/episodes/3047577/tna-ppv-2005-10-23-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2005,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2005-10-23",
+      "airtime": "",
+      "airstamp": "2005-10-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047577"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047578,
+      "url": "https://www.tvmaze.com/episodes/3047578/tna-ppv-2005-11-13-genesis",
+      "name": "Genesis",
+      "season": 2005,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2005-11-13",
+      "airtime": "",
+      "airstamp": "2005-11-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047578"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3047579,
+      "url": "https://www.tvmaze.com/episodes/3047579/tna-ppv-2005-12-11-turning-point",
+      "name": "Turning Point",
+      "season": 2005,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2005-12-11",
+      "airtime": "",
+      "airstamp": "2005-12-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3047579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048627,
+      "url": "https://www.tvmaze.com/episodes/3048627/tna-ppv-2006-01-15-final-resolution",
+      "name": "Final Resolution",
+      "season": 2006,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2006-01-15",
+      "airtime": "",
+      "airstamp": "2006-01-15T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048627"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048628,
+      "url": "https://www.tvmaze.com/episodes/3048628/tna-ppv-2006-02-12-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2006,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2006-02-12",
+      "airtime": "",
+      "airstamp": "2006-02-12T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048628"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048629,
+      "url": "https://www.tvmaze.com/episodes/3048629/tna-ppv-2006-03-12-destination-x",
+      "name": "Destination X",
+      "season": 2006,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2006-03-12",
+      "airtime": "",
+      "airstamp": "2006-03-12T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048629"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048630,
+      "url": "https://www.tvmaze.com/episodes/3048630/tna-ppv-2006-04-23-lockdown",
+      "name": "Lockdown",
+      "season": 2006,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2006-04-23",
+      "airtime": "",
+      "airstamp": "2006-04-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048631,
+      "url": "https://www.tvmaze.com/episodes/3048631/tna-ppv-2006-05-14-sacrifice",
+      "name": "Sacrifice",
+      "season": 2006,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2006-05-14",
+      "airtime": "",
+      "airstamp": "2006-05-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048632,
+      "url": "https://www.tvmaze.com/episodes/3048632/tna-ppv-2006-06-18-slammiversary",
+      "name": "Slammiversary",
+      "season": 2006,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2006-06-18",
+      "airtime": "",
+      "airstamp": "2006-06-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048633,
+      "url": "https://www.tvmaze.com/episodes/3048633/tna-ppv-2006-07-16-victory-road",
+      "name": "Victory Road",
+      "season": 2006,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2006-07-16",
+      "airtime": "",
+      "airstamp": "2006-07-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048634,
+      "url": "https://www.tvmaze.com/episodes/3048634/tna-ppv-2006-08-13-hard-justice",
+      "name": "Hard Justice",
+      "season": 2006,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2006-08-13",
+      "airtime": "",
+      "airstamp": "2006-08-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048635,
+      "url": "https://www.tvmaze.com/episodes/3048635/tna-ppv-2006-09-24-no-surrender",
+      "name": "No Surrender",
+      "season": 2006,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2006-09-24",
+      "airtime": "",
+      "airstamp": "2006-09-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048635"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048636,
+      "url": "https://www.tvmaze.com/episodes/3048636/tna-ppv-2006-10-22-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2006,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2006-10-22",
+      "airtime": "",
+      "airstamp": "2006-10-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048637,
+      "url": "https://www.tvmaze.com/episodes/3048637/tna-ppv-2006-11-19-genesis",
+      "name": "Genesis",
+      "season": 2006,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2006-11-19",
+      "airtime": "",
+      "airstamp": "2006-11-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048637"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048638,
+      "url": "https://www.tvmaze.com/episodes/3048638/tna-ppv-2006-12-10-turning-point",
+      "name": "Turning Point",
+      "season": 2006,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2006-12-10",
+      "airtime": "",
+      "airstamp": "2006-12-10T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048639,
+      "url": "https://www.tvmaze.com/episodes/3048639/tna-ppv-2007-01-14-final-resolution",
+      "name": "Final Resolution",
+      "season": 2007,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2007-01-14",
+      "airtime": "",
+      "airstamp": "2007-01-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048640,
+      "url": "https://www.tvmaze.com/episodes/3048640/tna-ppv-2007-02-11-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2007,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2007-02-11",
+      "airtime": "",
+      "airstamp": "2007-02-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048641,
+      "url": "https://www.tvmaze.com/episodes/3048641/tna-ppv-2007-03-11-destination-x",
+      "name": "Destination X",
+      "season": 2007,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2007-03-11",
+      "airtime": "",
+      "airstamp": "2007-03-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048641"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048643,
+      "url": "https://www.tvmaze.com/episodes/3048643/tna-ppv-2007-04-15-lockdown",
+      "name": "Lockdown",
+      "season": 2007,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2007-04-15",
+      "airtime": "",
+      "airstamp": "2007-04-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048644,
+      "url": "https://www.tvmaze.com/episodes/3048644/tna-ppv-2007-05-13-sacrifice",
+      "name": "Sacrifice",
+      "season": 2007,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2007-05-13",
+      "airtime": "",
+      "airstamp": "2007-05-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048645,
+      "url": "https://www.tvmaze.com/episodes/3048645/tna-ppv-2007-06-17-slammiversary",
+      "name": "Slammiversary",
+      "season": 2007,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2007-06-17",
+      "airtime": "",
+      "airstamp": "2007-06-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048646,
+      "url": "https://www.tvmaze.com/episodes/3048646/tna-ppv-2007-07-15-victory-road",
+      "name": "Victory Road",
+      "season": 2007,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2007-07-15",
+      "airtime": "",
+      "airstamp": "2007-07-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048646"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048647,
+      "url": "https://www.tvmaze.com/episodes/3048647/tna-ppv-2007-08-12-hard-justice",
+      "name": "Hard Justice",
+      "season": 2007,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2007-08-12",
+      "airtime": "",
+      "airstamp": "2007-08-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048647"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048648,
+      "url": "https://www.tvmaze.com/episodes/3048648/tna-ppv-2007-09-09-no-surrender",
+      "name": "No Surrender",
+      "season": 2007,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2007-09-09",
+      "airtime": "",
+      "airstamp": "2007-09-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048648"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048649,
+      "url": "https://www.tvmaze.com/episodes/3048649/tna-ppv-2007-10-14-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2007,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2007-10-14",
+      "airtime": "",
+      "airstamp": "2007-10-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048650,
+      "url": "https://www.tvmaze.com/episodes/3048650/tna-ppv-2007-11-11-genesis",
+      "name": "Genesis",
+      "season": 2007,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2007-11-11",
+      "airtime": "",
+      "airstamp": "2007-11-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048651,
+      "url": "https://www.tvmaze.com/episodes/3048651/tna-ppv-2007-12-02-turning-point",
+      "name": "Turning Point",
+      "season": 2007,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2007-12-02",
+      "airtime": "",
+      "airstamp": "2007-12-02T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048651"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048652,
+      "url": "https://www.tvmaze.com/episodes/3048652/tna-ppv-2008-01-06-final-resolution",
+      "name": "Final Resolution",
+      "season": 2008,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2008-01-06",
+      "airtime": "",
+      "airstamp": "2008-01-06T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048653,
+      "url": "https://www.tvmaze.com/episodes/3048653/tna-ppv-2008-02-10-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2008,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2008-02-10",
+      "airtime": "",
+      "airstamp": "2008-02-10T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048654,
+      "url": "https://www.tvmaze.com/episodes/3048654/tna-ppv-2008-03-09-destination-x",
+      "name": "Destination X",
+      "season": 2008,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2008-03-09",
+      "airtime": "",
+      "airstamp": "2008-03-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048655,
+      "url": "https://www.tvmaze.com/episodes/3048655/tna-ppv-2008-04-13-lockdown",
+      "name": "Lockdown",
+      "season": 2008,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2008-04-13",
+      "airtime": "",
+      "airstamp": "2008-04-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048656,
+      "url": "https://www.tvmaze.com/episodes/3048656/tna-ppv-2008-05-11-sacrifice",
+      "name": "Sacrifice",
+      "season": 2008,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2008-05-11",
+      "airtime": "",
+      "airstamp": "2008-05-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048769,
+      "url": "https://www.tvmaze.com/episodes/3048769/tna-ppv-2008-06-08-slammiversary",
+      "name": "Slammiversary",
+      "season": 2008,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2008-06-08",
+      "airtime": "",
+      "airstamp": "2008-06-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048769"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048770,
+      "url": "https://www.tvmaze.com/episodes/3048770/tna-ppv-2008-07-13-victory-road",
+      "name": "Victory Road",
+      "season": 2008,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2008-07-13",
+      "airtime": "",
+      "airstamp": "2008-07-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048770"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048771,
+      "url": "https://www.tvmaze.com/episodes/3048771/tna-ppv-2008-08-10-hard-justice",
+      "name": "Hard Justice",
+      "season": 2008,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2008-08-10",
+      "airtime": "",
+      "airstamp": "2008-08-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048771"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048772,
+      "url": "https://www.tvmaze.com/episodes/3048772/tna-ppv-2008-09-14-no-surrender",
+      "name": "No Surrender",
+      "season": 2008,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2008-09-14",
+      "airtime": "",
+      "airstamp": "2008-09-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048772"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048773,
+      "url": "https://www.tvmaze.com/episodes/3048773/tna-ppv-2008-10-12-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2008,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2008-10-12",
+      "airtime": "",
+      "airstamp": "2008-10-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048773"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048774,
+      "url": "https://www.tvmaze.com/episodes/3048774/tna-ppv-2008-11-09-turning-point",
+      "name": "Turning Point",
+      "season": 2008,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2008-11-09",
+      "airtime": "",
+      "airstamp": "2008-11-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048774"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048775,
+      "url": "https://www.tvmaze.com/episodes/3048775/tna-ppv-2008-12-07-final-resolution",
+      "name": "Final Resolution",
+      "season": 2008,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2008-12-07",
+      "airtime": "",
+      "airstamp": "2008-12-07T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048775"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048776,
+      "url": "https://www.tvmaze.com/episodes/3048776/tna-ppv-2009-01-11-genesis",
+      "name": "Genesis",
+      "season": 2009,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2009-01-11",
+      "airtime": "",
+      "airstamp": "2009-01-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048776"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048777,
+      "url": "https://www.tvmaze.com/episodes/3048777/tna-ppv-2009-02-08-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2009,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2009-02-08",
+      "airtime": "",
+      "airstamp": "2009-02-08T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048777"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048778,
+      "url": "https://www.tvmaze.com/episodes/3048778/tna-ppv-2009-03-15-destination-x",
+      "name": "Destination-X",
+      "season": 2009,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2009-03-15",
+      "airtime": "",
+      "airstamp": "2009-03-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048778"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048779,
+      "url": "https://www.tvmaze.com/episodes/3048779/tna-ppv-2009-04-19-lockdown",
+      "name": "Lockdown",
+      "season": 2009,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2009-04-19",
+      "airtime": "",
+      "airstamp": "2009-04-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048779"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048780,
+      "url": "https://www.tvmaze.com/episodes/3048780/tna-ppv-2009-05-24-sacrifice",
+      "name": "Sacrifice",
+      "season": 2009,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2009-05-24",
+      "airtime": "",
+      "airstamp": "2009-05-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048780"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048781,
+      "url": "https://www.tvmaze.com/episodes/3048781/tna-ppv-2009-06-21-slammiversary",
+      "name": "Slammiversary",
+      "season": 2009,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2009-06-21",
+      "airtime": "",
+      "airstamp": "2009-06-21T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048781"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048782,
+      "url": "https://www.tvmaze.com/episodes/3048782/tna-ppv-2009-07-19-victory-road",
+      "name": "Victory Road",
+      "season": 2009,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2009-07-19",
+      "airtime": "",
+      "airstamp": "2009-07-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048782"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048783,
+      "url": "https://www.tvmaze.com/episodes/3048783/tna-ppv-2009-08-16-hard-justice",
+      "name": "Hard Justice",
+      "season": 2009,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2009-08-16",
+      "airtime": "",
+      "airstamp": "2009-08-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048783"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048784,
+      "url": "https://www.tvmaze.com/episodes/3048784/tna-ppv-2009-09-20-no-surrender",
+      "name": "No Surrender",
+      "season": 2009,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2009-09-20",
+      "airtime": "",
+      "airstamp": "2009-09-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048784"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048785,
+      "url": "https://www.tvmaze.com/episodes/3048785/tna-ppv-2009-10-18-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2009,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2009-10-18",
+      "airtime": "",
+      "airstamp": "2009-10-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048785"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048786,
+      "url": "https://www.tvmaze.com/episodes/3048786/tna-ppv-2009-11-15-turning-point",
+      "name": "Turning Point",
+      "season": 2009,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2009-11-15",
+      "airtime": "",
+      "airstamp": "2009-11-15T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048786"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048787,
+      "url": "https://www.tvmaze.com/episodes/3048787/tna-ppv-2009-12-20-final-resolution",
+      "name": "Final Resolution",
+      "season": 2009,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2009-12-20",
+      "airtime": "",
+      "airstamp": "2009-12-20T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048787"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048788,
+      "url": "https://www.tvmaze.com/episodes/3048788/tna-ppv-2010-01-17-genesis",
+      "name": "Genesis",
+      "season": 2010,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2010-01-17",
+      "airtime": "",
+      "airstamp": "2010-01-17T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048788"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048789,
+      "url": "https://www.tvmaze.com/episodes/3048789/tna-ppv-2010-02-14-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2010,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2010-02-14",
+      "airtime": "",
+      "airstamp": "2010-02-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048789"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048790,
+      "url": "https://www.tvmaze.com/episodes/3048790/tna-ppv-2010-03-21-destination-x",
+      "name": "Destination-X",
+      "season": 2010,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2010-03-21",
+      "airtime": "",
+      "airstamp": "2010-03-21T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048790"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048791,
+      "url": "https://www.tvmaze.com/episodes/3048791/tna-ppv-2010-04-18-lockdown",
+      "name": "Lockdown",
+      "season": 2010,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2010-04-18",
+      "airtime": "",
+      "airstamp": "2010-04-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048791"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048792,
+      "url": "https://www.tvmaze.com/episodes/3048792/tna-ppv-2010-05-16-sacrifice",
+      "name": "Sacrifice",
+      "season": 2010,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2010-05-16",
+      "airtime": "",
+      "airstamp": "2010-05-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048792"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048793,
+      "url": "https://www.tvmaze.com/episodes/3048793/tna-ppv-2010-06-13-slammiversary",
+      "name": "Slammiversary",
+      "season": 2010,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2010-06-13",
+      "airtime": "",
+      "airstamp": "2010-06-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048793"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048794,
+      "url": "https://www.tvmaze.com/episodes/3048794/tna-ppv-2010-07-11-victory-road",
+      "name": "Victory Road",
+      "season": 2010,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2010-07-11",
+      "airtime": "",
+      "airstamp": "2010-07-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048794"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048795,
+      "url": "https://www.tvmaze.com/episodes/3048795/tna-ppv-2010-08-08-hardcore-justice",
+      "name": "Hardcore Justice",
+      "season": 2010,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2010-08-08",
+      "airtime": "",
+      "airstamp": "2010-08-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048795"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048796,
+      "url": "https://www.tvmaze.com/episodes/3048796/tna-ppv-2010-09-05-no-surrender",
+      "name": "No Surrender",
+      "season": 2010,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2010-09-05",
+      "airtime": "",
+      "airstamp": "2010-09-05T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048796"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048797,
+      "url": "https://www.tvmaze.com/episodes/3048797/tna-ppv-2010-10-10-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2010,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2010-10-10",
+      "airtime": "",
+      "airstamp": "2010-10-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048797"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048798,
+      "url": "https://www.tvmaze.com/episodes/3048798/tna-ppv-2010-11-07-turning-point",
+      "name": "Turning Point",
+      "season": 2010,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2010-11-07",
+      "airtime": "",
+      "airstamp": "2010-11-07T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048798"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048799,
+      "url": "https://www.tvmaze.com/episodes/3048799/tna-ppv-2010-12-05-final-resolution",
+      "name": "Final Resolution",
+      "season": 2010,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2010-12-05",
+      "airtime": "",
+      "airstamp": "2010-12-05T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048799"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048800,
+      "url": "https://www.tvmaze.com/episodes/3048800/tna-ppv-2011-01-09-genesis",
+      "name": "Genesis",
+      "season": 2011,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2011-01-09",
+      "airtime": "",
+      "airstamp": "2011-01-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048800"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048801,
+      "url": "https://www.tvmaze.com/episodes/3048801/tna-ppv-2011-02-13-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2011,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2011-02-13",
+      "airtime": "",
+      "airstamp": "2011-02-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048801"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048802,
+      "url": "https://www.tvmaze.com/episodes/3048802/tna-ppv-2011-02-24-global-impact-3",
+      "name": "Global Impact 3",
+      "season": 2011,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2011-02-24",
+      "airtime": "",
+      "airstamp": "2011-02-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048802"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048803,
+      "url": "https://www.tvmaze.com/episodes/3048803/tna-ppv-2011-03-13-victory-road",
+      "name": "Victory Road",
+      "season": 2011,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2011-03-13",
+      "airtime": "",
+      "airstamp": "2011-03-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048803"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048804,
+      "url": "https://www.tvmaze.com/episodes/3048804/tna-ppv-2011-04-17-lockdown",
+      "name": "Lockdown",
+      "season": 2011,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2011-04-17",
+      "airtime": "",
+      "airstamp": "2011-04-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048804"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048805,
+      "url": "https://www.tvmaze.com/episodes/3048805/tna-ppv-2011-05-15-sacrifice",
+      "name": "Sacrifice",
+      "season": 2011,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2011-05-15",
+      "airtime": "",
+      "airstamp": "2011-05-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048805"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048807,
+      "url": "https://www.tvmaze.com/episodes/3048807/tna-ppv-2011-06-12-slammiversary",
+      "name": "Slammiversary",
+      "season": 2011,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2011-06-12",
+      "airtime": "",
+      "airstamp": "2011-06-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048807"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048808,
+      "url": "https://www.tvmaze.com/episodes/3048808/tna-ppv-2011-07-10-destination-x",
+      "name": "Destination-X",
+      "season": 2011,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2011-07-10",
+      "airtime": "",
+      "airstamp": "2011-07-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048808"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048809,
+      "url": "https://www.tvmaze.com/episodes/3048809/tna-ppv-2011-08-07-hardcore-justice",
+      "name": "Hardcore Justice",
+      "season": 2011,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2011-08-07",
+      "airtime": "",
+      "airstamp": "2011-08-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048809"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048810,
+      "url": "https://www.tvmaze.com/episodes/3048810/tna-ppv-2011-09-11-no-surrender",
+      "name": "No Surrender",
+      "season": 2011,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2011-09-11",
+      "airtime": "",
+      "airstamp": "2011-09-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048810"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048811,
+      "url": "https://www.tvmaze.com/episodes/3048811/tna-ppv-2011-10-16-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2011,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2011-10-16",
+      "airtime": "",
+      "airstamp": "2011-10-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048811"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048812,
+      "url": "https://www.tvmaze.com/episodes/3048812/tna-ppv-2011-11-13-turning-point",
+      "name": "Turning Point",
+      "season": 2011,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2011-11-13",
+      "airtime": "",
+      "airstamp": "2011-11-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048812"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048813,
+      "url": "https://www.tvmaze.com/episodes/3048813/tna-ppv-2011-12-11-final-resolution",
+      "name": "Final Resolution",
+      "season": 2011,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2011-12-11",
+      "airtime": "",
+      "airstamp": "2011-12-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048813"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048814,
+      "url": "https://www.tvmaze.com/episodes/3048814/tna-ppv-2012-01-08-genesis",
+      "name": "Genesis",
+      "season": 2012,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2012-01-08",
+      "airtime": "",
+      "airstamp": "2012-01-08T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048814"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048816,
+      "url": "https://www.tvmaze.com/episodes/3048816/tna-ppv-2012-02-12-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2012,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2012-02-12",
+      "airtime": "",
+      "airstamp": "2012-02-12T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048816"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048817,
+      "url": "https://www.tvmaze.com/episodes/3048817/tna-ppv-2012-03-18-victory-road",
+      "name": "Victory Road",
+      "season": 2012,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2012-03-18",
+      "airtime": "",
+      "airstamp": "2012-03-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048817"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048818,
+      "url": "https://www.tvmaze.com/episodes/3048818/tna-ppv-2012-04-15-lockdown",
+      "name": "Lockdown",
+      "season": 2012,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2012-04-15",
+      "airtime": "",
+      "airstamp": "2012-04-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048818"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048819,
+      "url": "https://www.tvmaze.com/episodes/3048819/tna-ppv-2012-05-13-sacrifice",
+      "name": "Sacrifice",
+      "season": 2012,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2012-05-13",
+      "airtime": "",
+      "airstamp": "2012-05-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048819"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048820,
+      "url": "https://www.tvmaze.com/episodes/3048820/tna-ppv-2012-06-10-slammiversary",
+      "name": "Slammiversary",
+      "season": 2012,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2012-06-10",
+      "airtime": "",
+      "airstamp": "2012-06-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048820"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048821,
+      "url": "https://www.tvmaze.com/episodes/3048821/tna-ppv-2012-07-08-destination-x",
+      "name": "Destination-X",
+      "season": 2012,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2012-07-08",
+      "airtime": "",
+      "airstamp": "2012-07-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048821"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048822,
+      "url": "https://www.tvmaze.com/episodes/3048822/tna-ppv-2012-08-12-hardcore-justice",
+      "name": "Hardcore Justice",
+      "season": 2012,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2012-08-12",
+      "airtime": "",
+      "airstamp": "2012-08-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048822"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048823,
+      "url": "https://www.tvmaze.com/episodes/3048823/tna-ppv-2012-09-09-no-surrender",
+      "name": "No Surrender",
+      "season": 2012,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2012-09-09",
+      "airtime": "",
+      "airstamp": "2012-09-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048823"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048824,
+      "url": "https://www.tvmaze.com/episodes/3048824/tna-ppv-2012-10-14-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2012,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2012-10-14",
+      "airtime": "",
+      "airstamp": "2012-10-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048824"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048825,
+      "url": "https://www.tvmaze.com/episodes/3048825/tna-ppv-2012-11-11-turning-point",
+      "name": "Turning Point",
+      "season": 2012,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2012-11-11",
+      "airtime": "",
+      "airstamp": "2012-11-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048825"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048826,
+      "url": "https://www.tvmaze.com/episodes/3048826/tna-ppv-2012-12-09-final-resolution",
+      "name": "Final Resolution",
+      "season": 2012,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2012-12-09",
+      "airtime": "",
+      "airstamp": "2012-12-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048826"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048827,
+      "url": "https://www.tvmaze.com/episodes/3048827/tna-ppv-2013-01-13-genesis",
+      "name": "Genesis",
+      "season": 2013,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2013-01-13",
+      "airtime": "",
+      "airstamp": "2013-01-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048827"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048828,
+      "url": "https://www.tvmaze.com/episodes/3048828/tna-ppv-2013-03-10-lockdown",
+      "name": "Lockdown",
+      "season": 2013,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2013-03-10",
+      "airtime": "",
+      "airstamp": "2013-03-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048828"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048829,
+      "url": "https://www.tvmaze.com/episodes/3048829/tna-ppv-2013-06-02-slammiversary",
+      "name": "Slammiversary",
+      "season": 2013,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2013-06-02",
+      "airtime": "",
+      "airstamp": "2013-06-02T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048829"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048830,
+      "url": "https://www.tvmaze.com/episodes/3048830/tna-ppv-2013-10-20-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2013,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2013-10-20",
+      "airtime": "",
+      "airstamp": "2013-10-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048830"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048831,
+      "url": "https://www.tvmaze.com/episodes/3048831/tna-ppv-2014-03-09-lockdown",
+      "name": "Lockdown",
+      "season": 2014,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2014-03-09",
+      "airtime": "",
+      "airstamp": "2014-03-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048831"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048833,
+      "url": "https://www.tvmaze.com/episodes/3048833/tna-ppv-2014-04-27-sacrifice",
+      "name": "Sacrifice",
+      "season": 2014,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2014-04-27",
+      "airtime": "",
+      "airstamp": "2014-04-27T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048833"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048834,
+      "url": "https://www.tvmaze.com/episodes/3048834/tna-ppv-2014-06-15-slammiversary",
+      "name": "Slammiversary",
+      "season": 2014,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2014-06-15",
+      "airtime": "",
+      "airstamp": "2014-06-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048834"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048835,
+      "url": "https://www.tvmaze.com/episodes/3048835/tna-ppv-2014-10-12-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2014,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2014-10-12",
+      "airtime": "",
+      "airstamp": "2014-10-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048835"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048836,
+      "url": "https://www.tvmaze.com/episodes/3048836/tna-ppv-2015-06-28-slammiversary",
+      "name": "Slammiversary",
+      "season": 2015,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2015-06-28",
+      "airtime": "",
+      "airstamp": "2015-06-28T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048836"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048837,
+      "url": "https://www.tvmaze.com/episodes/3048837/tna-ppv-2015-10-04-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2015,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2015-10-04",
+      "airtime": "",
+      "airstamp": "2015-10-04T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048837"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048838,
+      "url": "https://www.tvmaze.com/episodes/3048838/tna-ppv-2016-06-12-slammiversary",
+      "name": "Slammiversary",
+      "season": 2016,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-06-12",
+      "airtime": "",
+      "airstamp": "2016-06-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048838"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048839,
+      "url": "https://www.tvmaze.com/episodes/3048839/tna-ppv-2016-10-02-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2016,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-10-02",
+      "airtime": "",
+      "airstamp": "2016-10-02T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048839"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048840,
+      "url": "https://www.tvmaze.com/episodes/3048840/tna-ppv-2017-07-02-slammiversary",
+      "name": "Slammiversary",
+      "season": 2017,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2017-07-02",
+      "airtime": "",
+      "airstamp": "2017-07-02T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048840"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048841,
+      "url": "https://www.tvmaze.com/episodes/3048841/tna-ppv-2017-11-05-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2017,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2017-11-05",
+      "airtime": "",
+      "airstamp": "2017-11-05T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048841"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048842,
+      "url": "https://www.tvmaze.com/episodes/3048842/tna-ppv-2018-01-18-barbed-wire-massacre-iii",
+      "name": "Barbed Wire Massacre III",
+      "season": 2018,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-01-18",
+      "airtime": "",
+      "airstamp": "2018-01-18T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048842"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048843,
+      "url": "https://www.tvmaze.com/episodes/3048843/tna-ppv-2018-02-09-brace-for-impact",
+      "name": "Brace for Impact",
+      "season": 2018,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-02-09",
+      "airtime": "",
+      "airstamp": "2018-02-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048843"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048844,
+      "url": "https://www.tvmaze.com/episodes/3048844/tna-ppv-2018-03-09-last-chancery",
+      "name": "Last Chancery",
+      "season": 2018,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-03-09",
+      "airtime": "",
+      "airstamp": "2018-03-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048844"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048845,
+      "url": "https://www.tvmaze.com/episodes/3048845/tna-ppv-2018-04-06-impact-wrestling-vs-lucha-underground",
+      "name": "Impact Wrestling vs. Lucha Underground",
+      "season": 2018,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-04-06",
+      "airtime": "",
+      "airstamp": "2018-04-06T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048845"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048846,
+      "url": "https://www.tvmaze.com/episodes/3048846/tna-ppv-2018-04-22-redemption",
+      "name": "Redemption",
+      "season": 2018,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-04-22",
+      "airtime": "",
+      "airstamp": "2018-04-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048846"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048847,
+      "url": "https://www.tvmaze.com/episodes/3048847/tna-ppv-2018-05-05-penta-does-iowa",
+      "name": "Penta Does Iowa",
+      "season": 2018,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-05-05",
+      "airtime": "",
+      "airstamp": "2018-05-05T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048847"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048848,
+      "url": "https://www.tvmaze.com/episodes/3048848/tna-ppv-2018-07-07-rise-of-the-knockouts",
+      "name": "Rise of the Knockouts",
+      "season": 2018,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2018-07-07",
+      "airtime": "",
+      "airstamp": "2018-07-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048848"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048849,
+      "url": "https://www.tvmaze.com/episodes/3048849/tna-ppv-2018-07-22-slammiversary-xvi",
+      "name": "Slammiversary XVI",
+      "season": 2018,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2018-07-22",
+      "airtime": "",
+      "airstamp": "2018-07-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048849"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048850,
+      "url": "https://www.tvmaze.com/episodes/3048850/tna-ppv-2018-07-29-confrontation",
+      "name": "Confrontation",
+      "season": 2018,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2018-07-29",
+      "airtime": "",
+      "airstamp": "2018-07-29T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048850"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048851,
+      "url": "https://www.tvmaze.com/episodes/3048851/tna-ppv-2018-08-19-uncivil-war",
+      "name": "Uncivil War",
+      "season": 2018,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2018-08-19",
+      "airtime": "",
+      "airstamp": "2018-08-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048851"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048852,
+      "url": "https://www.tvmaze.com/episodes/3048852/tna-ppv-2018-09-09-impact-wrestling-vs-the-uk",
+      "name": "Impact Wrestling vs. The UK",
+      "season": 2018,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2018-09-09",
+      "airtime": "",
+      "airstamp": "2018-09-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048852"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048853,
+      "url": "https://www.tvmaze.com/episodes/3048853/tna-ppv-2018-10-07-motown-showdown",
+      "name": "Motown Showdown",
+      "season": 2018,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2018-10-07",
+      "airtime": "",
+      "airstamp": "2018-10-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048853"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048854,
+      "url": "https://www.tvmaze.com/episodes/3048854/tna-ppv-2018-10-14-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2018,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2018-10-14",
+      "airtime": "",
+      "airstamp": "2018-10-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048854"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048855,
+      "url": "https://www.tvmaze.com/episodes/3048855/tna-ppv-2018-11-30-gold-rush",
+      "name": "Gold Rush",
+      "season": 2018,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2018-11-30",
+      "airtime": "",
+      "airstamp": "2018-11-30T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048855"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048858,
+      "url": "https://www.tvmaze.com/episodes/3048858/tna-ppv-2018-12-14-ohio-vs-everything",
+      "name": "Ohio vs. Everything",
+      "season": 2018,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2018-12-14",
+      "airtime": "",
+      "airstamp": "2018-12-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048858"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048859,
+      "url": "https://www.tvmaze.com/episodes/3048859/tna-ppv-2019-01-06-homecoming",
+      "name": "Homecoming",
+      "season": 2019,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-01-06",
+      "airtime": "",
+      "airstamp": "2019-01-06T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048859"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048860,
+      "url": "https://www.tvmaze.com/episodes/3048860/tna-ppv-2019-01-26-battle-of-brooklyn",
+      "name": "Battle of Brooklyn",
+      "season": 2019,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-01-26",
+      "airtime": "",
+      "airstamp": "2019-01-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048860"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048861,
+      "url": "https://www.tvmaze.com/episodes/3048861/tna-ppv-2019-02-02-brace-for-impact",
+      "name": "Brace for Impact",
+      "season": 2019,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-02-02",
+      "airtime": "",
+      "airstamp": "2019-02-02T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048861"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048862,
+      "url": "https://www.tvmaze.com/episodes/3048862/tna-ppv-2019-03-02-opening-day",
+      "name": "Opening Day",
+      "season": 2019,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-03-02",
+      "airtime": "",
+      "airstamp": "2019-03-02T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048862"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048863,
+      "url": "https://www.tvmaze.com/episodes/3048863/tna-ppv-2019-04-04-united-we-stand",
+      "name": "United We Stand",
+      "season": 2019,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-04-04",
+      "airtime": "",
+      "airstamp": "2019-04-04T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048863"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048864,
+      "url": "https://www.tvmaze.com/episodes/3048864/tna-ppv-2019-04-13-critical-transformation",
+      "name": "Critical Transformation",
+      "season": 2019,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-04-13",
+      "airtime": "",
+      "airstamp": "2019-04-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048864"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048865,
+      "url": "https://www.tvmaze.com/episodes/3048865/tna-ppv-2019-04-28-rebellion",
+      "name": "Rebellion",
+      "season": 2019,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-04-28",
+      "airtime": "",
+      "airstamp": "2019-04-28T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048865"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048866,
+      "url": "https://www.tvmaze.com/episodes/3048866/tna-ppv-2019-05-05-code-red",
+      "name": "Code Red",
+      "season": 2019,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-05-05",
+      "airtime": "",
+      "airstamp": "2019-05-05T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048866"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048867,
+      "url": "https://www.tvmaze.com/episodes/3048867/tna-ppv-2019-05-11-salute-to-the-troops",
+      "name": "Salute to the Troops",
+      "season": 2019,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2019-05-11",
+      "airtime": "",
+      "airstamp": "2019-05-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048867"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048868,
+      "url": "https://www.tvmaze.com/episodes/3048868/tna-ppv-2019-06-08-a-night-you-cant-mist",
+      "name": "A Night You Can't Mist",
+      "season": 2019,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2019-06-08",
+      "airtime": "",
+      "airstamp": "2019-06-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048868"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048869,
+      "url": "https://www.tvmaze.com/episodes/3048869/tna-ppv-2019-06-09-digital-destruction",
+      "name": "Digital Destruction",
+      "season": 2019,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2019-06-09",
+      "airtime": "",
+      "airstamp": "2019-06-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048869"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048870,
+      "url": "https://www.tvmaze.com/episodes/3048870/tna-ppv-2019-07-05-bash-at-the-brewery",
+      "name": "Bash at the Brewery",
+      "season": 2019,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2019-07-05",
+      "airtime": "",
+      "airstamp": "2019-07-05T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048870"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048871,
+      "url": "https://www.tvmaze.com/episodes/3048871/tna-ppv-2019-07-06-deep-impact",
+      "name": "Deep Impact",
+      "season": 2019,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2019-07-06",
+      "airtime": "",
+      "airstamp": "2019-07-06T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048871"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048876,
+      "url": "https://www.tvmaze.com/episodes/3048876/tna-ppv-2019-07-07-slammiversary-xvii",
+      "name": "Slammiversary XVII",
+      "season": 2019,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2019-07-07",
+      "airtime": "",
+      "airstamp": "2019-07-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048876"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048878,
+      "url": "https://www.tvmaze.com/episodes/3048878/tna-ppv-2019-08-02-unbreakable",
+      "name": "Unbreakable",
+      "season": 2019,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2019-08-02",
+      "airtime": "",
+      "airstamp": "2019-08-02T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048878"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048882,
+      "url": "https://www.tvmaze.com/episodes/3048882/tna-ppv-2019-08-03-star-struck",
+      "name": "Star Struck",
+      "season": 2019,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2019-08-03",
+      "airtime": "",
+      "airstamp": "2019-08-03T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048882"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048885,
+      "url": "https://www.tvmaze.com/episodes/3048885/tna-ppv-2019-09-13-operation-overdrive",
+      "name": "Operation Overdrive",
+      "season": 2019,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2019-09-13",
+      "airtime": "",
+      "airstamp": "2019-09-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048885"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048886,
+      "url": "https://www.tvmaze.com/episodes/3048886/tna-ppv-2019-09-14-victory-road",
+      "name": "Victory Road",
+      "season": 2019,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2019-09-14",
+      "airtime": "",
+      "airstamp": "2019-09-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048886"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048887,
+      "url": "https://www.tvmaze.com/episodes/3048887/tna-ppv-2019-09-15-lucha-invades-ny",
+      "name": "Lucha Invades NY",
+      "season": 2019,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2019-09-15",
+      "airtime": "",
+      "airstamp": "2019-09-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048887"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048888,
+      "url": "https://www.tvmaze.com/episodes/3048888/tna-ppv-2019-10-04-tales-from-the-ring-3",
+      "name": "Tales from the Ring 3",
+      "season": 2019,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2019-10-04",
+      "airtime": "",
+      "airstamp": "2019-10-04T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048888"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048889,
+      "url": "https://www.tvmaze.com/episodes/3048889/tna-ppv-2019-10-18-prelude-to-glory",
+      "name": "Prelude to Glory",
+      "season": 2019,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2019-10-18",
+      "airtime": "",
+      "airstamp": "2019-10-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048889"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048890,
+      "url": "https://www.tvmaze.com/episodes/3048890/tna-ppv-2019-10-19-all-glory",
+      "name": "All Glory",
+      "season": 2019,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2019-10-19",
+      "airtime": "",
+      "airstamp": "2019-10-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048890"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048891,
+      "url": "https://www.tvmaze.com/episodes/3048891/tna-ppv-2019-10-20-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2019,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2019-10-20",
+      "airtime": "",
+      "airstamp": "2019-10-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048891"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048892,
+      "url": "https://www.tvmaze.com/episodes/3048892/tna-ppv-2019-11-09-turning-point",
+      "name": "Turning Point",
+      "season": 2019,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2019-11-09",
+      "airtime": "",
+      "airstamp": "2019-11-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048892"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048893,
+      "url": "https://www.tvmaze.com/episodes/3048893/tna-ppv-2019-11-11-over-drive",
+      "name": "Over Drive",
+      "season": 2019,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2019-11-11",
+      "airtime": "",
+      "airstamp": "2019-11-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048893"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048894,
+      "url": "https://www.tvmaze.com/episodes/3048894/tna-ppv-2019-12-07-no-surrender",
+      "name": "No Surrender",
+      "season": 2019,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2019-12-07",
+      "airtime": "",
+      "airstamp": "2019-12-07T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048894"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048895,
+      "url": "https://www.tvmaze.com/episodes/3048895/tna-ppv-2019-12-08-motown-showdown",
+      "name": "Motown Showdown",
+      "season": 2019,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2019-12-08",
+      "airtime": "",
+      "airstamp": "2019-12-08T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048895"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048896,
+      "url": "https://www.tvmaze.com/episodes/3048896/tna-ppv-2020-01-10-bash-at-the-brewery-2",
+      "name": "Bash at the Brewery 2",
+      "season": 2020,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2020-01-10",
+      "airtime": "",
+      "airstamp": "2020-01-10T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048896"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048897,
+      "url": "https://www.tvmaze.com/episodes/3048897/tna-ppv-2020-01-11-arlington-brawl",
+      "name": "Arlington Brawl",
+      "season": 2020,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2020-01-11",
+      "airtime": "",
+      "airstamp": "2020-01-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048897"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048898,
+      "url": "https://www.tvmaze.com/episodes/3048898/tna-ppv-2020-01-12-hard-to-kill",
+      "name": "Hard to Kill",
+      "season": 2020,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2020-01-12",
+      "airtime": "",
+      "airstamp": "2020-01-12T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048898"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048899,
+      "url": "https://www.tvmaze.com/episodes/3048899/tna-ppv-2020-02-21-outbreak",
+      "name": "Outbreak",
+      "season": 2020,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2020-02-21",
+      "airtime": "",
+      "airstamp": "2020-02-21T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048899"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048900,
+      "url": "https://www.tvmaze.com/episodes/3048900/tna-ppv-2020-02-22-sacrifice",
+      "name": "Sacrifice",
+      "season": 2020,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2020-02-22",
+      "airtime": "",
+      "airstamp": "2020-02-22T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048900"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048901,
+      "url": "https://www.tvmaze.com/episodes/3048901/tna-ppv-2020-07-18-slammiversary",
+      "name": "Slammiversary",
+      "season": 2020,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2020-07-18",
+      "airtime": "",
+      "airstamp": "2020-07-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048901"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048902,
+      "url": "https://www.tvmaze.com/episodes/3048902/tna-ppv-2020-10-03-victory-road",
+      "name": "Victory Road",
+      "season": 2020,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2020-10-03",
+      "airtime": "",
+      "airstamp": "2020-10-03T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048902"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048903,
+      "url": "https://www.tvmaze.com/episodes/3048903/tna-ppv-2020-10-24-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2020,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2020-10-24",
+      "airtime": "",
+      "airstamp": "2020-10-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048903"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048904,
+      "url": "https://www.tvmaze.com/episodes/3048904/tna-ppv-2020-11-14-turning-point",
+      "name": "Turning Point",
+      "season": 2020,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2020-11-14",
+      "airtime": "",
+      "airstamp": "2020-11-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048904"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048905,
+      "url": "https://www.tvmaze.com/episodes/3048905/tna-ppv-2020-12-12-final-resolution",
+      "name": "Final Resolution",
+      "season": 2020,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2020-12-12",
+      "airtime": "",
+      "airstamp": "2020-12-12T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048905"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048906,
+      "url": "https://www.tvmaze.com/episodes/3048906/tna-ppv-2021-01-09-genesis",
+      "name": "Genesis",
+      "season": 2021,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-01-09",
+      "airtime": "",
+      "airstamp": "2021-01-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048906"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048907,
+      "url": "https://www.tvmaze.com/episodes/3048907/tna-ppv-2021-01-16-hard-to-kill",
+      "name": "Hard to Kill",
+      "season": 2021,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-01-16",
+      "airtime": "",
+      "airstamp": "2021-01-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048907"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048908,
+      "url": "https://www.tvmaze.com/episodes/3048908/tna-ppv-2021-02-13-no-surrender",
+      "name": "No Surrender",
+      "season": 2021,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-02-13",
+      "airtime": "",
+      "airstamp": "2021-02-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048908"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048909,
+      "url": "https://www.tvmaze.com/episodes/3048909/tna-ppv-2021-03-13-sacrifice",
+      "name": "Sacrifice",
+      "season": 2021,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-03-13",
+      "airtime": "",
+      "airstamp": "2021-03-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048909"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048910,
+      "url": "https://www.tvmaze.com/episodes/3048910/tna-ppv-2021-04-10-hardcore-justice",
+      "name": "Hardcore Justice",
+      "season": 2021,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-04-10",
+      "airtime": "",
+      "airstamp": "2021-04-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048910"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048911,
+      "url": "https://www.tvmaze.com/episodes/3048911/tna-ppv-2021-04-25-rebellion",
+      "name": "Rebellion",
+      "season": 2021,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-04-25",
+      "airtime": "",
+      "airstamp": "2021-04-25T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048911"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048912,
+      "url": "https://www.tvmaze.com/episodes/3048912/tna-ppv-2021-05-15-under-siege",
+      "name": "Under Siege",
+      "season": 2021,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-05-15",
+      "airtime": "",
+      "airstamp": "2021-05-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048912"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048913,
+      "url": "https://www.tvmaze.com/episodes/3048913/tna-ppv-2021-06-12-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2021,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-06-12",
+      "airtime": "",
+      "airstamp": "2021-06-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048913"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048914,
+      "url": "https://www.tvmaze.com/episodes/3048914/tna-ppv-2021-07-17-slammiversary",
+      "name": "Slammiversary",
+      "season": 2021,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-07-17",
+      "airtime": "",
+      "airstamp": "2021-07-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048914"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048915,
+      "url": "https://www.tvmaze.com/episodes/3048915/tna-ppv-2021-07-31-homecoming",
+      "name": "Homecoming",
+      "season": 2021,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-07-31",
+      "airtime": "",
+      "airstamp": "2021-07-31T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048915"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048916,
+      "url": "https://www.tvmaze.com/episodes/3048916/tna-ppv-2021-08-20-emergence",
+      "name": "Emergence",
+      "season": 2021,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-08-20",
+      "airtime": "",
+      "airstamp": "2021-08-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048916"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048917,
+      "url": "https://www.tvmaze.com/episodes/3048917/tna-ppv-2021-09-18-victory-road",
+      "name": "Victory Road",
+      "season": 2021,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-09-18",
+      "airtime": "",
+      "airstamp": "2021-09-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048917"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048918,
+      "url": "https://www.tvmaze.com/episodes/3048918/tna-ppv-2021-10-09-knockouts-knockdown",
+      "name": "Knockouts Knockdown",
+      "season": 2021,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-10-09",
+      "airtime": "",
+      "airstamp": "2021-10-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048918"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048919,
+      "url": "https://www.tvmaze.com/episodes/3048919/tna-ppv-2021-10-23-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2021,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-10-23",
+      "airtime": "",
+      "airstamp": "2021-10-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048920,
+      "url": "https://www.tvmaze.com/episodes/3048920/tna-ppv-2021-11-20-turning-point",
+      "name": "Turning Point",
+      "season": 2021,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-11-20",
+      "airtime": "",
+      "airstamp": "2021-11-20T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048920"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048921,
+      "url": "https://www.tvmaze.com/episodes/3048921/tna-ppv-2021-12-18-throwback-throwdown-ii",
+      "name": "Throwback Throwdown II",
+      "season": 2021,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-12-18",
+      "airtime": "",
+      "airstamp": "2021-12-18T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048921"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048923,
+      "url": "https://www.tvmaze.com/episodes/3048923/tna-ppv-2022-01-08-hard-to-kill",
+      "name": "Hard to Kill",
+      "season": 2022,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-08",
+      "airtime": "",
+      "airstamp": "2022-01-08T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048923"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048924,
+      "url": "https://www.tvmaze.com/episodes/3048924/tna-ppv-2022-02-19-no-surrender",
+      "name": "No Surrender",
+      "season": 2022,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-02-19",
+      "airtime": "",
+      "airstamp": "2022-02-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048924"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048925,
+      "url": "https://www.tvmaze.com/episodes/3048925/tna-ppv-2022-03-05-sacrifice",
+      "name": "Sacrifice",
+      "season": 2022,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-03-05",
+      "airtime": "",
+      "airstamp": "2022-03-05T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048925"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048926,
+      "url": "https://www.tvmaze.com/episodes/3048926/tna-ppv-2022-04-01-multiverse-of-matches",
+      "name": "Multiverse of Matches",
+      "season": 2022,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-04-01",
+      "airtime": "",
+      "airstamp": "2022-04-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048926"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048927,
+      "url": "https://www.tvmaze.com/episodes/3048927/tna-ppv-2022-04-23-rebellion",
+      "name": "Rebellion",
+      "season": 2022,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-04-23",
+      "airtime": "",
+      "airstamp": "2022-04-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048927"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048928,
+      "url": "https://www.tvmaze.com/episodes/3048928/tna-ppv-2022-05-07-under-siege",
+      "name": "Under Siege",
+      "season": 2022,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-05-07",
+      "airtime": "",
+      "airstamp": "2022-05-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048928"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048929,
+      "url": "https://www.tvmaze.com/episodes/3048929/tna-ppv-2022-06-19-slammiversary",
+      "name": "Slammiversary",
+      "season": 2022,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-06-19",
+      "airtime": "",
+      "airstamp": "2022-06-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048929"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048930,
+      "url": "https://www.tvmaze.com/episodes/3048930/tna-ppv-2022-07-01-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2022,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-07-01",
+      "airtime": "",
+      "airstamp": "2022-07-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048930"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048931,
+      "url": "https://www.tvmaze.com/episodes/3048931/tna-ppv-2022-08-12-emergence",
+      "name": "Emergence",
+      "season": 2022,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-08-12",
+      "airtime": "",
+      "airstamp": "2022-08-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048931"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048932,
+      "url": "https://www.tvmaze.com/episodes/3048932/tna-ppv-2022-09-23-victory-road",
+      "name": "Victory Road",
+      "season": 2022,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-09-23",
+      "airtime": "",
+      "airstamp": "2022-09-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048932"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048933,
+      "url": "https://www.tvmaze.com/episodes/3048933/tna-ppv-2022-10-07-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2022,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-10-07",
+      "airtime": "",
+      "airstamp": "2022-10-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048933"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048934,
+      "url": "https://www.tvmaze.com/episodes/3048934/tna-ppv-2022-11-18-over-drive",
+      "name": "Over Drive",
+      "season": 2022,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-11-18",
+      "airtime": "",
+      "airstamp": "2022-11-18T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048934"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048935,
+      "url": "https://www.tvmaze.com/episodes/3048935/tna-ppv-2022-12-02-throwback-throwdown-iii",
+      "name": "Throwback Throwdown III",
+      "season": 2022,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-12-02",
+      "airtime": "",
+      "airstamp": "2022-12-02T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048935"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048936,
+      "url": "https://www.tvmaze.com/episodes/3048936/tna-ppv-2023-01-13-hard-to-kill",
+      "name": "Hard to Kill",
+      "season": 2023,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-01-13",
+      "airtime": "",
+      "airstamp": "2023-01-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048936"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048937,
+      "url": "https://www.tvmaze.com/episodes/3048937/tna-ppv-2023-02-24-no-surrender",
+      "name": "No Surrender",
+      "season": 2023,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-02-24",
+      "airtime": "",
+      "airstamp": "2023-02-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048937"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048938,
+      "url": "https://www.tvmaze.com/episodes/3048938/tna-ppv-2023-03-24-sacrifice",
+      "name": "Sacrifice",
+      "season": 2023,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-03-24",
+      "airtime": "",
+      "airstamp": "2023-03-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048938"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048939,
+      "url": "https://www.tvmaze.com/episodes/3048939/tna-ppv-2023-03-30-multiverse-united",
+      "name": "Multiverse United",
+      "season": 2023,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-03-30",
+      "airtime": "",
+      "airstamp": "2023-03-30T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048939"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048940,
+      "url": "https://www.tvmaze.com/episodes/3048940/tna-ppv-2023-04-16-rebellion",
+      "name": "Rebellion",
+      "season": 2023,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-04-16",
+      "airtime": "",
+      "airstamp": "2023-04-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048940"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048941,
+      "url": "https://www.tvmaze.com/episodes/3048941/tna-ppv-2023-05-26-under-siege",
+      "name": "Under Siege",
+      "season": 2023,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-05-26",
+      "airtime": "",
+      "airstamp": "2023-05-26T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048941"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048942,
+      "url": "https://www.tvmaze.com/episodes/3048942/tna-ppv-2023-06-09-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2023,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-06-09",
+      "airtime": "",
+      "airstamp": "2023-06-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048942"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048943,
+      "url": "https://www.tvmaze.com/episodes/3048943/tna-ppv-2023-06-30-down-under-tour-part-1",
+      "name": "Down Under Tour Part 1",
+      "season": 2023,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-06-30",
+      "airtime": "",
+      "airstamp": "2023-06-30T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048943"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048944,
+      "url": "https://www.tvmaze.com/episodes/3048944/tna-ppv-2023-07-01-down-under-tour-part-2",
+      "name": "Down Under Tour Part 2",
+      "season": 2023,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-07-01",
+      "airtime": "",
+      "airstamp": "2023-07-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048944"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048945,
+      "url": "https://www.tvmaze.com/episodes/3048945/tna-ppv-2023-07-15-slammiversary",
+      "name": "Slammiversary",
+      "season": 2023,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-07-15",
+      "airtime": "",
+      "airstamp": "2023-07-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048946,
+      "url": "https://www.tvmaze.com/episodes/3048946/tna-ppv-2023-08-20-multiverse-united-2",
+      "name": "Multiverse United 2",
+      "season": 2023,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-08-20",
+      "airtime": "",
+      "airstamp": "2023-08-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048946"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048947,
+      "url": "https://www.tvmaze.com/episodes/3048947/tna-ppv-2023-08-27-emergence",
+      "name": "Emergence",
+      "season": 2023,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-08-27",
+      "airtime": "",
+      "airstamp": "2023-08-27T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048947"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048948,
+      "url": "https://www.tvmaze.com/episodes/3048948/tna-ppv-2023-09-08-victory-road",
+      "name": "Victory Road",
+      "season": 2023,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-09-08",
+      "airtime": "",
+      "airstamp": "2023-09-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048948"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048950,
+      "url": "https://www.tvmaze.com/episodes/3048950/tna-ppv-2023-10-21-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2023,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-10-21",
+      "airtime": "",
+      "airstamp": "2023-10-21T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048950"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048951,
+      "url": "https://www.tvmaze.com/episodes/3048951/tna-ppv-2023-11-03-turning-point",
+      "name": "Turning Point",
+      "season": 2023,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-11-03",
+      "airtime": "",
+      "airstamp": "2023-11-03T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048951"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048952,
+      "url": "https://www.tvmaze.com/episodes/3048952/tna-ppv-2023-12-09-final-resolution",
+      "name": "Final Resolution",
+      "season": 2023,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-12-09",
+      "airtime": "",
+      "airstamp": "2023-12-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048953,
+      "url": "https://www.tvmaze.com/episodes/3048953/tna-ppv-2023-12-16-ultra-clash",
+      "name": "Ultra Clash",
+      "season": 2023,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-12-16",
+      "airtime": "",
+      "airstamp": "2023-12-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048953"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048954,
+      "url": "https://www.tvmaze.com/episodes/3048954/tna-ppv-2024-01-13-hard-to-kill",
+      "name": "Hard to Kill",
+      "season": 2024,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-01-13",
+      "airtime": "",
+      "airstamp": "2024-01-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048955,
+      "url": "https://www.tvmaze.com/episodes/3048955/tna-ppv-2024-02-23-no-surrender",
+      "name": "No Surrender",
+      "season": 2024,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-02-23",
+      "airtime": "",
+      "airstamp": "2024-02-23T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048955"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048957,
+      "url": "https://www.tvmaze.com/episodes/3048957/tna-ppv-2024-03-08-sacrifice",
+      "name": "Sacrifice",
+      "season": 2024,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-03-08",
+      "airtime": "",
+      "airstamp": "2024-03-08T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048958,
+      "url": "https://www.tvmaze.com/episodes/3048958/tna-ppv-2024-04-20-rebellion",
+      "name": "Rebellion",
+      "season": 2024,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-04-20",
+      "airtime": "",
+      "airstamp": "2024-04-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048960,
+      "url": "https://www.tvmaze.com/episodes/3048960/tna-ppv-2024-05-03-under-siege",
+      "name": "Under Siege",
+      "season": 2024,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-05-03",
+      "airtime": "",
+      "airstamp": "2024-05-03T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048960"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048961,
+      "url": "https://www.tvmaze.com/episodes/3048961/tna-ppv-2024-06-14-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2024,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2024-06-14",
+      "airtime": "",
+      "airstamp": "2024-06-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048961"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048962,
+      "url": "https://www.tvmaze.com/episodes/3048962/tna-ppv-2024-07-20-slammiversary",
+      "name": "Slammiversary",
+      "season": 2024,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2024-07-20",
+      "airtime": "",
+      "airstamp": "2024-07-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048962"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048963,
+      "url": "https://www.tvmaze.com/episodes/3048963/tna-ppv-2024-08-30-emergence",
+      "name": "Emergence",
+      "season": 2024,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2024-08-30",
+      "airtime": "",
+      "airstamp": "2024-08-30T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048963"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048964,
+      "url": "https://www.tvmaze.com/episodes/3048964/tna-ppv-2024-09-13-victory-road",
+      "name": "Victory Road",
+      "season": 2024,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2024-09-13",
+      "airtime": "",
+      "airstamp": "2024-09-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048964"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048965,
+      "url": "https://www.tvmaze.com/episodes/3048965/tna-ppv-2024-10-26-bound-for-glory",
+      "name": "Bound for Glory",
+      "season": 2024,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2024-10-26",
+      "airtime": "",
+      "airstamp": "2024-10-26T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048965"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048966,
+      "url": "https://www.tvmaze.com/episodes/3048966/tna-ppv-2024-11-29-turning-point",
+      "name": "Turning Point",
+      "season": 2024,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2024-11-29",
+      "airtime": "",
+      "airstamp": "2024-11-29T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048966"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048967,
+      "url": "https://www.tvmaze.com/episodes/3048967/tna-ppv-2024-12-13-final-resolution",
+      "name": "Final Resolution",
+      "season": 2024,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2024-12-13",
+      "airtime": "",
+      "airstamp": "2024-12-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048967"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3048968,
+      "url": "https://www.tvmaze.com/episodes/3048968/tna-ppv-2025-01-19-genesis",
+      "name": "Genesis",
+      "season": 2025,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2025-01-19",
+      "airtime": "",
+      "airstamp": "2025-01-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048968"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3171335,
+      "url": "https://www.tvmaze.com/episodes/3171335/tna-ppv-2025-03-15-sacrifice",
+      "name": "Sacrifice",
+      "season": 2025,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2025-03-15",
+      "airtime": "",
+      "airstamp": "2025-03-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171335"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3171336,
+      "url": "https://www.tvmaze.com/episodes/3171336/tna-ppv-2025-04-17-unbreakable",
+      "name": "Unbreakable",
+      "season": 2025,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2025-04-17",
+      "airtime": "",
+      "airstamp": "2025-04-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171336"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3171339,
+      "url": "https://www.tvmaze.com/episodes/3171339/tna-ppv-2025-04-27-rebellion",
+      "name": "Rebellion",
+      "season": 2025,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2025-04-27",
+      "airtime": "",
+      "airstamp": "2025-04-27T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171339"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3218319,
+      "url": "https://www.tvmaze.com/episodes/3218319/tna-ppv-2025-05-23-under-siege",
+      "name": "Under Siege",
+      "season": 2025,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2025-05-23",
+      "airtime": "",
+      "airstamp": "2025-05-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3218319"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3218320,
+      "url": "https://www.tvmaze.com/episodes/3218320/tna-ppv-2025-06-06-against-all-odds",
+      "name": "Against All Odds",
+      "season": 2025,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2025-06-06",
+      "airtime": "",
+      "airstamp": "2025-06-06T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3218320"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3171340,
+      "url": "https://www.tvmaze.com/episodes/3171340/tna-ppv-2025-07-20-slammiversary",
+      "name": "Slammiversary",
+      "season": 2025,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2025-07-20",
+      "airtime": "",
+      "airstamp": "2025-07-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171340"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3299374,
+      "url": "https://www.tvmaze.com/episodes/3299374/tna-ppv-2025-08-15-emergence",
+      "name": "Emergence",
+      "season": 2025,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2025-08-15",
+      "airtime": "",
+      "airstamp": "2025-08-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3299374"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    },
+    {
+      "id": 3299375,
+      "url": "https://www.tvmaze.com/episodes/3299375/tna-ppv-2025-09-26-victory-road",
+      "name": "Victory Road",
+      "season": 2025,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2025-09-26",
+      "airtime": "",
+      "airstamp": "2025-09-26T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3299375"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80684",
+          "name": "TNA PPV"
+        }
+      }
+    }
+  ]
+}

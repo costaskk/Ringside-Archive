@@ -1,0 +1,1597 @@
+{
+  "programId": "ecw-tnt",
+  "tvMazeId": 25029,
+  "fetchedAt": "2026-07-27T07:57:31.460Z",
+  "show": {
+    "id": 25029,
+    "url": "https://www.tvmaze.com/shows/25029/ecw-on-tnn",
+    "name": "ECW on TNN",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "1999-08-27",
+    "ended": "2000-10-06",
+    "officialSite": "http://www.wwe.com",
+    "schedule": {
+      "time": "21:00",
+      "days": [
+        "Friday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 24,
+    "network": {
+      "id": 34,
+      "name": "Paramount Network",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.paramountnetwork.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 76780,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/96/242284.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/96/242284.jpg"
+    },
+    "summary": "<p><b>ECW on TNN</b>, also known as ECW Wrestling, was an American professional wrestling television program that aired on The Nashville Network (TNN, now Spike). Created by Paul Heyman, the owner of Extreme Championship Wrestling (ECW), it presented original ECW matches on Friday nights and was the only national television program in ECW's history. It debuted on August 27, 1999 - five years to the date that Shane Douglas threw down the NWA World Heavyweight Championship and rechristened ECW (then known as Eastern Championship Wrestling) as Extreme Championship Wrestling. The final episode aired on October 6, 2000.</p>",
+    "updated": 1573599042,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/25029"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1060634",
+        "name": "ECW WRESTLING 59"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1060576,
+      "url": "https://www.tvmaze.com/episodes/1060576/ecw-on-tnn-1x01-ecw-wrestling-01",
+      "name": "ECW WRESTLING 01",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1999-08-27",
+      "airtime": "21:00",
+      "airstamp": "1999-08-28T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>On the debut edition of ECW Wrestling, Rob Van Dam, Taz, Rhino, and more introduce themselves to a new audience with some exciting action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060576"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060577,
+      "url": "https://www.tvmaze.com/episodes/1060577/ecw-on-tnn-1x02-ecw-wrestling-02",
+      "name": "ECW WRESTLING 02",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1999-09-03",
+      "airtime": "21:00",
+      "airstamp": "1999-09-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>On their last night in ECW, The Dudley Boyz challenge Balls Mahoney and Spike Dudley for the Tag Team Championships. Plus, Taz and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060577"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060578,
+      "url": "https://www.tvmaze.com/episodes/1060578/ecw-on-tnn-1x03-ecw-wrestling-03",
+      "name": "ECW WRESTLING 03",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1999-09-10",
+      "airtime": "21:00",
+      "airstamp": "1999-09-11T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rob Van Dam defends his World Television Championship against Jerry Lynn in the main event. Plus, Mike Awesome, Rhino, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060578"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060579,
+      "url": "https://www.tvmaze.com/episodes/1060579/ecw-on-tnn-1x04-ecw-wrestling-04",
+      "name": "ECW WRESTLING 04",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1999-09-17",
+      "airtime": "21:00",
+      "airstamp": "1999-09-18T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Raven addresses his sordid history with Tommy Dreamer. Plus, RVD defends his World TV Title against Jerry Lynn, Tajiri in action, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060580,
+      "url": "https://www.tvmaze.com/episodes/1060580/ecw-on-tnn-1x05-ecw-wrestling-05",
+      "name": "ECW WRESTLING 05",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1999-09-24",
+      "airtime": "21:00",
+      "airstamp": "1999-09-25T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer and Raven face Danny Doring and Amish Roadkill. Plus, a look at Mike Awesome becoming ECW Champion at Anarchy Rulz and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060580"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060581,
+      "url": "https://www.tvmaze.com/episodes/1060581/ecw-on-tnn-1x06-ecw-wrestling-06",
+      "name": "ECW WRESTLING 06",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1999-10-01",
+      "airtime": "21:00",
+      "airstamp": "1999-10-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>After a locker room brawl with Raven, Tommy Dreamer faces Tajiri in the main event. Plus, Mike Awesome defends his ECW Title and much more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060581"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060582,
+      "url": "https://www.tvmaze.com/episodes/1060582/ecw-on-tnn-1x07-ecw-wrestling-07",
+      "name": "ECW WRESTLING 07",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1999-10-08",
+      "airtime": "21:00",
+      "airstamp": "1999-10-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tammy Lynn Sytch speaks on her personal issues that put an end to her sunny days. Plus, highlights from Anarchy Rulz and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060582"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060583,
+      "url": "https://www.tvmaze.com/episodes/1060583/ecw-on-tnn-1x08-ecw-wrestling-08",
+      "name": "ECW WRESTLING 08",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1999-10-15",
+      "airtime": "21:00",
+      "airstamp": "1999-10-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Champion Mike Awesome battles Rod Price, Chris Candido faces off against Lance Storm, and much more on this edition of ECW Wrestling!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060584,
+      "url": "https://www.tvmaze.com/episodes/1060584/ecw-on-tnn-1x09-ecw-wrestling-09",
+      "name": "ECW WRESTLING 09",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1999-10-22",
+      "airtime": "21:00",
+      "airstamp": "1999-10-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Awesome defends his ECW Title against New Jack. Plus, Dawn Marie proves she is the 'Queen of Extreme', Rhino faces a legend, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060585,
+      "url": "https://www.tvmaze.com/episodes/1060585/ecw-on-tnn-1x10-ecw-wrestling-10",
+      "name": "ECW WRESTLING 10",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1999-10-29",
+      "airtime": "21:00",
+      "airstamp": "1999-10-30T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Impact Players make an example out of Tommy Dreamer's dysfunctional partner, Raven. Taz goes one-on-one with Sabu. All this and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060586,
+      "url": "https://www.tvmaze.com/episodes/1060586/ecw-on-tnn-1x11-ecw-wrestling-11",
+      "name": "ECW WRESTLING 11",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1999-11-05",
+      "airtime": "21:00",
+      "airstamp": "1999-11-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Spike Dudley battles Super Crazy and Little Guido in a Three-Way Dance main event. Plus, New Jack, Da Baldies, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060587,
+      "url": "https://www.tvmaze.com/episodes/1060587/ecw-on-tnn-1x12-ecw-wrestling-12",
+      "name": "ECW WRESTLING 12",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1999-11-12",
+      "airtime": "21:00",
+      "airstamp": "1999-11-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rhino looks to take out The Sandman when they faceoff in the main event. Plus, Jerry Lynn, Tajiri, and more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060587"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060588,
+      "url": "https://www.tvmaze.com/episodes/1060588/ecw-on-tnn-1x13-ecw-wrestling-13",
+      "name": "ECW WRESTLING 13",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "1999-11-19",
+      "airtime": "21:00",
+      "airstamp": "1999-11-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rhino and Chris Candido challenge Raven and Tommy Dreamer for the Tag Team Titles in the main event. Plus, Da Baldies, Jerry Lynn, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060588"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060589,
+      "url": "https://www.tvmaze.com/episodes/1060589/ecw-on-tnn-1x14-ecw-wrestling-14",
+      "name": "ECW WRESTLING 14",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "1999-11-26",
+      "airtime": "21:00",
+      "airstamp": "1999-11-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Sandman teams with Tag Team Champions Raven and Tommy Dreamer to face Rhino and The Impact Players. Plus, RVD, Super Crazy, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060589"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060590,
+      "url": "https://www.tvmaze.com/episodes/1060590/ecw-on-tnn-1x15-ecw-wrestling-15",
+      "name": "ECW WRESTLING 15",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "1999-12-03",
+      "airtime": "21:00",
+      "airstamp": "1999-12-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Sandman goes one-on-one with Raven in the main event. Plus, Super Crazy, Steve Corino, and many more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060590"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060591,
+      "url": "https://www.tvmaze.com/episodes/1060591/ecw-on-tnn-1x16-ecw-wrestling-16",
+      "name": "ECW WRESTLING 16",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "1999-12-10",
+      "airtime": "21:00",
+      "airstamp": "1999-12-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Awesome defends his ECW Championship against 2 Cold Scorpio. The Sandman goes one-on-one with Justin Credible. All this and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060591"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060592,
+      "url": "https://www.tvmaze.com/episodes/1060592/ecw-on-tnn-1x17-ecw-wrestling-17",
+      "name": "ECW WRESTLING 17",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "1999-12-17",
+      "airtime": "21:00",
+      "airstamp": "1999-12-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Chris Candido and Rhino take on The Impact Players in the main event for a shot at tag team gold. Plus, Mike Awesome, New Jack, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060592"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060593,
+      "url": "https://www.tvmaze.com/episodes/1060593/ecw-on-tnn-1x18-ecw-wrestling-18",
+      "name": "ECW WRESTLING 18",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "1999-12-24",
+      "airtime": "21:00",
+      "airstamp": "1999-12-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The upcoming battle between Mike Awesome and Masato Tanaka for the ECW Championship comes early. Plus, Tommy Dreamer, Rhino, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060594,
+      "url": "https://www.tvmaze.com/episodes/1060594/ecw-on-tnn-1x19-ecw-wrestling-19",
+      "name": "ECW WRESTLING 19",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "1999-12-31",
+      "airtime": "21:00",
+      "airstamp": "2000-01-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Masato Tanaka defends his recently won ECW Championship against former champion, Mike Awesome. Plus, Raven, Tajiri, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060594"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060595,
+      "url": "https://www.tvmaze.com/episodes/1060595/ecw-on-tnn-1x20-ecw-wrestling-20",
+      "name": "ECW WRESTLING 20",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2000-01-07",
+      "airtime": "21:00",
+      "airstamp": "2000-01-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer faces off against Justin Credible in a Stairway to Hell match. Plus, a Three-Way Dance Tag Team match and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060596,
+      "url": "https://www.tvmaze.com/episodes/1060596/ecw-on-tnn-1x21-ecw-wrestling-21",
+      "name": "ECW WRESTLING 21",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2000-01-14",
+      "airtime": "21:00",
+      "airstamp": "2000-01-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jerry Lynn faces Tajiri in the main event. Plus, Little Guido takes on Super Crazy, highlights from Guilty As Charged '00, and much more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060597,
+      "url": "https://www.tvmaze.com/episodes/1060597/ecw-on-tnn-1x22-ecw-wrestling-22",
+      "name": "ECW WRESTLING 22",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2000-01-21",
+      "airtime": "21:00",
+      "airstamp": "2000-01-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Super Crazy battles Tajiri in a Mexican Death Match main event. Plus, Rob Van Dam, Tommy Dreamer, Mike Awesome, and many more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060598,
+      "url": "https://www.tvmaze.com/episodes/1060598/ecw-on-tnn-1x23-ecw-wrestling-23",
+      "name": "ECW WRESTLING 23",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2000-01-28",
+      "airtime": "21:00",
+      "airstamp": "2000-01-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Spike Dudley tries to bring home the ECW Championship when he faces Mike Awesome for the gold in the main event. Plus, RVD, Rhino, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060599,
+      "url": "https://www.tvmaze.com/episodes/1060599/ecw-on-tnn-1x24-ecw-wrestling-24",
+      "name": "ECW WRESTLING 24",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2000-02-04",
+      "airtime": "21:00",
+      "airstamp": "2000-02-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Witness Dusty Rhodes' return to action when he teams with Tommy Dreamer to battle Rhino and Steve Corino. Plus, RVD, Mike Awesome, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060600,
+      "url": "https://www.tvmaze.com/episodes/1060600/ecw-on-tnn-1x25-ecw-wrestling-25",
+      "name": "ECW WRESTLING 25",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2000-02-11",
+      "airtime": "21:00",
+      "airstamp": "2000-02-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Things take a dangerous turn when Raven faces off with Justin Credible in the main event. Plus, Tommy Dreamer, Spike Dudley, and many more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060600"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060601,
+      "url": "https://www.tvmaze.com/episodes/1060601/ecw-on-tnn-1x26-ecw-wrestling-26",
+      "name": "ECW WRESTLING 26",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2000-02-18",
+      "airtime": "21:00",
+      "airstamp": "2000-02-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Awesome defends his ECW Championship against Masato Tanaka in the main event. Plus, Super Crazy, Danny Doring, and more in action</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060601"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060602,
+      "url": "https://www.tvmaze.com/episodes/1060602/ecw-on-tnn-1x27-ecw-wrestling-27",
+      "name": "ECW WRESTLING 27",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2000-02-25",
+      "airtime": "21:00",
+      "airstamp": "2000-02-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rhino takes on The Sandman for the vacant ECW TV title. Impact Players vs Tommy Dreamer and Raven, plus more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060602"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060603,
+      "url": "https://www.tvmaze.com/episodes/1060603/ecw-on-tnn-1x28-ecw-wrestling-28",
+      "name": "ECW WRESTLING 28",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2000-03-03",
+      "airtime": "21:00",
+      "airstamp": "2000-03-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Spike Dudley challenges Mike Awesome for his ECW Championship. Tommy Dreamer and Masato Tanaka battle The Impact Players. All this and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060603"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060604,
+      "url": "https://www.tvmaze.com/episodes/1060604/ecw-on-tnn-1x29-ecw-wrestling-29",
+      "name": "ECW WRESTLING 29",
+      "season": 1,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2000-03-10",
+      "airtime": "21:00",
+      "airstamp": "2000-03-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Raven and ECW Champion Mike Awesome take on Tommy Dreamer and Masato Tanaka in the main event. RVD relinquishes his TV Title.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060604"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060605,
+      "url": "https://www.tvmaze.com/episodes/1060605/ecw-on-tnn-1x30-ecw-wrestling-30",
+      "name": "ECW WRESTLING 30",
+      "season": 1,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2000-03-17",
+      "airtime": "21:00",
+      "airstamp": "2000-03-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Awesome battles Masato Tanaka for the ECW Title in the main event. Plus, New Jack faces Steve Corino, The Sandman in action, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060605"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060606,
+      "url": "https://www.tvmaze.com/episodes/1060606/ecw-on-tnn-1x31-ecw-wrestling-31",
+      "name": "ECW WRESTLING 31",
+      "season": 1,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2000-03-24",
+      "airtime": "21:00",
+      "airstamp": "2000-03-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tajiri challenges Super Crazy for the Television Title in a Japanese Death Match. Tommy Dreamer takes on Vic Grimes in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060606"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060607,
+      "url": "https://www.tvmaze.com/episodes/1060607/ecw-on-tnn-1x32-ecw-wrestling-32",
+      "name": "ECW WRESTLING 32",
+      "season": 1,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2000-03-31",
+      "airtime": "21:00",
+      "airstamp": "2000-04-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Super Crazy defends his TV Title against Rhino in the main event. Tommy Dreamer teams with Danny Doring and Roadkill to take on Da Baldies</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060607"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060608,
+      "url": "https://www.tvmaze.com/episodes/1060608/ecw-on-tnn-1x33-ecw-wrestling-33",
+      "name": "ECW WRESTLING 33",
+      "season": 1,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2000-04-07",
+      "airtime": "21:00",
+      "airstamp": "2000-04-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer and The Sandman face Da Baldies in the main event. Plus, Mike Awesome makes a revelation, Kid Kash in action, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060608"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060609,
+      "url": "https://www.tvmaze.com/episodes/1060609/ecw-on-tnn-1x34-ecw-wrestling-34",
+      "name": "ECW WRESTLING 34",
+      "season": 1,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2000-04-14",
+      "airtime": "21:00",
+      "airstamp": "2000-04-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Super Crazy defends the World TV Title against Tajiri and Little Guido in the main event. Plus, The Impact Players, Nova, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060609"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060610,
+      "url": "https://www.tvmaze.com/episodes/1060610/ecw-on-tnn-1x35-ecw-wrestling-35",
+      "name": "ECW WRESTLING 35",
+      "season": 1,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2000-04-21",
+      "airtime": "21:00",
+      "airstamp": "2000-04-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer and Steve Corino faceoff in an Extreme Bullrope Match in the main event. Plus, The Impact Players, Rhino, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060610"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060611,
+      "url": "https://www.tvmaze.com/episodes/1060611/ecw-on-tnn-1x36-ecw-wrestling-36",
+      "name": "ECW WRESTLING 36",
+      "season": 1,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2000-04-28",
+      "airtime": "21:00",
+      "airstamp": "2000-04-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Witness some exciting action from Cyberslam '00 featuring Tommy Dreamer, Rhino, Justin Credible, and many more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060611"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060612,
+      "url": "https://www.tvmaze.com/episodes/1060612/ecw-on-tnn-1x37-ecw-wrestling-37",
+      "name": "ECW WRESTLING 37",
+      "season": 1,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2000-05-05",
+      "airtime": "21:00",
+      "airstamp": "2000-05-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tajiri and The Sandman team up to take on Rhino and Steve Corino in the main event. Plus, Kid Kash, Jerry Lynn, Lance Storm, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060612"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060613,
+      "url": "https://www.tvmaze.com/episodes/1060613/ecw-on-tnn-1x38-ecw-wrestling-38",
+      "name": "ECW WRESTLING 38",
+      "season": 1,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2000-05-12",
+      "airtime": "21:00",
+      "airstamp": "2000-05-13T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rhino defends his World Television Championship in the main event against Tajiri. Plus, Lance Storm, Tommy Dreamer, and more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060613"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060614,
+      "url": "https://www.tvmaze.com/episodes/1060614/ecw-on-tnn-1x39-ecw-wrestling-39",
+      "name": "ECW WRESTLING 39",
+      "season": 1,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2000-05-19",
+      "airtime": "21:00",
+      "airstamp": "2000-05-20T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Justin Credible defends his ECW Championship against Raven in the main event. Plus, a Three-Way Dance Tag Team match and much more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060615,
+      "url": "https://www.tvmaze.com/episodes/1060615/ecw-on-tnn-1x40-ecw-wrestling-40",
+      "name": "ECW WRESTLING 40",
+      "season": 1,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2000-05-26",
+      "airtime": "21:00",
+      "airstamp": "2000-05-27T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Masato Tanaka faces off against Balls Mahoney in an incredible rematch from Hardcore Heaven. Tajiri receives some unexpected help.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060615"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060616,
+      "url": "https://www.tvmaze.com/episodes/1060616/ecw-on-tnn-1x41-ecw-wrestling-41",
+      "name": "ECW WRESTLING 41",
+      "season": 1,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2000-06-02",
+      "airtime": "21:00",
+      "airstamp": "2000-06-03T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Sandman challenges Rhino for the World Television Championship in the main event. Plus, Mikey Whipwreck, Kid Kash, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060616"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060617,
+      "url": "https://www.tvmaze.com/episodes/1060617/ecw-on-tnn-1x42-ecw-wrestling-42",
+      "name": "ECW WRESTLING 42",
+      "season": 1,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2000-06-09",
+      "airtime": "21:00",
+      "airstamp": "2000-06-10T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Sandman and Tommy Dreamer take on Steve Corino and ECW Champion Justin Credible in the main event. Raven battles Scott Anton.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060617"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060618,
+      "url": "https://www.tvmaze.com/episodes/1060618/ecw-on-tnn-1x43-ecw-wrestling-43",
+      "name": "ECW WRESTLING 43",
+      "season": 1,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2000-06-16",
+      "airtime": "21:00",
+      "airstamp": "2000-06-17T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jerry Lynn challenges Justin Credible for the ECW World Heavyweight Championship in the main event. Plus, The Network, Kid Kash, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060618"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060619,
+      "url": "https://www.tvmaze.com/episodes/1060619/ecw-on-tnn-1x44-ecw-wrestling-44",
+      "name": "ECW WRESTLING 44",
+      "season": 1,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2000-06-23",
+      "airtime": "21:00",
+      "airstamp": "2000-06-24T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer and Jazz stand against The Network's reign of tyranny. Plus, Steve Corino, Tony Mamaluke, and many more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060619"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060620,
+      "url": "https://www.tvmaze.com/episodes/1060620/ecw-on-tnn-1x45-ecw-wrestling-45",
+      "name": "ECW WRESTLING 45",
+      "season": 1,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2000-06-30",
+      "airtime": "21:00",
+      "airstamp": "2000-07-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rob Van Dam tries to reclaim his TV Championship from Rhino in the main event. Francine and Justin Credible take on Jazz and Tommy Dreamer.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060620"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060621,
+      "url": "https://www.tvmaze.com/episodes/1060621/ecw-on-tnn-1x46-ecw-wrestling-46",
+      "name": "ECW WRESTLING 46",
+      "season": 1,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2000-07-07",
+      "airtime": "21:00",
+      "airstamp": "2000-07-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Sandman challenges Justin Credible for the ECW World Heavyweight Title in the main event. Plus, Rhino, Jerry Lynn, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060621"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060622,
+      "url": "https://www.tvmaze.com/episodes/1060622/ecw-on-tnn-1x47-ecw-wrestling-47",
+      "name": "ECW WRESTLING 47",
+      "season": 1,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2000-07-14",
+      "airtime": "21:00",
+      "airstamp": "2000-07-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jerry Lynn teams with The Sandman against Steve Corino and Rhino in a Dream Partner Tag Team main event. Plus, Raven, Tajiri, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060622"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060623,
+      "url": "https://www.tvmaze.com/episodes/1060623/ecw-on-tnn-1x48-ecw-wrestling-48",
+      "name": "ECW WRESTLING 48",
+      "season": 1,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2000-07-21",
+      "airtime": "21:00",
+      "airstamp": "2000-07-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Rob Van Dam battles Balls Mahoney in the main event. Justin Credible defends his ECW Championship against Tajiri. All this and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060623"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060624,
+      "url": "https://www.tvmaze.com/episodes/1060624/ecw-on-tnn-1x49-ecw-wrestling-49",
+      "name": "ECW WRESTLING 49",
+      "season": 1,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2000-07-28",
+      "airtime": "21:00",
+      "airstamp": "2000-07-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tommy Dreamer and Jerry Lynn faceoff against The Network's Scott Anton and Steve Corino in an Extreme Tag Team Death match main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060624"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060625,
+      "url": "https://www.tvmaze.com/episodes/1060625/ecw-on-tnn-1x50-ecw-wrestling-50",
+      "name": "ECW WRESTLING 50",
+      "season": 1,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2000-08-04",
+      "airtime": "21:00",
+      "airstamp": "2000-08-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jerry Lynn faces off against Tajiri and The Network's Steve Corino in an Elimination Match. Plus, Tommy Dreamer, Mikey Whipwreck, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060625"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060626,
+      "url": "https://www.tvmaze.com/episodes/1060626/ecw-on-tnn-1x51-ecw-wrestling-51",
+      "name": "ECW WRESTLING 51",
+      "season": 1,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2000-08-11",
+      "airtime": "21:00",
+      "airstamp": "2000-08-12T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Justin Credible defends his ECW Championship against Kid Kash in the main event. Plus, Tajiri, Danny Doring and Roadkill, and many more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060626"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060627,
+      "url": "https://www.tvmaze.com/episodes/1060627/ecw-on-tnn-1x52-ecw-wrestling-52",
+      "name": "ECW WRESTLING 52",
+      "season": 1,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2000-08-18",
+      "airtime": "21:00",
+      "airstamp": "2000-08-19T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>In a rematch, Justin Credible defends his ECW Championship against Kid Kash. Rhino defends his TV Title against RVD in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060627"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060628,
+      "url": "https://www.tvmaze.com/episodes/1060628/ecw-on-tnn-2x01-ecw-wrestling-53",
+      "name": "ECW WRESTLING 53",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2000-08-25",
+      "airtime": "21:00",
+      "airstamp": "2000-08-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ECW Champion Justin Credible and TV Champion Rhino take on Kid Kash and Rob Van Dam in the main event. Plus, much more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060628"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060629,
+      "url": "https://www.tvmaze.com/episodes/1060629/ecw-on-tnn-2x02-ecw-wrestling-54",
+      "name": "ECW WRESTLING 54",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2000-09-01",
+      "airtime": "21:00",
+      "airstamp": "2000-09-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>On this edition of ECW, the vacated Tag Team Titles are on the line as several duos compete in a one night tournament for the gold.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060629"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060630,
+      "url": "https://www.tvmaze.com/episodes/1060630/ecw-on-tnn-2x03-ecw-wrestling-55",
+      "name": "ECW WRESTLING 55",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2000-09-08",
+      "airtime": "21:00",
+      "airstamp": "2000-09-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mikey Whipwreck and Tajiri defend their Tag Team Championships against Little Guido and Tony Mamaluke. Plus, Balls Mahoney, Rhino, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060631,
+      "url": "https://www.tvmaze.com/episodes/1060631/ecw-on-tnn-2x04-ecw-wrestling-56",
+      "name": "ECW WRESTLING 56",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2000-09-15",
+      "airtime": "21:00",
+      "airstamp": "2000-09-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Justin Credible defends his ECW Championship against Steve Corino in the main event. Plus, Mikey Whipwreck and Tajiri in action and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060632,
+      "url": "https://www.tvmaze.com/episodes/1060632/ecw-on-tnn-2x05-ecw-wrestling-57",
+      "name": "ECW WRESTLING 57",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2000-09-22",
+      "airtime": "21:00",
+      "airstamp": "2000-09-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The F.B.I. defend their Tag Team Titles against Danny Doring and Roadkill in the main event. Plus, Nova, Kid Kash, and more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060633,
+      "url": "https://www.tvmaze.com/episodes/1060633/ecw-on-tnn-2x06-ecw-wrestling-58",
+      "name": "ECW WRESTLING 58",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2000-09-29",
+      "airtime": "21:00",
+      "airstamp": "2000-09-30T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Justin Credible defends his ECW World Heavyweight Championship in the main event against Jerry Lynn and Steve Corino. All this and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    },
+    {
+      "id": 1060634,
+      "url": "https://www.tvmaze.com/episodes/1060634/ecw-on-tnn-2x07-ecw-wrestling-59",
+      "name": "ECW WRESTLING 59",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2000-10-06",
+      "airtime": "21:00",
+      "airstamp": "2000-10-07T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>On the final episode of ECW Wrestling, witness some of the action from Anarchy Rulz 2000 including Kid Kash taking on EZ Money and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1060634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25029",
+          "name": "ECW on TNN"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2945 @@
+{
+  "programId": "aew-elevation",
+  "tvMazeId": 53780,
+  "fetchedAt": "2026-07-27T07:57:35.683Z",
+  "show": {
+    "id": 53780,
+    "url": "https://www.tvmaze.com/shows/53780/aew-dark-elevation",
+    "name": "AEW Dark: Elevation",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": 120,
+    "premiered": "2021-03-15",
+    "ended": "2023-04-17",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": [
+        "Monday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 80,
+    "network": null,
+    "webChannel": {
+      "id": 21,
+      "name": "YouTube",
+      "country": null,
+      "officialSite": "https://www.youtube.com"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 398727,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/320/801947.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/320/801947.jpg"
+    },
+    "summary": "<p><b>AEW Dark: Elevation</b> will air on Mondays at 7 p.m. ET on AEW's YouTube channel, and will showcase AEW's established and rising stars, as well as the top independent wrestlers within the industry, competing against each other in the ring in pursuit of wins. AEW Dark: Elevation will also maintain continuity with AEW DYNAMITE, AEW Dark, AEW pay-per-view shows and streaming events, with wins and losses factoring into each wrestler's ranking in the company.</p>",
+    "updated": 1725814990,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/53780"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2524076",
+        "name": "AEW Dark: Elevation 111"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2045383,
+      "url": "https://www.tvmaze.com/episodes/2045383/aew-dark-elevation-1x01-aew-dark-elevation-01",
+      "name": "AEW Dark: Elevation 01",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-03-15",
+      "airtime": "",
+      "airstamp": "2021-03-15T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2045383"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2047971,
+      "url": "https://www.tvmaze.com/episodes/2047971/aew-dark-elevation-1x02-aew-dark-elevation-02",
+      "name": "AEW Dark: Elevation 02",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-03-22",
+      "airtime": "",
+      "airstamp": "2021-03-22T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2047971"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2047972,
+      "url": "https://www.tvmaze.com/episodes/2047972/aew-dark-elevation-1x03-aew-dark-elevation-03",
+      "name": "AEW Dark: Elevation 03",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-03-29",
+      "airtime": "",
+      "airstamp": "2021-03-29T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2047972"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2054629,
+      "url": "https://www.tvmaze.com/episodes/2054629/aew-dark-elevation-1x04-aew-dark-elevation-04",
+      "name": "AEW Dark: Elevation 04",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-04-05",
+      "airtime": "",
+      "airstamp": "2021-04-05T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2054629"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2054630,
+      "url": "https://www.tvmaze.com/episodes/2054630/aew-dark-elevation-1x05-aew-dark-elevation-05",
+      "name": "AEW Dark: Elevation 05",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-04-12",
+      "airtime": "",
+      "airstamp": "2021-04-12T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2054630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2054631,
+      "url": "https://www.tvmaze.com/episodes/2054631/aew-dark-elevation-1x06-aew-dark-elevation-06",
+      "name": "AEW Dark: Elevation 06",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-04-19",
+      "airtime": "",
+      "airstamp": "2021-04-19T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2054631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2071459,
+      "url": "https://www.tvmaze.com/episodes/2071459/aew-dark-elevation-1x07-aew-dark-elevation-07",
+      "name": "AEW Dark: Elevation 07",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-04-26",
+      "airtime": "",
+      "airstamp": "2021-04-26T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2071459"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2071460,
+      "url": "https://www.tvmaze.com/episodes/2071460/aew-dark-elevation-1x08-aew-dark-elevation-08",
+      "name": "AEW Dark: Elevation 08",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-05-03",
+      "airtime": "",
+      "airstamp": "2021-05-03T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2071460"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2071461,
+      "url": "https://www.tvmaze.com/episodes/2071461/aew-dark-elevation-1x09-aew-dark-elevation-09",
+      "name": "AEW Dark: Elevation 09",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-05-10",
+      "airtime": "",
+      "airstamp": "2021-05-10T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2071461"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2077553,
+      "url": "https://www.tvmaze.com/episodes/2077553/aew-dark-elevation-1x10-aew-dark-elevation-10",
+      "name": "AEW Dark: Elevation 10",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-05-17",
+      "airtime": "",
+      "airstamp": "2021-05-17T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2077553"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2077554,
+      "url": "https://www.tvmaze.com/episodes/2077554/aew-dark-elevation-1x11-aew-dark-elevation-11",
+      "name": "AEW Dark: Elevation 11",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-05-24",
+      "airtime": "",
+      "airstamp": "2021-05-24T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2077554"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2102862,
+      "url": "https://www.tvmaze.com/episodes/2102862/aew-dark-elevation-1x12-aew-dark-elevation-12",
+      "name": "AEW Dark: Elevation 12",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-05-31",
+      "airtime": "",
+      "airstamp": "2021-05-31T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2102862"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2106292,
+      "url": "https://www.tvmaze.com/episodes/2106292/aew-dark-elevation-1x13-aew-dark-elevation-13",
+      "name": "AEW Dark: Elevation 13",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-06-07",
+      "airtime": "",
+      "airstamp": "2021-06-07T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106292"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2106293,
+      "url": "https://www.tvmaze.com/episodes/2106293/aew-dark-elevation-1x14-aew-dark-elevation-14",
+      "name": "AEW Dark: Elevation 14",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-06-14",
+      "airtime": "",
+      "airstamp": "2021-06-14T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106293"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2106294,
+      "url": "https://www.tvmaze.com/episodes/2106294/aew-dark-elevation-1x15-aew-dark-elevation-15",
+      "name": "AEW Dark: Elevation 15",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-06-21",
+      "airtime": "",
+      "airstamp": "2021-06-21T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106294"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2106296,
+      "url": "https://www.tvmaze.com/episodes/2106296/aew-dark-elevation-1x16-aew-dark-elevation-16",
+      "name": "AEW Dark: Elevation 16",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-06-28",
+      "airtime": "",
+      "airstamp": "2021-06-28T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106296"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2122065,
+      "url": "https://www.tvmaze.com/episodes/2122065/aew-dark-elevation-1x17-aew-dark-elevation-17",
+      "name": "AEW Dark: Elevation 17",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2021-07-05",
+      "airtime": "",
+      "airstamp": "2021-07-05T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2122065"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2122066,
+      "url": "https://www.tvmaze.com/episodes/2122066/aew-dark-elevation-1x18-aew-dark-elevation-18",
+      "name": "AEW Dark: Elevation 18",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2021-07-12",
+      "airtime": "",
+      "airstamp": "2021-07-12T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2122066"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2122067,
+      "url": "https://www.tvmaze.com/episodes/2122067/aew-dark-elevation-1x19-aew-dark-elevation-19",
+      "name": "AEW Dark: Elevation 19",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2021-07-19",
+      "airtime": "",
+      "airstamp": "2021-07-19T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2122067"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2122068,
+      "url": "https://www.tvmaze.com/episodes/2122068/aew-dark-elevation-1x20-aew-dark-elevation-20",
+      "name": "AEW Dark: Elevation 20",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2021-07-26",
+      "airtime": "",
+      "airstamp": "2021-07-26T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2122068"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2140111,
+      "url": "https://www.tvmaze.com/episodes/2140111/aew-dark-elevation-1x21-aew-dark-elevation-21",
+      "name": "AEW Dark: Elevation 21",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2021-08-02",
+      "airtime": "",
+      "airstamp": "2021-08-02T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2140111"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2140112,
+      "url": "https://www.tvmaze.com/episodes/2140112/aew-dark-elevation-1x22-aew-dark-elevation-22",
+      "name": "AEW Dark: Elevation 22",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2021-08-09",
+      "airtime": "",
+      "airstamp": "2021-08-09T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2140112"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2140113,
+      "url": "https://www.tvmaze.com/episodes/2140113/aew-dark-elevation-1x23-aew-dark-elevation-23",
+      "name": "AEW Dark: Elevation 23",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2021-08-16",
+      "airtime": "",
+      "airstamp": "2021-08-16T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2140113"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2140114,
+      "url": "https://www.tvmaze.com/episodes/2140114/aew-dark-elevation-1x24-aew-dark-elevation-24",
+      "name": "AEW Dark: Elevation 24",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2021-08-19",
+      "airtime": "",
+      "airstamp": "2021-08-19T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2140114"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2140115,
+      "url": "https://www.tvmaze.com/episodes/2140115/aew-dark-elevation-1x25-aew-dark-elevation-25",
+      "name": "AEW Dark: Elevation 25",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2021-08-23",
+      "airtime": "",
+      "airstamp": "2021-08-23T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2140115"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2156048,
+      "url": "https://www.tvmaze.com/episodes/2156048/aew-dark-elevation-1x26-aew-dark-elevation-26",
+      "name": "AEW Dark: Elevation 26",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2021-08-30",
+      "airtime": "",
+      "airstamp": "2021-08-30T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2156048"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2161278,
+      "url": "https://www.tvmaze.com/episodes/2161278/aew-dark-elevation-1x27-aew-dark-elevation-27",
+      "name": "AEW Dark: Elevation 27",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2021-09-06",
+      "airtime": "",
+      "airstamp": "2021-09-06T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161278"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2161279,
+      "url": "https://www.tvmaze.com/episodes/2161279/aew-dark-elevation-1x28-aew-dark-elevation-28",
+      "name": "AEW Dark: Elevation 28",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2021-09-13",
+      "airtime": "",
+      "airstamp": "2021-09-13T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161279"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2161280,
+      "url": "https://www.tvmaze.com/episodes/2161280/aew-dark-elevation-1x29-aew-dark-elevation-29",
+      "name": "AEW Dark: Elevation 29",
+      "season": 1,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2021-09-20",
+      "airtime": "",
+      "airstamp": "2021-09-20T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161280"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2161281,
+      "url": "https://www.tvmaze.com/episodes/2161281/aew-dark-elevation-1x30-aew-dark-elevation-30",
+      "name": "AEW Dark: Elevation 30",
+      "season": 1,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2021-09-27",
+      "airtime": "",
+      "airstamp": "2021-09-27T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161281"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2186078,
+      "url": "https://www.tvmaze.com/episodes/2186078/aew-dark-elevation-1x31-aew-dark-elevation-31",
+      "name": "AEW Dark: Elevation 31",
+      "season": 1,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2021-10-04",
+      "airtime": "",
+      "airstamp": "2021-10-04T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186078"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2186079,
+      "url": "https://www.tvmaze.com/episodes/2186079/aew-dark-elevation-1x32-aew-dark-elevation-32",
+      "name": "AEW Dark: Elevation 32",
+      "season": 1,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2021-10-11",
+      "airtime": "",
+      "airstamp": "2021-10-11T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186079"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2186080,
+      "url": "https://www.tvmaze.com/episodes/2186080/aew-dark-elevation-1x33-aew-dark-elevation-33",
+      "name": "AEW Dark: Elevation 33",
+      "season": 1,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2021-10-18",
+      "airtime": "",
+      "airstamp": "2021-10-18T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186080"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2186081,
+      "url": "https://www.tvmaze.com/episodes/2186081/aew-dark-elevation-1x34-aew-dark-elevation-34",
+      "name": "AEW Dark: Elevation 34",
+      "season": 1,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2021-10-25",
+      "airtime": "",
+      "airstamp": "2021-10-25T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2186081"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2197921,
+      "url": "https://www.tvmaze.com/episodes/2197921/aew-dark-elevation-1x35-aew-dark-elevation-35",
+      "name": "AEW Dark: Elevation 35",
+      "season": 1,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2021-11-01",
+      "airtime": "",
+      "airstamp": "2021-11-01T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197921"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2212033,
+      "url": "https://www.tvmaze.com/episodes/2212033/aew-dark-elevation-1x36-aew-dark-elevation-36",
+      "name": "AEW Dark: Elevation 36",
+      "season": 1,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2021-11-08",
+      "airtime": "",
+      "airstamp": "2021-11-08T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2212033"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2212034,
+      "url": "https://www.tvmaze.com/episodes/2212034/aew-dark-elevation-1x37-aew-dark-elevation-37",
+      "name": "AEW Dark: Elevation 37",
+      "season": 1,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2021-11-15",
+      "airtime": "",
+      "airstamp": "2021-11-15T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2212034"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2219814,
+      "url": "https://www.tvmaze.com/episodes/2219814/aew-dark-elevation-1x38-aew-dark-elevation-38",
+      "name": "AEW Dark: Elevation 38",
+      "season": 1,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2021-11-22",
+      "airtime": "",
+      "airstamp": "2021-11-22T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2219814"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2219815,
+      "url": "https://www.tvmaze.com/episodes/2219815/aew-dark-elevation-1x39-aew-dark-elevation-39",
+      "name": "AEW Dark: Elevation 39",
+      "season": 1,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2021-11-29",
+      "airtime": "",
+      "airstamp": "2021-11-29T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2219815"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2219817,
+      "url": "https://www.tvmaze.com/episodes/2219817/aew-dark-elevation-1x40-aew-dark-elevation-40",
+      "name": "AEW Dark: Elevation 40",
+      "season": 1,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2021-12-06",
+      "airtime": "",
+      "airstamp": "2021-12-06T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2219817"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2236539,
+      "url": "https://www.tvmaze.com/episodes/2236539/aew-dark-elevation-1x41-aew-dark-elevation-41",
+      "name": "AEW Dark: Elevation 41",
+      "season": 1,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2021-12-13",
+      "airtime": "",
+      "airstamp": "2021-12-13T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236539"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2236540,
+      "url": "https://www.tvmaze.com/episodes/2236540/aew-dark-elevation-1x42-aew-dark-elevation-42",
+      "name": "AEW Dark: Elevation 42",
+      "season": 1,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2021-12-20",
+      "airtime": "",
+      "airstamp": "2021-12-20T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236540"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2236541,
+      "url": "https://www.tvmaze.com/episodes/2236541/aew-dark-elevation-1x43-aew-dark-elevation-43",
+      "name": "AEW Dark: Elevation 43",
+      "season": 1,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2021-12-27",
+      "airtime": "",
+      "airstamp": "2021-12-27T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236541"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2236542,
+      "url": "https://www.tvmaze.com/episodes/2236542/aew-dark-elevation-2x01-aew-dark-elevation-44",
+      "name": "AEW Dark: Elevation 44",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-03",
+      "airtime": "",
+      "airstamp": "2022-01-03T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236542"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2253567,
+      "url": "https://www.tvmaze.com/episodes/2253567/aew-dark-elevation-2x02-aew-dark-elevation-45",
+      "name": "AEW Dark: Elevation 45",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-01-10",
+      "airtime": "",
+      "airstamp": "2022-01-10T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253567"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2253568,
+      "url": "https://www.tvmaze.com/episodes/2253568/aew-dark-elevation-2x03-aew-dark-elevation-46",
+      "name": "AEW Dark: Elevation 46",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-01-17",
+      "airtime": "",
+      "airstamp": "2022-01-17T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253568"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2253569,
+      "url": "https://www.tvmaze.com/episodes/2253569/aew-dark-elevation-2x04-aew-dark-elevation-47",
+      "name": "AEW Dark: Elevation 47",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-01-24",
+      "airtime": "",
+      "airstamp": "2022-01-24T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253569"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2253570,
+      "url": "https://www.tvmaze.com/episodes/2253570/aew-dark-elevation-2x05-aew-dark-elevation-48",
+      "name": "AEW Dark: Elevation 48",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-01-31",
+      "airtime": "",
+      "airstamp": "2022-01-31T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2253570"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2270196,
+      "url": "https://www.tvmaze.com/episodes/2270196/aew-dark-elevation-2x06-aew-dark-elevation-49",
+      "name": "AEW Dark: Elevation 49",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-02-07",
+      "airtime": "",
+      "airstamp": "2022-02-07T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2270196"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2270197,
+      "url": "https://www.tvmaze.com/episodes/2270197/aew-dark-elevation-2x07-aew-dark-elevation-50",
+      "name": "AEW Dark: Elevation 50",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-02-14",
+      "airtime": "",
+      "airstamp": "2022-02-14T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2270197"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2270198,
+      "url": "https://www.tvmaze.com/episodes/2270198/aew-dark-elevation-2x08-aew-dark-elevation-51",
+      "name": "AEW Dark: Elevation 51",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-02-21",
+      "airtime": "",
+      "airstamp": "2022-02-21T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2270198"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2270199,
+      "url": "https://www.tvmaze.com/episodes/2270199/aew-dark-elevation-2x09-aew-dark-elevation-52",
+      "name": "AEW Dark: Elevation 52",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-02-28",
+      "airtime": "",
+      "airstamp": "2022-02-28T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2270199"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2290596,
+      "url": "https://www.tvmaze.com/episodes/2290596/aew-dark-elevation-2x10-aew-dark-elevation-53",
+      "name": "AEW Dark: Elevation 53",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-03-07",
+      "airtime": "",
+      "airstamp": "2022-03-07T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2290596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2290597,
+      "url": "https://www.tvmaze.com/episodes/2290597/aew-dark-elevation-2x11-aew-dark-elevation-54",
+      "name": "AEW Dark: Elevation 54",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-03-14",
+      "airtime": "",
+      "airstamp": "2022-03-14T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2290597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2290598,
+      "url": "https://www.tvmaze.com/episodes/2290598/aew-dark-elevation-2x12-aew-dark-elevation-55",
+      "name": "AEW Dark: Elevation 55",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-03-21",
+      "airtime": "",
+      "airstamp": "2022-03-21T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2290598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2290599,
+      "url": "https://www.tvmaze.com/episodes/2290599/aew-dark-elevation-2x13-aew-dark-elevation-56",
+      "name": "AEW Dark: Elevation 56",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-03-28",
+      "airtime": "",
+      "airstamp": "2022-03-28T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2290599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2307291,
+      "url": "https://www.tvmaze.com/episodes/2307291/aew-dark-elevation-2x14-aew-dark-elevation-57",
+      "name": "AEW Dark: Elevation 57",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2022-04-04",
+      "airtime": "",
+      "airstamp": "2022-04-04T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2307291"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2307292,
+      "url": "https://www.tvmaze.com/episodes/2307292/aew-dark-elevation-2x15-aew-dark-elevation-58",
+      "name": "AEW Dark: Elevation 58",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2022-04-11",
+      "airtime": "",
+      "airstamp": "2022-04-11T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2307292"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2307293,
+      "url": "https://www.tvmaze.com/episodes/2307293/aew-dark-elevation-2x16-aew-dark-elevation-59",
+      "name": "AEW Dark: Elevation 59",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2022-04-18",
+      "airtime": "",
+      "airstamp": "2022-04-18T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2307293"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2307294,
+      "url": "https://www.tvmaze.com/episodes/2307294/aew-dark-elevation-2x17-aew-dark-elevation-60",
+      "name": "AEW Dark: Elevation 60",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2022-04-25",
+      "airtime": "",
+      "airstamp": "2022-04-25T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2307294"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2307295,
+      "url": "https://www.tvmaze.com/episodes/2307295/aew-dark-elevation-2x18-aew-dark-elevation-61",
+      "name": "AEW Dark: Elevation 61",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2022-05-02",
+      "airtime": "",
+      "airstamp": "2022-05-02T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2307295"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2319558,
+      "url": "https://www.tvmaze.com/episodes/2319558/aew-dark-elevation-2x19-aew-dark-elevation-62",
+      "name": "AEW Dark: Elevation 62",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2022-05-09",
+      "airtime": "",
+      "airstamp": "2022-05-09T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2319558"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2319559,
+      "url": "https://www.tvmaze.com/episodes/2319559/aew-dark-elevation-2x20-aew-dark-elevation-63",
+      "name": "AEW Dark: Elevation 63",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2022-05-16",
+      "airtime": "",
+      "airstamp": "2022-05-16T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2319559"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2319560,
+      "url": "https://www.tvmaze.com/episodes/2319560/aew-dark-elevation-2x21-aew-dark-elevation-64",
+      "name": "AEW Dark: Elevation 64",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2022-05-23",
+      "airtime": "",
+      "airstamp": "2022-05-23T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2319560"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2319561,
+      "url": "https://www.tvmaze.com/episodes/2319561/aew-dark-elevation-2x22-aew-dark-elevation-65",
+      "name": "AEW Dark: Elevation 65",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2022-05-30",
+      "airtime": "",
+      "airstamp": "2022-05-30T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2319561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2337791,
+      "url": "https://www.tvmaze.com/episodes/2337791/aew-dark-elevation-2x23-aew-dark-elevation-66",
+      "name": "AEW Dark: Elevation 66",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2022-06-06",
+      "airtime": "",
+      "airstamp": "2022-06-06T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2337791"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2337792,
+      "url": "https://www.tvmaze.com/episodes/2337792/aew-dark-elevation-2x24-aew-dark-elevation-67",
+      "name": "AEW Dark: Elevation 67",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2022-06-13",
+      "airtime": "",
+      "airstamp": "2022-06-13T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2337792"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2337793,
+      "url": "https://www.tvmaze.com/episodes/2337793/aew-dark-elevation-2x25-aew-dark-elevation-68",
+      "name": "AEW Dark: Elevation 68",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2022-06-20",
+      "airtime": "",
+      "airstamp": "2022-06-20T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2337793"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2337794,
+      "url": "https://www.tvmaze.com/episodes/2337794/aew-dark-elevation-2x26-aew-dark-elevation-69",
+      "name": "AEW Dark: Elevation 69",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2022-06-27",
+      "airtime": "",
+      "airstamp": "2022-06-27T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2337794"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2357108,
+      "url": "https://www.tvmaze.com/episodes/2357108/aew-dark-elevation-2x27-aew-dark-elevation-70",
+      "name": "AEW Dark: Elevation 70",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2022-07-04",
+      "airtime": "",
+      "airstamp": "2022-07-04T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357108"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2357109,
+      "url": "https://www.tvmaze.com/episodes/2357109/aew-dark-elevation-2x28-aew-dark-elevation-71",
+      "name": "AEW Dark: Elevation 71",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2022-07-11",
+      "airtime": "",
+      "airstamp": "2022-07-11T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357109"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2357110,
+      "url": "https://www.tvmaze.com/episodes/2357110/aew-dark-elevation-2x29-aew-dark-elevation-72",
+      "name": "AEW Dark: Elevation 72",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2022-07-18",
+      "airtime": "",
+      "airstamp": "2022-07-18T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357110"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2357111,
+      "url": "https://www.tvmaze.com/episodes/2357111/aew-dark-elevation-2x30-aew-dark-elevation-73",
+      "name": "AEW Dark: Elevation 73",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2022-07-25",
+      "airtime": "",
+      "airstamp": "2022-07-25T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357111"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2357112,
+      "url": "https://www.tvmaze.com/episodes/2357112/aew-dark-elevation-2x31-aew-dark-elevation-74",
+      "name": "AEW Dark: Elevation 74",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2022-08-01",
+      "airtime": "",
+      "airstamp": "2022-08-01T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2357112"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2371928,
+      "url": "https://www.tvmaze.com/episodes/2371928/aew-dark-elevation-2x32-aew-dark-elevation-75",
+      "name": "AEW Dark: Elevation 75",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2022-08-08",
+      "airtime": "",
+      "airstamp": "2022-08-08T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371928"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2371929,
+      "url": "https://www.tvmaze.com/episodes/2371929/aew-dark-elevation-2x33-aew-dark-elevation-76",
+      "name": "AEW Dark: Elevation 76",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2022-08-15",
+      "airtime": "",
+      "airstamp": "2022-08-15T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371929"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2371930,
+      "url": "https://www.tvmaze.com/episodes/2371930/aew-dark-elevation-2x34-aew-dark-elevation-77",
+      "name": "AEW Dark: Elevation 77",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2022-08-22",
+      "airtime": "",
+      "airstamp": "2022-08-22T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371930"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2371931,
+      "url": "https://www.tvmaze.com/episodes/2371931/aew-dark-elevation-2x35-aew-dark-elevation-78",
+      "name": "AEW Dark: Elevation 78",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2022-08-29",
+      "airtime": "",
+      "airstamp": "2022-08-29T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371931"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2383155,
+      "url": "https://www.tvmaze.com/episodes/2383155/aew-dark-elevation-2x36-aew-dark-elevation-79",
+      "name": "AEW Dark: Elevation 79",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2022-09-05",
+      "airtime": "",
+      "airstamp": "2022-09-05T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383155"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2383156,
+      "url": "https://www.tvmaze.com/episodes/2383156/aew-dark-elevation-2x37-aew-dark-elevation-80",
+      "name": "AEW Dark: Elevation 80",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2022-09-12",
+      "airtime": "",
+      "airstamp": "2022-09-12T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383156"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2383157,
+      "url": "https://www.tvmaze.com/episodes/2383157/aew-dark-elevation-2x38-aew-dark-elevation-81",
+      "name": "AEW Dark: Elevation 81",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2022-09-19",
+      "airtime": "",
+      "airstamp": "2022-09-19T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383157"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2383158,
+      "url": "https://www.tvmaze.com/episodes/2383158/aew-dark-elevation-2x39-aew-dark-elevation-82",
+      "name": "AEW Dark: Elevation 82",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2022-09-26",
+      "airtime": "",
+      "airstamp": "2022-09-26T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2383158"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2408968,
+      "url": "https://www.tvmaze.com/episodes/2408968/aew-dark-elevation-2x40-aew-dark-elevation-83",
+      "name": "AEW Dark: Elevation 83",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2022-10-03",
+      "airtime": "",
+      "airstamp": "2022-10-03T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2408968"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2408969,
+      "url": "https://www.tvmaze.com/episodes/2408969/aew-dark-elevation-2x41-aew-dark-elevation-84",
+      "name": "AEW Dark: Elevation 84",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2022-10-10",
+      "airtime": "",
+      "airstamp": "2022-10-10T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2408969"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2408970,
+      "url": "https://www.tvmaze.com/episodes/2408970/aew-dark-elevation-2x42-aew-dark-elevation-85",
+      "name": "AEW Dark: Elevation 85",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2022-10-17",
+      "airtime": "",
+      "airstamp": "2022-10-17T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2408970"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2408971,
+      "url": "https://www.tvmaze.com/episodes/2408971/aew-dark-elevation-2x43-aew-dark-elevation-86",
+      "name": "AEW Dark: Elevation 86",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2022-10-24",
+      "airtime": "",
+      "airstamp": "2022-10-24T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2408971"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2408972,
+      "url": "https://www.tvmaze.com/episodes/2408972/aew-dark-elevation-2x44-aew-dark-elevation-87",
+      "name": "AEW Dark: Elevation 87",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2022-10-31",
+      "airtime": "",
+      "airstamp": "2022-10-31T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2408972"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2423728,
+      "url": "https://www.tvmaze.com/episodes/2423728/aew-dark-elevation-2x45-aew-dark-elevation-88",
+      "name": "AEW Dark: Elevation 88",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2022-11-07",
+      "airtime": "",
+      "airstamp": "2022-11-07T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2423728"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2423729,
+      "url": "https://www.tvmaze.com/episodes/2423729/aew-dark-elevation-2x46-aew-dark-elevation-89",
+      "name": "AEW Dark: Elevation 89",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2022-11-14",
+      "airtime": "",
+      "airstamp": "2022-11-14T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2423729"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2423730,
+      "url": "https://www.tvmaze.com/episodes/2423730/aew-dark-elevation-2x47-aew-dark-elevation-90",
+      "name": "AEW Dark: Elevation 90",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2022-11-21",
+      "airtime": "",
+      "airstamp": "2022-11-21T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2423730"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2423731,
+      "url": "https://www.tvmaze.com/episodes/2423731/aew-dark-elevation-2x48-aew-dark-elevation-91",
+      "name": "AEW Dark: Elevation 91",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2022-11-28",
+      "airtime": "",
+      "airstamp": "2022-11-28T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2423731"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2423732,
+      "url": "https://www.tvmaze.com/episodes/2423732/aew-dark-elevation-2x49-aew-dark-elevation-92",
+      "name": "AEW Dark: Elevation 92",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2022-12-05",
+      "airtime": "",
+      "airstamp": "2022-12-05T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2423732"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2444842,
+      "url": "https://www.tvmaze.com/episodes/2444842/aew-dark-elevation-2x50-aew-dark-elevation-93",
+      "name": "AEW Dark: Elevation 93",
+      "season": 2,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2022-12-12",
+      "airtime": "",
+      "airstamp": "2022-12-12T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2444842"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2444843,
+      "url": "https://www.tvmaze.com/episodes/2444843/aew-dark-elevation-2x51-aew-dark-elevation-94",
+      "name": "AEW Dark: Elevation 94",
+      "season": 2,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2022-12-19",
+      "airtime": "",
+      "airstamp": "2022-12-19T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2444843"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2444844,
+      "url": "https://www.tvmaze.com/episodes/2444844/aew-dark-elevation-2x52-aew-dark-elevation-95",
+      "name": "AEW Dark: Elevation 95",
+      "season": 2,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2022-12-26",
+      "airtime": "",
+      "airstamp": "2022-12-26T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2444844"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2456152,
+      "url": "https://www.tvmaze.com/episodes/2456152/aew-dark-elevation-3x01-aew-dark-elevation-96",
+      "name": "AEW Dark: Elevation 96",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-01-02",
+      "airtime": "",
+      "airstamp": "2023-01-02T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2456152"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2456153,
+      "url": "https://www.tvmaze.com/episodes/2456153/aew-dark-elevation-3x02-aew-dark-elevation-97",
+      "name": "AEW Dark: Elevation 97",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-01-09",
+      "airtime": "",
+      "airstamp": "2023-01-09T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2456153"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2456154,
+      "url": "https://www.tvmaze.com/episodes/2456154/aew-dark-elevation-3x03-aew-dark-elevation-98",
+      "name": "AEW Dark: Elevation 98",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-01-16",
+      "airtime": "",
+      "airstamp": "2023-01-16T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2456154"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2456155,
+      "url": "https://www.tvmaze.com/episodes/2456155/aew-dark-elevation-3x04-aew-dark-elevation-99",
+      "name": "AEW Dark: Elevation 99",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-01-23",
+      "airtime": "",
+      "airstamp": "2023-01-23T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2456155"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2456156,
+      "url": "https://www.tvmaze.com/episodes/2456156/aew-dark-elevation-3x05-aew-dark-elevation-100",
+      "name": "AEW Dark: Elevation 100",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-01-30",
+      "airtime": "",
+      "airstamp": "2023-01-30T12:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2456156"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481899,
+      "url": "https://www.tvmaze.com/episodes/2481899/aew-dark-elevation-3x06-aew-dark-elevation-101",
+      "name": "AEW Dark: Elevation 101",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-02-06",
+      "airtime": "",
+      "airstamp": "2023-02-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481899"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481900,
+      "url": "https://www.tvmaze.com/episodes/2481900/aew-dark-elevation-3x07-aew-dark-elevation-102",
+      "name": "AEW Dark: Elevation 102",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-02-13",
+      "airtime": "",
+      "airstamp": "2023-02-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481900"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481901,
+      "url": "https://www.tvmaze.com/episodes/2481901/aew-dark-elevation-3x08-aew-dark-elevation-103",
+      "name": "AEW Dark: Elevation 103",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-02-20",
+      "airtime": "",
+      "airstamp": "2023-02-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481901"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481902,
+      "url": "https://www.tvmaze.com/episodes/2481902/aew-dark-elevation-3x09-aew-dark-elevation-104",
+      "name": "AEW Dark: Elevation 104",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-02-27",
+      "airtime": "",
+      "airstamp": "2023-02-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481902"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481903,
+      "url": "https://www.tvmaze.com/episodes/2481903/aew-dark-elevation-3x10-aew-dark-elevation-105",
+      "name": "AEW Dark: Elevation 105",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-03-06",
+      "airtime": "",
+      "airstamp": "2023-03-06T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481903"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481904,
+      "url": "https://www.tvmaze.com/episodes/2481904/aew-dark-elevation-3x11-aew-dark-elevation-106",
+      "name": "AEW Dark: Elevation 106",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-03-13",
+      "airtime": "",
+      "airstamp": "2023-03-13T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481904"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481905,
+      "url": "https://www.tvmaze.com/episodes/2481905/aew-dark-elevation-3x12-aew-dark-elevation-107",
+      "name": "AEW Dark: Elevation 107",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-03-20",
+      "airtime": "",
+      "airstamp": "2023-03-20T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481905"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481906,
+      "url": "https://www.tvmaze.com/episodes/2481906/aew-dark-elevation-3x13-aew-dark-elevation-108",
+      "name": "AEW Dark: Elevation 108",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-03-27",
+      "airtime": "",
+      "airstamp": "2023-03-27T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481906"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481907,
+      "url": "https://www.tvmaze.com/episodes/2481907/aew-dark-elevation-3x14-aew-dark-elevation-109",
+      "name": "AEW Dark: Elevation 109",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-04-03",
+      "airtime": "",
+      "airstamp": "2023-04-03T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481907"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2481908,
+      "url": "https://www.tvmaze.com/episodes/2481908/aew-dark-elevation-3x15-aew-dark-elevation-110",
+      "name": "AEW Dark: Elevation 110",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-04-10",
+      "airtime": "",
+      "airstamp": "2023-04-10T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2481908"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    },
+    {
+      "id": 2524076,
+      "url": "https://www.tvmaze.com/episodes/2524076/aew-dark-elevation-3x16-aew-dark-elevation-111",
+      "name": "AEW Dark: Elevation 111",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-04-17",
+      "airtime": "",
+      "airstamp": "2023-04-17T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2524076"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/53780",
+          "name": "AEW Dark: Elevation"
+        }
+      }
+    }
+  ]
+}

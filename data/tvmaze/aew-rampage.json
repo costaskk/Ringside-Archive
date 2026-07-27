@@ -1,0 +1,4795 @@
+{
+  "programId": "aew-rampage",
+  "tvMazeId": 55432,
+  "fetchedAt": "2026-07-27T07:57:35.914Z",
+  "show": {
+    "id": 55432,
+    "url": "https://www.tvmaze.com/shows/55432/aew-rampage",
+    "name": "AEW: Rampage",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2021-08-13",
+    "ended": "2024-12-27",
+    "officialSite": "https://www.allelitewrestling.com/",
+    "schedule": {
+      "time": "22:00",
+      "days": [
+        "Friday"
+      ]
+    },
+    "rating": {
+      "average": 6.1
+    },
+    "weight": 90,
+    "network": {
+      "id": 14,
+      "name": "TNT",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.tntdrama.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 403243,
+      "imdb": "tt14738480"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/348/871052.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/348/871052.jpg"
+    },
+    "summary": "<p>Filmed in front of a live audience each week, <b>AEW: Rampage</b> featuring a star-studded commentary team with the legendary Chris Jericho, Taz and Excalibur at the helm each week. They'll be joined by \"The World's Strongest Man\" Mark Henry, who will provide expert analysis, break down strategy and share insight into the minds of wresters via in-depth pre-match interviews.</p><p><br /> </p>",
+    "updated": 1735784479,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/55432"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2917395",
+        "name": "#178 - New Year's Smash: Hammerstein Ballroom in New York, NY"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2095149,
+      "url": "https://www.tvmaze.com/episodes/2095149/aew-rampage-1x01-1-petersen-events-center-in-pittsburgh-pa",
+      "name": "#1 - Petersen Events Center in Pittsburgh, PA",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-08-13",
+      "airtime": "22:00",
+      "airstamp": "2021-08-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2095149"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2125243,
+      "url": "https://www.tvmaze.com/episodes/2125243/aew-rampage-1x02-2-the-first-dance-united-center-in-chicago-il",
+      "name": "#2 - The First Dance: United Center in Chicago, IL",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-08-20",
+      "airtime": "22:00",
+      "airstamp": "2021-08-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.8
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2125243"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2125244,
+      "url": "https://www.tvmaze.com/episodes/2125244/aew-rampage-1x03-3-uwm-panther-arena-in-milwaukee-wi",
+      "name": "#3 - UWM Panther Arena in Milwaukee, WI",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-08-27",
+      "airtime": "22:00",
+      "airstamp": "2021-08-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2125244"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2125245,
+      "url": "https://www.tvmaze.com/episodes/2125245/aew-rampage-1x04-4-now-arena-in-hoffman-estates-il",
+      "name": "#4 - NOW Arena in Hoffman Estates, IL",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-09-03",
+      "airtime": "22:00",
+      "airstamp": "2021-09-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2125245"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2152370,
+      "url": "https://www.tvmaze.com/episodes/2152370/aew-rampage-1x05-5-fifth-third-arena-in-cincinnati-oh",
+      "name": "#5 - Fifth Third Arena in Cincinnati, OH",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-09-10",
+      "airtime": "22:00",
+      "airstamp": "2021-09-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2152370"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2163593,
+      "url": "https://www.tvmaze.com/episodes/2163593/aew-rampage-1x06-6-prudential-center-in-newark-nj",
+      "name": "#6 - Prudential Center in Newark, NJ",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-09-17",
+      "airtime": "22:00",
+      "airstamp": "2021-09-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2163593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2163595,
+      "url": "https://www.tvmaze.com/episodes/2163595/aew-rampage-1x07-7-grand-slam-arthur-ashe-stadium-in-queens-ny",
+      "name": "#7 - Grand Slam: Arthur Ashe Stadium in Queens, NY",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-09-24",
+      "airtime": "22:00",
+      "airstamp": "2021-09-25T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2163595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2163596,
+      "url": "https://www.tvmaze.com/episodes/2163596/aew-rampage-1x08-8-blue-cross-arena-in-rochester-ny",
+      "name": "#8 - Blue Cross Arena in Rochester, NY",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-10-01",
+      "airtime": "22:00",
+      "airstamp": "2021-10-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2163596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2164006,
+      "url": "https://www.tvmaze.com/episodes/2164006/aew-rampage-1x09-9-the-liacouras-center-in-philadelphia-pa",
+      "name": "#9 - The Liacouras Center in Philadelphia, PA",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-10-08",
+      "airtime": "22:00",
+      "airstamp": "2021-10-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2164006"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2164007,
+      "url": "https://www.tvmaze.com/episodes/2164007/aew-rampage-1x10-10-james-l-knight-center-in-miami-fl",
+      "name": "#10 - James L. Knight Center in Miami, FL",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-10-15",
+      "airtime": "22:00",
+      "airstamp": "2021-10-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2164007"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2192539,
+      "url": "https://www.tvmaze.com/episodes/2192539/aew-rampage-1x11-11-james-l-knight-center-in-miami-fl",
+      "name": "#11 - James L. Knight Center in Miami, FL",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-10-22",
+      "airtime": "22:00",
+      "airstamp": "2021-10-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2192539"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195577,
+      "url": "https://www.tvmaze.com/episodes/2195577/aew-rampage-1x12-12-agganis-arena-in-boston-ma",
+      "name": "#12 - Agganis Arena in Boston, MA",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-10-29",
+      "airtime": "22:00",
+      "airstamp": "2021-10-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195577"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195578,
+      "url": "https://www.tvmaze.com/episodes/2195578/aew-rampage-1x13-13-chaifetz-arena-in-st-louis-mo",
+      "name": "#13 - Chaifetz Arena in St. Louis, MO",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-11-05",
+      "airtime": "22:00",
+      "airstamp": "2021-11-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195578"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195579,
+      "url": "https://www.tvmaze.com/episodes/2195579/aew-rampage-1x14-14-target-center-in-minneapolis-mn",
+      "name": "#14 - Target Center in Minneapolis, MN",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-11-12",
+      "airtime": "22:00",
+      "airstamp": "2021-11-13T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195580,
+      "url": "https://www.tvmaze.com/episodes/2195580/aew-rampage-1x15-15-chartway-arena-in-norfolk-va",
+      "name": "#15 - Chartway Arena in Norfolk, VA",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-11-19",
+      "airtime": "22:00",
+      "airstamp": "2021-11-20T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195580"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195581,
+      "url": "https://www.tvmaze.com/episodes/2195581/aew-rampage-1x16-16-black-friday-wintrust-arena-in-chicago-il",
+      "name": "#16 - Black Friday: Wintrust Arena in Chicago, IL",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-11-26",
+      "airtime": "22:00",
+      "airstamp": "2021-11-27T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195581"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195582,
+      "url": "https://www.tvmaze.com/episodes/2195582/aew-rampage-1x17-17-gas-south-arena-in-duluth-ga",
+      "name": "#17 - Gas South Arena in Duluth, GA",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2021-12-03",
+      "airtime": "22:00",
+      "airstamp": "2021-12-04T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195582"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195583,
+      "url": "https://www.tvmaze.com/episodes/2195583/aew-rampage-1x18-18-ubs-arena-in-elmont-ny",
+      "name": "#18 - UBS Arena in Elmont, NY",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2021-12-10",
+      "airtime": "22:00",
+      "airstamp": "2021-12-11T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195584,
+      "url": "https://www.tvmaze.com/episodes/2195584/aew-rampage-1x19-19-curtis-cullwell-center-in-garland-tx",
+      "name": "#19 - Curtis Cullwell Center in Garland, TX",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2021-12-17",
+      "airtime": "22:00",
+      "airstamp": "2021-12-18T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 7.5
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195585,
+      "url": "https://www.tvmaze.com/episodes/2195585/aew-rampage-1x20-20-holiday-bash-greensboro-coliseum-in-greensboro-nc",
+      "name": "#20 - Holiday Bash: Greensboro Coliseum in Greensboro, NC",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2021-12-25",
+      "airtime": "21:00",
+      "airstamp": "2021-12-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195586,
+      "url": "https://www.tvmaze.com/episodes/2195586/aew-rampage-1x21-21-new-years-smash-dailys-place-in-jacksonville-fl",
+      "name": "#21 - New Year's Smash: Daily's Place in Jacksonville, FL",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2021-12-31",
+      "airtime": "22:00",
+      "airstamp": "2022-01-01T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2216235,
+      "url": "https://www.tvmaze.com/episodes/2216235/aew-rampage-2x01-22-prudential-center-in-newark-nj",
+      "name": "#22 - Prudential Center in Newark, NJ",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-07",
+      "airtime": "22:00",
+      "airstamp": "2022-01-08T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2216235"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2216236,
+      "url": "https://www.tvmaze.com/episodes/2216236/aew-rampage-2x02-23-pnc-arena-in-raleigh-nc",
+      "name": "#23 - PNC Arena in Raleigh, NC",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-01-14",
+      "airtime": "22:00",
+      "airstamp": "2022-01-15T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2216236"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2228673,
+      "url": "https://www.tvmaze.com/episodes/2228673/aew-rampage-2x03-24-entertainment-sports-arena-in-washington-dc",
+      "name": "#24 - Entertainment & Sports Arena in Washington, DC",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-01-21",
+      "airtime": "22:00",
+      "airstamp": "2022-01-22T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2228673"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2228674,
+      "url": "https://www.tvmaze.com/episodes/2228674/aew-rampage-2x04-25-wolstein-center-in-cleveland-oh",
+      "name": "#25 - Wolstein Center in Cleveland, OH",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-01-28",
+      "airtime": "22:00",
+      "airstamp": "2022-01-29T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2228674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2228675,
+      "url": "https://www.tvmaze.com/episodes/2228675/aew-rampage-2x05-26-wintrust-arena-in-chicago-il",
+      "name": "#26 - Wintrust Arena in Chicago, IL",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-02-04",
+      "airtime": "22:00",
+      "airstamp": "2022-02-05T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2228675"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2234830,
+      "url": "https://www.tvmaze.com/episodes/2234830/aew-rampage-2x06-27-jim-whelan-boardwalk-hall-in-atlantic-city-nj",
+      "name": "#27 - Jim Whelan Boardwalk Hall in Atlantic City, NJ",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-02-11",
+      "airtime": "22:00",
+      "airstamp": "2022-02-12T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 7
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2234830"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2236865,
+      "url": "https://www.tvmaze.com/episodes/2236865/aew-rampage-2x07-28-slam-dunk-nashville-municipal-auditorium-in-nashville-tn",
+      "name": "#28 - Slam Dunk: Nashville Municipal Auditorium in Nashville, TN",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-02-18",
+      "airtime": "19:00",
+      "airstamp": "2022-02-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236865"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2236866,
+      "url": "https://www.tvmaze.com/episodes/2236866/aew-rampage-2x08-29-webster-bank-arena-in-bridgeport-ct",
+      "name": "#29 - Webster Bank Arena in Bridgeport, CT",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-02-25",
+      "airtime": "22:00",
+      "airstamp": "2022-02-26T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236866"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2236867,
+      "url": "https://www.tvmaze.com/episodes/2236867/aew-rampage-2x09-30-addition-financial-arena-in-orlando-fl",
+      "name": "#30 - Addition Financial Arena in Orlando, FL",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-03-04",
+      "airtime": "22:00",
+      "airstamp": "2022-03-05T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2236867"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2255712,
+      "url": "https://www.tvmaze.com/episodes/2255712/aew-rampage-2x10-31-hertz-arena-in-estero-fl",
+      "name": "#31 - Hertz Arena in Estero, FL",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-03-11",
+      "airtime": "22:00",
+      "airstamp": "2022-03-12T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2255712"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2260759,
+      "url": "https://www.tvmaze.com/episodes/2260759/aew-rampage-2x11-32-freeman-coliseum-in-san-antonio-tx",
+      "name": "#32 - Freeman Coliseum in San Antonio, TX",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-03-18",
+      "airtime": "23:45",
+      "airstamp": "2022-03-19T03:45:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2260759"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2260760,
+      "url": "https://www.tvmaze.com/episodes/2260760/aew-rampage-2x12-33-h-e-b-center-in-cedar-park-tx",
+      "name": "#33 - H-E-B Center in Cedar Park, TX",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-03-25",
+      "airtime": "22:00",
+      "airstamp": "2022-03-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2260760"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2266672,
+      "url": "https://www.tvmaze.com/episodes/2266672/aew-rampage-2x13-34-colonial-life-arena-in-columbia-sc",
+      "name": "#34 - Colonial Life Arena in Columbia, SC",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-04-01",
+      "airtime": "22:00",
+      "airstamp": "2022-04-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2266672"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2266673,
+      "url": "https://www.tvmaze.com/episodes/2266673/aew-rampage-2x14-35-agganis-arena-in-boston-ma",
+      "name": "#35 - Agganis Arena in Boston, MA",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2022-04-08",
+      "airtime": "22:00",
+      "airstamp": "2022-04-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2266673"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2266674,
+      "url": "https://www.tvmaze.com/episodes/2266674/aew-rampage-2x15-36-curtis-cullwell-center-in-garland-tx",
+      "name": "#36 - Curtis Cullwell Center in Garland, TX",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2022-04-15",
+      "airtime": "19:00",
+      "airstamp": "2022-04-15T23:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2266674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2276928,
+      "url": "https://www.tvmaze.com/episodes/2276928/aew-rampage-2x16-37-petersen-events-center-in-pittsburgh-pa",
+      "name": "#37 - Petersen Events Center in Pittsburgh, PA",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2022-04-22",
+      "airtime": "22:00",
+      "airstamp": "2022-04-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2276928"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2282614,
+      "url": "https://www.tvmaze.com/episodes/2282614/aew-rampage-2x17-38-liacouras-center-in-philadelphia-pa",
+      "name": "#38 - Liacouras Center in Philadelphia, PA",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2022-04-29",
+      "airtime": "22:00",
+      "airstamp": "2022-04-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2282614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2283494,
+      "url": "https://www.tvmaze.com/episodes/2283494/aew-rampage-2x18-39-chesapeake-employers-insurance-arena-in-baltimore-md",
+      "name": "#39 - Chesapeake Employers Insurance Arena in Baltimore, MD",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2022-05-06",
+      "airtime": "17:30",
+      "airstamp": "2022-05-06T21:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2283494"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2283495,
+      "url": "https://www.tvmaze.com/episodes/2283495/aew-rampage-2x19-40-ubs-arena-in-elmont-ny",
+      "name": "#40 - UBS Arena in Elmont, NY",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2022-05-13",
+      "airtime": "17:30",
+      "airstamp": "2022-05-13T21:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2283495"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2284083,
+      "url": "https://www.tvmaze.com/episodes/2284083/aew-rampage-2x20-41-fertitta-center-in-houston-tx",
+      "name": "#41 - Fertitta Center in Houston, TX",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2022-05-20",
+      "airtime": "19:00",
+      "airstamp": "2022-05-20T23:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2284083"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2284084,
+      "url": "https://www.tvmaze.com/episodes/2284084/aew-rampage-2x21-42-michelob-ultra-arena-in-las-vegas-nv",
+      "name": "#42 - Michelob Ultra Arena in Las Vegas, NV",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2022-05-27",
+      "airtime": "18:30",
+      "airstamp": "2022-05-27T22:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2284084"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2286426,
+      "url": "https://www.tvmaze.com/episodes/2286426/aew-rampage-2x22-43-toyota-arena-in-ontario-ca",
+      "name": "#43 - Toyota Arena in Ontario, CA",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2022-06-03",
+      "airtime": "22:00",
+      "airstamp": "2022-06-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2286426"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2309043,
+      "url": "https://www.tvmaze.com/episodes/2309043/aew-rampage-2x23-44-cable-dahmer-arena-in-independence-mo",
+      "name": "#44 - Cable Dahmer Arena in Independence, MO",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2022-06-10",
+      "airtime": "22:00",
+      "airstamp": "2022-06-11T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2309043"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2309829,
+      "url": "https://www.tvmaze.com/episodes/2309829/aew-rampage-2x24-45-chaifetz-arena-in-st-louis-mo",
+      "name": "#45 - Chaifetz Arena in St. Louis, MO",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2022-06-17",
+      "airtime": "22:00",
+      "airstamp": "2022-06-18T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2309829"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2309833,
+      "url": "https://www.tvmaze.com/episodes/2309833/aew-rampage-2x25-46-uw-milwaukee-panther-arena-in-milwaukee-wi",
+      "name": "#46 - UW-Milwaukee Panther Arena in Milwaukee, WI",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2022-06-24",
+      "airtime": "22:00",
+      "airstamp": "2022-06-25T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2309833"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2309834,
+      "url": "https://www.tvmaze.com/episodes/2309834/aew-rampage-2x26-47-little-caesars-arena-in-detroit-mi",
+      "name": "#47 - Little Caesars Arena in Detroit, MI",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2022-07-01",
+      "airtime": "22:00",
+      "airstamp": "2022-07-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2309834"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2323704,
+      "url": "https://www.tvmaze.com/episodes/2323704/aew-rampage-2x27-48-blue-cross-arena-at-the-war-memorial-in-rochester-ny",
+      "name": "#48 - Blue Cross Arena at the War Memorial in Rochester, NY",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2022-07-08",
+      "airtime": "22:00",
+      "airstamp": "2022-07-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2323704"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2331259,
+      "url": "https://www.tvmaze.com/episodes/2331259/aew-rampage-2x28-49-fyter-fest-week-1-enmarket-arena-in-savannah-ga",
+      "name": "#49 - Fyter Fest Week 1: Enmarket Arena in Savannah, GA",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2022-07-15",
+      "airtime": "22:00",
+      "airstamp": "2022-07-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2331259"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2331260,
+      "url": "https://www.tvmaze.com/episodes/2331260/aew-rampage-2x29-50-fyter-fest-week-2-gas-south-arena-in-duluth-ga",
+      "name": "#50 - Fyter Fest Week 2: Gas South Arena in Duluth, GA",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2022-07-22",
+      "airtime": "22:00",
+      "airstamp": "2022-07-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2331260"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2331261,
+      "url": "https://www.tvmaze.com/episodes/2331261/aew-rampage-2x30-51-fight-for-the-fallen-dcu-center-in-worcester-ma",
+      "name": "#51 - Fight for the Fallen: DCU Center in Worcester, MA",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2022-07-29",
+      "airtime": "22:00",
+      "airstamp": "2022-07-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2331261"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2339244,
+      "url": "https://www.tvmaze.com/episodes/2339244/aew-rampage-2x31-52-van-andel-arena-in-grand-rapids-mi",
+      "name": "#52 - Van Andel Arena in Grand Rapids, MI",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2022-08-05",
+      "airtime": "22:00",
+      "airstamp": "2022-08-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2339244"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355113,
+      "url": "https://www.tvmaze.com/episodes/2355113/aew-rampage-2x32-53-quake-by-the-lake-target-center-in-minneapolis-mn",
+      "name": "#53 - Quake by the Lake: Target Center in Minneapolis, MN",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2022-08-12",
+      "airtime": "22:00",
+      "airstamp": "2022-08-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355113"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355114,
+      "url": "https://www.tvmaze.com/episodes/2355114/aew-rampage-2x33-54-charleston-coliseum-in-charleston-wv",
+      "name": "#54 - Charleston Coliseum in Charleston, WV",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2022-08-19",
+      "airtime": "22:00",
+      "airstamp": "2022-08-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355114"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355115,
+      "url": "https://www.tvmaze.com/episodes/2355115/aew-rampage-2x34-55-wolstein-center-in-cleveland-oh",
+      "name": "#55 - Wolstein Center in Cleveland, OH",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2022-08-26",
+      "airtime": "22:00",
+      "airstamp": "2022-08-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355115"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355116,
+      "url": "https://www.tvmaze.com/episodes/2355116/aew-rampage-2x35-56-now-arena-in-hoffman-estates-il",
+      "name": "#56 - NOW Arena in Hoffman Estates, IL",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2022-09-02",
+      "airtime": "22:00",
+      "airstamp": "2022-09-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355116"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355117,
+      "url": "https://www.tvmaze.com/episodes/2355117/aew-rampage-2x36-57-keybank-center-in-buffalo-ny",
+      "name": "#57- KeyBank Center in Buffalo, NY",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2022-09-09",
+      "airtime": "22:00",
+      "airstamp": "2022-09-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355117"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355118,
+      "url": "https://www.tvmaze.com/episodes/2355118/aew-rampage-2x37-58-mvp-arena-in-albany-ny",
+      "name": "#58 - MVP Arena in Albany, NY",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2022-09-16",
+      "airtime": "22:00",
+      "airstamp": "2022-09-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355118"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2355120,
+      "url": "https://www.tvmaze.com/episodes/2355120/aew-rampage-2x38-59-grand-slam-part-1-arthur-ashe-stadium-in-queens-ny",
+      "name": "#59 - Grand Slam Part 1: Arthur Ashe Stadium in Queens, NY",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2022-09-23",
+      "airtime": "22:00",
+      "airstamp": "2022-09-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2355120"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2399335,
+      "url": "https://www.tvmaze.com/episodes/2399335/aew-rampage-2x39-60-grand-slam-part-2-arthur-ashe-stadium-in-queens-ny",
+      "name": "#60 - Grand Slam Part 2: Arthur Ashe Stadium in Queens, NY",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2022-09-23",
+      "airtime": "23:00",
+      "airstamp": "2022-09-24T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2399335"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2372694,
+      "url": "https://www.tvmaze.com/episodes/2372694/aew-rampage-2x40-61-liacouras-center-in-philadelphia-pa",
+      "name": "#61 - Liacouras Center in Philadelphia, PA",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2022-09-30",
+      "airtime": "22:00",
+      "airstamp": "2022-10-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2372694"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2372695,
+      "url": "https://www.tvmaze.com/episodes/2372695/aew-rampage-2x41-62-entertainment-sports-arena-in-washington-dc",
+      "name": "#62 - Entertainment & Sports Arena in Washington, DC",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2022-10-07",
+      "airtime": "22:00",
+      "airstamp": "2022-10-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2372695"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2372696,
+      "url": "https://www.tvmaze.com/episodes/2372696/aew-rampage-2x42-63-coca-cola-coliseum-in-toronto-on",
+      "name": "#63 - Coca-Cola Coliseum in Toronto, ON",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2022-10-14",
+      "airtime": "22:00",
+      "airstamp": "2022-10-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2372696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2380523,
+      "url": "https://www.tvmaze.com/episodes/2380523/aew-rampage-2x43-64-dailys-place-in-jacksonville-fl",
+      "name": "#64 - Daily's Place in Jacksonville, FL",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2022-10-21",
+      "airtime": "22:00",
+      "airstamp": "2022-10-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2380523"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2380524,
+      "url": "https://www.tvmaze.com/episodes/2380524/aew-rampage-2x44-65-mohegan-sun-arena-in-uncasville-ct",
+      "name": "#65 - Mohegan Sun Arena in Uncasville, CT",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2022-10-28",
+      "airtime": "22:00",
+      "airstamp": "2022-10-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2380524"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2390390,
+      "url": "https://www.tvmaze.com/episodes/2390390/aew-rampage-2x45-66-jim-whelan-boardwalk-hall-in-atlantic-city-nj",
+      "name": "#66 - Jim Whelan Boardwalk Hall in Atlantic City, NJ",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2022-11-04",
+      "airtime": "22:00",
+      "airstamp": "2022-11-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2390390"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2390391,
+      "url": "https://www.tvmaze.com/episodes/2390391/aew-rampage-2x46-67-agganis-arena-in-boston-ma",
+      "name": "#67 - Agganis Arena in Boston, MA",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2022-11-11",
+      "airtime": "22:00",
+      "airstamp": "2022-11-12T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2390391"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2390392,
+      "url": "https://www.tvmaze.com/episodes/2390392/aew-rampage-2x47-68-prudential-center-in-newark-nj",
+      "name": "#68 - Prudential Center in Newark, NJ",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2022-11-18",
+      "airtime": "22:00",
+      "airstamp": "2022-11-19T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2390392"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2395556,
+      "url": "https://www.tvmaze.com/episodes/2395556/aew-rampage-2x48-69-black-friday-wintrust-arena-in-chicago-il",
+      "name": "#69 - Black Friday: Wintrust Arena in Chicago, IL",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2022-11-25",
+      "airtime": "16:00",
+      "airstamp": "2022-11-25T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2395556"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2408950,
+      "url": "https://www.tvmaze.com/episodes/2408950/aew-rampage-2x49-70-indiana-farmers-coliseum-in-indianapolis-in",
+      "name": "#70 - Indiana Farmers Coliseum in Indianapolis, IN",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2022-12-02",
+      "airtime": "22:00",
+      "airstamp": "2022-12-03T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2408950"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2415724,
+      "url": "https://www.tvmaze.com/episodes/2415724/aew-rampage-2x50-71-h-e-b-center-in-cedar-park-tx",
+      "name": "#71 - H-E-B Center in Cedar Park, TX",
+      "season": 2,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2022-12-09",
+      "airtime": "22:00",
+      "airstamp": "2022-12-10T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2415724"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2415725,
+      "url": "https://www.tvmaze.com/episodes/2415725/aew-rampage-2x51-72-curtis-culwell-center-in-garland-tx",
+      "name": "#72 - Curtis Culwell Center in Garland, TX",
+      "season": 2,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2022-12-16",
+      "airtime": "22:00",
+      "airstamp": "2022-12-17T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2415725"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2415726,
+      "url": "https://www.tvmaze.com/episodes/2415726/aew-rampage-2x52-73-holiday-bash-freeman-coliseum-in-san-antonio-tx",
+      "name": "#73 - Holiday Bash: Freeman Coliseum in San Antonio, TX",
+      "season": 2,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2022-12-23",
+      "airtime": "22:00",
+      "airstamp": "2022-12-24T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2415726"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2415727,
+      "url": "https://www.tvmaze.com/episodes/2415727/aew-rampage-2x53-74-1st-bank-center-in-broomfield-co",
+      "name": "#74 - 1st Bank Center in Broomfield, CO",
+      "season": 2,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2022-12-30",
+      "airtime": "22:00",
+      "airstamp": "2022-12-31T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2415727"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2421997,
+      "url": "https://www.tvmaze.com/episodes/2421997/aew-rampage-3x01-75-veterans-memorial-coliseum-in-portland-or",
+      "name": "#75 - Veterans Memorial Coliseum in Portland, OR",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-01-06",
+      "airtime": "22:00",
+      "airstamp": "2023-01-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2421997"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2421998,
+      "url": "https://www.tvmaze.com/episodes/2421998/aew-rampage-3x02-76-kia-forum-in-los-angeles-ca",
+      "name": "#76 - Kia Forum in Los Angeles, CA",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-01-13",
+      "airtime": "22:00",
+      "airstamp": "2023-01-14T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2421998"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2425695,
+      "url": "https://www.tvmaze.com/episodes/2425695/aew-rampage-3x03-77-save-mart-center-in-fresno-ca",
+      "name": "#77 - Save Mart Center in Fresno, CA",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-01-20",
+      "airtime": "22:00",
+      "airstamp": "2023-01-21T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2425695"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2425696,
+      "url": "https://www.tvmaze.com/episodes/2425696/aew-rampage-3x04-78-rupp-arena-in-lexington-ky",
+      "name": "#78 - Rupp Arena in Lexington, KY",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-01-27",
+      "airtime": "22:00",
+      "airstamp": "2023-01-28T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2425696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2439188,
+      "url": "https://www.tvmaze.com/episodes/2439188/aew-rampage-3x05-79-wright-state-university-nutter-center-in-dayton-oh",
+      "name": "#79 - Wright State University Nutter Center in Dayton, OH",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-02-03",
+      "airtime": "22:00",
+      "airstamp": "2023-02-04T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2439188"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2439189,
+      "url": "https://www.tvmaze.com/episodes/2439189/aew-rampage-3x06-80-el-paso-county-coliseum-in-el-paso-tx",
+      "name": "#80 - El Paso County Coliseum in El Paso, TX",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-02-10",
+      "airtime": "22:00",
+      "airstamp": "2023-02-11T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2439189"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2439190,
+      "url": "https://www.tvmaze.com/episodes/2439190/aew-rampage-3x07-81-slam-dunk-sames-auto-arena-in-laredo-tx",
+      "name": "#81 - Slam Dunk: Sames Auto Arena in Laredo, TX",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-02-17",
+      "airtime": "19:00",
+      "airstamp": "2023-02-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2439190"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2439191,
+      "url": "https://www.tvmaze.com/episodes/2439191/aew-rampage-3x08-82-footprint-center-in-phoenix-az",
+      "name": "#82 - Footprint Center in Phoenix, AZ",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-02-24",
+      "airtime": "22:00",
+      "airstamp": "2023-02-25T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2439191"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2439192,
+      "url": "https://www.tvmaze.com/episodes/2439192/aew-rampage-3x09-83-cow-palace-in-san-francisco-ca",
+      "name": "#83 - Cow Palace in San Francisco, CA",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-03-03",
+      "airtime": "22:00",
+      "airstamp": "2023-03-04T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2439192"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2444807,
+      "url": "https://www.tvmaze.com/episodes/2444807/aew-rampage-3x10-84-golden-1-center-in-sacramento-ca",
+      "name": "#84 - Golden 1 Center in Sacramento, CA",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-03-10",
+      "airtime": "22:00",
+      "airstamp": "2023-03-11T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2444807"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2444808,
+      "url": "https://www.tvmaze.com/episodes/2444808/aew-rampage-3x11-85-st-patricks-day-slam-canada-life-centre-in-winnipeg-mb",
+      "name": "#85 - St. Patrick's Day Slam: Canada Life Centre in Winnipeg, MB",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-03-17",
+      "airtime": "23:30",
+      "airstamp": "2023-03-18T03:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2444808"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2455094,
+      "url": "https://www.tvmaze.com/episodes/2455094/aew-rampage-3x12-86-cable-dahmer-arena-in-independence-mo",
+      "name": "#86 - Cable Dahmer Arena in Independence, MO",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-03-25",
+      "airtime": "22:00",
+      "airstamp": "2023-03-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2455094"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2455095,
+      "url": "https://www.tvmaze.com/episodes/2455095/aew-rampage-3x13-87-chaifetz-arena-in-st-louis-mo",
+      "name": "#87 - Chaifetz Arena in St. Louis, MO",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-03-31",
+      "airtime": "22:00",
+      "airstamp": "2023-04-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2455095"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2455096,
+      "url": "https://www.tvmaze.com/episodes/2455096/aew-rampage-3x14-88-ryan-center-in-kingston-ri",
+      "name": "#88 - Ryan Center in Kingston, RI",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-04-07",
+      "airtime": "22:00",
+      "airstamp": "2023-04-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2455096"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2491028,
+      "url": "https://www.tvmaze.com/episodes/2491028/aew-rampage-3x15-89-uw-milwaukee-panther-arena-in-milwaukee-wi",
+      "name": "#89 - UW- Milwaukee Panther Arena in Milwaukee, WI",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-04-14",
+      "airtime": "21:30",
+      "airstamp": "2023-04-15T01:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2491028"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2491029,
+      "url": "https://www.tvmaze.com/episodes/2491029/aew-rampage-3x16-90-petersen-events-center-in-pittsburgh-pa",
+      "name": "#90 - Petersen Events Center in Pittsburgh, PA",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-04-22",
+      "airtime": "22:00",
+      "airstamp": "2023-04-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2491029"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2491030,
+      "url": "https://www.tvmaze.com/episodes/2491030/aew-rampage-3x17-91-fla-live-arena-in-sunrise-fl",
+      "name": "#91 - FLA Live Arena in Sunrise, FL",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-04-28",
+      "airtime": "18:30",
+      "airstamp": "2023-04-28T22:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2491030"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2491031,
+      "url": "https://www.tvmaze.com/episodes/2491031/aew-rampage-3x18-92-cfg-arena-in-baltimore-md",
+      "name": "#92 - CFG Arena in Baltimore, MD",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2023-05-05",
+      "airtime": "18:30",
+      "airstamp": "2023-05-05T22:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2491031"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2491032,
+      "url": "https://www.tvmaze.com/episodes/2491032/aew-rampage-3x19-93-little-caesars-arena-in-detroit-mi",
+      "name": "#93 - Little Caesars Arena in Detroit, MI",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2023-05-13",
+      "airtime": "22:00",
+      "airstamp": "2023-05-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2491032"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2491033,
+      "url": "https://www.tvmaze.com/episodes/2491033/aew-rampage-3x20-93-moody-center-in-austin-tx",
+      "name": "#93 - Moody Center in Austin, TX",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2023-05-19",
+      "airtime": "18:30",
+      "airstamp": "2023-05-19T22:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2491033"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2500755,
+      "url": "https://www.tvmaze.com/episodes/2500755/aew-rampage-3x21-94-mgm-grand-garden-arena-in-las-vegas-nv",
+      "name": "#94 - MGM Grand Garden Arena in Las Vegas, NV",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2023-05-26",
+      "airtime": "22:00",
+      "airstamp": "2023-05-27T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2500755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508068,
+      "url": "https://www.tvmaze.com/episodes/2508068/aew-rampage-3x22-95-viejas-arena-in-san-diego-ca",
+      "name": "#95 - Viejas Arena in San Diego, CA",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2023-06-02",
+      "airtime": "22:00",
+      "airstamp": "2023-06-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508068"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508069,
+      "url": "https://www.tvmaze.com/episodes/2508069/aew-rampage-3x23-96-broadmoor-world-arena-in-colorado-springs-co",
+      "name": "#96 - Broadmoor World Arena in Colorado Springs, CO",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2023-06-09",
+      "airtime": "22:00",
+      "airstamp": "2023-06-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508069"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508070,
+      "url": "https://www.tvmaze.com/episodes/2508070/aew-rampage-3x24-97-capital-one-arena-in-washington-dc",
+      "name": "#97 - Capital One Arena in Washington, DC",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2023-06-16",
+      "airtime": "22:00",
+      "airstamp": "2023-06-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508070"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508071,
+      "url": "https://www.tvmaze.com/episodes/2508071/aew-rampage-3x25-98-wintrust-arena-in-chicago-il",
+      "name": "#98 - Wintrust Arena in Chicago, IL",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2023-06-23",
+      "airtime": "22:00",
+      "airstamp": "2023-06-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508071"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508072,
+      "url": "https://www.tvmaze.com/episodes/2508072/aew-rampage-3x26-99-firstontario-centre-in-hamilton-on",
+      "name": "#99 - FirstOntario Centre in Hamilton, ON",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2023-06-30",
+      "airtime": "22:00",
+      "airstamp": "2023-07-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508072"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508073,
+      "url": "https://www.tvmaze.com/episodes/2508073/aew-rampage-3x27-100-rampage-100-rogers-place-in-edmonton-ab",
+      "name": "#100 - Rampage 100: Rogers Place in Edmonton, AB",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2023-07-07",
+      "airtime": "22:00",
+      "airstamp": "2023-07-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508073"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2508074,
+      "url": "https://www.tvmaze.com/episodes/2508074/aew-rampage-3x28-101-brandt-centre-in-regina-sk",
+      "name": "#101 - Brandt Centre in Regina, SK",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2023-07-14",
+      "airtime": "22:00",
+      "airstamp": "2023-07-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2508074"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2548135,
+      "url": "https://www.tvmaze.com/episodes/2548135/aew-rampage-3x29-102-royal-rampage-td-garden-in-boston-ma",
+      "name": "#102 - Royal Rampage: TD Garden in Boston, MA",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2023-07-21",
+      "airtime": "22:00",
+      "airstamp": "2023-07-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2548135"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2568464,
+      "url": "https://www.tvmaze.com/episodes/2568464/aew-rampage-3x30-103-mvp-arena-in-albany-ny",
+      "name": "#103 - MVP Arena in Albany, NY",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2023-07-28",
+      "airtime": "22:00",
+      "airstamp": "2023-07-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2568464"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2568465,
+      "url": "https://www.tvmaze.com/episodes/2568465/aew-rampage-3x31-104-yuengling-center-in-tampa-fl",
+      "name": "#104 - Yuengling Center in Tampa, FL",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2023-08-04",
+      "airtime": "22:00",
+      "airstamp": "2023-08-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2568465"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2568466,
+      "url": "https://www.tvmaze.com/episodes/2568466/aew-rampage-3x32-105-nationwide-arena-in-columbus-oh",
+      "name": "#105 - Nationwide Arena in Columbus, OH",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2023-08-11",
+      "airtime": "22:00",
+      "airstamp": "2023-08-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2568466"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2574784,
+      "url": "https://www.tvmaze.com/episodes/2574784/aew-rampage-3x33-106-fight-for-the-fallen-bridgestone-arena-in-nashville-tn",
+      "name": "#106 - Fight for the Fallen: Bridgestone Arena in Nashville, TN",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2023-08-18",
+      "airtime": "22:00",
+      "airstamp": "2023-08-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2574784"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2574785,
+      "url": "https://www.tvmaze.com/episodes/2574785/aew-rampage-3x34-107-fyter-fest-gas-south-arena-in-duluth-ga",
+      "name": "#107 - Fyter Fest: Gas South Arena in Duluth, GA",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2023-08-25",
+      "airtime": "22:00",
+      "airstamp": "2023-08-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2574785"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2578712,
+      "url": "https://www.tvmaze.com/episodes/2578712/aew-rampage-3x35-108-now-arena-in-hoffman-estates-il",
+      "name": "#108 - NOW Arena in Hoffman Estates, IL",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2023-09-01",
+      "airtime": "22:00",
+      "airstamp": "2023-09-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2578712"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2596842,
+      "url": "https://www.tvmaze.com/episodes/2596842/aew-rampage-3x36-109-indiana-farmers-coliseum-in-indianapolis-in",
+      "name": "#109 - Indiana Farmers Coliseum in Indianapolis, IN",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2023-09-08",
+      "airtime": "22:00",
+      "airstamp": "2023-09-09T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2596842"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2596843,
+      "url": "https://www.tvmaze.com/episodes/2596843/aew-rampage-3x37-110-heritage-bank-center-in-cincinnati-oh",
+      "name": "#110 - Heritage Bank Center in Cincinnati, OH",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2023-09-15",
+      "airtime": "22:00",
+      "airstamp": "2023-09-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2596843"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2596844,
+      "url": "https://www.tvmaze.com/episodes/2596844/aew-rampage-3x38-111-grand-slam-part-1-arthur-ashe-stadium-in-queens-ny",
+      "name": "#111 - Grand Slam Part 1: Arthur Ashe Stadium in Queens, NY",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2023-09-22",
+      "airtime": "22:00",
+      "airstamp": "2023-09-23T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2596844"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2646296,
+      "url": "https://www.tvmaze.com/episodes/2646296/aew-rampage-3x39-112-grand-slam-part-2-arthur-ashe-stadium-in-queens-ny",
+      "name": "#112 - Grand Slam Part 2: Arthur Ashe Stadium in Queens, NY",
+      "season": 3,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2023-09-22",
+      "airtime": "23:00",
+      "airstamp": "2023-09-23T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2646296"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2596845,
+      "url": "https://www.tvmaze.com/episodes/2596845/aew-rampage-3x40-113-1stbank-center-in-broomfield-co",
+      "name": "#113 - 1stBank Center in Broomfield, CO",
+      "season": 3,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2023-09-29",
+      "airtime": "22:00",
+      "airstamp": "2023-09-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2596845"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2618315,
+      "url": "https://www.tvmaze.com/episodes/2618315/aew-rampage-3x41-114-stockton-arena-in-stockton-ca",
+      "name": "#114 - Stockton Arena in Stockton, CA",
+      "season": 3,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2023-10-06",
+      "airtime": "22:00",
+      "airstamp": "2023-10-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2618315"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2625380,
+      "url": "https://www.tvmaze.com/episodes/2625380/aew-rampage-3x42-115-cable-dahmer-arena-in-independence-mo",
+      "name": "#115 - Cable Dahmer Arena in Independence, MO",
+      "season": 3,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2023-10-13",
+      "airtime": "22:00",
+      "airstamp": "2023-10-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2625380"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2625381,
+      "url": "https://www.tvmaze.com/episodes/2625381/aew-rampage-3x43-116-fort-bend-epicenter-in-rosenberg-tx",
+      "name": "#116 - Fort Bend Epicenter in Rosenberg, TX",
+      "season": 3,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2023-10-20",
+      "airtime": "22:00",
+      "airstamp": "2023-10-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2625381"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2625382,
+      "url": "https://www.tvmaze.com/episodes/2625382/aew-rampage-3x44-117-liacouras-center-in-philadelphia-pa",
+      "name": "#117 - Liacouras Center in Philadelphia, PA",
+      "season": 3,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2023-10-27",
+      "airtime": "22:00",
+      "airstamp": "2023-10-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2625382"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635877,
+      "url": "https://www.tvmaze.com/episodes/2635877/aew-rampage-3x45-118-kfc-yum-center-in-louisville-ky",
+      "name": "#118 - KFC Yum! Center in Louisville, KY",
+      "season": 3,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2023-11-03",
+      "airtime": "22:00",
+      "airstamp": "2023-11-04T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635877"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635878,
+      "url": "https://www.tvmaze.com/episodes/2635878/aew-rampage-3x46-119-oakland-arena-in-oakland-ca",
+      "name": "#119 - Oakland Arena in Oakland, CA",
+      "season": 3,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2023-11-10",
+      "airtime": "22:00",
+      "airstamp": "2023-11-11T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635878"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635879,
+      "url": "https://www.tvmaze.com/episodes/2635879/aew-rampage-3x47-120-kia-forum-in-los-angeles-ca",
+      "name": "#120 - Kia Forum in Los Angeles, CA",
+      "season": 3,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2023-11-17",
+      "airtime": "22:00",
+      "airstamp": "2023-11-18T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635879"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635880,
+      "url": "https://www.tvmaze.com/episodes/2635880/aew-rampage-3x48-121-petersen-events-center-in-pittsburgh-pa",
+      "name": "#121 - Petersen Events Center in Pittsburgh, PA",
+      "season": 3,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2023-11-25",
+      "airtime": "19:00",
+      "airstamp": "2023-11-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635880"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635881,
+      "url": "https://www.tvmaze.com/episodes/2635881/aew-rampage-3x49-122-target-center-in-minneapolis-mn",
+      "name": "#122 - Target Center in Minneapolis, MN",
+      "season": 3,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2023-12-01",
+      "airtime": "22:00",
+      "airstamp": "2023-12-02T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635881"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635882,
+      "url": "https://www.tvmaze.com/episodes/2635882/aew-rampage-3x50-123-bell-centre-in-montreal-qc",
+      "name": "#123 - Bell Centre in Montreal, QC",
+      "season": 3,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2023-12-08",
+      "airtime": "22:00",
+      "airstamp": "2023-12-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635882"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635883,
+      "url": "https://www.tvmaze.com/episodes/2635883/aew-rampage-3x51-124-winter-is-coming-college-park-center-in-arlington-tx",
+      "name": "#124 - Winter is Coming: College Park Center in Arlington, TX",
+      "season": 3,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2023-12-15",
+      "airtime": "22:00",
+      "airstamp": "2023-12-16T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635883"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635884,
+      "url": "https://www.tvmaze.com/episodes/2635884/aew-rampage-3x52-125-holiday-bash-paycom-center-in-oklahoma-city-ok",
+      "name": "#125 - Holiday Bash: Paycom Center in Oklahoma City, OK",
+      "season": 3,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2023-12-22",
+      "airtime": "22:00",
+      "airstamp": "2023-12-23T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635884"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2635885,
+      "url": "https://www.tvmaze.com/episodes/2635885/aew-rampage-3x53-126-new-years-smash-addition-financial-arena-in-orlando-fl",
+      "name": "#126 - New Year's Smash: Addition Financial Arena in Orlando, FL",
+      "season": 3,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2023-12-29",
+      "airtime": "22:00",
+      "airstamp": "2023-12-30T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2635885"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2687584,
+      "url": "https://www.tvmaze.com/episodes/2687584/aew-rampage-4x01-127-prudential-center-in-newark-nj",
+      "name": "#127 - Prudential Center in Newark, NJ",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-01-05",
+      "airtime": "22:00",
+      "airstamp": "2024-01-06T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2687584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2687585,
+      "url": "https://www.tvmaze.com/episodes/2687585/aew-rampage-4x02-128-dailys-place-in-jacksonville-fl",
+      "name": "#128 - Daily's Place in Jacksonville, FL",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-01-12",
+      "airtime": "22:00",
+      "airstamp": "2024-01-13T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2687585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2687586,
+      "url": "https://www.tvmaze.com/episodes/2687586/aew-rampage-4x03-129-north-charleston-coliseum-in-north-charleston-sc",
+      "name": "#129 - North Charleston Coliseum in North Charleston, SC",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-01-19",
+      "airtime": "22:00",
+      "airstamp": "2024-01-20T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2687586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2696333,
+      "url": "https://www.tvmaze.com/episodes/2696333/aew-rampage-4x04-130-enmarket-arena-in-savannah-ga",
+      "name": "#130 - Enmarket Arena in Savannah, GA",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-01-26",
+      "airtime": "22:00",
+      "airstamp": "2024-01-27T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2696333"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2696334,
+      "url": "https://www.tvmaze.com/episodes/2696334/aew-rampage-4x05-131-uno-lakefront-arena-in-new-orleans-la",
+      "name": "#131 - UNO Lakefront Arena in New Orleans, LA",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-02-02",
+      "airtime": "22:00",
+      "airstamp": "2024-02-03T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2696334"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2705728,
+      "url": "https://www.tvmaze.com/episodes/2705728/aew-rampage-4x06-132-footprint-center-in-phoenix-az",
+      "name": "#132 - Footprint Center in Phoenix, AZ",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2024-02-09",
+      "airtime": "22:00",
+      "airstamp": "2024-02-10T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2705728"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720201,
+      "url": "https://www.tvmaze.com/episodes/2720201/aew-rampage-4x07-133-h-e-b-center-in-cedar-park-tx",
+      "name": "#133 - H-E-B Center in Cedar Park, TX",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2024-02-16",
+      "airtime": "19:00",
+      "airstamp": "2024-02-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720201"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720202,
+      "url": "https://www.tvmaze.com/episodes/2720202/aew-rampage-4x08-134-bok-center-in-tulsa-ok",
+      "name": "#134 - BOK Center in Tulsa, OK",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2024-02-23",
+      "airtime": "22:00",
+      "airstamp": "2024-02-24T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720202"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720203,
+      "url": "https://www.tvmaze.com/episodes/2720203/aew-rampage-4x09-135-great-southern-bank-arena-in-springfield-mo",
+      "name": "#135 - Great Southern Bank Arena in Springfield, MO",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2024-03-01",
+      "airtime": "22:00",
+      "airstamp": "2024-03-02T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720203"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720204,
+      "url": "https://www.tvmaze.com/episodes/2720204/aew-rampage-4x10-136-gas-south-arena-in-duluth-ga",
+      "name": "#136 - Gas South Arena in Duluth, GA",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2024-03-08",
+      "airtime": "22:00",
+      "airstamp": "2024-03-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720204"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720205,
+      "url": "https://www.tvmaze.com/episodes/2720205/aew-rampage-4x11-137-td-garden-arena-in-boston-ma",
+      "name": "#137 - TD Garden Arena in Boston, MA",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2024-03-15",
+      "airtime": "22:00",
+      "airstamp": "2024-03-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720205"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720206,
+      "url": "https://www.tvmaze.com/episodes/2720206/aew-rampage-4x12-138-coca-cola-coliseum-in-toronto-on",
+      "name": "#138 - Coca Cola Coliseum in Toronto, ON",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2024-03-20",
+      "airtime": "22:00",
+      "airstamp": "2024-03-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720206"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720207,
+      "url": "https://www.tvmaze.com/episodes/2720207/aew-rampage-4x13-139-centre-videotron-in-quebec-city-qc",
+      "name": "#139 - Centre Videotron in Quebec City, QC",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2024-03-29",
+      "airtime": "22:00",
+      "airstamp": "2024-03-30T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720207"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720208,
+      "url": "https://www.tvmaze.com/episodes/2720208/aew-rampage-4x14-140-budweiser-gardens-in-london-on",
+      "name": "#140 - Budweiser Gardens in London, ON",
+      "season": 4,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2024-04-05",
+      "airtime": "22:00",
+      "airstamp": "2024-04-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720208"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2720209,
+      "url": "https://www.tvmaze.com/episodes/2720209/aew-rampage-4x15-141-charleston-coliseum-in-charleston-wv",
+      "name": "#141 - Charleston Coliseum in Charleston, WV",
+      "season": 4,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2024-04-12",
+      "airtime": "22:00",
+      "airstamp": "2024-04-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2720209"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2795355,
+      "url": "https://www.tvmaze.com/episodes/2795355/aew-rampage-4x16-142-peoria-civic-center-in-peoria-il",
+      "name": "#142 - Peoria Civic Center in Peoria, IL",
+      "season": 4,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2024-04-20",
+      "airtime": "22:00",
+      "airstamp": "2024-04-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2795355"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2800174,
+      "url": "https://www.tvmaze.com/episodes/2800174/aew-rampage-4x17-143-dailys-place-in-jacksonville-fl",
+      "name": "#143 - Daily's Place in Jacksonville, FL",
+      "season": 4,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2024-04-27",
+      "airtime": "22:30",
+      "airstamp": "2024-04-28T02:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2800174"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2800175,
+      "url": "https://www.tvmaze.com/episodes/2800175/aew-rampage-4x18-144-canada-life-centre-in-winnipeg-mb",
+      "name": "#144 - Canada Life Centre in Winnipeg, MB",
+      "season": 4,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2024-05-01",
+      "airtime": "22:00",
+      "airstamp": "2024-05-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2800175"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2800176,
+      "url": "https://www.tvmaze.com/episodes/2800176/aew-rampage-4x19-145-rogers-arena-in-vancouver-bc",
+      "name": "#145 - Rogers Arena in Vancouver, BC",
+      "season": 4,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2024-05-11",
+      "airtime": "22:00",
+      "airstamp": "2024-05-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2800176"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2800177,
+      "url": "https://www.tvmaze.com/episodes/2800177/aew-rampage-4x20-146-moda-center-in-portland-or",
+      "name": "#146 - Moda Center in Portland, OR",
+      "season": 4,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2024-05-18",
+      "airtime": "22:00",
+      "airstamp": "2024-05-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2800177"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2800178,
+      "url": "https://www.tvmaze.com/episodes/2800178/aew-rampage-4x21-147-mechanics-bank-arena-in-bakersfield-ca",
+      "name": "#147 - Mechanics Bank Arena in Bakersfield, CA",
+      "season": 4,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2024-05-24",
+      "airtime": "18:00",
+      "airstamp": "2024-05-24T22:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2800178"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2807311,
+      "url": "https://www.tvmaze.com/episodes/2807311/aew-rampage-4x22-148-kia-forum-in-los-angeles-ca",
+      "name": "#148 - KIA Forum in Los Angeles, CA",
+      "season": 4,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2024-05-31",
+      "airtime": "22:00",
+      "airstamp": "2024-06-01T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2807311"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2829110,
+      "url": "https://www.tvmaze.com/episodes/2829110/aew-rampage-4x23-149-blue-arena-in-loveland-co",
+      "name": "#149 - Blue Arena in Loveland, CO",
+      "season": 4,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2024-06-07",
+      "airtime": "22:00",
+      "airstamp": "2024-06-08T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2829110"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2829111,
+      "url": "https://www.tvmaze.com/episodes/2829111/aew-rampage-4x24-150-wells-fargo-arena-in-des-moines-ia",
+      "name": "#150 - Wells Fargo Arena in Des Moines, IA",
+      "season": 4,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2024-06-14",
+      "airtime": "22:00",
+      "airstamp": "2024-06-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2829111"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2829112,
+      "url": "https://www.tvmaze.com/episodes/2829112/aew-rampage-4x25-151-eaglebank-arena-in-fairfax-va",
+      "name": "#151 - EagleBank Arena in Fairfax, VA",
+      "season": 4,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2024-06-21",
+      "airtime": "22:00",
+      "airstamp": "2024-06-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2829112"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2894753,
+      "url": "https://www.tvmaze.com/episodes/2894753/aew-rampage-4x26-152-ppl-center-in-allentown-pa",
+      "name": "#152 - PPL Center in Allentown, PA",
+      "season": 4,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2024-06-28",
+      "airtime": "22:00",
+      "airstamp": "2024-06-29T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2894753"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2894754,
+      "url": "https://www.tvmaze.com/episodes/2894754/aew-rampage-4x27-153-beach-break-wintrust-arena-in-chicago-il",
+      "name": "#153 - Beach Break: Wintrust Arena in Chicago, IL",
+      "season": 4,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2024-07-05",
+      "airtime": "22:00",
+      "airstamp": "2024-07-06T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2894754"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2894755,
+      "url": "https://www.tvmaze.com/episodes/2894755/aew-rampage-4x28-154-landers-center-in-southaven-ms",
+      "name": "#154 - Landers Center in Southaven, MS",
+      "season": 4,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2024-07-12",
+      "airtime": "22:00",
+      "airstamp": "2024-07-13T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2894755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2902398,
+      "url": "https://www.tvmaze.com/episodes/2902398/aew-rampage-4x29-155-simmons-bank-arena-in-little-rock-ar",
+      "name": "#155 - Simmons Bank Arena in Little Rock, AR",
+      "season": 4,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2024-07-19",
+      "airtime": "22:00",
+      "airstamp": "2024-07-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2902398"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917373,
+      "url": "https://www.tvmaze.com/episodes/2917373/aew-rampage-4x30-156-bridgestone-arena-in-nashville-tn",
+      "name": "#156 - Bridgestone Arena in Nashville, TN",
+      "season": 4,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2024-07-26",
+      "airtime": "22:00",
+      "airstamp": "2024-07-27T02:00:00+00:00",
+      "runtime": 62,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917373"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917374,
+      "url": "https://www.tvmaze.com/episodes/2917374/aew-rampage-4x31-157-bon-secours-wellness-arena-in-greenville-sc",
+      "name": "#157 - Bon Secours Wellness Arena in Greenville, SC",
+      "season": 4,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2024-08-02",
+      "airtime": "22:00",
+      "airstamp": "2024-08-03T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917374"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917375,
+      "url": "https://www.tvmaze.com/episodes/2917375/aew-rampage-4x32-158-ljvm-coliseum-in-winston-salem-nc",
+      "name": "#158 - LJVM Coliseum in Winston-Salem, NC",
+      "season": 4,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2024-08-09",
+      "airtime": "22:00",
+      "airstamp": "2024-08-10T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Darby Allin vs. The Butcher, Wheeler Yuta vs.. Rocky Romero, Private Party vs. Dave &amp; Zane Dawson, Saraya vs. Nyla Rose</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917375"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917376,
+      "url": "https://www.tvmaze.com/episodes/2917376/aew-rampage-4x33-159-chartway-arena-in-norfolk-va",
+      "name": "#159 - Chartway Arena in Norfolk, VA",
+      "season": 4,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2024-08-16",
+      "airtime": "22:00",
+      "airstamp": "2024-08-17T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917376"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917377,
+      "url": "https://www.tvmaze.com/episodes/2917377/aew-rampage-4x34-160-esports-stadium-in-arlington-tx",
+      "name": "#160 - Esports Stadium in Arlington, TX",
+      "season": 4,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2024-08-23",
+      "airtime": "22:00",
+      "airstamp": "2024-08-24T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917377"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917378,
+      "url": "https://www.tvmaze.com/episodes/2917378/aew-rampage-4x35-161-state-farm-arena-in-champaign-il",
+      "name": "#161 - State Farm Arena in Champaign, IL",
+      "season": 4,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2024-08-30",
+      "airtime": "22:00",
+      "airstamp": "2024-08-31T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917378"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917379,
+      "url": "https://www.tvmaze.com/episodes/2917379/aew-rampage-4x36-162-now-arena-in-hoffman-estates-il",
+      "name": "#162 - NOW Arena in Hoffman Estates, IL",
+      "season": 4,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2024-09-06",
+      "airtime": "22:00",
+      "airstamp": "2024-09-07T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917379"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917380,
+      "url": "https://www.tvmaze.com/episodes/2917380/aew-rampage-4x37-163-rupp-arena-in-lexington-ky",
+      "name": "#163 - Rupp Arena in Lexington, KY",
+      "season": 4,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2024-09-13",
+      "airtime": "22:00",
+      "airstamp": "2024-09-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917380"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917381,
+      "url": "https://www.tvmaze.com/episodes/2917381/aew-rampage-4x38-164-mohegan-sun-arena-in-wilkes-barre-pa",
+      "name": "#164 - Mohegan Sun Arena in Wilkes-Barre, PA",
+      "season": 4,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2024-09-20",
+      "airtime": "22:00",
+      "airstamp": "2024-09-21T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917381"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917382,
+      "url": "https://www.tvmaze.com/episodes/2917382/aew-rampage-4x39-165-massmutual-center-in-springfield-ma",
+      "name": "#165 - MassMutual Center in Springfield, MA",
+      "season": 4,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2024-09-27",
+      "airtime": "22:00",
+      "airstamp": "2024-09-28T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917382"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917383,
+      "url": "https://www.tvmaze.com/episodes/2917383/aew-rampage-4x40-166-peterson-events-center-in-pittsburgh-pa",
+      "name": "#166 - Peterson Events Center in Pittsburgh, PA",
+      "season": 4,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2024-10-04",
+      "airtime": "22:00",
+      "airstamp": "2024-10-05T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917383"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917384,
+      "url": "https://www.tvmaze.com/episodes/2917384/aew-rampage-4x41-167-spokane-arena-in-spokane-wa",
+      "name": "#167 - Spokane Arena in Spokane, WA",
+      "season": 4,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2024-10-11",
+      "airtime": "22:00",
+      "airstamp": "2024-10-12T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917384"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917385,
+      "url": "https://www.tvmaze.com/episodes/2917385/aew-rampage-4x42-168-sap-center-in-san-jose-ca",
+      "name": "#168 - SAP Center in San Jose, CA",
+      "season": 4,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2024-10-18",
+      "airtime": "22:00",
+      "airstamp": "2024-10-19T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917385"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917386,
+      "url": "https://www.tvmaze.com/episodes/2917386/aew-rampage-4x43-169-maverik-center-in-salt-lake-city-ut",
+      "name": "#169 - Maverik Center in Salt Lake City, UT",
+      "season": 4,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2024-10-25",
+      "airtime": "22:00",
+      "airstamp": "2024-10-26T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917386"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917387,
+      "url": "https://www.tvmaze.com/episodes/2917387/aew-rampage-4x44-170-wolstein-center-in-cleveland-oh",
+      "name": "#170 - Wolstein Center in Cleveland, OH",
+      "season": 4,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2024-11-01",
+      "airtime": "22:00",
+      "airstamp": "2024-11-02T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917387"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917388,
+      "url": "https://www.tvmaze.com/episodes/2917388/aew-rampage-4x45-171-snhu-arena-in-manchester-nh",
+      "name": "#171 - SNHU Arena in Manchester, NH",
+      "season": 4,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2024-11-08",
+      "airtime": "22:00",
+      "airstamp": "2024-11-09T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917388"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917389,
+      "url": "https://www.tvmaze.com/episodes/2917389/aew-rampage-4x46-172-total-mortgage-arena-in-bridgeport-ct",
+      "name": "#172 - Total Mortgage Arena in Bridgeport, CT",
+      "season": 4,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2024-11-15",
+      "airtime": "22:00",
+      "airstamp": "2024-11-16T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917389"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917390,
+      "url": "https://www.tvmaze.com/episodes/2917390/aew-rampage-4x47-173-the-santander-arena-in-reading-pa",
+      "name": "#173 - The Santander Arena in Reading, PA",
+      "season": 4,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2024-11-22",
+      "airtime": "22:00",
+      "airstamp": "2024-11-23T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917390"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917391,
+      "url": "https://www.tvmaze.com/episodes/2917391/aew-rampage-4x48-174-the-santander-arena-in-reading-pa",
+      "name": "#174 - The Santander Arena in Reading, PA",
+      "season": 4,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2024-11-30",
+      "airtime": "18:00",
+      "airstamp": "2024-11-30T23:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917391"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917392,
+      "url": "https://www.tvmaze.com/episodes/2917392/aew-rampage-4x49-175-fishers-event-center-in-fishers-in",
+      "name": "#175 - Fishers Event Center in Fishers, IN",
+      "season": 4,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2024-12-06",
+      "airtime": "22:00",
+      "airstamp": "2024-12-07T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917392"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917393,
+      "url": "https://www.tvmaze.com/episodes/2917393/aew-rampage-4x50-176-winter-is-coming-t-mobile-center-in-kansas-city-mo",
+      "name": "#176 - Winter is Coming: T-Mobile Center in Kansas City, MO",
+      "season": 4,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2024-12-13",
+      "airtime": "22:00",
+      "airstamp": "2024-12-14T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917393"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917394,
+      "url": "https://www.tvmaze.com/episodes/2917394/aew-rampage-4x51-177-holiday-bash-entertainment-sports-arena-in-washington-dc",
+      "name": "#177 - Holiday Bash: Entertainment & Sports Arena in Washington, DC",
+      "season": 4,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2024-12-20",
+      "airtime": "22:00",
+      "airstamp": "2024-12-21T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917394"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2917395,
+      "url": "https://www.tvmaze.com/episodes/2917395/aew-rampage-4x52-178-new-years-smash-hammerstein-ballroom-in-new-york-ny",
+      "name": "#178 - New Year's Smash: Hammerstein Ballroom in New York, NY",
+      "season": 4,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2024-12-27",
+      "airtime": "22:00",
+      "airstamp": "2024-12-28T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2917395"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2195522,
+      "url": "https://www.tvmaze.com/episodes/2195522/aew-rampage-s01-special-rampage-buy-in",
+      "name": "Rampage Buy-In",
+      "season": 1,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2021-10-15",
+      "airtime": "21:00",
+      "airstamp": "2021-10-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2195522"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 2979445,
+      "url": "https://www.tvmaze.com/episodes/2979445/aew-rampage-s04-special-countdown-to-all-in-2024",
+      "name": "Countdown to All In 2024",
+      "season": 4,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2024-08-24",
+      "airtime": "22:00",
+      "airstamp": "2024-08-25T02:00:00+00:00",
+      "runtime": 30,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2979445"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    },
+    {
+      "id": 3050134,
+      "url": "https://www.tvmaze.com/episodes/3050134/aew-rampage-s04-special-countdown-to-full-gear-2024",
+      "name": "Countdown to Full Gear 2024",
+      "season": 4,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2024-11-22",
+      "airtime": "23:00",
+      "airstamp": "2024-11-23T04:00:00+00:00",
+      "runtime": 30,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>AEW World Champion Jon Moxley defends his title against Orange Cassidy. \"Hangman\" Adam Page collides with \"Switchblade\" Jay White. TBS Champion Mercedes Mone against former champion Kris Statlander. TNT Title: Jack Perry vs. Daniel Garcia.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3050134"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55432",
+          "name": "AEW: Rampage"
+        }
+      }
+    }
+  ]
+}

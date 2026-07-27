@@ -1,0 +1,1749 @@
+{
+  "programId": "nwa-powerrr",
+  "tvMazeId": 44265,
+  "fetchedAt": "2026-07-27T07:57:35.487Z",
+  "show": {
+    "id": 44265,
+    "url": "https://www.tvmaze.com/shows/44265/nwa-powerrr",
+    "name": "NWA Powerrr",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2019-10-08",
+    "ended": null,
+    "officialSite": "https://www.youtube.com/NWA",
+    "schedule": {
+      "time": "",
+      "days": [
+        "Tuesday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 32,
+    "network": null,
+    "webChannel": {
+      "id": 21,
+      "name": "YouTube",
+      "country": null,
+      "officialSite": "https://www.youtube.com"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/214/536375.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/214/536375.jpg"
+    },
+    "summary": "<p>A new weekly show from NWA Wrestling.</p>",
+    "updated": 1634093043,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/44265"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2190663",
+        "name": "NWA Powerrr #43 - Season 6, Episode 6"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1729310,
+      "url": "https://www.tvmaze.com/episodes/1729310/nwa-powerrr-1x01-tim-storm-vs-nick-aldis-3-2019",
+      "name": "Tim Storm vs. Nick Aldis 3 (2019)",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-10-08",
+      "airtime": "",
+      "airstamp": "2019-10-08T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1729310"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1729311,
+      "url": "https://www.tvmaze.com/episodes/1729311/nwa-powerrr-1x02-clickbait",
+      "name": "CLICKBAIT",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-10-15",
+      "airtime": "",
+      "airstamp": "2019-10-15T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1729311"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1729312,
+      "url": "https://www.tvmaze.com/episodes/1729312/nwa-powerrr-1x03-twilight-of-tim-storm",
+      "name": "Twilight of Tim Storm",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-10-22",
+      "airtime": "",
+      "airstamp": "2019-10-22T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1729312"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1729313,
+      "url": "https://www.tvmaze.com/episodes/1729313/nwa-powerrr-1x04-dealer-calls-again",
+      "name": "Dealer Calls Again",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-10-29",
+      "airtime": "",
+      "airstamp": "2019-10-29T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1729313"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743610,
+      "url": "https://www.tvmaze.com/episodes/1743610/nwa-powerrr-1x05-james-storm-vs-colt-cabana",
+      "name": "James Storm vs. Colt Cabana",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-11-05",
+      "airtime": "",
+      "airstamp": "2019-11-05T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743610"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743611,
+      "url": "https://www.tvmaze.com/episodes/1743611/nwa-powerrr-1x06-more-questions-than-answers",
+      "name": "More Questions Than Answers",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-11-12",
+      "airtime": "",
+      "airstamp": "2019-11-12T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743611"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743612,
+      "url": "https://www.tvmaze.com/episodes/1743612/nwa-powerrr-1x07-the-phoenix-rises",
+      "name": "The Phoenix Rises",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-11-19",
+      "airtime": "",
+      "airstamp": "2019-11-19T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743612"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743613,
+      "url": "https://www.tvmaze.com/episodes/1743613/nwa-powerrr-1x08-step-into-the-fire",
+      "name": "Step Into the Fire",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-11-26",
+      "airtime": "",
+      "airstamp": "2019-11-26T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743613"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743614,
+      "url": "https://www.tvmaze.com/episodes/1743614/nwa-powerrr-1x09-one-more-time",
+      "name": "One More Time",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2019-12-03",
+      "airtime": "",
+      "airstamp": "2019-12-03T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1776465,
+      "url": "https://www.tvmaze.com/episodes/1776465/nwa-powerrr-1x10-the-villain-effect",
+      "name": "The Villain Effect",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2019-12-17",
+      "airtime": "",
+      "airstamp": "2019-12-17T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1776465"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1780934,
+      "url": "https://www.tvmaze.com/episodes/1780934/nwa-powerrr-1x11-not-a-christmas-movie",
+      "name": "Not A Christmas Movie",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2019-12-24",
+      "airtime": "",
+      "airstamp": "2019-12-24T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1780934"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743615,
+      "url": "https://www.tvmaze.com/episodes/1743615/nwa-powerrr-2x01-something-left-to-prove",
+      "name": "Something Left To Prove",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2020-01-01",
+      "airtime": "",
+      "airstamp": "2020-01-01T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743615"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743616,
+      "url": "https://www.tvmaze.com/episodes/1743616/nwa-powerrr-2x02-whos-the-third-man-brother",
+      "name": "Who's the Third Man, Brother?",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2020-01-07",
+      "airtime": "",
+      "airstamp": "2020-01-07T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743616"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743617,
+      "url": "https://www.tvmaze.com/episodes/1743617/nwa-powerrr-2x03-strictly-business-takeover",
+      "name": "Strictly Business Takeover",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2020-01-14",
+      "airtime": "",
+      "airstamp": "2020-01-14T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743617"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1743618,
+      "url": "https://www.tvmaze.com/episodes/1743618/nwa-powerrr-2x04-generation-clash",
+      "name": "Generation Clash",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2020-01-21",
+      "airtime": "",
+      "airstamp": "2020-01-21T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743618"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1792019,
+      "url": "https://www.tvmaze.com/episodes/1792019/nwa-powerrr-2x05-dealer-vs-villain",
+      "name": "Dealer vs. Villain",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2020-01-28",
+      "airtime": "",
+      "airstamp": "2020-01-28T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1792019"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1792020,
+      "url": "https://www.tvmaze.com/episodes/1792020/nwa-powerrr-2x06-pride-vs-thunder",
+      "name": "Pride vs. Thunder",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2020-02-04",
+      "airtime": "",
+      "airstamp": "2020-02-04T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1792020"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1792021,
+      "url": "https://www.tvmaze.com/episodes/1792021/nwa-powerrr-2x07-money-where-your-mouth-is",
+      "name": "Money Where Your Mouth Is",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2020-02-11",
+      "airtime": "",
+      "airstamp": "2020-02-11T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1792021"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1801250,
+      "url": "https://www.tvmaze.com/episodes/1801250/nwa-powerrr-2x08-strictly-chaos",
+      "name": "Strictly Chaos",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2020-02-25",
+      "airtime": "",
+      "airstamp": "2020-02-25T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801250"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803511,
+      "url": "https://www.tvmaze.com/episodes/1803511/nwa-powerrr-2x09-stand-defend",
+      "name": "Stand & Defend",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2020-03-03",
+      "airtime": "",
+      "airstamp": "2020-03-03T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803511"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803512,
+      "url": "https://www.tvmaze.com/episodes/1803512/nwa-powerrr-2x10-super-powerrr",
+      "name": "Super Powerrr",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2020-05-12",
+      "airtime": "",
+      "airstamp": "2020-05-12T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803512"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803513,
+      "url": "https://www.tvmaze.com/episodes/1803513/nwa-powerrr-2x11-carnyland-001-a-long-way-from-nwa-powerrr",
+      "name": "Carnyland 001 | A Long Way From NWA Powerrr",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2020-05-19",
+      "airtime": "",
+      "airstamp": "2020-05-19T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803513"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803514,
+      "url": "https://www.tvmaze.com/episodes/1803514/nwa-powerrr-2x12-carnyland-2-hey-brother-rumor-has-it",
+      "name": "Carnyland 2: Hey Brother, Rumor Has It....",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2020-05-26",
+      "airtime": "",
+      "airstamp": "2020-05-26T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803514"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803515,
+      "url": "https://www.tvmaze.com/episodes/1803515/nwa-powerrr-2x13-carnyland-003-a-mayor-is-you-maybe",
+      "name": "Carnyland 003 | A Mayor Is You... Maybe?",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2020-06-09",
+      "airtime": "",
+      "airstamp": "2020-06-09T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803515"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803516,
+      "url": "https://www.tvmaze.com/episodes/1803516/nwa-powerrr-2x14-episode-14",
+      "name": "Episode 14",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "",
+      "airtime": "",
+      "airstamp": null,
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803516"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2050850,
+      "url": "https://www.tvmaze.com/episodes/2050850/nwa-powerrr-3x01-nwa-back-for-the-attack",
+      "name": "NWA Back For The Attack",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-03-21",
+      "airtime": "",
+      "airstamp": "2021-03-21T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>On March 23nd NWA Powerrr is back on FITE!<br />The NWA Powerrr, Episode 22 is live on FITE on March 23rd and will be part of the NWA Powerr Subscription. The start time of the series is Tuesday at 6:05pm ET.<br /><br />This is the NWA. This is NWA Powerrr. This is NWA Powerrr on FITE! Do not miss it!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050850"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190612,
+      "url": "https://www.tvmaze.com/episodes/2190612/nwa-powerrr-3x02-nwa-powerrr-22",
+      "name": "NWA Powerrr #22",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-03-23",
+      "airtime": "",
+      "airstamp": "2021-03-23T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190612"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190613,
+      "url": "https://www.tvmaze.com/episodes/2190613/nwa-powerrr-3x03-nwa-powerrr-23",
+      "name": "NWA Powerrr #23",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-03-30",
+      "airtime": "",
+      "airstamp": "2021-03-30T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190613"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190614,
+      "url": "https://www.tvmaze.com/episodes/2190614/nwa-powerrr-3x04-nwa-powerrr-24",
+      "name": "NWA Powerrr #24",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-04-06",
+      "airtime": "",
+      "airstamp": "2021-04-06T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190616,
+      "url": "https://www.tvmaze.com/episodes/2190616/nwa-powerrr-3x05-nwa-powerrr-surge-1",
+      "name": "NWA Powerrr Surge #1",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-04-13",
+      "airtime": "",
+      "airstamp": "2021-04-13T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190616"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190617,
+      "url": "https://www.tvmaze.com/episodes/2190617/nwa-powerrr-3x06-nwa-powerrr-25",
+      "name": "NWA Powerrr #25",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-04-20",
+      "airtime": "",
+      "airstamp": "2021-04-20T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190617"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190618,
+      "url": "https://www.tvmaze.com/episodes/2190618/nwa-powerrr-3x07-nwa-powerrr-26",
+      "name": "NWA Powerrr #26",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-04-27",
+      "airtime": "",
+      "airstamp": "2021-04-27T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190618"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190619,
+      "url": "https://www.tvmaze.com/episodes/2190619/nwa-powerrr-3x08-nwa-powerrr-surge-2",
+      "name": "NWA Powerrr Surge #2",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-05-04",
+      "airtime": "",
+      "airstamp": "2021-05-04T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190619"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190620,
+      "url": "https://www.tvmaze.com/episodes/2190620/nwa-powerrr-3x09-nwa-powerrr-27",
+      "name": "NWA Powerrr #27",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-05-11",
+      "airtime": "",
+      "airstamp": "2021-05-11T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190620"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190621,
+      "url": "https://www.tvmaze.com/episodes/2190621/nwa-powerrr-3x10-nwa-powerrr-28",
+      "name": "NWA Powerrr #28",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-05-18",
+      "airtime": "",
+      "airstamp": "2021-05-18T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190621"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190622,
+      "url": "https://www.tvmaze.com/episodes/2190622/nwa-powerrr-3x11-nwa-powerrr-29",
+      "name": "NWA Powerrr #29",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-05-25",
+      "airtime": "",
+      "airstamp": "2021-05-25T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190622"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190625,
+      "url": "https://www.tvmaze.com/episodes/2190625/nwa-powerrr-3x12-nwa-powerrr-surge-3",
+      "name": "NWA Powerrr Surge #3",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-06-01",
+      "airtime": "",
+      "airstamp": "2021-06-01T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190625"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190626,
+      "url": "https://www.tvmaze.com/episodes/2190626/nwa-powerrr-3x13-nwa-when-our-shadows-fall-pre-show",
+      "name": "NWA When Our Shadows Fall Pre Show",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-06-06",
+      "airtime": "",
+      "airstamp": "2021-06-06T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190626"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190627,
+      "url": "https://www.tvmaze.com/episodes/2190627/nwa-powerrr-3x14-nwa-when-our-shadows-fall",
+      "name": "NWA When Our Shadows Fall",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-06-06",
+      "airtime": "",
+      "airstamp": "2021-06-06T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190627"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190628,
+      "url": "https://www.tvmaze.com/episodes/2190628/nwa-powerrr-3x15-nwa-powerrr-30",
+      "name": "NWA Powerrr #30",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-06-08",
+      "airtime": "",
+      "airstamp": "2021-06-08T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190628"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190629,
+      "url": "https://www.tvmaze.com/episodes/2190629/nwa-powerrr-3x16-nwa-powerrr-31",
+      "name": "NWA Powerrr #31",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-06-15",
+      "airtime": "",
+      "airstamp": "2021-06-15T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190629"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190630,
+      "url": "https://www.tvmaze.com/episodes/2190630/nwa-powerrr-3x17-nwa-high-voltage-1",
+      "name": "NWA High Voltage #1",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2021-06-19",
+      "airtime": "",
+      "airstamp": "2021-06-19T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190631,
+      "url": "https://www.tvmaze.com/episodes/2190631/nwa-powerrr-3x18-nwa-powerrr-32",
+      "name": "NWA Powerrr #32",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2021-06-22",
+      "airtime": "",
+      "airstamp": "2021-06-22T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190632,
+      "url": "https://www.tvmaze.com/episodes/2190632/nwa-powerrr-3x19-nwa-high-voltage-2",
+      "name": "NWA High Voltage #2",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2021-06-25",
+      "airtime": "",
+      "airstamp": "2021-06-25T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190634,
+      "url": "https://www.tvmaze.com/episodes/2190634/nwa-powerrr-3x20-nwa-powerrr-33",
+      "name": "NWA Powerrr #33",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2021-06-29",
+      "airtime": "",
+      "airstamp": "2021-06-29T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190635,
+      "url": "https://www.tvmaze.com/episodes/2190635/nwa-powerrr-3x21-nwa-high-voltage-3",
+      "name": "NWA High Voltage #3",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2021-07-02",
+      "airtime": "",
+      "airstamp": "2021-07-02T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190635"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190636,
+      "url": "https://www.tvmaze.com/episodes/2190636/nwa-powerrr-3x22-nwa-powerrr-34",
+      "name": "NWA Powerrr #34",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2021-07-06",
+      "airtime": "",
+      "airstamp": "2021-07-06T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190637,
+      "url": "https://www.tvmaze.com/episodes/2190637/nwa-powerrr-3x23-nwa-powerrr-surge-4",
+      "name": "NWA Powerrr Surge #4",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2021-07-13",
+      "airtime": "",
+      "airstamp": "2021-07-13T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190637"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190638,
+      "url": "https://www.tvmaze.com/episodes/2190638/nwa-powerrr-3x24-nwa-powerrr-36",
+      "name": "NWA Powerrr #36",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2021-07-27",
+      "airtime": "",
+      "airstamp": "2021-07-27T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190639,
+      "url": "https://www.tvmaze.com/episodes/2190639/nwa-powerrr-3x25-nwa-powerrr-37",
+      "name": "NWA Powerrr #37",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2021-08-03",
+      "airtime": "",
+      "airstamp": "2021-08-03T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190640,
+      "url": "https://www.tvmaze.com/episodes/2190640/nwa-powerrr-3x26-nwa-extra-powerrr",
+      "name": "NWA Extra Powerrr",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2021-08-06",
+      "airtime": "",
+      "airstamp": "2021-08-06T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190641,
+      "url": "https://www.tvmaze.com/episodes/2190641/nwa-powerrr-3x27-nwa-powerrr-38",
+      "name": "NWA Powerrr #38",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2021-08-11",
+      "airtime": "",
+      "airstamp": "2021-08-11T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190641"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190642,
+      "url": "https://www.tvmaze.com/episodes/2190642/nwa-powerrr-3x28-nwa-empowerrr-pre-show",
+      "name": "NWA EmPowerrr Pre Show",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2021-08-28",
+      "airtime": "",
+      "airstamp": "2021-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190642"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190643,
+      "url": "https://www.tvmaze.com/episodes/2190643/nwa-powerrr-3x29-nwa-empowerrr",
+      "name": "NWA EmPowerrr",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2021-08-28",
+      "airtime": "",
+      "airstamp": "2021-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190644,
+      "url": "https://www.tvmaze.com/episodes/2190644/nwa-powerrr-3x30-nwa-73-pre-show",
+      "name": "NWA 73 - Pre Show",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2021-08-29",
+      "airtime": "",
+      "airstamp": "2021-08-29T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190645,
+      "url": "https://www.tvmaze.com/episodes/2190645/nwa-powerrr-3x31-nwa-73-wrestling-at-the-chase",
+      "name": "NWA 73 - Wrestling At The Chase",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2021-08-29",
+      "airtime": "",
+      "airstamp": "2021-08-29T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190646,
+      "url": "https://www.tvmaze.com/episodes/2190646/nwa-powerrr-3x32-nwa-powerrr-39",
+      "name": "NWA Powerrr #39",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2021-08-31",
+      "airtime": "",
+      "airstamp": "2021-08-31T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190646"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190650,
+      "url": "https://www.tvmaze.com/episodes/2190650/nwa-powerrr-3x33-nwa-powerrr-40",
+      "name": "NWA Powerrr #40",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2021-09-07",
+      "airtime": "",
+      "airstamp": "2021-09-07T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190653,
+      "url": "https://www.tvmaze.com/episodes/2190653/nwa-powerrr-3x34-nwa-powerrr-41",
+      "name": "NWA Powerrr #41",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2021-09-14",
+      "airtime": "",
+      "airstamp": "2021-09-14T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190655,
+      "url": "https://www.tvmaze.com/episodes/2190655/nwa-powerrr-3x35-nwa-powerrr-surge-5",
+      "name": "NWA Powerrr Surge #5",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2021-09-22",
+      "airtime": "",
+      "airstamp": "2021-09-22T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190656,
+      "url": "https://www.tvmaze.com/episodes/2190656/nwa-powerrr-3x36-nwa-powerrr-42",
+      "name": "NWA Powerrr #42",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2021-09-28",
+      "airtime": "",
+      "airstamp": "2021-09-28T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190657,
+      "url": "https://www.tvmaze.com/episodes/2190657/nwa-powerrr-3x37-nwa-powerrr-42-season-6-episode-5",
+      "name": "NWA Powerrr #42 - Season 6, Episode 5",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2021-10-05",
+      "airtime": "",
+      "airstamp": "2021-10-05T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190657"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 2190663,
+      "url": "https://www.tvmaze.com/episodes/2190663/nwa-powerrr-3x38-nwa-powerrr-43-season-6-episode-6",
+      "name": "NWA Powerrr #43 - Season 6, Episode 6",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2021-10-12",
+      "airtime": "",
+      "airstamp": "2021-10-12T12:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2190663"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803517,
+      "url": "https://www.tvmaze.com/episodes/1803517/nwa-powerrr-s01-special-into-the-fire",
+      "name": "Into the Fire",
+      "season": 1,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2019-12-14",
+      "airtime": "",
+      "airstamp": "2019-12-14T12:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803517"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    },
+    {
+      "id": 1803518,
+      "url": "https://www.tvmaze.com/episodes/1803518/nwa-powerrr-s02-special-hard-times",
+      "name": "Hard Times",
+      "season": 2,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2020-01-24",
+      "airtime": "",
+      "airstamp": "2020-01-24T12:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803518"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/44265",
+          "name": "NWA Powerrr"
+        }
+      }
+    }
+  ]
+}

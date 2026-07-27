@@ -1,0 +1,1963 @@
+{
+  "programId": "wwe-nxt-ple",
+  "tvMazeId": 80711,
+  "fetchedAt": "2026-07-27T07:57:34.007Z",
+  "show": {
+    "id": 80711,
+    "url": "https://www.tvmaze.com/shows/80711/wwe-nxt-premium-live-events",
+    "name": "WWE NXT Premium Live Events",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 177,
+    "premiered": "2014-02-27",
+    "ended": null,
+    "officialSite": "https://www.peacocktv.com/Sports/WWE",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 78,
+    "network": {
+      "id": 5,
+      "name": "The CW",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.cwtv.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 15724,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365169.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365169.jpg"
+    },
+    "summary": "<p>This is a list of WWE NXT pay-per-view and livestreaming supercards, detailing all professional wrestling cards promoted by the American promotion WWE on pay-per-view (PPV) and available via livestreaming on services such as the WWE Network. Due to the American version of the WWE Network merging under Peacock, and with the WWE Network still available in most international markets, as well as less focus being given to traditional PPV channels, in 2022, the company began using the term \"Premium Live Event\" to refer to their events airing on PPV and the livestreaming services. The terminology \"TakeOver\" was dropped in December of 2021 as the NXT brand transformed.</p>",
+    "updated": 1782698360,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/80711"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3635791",
+        "name": "The Great American Bash"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3656853",
+        "name": "Heatwave"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 3048970,
+      "url": "https://www.tvmaze.com/episodes/3048970/wwe-nxt-premium-live-events-2014-02-27-arrival",
+      "name": "Arrival",
+      "season": 2014,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2014-02-27",
+      "airtime": "",
+      "airstamp": "2014-02-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048970"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048971,
+      "url": "https://www.tvmaze.com/episodes/3048971/wwe-nxt-premium-live-events-2014-05-29-takeover",
+      "name": "TakeOver",
+      "season": 2014,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2014-05-29",
+      "airtime": "",
+      "airstamp": "2014-05-29T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048971"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048972,
+      "url": "https://www.tvmaze.com/episodes/3048972/wwe-nxt-premium-live-events-2014-09-11-takeover-fatal-4-way",
+      "name": "TakeOver: Fatal 4-Way",
+      "season": 2014,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2014-09-11",
+      "airtime": "",
+      "airstamp": "2014-09-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048972"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048973,
+      "url": "https://www.tvmaze.com/episodes/3048973/wwe-nxt-premium-live-events-2014-12-11-takeover-r-evolution",
+      "name": "TakeOver: R Evolution",
+      "season": 2014,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2014-12-11",
+      "airtime": "",
+      "airstamp": "2014-12-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048973"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048974,
+      "url": "https://www.tvmaze.com/episodes/3048974/wwe-nxt-premium-live-events-2015-02-11-takeover-rival",
+      "name": "TakeOver: Rival",
+      "season": 2015,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2015-02-11",
+      "airtime": "",
+      "airstamp": "2015-02-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048974"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048975,
+      "url": "https://www.tvmaze.com/episodes/3048975/wwe-nxt-premium-live-events-2015-05-20-takeover-unstoppable",
+      "name": "TakeOver: Unstoppable",
+      "season": 2015,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2015-05-20",
+      "airtime": "",
+      "airstamp": "2015-05-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048975"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048976,
+      "url": "https://www.tvmaze.com/episodes/3048976/wwe-nxt-premium-live-events-2015-08-22-takeover-brooklyn",
+      "name": "TakeOver: Brooklyn",
+      "season": 2015,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2015-08-22",
+      "airtime": "",
+      "airstamp": "2015-08-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048976"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048977,
+      "url": "https://www.tvmaze.com/episodes/3048977/wwe-nxt-premium-live-events-2015-10-07-takeover-respect",
+      "name": "TakeOver: Respect",
+      "season": 2015,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2015-10-07",
+      "airtime": "",
+      "airstamp": "2015-10-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048977"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048978,
+      "url": "https://www.tvmaze.com/episodes/3048978/wwe-nxt-premium-live-events-2015-12-16-takeover-london",
+      "name": "TakeOver: London",
+      "season": 2015,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2015-12-16",
+      "airtime": "",
+      "airstamp": "2015-12-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048978"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048979,
+      "url": "https://www.tvmaze.com/episodes/3048979/wwe-nxt-premium-live-events-2016-04-01-takeover-dallas",
+      "name": "TakeOver: Dallas",
+      "season": 2016,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-04-01",
+      "airtime": "",
+      "airstamp": "2016-04-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048979"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048980,
+      "url": "https://www.tvmaze.com/episodes/3048980/wwe-nxt-premium-live-events-2016-06-08-takeover-the-end",
+      "name": "TakeOver: The End",
+      "season": 2016,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-06-08",
+      "airtime": "",
+      "airstamp": "2016-06-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048981,
+      "url": "https://www.tvmaze.com/episodes/3048981/wwe-nxt-premium-live-events-2016-08-20-takeover-brooklyn-ii",
+      "name": "TakeOver: Brooklyn II",
+      "season": 2016,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2016-08-20",
+      "airtime": "",
+      "airstamp": "2016-08-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048981"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048982,
+      "url": "https://www.tvmaze.com/episodes/3048982/wwe-nxt-premium-live-events-2016-11-19-takeover-toronto",
+      "name": "TakeOver: Toronto",
+      "season": 2016,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2016-11-19",
+      "airtime": "",
+      "airstamp": "2016-11-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048982"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048983,
+      "url": "https://www.tvmaze.com/episodes/3048983/wwe-nxt-premium-live-events-2017-01-28-takeover-san-antonio",
+      "name": "TakeOver: San Antonio",
+      "season": 2017,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2017-01-28",
+      "airtime": "",
+      "airstamp": "2017-01-28T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048983"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048984,
+      "url": "https://www.tvmaze.com/episodes/3048984/wwe-nxt-premium-live-events-2017-04-01-takeover-orlando",
+      "name": "TakeOver: Orlando",
+      "season": 2017,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2017-04-01",
+      "airtime": "",
+      "airstamp": "2017-04-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048984"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048985,
+      "url": "https://www.tvmaze.com/episodes/3048985/wwe-nxt-premium-live-events-2017-05-20-takeover-chicago",
+      "name": "TakeOver: Chicago",
+      "season": 2017,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2017-05-20",
+      "airtime": "",
+      "airstamp": "2017-05-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048985"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048986,
+      "url": "https://www.tvmaze.com/episodes/3048986/wwe-nxt-premium-live-events-2017-08-19-takeover-brooklyn-iii",
+      "name": "TakeOver: Brooklyn III",
+      "season": 2017,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2017-08-19",
+      "airtime": "",
+      "airstamp": "2017-08-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048986"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048987,
+      "url": "https://www.tvmaze.com/episodes/3048987/wwe-nxt-premium-live-events-2017-11-18-takeover-wargames",
+      "name": "TakeOver: WarGames",
+      "season": 2017,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2017-11-18",
+      "airtime": "",
+      "airstamp": "2017-11-18T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048987"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048988,
+      "url": "https://www.tvmaze.com/episodes/3048988/wwe-nxt-premium-live-events-2018-01-27-takeover-philadelphia",
+      "name": "TakeOver: Philadelphia",
+      "season": 2018,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-01-27",
+      "airtime": "",
+      "airstamp": "2018-01-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048988"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048989,
+      "url": "https://www.tvmaze.com/episodes/3048989/wwe-nxt-premium-live-events-2018-04-07-takeover-new-orleans",
+      "name": "TakeOver: New Orleans",
+      "season": 2018,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-04-07",
+      "airtime": "",
+      "airstamp": "2018-04-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048989"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048990,
+      "url": "https://www.tvmaze.com/episodes/3048990/wwe-nxt-premium-live-events-2018-06-16-takeover-chicago-ii",
+      "name": "TakeOver: Chicago II",
+      "season": 2018,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-06-16",
+      "airtime": "",
+      "airstamp": "2018-06-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048990"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048991,
+      "url": "https://www.tvmaze.com/episodes/3048991/wwe-nxt-premium-live-events-2018-06-26-uk-championship",
+      "name": "U.K. Championship",
+      "season": 2018,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-06-26",
+      "airtime": "",
+      "airstamp": "2018-06-26T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048991"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048992,
+      "url": "https://www.tvmaze.com/episodes/3048992/wwe-nxt-premium-live-events-2018-08-18-takeover-brooklyn-4",
+      "name": "TakeOver: Brooklyn 4",
+      "season": 2018,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-08-18",
+      "airtime": "",
+      "airstamp": "2018-08-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048992"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048993,
+      "url": "https://www.tvmaze.com/episodes/3048993/wwe-nxt-premium-live-events-2018-11-17-takeover-wargames",
+      "name": "TakeOver: WarGames",
+      "season": 2018,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-11-17",
+      "airtime": "",
+      "airstamp": "2018-11-17T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048993"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048994,
+      "url": "https://www.tvmaze.com/episodes/3048994/wwe-nxt-premium-live-events-2019-01-26-takeover-phoenix",
+      "name": "TakeOver: Phoenix",
+      "season": 2019,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-01-26",
+      "airtime": "",
+      "airstamp": "2019-01-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048994"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048995,
+      "url": "https://www.tvmaze.com/episodes/3048995/wwe-nxt-premium-live-events-2019-02-03-halftime-heat",
+      "name": "Halftime Heat",
+      "season": 2019,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-02-03",
+      "airtime": "",
+      "airstamp": "2019-02-03T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048995"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048996,
+      "url": "https://www.tvmaze.com/episodes/3048996/wwe-nxt-premium-live-events-2019-04-05-takeover-new-york",
+      "name": "TakeOver: New York",
+      "season": 2019,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-04-05",
+      "airtime": "",
+      "airstamp": "2019-04-05T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048996"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048997,
+      "url": "https://www.tvmaze.com/episodes/3048997/wwe-nxt-premium-live-events-2019-06-01-takeover-xxv",
+      "name": "TakeOver: XXV",
+      "season": 2019,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-06-01",
+      "airtime": "",
+      "airstamp": "2019-06-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048997"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048998,
+      "url": "https://www.tvmaze.com/episodes/3048998/wwe-nxt-premium-live-events-2019-08-10-takeover-toronto",
+      "name": "TakeOver: Toronto",
+      "season": 2019,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-08-10",
+      "airtime": "",
+      "airstamp": "2019-08-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048998"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3048999,
+      "url": "https://www.tvmaze.com/episodes/3048999/wwe-nxt-premium-live-events-2019-11-23-takeover-wargames",
+      "name": "TakeOver: WarGames",
+      "season": 2019,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-11-23",
+      "airtime": "",
+      "airstamp": "2019-11-23T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3048999"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049000,
+      "url": "https://www.tvmaze.com/episodes/3049000/wwe-nxt-premium-live-events-2020-02-16-takeover-portland",
+      "name": "TakeOver: Portland",
+      "season": 2020,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2020-02-16",
+      "airtime": "",
+      "airstamp": "2020-02-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049000"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049001,
+      "url": "https://www.tvmaze.com/episodes/3049001/wwe-nxt-premium-live-events-2020-06-07-takeover-in-your-house",
+      "name": "TakeOver: In Your House",
+      "season": 2020,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2020-06-07",
+      "airtime": "",
+      "airstamp": "2020-06-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049001"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049002,
+      "url": "https://www.tvmaze.com/episodes/3049002/wwe-nxt-premium-live-events-2020-08-22-takeover-xxx",
+      "name": "TakeOver XXX",
+      "season": 2020,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2020-08-22",
+      "airtime": "",
+      "airstamp": "2020-08-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049002"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049003,
+      "url": "https://www.tvmaze.com/episodes/3049003/wwe-nxt-premium-live-events-2020-10-04-takeover-31",
+      "name": "TakeOver 31",
+      "season": 2020,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2020-10-04",
+      "airtime": "",
+      "airstamp": "2020-10-04T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049003"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049004,
+      "url": "https://www.tvmaze.com/episodes/3049004/wwe-nxt-premium-live-events-2020-12-06-takeover-wargames",
+      "name": "TakeOver: WarGames",
+      "season": 2020,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2020-12-06",
+      "airtime": "",
+      "airstamp": "2020-12-06T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049004"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049005,
+      "url": "https://www.tvmaze.com/episodes/3049005/wwe-nxt-premium-live-events-2021-02-14-takeover-vengeance-day",
+      "name": "TakeOver: Vengeance Day",
+      "season": 2021,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-02-14",
+      "airtime": "",
+      "airstamp": "2021-02-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049005"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049006,
+      "url": "https://www.tvmaze.com/episodes/3049006/wwe-nxt-premium-live-events-2021-04-07-takeover-stand-deliver-part-1",
+      "name": "TakeOver: Stand & Deliver Part 1",
+      "season": 2021,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-04-07",
+      "airtime": "",
+      "airstamp": "2021-04-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049006"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049007,
+      "url": "https://www.tvmaze.com/episodes/3049007/wwe-nxt-premium-live-events-2021-04-08-takeover-stand-deliver-part-2",
+      "name": "TakeOver: Stand & Deliver Part 2",
+      "season": 2021,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-04-08",
+      "airtime": "",
+      "airstamp": "2021-04-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049007"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049008,
+      "url": "https://www.tvmaze.com/episodes/3049008/wwe-nxt-premium-live-events-2021-06-13-takeover-in-your-house",
+      "name": "TakeOver: In Your House",
+      "season": 2021,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-06-13",
+      "airtime": "",
+      "airstamp": "2021-06-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049008"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049009,
+      "url": "https://www.tvmaze.com/episodes/3049009/wwe-nxt-premium-live-events-2021-08-22-takeover-36",
+      "name": "TakeOver 36",
+      "season": 2021,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-08-22",
+      "airtime": "",
+      "airstamp": "2021-08-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049009"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049010,
+      "url": "https://www.tvmaze.com/episodes/3049010/wwe-nxt-premium-live-events-2021-12-05-wargames",
+      "name": "WarGames",
+      "season": 2021,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-12-05",
+      "airtime": "",
+      "airstamp": "2021-12-05T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049010"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049011,
+      "url": "https://www.tvmaze.com/episodes/3049011/wwe-nxt-premium-live-events-2022-04-02-stand-deliver",
+      "name": "Stand & Deliver",
+      "season": 2022,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-04-02",
+      "airtime": "",
+      "airstamp": "2022-04-02T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049011"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049012,
+      "url": "https://www.tvmaze.com/episodes/3049012/wwe-nxt-premium-live-events-2022-06-04-in-your-house",
+      "name": "In Your House",
+      "season": 2022,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-06-04",
+      "airtime": "",
+      "airstamp": "2022-06-04T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049012"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049013,
+      "url": "https://www.tvmaze.com/episodes/3049013/wwe-nxt-premium-live-events-2022-09-04-worlds-collide",
+      "name": "Worlds Collide",
+      "season": 2022,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-09-04",
+      "airtime": "",
+      "airstamp": "2022-09-04T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049013"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049014,
+      "url": "https://www.tvmaze.com/episodes/3049014/wwe-nxt-premium-live-events-2022-10-22-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 2022,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-10-22",
+      "airtime": "",
+      "airstamp": "2022-10-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049014"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049015,
+      "url": "https://www.tvmaze.com/episodes/3049015/wwe-nxt-premium-live-events-2022-12-10-deadline",
+      "name": "Deadline",
+      "season": 2022,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-12-10",
+      "airtime": "",
+      "airstamp": "2022-12-10T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049015"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049016,
+      "url": "https://www.tvmaze.com/episodes/3049016/wwe-nxt-premium-live-events-2023-02-04-vengeance-day",
+      "name": "Vengeance Day",
+      "season": 2023,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-02-04",
+      "airtime": "",
+      "airstamp": "2023-02-04T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049016"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049017,
+      "url": "https://www.tvmaze.com/episodes/3049017/wwe-nxt-premium-live-events-2023-04-01-stand-deliver",
+      "name": "Stand & Deliver",
+      "season": 2023,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-04-01",
+      "airtime": "",
+      "airstamp": "2023-04-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049017"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049018,
+      "url": "https://www.tvmaze.com/episodes/3049018/wwe-nxt-premium-live-events-2023-05-28-battleground",
+      "name": "Battleground",
+      "season": 2023,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-05-28",
+      "airtime": "",
+      "airstamp": "2023-05-28T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049018"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049019,
+      "url": "https://www.tvmaze.com/episodes/3049019/wwe-nxt-premium-live-events-2023-07-30-the-great-american-bash",
+      "name": "The Great American Bash",
+      "season": 2023,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-07-30",
+      "airtime": "",
+      "airstamp": "2023-07-30T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049019"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049020,
+      "url": "https://www.tvmaze.com/episodes/3049020/wwe-nxt-premium-live-events-2023-09-30-no-mercy",
+      "name": "No Mercy",
+      "season": 2023,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-09-30",
+      "airtime": "",
+      "airstamp": "2023-09-30T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049020"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049021,
+      "url": "https://www.tvmaze.com/episodes/3049021/wwe-nxt-premium-live-events-2023-12-09-deadline",
+      "name": "Deadline",
+      "season": 2023,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-12-09",
+      "airtime": "",
+      "airstamp": "2023-12-09T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049021"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049022,
+      "url": "https://www.tvmaze.com/episodes/3049022/wwe-nxt-premium-live-events-2024-02-04-vengeance-day",
+      "name": "Vengeance Day",
+      "season": 2024,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-02-04",
+      "airtime": "",
+      "airstamp": "2024-02-04T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049022"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049023,
+      "url": "https://www.tvmaze.com/episodes/3049023/wwe-nxt-premium-live-events-2024-04-06-stand-deliver",
+      "name": "Stand & Deliver",
+      "season": 2024,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-04-06",
+      "airtime": "",
+      "airstamp": "2024-04-06T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049023"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049024,
+      "url": "https://www.tvmaze.com/episodes/3049024/wwe-nxt-premium-live-events-2024-06-09-battleground",
+      "name": "Battleground",
+      "season": 2024,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-06-09",
+      "airtime": "",
+      "airstamp": "2024-06-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049024"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049025,
+      "url": "https://www.tvmaze.com/episodes/3049025/wwe-nxt-premium-live-events-2024-07-07-heatwave",
+      "name": "Heatwave",
+      "season": 2024,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-07-07",
+      "airtime": "",
+      "airstamp": "2024-07-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049025"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049026,
+      "url": "https://www.tvmaze.com/episodes/3049026/wwe-nxt-premium-live-events-2024-09-01-no-mercy",
+      "name": "No Mercy",
+      "season": 2024,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-09-01",
+      "airtime": "",
+      "airstamp": "2024-09-01T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049026"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3049027,
+      "url": "https://www.tvmaze.com/episodes/3049027/wwe-nxt-premium-live-events-2024-10-27-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 2024,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2024-10-27",
+      "airtime": "",
+      "airstamp": "2024-10-27T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049027"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3072008,
+      "url": "https://www.tvmaze.com/episodes/3072008/wwe-nxt-premium-live-events-2024-12-07-deadline",
+      "name": "Deadline",
+      "season": 2024,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2024-12-07",
+      "airtime": "",
+      "airstamp": "2024-12-07T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3072008"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3171347,
+      "url": "https://www.tvmaze.com/episodes/3171347/wwe-nxt-premium-live-events-2025-02-15-vengeance-day",
+      "name": "Vengeance Day",
+      "season": 2025,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2025-02-15",
+      "airtime": "18:00",
+      "airstamp": "2025-02-15T23:00:00+00:00",
+      "runtime": 149,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171347"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3171348,
+      "url": "https://www.tvmaze.com/episodes/3171348/wwe-nxt-premium-live-events-2025-04-19-stand-deliver",
+      "name": "Stand & Deliver",
+      "season": 2025,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2025-04-19",
+      "airtime": "13:00",
+      "airstamp": "2025-04-19T17:00:00+00:00",
+      "runtime": 176,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171348"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3171349,
+      "url": "https://www.tvmaze.com/episodes/3171349/wwe-nxt-premium-live-events-2025-05-25-battleground",
+      "name": "Battleground",
+      "season": 2025,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2025-05-25",
+      "airtime": "20:00",
+      "airstamp": "2025-05-26T00:00:00+00:00",
+      "runtime": 164,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3171349"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3218321,
+      "url": "https://www.tvmaze.com/episodes/3218321/wwe-nxt-premium-live-events-2025-06-07-worlds-collide-los-angeles",
+      "name": "Worlds Collide: Los Angeles",
+      "season": 2025,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2025-06-07",
+      "airtime": "15:00",
+      "airstamp": "2025-06-07T19:00:00+00:00",
+      "runtime": 153,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3218321"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3257996,
+      "url": "https://www.tvmaze.com/episodes/3257996/wwe-nxt-premium-live-events-2025-07-12-the-great-american-bash",
+      "name": "The Great American Bash",
+      "season": 2025,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2025-07-12",
+      "airtime": "15:00",
+      "airstamp": "2025-07-12T19:00:00+00:00",
+      "runtime": 149,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Oba Femi will defend the NXT Championship against Yoshiki Inamura in what is sure to be a hard-hitting affair. </p><p>Jordynne Grace and Blake Monroe will join forces against Fatal Influence just one day before The Juggernaut challenges Jacy Jayne for the NXT Women's Championship.</p><p>Ricky Saints challenges Ethan Page for the NXT North American Championship in a Falls Count Anywhere Match.</p><p>Sol Ruca will defend the NXT Women's North American Championship against Izzi Dame.</p><p>A huge TNA World Championship contract signing will take place live at the Great American Bash. Trick Williams is scheduled to defend the TNA World Title at Slammiversary against Joe Hendry and Mike Santana in a Triple Threat Match.</p><p>Je'Von Evans and Jasper Troy will take their rivalry to the Great American Bash in a highly anticipated singles match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3257996"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3333921,
+      "url": "https://www.tvmaze.com/episodes/3333921/wwe-nxt-premium-live-events-2025-08-24-heatwave",
+      "name": "Heatwave",
+      "season": 2025,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2025-08-24",
+      "airtime": "19:00",
+      "airstamp": "2025-08-24T23:00:00+00:00",
+      "runtime": 142,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Je'Von Evans challenges Oba Femi for NXT's biggest prize. Can The Young OG capture the NXT Championship, or will The Ruler continue his reign?</p><p>Jacy Jayne defends the title against Masha Slamovich and Ash by Elegance in a Triple Threat Match. </p><p>Jordynne Grace will finally get her hands on Blake Monroe when the two meet at Heatwave in Lowell, Mass. </p><p>The NXT Tag Team Title will be on the line when Hank Walker and Tank Ledger defend their championship against two members of the villainous DarkState. Dion Lennox, Saquon Shugars, Osiris Griffin and Cutler James have decimated several Superstars across NXT and TNA, including the NXT Tag Team Champions. </p><p>Mixed tag team action will pit Chelsea Green and NXT North American Champion Ethan Page against Tyra Mae Steele and Tavion Heights.</p><p>Jaida Parker, Kelani Jordan and Lola Vice will battle in a No. 1 Contender Triple Threat Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3333921"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3333922,
+      "url": "https://www.tvmaze.com/episodes/3333922/wwe-nxt-premium-live-events-2025-09-12-worlds-collide-las-vegas",
+      "name": "Worlds Collide: Las Vegas",
+      "season": 2025,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2025-09-12",
+      "airtime": "22:00",
+      "airstamp": "2025-09-13T02:00:00+00:00",
+      "runtime": 165,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3333922"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3340063,
+      "url": "https://www.tvmaze.com/episodes/3340063/wwe-nxt-premium-live-events-2025-09-27-no-mercy",
+      "name": "No Mercy",
+      "season": 2025,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2025-09-27",
+      "airtime": "19:00",
+      "airstamp": "2025-09-27T23:00:00+00:00",
+      "runtime": 162,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Je'Von Evans got payback on Josh Briggs in the form of a big win at NXT No Mercy.</p><p>The NXT Women's Speed Championship remains with Sol Ruca after a tough battle with Jaida Parker.</p><p>Jordynne Grace vanquished her rival Blake Monroe inside of a Weaponized Steel Cage at NXT No Mercy.</p><p>Ethan Page is walking out of NXT No Mercy still the NXT North American Champion after narrowly defeating Tavion Heights.</p><p>Jacy Jayne defends the NXT Women's Championship against Lola Vice.</p><p>Ricky Saints conquered Oba Femi to win the NXT Championship in triumphant fashion at NXT No Mercy.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3340063"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3340064,
+      "url": "https://www.tvmaze.com/episodes/3340064/wwe-nxt-premium-live-events-2025-10-25-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 2025,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2025-10-25",
+      "airtime": "19:00",
+      "airstamp": "2025-10-25T23:00:00+00:00",
+      "runtime": 172,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Ricky Saints defends his title against Trick Williams.</p><p>Tatum Paxley will challenge Jacy Jayne for the NXT Women's Championship in what is sure to be a fiercely contested matchup.</p><p>Team Extreme is in action as The Hardy Boyz and DarkState will battle for the NXT Tag Team Championship in a Broken Rules Match.</p><p>Sol Ruca is unable to compete, so her best friend Zaria will defend the NXT Women's North American Championship on her behalf against Blake Monroe.</p><p>Ethan Page defends the NXT North American Championship against Dr. Wagner Jr. in a Day of the Dead Match.</p><p>Two of the brightest young stars in the world join forces as NXT's Je'Von Evans partners with TNA X-Division Champion Leon Slater to take on AAA's Mr. Iguana and La Parker.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3340064"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3425055,
+      "url": "https://www.tvmaze.com/episodes/3425055/wwe-nxt-premium-live-events-2025-12-06-deadline",
+      "name": "Deadline",
+      "season": 2025,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2025-12-06",
+      "airtime": "19:00",
+      "airstamp": "2025-12-07T00:00:00+00:00",
+      "runtime": 165,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Ricky Saints defends the title against Oba Femi.</p><p>Je'Von Evans, Joe Hendry, Myles Borne, TNA X-Division Champion Leon Slater and Dion Lennox will compete in the Men's Iron Survivor Challenge Match for a future NXT Championship opportunity. </p><p>Sol Ruca, Jordynne Grace, Kelani Jordan, Lola Vice and Evolve Women's Champion Kendal Grey will compete in the Women's Iron Survivor Challenge for a future NXT Women's Championship opportunity. </p><p>Former NXT Women's Champion Tatum Paxley will take on the woman that cost her the title, Izzi Dame.</p><p>AAA Superstar Mr. Iguana returns to NXT to challenge Ethan Page for the NXT North American Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3425055"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3559324,
+      "url": "https://www.tvmaze.com/episodes/3559324/wwe-nxt-premium-live-events-2026-03-07-vengeance-day",
+      "name": "Vengeance Day",
+      "season": 2026,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2026-03-07",
+      "airtime": "19:00",
+      "airstamp": "2026-03-08T00:00:00+00:00",
+      "runtime": 141,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Joe Hendry defends the title against former champion Ricky Saints.</p><p>Former friends turned bitter enemies Izzi Dame and Tatum Paxley will battle for the NXT Women's North American Championship.</p><p>NXT is headed back to the Underground as Kelani Jordan and Lola Vice will throw down in the epic match.</p><p>The intense rivalry between Jaida Parker and Blake Monroe has led to a huge Street Fight.</p><p>Dion Lennox will represent DarkState in order to quell the threat of the vengeful Tony D'Angelo.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3559324"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3559839,
+      "url": "https://www.tvmaze.com/episodes/3559839/wwe-nxt-premium-live-events-2026-04-04-stand-deliver",
+      "name": "Stand & Deliver",
+      "season": 2026,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2026-04-04",
+      "airtime": "19:00",
+      "airstamp": "2026-04-04T23:00:00+00:00",
+      "runtime": 170,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Joe Hendry defends his title against Ricky Saints, Ethan Page and Tony D'Angelo in a Fatal 4-Way Match.</p><p>The NXT Women's Championship will be on the line when Jacy Jayne defends her title against both Kendal Grey and Lola Vice in a Triple Threat Match.</p><p>Tatum Paxley aims to take back her NXT North American Championship after Blake Monroe stole it two weeks ago at NXT in Houston.</p><p>Johnny Wrestling is back, and he'll challenge Myles Borne for the NXT North American Championship at NXT Stand &amp; Deliver.</p><p>Brad Baylor and Ricky Smokes will defend the NXT Tag Team Title against the winners of the NXT Tag Team Tournament, Los Americanos.</p><p>Best friends turned enemies Sol Ruca and Zaria will look to settle their score on NXT's biggest stage, Stand &amp; Deliver.</p><p>Rap star Sexyy Red will return to NXT for a special appearance at NXT Stand &amp; Deliver. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3559839"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3635791,
+      "url": "https://www.tvmaze.com/episodes/3635791/wwe-nxt-premium-live-events-2026-06-28-the-great-american-bash",
+      "name": "The Great American Bash",
+      "season": 2026,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2026-06-28",
+      "airtime": "19:00",
+      "airstamp": "2026-06-28T23:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Tony D'Angelo defends his title against the mysterious Naraku.</p><p>Lola Vice will defend the NXT Women's Championship against one of the fastest-rising Superstars in WWE, Kendal Grey.</p><p>Tatum Paxley is out to regain the NXT Women's North American Championship when she takes on the dangerous new champion, Zaria.</p><p>Myles Borne will defend the NXT North American Championship against his friend and former training partner Tavion Heights.</p><p>Former friends Saquon Shugars and Dion Lennox turned bitter enemies will square off at NXT Great American Bash in a deeply personal grudge match. </p><p>Wren Sinclair is cleared to compete, and she will defend the Women's Speed Championship against Arianna Grace. </p><p>Two of NXT's fastest-rising Superstars Shiloh Hill and Tristan Angels will collide on one of NXT's biggest stages. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3635791"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3656853,
+      "url": "https://www.tvmaze.com/episodes/3656853/wwe-nxt-premium-live-events-2026-08-30-heatwave",
+      "name": "Heatwave",
+      "season": 2026,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2026-08-30",
+      "airtime": "",
+      "airstamp": "2026-08-30T16:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3656853"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    }
+  ]
+}

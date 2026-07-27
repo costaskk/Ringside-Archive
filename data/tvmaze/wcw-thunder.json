@@ -1,0 +1,4119 @@
+{
+  "programId": "wcw-thunder",
+  "tvMazeId": 39473,
+  "fetchedAt": "2026-07-27T07:57:30.980Z",
+  "show": {
+    "id": 39473,
+    "url": "https://www.tvmaze.com/shows/39473/wcw-thunder",
+    "name": "WCW Thunder",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 120,
+    "averageRuntime": 120,
+    "premiered": "1998-01-08",
+    "ended": "2001-03-21",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": [
+        "Wednesday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 28,
+    "network": {
+      "id": 32,
+      "name": "TBS",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.tbs.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 76782,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/377/942553.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/377/942553.jpg"
+    },
+    "summary": "<p><b>WCW Thunder</b> was a professional wrestling show. </p>",
+    "updated": 1659881601,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/39473"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2371022",
+        "name": "03/21/01"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2371636,
+      "url": "https://www.tvmaze.com/episodes/2371636/wcw-thunder-1x01-010898",
+      "name": "01/08/98",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1998-01-08",
+      "airtime": "",
+      "airstamp": "1998-01-08T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557535,
+      "url": "https://www.tvmaze.com/episodes/1557535/wcw-thunder-1x02-011598",
+      "name": "01/15/98",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1998-01-15",
+      "airtime": "",
+      "airstamp": "1998-01-15T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557535"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557536,
+      "url": "https://www.tvmaze.com/episodes/1557536/wcw-thunder-1x03-012298",
+      "name": "01/22/98",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1998-01-22",
+      "airtime": "",
+      "airstamp": "1998-01-22T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557536"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557537,
+      "url": "https://www.tvmaze.com/episodes/1557537/wcw-thunder-1x04-012998",
+      "name": "01/29/98",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1998-01-29",
+      "airtime": "",
+      "airstamp": "1998-01-29T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557537"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557538,
+      "url": "https://www.tvmaze.com/episodes/1557538/wcw-thunder-1x05-020598",
+      "name": "02/05/98",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1998-02-05",
+      "airtime": "",
+      "airstamp": "1998-02-05T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557538"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557539,
+      "url": "https://www.tvmaze.com/episodes/1557539/wcw-thunder-1x06-021298",
+      "name": "02/12/98",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1998-02-12",
+      "airtime": "",
+      "airstamp": "1998-02-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557539"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557540,
+      "url": "https://www.tvmaze.com/episodes/1557540/wcw-thunder-1x07-021998",
+      "name": "02/19/98",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1998-02-19",
+      "airtime": "",
+      "airstamp": "1998-02-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557540"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557541,
+      "url": "https://www.tvmaze.com/episodes/1557541/wcw-thunder-1x08-022698",
+      "name": "02/26/98",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1998-02-26",
+      "airtime": "",
+      "airstamp": "1998-02-26T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557541"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557542,
+      "url": "https://www.tvmaze.com/episodes/1557542/wcw-thunder-1x09-030598",
+      "name": "03/05/98",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1998-03-05",
+      "airtime": "",
+      "airstamp": "1998-03-05T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557542"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557543,
+      "url": "https://www.tvmaze.com/episodes/1557543/wcw-thunder-1x10-031298",
+      "name": "03/12/98",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1998-03-12",
+      "airtime": "",
+      "airstamp": "1998-03-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557543"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557544,
+      "url": "https://www.tvmaze.com/episodes/1557544/wcw-thunder-1x11-031998",
+      "name": "03/19/98",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1998-03-19",
+      "airtime": "",
+      "airstamp": "1998-03-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557544"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557545,
+      "url": "https://www.tvmaze.com/episodes/1557545/wcw-thunder-1x12-032698",
+      "name": "03/26/98",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1998-03-26",
+      "airtime": "",
+      "airstamp": "1998-03-26T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557545"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557546,
+      "url": "https://www.tvmaze.com/episodes/1557546/wcw-thunder-1x13-040998",
+      "name": "04/09/98",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "1998-04-09",
+      "airtime": "",
+      "airstamp": "1998-04-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557546"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557547,
+      "url": "https://www.tvmaze.com/episodes/1557547/wcw-thunder-1x14-041698",
+      "name": "04/16/98",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "1998-04-16",
+      "airtime": "",
+      "airstamp": "1998-04-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557547"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557548,
+      "url": "https://www.tvmaze.com/episodes/1557548/wcw-thunder-1x15-042298",
+      "name": "04/22/98",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "1998-04-22",
+      "airtime": "",
+      "airstamp": "1998-04-22T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557548"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557549,
+      "url": "https://www.tvmaze.com/episodes/1557549/wcw-thunder-1x16-051498",
+      "name": "05/14/98",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "1998-05-14",
+      "airtime": "",
+      "airstamp": "1998-05-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557549"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557550,
+      "url": "https://www.tvmaze.com/episodes/1557550/wcw-thunder-1x17-052198",
+      "name": "05/21/98",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "1998-05-21",
+      "airtime": "",
+      "airstamp": "1998-05-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557550"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557551,
+      "url": "https://www.tvmaze.com/episodes/1557551/wcw-thunder-1x18-052798",
+      "name": "05/27/98",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "1998-05-27",
+      "airtime": "",
+      "airstamp": "1998-05-27T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557551"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557552,
+      "url": "https://www.tvmaze.com/episodes/1557552/wcw-thunder-1x19-060498",
+      "name": "06/04/98",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "1998-06-04",
+      "airtime": "",
+      "airstamp": "1998-06-04T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557552"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557553,
+      "url": "https://www.tvmaze.com/episodes/1557553/wcw-thunder-1x20-061198",
+      "name": "06/11/98",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "1998-06-11",
+      "airtime": "",
+      "airstamp": "1998-06-11T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557553"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557554,
+      "url": "https://www.tvmaze.com/episodes/1557554/wcw-thunder-1x21-061898",
+      "name": "06/18/98",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "1998-06-18",
+      "airtime": "",
+      "airstamp": "1998-06-18T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557554"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557555,
+      "url": "https://www.tvmaze.com/episodes/1557555/wcw-thunder-1x22-062498",
+      "name": "06/24/98",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "1998-06-24",
+      "airtime": "",
+      "airstamp": "1998-06-24T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557555"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557556,
+      "url": "https://www.tvmaze.com/episodes/1557556/wcw-thunder-1x23-070298",
+      "name": "07/02/98",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "1998-07-02",
+      "airtime": "",
+      "airstamp": "1998-07-02T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557556"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557557,
+      "url": "https://www.tvmaze.com/episodes/1557557/wcw-thunder-1x24-070898",
+      "name": "07/08/98",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "1998-07-08",
+      "airtime": "",
+      "airstamp": "1998-07-08T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557557"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557558,
+      "url": "https://www.tvmaze.com/episodes/1557558/wcw-thunder-1x25-071698",
+      "name": "07/16/98",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "1998-07-16",
+      "airtime": "",
+      "airstamp": "1998-07-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557558"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557559,
+      "url": "https://www.tvmaze.com/episodes/1557559/wcw-thunder-1x26-080598",
+      "name": "08/05/98",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "1998-08-05",
+      "airtime": "",
+      "airstamp": "1998-08-05T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557559"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557560,
+      "url": "https://www.tvmaze.com/episodes/1557560/wcw-thunder-1x27-081398",
+      "name": "08/13/98",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "1998-08-13",
+      "airtime": "",
+      "airstamp": "1998-08-13T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557560"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557561,
+      "url": "https://www.tvmaze.com/episodes/1557561/wcw-thunder-1x28-082098",
+      "name": "08/20/98",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "1998-08-20",
+      "airtime": "",
+      "airstamp": "1998-08-20T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371633,
+      "url": "https://www.tvmaze.com/episodes/2371633/wcw-thunder-1x29-082698",
+      "name": "08/26/98",
+      "season": 1,
+      "number": 29,
+      "type": "regular",
+      "airdate": "1998-08-26",
+      "airtime": "",
+      "airstamp": "1998-08-26T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371632,
+      "url": "https://www.tvmaze.com/episodes/2371632/wcw-thunder-1x30-090398",
+      "name": "09/03/98",
+      "season": 1,
+      "number": 30,
+      "type": "regular",
+      "airdate": "1998-09-03",
+      "airtime": "",
+      "airstamp": "1998-09-03T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371631,
+      "url": "https://www.tvmaze.com/episodes/2371631/wcw-thunder-1x31-091098",
+      "name": "09/10/98",
+      "season": 1,
+      "number": 31,
+      "type": "regular",
+      "airdate": "1998-09-10",
+      "airtime": "",
+      "airstamp": "1998-09-10T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557562,
+      "url": "https://www.tvmaze.com/episodes/1557562/wcw-thunder-1x32-091798",
+      "name": "09/17/98",
+      "season": 1,
+      "number": 32,
+      "type": "regular",
+      "airdate": "1998-09-17",
+      "airtime": "",
+      "airstamp": "1998-09-17T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557562"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557563,
+      "url": "https://www.tvmaze.com/episodes/1557563/wcw-thunder-1x33-092498",
+      "name": "09/24/98",
+      "season": 1,
+      "number": 33,
+      "type": "regular",
+      "airdate": "1998-09-24",
+      "airtime": "",
+      "airstamp": "1998-09-24T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557563"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557564,
+      "url": "https://www.tvmaze.com/episodes/1557564/wcw-thunder-1x34-100198",
+      "name": "10/01/98",
+      "season": 1,
+      "number": 34,
+      "type": "regular",
+      "airdate": "1998-10-01",
+      "airtime": "",
+      "airstamp": "1998-10-01T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557564"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557565,
+      "url": "https://www.tvmaze.com/episodes/1557565/wcw-thunder-1x35-100898",
+      "name": "10/08/98",
+      "season": 1,
+      "number": 35,
+      "type": "regular",
+      "airdate": "1998-10-08",
+      "airtime": "",
+      "airstamp": "1998-10-08T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557565"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557566,
+      "url": "https://www.tvmaze.com/episodes/1557566/wcw-thunder-1x36-101598",
+      "name": "10/15/98",
+      "season": 1,
+      "number": 36,
+      "type": "regular",
+      "airdate": "1998-10-15",
+      "airtime": "",
+      "airstamp": "1998-10-15T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557566"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557567,
+      "url": "https://www.tvmaze.com/episodes/1557567/wcw-thunder-1x37-102298",
+      "name": "10/22/98",
+      "season": 1,
+      "number": 37,
+      "type": "regular",
+      "airdate": "1998-10-22",
+      "airtime": "",
+      "airstamp": "1998-10-22T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557567"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557568,
+      "url": "https://www.tvmaze.com/episodes/1557568/wcw-thunder-1x38-102998",
+      "name": "10/29/98",
+      "season": 1,
+      "number": 38,
+      "type": "regular",
+      "airdate": "1998-10-29",
+      "airtime": "",
+      "airstamp": "1998-10-29T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557568"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557569,
+      "url": "https://www.tvmaze.com/episodes/1557569/wcw-thunder-1x39-110598",
+      "name": "11/05/98",
+      "season": 1,
+      "number": 39,
+      "type": "regular",
+      "airdate": "1998-11-05",
+      "airtime": "",
+      "airstamp": "1998-11-05T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557569"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557570,
+      "url": "https://www.tvmaze.com/episodes/1557570/wcw-thunder-1x40-111298",
+      "name": "11/12/98",
+      "season": 1,
+      "number": 40,
+      "type": "regular",
+      "airdate": "1998-11-12",
+      "airtime": "",
+      "airstamp": "1998-11-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557570"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557571,
+      "url": "https://www.tvmaze.com/episodes/1557571/wcw-thunder-1x41-111998",
+      "name": "11/19/98",
+      "season": 1,
+      "number": 41,
+      "type": "regular",
+      "airdate": "1998-11-19",
+      "airtime": "",
+      "airstamp": "1998-11-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557571"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557572,
+      "url": "https://www.tvmaze.com/episodes/1557572/wcw-thunder-1x42-120398",
+      "name": "12/03/98",
+      "season": 1,
+      "number": 42,
+      "type": "regular",
+      "airdate": "1998-12-03",
+      "airtime": "",
+      "airstamp": "1998-12-03T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557572"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557573,
+      "url": "https://www.tvmaze.com/episodes/1557573/wcw-thunder-1x43-121098",
+      "name": "12/10/98",
+      "season": 1,
+      "number": 43,
+      "type": "regular",
+      "airdate": "1998-12-10",
+      "airtime": "",
+      "airstamp": "1998-12-10T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557574,
+      "url": "https://www.tvmaze.com/episodes/1557574/wcw-thunder-1x44-121798",
+      "name": "12/17/98",
+      "season": 1,
+      "number": 44,
+      "type": "regular",
+      "airdate": "1998-12-17",
+      "airtime": "",
+      "airstamp": "1998-12-17T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557575,
+      "url": "https://www.tvmaze.com/episodes/1557575/wcw-thunder-2x01-010799",
+      "name": "01/07/99",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1999-01-07",
+      "airtime": "",
+      "airstamp": "1999-01-07T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557575"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557576,
+      "url": "https://www.tvmaze.com/episodes/1557576/wcw-thunder-2x02-011499",
+      "name": "01/14/99",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1999-01-14",
+      "airtime": "",
+      "airstamp": "1999-01-14T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557576"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557577,
+      "url": "https://www.tvmaze.com/episodes/1557577/wcw-thunder-2x03-012199",
+      "name": "01/21/99",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1999-01-21",
+      "airtime": "",
+      "airstamp": "1999-01-21T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557577"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557578,
+      "url": "https://www.tvmaze.com/episodes/1557578/wcw-thunder-2x04-012899",
+      "name": "01/28/99",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1999-01-28",
+      "airtime": "",
+      "airstamp": "1999-01-28T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557578"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557579,
+      "url": "https://www.tvmaze.com/episodes/1557579/wcw-thunder-2x05-020499",
+      "name": "02/04/99",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1999-02-04",
+      "airtime": "",
+      "airstamp": "1999-02-04T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371562,
+      "url": "https://www.tvmaze.com/episodes/2371562/wcw-thunder-2x06-021199",
+      "name": "02/11/99",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1999-02-11",
+      "airtime": "",
+      "airstamp": "1999-02-11T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371562"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557580,
+      "url": "https://www.tvmaze.com/episodes/1557580/wcw-thunder-2x07-021899",
+      "name": "02/18/99",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1999-02-18",
+      "airtime": "",
+      "airstamp": "1999-02-18T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557580"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557581,
+      "url": "https://www.tvmaze.com/episodes/1557581/wcw-thunder-2x08-022599",
+      "name": "02/25/99",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1999-02-25",
+      "airtime": "",
+      "airstamp": "1999-02-25T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557581"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557582,
+      "url": "https://www.tvmaze.com/episodes/1557582/wcw-thunder-2x09-030499",
+      "name": "03/04/99",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1999-03-04",
+      "airtime": "",
+      "airstamp": "1999-03-04T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557582"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557583,
+      "url": "https://www.tvmaze.com/episodes/1557583/wcw-thunder-2x10-031199",
+      "name": "03/11/99",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1999-03-11",
+      "airtime": "",
+      "airstamp": "1999-03-11T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371563,
+      "url": "https://www.tvmaze.com/episodes/2371563/wcw-thunder-2x11-031899",
+      "name": "03/18/99",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1999-03-18",
+      "airtime": "",
+      "airstamp": "1999-03-18T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371563"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371564,
+      "url": "https://www.tvmaze.com/episodes/2371564/wcw-thunder-2x12-032599",
+      "name": "03/25/99",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1999-03-25",
+      "airtime": "",
+      "airstamp": "1999-03-25T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371564"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557584,
+      "url": "https://www.tvmaze.com/episodes/1557584/wcw-thunder-2x13-040199",
+      "name": "04/01/99",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "1999-04-01",
+      "airtime": "",
+      "airstamp": "1999-04-01T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557585,
+      "url": "https://www.tvmaze.com/episodes/1557585/wcw-thunder-2x14-040799",
+      "name": "04/07/99",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "1999-04-07",
+      "airtime": "",
+      "airstamp": "1999-04-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557586,
+      "url": "https://www.tvmaze.com/episodes/1557586/wcw-thunder-2x15-041599",
+      "name": "04/15/99",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "1999-04-15",
+      "airtime": "",
+      "airstamp": "1999-04-15T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557587,
+      "url": "https://www.tvmaze.com/episodes/1557587/wcw-thunder-2x16-042299",
+      "name": "04/22/99",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "1999-04-22",
+      "airtime": "",
+      "airstamp": "1999-04-22T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557587"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557588,
+      "url": "https://www.tvmaze.com/episodes/1557588/wcw-thunder-2x17-042999",
+      "name": "04/29/99",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "1999-04-29",
+      "airtime": "",
+      "airstamp": "1999-04-29T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557588"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557589,
+      "url": "https://www.tvmaze.com/episodes/1557589/wcw-thunder-2x18-050699",
+      "name": "05/06/99",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "1999-05-06",
+      "airtime": "",
+      "airstamp": "1999-05-06T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557589"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557590,
+      "url": "https://www.tvmaze.com/episodes/1557590/wcw-thunder-2x19-052099",
+      "name": "05/20/99",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "1999-05-20",
+      "airtime": "",
+      "airstamp": "1999-05-20T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557590"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557591,
+      "url": "https://www.tvmaze.com/episodes/1557591/wcw-thunder-2x20-052799",
+      "name": "05/27/99",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "1999-05-27",
+      "airtime": "",
+      "airstamp": "1999-05-27T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557591"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557592,
+      "url": "https://www.tvmaze.com/episodes/1557592/wcw-thunder-2x21-060399",
+      "name": "06/03/99",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "1999-06-03",
+      "airtime": "",
+      "airstamp": "1999-06-03T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557592"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557593,
+      "url": "https://www.tvmaze.com/episodes/1557593/wcw-thunder-2x22-061099",
+      "name": "06/10/99",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "1999-06-10",
+      "airtime": "",
+      "airstamp": "1999-06-10T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557594,
+      "url": "https://www.tvmaze.com/episodes/1557594/wcw-thunder-2x23-061799",
+      "name": "06/17/99",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "1999-06-17",
+      "airtime": "",
+      "airstamp": "1999-06-17T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557594"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557595,
+      "url": "https://www.tvmaze.com/episodes/1557595/wcw-thunder-2x24-062499",
+      "name": "06/24/99",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "1999-06-24",
+      "airtime": "",
+      "airstamp": "1999-06-24T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557596,
+      "url": "https://www.tvmaze.com/episodes/1557596/wcw-thunder-2x25-070199",
+      "name": "07/01/99",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "1999-07-01",
+      "airtime": "",
+      "airstamp": "1999-07-01T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557597,
+      "url": "https://www.tvmaze.com/episodes/1557597/wcw-thunder-2x26-070899",
+      "name": "07/08/99",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "1999-07-08",
+      "airtime": "",
+      "airstamp": "1999-07-08T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557598,
+      "url": "https://www.tvmaze.com/episodes/1557598/wcw-thunder-2x27-071499",
+      "name": "07/14/99",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "1999-07-14",
+      "airtime": "",
+      "airstamp": "1999-07-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557599,
+      "url": "https://www.tvmaze.com/episodes/1557599/wcw-thunder-2x28-072299",
+      "name": "07/22/99",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "1999-07-22",
+      "airtime": "",
+      "airstamp": "1999-07-22T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557600,
+      "url": "https://www.tvmaze.com/episodes/1557600/wcw-thunder-2x29-072999",
+      "name": "07/29/99",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "1999-07-29",
+      "airtime": "",
+      "airstamp": "1999-07-29T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557600"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557601,
+      "url": "https://www.tvmaze.com/episodes/1557601/wcw-thunder-2x30-080599",
+      "name": "08/05/99",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "1999-08-05",
+      "airtime": "",
+      "airstamp": "1999-08-05T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557601"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557602,
+      "url": "https://www.tvmaze.com/episodes/1557602/wcw-thunder-2x31-081299",
+      "name": "08/12/99",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "1999-08-12",
+      "airtime": "",
+      "airstamp": "1999-08-12T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557602"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557603,
+      "url": "https://www.tvmaze.com/episodes/1557603/wcw-thunder-2x32-081999",
+      "name": "08/19/99",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "1999-08-19",
+      "airtime": "",
+      "airstamp": "1999-08-19T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557603"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557604,
+      "url": "https://www.tvmaze.com/episodes/1557604/wcw-thunder-2x33-082699",
+      "name": "08/26/99",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "1999-08-26",
+      "airtime": "",
+      "airstamp": "1999-08-26T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557604"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557605,
+      "url": "https://www.tvmaze.com/episodes/1557605/wcw-thunder-2x34-090299",
+      "name": "09/02/99",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "1999-09-02",
+      "airtime": "",
+      "airstamp": "1999-09-02T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557605"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557606,
+      "url": "https://www.tvmaze.com/episodes/1557606/wcw-thunder-2x35-090999",
+      "name": "09/09/99",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "1999-09-09",
+      "airtime": "",
+      "airstamp": "1999-09-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557606"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371565,
+      "url": "https://www.tvmaze.com/episodes/2371565/wcw-thunder-2x36-091699",
+      "name": "09/16/99",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "1999-09-16",
+      "airtime": "",
+      "airstamp": "1999-09-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371565"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557607,
+      "url": "https://www.tvmaze.com/episodes/1557607/wcw-thunder-2x37-092399",
+      "name": "09/23/99",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "1999-09-23",
+      "airtime": "",
+      "airstamp": "1999-09-23T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557607"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557608,
+      "url": "https://www.tvmaze.com/episodes/1557608/wcw-thunder-2x38-093099",
+      "name": "09/30/99",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "1999-09-30",
+      "airtime": "",
+      "airstamp": "1999-09-30T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557608"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557609,
+      "url": "https://www.tvmaze.com/episodes/1557609/wcw-thunder-2x39-100799",
+      "name": "10/07/99",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "1999-10-07",
+      "airtime": "",
+      "airstamp": "1999-10-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557609"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557610,
+      "url": "https://www.tvmaze.com/episodes/1557610/wcw-thunder-2x40-101499",
+      "name": "10/14/99",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "1999-10-14",
+      "airtime": "",
+      "airstamp": "1999-10-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557610"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557611,
+      "url": "https://www.tvmaze.com/episodes/1557611/wcw-thunder-2x41-102199",
+      "name": "10/21/99",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "1999-10-21",
+      "airtime": "",
+      "airstamp": "1999-10-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557611"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557612,
+      "url": "https://www.tvmaze.com/episodes/1557612/wcw-thunder-2x42-102899",
+      "name": "10/28/99",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "1999-10-28",
+      "airtime": "",
+      "airstamp": "1999-10-28T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557612"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557613,
+      "url": "https://www.tvmaze.com/episodes/1557613/wcw-thunder-2x43-110499",
+      "name": "11/04/99",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "1999-11-04",
+      "airtime": "",
+      "airstamp": "1999-11-04T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557613"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557614,
+      "url": "https://www.tvmaze.com/episodes/1557614/wcw-thunder-2x44-111199",
+      "name": "11/11/99",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "1999-11-11",
+      "airtime": "",
+      "airstamp": "1999-11-11T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557615,
+      "url": "https://www.tvmaze.com/episodes/1557615/wcw-thunder-2x45-111899",
+      "name": "11/18/99",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "1999-11-18",
+      "airtime": "",
+      "airstamp": "1999-11-18T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557615"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557616,
+      "url": "https://www.tvmaze.com/episodes/1557616/wcw-thunder-2x46-120299",
+      "name": "12/02/99",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "1999-12-02",
+      "airtime": "",
+      "airstamp": "1999-12-02T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557616"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557617,
+      "url": "https://www.tvmaze.com/episodes/1557617/wcw-thunder-2x47-120999",
+      "name": "12/09/99",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "1999-12-09",
+      "airtime": "",
+      "airstamp": "1999-12-09T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557617"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557618,
+      "url": "https://www.tvmaze.com/episodes/1557618/wcw-thunder-2x48-121699",
+      "name": "12/16/99",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "1999-12-16",
+      "airtime": "",
+      "airstamp": "1999-12-16T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557618"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557619,
+      "url": "https://www.tvmaze.com/episodes/1557619/wcw-thunder-2x49-122399",
+      "name": "12/23/99",
+      "season": 2,
+      "number": 49,
+      "type": "regular",
+      "airdate": "1999-12-23",
+      "airtime": "",
+      "airstamp": "1999-12-23T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557619"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557620,
+      "url": "https://www.tvmaze.com/episodes/1557620/wcw-thunder-3x01-010600",
+      "name": "01/06/00",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2000-01-06",
+      "airtime": "",
+      "airstamp": "2000-01-06T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557620"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557621,
+      "url": "https://www.tvmaze.com/episodes/1557621/wcw-thunder-3x02-011200",
+      "name": "01/12/00",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2000-01-12",
+      "airtime": "",
+      "airstamp": "2000-01-12T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557621"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557622,
+      "url": "https://www.tvmaze.com/episodes/1557622/wcw-thunder-3x03-011900",
+      "name": "01/19/00",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2000-01-19",
+      "airtime": "",
+      "airstamp": "2000-01-19T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557622"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557623,
+      "url": "https://www.tvmaze.com/episodes/1557623/wcw-thunder-3x04-012600",
+      "name": "01/26/00",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2000-01-26",
+      "airtime": "",
+      "airstamp": "2000-01-26T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557623"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557624,
+      "url": "https://www.tvmaze.com/episodes/1557624/wcw-thunder-3x05-020200",
+      "name": "02/02/00",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2000-02-02",
+      "airtime": "",
+      "airstamp": "2000-02-02T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557624"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557625,
+      "url": "https://www.tvmaze.com/episodes/1557625/wcw-thunder-3x06-020900",
+      "name": "02/09/00",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2000-02-09",
+      "airtime": "",
+      "airstamp": "2000-02-09T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557625"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557626,
+      "url": "https://www.tvmaze.com/episodes/1557626/wcw-thunder-3x07-021600",
+      "name": "02/16/00",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2000-02-16",
+      "airtime": "",
+      "airstamp": "2000-02-16T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557626"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557627,
+      "url": "https://www.tvmaze.com/episodes/1557627/wcw-thunder-3x08-022300",
+      "name": "02/23/00",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2000-02-23",
+      "airtime": "",
+      "airstamp": "2000-02-23T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557627"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557628,
+      "url": "https://www.tvmaze.com/episodes/1557628/wcw-thunder-3x09-030100",
+      "name": "03/01/00",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2000-03-01",
+      "airtime": "",
+      "airstamp": "2000-03-01T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557628"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557629,
+      "url": "https://www.tvmaze.com/episodes/1557629/wcw-thunder-3x10-030800",
+      "name": "03/08/00",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2000-03-08",
+      "airtime": "",
+      "airstamp": "2000-03-08T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557629"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557630,
+      "url": "https://www.tvmaze.com/episodes/1557630/wcw-thunder-3x11-031500",
+      "name": "03/15/00",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2000-03-15",
+      "airtime": "",
+      "airstamp": "2000-03-15T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557631,
+      "url": "https://www.tvmaze.com/episodes/1557631/wcw-thunder-3x12-032200",
+      "name": "03/22/00",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2000-03-22",
+      "airtime": "",
+      "airstamp": "2000-03-22T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557632,
+      "url": "https://www.tvmaze.com/episodes/1557632/wcw-thunder-3x13-032900",
+      "name": "03/29/00",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2000-03-29",
+      "airtime": "",
+      "airstamp": "2000-03-29T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371560,
+      "url": "https://www.tvmaze.com/episodes/2371560/wcw-thunder-3x14-040500",
+      "name": "04/05/00",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2000-04-05",
+      "airtime": "",
+      "airstamp": "2000-04-05T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371560"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557633,
+      "url": "https://www.tvmaze.com/episodes/1557633/wcw-thunder-3x15-041200",
+      "name": "04/12/00",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2000-04-12",
+      "airtime": "",
+      "airstamp": "2000-04-12T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557634,
+      "url": "https://www.tvmaze.com/episodes/1557634/wcw-thunder-3x16-042600",
+      "name": "04/26/00",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2000-04-26",
+      "airtime": "",
+      "airstamp": "2000-04-26T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557635,
+      "url": "https://www.tvmaze.com/episodes/1557635/wcw-thunder-3x17-050300",
+      "name": "05/03/00",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2000-05-03",
+      "airtime": "",
+      "airstamp": "2000-05-03T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557635"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557636,
+      "url": "https://www.tvmaze.com/episodes/1557636/wcw-thunder-3x18-051000",
+      "name": "05/10/00",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2000-05-10",
+      "airtime": "",
+      "airstamp": "2000-05-10T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557637,
+      "url": "https://www.tvmaze.com/episodes/1557637/wcw-thunder-3x19-051700",
+      "name": "05/17/00",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2000-05-17",
+      "airtime": "",
+      "airstamp": "2000-05-17T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557637"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557638,
+      "url": "https://www.tvmaze.com/episodes/1557638/wcw-thunder-3x20-052400",
+      "name": "05/24/00",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2000-05-24",
+      "airtime": "",
+      "airstamp": "2000-05-24T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557639,
+      "url": "https://www.tvmaze.com/episodes/1557639/wcw-thunder-3x21-053100",
+      "name": "05/31/00",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2000-05-31",
+      "airtime": "",
+      "airstamp": "2000-05-31T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557640,
+      "url": "https://www.tvmaze.com/episodes/1557640/wcw-thunder-3x22-060700",
+      "name": "06/07/00",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2000-06-07",
+      "airtime": "",
+      "airstamp": "2000-06-07T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557641,
+      "url": "https://www.tvmaze.com/episodes/1557641/wcw-thunder-3x23-061400",
+      "name": "06/14/00",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2000-06-14",
+      "airtime": "",
+      "airstamp": "2000-06-14T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557641"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557642,
+      "url": "https://www.tvmaze.com/episodes/1557642/wcw-thunder-3x24-062100",
+      "name": "06/21/00",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2000-06-21",
+      "airtime": "",
+      "airstamp": "2000-06-21T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557642"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557643,
+      "url": "https://www.tvmaze.com/episodes/1557643/wcw-thunder-3x25-062800",
+      "name": "06/28/00",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2000-06-28",
+      "airtime": "",
+      "airstamp": "2000-06-28T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557644,
+      "url": "https://www.tvmaze.com/episodes/1557644/wcw-thunder-3x26-070500",
+      "name": "07/05/00",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2000-07-05",
+      "airtime": "",
+      "airstamp": "2000-07-05T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557645,
+      "url": "https://www.tvmaze.com/episodes/1557645/wcw-thunder-3x27-071200",
+      "name": "07/12/00",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2000-07-12",
+      "airtime": "",
+      "airstamp": "2000-07-12T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557646,
+      "url": "https://www.tvmaze.com/episodes/1557646/wcw-thunder-3x28-071900",
+      "name": "07/19/00",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2000-07-19",
+      "airtime": "",
+      "airstamp": "2000-07-19T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557646"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557647,
+      "url": "https://www.tvmaze.com/episodes/1557647/wcw-thunder-3x29-072600",
+      "name": "07/26/00",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2000-07-26",
+      "airtime": "",
+      "airstamp": "2000-07-26T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557647"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557648,
+      "url": "https://www.tvmaze.com/episodes/1557648/wcw-thunder-3x30-080200",
+      "name": "08/02/00",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2000-08-02",
+      "airtime": "",
+      "airstamp": "2000-08-02T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557648"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557649,
+      "url": "https://www.tvmaze.com/episodes/1557649/wcw-thunder-3x31-080900",
+      "name": "08/09/00",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2000-08-09",
+      "airtime": "",
+      "airstamp": "2000-08-09T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557650,
+      "url": "https://www.tvmaze.com/episodes/1557650/wcw-thunder-3x32-081600",
+      "name": "08/16/00",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2000-08-16",
+      "airtime": "",
+      "airstamp": "2000-08-16T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557651,
+      "url": "https://www.tvmaze.com/episodes/1557651/wcw-thunder-3x33-082300",
+      "name": "08/23/00",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2000-08-23",
+      "airtime": "",
+      "airstamp": "2000-08-23T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557651"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557652,
+      "url": "https://www.tvmaze.com/episodes/1557652/wcw-thunder-3x34-083000",
+      "name": "08/30/00",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2000-08-30",
+      "airtime": "",
+      "airstamp": "2000-08-30T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557653,
+      "url": "https://www.tvmaze.com/episodes/1557653/wcw-thunder-3x35-090600",
+      "name": "09/06/00",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2000-09-06",
+      "airtime": "",
+      "airstamp": "2000-09-06T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557654,
+      "url": "https://www.tvmaze.com/episodes/1557654/wcw-thunder-3x36-091300",
+      "name": "09/13/00",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2000-09-13",
+      "airtime": "",
+      "airstamp": "2000-09-13T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557655,
+      "url": "https://www.tvmaze.com/episodes/1557655/wcw-thunder-3x37-092000",
+      "name": "09/20/00",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2000-09-20",
+      "airtime": "",
+      "airstamp": "2000-09-20T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557656,
+      "url": "https://www.tvmaze.com/episodes/1557656/wcw-thunder-3x38-092700",
+      "name": "09/27/00",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2000-09-27",
+      "airtime": "",
+      "airstamp": "2000-09-27T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557657,
+      "url": "https://www.tvmaze.com/episodes/1557657/wcw-thunder-3x39-100400",
+      "name": "10/04/00",
+      "season": 3,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2000-10-04",
+      "airtime": "",
+      "airstamp": "2000-10-04T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557657"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557658,
+      "url": "https://www.tvmaze.com/episodes/1557658/wcw-thunder-3x40-101100",
+      "name": "10/11/00",
+      "season": 3,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2000-10-11",
+      "airtime": "",
+      "airstamp": "2000-10-11T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557658"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557659,
+      "url": "https://www.tvmaze.com/episodes/1557659/wcw-thunder-3x41-101800",
+      "name": "10/18/00",
+      "season": 3,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2000-10-18",
+      "airtime": "",
+      "airstamp": "2000-10-18T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557659"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557660,
+      "url": "https://www.tvmaze.com/episodes/1557660/wcw-thunder-3x42-102500",
+      "name": "10/25/00",
+      "season": 3,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2000-10-25",
+      "airtime": "",
+      "airstamp": "2000-10-25T16:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557660"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557661,
+      "url": "https://www.tvmaze.com/episodes/1557661/wcw-thunder-3x43-110100",
+      "name": "11/01/00",
+      "season": 3,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2000-11-01",
+      "airtime": "",
+      "airstamp": "2000-11-01T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557661"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557662,
+      "url": "https://www.tvmaze.com/episodes/1557662/wcw-thunder-3x44-110800",
+      "name": "11/08/00",
+      "season": 3,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2000-11-08",
+      "airtime": "",
+      "airstamp": "2000-11-08T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557662"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557663,
+      "url": "https://www.tvmaze.com/episodes/1557663/wcw-thunder-3x45-111500",
+      "name": "11/15/00",
+      "season": 3,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2000-11-15",
+      "airtime": "",
+      "airstamp": "2000-11-15T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557663"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557664,
+      "url": "https://www.tvmaze.com/episodes/1557664/wcw-thunder-3x46-112200",
+      "name": "11/22/00",
+      "season": 3,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2000-11-22",
+      "airtime": "",
+      "airstamp": "2000-11-22T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557664"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557665,
+      "url": "https://www.tvmaze.com/episodes/1557665/wcw-thunder-3x47-112900",
+      "name": "11/29/00",
+      "season": 3,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2000-11-29",
+      "airtime": "",
+      "airstamp": "2000-11-29T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557665"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557666,
+      "url": "https://www.tvmaze.com/episodes/1557666/wcw-thunder-3x48-120600",
+      "name": "12/06/00",
+      "season": 3,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2000-12-06",
+      "airtime": "",
+      "airstamp": "2000-12-06T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557666"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557667,
+      "url": "https://www.tvmaze.com/episodes/1557667/wcw-thunder-3x49-121300",
+      "name": "12/13/00",
+      "season": 3,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2000-12-13",
+      "airtime": "",
+      "airstamp": "2000-12-13T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557667"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557668,
+      "url": "https://www.tvmaze.com/episodes/1557668/wcw-thunder-3x50-122000",
+      "name": "12/20/00",
+      "season": 3,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2000-12-20",
+      "airtime": "",
+      "airstamp": "2000-12-20T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557668"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371561,
+      "url": "https://www.tvmaze.com/episodes/2371561/wcw-thunder-3x51-122700",
+      "name": "12/27/00",
+      "season": 3,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2000-12-27",
+      "airtime": "",
+      "airstamp": "2000-12-27T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557669,
+      "url": "https://www.tvmaze.com/episodes/1557669/wcw-thunder-4x01-010301",
+      "name": "01/03/01",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2001-01-03",
+      "airtime": "",
+      "airstamp": "2001-01-03T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557669"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557670,
+      "url": "https://www.tvmaze.com/episodes/1557670/wcw-thunder-4x02-011001",
+      "name": "01/10/01",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2001-01-10",
+      "airtime": "",
+      "airstamp": "2001-01-10T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557670"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557671,
+      "url": "https://www.tvmaze.com/episodes/1557671/wcw-thunder-4x03-011701",
+      "name": "01/17/01",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2001-01-17",
+      "airtime": "",
+      "airstamp": "2001-01-17T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557671"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557672,
+      "url": "https://www.tvmaze.com/episodes/1557672/wcw-thunder-4x04-012401",
+      "name": "01/24/01",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2001-01-24",
+      "airtime": "",
+      "airstamp": "2001-01-24T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557672"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557673,
+      "url": "https://www.tvmaze.com/episodes/1557673/wcw-thunder-4x05-013101",
+      "name": "01/31/01",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2001-01-31",
+      "airtime": "",
+      "airstamp": "2001-01-31T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557673"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557674,
+      "url": "https://www.tvmaze.com/episodes/1557674/wcw-thunder-4x06-020701",
+      "name": "02/07/01",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2001-02-07",
+      "airtime": "",
+      "airstamp": "2001-02-07T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557675,
+      "url": "https://www.tvmaze.com/episodes/1557675/wcw-thunder-4x07-021401",
+      "name": "02/14/01",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2001-02-14",
+      "airtime": "",
+      "airstamp": "2001-02-14T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557675"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557676,
+      "url": "https://www.tvmaze.com/episodes/1557676/wcw-thunder-4x08-022101",
+      "name": "02/21/01",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2001-02-21",
+      "airtime": "",
+      "airstamp": "2001-02-21T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557676"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557677,
+      "url": "https://www.tvmaze.com/episodes/1557677/wcw-thunder-4x09-022801",
+      "name": "02/28/01",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2001-02-28",
+      "airtime": "",
+      "airstamp": "2001-02-28T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557677"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557678,
+      "url": "https://www.tvmaze.com/episodes/1557678/wcw-thunder-4x10-030701",
+      "name": "03/07/01",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2001-03-07",
+      "airtime": "",
+      "airstamp": "2001-03-07T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557678"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 1557679,
+      "url": "https://www.tvmaze.com/episodes/1557679/wcw-thunder-4x11-031401",
+      "name": "03/14/01",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2001-03-14",
+      "airtime": "",
+      "airstamp": "2001-03-14T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1557679"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    },
+    {
+      "id": 2371022,
+      "url": "https://www.tvmaze.com/episodes/2371022/wcw-thunder-4x12-032101",
+      "name": "03/21/01",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2001-03-21",
+      "airtime": "",
+      "airstamp": "2001-03-21T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371022"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39473",
+          "name": "WCW Thunder"
+        }
+      }
+    }
+  ]
+}

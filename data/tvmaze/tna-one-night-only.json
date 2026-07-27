@@ -1,0 +1,1467 @@
+{
+  "programId": "tna-one-night-only",
+  "tvMazeId": 80638,
+  "fetchedAt": "2026-07-27T07:57:33.675Z",
+  "show": {
+    "id": 80638,
+    "url": "https://www.tvmaze.com/shows/80638/tna-one-night-only",
+    "name": "TNA One Night Only",
+    "type": "Sports",
+    "language": null,
+    "genres": [
+      "Action"
+    ],
+    "status": "Ended",
+    "runtime": 180,
+    "averageRuntime": 180,
+    "premiered": "2013-04-05",
+    "ended": "2019-03-09",
+    "officialSite": null,
+    "schedule": {
+      "time": "00:00",
+      "days": []
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 8,
+    "network": {
+      "id": 138,
+      "name": "Pay-Per-View",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 439662,
+      "imdb": "tt4325502"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365167.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365167.jpg"
+    },
+    "summary": "<p>One Night Only was a series of professional wrestling events held by Total Nonstop Action Wrestling (TNA) launched in April 2013.</p>",
+    "updated": 1733071322,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/80638"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3049198",
+        "name": "Clash in the Bluegrass"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 3045705,
+      "url": "https://www.tvmaze.com/episodes/3045705/tna-one-night-only-1x01-tna-one-night-only-x-travaganza",
+      "name": "TNA One Night Only: X-Travaganza",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2013-04-05",
+      "airtime": "00:00",
+      "airstamp": "2013-04-06T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045705"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045655,
+      "url": "https://www.tvmaze.com/episodes/3045655/tna-one-night-only-1x02-tna-one-night-only-jokers-wild",
+      "name": "TNA One Night Only: Joker's Wild",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2013-05-03",
+      "airtime": "00:00",
+      "airstamp": "2013-05-04T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045656,
+      "url": "https://www.tvmaze.com/episodes/3045656/tna-one-night-only-1x03-tna-one-night-only-hardcore-justice-2",
+      "name": "TNA One Night Only: Hardcore Justice 2",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2013-07-05",
+      "airtime": "00:00",
+      "airstamp": "2013-07-06T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045657,
+      "url": "https://www.tvmaze.com/episodes/3045657/tna-one-night-only-1x04-tna-one-night-only-10-reunion",
+      "name": "TNA One Night Only: 10 Reunion",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2013-08-02",
+      "airtime": "00:00",
+      "airstamp": "2013-08-03T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045657"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045658,
+      "url": "https://www.tvmaze.com/episodes/3045658/tna-one-night-only-1x05-tna-one-night-only-knockouts-knockdown",
+      "name": "TNA One Night Only: Knockouts Knockdown",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2013-09-06",
+      "airtime": "00:00",
+      "airstamp": "2013-09-07T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045658"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045659,
+      "url": "https://www.tvmaze.com/episodes/3045659/tna-one-night-only-1x06-tna-one-night-only-tournament-of-champions",
+      "name": "TNA One Night Only: Tournament of Champions",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2013-11-01",
+      "airtime": "00:00",
+      "airstamp": "2013-11-02T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045659"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045660,
+      "url": "https://www.tvmaze.com/episodes/3045660/tna-one-night-only-1x07-tna-one-night-only-world-cup",
+      "name": "TNA One Night Only: World Cup",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2013-12-06",
+      "airtime": "00:00",
+      "airstamp": "2013-12-07T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045660"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045661,
+      "url": "https://www.tvmaze.com/episodes/3045661/tna-one-night-only-2x01-tna-one-night-only-tag-team-tournament",
+      "name": "TNA One Night Only: Tag Team Tournament",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2014-01-03",
+      "airtime": "00:00",
+      "airstamp": "2014-01-04T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045661"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045662,
+      "url": "https://www.tvmaze.com/episodes/3045662/tna-one-night-only-2x02-tna-one-night-only-hardcore-justice-3",
+      "name": "TNA One Night Only: Hardcore Justice 3",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2014-01-10",
+      "airtime": "00:00",
+      "airstamp": "2014-01-11T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045662"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045663,
+      "url": "https://www.tvmaze.com/episodes/3045663/tna-one-night-only-2x03-tna-one-night-only-oldschool",
+      "name": "TNA One Night Only: #OldSchool",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2014-02-07",
+      "airtime": "00:00",
+      "airstamp": "2014-02-08T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045663"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045664,
+      "url": "https://www.tvmaze.com/episodes/3045664/tna-one-night-only-2x04-tna-one-night-only-jokers-wild-2",
+      "name": "TNA One Night Only: Joker's Wild 2",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2014-05-09",
+      "airtime": "00:00",
+      "airstamp": "2014-05-10T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045664"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045665,
+      "url": "https://www.tvmaze.com/episodes/3045665/tna-one-night-only-2x05-tna-one-night-only-global-impact-japan",
+      "name": "TNA One Night Only: Global Impact Japan",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2014-07-04",
+      "airtime": "00:00",
+      "airstamp": "2014-07-05T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045665"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045666,
+      "url": "https://www.tvmaze.com/episodes/3045666/tna-one-night-only-2x06-tna-one-night-only-x-travaganza-2",
+      "name": "TNA One Night Only: X-Travaganza 2",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2014-08-01",
+      "airtime": "00:00",
+      "airstamp": "2014-08-02T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045666"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045667,
+      "url": "https://www.tvmaze.com/episodes/3045667/tna-one-night-only-2x07-tna-one-night-only-world-cup-2",
+      "name": "TNA One Night Only: World Cup 2",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2014-09-05",
+      "airtime": "00:00",
+      "airstamp": "2014-09-06T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045667"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045668,
+      "url": "https://www.tvmaze.com/episodes/3045668/tna-one-night-only-2x08-tna-one-night-only-knockouts-knockdown-2",
+      "name": "TNA One Night Only: Knockouts Knockdown 2",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2014-11-07",
+      "airtime": "00:00",
+      "airstamp": "2014-11-08T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045668"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045669,
+      "url": "https://www.tvmaze.com/episodes/3045669/tna-one-night-only-2x09-tna-one-night-only-victory-road",
+      "name": "TNA One Night Only: Victory Road",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2014-12-05",
+      "airtime": "00:00",
+      "airstamp": "2014-12-06T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045669"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045670,
+      "url": "https://www.tvmaze.com/episodes/3045670/tna-one-night-only-3x01-tna-one-night-only-turning-point",
+      "name": "TNA One Night Only: Turning Point",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2015-01-09",
+      "airtime": "00:00",
+      "airstamp": "2015-01-10T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045670"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045671,
+      "url": "https://www.tvmaze.com/episodes/3045671/tna-one-night-only-3x02-tna-one-night-only-rivals",
+      "name": "TNA One Night Only: Rivals",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2015-02-06",
+      "airtime": "00:00",
+      "airstamp": "2015-02-07T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045671"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045672,
+      "url": "https://www.tvmaze.com/episodes/3045672/tna-one-night-only-3x03-tna-one-night-only-jokers-wild-3",
+      "name": "TNA One Night Only: Joker's Wild 3",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2015-03-06",
+      "airtime": "00:00",
+      "airstamp": "2015-03-07T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045672"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045673,
+      "url": "https://www.tvmaze.com/episodes/3045673/tna-one-night-only-3x04-tna-one-night-only-hardcore-justice-4",
+      "name": "TNA One Night Only: Hardcore Justice 4",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2015-04-01",
+      "airtime": "00:00",
+      "airstamp": "2015-04-02T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045673"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045674,
+      "url": "https://www.tvmaze.com/episodes/3045674/tna-one-night-only-3x05-tna-one-night-only-x-travaganza-3",
+      "name": "TNA One Night Only: X-Travaganza 3",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2015-05-06",
+      "airtime": "00:00",
+      "airstamp": "2015-05-07T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045675,
+      "url": "https://www.tvmaze.com/episodes/3045675/tna-one-night-only-3x06-tna-one-night-only-knockouts-knockdown-3",
+      "name": "TNA One Night Only: Knockouts Knockdown 3",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2015-07-01",
+      "airtime": "00:00",
+      "airstamp": "2015-07-02T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045675"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045676,
+      "url": "https://www.tvmaze.com/episodes/3045676/tna-one-night-only-3x07-tna-one-night-only-world-cup-3",
+      "name": "TNA One Night Only: World Cup 3",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2015-08-05",
+      "airtime": "00:00",
+      "airstamp": "2015-08-06T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045676"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045677,
+      "url": "https://www.tvmaze.com/episodes/3045677/tna-one-night-only-3x08-tna-one-night-only-gut-check",
+      "name": "TNA One Night Only: Gut Check",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2015-09-04",
+      "airtime": "00:00",
+      "airstamp": "2015-09-05T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045677"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045678,
+      "url": "https://www.tvmaze.com/episodes/3045678/tna-one-night-only-3x09-tna-one-night-only-tna-classic",
+      "name": "TNA One Night Only: TNA Classic",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2015-11-06",
+      "airtime": "00:00",
+      "airstamp": "2015-11-07T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045678"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045679,
+      "url": "https://www.tvmaze.com/episodes/3045679/tna-one-night-only-3x10-tna-one-night-only-global-impact-usa-vs-the-world",
+      "name": "TNA One Night Only: Global Impact - USA vs. The World",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2015-12-04",
+      "airtime": "00:00",
+      "airstamp": "2015-12-05T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045679"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045680,
+      "url": "https://www.tvmaze.com/episodes/3045680/tna-one-night-only-4x01-tna-one-night-only-live",
+      "name": "TNA One Night Only: Live!",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-01-08",
+      "airtime": "00:00",
+      "airstamp": "2016-01-09T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045680"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045681,
+      "url": "https://www.tvmaze.com/episodes/3045681/tna-one-night-only-4x02-tna-one-night-only-rivals-2",
+      "name": "TNA One Night Only: Rivals 2",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-02-05",
+      "airtime": "00:00",
+      "airstamp": "2016-02-06T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045681"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045682,
+      "url": "https://www.tvmaze.com/episodes/3045682/tna-one-night-only-4x03-tna-one-night-only-jokers-wild-4",
+      "name": "TNA One Night Only: Joker's Wild 4",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2016-03-04",
+      "airtime": "00:00",
+      "airstamp": "2016-03-05T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045682"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045683,
+      "url": "https://www.tvmaze.com/episodes/3045683/tna-one-night-only-4x04-tna-one-night-only-knockouts-knockdown-4",
+      "name": "TNA One Night Only: Knockouts Knockdown 4",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2016-04-22",
+      "airtime": "00:00",
+      "airstamp": "2016-04-23T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045683"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045684,
+      "url": "https://www.tvmaze.com/episodes/3045684/tna-one-night-only-4x05-tna-one-night-only-victory-road-2",
+      "name": "TNA One Night Only: Victory Road 2",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2016-05-20",
+      "airtime": "00:00",
+      "airstamp": "2016-05-21T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045684"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045685,
+      "url": "https://www.tvmaze.com/episodes/3045685/tna-one-night-only-4x06-tna-one-night-only-world-cup-4",
+      "name": "TNA One Night Only: World Cup 4",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2016-07-22",
+      "airtime": "00:00",
+      "airstamp": "2016-07-23T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045685"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045686,
+      "url": "https://www.tvmaze.com/episodes/3045686/tna-one-night-only-4x07-tna-one-night-only-x-travaganza-4",
+      "name": "TNA One Night Only: X-Travaganza 4",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2016-08-26",
+      "airtime": "00:00",
+      "airstamp": "2016-08-27T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045686"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045687,
+      "url": "https://www.tvmaze.com/episodes/3045687/tna-one-night-only-4x08-tna-one-night-only-september-2016",
+      "name": "TNA One Night Only: September 2016",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2016-09-16",
+      "airtime": "00:00",
+      "airstamp": "2016-09-17T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045687"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045688,
+      "url": "https://www.tvmaze.com/episodes/3045688/tna-one-night-only-4x09-tna-one-night-only-november-2016",
+      "name": "TNA One Night Only: November 2016",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2016-11-04",
+      "airtime": "00:00",
+      "airstamp": "2016-11-05T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045688"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045689,
+      "url": "https://www.tvmaze.com/episodes/3045689/tna-one-night-only-4x10-tna-one-night-only-december-2016",
+      "name": "TNA One Night Only: December 2016",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2016-12-09",
+      "airtime": "00:00",
+      "airstamp": "2016-12-10T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045689"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045690,
+      "url": "https://www.tvmaze.com/episodes/3045690/tna-one-night-only-5x01-tna-one-night-only-live",
+      "name": "TNA One Night Only: Live!",
+      "season": 5,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2017-01-06",
+      "airtime": "00:00",
+      "airstamp": "2017-01-07T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045690"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045691,
+      "url": "https://www.tvmaze.com/episodes/3045691/tna-one-night-only-5x02-tna-one-night-only-jokers-wild-5",
+      "name": "TNA One Night Only: Joker's Wild 5",
+      "season": 5,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2017-02-10",
+      "airtime": "00:00",
+      "airstamp": "2017-02-11T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045691"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045692,
+      "url": "https://www.tvmaze.com/episodes/3045692/tna-one-night-only-5x03-tna-one-night-only-rivals-3",
+      "name": "TNA One Night Only: Rivals 3",
+      "season": 5,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2017-03-17",
+      "airtime": "00:00",
+      "airstamp": "2017-03-18T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045692"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045693,
+      "url": "https://www.tvmaze.com/episodes/3045693/tna-one-night-only-5x04-impact-one-night-only-victory-road-knockouts-knockdown",
+      "name": "IMPACT One Night Only: Victory Road - Knockouts Knockdown",
+      "season": 5,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2017-04-14",
+      "airtime": "00:00",
+      "airstamp": "2017-04-15T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045693"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045694,
+      "url": "https://www.tvmaze.com/episodes/3045694/tna-one-night-only-5x05-impact-one-night-only-turning-point",
+      "name": "IMPACT One Night Only: Turning Point",
+      "season": 5,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2017-05-11",
+      "airtime": "00:00",
+      "airstamp": "2017-05-12T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045694"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045695,
+      "url": "https://www.tvmaze.com/episodes/3045695/tna-one-night-only-5x06-impact-one-night-only-no-surrender",
+      "name": "IMPACT One Night Only: No Surrender",
+      "season": 5,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2017-06-16",
+      "airtime": "00:00",
+      "airstamp": "2017-06-17T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045695"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045696,
+      "url": "https://www.tvmaze.com/episodes/3045696/tna-one-night-only-6x01-impact-one-night-only-collision-in-oklahoma",
+      "name": "IMPACT One Night Only: Collision in Oklahoma",
+      "season": 6,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-01-10",
+      "airtime": "00:00",
+      "airstamp": "2018-01-11T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045697,
+      "url": "https://www.tvmaze.com/episodes/3045697/tna-one-night-only-6x02-impact-one-night-only-canadian-clash",
+      "name": "IMPACT One Night Only: Canadian Clash",
+      "season": 6,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-02-16",
+      "airtime": "00:00",
+      "airstamp": "2018-02-17T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045697"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045698,
+      "url": "https://www.tvmaze.com/episodes/3045698/tna-one-night-only-6x03-impact-one-night-only-march-breakdown",
+      "name": "IMPACT One Night Only: March Breakdown",
+      "season": 6,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-03-16",
+      "airtime": "00:00",
+      "airstamp": "2018-03-17T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045698"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045699,
+      "url": "https://www.tvmaze.com/episodes/3045699/tna-one-night-only-6x04-impact-one-night-only-cali-combat",
+      "name": "IMPACT One Night Only: Cali Combat",
+      "season": 6,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-05-11",
+      "airtime": "00:00",
+      "airstamp": "2018-05-12T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045699"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045700,
+      "url": "https://www.tvmaze.com/episodes/3045700/tna-one-night-only-6x05-impact-one-night-only-zero-fear",
+      "name": "IMPACT One Night Only: Zero Fear",
+      "season": 6,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-06-15",
+      "airtime": "00:00",
+      "airstamp": "2018-06-16T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045700"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045701,
+      "url": "https://www.tvmaze.com/episodes/3045701/tna-one-night-only-6x06-impact-one-night-only-bad-intentions",
+      "name": "IMPACT One Night Only: Bad Intentions",
+      "season": 6,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-08-31",
+      "airtime": "00:00",
+      "airstamp": "2018-09-01T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045701"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045702,
+      "url": "https://www.tvmaze.com/episodes/3045702/tna-one-night-only-6x07-impact-one-night-only-night-of-the-dummies",
+      "name": "IMPACT One Night Only: Night of the Dummies",
+      "season": 6,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2018-09-14",
+      "airtime": "00:00",
+      "airstamp": "2018-09-15T04:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045702"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045703,
+      "url": "https://www.tvmaze.com/episodes/3045703/tna-one-night-only-6x08-impact-one-night-only-bcw-25th-anniversary",
+      "name": "IMPACT One Night Only: BCW 25th Anniversary",
+      "season": 6,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2018-11-16",
+      "airtime": "00:00",
+      "airstamp": "2018-11-17T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045703"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3045704,
+      "url": "https://www.tvmaze.com/episodes/3045704/tna-one-night-only-6x09-impact-one-night-only-back-to-cali",
+      "name": "IMPACT One Night Only: Back to Cali",
+      "season": 6,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2018-12-21",
+      "airtime": "00:00",
+      "airstamp": "2018-12-22T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3045704"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3049196,
+      "url": "https://www.tvmaze.com/episodes/3049196/tna-one-night-only-7x01-new-beginnings",
+      "name": "New Beginnings",
+      "season": 7,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-02-09",
+      "airtime": "00:00",
+      "airstamp": "2019-02-10T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049196"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3049197,
+      "url": "https://www.tvmaze.com/episodes/3049197/tna-one-night-only-7x02-clash-in-the-bluegrass",
+      "name": "Clash in the Bluegrass",
+      "season": 7,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-03-09",
+      "airtime": "00:00",
+      "airstamp": "2019-03-10T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049197"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    },
+    {
+      "id": 3049198,
+      "url": "https://www.tvmaze.com/episodes/3049198/tna-one-night-only-7x03-clash-in-the-bluegrass",
+      "name": "Clash in the Bluegrass",
+      "season": 7,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-03-09",
+      "airtime": "00:00",
+      "airstamp": "2019-03-10T05:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3049198"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80638",
+          "name": "TNA One Night Only"
+        }
+      }
+    }
+  ]
+}

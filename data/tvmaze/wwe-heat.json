@@ -1,0 +1,252 @@
+{
+  "programId": "wwe-heat",
+  "tvMazeId": 27898,
+  "fetchedAt": "2026-07-27T07:57:31.075Z",
+  "show": {
+    "id": 27898,
+    "url": "https://www.tvmaze.com/shows/27898/wwe-heat",
+    "name": "WWE Heat",
+    "type": "Reality",
+    "language": "English",
+    "genres": [
+      "Sports"
+    ],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "1998-08-02",
+    "ended": "2006-05-26",
+    "officialSite": "http://corporate.wwe.com",
+    "schedule": {
+      "time": "",
+      "days": [
+        "Friday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 34,
+    "network": {
+      "id": 34,
+      "name": "Paramount Network",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.paramountnetwork.com/"
+    },
+    "webChannel": {
+      "id": 15,
+      "name": "WWE Network",
+      "country": null,
+      "officialSite": null
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 72174,
+      "imdb": "tt0257324"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/365/914023.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/365/914023.jpg"
+    },
+    "summary": "<p><b>WWE Heat</b> (formerly known as \"<i>Sunday Night Heat\"</i> also known as \"<i>Heat\"</i>) was a professional wrestling television program produced by World Wrestling Entertainment (WWE). Originally produced under the World Wrestling Federation banner (WWF), it aired on USA Network, MTV, and Spike TV in the United States. Heat was most recently streamed on WWE.com on Friday afternoons for North American viewers. The final episodes were uploaded to WWE.com and aired on the WWE Network until it ended on 30 May 2008.</p>",
+    "updated": 1775057979,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/27898"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1188945",
+        "name": "Episode 1"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1188942,
+      "url": "https://www.tvmaze.com/episodes/1188942/wwe-heat-1x01-episode-1",
+      "name": "Episode 1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1998-08-02",
+      "airtime": "",
+      "airstamp": "1998-08-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1188942"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    },
+    {
+      "id": 2675851,
+      "url": "https://www.tvmaze.com/episodes/2675851/wwe-heat-1x02-episode-2",
+      "name": "Episode 2",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1998-08-09",
+      "airtime": "",
+      "airstamp": "1998-08-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jeff Jarrett and Southern Justice turn on Tennessee Lee. The Undertaker masquerades as Kane.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2675851"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    },
+    {
+      "id": 2754743,
+      "url": "https://www.tvmaze.com/episodes/2754743/wwe-heat-1x03-episode-3",
+      "name": "Episode 3",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1998-08-16",
+      "airtime": "",
+      "airstamp": "1998-08-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2754743"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    },
+    {
+      "id": 2900813,
+      "url": "https://www.tvmaze.com/episodes/2900813/wwe-heat-1x04-episode-4",
+      "name": "Episode 4",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1998-08-23",
+      "airtime": "",
+      "airstamp": "1998-08-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Rock answers Triple H's recent challenge. X-Pac looks to settle a score with Jeff Jarrett. D'Lo Brown defends the European Title.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2900813"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    },
+    {
+      "id": 1188943,
+      "url": "https://www.tvmaze.com/episodes/1188943/wwe-heat-2x01-episode-1",
+      "name": "Episode 1",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1999-01-03",
+      "airtime": "",
+      "airstamp": "1999-01-03T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1188943"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    },
+    {
+      "id": 1188944,
+      "url": "https://www.tvmaze.com/episodes/1188944/wwe-heat-3x01-episode-1",
+      "name": "Episode 1",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2000-01-02",
+      "airtime": "",
+      "airstamp": "2000-01-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1188944"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    },
+    {
+      "id": 1188945,
+      "url": "https://www.tvmaze.com/episodes/1188945/wwe-heat-9x01-episode-1",
+      "name": "Episode 1",
+      "season": 9,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2006-05-26",
+      "airtime": "",
+      "airstamp": "2006-05-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1188945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/27898",
+          "name": "WWE Heat"
+        }
+      }
+    }
+  ]
+}

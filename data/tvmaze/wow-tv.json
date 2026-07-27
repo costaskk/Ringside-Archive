@@ -1,0 +1,5891 @@
+{
+  "programId": "wow-tv",
+  "tvMazeId": 40037,
+  "fetchedAt": "2026-07-27T07:57:35.014Z",
+  "show": {
+    "id": 40037,
+    "url": "https://www.tvmaze.com/shows/40037/wow-women-of-wrestling",
+    "name": "WOW - Women of Wrestling",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Running",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2019-01-18",
+    "ended": null,
+    "officialSite": "http://www.wowe.com",
+    "schedule": {
+      "time": "",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": 2.6
+    },
+    "weight": 57,
+    "network": {
+      "id": 72,
+      "name": "Syndication",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 370173,
+      "imdb": "tt0272422"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/587/1469182.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/587/1469182.jpg"
+    },
+    "summary": "<p>The series will feature 35 wrestlers, including third generation wrestling superstar Tessa Blanchard, returning superheroes The Beast, Stephy Slays, Jungle Grrrl, Beverly Hills Babe and talented newcomers to WOW such as Faith the Lioness and Princess Aussie.</p>",
+    "updated": 1781569740,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/40037"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/3622655",
+        "name": "Prove Your Worth"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3627826",
+        "name": "Golden Opportunity"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1577865,
+      "url": "https://www.tvmaze.com/episodes/1577865/wow-women-of-wrestling-1x01-making-her-mark",
+      "name": "Making Her Mark",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-01-18",
+      "airtime": "",
+      "airstamp": "2019-01-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1577865"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1596622,
+      "url": "https://www.tvmaze.com/episodes/1596622/wow-women-of-wrestling-1x02-born-legend",
+      "name": "Born Legend",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-01-25",
+      "airtime": "",
+      "airstamp": "2019-01-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1596622"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1596623,
+      "url": "https://www.tvmaze.com/episodes/1596623/wow-women-of-wrestling-1x03-discipline",
+      "name": "Discipline",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-02-01",
+      "airtime": "",
+      "airstamp": "2019-02-01T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1596623"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1596624,
+      "url": "https://www.tvmaze.com/episodes/1596624/wow-women-of-wrestling-1x04-triple-threat-main-event",
+      "name": "Triple Threat Main Event",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-02-08",
+      "airtime": "",
+      "airstamp": "2019-02-08T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1596624"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1596625,
+      "url": "https://www.tvmaze.com/episodes/1596625/wow-women-of-wrestling-1x05-the-resolution",
+      "name": "The Resolution",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-02-15",
+      "airtime": "",
+      "airstamp": "2019-02-15T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1596625"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1596626,
+      "url": "https://www.tvmaze.com/episodes/1596626/wow-women-of-wrestling-1x06-the-game-changer",
+      "name": "The Game Changer",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-02-22",
+      "airtime": "",
+      "airstamp": "2019-02-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1596626"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1606178,
+      "url": "https://www.tvmaze.com/episodes/1606178/wow-women-of-wrestling-1x07-make-wrestling-great-again",
+      "name": "Make Wrestling Great Again",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-03-01",
+      "airtime": "",
+      "airstamp": "2019-03-01T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1606178"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1606179,
+      "url": "https://www.tvmaze.com/episodes/1606179/wow-women-of-wrestling-1x08-set-goals-slay-em",
+      "name": "Set Goals & Slay 'Em",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-03-08",
+      "airtime": "",
+      "airstamp": "2019-03-08T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1606179"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1677062,
+      "url": "https://www.tvmaze.com/episodes/1677062/wow-women-of-wrestling-2x01-icons-and-legends",
+      "name": "Icon's and Legends",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-09-07",
+      "airtime": "",
+      "airstamp": "2019-09-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 6
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1677062"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1707409,
+      "url": "https://www.tvmaze.com/episodes/1707409/wow-women-of-wrestling-2x02-the-lurking-serpent",
+      "name": "The Lurking Serpent",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-09-14",
+      "airtime": "",
+      "airstamp": "2019-09-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1707409"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1709759,
+      "url": "https://www.tvmaze.com/episodes/1709759/wow-women-of-wrestling-2x03-welcome-to-the-jungle-beast",
+      "name": "Welcome to the Jungle, Beast",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-09-28",
+      "airtime": "",
+      "airstamp": "2019-09-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1709759"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1722371,
+      "url": "https://www.tvmaze.com/episodes/1722371/wow-women-of-wrestling-2x04-the-animals-are-unleashed",
+      "name": "The Animals Are Unleashed!",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-10-05",
+      "airtime": "",
+      "airstamp": "2019-10-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1722371"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1729420,
+      "url": "https://www.tvmaze.com/episodes/1729420/wow-women-of-wrestling-2x05-a-shot-of-a-lifetime",
+      "name": "A Shot of a Lifetime",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-10-12",
+      "airtime": "",
+      "airstamp": "2019-10-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1729420"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1729421,
+      "url": "https://www.tvmaze.com/episodes/1729421/wow-women-of-wrestling-2x06-the-hunter-has-become-the-hunted",
+      "name": "The Hunter Has Become the Hunted!",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-10-19",
+      "airtime": "",
+      "airstamp": "2019-10-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1729421"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1734001,
+      "url": "https://www.tvmaze.com/episodes/1734001/wow-women-of-wrestling-2x07-battle-of-the-giants",
+      "name": "Battle of the Giants",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-10-26",
+      "airtime": "",
+      "airstamp": "2019-10-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1734001"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1734002,
+      "url": "https://www.tvmaze.com/episodes/1734002/wow-women-of-wrestling-2x08-into-the-lions-den",
+      "name": "Into the Lions Den",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-11-02",
+      "airtime": "",
+      "airstamp": "2019-11-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1734002"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1742751,
+      "url": "https://www.tvmaze.com/episodes/1742751/wow-women-of-wrestling-2x09-the-predator-is-hungry",
+      "name": "The Predator Is Hungry!",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2019-11-09",
+      "airtime": "",
+      "airstamp": "2019-11-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1742751"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1742752,
+      "url": "https://www.tvmaze.com/episodes/1742752/wow-women-of-wrestling-2x10-triple-threat-tag-team-elimination",
+      "name": "Triple Threat Tag Team Elimination",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2019-11-16",
+      "airtime": "",
+      "airstamp": "2019-11-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1742752"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1742753,
+      "url": "https://www.tvmaze.com/episodes/1742753/wow-women-of-wrestling-2x11-hour-of-power",
+      "name": "Hour of Power",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2019-11-23",
+      "airtime": "",
+      "airstamp": "2019-11-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1742753"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1742754,
+      "url": "https://www.tvmaze.com/episodes/1742754/wow-women-of-wrestling-2x12-beast-vs-legend",
+      "name": "Beast vs. Legend",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2019-11-23",
+      "airtime": "",
+      "airstamp": "2019-11-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1742754"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262870,
+      "url": "https://www.tvmaze.com/episodes/2262870/wow-women-of-wrestling-3x01-episode-1",
+      "name": "Episode 1",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262870"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262871,
+      "url": "https://www.tvmaze.com/episodes/2262871/wow-women-of-wrestling-3x02-episode-2",
+      "name": "Episode 2",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262871"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262872,
+      "url": "https://www.tvmaze.com/episodes/2262872/wow-women-of-wrestling-3x03-episode-3",
+      "name": "Episode 3",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262872"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262873,
+      "url": "https://www.tvmaze.com/episodes/2262873/wow-women-of-wrestling-3x04-episode-4",
+      "name": "Episode 4",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262873"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262874,
+      "url": "https://www.tvmaze.com/episodes/2262874/wow-women-of-wrestling-3x05-episode-5",
+      "name": "Episode 5",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262874"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262875,
+      "url": "https://www.tvmaze.com/episodes/2262875/wow-women-of-wrestling-3x06-episode-6",
+      "name": "Episode 6",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262875"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262876,
+      "url": "https://www.tvmaze.com/episodes/2262876/wow-women-of-wrestling-3x07-episode-7",
+      "name": "Episode 7",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262876"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262877,
+      "url": "https://www.tvmaze.com/episodes/2262877/wow-women-of-wrestling-3x08-episode-8",
+      "name": "Episode 8",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262877"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262878,
+      "url": "https://www.tvmaze.com/episodes/2262878/wow-women-of-wrestling-3x09-episode-9",
+      "name": "Episode 9",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262878"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262880,
+      "url": "https://www.tvmaze.com/episodes/2262880/wow-women-of-wrestling-3x10-episode-10",
+      "name": "Episode 10",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262880"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262881,
+      "url": "https://www.tvmaze.com/episodes/2262881/wow-women-of-wrestling-3x11-episode-11",
+      "name": "Episode 11",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262881"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2262883,
+      "url": "https://www.tvmaze.com/episodes/2262883/wow-women-of-wrestling-3x12-episode-12",
+      "name": "Episode 12",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-01-22",
+      "airtime": "",
+      "airstamp": "2022-01-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2262883"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2378326,
+      "url": "https://www.tvmaze.com/episodes/2378326/wow-women-of-wrestling-4x01-the-battle-begins",
+      "name": "The Battle Begins!",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-09-17",
+      "airtime": "",
+      "airstamp": "2022-09-17T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2378326"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2395289,
+      "url": "https://www.tvmaze.com/episodes/2395289/wow-women-of-wrestling-4x02-superheroes-attack",
+      "name": "Superheroes Attack",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-09-24",
+      "airtime": "",
+      "airstamp": "2022-09-24T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2395289"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2395290,
+      "url": "https://www.tvmaze.com/episodes/2395290/wow-women-of-wrestling-4x03-tag-me-in",
+      "name": "Tag Me In",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-10-01",
+      "airtime": "",
+      "airstamp": "2022-10-01T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2395290"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2406235,
+      "url": "https://www.tvmaze.com/episodes/2406235/wow-women-of-wrestling-4x04-fight-fire-with-fire",
+      "name": "Fight Fire With Fire",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-10-08",
+      "airtime": "",
+      "airstamp": "2022-10-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2406235"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2409352,
+      "url": "https://www.tvmaze.com/episodes/2409352/wow-women-of-wrestling-4x05-double-trouble-triple-threat",
+      "name": "Double Trouble, Triple Threat",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-10-15",
+      "airtime": "",
+      "airstamp": "2022-10-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2409352"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2409878,
+      "url": "https://www.tvmaze.com/episodes/2409878/wow-women-of-wrestling-4x06-the-three-way-dance",
+      "name": "The Three Way Dance",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-10-22",
+      "airtime": "",
+      "airstamp": "2022-10-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2409878"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2413186,
+      "url": "https://www.tvmaze.com/episodes/2413186/wow-women-of-wrestling-4x07-battle-against-the-odds",
+      "name": "Battle Against the Odds",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-10-29",
+      "airtime": "",
+      "airstamp": "2022-10-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2413186"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2416883,
+      "url": "https://www.tvmaze.com/episodes/2416883/wow-women-of-wrestling-4x08-shock-drop-and-roll",
+      "name": "Shock, Drop and Roll",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-11-05",
+      "airtime": "",
+      "airstamp": "2022-11-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2416883"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2423016,
+      "url": "https://www.tvmaze.com/episodes/2423016/wow-women-of-wrestling-4x09-out-of-control-mayhem",
+      "name": "Out of Control Mayhem",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-11-12",
+      "airtime": "",
+      "airstamp": "2022-11-12T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2423016"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2426232,
+      "url": "https://www.tvmaze.com/episodes/2426232/wow-women-of-wrestling-4x10-twins-vs-twins",
+      "name": "Twins vs. Twins",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-11-19",
+      "airtime": "",
+      "airstamp": "2022-11-19T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2426232"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2427802,
+      "url": "https://www.tvmaze.com/episodes/2427802/wow-women-of-wrestling-4x11-3-2-1-wow",
+      "name": "3, 2, 1 - WOW",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-11-26",
+      "airtime": "",
+      "airstamp": "2022-11-26T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2427802"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2432146,
+      "url": "https://www.tvmaze.com/episodes/2432146/wow-women-of-wrestling-4x12-the-final-countdown",
+      "name": "The Final Countdown",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-12-03",
+      "airtime": "",
+      "airstamp": "2022-12-03T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2432146"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2432147,
+      "url": "https://www.tvmaze.com/episodes/2432147/wow-women-of-wrestling-4x13-too-much-wow-to-handle",
+      "name": "Too Much WOW to Handle",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-12-10",
+      "airtime": "",
+      "airstamp": "2022-12-10T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2432147"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2432148,
+      "url": "https://www.tvmaze.com/episodes/2432148/wow-women-of-wrestling-4x14-superheroes-vs-villains",
+      "name": "Superheroes vs. Villains",
+      "season": 4,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2022-12-17",
+      "airtime": "",
+      "airstamp": "2022-12-17T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2432148"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2456157,
+      "url": "https://www.tvmaze.com/episodes/2456157/wow-women-of-wrestling-4x15-the-champ-is-here",
+      "name": "The Champ is Here",
+      "season": 4,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2022-12-24",
+      "airtime": "",
+      "airstamp": "2022-12-24T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2456157"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2432149,
+      "url": "https://www.tvmaze.com/episodes/2432149/wow-women-of-wrestling-4x16-chance-encounters",
+      "name": "Chance Encounters",
+      "season": 4,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2022-12-31",
+      "airtime": "",
+      "airstamp": "2022-12-31T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2432149"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2432150,
+      "url": "https://www.tvmaze.com/episodes/2432150/wow-women-of-wrestling-4x17-picking-sides-where-is-your-loyalty",
+      "name": "Picking Sides: Where is Your Loyalty?",
+      "season": 4,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2023-01-07",
+      "airtime": "",
+      "airstamp": "2023-01-07T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2432150"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2458352,
+      "url": "https://www.tvmaze.com/episodes/2458352/wow-women-of-wrestling-4x18-return-of-the-beast",
+      "name": "Return of the Beast",
+      "season": 4,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2023-01-14",
+      "airtime": "",
+      "airstamp": "2023-01-14T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2458352"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2468191,
+      "url": "https://www.tvmaze.com/episodes/2468191/wow-women-of-wrestling-4x19-determination-and-destruction-collide",
+      "name": "Determination and Destruction Collide",
+      "season": 4,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2023-01-21",
+      "airtime": "",
+      "airstamp": "2023-01-21T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2468191"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2471538,
+      "url": "https://www.tvmaze.com/episodes/2471538/wow-women-of-wrestling-4x20-hunt-for-revenge",
+      "name": "Hunt for Revenge",
+      "season": 4,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2023-01-28",
+      "airtime": "",
+      "airstamp": "2023-01-28T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2471538"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2474327,
+      "url": "https://www.tvmaze.com/episodes/2474327/wow-women-of-wrestling-4x21-curveball-contenders",
+      "name": "Curveball Contenders",
+      "season": 4,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2023-02-04",
+      "airtime": "",
+      "airstamp": "2023-02-04T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2474327"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2478339,
+      "url": "https://www.tvmaze.com/episodes/2478339/wow-women-of-wrestling-4x22-dancing-to-a-different-drum",
+      "name": "Dancing to a Different Drum",
+      "season": 4,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2023-02-11",
+      "airtime": "",
+      "airstamp": "2023-02-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2478339"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2478342,
+      "url": "https://www.tvmaze.com/episodes/2478342/wow-women-of-wrestling-4x23-evening-the-score",
+      "name": "Evening the Score",
+      "season": 4,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2023-02-18",
+      "airtime": "",
+      "airstamp": "2023-02-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2478342"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2478343,
+      "url": "https://www.tvmaze.com/episodes/2478343/wow-women-of-wrestling-4x24-unlikely-teams",
+      "name": "Unlikely Teams",
+      "season": 4,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2023-02-25",
+      "airtime": "",
+      "airstamp": "2023-02-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2478343"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2489696,
+      "url": "https://www.tvmaze.com/episodes/2489696/wow-women-of-wrestling-4x25-wild-card",
+      "name": "Wild Card",
+      "season": 4,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2023-03-04",
+      "airtime": "",
+      "airstamp": "2023-03-04T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2489696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2489700,
+      "url": "https://www.tvmaze.com/episodes/2489700/wow-women-of-wrestling-4x26-collision-course",
+      "name": "Collision Course",
+      "season": 4,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2023-03-11",
+      "airtime": "",
+      "airstamp": "2023-03-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2489700"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2489701,
+      "url": "https://www.tvmaze.com/episodes/2489701/wow-women-of-wrestling-4x27-fans-want-answers",
+      "name": "Fans Want Answers",
+      "season": 4,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2023-03-18",
+      "airtime": "",
+      "airstamp": "2023-03-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2489701"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2489702,
+      "url": "https://www.tvmaze.com/episodes/2489702/wow-women-of-wrestling-4x28-never-take-a-loss-lying-down",
+      "name": "Never Take a Loss Lying Down",
+      "season": 4,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2023-03-25",
+      "airtime": "",
+      "airstamp": "2023-03-25T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2489702"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2489703,
+      "url": "https://www.tvmaze.com/episodes/2489703/wow-women-of-wrestling-4x29-rulebooks-rematches",
+      "name": "Rulebooks & Rematches",
+      "season": 4,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2023-04-01",
+      "airtime": "",
+      "airstamp": "2023-04-01T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2489703"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2489704,
+      "url": "https://www.tvmaze.com/episodes/2489704/wow-women-of-wrestling-4x30-defending-the-title",
+      "name": "Defending the Title",
+      "season": 4,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2023-04-08",
+      "airtime": "",
+      "airstamp": "2023-04-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2489704"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2519837,
+      "url": "https://www.tvmaze.com/episodes/2519837/wow-women-of-wrestling-4x31-unruly-souls",
+      "name": "Unruly Souls",
+      "season": 4,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2023-04-15",
+      "airtime": "",
+      "airstamp": "2023-04-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2519837"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2523945,
+      "url": "https://www.tvmaze.com/episodes/2523945/wow-women-of-wrestling-4x32-even-the-score",
+      "name": "Even the Score",
+      "season": 4,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2023-04-22",
+      "airtime": "",
+      "airstamp": "2023-04-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2523945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2524123,
+      "url": "https://www.tvmaze.com/episodes/2524123/wow-women-of-wrestling-4x33-sisters-collide",
+      "name": "Sisters Collide",
+      "season": 4,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2023-04-29",
+      "airtime": "",
+      "airstamp": "2023-04-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2524123"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2528215,
+      "url": "https://www.tvmaze.com/episodes/2528215/wow-women-of-wrestling-4x34-special-stipulations",
+      "name": "Special Stipulations",
+      "season": 4,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2023-05-06",
+      "airtime": "",
+      "airstamp": "2023-05-06T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2528215"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2534607,
+      "url": "https://www.tvmaze.com/episodes/2534607/wow-women-of-wrestling-4x35-the-underdog",
+      "name": "The Underdog",
+      "season": 4,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2023-05-13",
+      "airtime": "",
+      "airstamp": "2023-05-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2534607"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2538795,
+      "url": "https://www.tvmaze.com/episodes/2538795/wow-women-of-wrestling-4x36-warriors-and-monsters",
+      "name": "Warriors and Monsters",
+      "season": 4,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2023-05-20",
+      "airtime": "",
+      "airstamp": "2023-05-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2538795"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2544135,
+      "url": "https://www.tvmaze.com/episodes/2544135/wow-women-of-wrestling-4x37-school-yard-brawl",
+      "name": "School Yard Brawl",
+      "season": 4,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2023-05-27",
+      "airtime": "",
+      "airstamp": "2023-05-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2544135"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550262,
+      "url": "https://www.tvmaze.com/episodes/2550262/wow-women-of-wrestling-4x38-no-more-running",
+      "name": "No More Running",
+      "season": 4,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2023-06-03",
+      "airtime": "",
+      "airstamp": "2023-06-03T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550262"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550263,
+      "url": "https://www.tvmaze.com/episodes/2550263/wow-women-of-wrestling-4x39-broken-and-blindsided",
+      "name": "Broken and Blindsided",
+      "season": 4,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2023-06-10",
+      "airtime": "",
+      "airstamp": "2023-06-10T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550263"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550264,
+      "url": "https://www.tvmaze.com/episodes/2550264/wow-women-of-wrestling-4x40-welcomings-and-whoopings",
+      "name": "Welcomings and Whoopings",
+      "season": 4,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2023-06-17",
+      "airtime": "",
+      "airstamp": "2023-06-17T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550264"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550265,
+      "url": "https://www.tvmaze.com/episodes/2550265/wow-women-of-wrestling-4x41-newcomers",
+      "name": "Newcomers",
+      "season": 4,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2023-06-24",
+      "airtime": "",
+      "airstamp": "2023-06-24T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550265"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550266,
+      "url": "https://www.tvmaze.com/episodes/2550266/wow-women-of-wrestling-4x42-manipulative-maneuvers",
+      "name": "Manipulative Maneuvers",
+      "season": 4,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2023-07-01",
+      "airtime": "",
+      "airstamp": "2023-07-01T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550266"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550267,
+      "url": "https://www.tvmaze.com/episodes/2550267/wow-women-of-wrestling-4x43-tag-teams-only",
+      "name": "Tag Teams Only!",
+      "season": 4,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2023-07-08",
+      "airtime": "",
+      "airstamp": "2023-07-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550267"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2550268,
+      "url": "https://www.tvmaze.com/episodes/2550268/wow-women-of-wrestling-4x44-summoning-the-monsters",
+      "name": "Summoning the Monsters",
+      "season": 4,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2023-07-15",
+      "airtime": "",
+      "airstamp": "2023-07-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2550268"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2593486,
+      "url": "https://www.tvmaze.com/episodes/2593486/wow-women-of-wrestling-4x45-queens-of-mean",
+      "name": "Queens Of Mean",
+      "season": 4,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2023-07-22",
+      "airtime": "",
+      "airstamp": "2023-07-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2593486"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2599915,
+      "url": "https://www.tvmaze.com/episodes/2599915/wow-women-of-wrestling-4x46-when-opportunity-knocks",
+      "name": "When Opportunity Knocks",
+      "season": 4,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2023-07-29",
+      "airtime": "",
+      "airstamp": "2023-07-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2599915"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2600042,
+      "url": "https://www.tvmaze.com/episodes/2600042/wow-women-of-wrestling-4x47-leaving-it-all-in-the-ring",
+      "name": "Leaving It All in the Ring",
+      "season": 4,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2023-08-05",
+      "airtime": "",
+      "airstamp": "2023-08-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2600042"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2600043,
+      "url": "https://www.tvmaze.com/episodes/2600043/wow-women-of-wrestling-4x48-the-last-stand",
+      "name": "The Last Stand",
+      "season": 4,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2023-08-12",
+      "airtime": "",
+      "airstamp": "2023-08-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2600043"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2617963,
+      "url": "https://www.tvmaze.com/episodes/2617963/wow-women-of-wrestling-4x49-leaps-luchadoras-and-monsters-clash",
+      "name": "Leaps, Luchadoras and Monsters Clash",
+      "season": 4,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2023-08-19",
+      "airtime": "",
+      "airstamp": "2023-08-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2617963"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2624858,
+      "url": "https://www.tvmaze.com/episodes/2624858/wow-women-of-wrestling-4x50-falls-count-anywhere-championship",
+      "name": "Falls Count Anywhere Championship",
+      "season": 4,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2023-08-26",
+      "airtime": "",
+      "airstamp": "2023-08-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2624858"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2624865,
+      "url": "https://www.tvmaze.com/episodes/2624865/wow-women-of-wrestling-4x51-light-at-the-end-of-the-tunnel",
+      "name": "Light at the End of the Tunnel",
+      "season": 4,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2023-09-02",
+      "airtime": "",
+      "airstamp": "2023-09-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2624865"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2624866,
+      "url": "https://www.tvmaze.com/episodes/2624866/wow-women-of-wrestling-4x52-season-recap",
+      "name": "Season Recap",
+      "season": 4,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2023-09-09",
+      "airtime": "",
+      "airstamp": "2023-09-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2624866"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2624867,
+      "url": "https://www.tvmaze.com/episodes/2624867/wow-women-of-wrestling-5x01-the-beast-returns",
+      "name": "The Beast Returns!",
+      "season": 5,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-09-16",
+      "airtime": "",
+      "airstamp": "2023-09-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2624867"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2643640,
+      "url": "https://www.tvmaze.com/episodes/2643640/wow-women-of-wrestling-5x02-opportunity-is-knocking",
+      "name": "Opportunity Is Knocking",
+      "season": 5,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-09-23",
+      "airtime": "",
+      "airstamp": "2023-09-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2643640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2645082,
+      "url": "https://www.tvmaze.com/episodes/2645082/wow-women-of-wrestling-5x03-sign-the-dotted-line",
+      "name": "Sign The Dotted Line",
+      "season": 5,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-09-30",
+      "airtime": "",
+      "airstamp": "2023-09-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2645082"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2654893,
+      "url": "https://www.tvmaze.com/episodes/2654893/wow-women-of-wrestling-5x04-the-deal-is-off",
+      "name": "The Deal Is Off",
+      "season": 5,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-10-07",
+      "airtime": "",
+      "airstamp": "2023-10-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2654893"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2654909,
+      "url": "https://www.tvmaze.com/episodes/2654909/wow-women-of-wrestling-5x05-flash-drive-surprise",
+      "name": "Flash Drive Surprise?",
+      "season": 5,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2023-10-14",
+      "airtime": "",
+      "airstamp": "2023-10-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2654909"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656980,
+      "url": "https://www.tvmaze.com/episodes/2656980/wow-women-of-wrestling-5x06-the-landscape-shifts",
+      "name": "The Landscape Shifts",
+      "season": 5,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2023-10-21",
+      "airtime": "",
+      "airstamp": "2023-10-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656981,
+      "url": "https://www.tvmaze.com/episodes/2656981/wow-women-of-wrestling-5x07-why-vickie-why",
+      "name": "Why, Vickie? Why?",
+      "season": 5,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2023-10-28",
+      "airtime": "",
+      "airstamp": "2023-10-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Vickie Lynn McCoy finally breaks her silence about her actions against The Beast before the two women meet in the ring, while the Mother Truckers: Big Rig Betty and Holly Swag get another chance for comeuppance against Las Bandidas: Sylvia Sanchez and Vivian Rivera in an epic No-Disqualification Tag Team Match. The Last Call Reina Del Rey and Wrecking Ball set their sights on The Tag Team Championships, using their match against Spring Break 24/7 to make a point about what type of values they want to represent in WOW. Also in action, Gloria Glitter and Keta Rush!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656981"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656982,
+      "url": "https://www.tvmaze.com/episodes/2656982/wow-women-of-wrestling-5x08-the-worlds-greatest-opportunity",
+      "name": "The World's Greatest Opportunity",
+      "season": 5,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2023-11-04",
+      "airtime": "",
+      "airstamp": "2023-11-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656982"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656983,
+      "url": "https://www.tvmaze.com/episodes/2656983/wow-women-of-wrestling-5x09-night-of-handcuffs",
+      "name": "Night of Handcuffs!",
+      "season": 5,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2023-11-11",
+      "airtime": "",
+      "airstamp": "2023-11-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656983"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656984,
+      "url": "https://www.tvmaze.com/episodes/2656984/wow-women-of-wrestling-5x10-unsanctioned",
+      "name": "Unsanctioned",
+      "season": 5,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2023-11-18",
+      "airtime": "",
+      "airstamp": "2023-11-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656984"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656985,
+      "url": "https://www.tvmaze.com/episodes/2656985/wow-women-of-wrestling-5x11-last-call-for-the-tonga-twins",
+      "name": "Last Call for The Tonga Twins?",
+      "season": 5,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2023-11-25",
+      "airtime": "",
+      "airstamp": "2023-11-25T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656985"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2656986,
+      "url": "https://www.tvmaze.com/episodes/2656986/wow-women-of-wrestling-5x12-truck-stop-justice",
+      "name": "Truck Stop Justice",
+      "season": 5,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2023-12-02",
+      "airtime": "",
+      "airstamp": "2023-12-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2656986"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2683951,
+      "url": "https://www.tvmaze.com/episodes/2683951/wow-women-of-wrestling-5x13-the-championship-challenge",
+      "name": "The Championship Challenge",
+      "season": 5,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2023-12-09",
+      "airtime": "",
+      "airstamp": "2023-12-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2683951"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2683956,
+      "url": "https://www.tvmaze.com/episodes/2683956/wow-women-of-wrestling-5x14-everyone-wants-the-champion",
+      "name": "Everyone Wants the Champion",
+      "season": 5,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2023-12-16",
+      "airtime": "",
+      "airstamp": "2023-12-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2683956"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2683959,
+      "url": "https://www.tvmaze.com/episodes/2683959/wow-women-of-wrestling-5x15-whats-in-the-box",
+      "name": "What's in the Box?",
+      "season": 5,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2023-12-23",
+      "airtime": "",
+      "airstamp": "2023-12-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2683959"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2683961,
+      "url": "https://www.tvmaze.com/episodes/2683961/wow-women-of-wrestling-5x16-welcome-back",
+      "name": "Welcome Back",
+      "season": 5,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2023-12-30",
+      "airtime": "",
+      "airstamp": "2023-12-30T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2683961"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2712328,
+      "url": "https://www.tvmaze.com/episodes/2712328/wow-women-of-wrestling-5x17-the-wow-factor",
+      "name": "The WOW Factor",
+      "season": 5,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2024-01-06",
+      "airtime": "",
+      "airstamp": "2024-01-06T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2712328"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2723053,
+      "url": "https://www.tvmaze.com/episodes/2723053/wow-women-of-wrestling-5x18-trios-tournament-turmoil",
+      "name": "Trios Tournament Turmoil",
+      "season": 5,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2024-01-13",
+      "airtime": "",
+      "airstamp": "2024-01-13T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2723053"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2731474,
+      "url": "https://www.tvmaze.com/episodes/2731474/wow-women-of-wrestling-5x19-who-gets-the-tongas",
+      "name": "Who Gets The Tongas?",
+      "season": 5,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2024-01-20",
+      "airtime": "",
+      "airstamp": "2024-01-20T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2731474"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2731475,
+      "url": "https://www.tvmaze.com/episodes/2731475/wow-women-of-wrestling-5x20-the-only-way-i-know-how-to-fight",
+      "name": "The Only Way I Know How to Fight",
+      "season": 5,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2024-01-27",
+      "airtime": "",
+      "airstamp": "2024-01-27T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2731475"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2751132,
+      "url": "https://www.tvmaze.com/episodes/2751132/wow-women-of-wrestling-5x21-leader-of-the-pack",
+      "name": "Leader of the Pack",
+      "season": 5,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2024-02-03",
+      "airtime": "",
+      "airstamp": "2024-02-03T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2751132"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2751133,
+      "url": "https://www.tvmaze.com/episodes/2751133/wow-women-of-wrestling-5x22-aussie-aussie-aussie-oi-oi-oi",
+      "name": "Aussie Aussie Aussie Oi Oi Oi!",
+      "season": 5,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2024-02-10",
+      "airtime": "",
+      "airstamp": "2024-02-10T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2751133"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2753151,
+      "url": "https://www.tvmaze.com/episodes/2753151/wow-women-of-wrestling-5x23-put-me-in-coach",
+      "name": "Put Me in Coach",
+      "season": 5,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2024-02-17",
+      "airtime": "",
+      "airstamp": "2024-02-17T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2753151"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2753152,
+      "url": "https://www.tvmaze.com/episodes/2753152/wow-women-of-wrestling-5x24-be-careful-what-you-sow",
+      "name": "Be Careful What You Sow",
+      "season": 5,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2024-02-24",
+      "airtime": "",
+      "airstamp": "2024-02-24T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2753152"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2768260,
+      "url": "https://www.tvmaze.com/episodes/2768260/wow-women-of-wrestling-5x25-the-all-american-girls",
+      "name": "The All American Girls",
+      "season": 5,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2024-03-02",
+      "airtime": "",
+      "airstamp": "2024-03-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2768260"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2768261,
+      "url": "https://www.tvmaze.com/episodes/2768261/wow-women-of-wrestling-5x26-a-very-important-main-event",
+      "name": "A Very Important Main Event",
+      "season": 5,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2024-03-09",
+      "airtime": "",
+      "airstamp": "2024-03-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2768261"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2792739,
+      "url": "https://www.tvmaze.com/episodes/2792739/wow-women-of-wrestling-5x27-finals-and-follies",
+      "name": "Finals and Follies",
+      "season": 5,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2024-03-16",
+      "airtime": "",
+      "airstamp": "2024-03-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2792739"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2795357,
+      "url": "https://www.tvmaze.com/episodes/2795357/wow-women-of-wrestling-5x28-dominance-declared",
+      "name": "Dominance Declared",
+      "season": 5,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2024-03-23",
+      "airtime": "",
+      "airstamp": "2024-03-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2795357"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2795358,
+      "url": "https://www.tvmaze.com/episodes/2795358/wow-women-of-wrestling-5x29-skys-the-limit",
+      "name": "Sky's the Limit",
+      "season": 5,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2024-03-30",
+      "airtime": "",
+      "airstamp": "2024-03-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2795358"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2808082,
+      "url": "https://www.tvmaze.com/episodes/2808082/wow-women-of-wrestling-5x30-injured-or-insidious",
+      "name": "Injured or Insidious",
+      "season": 5,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2024-04-06",
+      "airtime": "",
+      "airstamp": "2024-04-06T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2808082"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2815749,
+      "url": "https://www.tvmaze.com/episodes/2815749/wow-women-of-wrestling-5x31-nothing-is-as-it-appears",
+      "name": "Nothing Is As It Appears",
+      "season": 5,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2024-04-13",
+      "airtime": "",
+      "airstamp": "2024-04-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2815749"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2819446,
+      "url": "https://www.tvmaze.com/episodes/2819446/wow-women-of-wrestling-5x32-friend-to-foe",
+      "name": "Friend To Foe",
+      "season": 5,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2024-04-20",
+      "airtime": "",
+      "airstamp": "2024-04-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2819446"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2819447,
+      "url": "https://www.tvmaze.com/episodes/2819447/wow-women-of-wrestling-5x33-shattered-sisterhood",
+      "name": "Shattered Sisterhood",
+      "season": 5,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2024-04-27",
+      "airtime": "",
+      "airstamp": "2024-04-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2819447"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2837649,
+      "url": "https://www.tvmaze.com/episodes/2837649/wow-women-of-wrestling-5x34-battle-for-supremacy",
+      "name": "Battle for Supremacy",
+      "season": 5,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2024-05-04",
+      "airtime": "",
+      "airstamp": "2024-05-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2837649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2847534,
+      "url": "https://www.tvmaze.com/episodes/2847534/wow-women-of-wrestling-5x35-facing-the-boss",
+      "name": "Facing The Boss",
+      "season": 5,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2024-05-11",
+      "airtime": "",
+      "airstamp": "2024-05-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2847534"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2858836,
+      "url": "https://www.tvmaze.com/episodes/2858836/wow-women-of-wrestling-5x36-a-long-road-back",
+      "name": "A Long Road Back",
+      "season": 5,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2024-05-18",
+      "airtime": "",
+      "airstamp": "2024-05-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2858836"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2871655,
+      "url": "https://www.tvmaze.com/episodes/2871655/wow-women-of-wrestling-5x37-contracts-and-chaos",
+      "name": "Contracts and Chaos",
+      "season": 5,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2024-05-25",
+      "airtime": "",
+      "airstamp": "2024-05-25T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2871655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2880715,
+      "url": "https://www.tvmaze.com/episodes/2880715/wow-women-of-wrestling-5x38-true-courage",
+      "name": "True Courage",
+      "season": 5,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2024-06-01",
+      "airtime": "",
+      "airstamp": "2024-06-01T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2880715"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2895595,
+      "url": "https://www.tvmaze.com/episodes/2895595/wow-women-of-wrestling-5x39-champions-rise",
+      "name": "Champions Rise",
+      "season": 5,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2024-06-08",
+      "airtime": "",
+      "airstamp": "2024-06-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2895595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2903744,
+      "url": "https://www.tvmaze.com/episodes/2903744/wow-women-of-wrestling-5x40-dangerous-divas",
+      "name": "Dangerous Divas",
+      "season": 5,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2024-06-15",
+      "airtime": "",
+      "airstamp": "2024-06-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2903744"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2915592,
+      "url": "https://www.tvmaze.com/episodes/2915592/wow-women-of-wrestling-5x41-new-predators",
+      "name": "New Predators",
+      "season": 5,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2024-06-22",
+      "airtime": "",
+      "airstamp": "2024-06-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2915592"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2921807,
+      "url": "https://www.tvmaze.com/episodes/2921807/wow-women-of-wrestling-5x42-outsmarting-the-champion",
+      "name": "Outsmarting The Champion",
+      "season": 5,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2024-06-29",
+      "airtime": "",
+      "airstamp": "2024-06-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2921807"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2930858,
+      "url": "https://www.tvmaze.com/episodes/2930858/wow-women-of-wrestling-5x43-twin-turmoil",
+      "name": "Twin Turmoil",
+      "season": 5,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2024-07-06",
+      "airtime": "",
+      "airstamp": "2024-07-06T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2930858"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2940250,
+      "url": "https://www.tvmaze.com/episodes/2940250/wow-women-of-wrestling-5x44-breaking-coachs-grip",
+      "name": "Breaking Coach's Grip",
+      "season": 5,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2024-07-13",
+      "airtime": "",
+      "airstamp": "2024-07-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2940250"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2940251,
+      "url": "https://www.tvmaze.com/episodes/2940251/wow-women-of-wrestling-5x45-championship-fury",
+      "name": "Championship Fury",
+      "season": 5,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2024-07-20",
+      "airtime": "",
+      "airstamp": "2024-07-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2940251"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2947571,
+      "url": "https://www.tvmaze.com/episodes/2947571/wow-women-of-wrestling-5x46-time-to-shine",
+      "name": "Time To Shine",
+      "season": 5,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2024-07-27",
+      "airtime": "",
+      "airstamp": "2024-07-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2947571"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2955993,
+      "url": "https://www.tvmaze.com/episodes/2955993/wow-women-of-wrestling-5x47-last-superhero-standing",
+      "name": "Last Superhero Standing",
+      "season": 5,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2024-08-03",
+      "airtime": "",
+      "airstamp": "2024-08-03T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2955993"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2956102,
+      "url": "https://www.tvmaze.com/episodes/2956102/wow-women-of-wrestling-5x48-demonic-duo",
+      "name": "Demonic Duo",
+      "season": 5,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2024-08-10",
+      "airtime": "",
+      "airstamp": "2024-08-10T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2956102"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2975898,
+      "url": "https://www.tvmaze.com/episodes/2975898/wow-women-of-wrestling-5x49-jessies-dream",
+      "name": "Jessie's Dream",
+      "season": 5,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2024-08-17",
+      "airtime": "",
+      "airstamp": "2024-08-17T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2975898"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2980681,
+      "url": "https://www.tvmaze.com/episodes/2980681/wow-women-of-wrestling-5x50-grudges-embarrassment-and-rematches",
+      "name": "Grudges, Embarrassment, and Rematches",
+      "season": 5,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2024-08-24",
+      "airtime": "",
+      "airstamp": "2024-08-24T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2980681"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2980682,
+      "url": "https://www.tvmaze.com/episodes/2980682/wow-women-of-wrestling-5x51-bills-vs-belts",
+      "name": "Bills Vs Belts",
+      "season": 5,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2024-08-31",
+      "airtime": "",
+      "airstamp": "2024-08-31T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2980682"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2980683,
+      "url": "https://www.tvmaze.com/episodes/2980683/wow-women-of-wrestling-5x52-clash-of-fates",
+      "name": "Clash of Fates",
+      "season": 5,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2024-09-07",
+      "airtime": "",
+      "airstamp": "2024-09-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2980683"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 2995350,
+      "url": "https://www.tvmaze.com/episodes/2995350/wow-women-of-wrestling-6x01-beast-or-bust",
+      "name": "Beast or Bust",
+      "season": 6,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-09-14",
+      "airtime": "",
+      "airstamp": "2024-09-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2995350"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3003761,
+      "url": "https://www.tvmaze.com/episodes/3003761/wow-women-of-wrestling-6x02-big-opportunities",
+      "name": "Big Opportunities!",
+      "season": 6,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-09-21",
+      "airtime": "",
+      "airstamp": "2024-09-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3003761"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3008288,
+      "url": "https://www.tvmaze.com/episodes/3008288/wow-women-of-wrestling-6x03-10000-reasons-to-talk",
+      "name": "10,000 Reasons to Talk",
+      "season": 6,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-09-28",
+      "airtime": "",
+      "airstamp": "2024-09-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3008288"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3014044,
+      "url": "https://www.tvmaze.com/episodes/3014044/wow-women-of-wrestling-6x04-jessies-word",
+      "name": "Jessie's Word",
+      "season": 6,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-10-05",
+      "airtime": "",
+      "airstamp": "2024-10-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3014044"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3019318,
+      "url": "https://www.tvmaze.com/episodes/3019318/wow-women-of-wrestling-6x05-a-little-pink-elbow-grease",
+      "name": "A Little Pink Elbow Grease",
+      "season": 6,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2024-10-12",
+      "airtime": "",
+      "airstamp": "2024-10-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3019318"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3024083,
+      "url": "https://www.tvmaze.com/episodes/3024083/wow-women-of-wrestling-6x06-second-chances",
+      "name": "Second Chances",
+      "season": 6,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2024-10-19",
+      "airtime": "",
+      "airstamp": "2024-10-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3024083"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3024084,
+      "url": "https://www.tvmaze.com/episodes/3024084/wow-women-of-wrestling-6x07-who-attacked-the-beast",
+      "name": "Who Attacked the Beast?",
+      "season": 6,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2024-10-26",
+      "airtime": "",
+      "airstamp": "2024-10-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3024084"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030487,
+      "url": "https://www.tvmaze.com/episodes/3030487/wow-women-of-wrestling-6x08-the-cost-of-freedom",
+      "name": "The Cost of Freedom",
+      "season": 6,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2024-11-02",
+      "airtime": "",
+      "airstamp": "2024-11-02T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030487"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030488,
+      "url": "https://www.tvmaze.com/episodes/3030488/wow-women-of-wrestling-6x09-where-do-you-belong-holly-swag",
+      "name": "Where Do You Belong, Holly Swag?",
+      "season": 6,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2024-11-09",
+      "airtime": "",
+      "airstamp": "2024-11-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030488"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030489,
+      "url": "https://www.tvmaze.com/episodes/3030489/wow-women-of-wrestling-6x10-an-even-fabber-four",
+      "name": "An Even Fabber Four",
+      "season": 6,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2024-11-16",
+      "airtime": "",
+      "airstamp": "2024-11-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030489"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030490,
+      "url": "https://www.tvmaze.com/episodes/3030490/wow-women-of-wrestling-6x11-a-smart-main-event",
+      "name": "A Smart Main Event",
+      "season": 6,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2024-11-23",
+      "airtime": "",
+      "airstamp": "2024-11-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030490"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030491,
+      "url": "https://www.tvmaze.com/episodes/3030491/wow-women-of-wrestling-6x12-shockwaves",
+      "name": "Shockwaves",
+      "season": 6,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2024-11-30",
+      "airtime": "",
+      "airstamp": "2024-11-30T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030491"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030492,
+      "url": "https://www.tvmaze.com/episodes/3030492/wow-women-of-wrestling-6x13-all-eyes-on-gold",
+      "name": "All Eyes on Gold",
+      "season": 6,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2024-12-07",
+      "airtime": "",
+      "airstamp": "2024-12-07T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030492"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030493,
+      "url": "https://www.tvmaze.com/episodes/3030493/wow-women-of-wrestling-6x14-instinct-for-victory",
+      "name": "Instinct for Victory",
+      "season": 6,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2024-12-14",
+      "airtime": "",
+      "airstamp": "2024-12-14T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The WOW Battle Royal for the World Championship approaches as the Superheroes continue to vie to qualify, including Genesis, who faces new Superhero Ashley Blaze. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030493"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030494,
+      "url": "https://www.tvmaze.com/episodes/3030494/wow-women-of-wrestling-6x15-everything-to-prove",
+      "name": "Everything to Prove",
+      "season": 6,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2024-12-21",
+      "airtime": "",
+      "airstamp": "2024-12-21T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030494"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3030495,
+      "url": "https://www.tvmaze.com/episodes/3030495/wow-women-of-wrestling-6x16-a-daisy-for-luck",
+      "name": "A Daisy for Luck",
+      "season": 6,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2024-12-28",
+      "airtime": "",
+      "airstamp": "2024-12-28T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3030495"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3079942,
+      "url": "https://www.tvmaze.com/episodes/3079942/wow-women-of-wrestling-6x17-threes-a-crowd",
+      "name": "Three's A Crowd?",
+      "season": 6,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2025-01-04",
+      "airtime": "00:00",
+      "airstamp": "2025-01-05T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3079942"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3079944,
+      "url": "https://www.tvmaze.com/episodes/3079944/wow-women-of-wrestling-6x18-a-historic-wow-battle-royal",
+      "name": "A Historic WOW Battle Royal",
+      "season": 6,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2025-01-11",
+      "airtime": "00:00",
+      "airstamp": "2025-01-12T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3079944"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3079945,
+      "url": "https://www.tvmaze.com/episodes/3079945/wow-women-of-wrestling-6x19-class-now-in-session",
+      "name": "Class Now in Session",
+      "season": 6,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2025-01-18",
+      "airtime": "00:00",
+      "airstamp": "2025-01-19T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3079945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3079946,
+      "url": "https://www.tvmaze.com/episodes/3079946/wow-women-of-wrestling-6x20-loser-eats-dog-food",
+      "name": "Loser Eats Dog Food",
+      "season": 6,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2025-01-25",
+      "airtime": "00:00",
+      "airstamp": "2025-01-26T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3079946"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3079947,
+      "url": "https://www.tvmaze.com/episodes/3079947/wow-women-of-wrestling-6x21-championship-demands",
+      "name": "Championship Demands",
+      "season": 6,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2025-02-01",
+      "airtime": "00:00",
+      "airstamp": "2025-02-02T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3079947"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3128696,
+      "url": "https://www.tvmaze.com/episodes/3128696/wow-women-of-wrestling-6x22-dolls-and-playthings",
+      "name": "Dolls and Playthings",
+      "season": 6,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2025-02-08",
+      "airtime": "00:00",
+      "airstamp": "2025-02-09T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3128696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3138636,
+      "url": "https://www.tvmaze.com/episodes/3138636/wow-women-of-wrestling-6x23-lots-of-bark-lots-of-bite",
+      "name": "Lots of Bark, Lots of Bite",
+      "season": 6,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2025-02-15",
+      "airtime": "00:00",
+      "airstamp": "2025-02-16T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3138636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3146573,
+      "url": "https://www.tvmaze.com/episodes/3146573/wow-women-of-wrestling-6x24-call-me-daisy-lane",
+      "name": "Call Me Daisy Lane",
+      "season": 6,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2025-02-22",
+      "airtime": "00:00",
+      "airstamp": "2025-02-23T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3146573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3153970,
+      "url": "https://www.tvmaze.com/episodes/3153970/wow-women-of-wrestling-6x25-top-tier-terrors",
+      "name": "Top Tier Terrors",
+      "season": 6,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2025-03-01",
+      "airtime": "00:00",
+      "airstamp": "2025-03-02T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3153970"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3160357,
+      "url": "https://www.tvmaze.com/episodes/3160357/wow-women-of-wrestling-6x26-whos-fabbest-of-the-four",
+      "name": "Who's Fabbest of the Four?",
+      "season": 6,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2025-03-08",
+      "airtime": "00:00",
+      "airstamp": "2025-03-09T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3160357"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3166428,
+      "url": "https://www.tvmaze.com/episodes/3166428/wow-women-of-wrestling-6x27-a-classy-world-title-match",
+      "name": "A Classy World Title Match",
+      "season": 6,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2025-03-15",
+      "airtime": "00:00",
+      "airstamp": "2025-03-16T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3166428"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3172658,
+      "url": "https://www.tvmaze.com/episodes/3172658/wow-women-of-wrestling-6x28-whatcha-gonna-do-about-it-momma",
+      "name": "Whatcha Gonna Do About It Momma?",
+      "season": 6,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2025-03-22",
+      "airtime": "00:00",
+      "airstamp": "2025-03-23T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3172658"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3180561,
+      "url": "https://www.tvmaze.com/episodes/3180561/wow-women-of-wrestling-6x29-you-want-it-you-earn-it",
+      "name": "You Want It, You Earn It",
+      "season": 6,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2025-03-29",
+      "airtime": "00:00",
+      "airstamp": "2025-03-30T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3180561"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3187218,
+      "url": "https://www.tvmaze.com/episodes/3187218/wow-women-of-wrestling-6x30-well-fours-definitely-a-crowd",
+      "name": "Well, Four's Definitely A Crowd",
+      "season": 6,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2025-04-05",
+      "airtime": "00:00",
+      "airstamp": "2025-04-06T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3187218"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3195868,
+      "url": "https://www.tvmaze.com/episodes/3195868/wow-women-of-wrestling-6x31-the-goats-gamble",
+      "name": "The GOAT's Gamble",
+      "season": 6,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2025-04-12",
+      "airtime": "00:00",
+      "airstamp": "2025-04-13T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3195868"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3203128,
+      "url": "https://www.tvmaze.com/episodes/3203128/wow-women-of-wrestling-6x32-family-feud-championship-edition",
+      "name": "Family Feud: Championship Edition",
+      "season": 6,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2025-04-19",
+      "airtime": "00:00",
+      "airstamp": "2025-04-20T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3203128"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3210627,
+      "url": "https://www.tvmaze.com/episodes/3210627/wow-women-of-wrestling-6x33-sweet-heats-revenge",
+      "name": "Sweet Heat's Revenge",
+      "season": 6,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2025-04-26",
+      "airtime": "00:00",
+      "airstamp": "2025-04-27T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3210627"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3214132,
+      "url": "https://www.tvmaze.com/episodes/3214132/wow-women-of-wrestling-6x34-threes-not-company",
+      "name": "Three's Not Company",
+      "season": 6,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2025-05-03",
+      "airtime": "00:00",
+      "airstamp": "2025-05-04T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3214132"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3235485,
+      "url": "https://www.tvmaze.com/episodes/3235485/wow-women-of-wrestling-6x35-tricks-and-titles",
+      "name": "Tricks and Titles",
+      "season": 6,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2025-05-10",
+      "airtime": "00:00",
+      "airstamp": "2025-05-11T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3235485"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3235486,
+      "url": "https://www.tvmaze.com/episodes/3235486/wow-women-of-wrestling-6x36-wicked-sisterhoods",
+      "name": "Wicked Sisterhoods",
+      "season": 6,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2025-05-17",
+      "airtime": "00:00",
+      "airstamp": "2025-05-18T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3235486"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3241498,
+      "url": "https://www.tvmaze.com/episodes/3241498/wow-women-of-wrestling-6x37-twin-vs-twin",
+      "name": "Twin vs. Twin",
+      "season": 6,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2025-05-24",
+      "airtime": "00:00",
+      "airstamp": "2025-05-25T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3241498"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3248452,
+      "url": "https://www.tvmaze.com/episodes/3248452/wow-women-of-wrestling-6x38-cuffed-chaos",
+      "name": "Cuffed Chaos",
+      "season": 6,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2025-05-31",
+      "airtime": "00:00",
+      "airstamp": "2025-06-01T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3248452"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3260117,
+      "url": "https://www.tvmaze.com/episodes/3260117/wow-women-of-wrestling-6x39-rookies-rivals-and-royalty",
+      "name": "Rookies, Rivals and Royalty",
+      "season": 6,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2025-06-07",
+      "airtime": "00:00",
+      "airstamp": "2025-06-08T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3260117"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3269776,
+      "url": "https://www.tvmaze.com/episodes/3269776/wow-women-of-wrestling-6x40-deceitful-divas",
+      "name": "Deceitful Divas",
+      "season": 6,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2025-06-14",
+      "airtime": "00:00",
+      "airstamp": "2025-06-15T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3269776"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3275153,
+      "url": "https://www.tvmaze.com/episodes/3275153/wow-women-of-wrestling-6x41-class-is-in-session",
+      "name": "Class is in Session",
+      "season": 6,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2025-06-21",
+      "airtime": "00:00",
+      "airstamp": "2025-06-22T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3275153"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3279614,
+      "url": "https://www.tvmaze.com/episodes/3279614/wow-women-of-wrestling-6x42-brazilian-blowout",
+      "name": "Brazilian Blowout",
+      "season": 6,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2025-06-28",
+      "airtime": "00:00",
+      "airstamp": "2025-06-29T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3279614"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3288039,
+      "url": "https://www.tvmaze.com/episodes/3288039/wow-women-of-wrestling-6x43-hardcore-rivalry",
+      "name": "Hardcore Rivalry",
+      "season": 6,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2025-07-05",
+      "airtime": "00:00",
+      "airstamp": "2025-07-06T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3288039"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3300394,
+      "url": "https://www.tvmaze.com/episodes/3300394/wow-women-of-wrestling-6x44-nashville-knockout",
+      "name": "Nashville Knockout",
+      "season": 6,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2025-07-12",
+      "airtime": "00:00",
+      "airstamp": "2025-07-13T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Nikki Nashville vs. Fury.<br />* Holidead vs. Santana Garrett.<br />* Tiki Chamorro, Kalaki The Island Girl, and Sandy Shore vs. Coach Campanelli, Kandi Krush, and Gloria Glitter.<br />* Paola The Colombian GOAT vs. Princess Aussie.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3300394"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3300395,
+      "url": "https://www.tvmaze.com/episodes/3300395/wow-women-of-wrestling-6x45-picket-line-payback",
+      "name": "Picket Line Payback",
+      "season": 6,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2025-07-19",
+      "airtime": "00:00",
+      "airstamp": "2025-07-20T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3300395"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3305140,
+      "url": "https://www.tvmaze.com/episodes/3305140/wow-women-of-wrestling-6x46-gold-standard",
+      "name": "Gold Standard",
+      "season": 6,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2025-07-26",
+      "airtime": "00:00",
+      "airstamp": "2025-07-27T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3305140"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3317957,
+      "url": "https://www.tvmaze.com/episodes/3317957/wow-women-of-wrestling-6x47-all-american-return",
+      "name": "All-American Return",
+      "season": 6,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2025-08-02",
+      "airtime": "00:00",
+      "airstamp": "2025-08-03T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3317957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3317958,
+      "url": "https://www.tvmaze.com/episodes/3317958/wow-women-of-wrestling-6x48-lumberjacks-and-comebacks",
+      "name": "Lumberjacks and Comebacks",
+      "season": 6,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2025-08-09",
+      "airtime": "00:00",
+      "airstamp": "2025-08-10T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3317958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3326365,
+      "url": "https://www.tvmaze.com/episodes/3326365/wow-women-of-wrestling-6x49-girls-and-dolls",
+      "name": "Girls and Dolls",
+      "season": 6,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2025-08-16",
+      "airtime": "00:00",
+      "airstamp": "2025-08-17T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3326365"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3331250,
+      "url": "https://www.tvmaze.com/episodes/3331250/wow-women-of-wrestling-6x50-game-on",
+      "name": "Game On",
+      "season": 6,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2025-08-23",
+      "airtime": "00:00",
+      "airstamp": "2025-08-24T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3331250"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3343271,
+      "url": "https://www.tvmaze.com/episodes/3343271/wow-women-of-wrestling-6x51-green-with-envy",
+      "name": "Green With Envy",
+      "season": 6,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2025-08-30",
+      "airtime": "00:00",
+      "airstamp": "2025-08-31T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3343271"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3343272,
+      "url": "https://www.tvmaze.com/episodes/3343272/wow-women-of-wrestling-6x52-unfinished-business",
+      "name": "Unfinished Business",
+      "season": 6,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2025-09-06",
+      "airtime": "00:00",
+      "airstamp": "2025-09-07T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3343272"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3354524,
+      "url": "https://www.tvmaze.com/episodes/3354524/wow-women-of-wrestling-7x01-new-territory",
+      "name": "New Territory",
+      "season": 7,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2025-09-13",
+      "airtime": "00:00",
+      "airstamp": "2025-09-14T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3354524"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3365067,
+      "url": "https://www.tvmaze.com/episodes/3365067/wow-women-of-wrestling-7x02-daughters-detour",
+      "name": "Daughter's Detour",
+      "season": 7,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2025-09-20",
+      "airtime": "00:00",
+      "airstamp": "2025-09-21T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3365067"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3369478,
+      "url": "https://www.tvmaze.com/episodes/3369478/wow-women-of-wrestling-7x03-stirring-the-pot",
+      "name": "Stirring the Pot",
+      "season": 7,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2025-09-27",
+      "airtime": "00:00",
+      "airstamp": "2025-09-28T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3369478"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3377593,
+      "url": "https://www.tvmaze.com/episodes/3377593/wow-women-of-wrestling-7x04-the-cage-match",
+      "name": "The Cage Match",
+      "season": 7,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2025-10-04",
+      "airtime": "00:00",
+      "airstamp": "2025-10-05T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3377593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3386952,
+      "url": "https://www.tvmaze.com/episodes/3386952/wow-women-of-wrestling-7x05-picking-up-the-pieces",
+      "name": "Picking Up the Pieces",
+      "season": 7,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2025-10-11",
+      "airtime": "00:00",
+      "airstamp": "2025-10-12T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3386952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3391779,
+      "url": "https://www.tvmaze.com/episodes/3391779/wow-women-of-wrestling-7x06-desert-dreams",
+      "name": "Desert Dreams",
+      "season": 7,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2025-10-18",
+      "airtime": "00:00",
+      "airstamp": "2025-10-19T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3391779"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3398988,
+      "url": "https://www.tvmaze.com/episodes/3398988/wow-women-of-wrestling-7x07-curtain-up-las-vegas",
+      "name": "Curtain Up: Las Vegas",
+      "season": 7,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2025-10-25",
+      "airtime": "00:00",
+      "airstamp": "2025-10-26T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3398988"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3406420,
+      "url": "https://www.tvmaze.com/episodes/3406420/wow-women-of-wrestling-7x08-battle-lines-drawn",
+      "name": "Battle Lines Drawn",
+      "season": 7,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2025-11-01",
+      "airtime": "00:00",
+      "airstamp": "2025-11-02T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3406420"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3427010,
+      "url": "https://www.tvmaze.com/episodes/3427010/wow-women-of-wrestling-7x09-end-of-the-line",
+      "name": "End of the Line",
+      "season": 7,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2025-11-08",
+      "airtime": "00:00",
+      "airstamp": "2025-11-09T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3427010"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3433421,
+      "url": "https://www.tvmaze.com/episodes/3433421/wow-women-of-wrestling-7x10-moment-of-truth",
+      "name": "Moment of Truth",
+      "season": 7,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2025-11-15",
+      "airtime": "00:00",
+      "airstamp": "2025-11-16T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3433421"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3461512,
+      "url": "https://www.tvmaze.com/episodes/3461512/wow-women-of-wrestling-7x11-war-never-looked-this-good",
+      "name": "War Never Looked this Good",
+      "season": 7,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2025-11-22",
+      "airtime": "00:00",
+      "airstamp": "2025-11-23T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3461512"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3461513,
+      "url": "https://www.tvmaze.com/episodes/3461513/wow-women-of-wrestling-7x12-the-reckoning",
+      "name": "The Reckoning",
+      "season": 7,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2025-11-29",
+      "airtime": "00:00",
+      "airstamp": "2025-11-30T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3461513"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3461514,
+      "url": "https://www.tvmaze.com/episodes/3461514/wow-women-of-wrestling-7x13-lights-up",
+      "name": "Lights Up",
+      "season": 7,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2026-01-03",
+      "airtime": "00:00",
+      "airstamp": "2026-01-04T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3461514"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3508760,
+      "url": "https://www.tvmaze.com/episodes/3508760/wow-women-of-wrestling-7x14-the-freight-train-arrives",
+      "name": "The Freight Train Arrives",
+      "season": 7,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2026-01-10",
+      "airtime": "00:00",
+      "airstamp": "2026-01-11T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3508760"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3517623,
+      "url": "https://www.tvmaze.com/episodes/3517623/wow-women-of-wrestling-7x15-opportunity-knocks",
+      "name": "Opportunity Knocks",
+      "season": 7,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2026-01-17",
+      "airtime": "00:00",
+      "airstamp": "2026-01-18T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3517623"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3531995,
+      "url": "https://www.tvmaze.com/episodes/3531995/wow-women-of-wrestling-7x16-daddys-little-princess",
+      "name": "Daddy's Little Princess",
+      "season": 7,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2026-01-24",
+      "airtime": "00:00",
+      "airstamp": "2026-01-25T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531995"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3531996,
+      "url": "https://www.tvmaze.com/episodes/3531996/wow-women-of-wrestling-7x17-class-is-in-session",
+      "name": "Class is in Session",
+      "season": 7,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2026-01-31",
+      "airtime": "00:00",
+      "airstamp": "2026-02-01T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3531996"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3538513,
+      "url": "https://www.tvmaze.com/episodes/3538513/wow-women-of-wrestling-7x18-contracts-and-confrontations",
+      "name": "Contracts and Confrontations",
+      "season": 7,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2026-02-07",
+      "airtime": "00:00",
+      "airstamp": "2026-02-08T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3538513"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3540923,
+      "url": "https://www.tvmaze.com/episodes/3540923/wow-women-of-wrestling-7x19-championship-titles-and-tension",
+      "name": "Championship Titles and Tension",
+      "season": 7,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2026-02-14",
+      "airtime": "00:00",
+      "airstamp": "2026-02-15T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3540923"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3548108,
+      "url": "https://www.tvmaze.com/episodes/3548108/wow-women-of-wrestling-7x20-best-dam-thing",
+      "name": "Best Dam* Thing",
+      "season": 7,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2026-02-21",
+      "airtime": "00:00",
+      "airstamp": "2026-02-22T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3548108"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3552739,
+      "url": "https://www.tvmaze.com/episodes/3552739/wow-women-of-wrestling-7x21-alliance-take-over",
+      "name": "Alliance Take Over",
+      "season": 7,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2026-02-28",
+      "airtime": "00:00",
+      "airstamp": "2026-03-01T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3552739"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3558395,
+      "url": "https://www.tvmaze.com/episodes/3558395/wow-women-of-wrestling-7x22-the-first-defense",
+      "name": "The First Defense",
+      "season": 7,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2026-03-07",
+      "airtime": "00:00",
+      "airstamp": "2026-03-08T05:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3558395"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3565174,
+      "url": "https://www.tvmaze.com/episodes/3565174/wow-women-of-wrestling-7x23-no-rules-all-risk-one-reward",
+      "name": "No Rules. All Risk. One Reward.",
+      "season": 7,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2026-03-14",
+      "airtime": "00:00",
+      "airstamp": "2026-03-15T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3565174"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3571014,
+      "url": "https://www.tvmaze.com/episodes/3571014/wow-women-of-wrestling-7x24-fabulous-and-mysterious",
+      "name": "Fabulous and Mysterious",
+      "season": 7,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2026-03-21",
+      "airtime": "00:00",
+      "airstamp": "2026-03-22T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3571014"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3575952,
+      "url": "https://www.tvmaze.com/episodes/3575952/wow-women-of-wrestling-7x25-the-ban-is-broken",
+      "name": "The Ban is Broken",
+      "season": 7,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2026-03-28",
+      "airtime": "00:00",
+      "airstamp": "2026-03-29T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3575952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3585573,
+      "url": "https://www.tvmaze.com/episodes/3585573/wow-women-of-wrestling-7x26-revenge-of-the-tier",
+      "name": "Revenge of the Tier",
+      "season": 7,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2026-04-04",
+      "airtime": "00:00",
+      "airstamp": "2026-04-05T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3585573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3585574,
+      "url": "https://www.tvmaze.com/episodes/3585574/wow-women-of-wrestling-7x27-battle-for-the-belts",
+      "name": "Battle for the Belts",
+      "season": 7,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2026-04-11",
+      "airtime": "00:00",
+      "airstamp": "2026-04-12T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3585574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3592097,
+      "url": "https://www.tvmaze.com/episodes/3592097/wow-women-of-wrestling-7x28-bullies-vs-bullied",
+      "name": "Bullies vs. Bullied",
+      "season": 7,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2026-04-18",
+      "airtime": "00:00",
+      "airstamp": "2026-04-19T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3592097"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3597133,
+      "url": "https://www.tvmaze.com/episodes/3597133/wow-women-of-wrestling-7x29-enlightened-intensions",
+      "name": "Enlightened Intensions",
+      "season": 7,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2026-04-25",
+      "airtime": "00:00",
+      "airstamp": "2026-04-26T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3597133"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3603090,
+      "url": "https://www.tvmaze.com/episodes/3603090/wow-women-of-wrestling-7x30-frenemies",
+      "name": "Frenemies",
+      "season": 7,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2026-05-02",
+      "airtime": "00:00",
+      "airstamp": "2026-05-03T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3603090"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3606778,
+      "url": "https://www.tvmaze.com/episodes/3606778/wow-women-of-wrestling-7x31-the-vips-are-back",
+      "name": "The VIPs Are Back",
+      "season": 7,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2026-05-09",
+      "airtime": "00:00",
+      "airstamp": "2026-05-10T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3606778"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3612734,
+      "url": "https://www.tvmaze.com/episodes/3612734/wow-women-of-wrestling-7x32-return-of-the-goat",
+      "name": "Return of The GOAT",
+      "season": 7,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2026-05-16",
+      "airtime": "00:00",
+      "airstamp": "2026-05-17T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3612734"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3617444,
+      "url": "https://www.tvmaze.com/episodes/3617444/wow-women-of-wrestling-7x33-three-teams-one-dream",
+      "name": "Three Teams. One Dream.",
+      "season": 7,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2026-05-23",
+      "airtime": "00:00",
+      "airstamp": "2026-05-24T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3617444"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3622655,
+      "url": "https://www.tvmaze.com/episodes/3622655/wow-women-of-wrestling-7x34-prove-your-worth",
+      "name": "Prove Your Worth",
+      "season": 7,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2026-05-30",
+      "airtime": "00:00",
+      "airstamp": "2026-05-31T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3622655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3627826,
+      "url": "https://www.tvmaze.com/episodes/3627826/wow-women-of-wrestling-7x35-golden-opportunity",
+      "name": "Golden Opportunity",
+      "season": 7,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2026-08-08",
+      "airtime": "00:00",
+      "airstamp": "2026-08-09T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3627826"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3638330,
+      "url": "https://www.tvmaze.com/episodes/3638330/wow-women-of-wrestling-7x36-tba",
+      "name": "TBA",
+      "season": 7,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2026-08-15",
+      "airtime": "00:00",
+      "airstamp": "2026-08-16T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3638330"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    }
+  ]
+}

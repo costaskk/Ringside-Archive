@@ -1,0 +1,2663 @@
+{
+  "programId": "roh-hdnet",
+  "tvMazeId": 25120,
+  "fetchedAt": "2026-07-27T07:57:32.936Z",
+  "show": {
+    "id": 25120,
+    "url": "https://www.tvmaze.com/shows/25120/roh-on-hdnet",
+    "name": "ROH on HDNET",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2009-03-21",
+    "ended": "2011-04-04",
+    "officialSite": "http://www.rohwrestling.com",
+    "schedule": {
+      "time": "20:00",
+      "days": [
+        "Monday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 68,
+    "network": {
+      "id": 170,
+      "name": "AXS TV",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/97/242802.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/97/242802.jpg"
+    },
+    "summary": "<p><b>ROH on HDNET</b> is a professional wrestling television series produced by Ring of Honor (ROH). The series features the professional wrestlers of Ring of Honor competing in matches, along with interviews from the wrestlers. Combined, these elements create and further the storylines of ROH. The pilot episode was taped on February 28, 2009, and aired on March 21, 2009. The show aired weekly on HDNet in the United States.</p>",
+    "updated": 1560224107,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/25120"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1066875",
+        "name": "Episode #100 - Final Episode"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1065573,
+      "url": "https://www.tvmaze.com/episodes/1065573/roh-on-hdnet-1x01-episode-1-tyler-black-vs-jimmy-jacobs",
+      "name": "Episode #1 - Tyler Black vs. Jimmy Jacobs",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2009-03-21",
+      "airtime": "20:00",
+      "airstamp": "2009-03-22T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>JERRY LYNN vs. DELIRIOUS</p><p>BRENT ALBRIGHT vs. RHETT TITUS</p><p>KENNY KING vs. SAMI CALLIHAN</p><p>TYLER BLACK vs. JIMMY JACOBS<br><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065574,
+      "url": "https://www.tvmaze.com/episodes/1065574/roh-on-hdnet-1x02-episode-2-nigel-mcguinness-vs-jay-briscoe",
+      "name": "Episode #2 - Nigel McGuinness vs. Jay Briscoe",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2009-03-28",
+      "airtime": "20:00",
+      "airstamp": "2009-03-29T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>KEVIN STEEN vs. EDDIE EDWARDS (w/Larry Sweeney)</p><p>DAIZEE HAZE vs. SARA DEL REY<br></p><p>ALEX \"SUGARFOOT\" PAYNE vs. CLAUDIO CASTAGNOLI<br></p><p>ROH champion NIGEL McGUINNESS vs. JAY BRISCOE (w/Mark Briscoe) -- non-title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065579,
+      "url": "https://www.tvmaze.com/episodes/1065579/roh-on-hdnet-1x03-episode-3-austin-aries-vs-bryan-danielson",
+      "name": "Episode #3 - Austin Aries vs. Bryan Danielson",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2009-04-04",
+      "airtime": "20:00",
+      "airstamp": "2009-04-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>STERLING JAMES KEENAN vs. ERICK STEVENS</p><p>CHEECH &amp; CLOUDY vs. DARK CITY FIGHT CLUB (JOHN DAVIS &amp; CORY CHAVOUS)<br></p><p>CHRIS HERO (w/Larry Sweeney and Sara Del Rey) vs. NECRO BUTCHER<br></p><p>AUSTIN ARIES vs. BRYAN DANIELSON<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065579"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065582,
+      "url": "https://www.tvmaze.com/episodes/1065582/roh-on-hdnet-1x04-episode-4-jerry-lynn-vs-brodie-lee",
+      "name": "Episode #4 - Jerry Lynn vs. Brodie Lee",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2009-04-11",
+      "airtime": "20:00",
+      "airstamp": "2009-04-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>AUSTIN ARIES vs. KENNY OMEGA</p><p>DELIRIOUS vs. ERNIE OSIRIS</p><p>SARA DEL REY &amp; SASSY STEPHIE (w/Larry Sweeney) vs. DAIZEE HAZE &amp; NEVAEH</p><p>JERRY LYNN vs. BRODIE LEE</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065582"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065583,
+      "url": "https://www.tvmaze.com/episodes/1065583/roh-on-hdnet-1x05-episode-5-brent-albright-vs-claudio-castagnoil",
+      "name": "Episode #5 - Brent Albright vs. Claudio Castagnoil",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2009-04-18",
+      "airtime": "20:00",
+      "airstamp": "2009-04-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NECRO BUTCHER vs. JIMMY JACOBS</p><p>EDDIE KINGSTON vs. SAMI CALLIHAN<br></p><p>BOBBY DEMPSEY vs. ORANGE CASSIDY</p><p>RHETT TITUS &amp; KENNY KING vs. CHEECH &amp; CLOUDY</p><p>BRENT ALBRIGHT vs. CLAUDIO CASTAGNOLI<br><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065584,
+      "url": "https://www.tvmaze.com/episodes/1065584/roh-on-hdnet-1x06-episode-6-bryan-danielson-vs-tyler-black-i",
+      "name": "Episode #6 - Bryan Danielson vs. Tyler Black I",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2009-04-25",
+      "airtime": "20:00",
+      "airstamp": "2009-04-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>GRIZZLY REDWOOD &amp; Andy Ridge vs. DARK CITY FIGHT CLUB (JON DAVIS &amp; KORY CHAVIS)</p><p>NIGEL MCGUINNESS vs. ALEX \"SUGARFOOT\" PAYNE<br></p><p>KEVIN STEEN &amp; JAY BRISCOE vs. CHRIS HERO &amp; EDDIE EDWARDS (w/Larry Sweeney and Sarah Del Rey)<br></p><p>TYLER BLACK vs. BRYAN DANIELSON<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065585,
+      "url": "https://www.tvmaze.com/episodes/1065585/roh-on-hdnet-1x07-episode-7-austin-aries-vs-roderick-strong",
+      "name": "Episode #7 - Austin Aries vs. Roderick Strong",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2009-05-02",
+      "airtime": "20:00",
+      "airstamp": "2009-05-03T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Ric Flair's ROH TV debut</p><p>CHRIS HERO (w/Shane Hagadorn and Sara Del Rey) vs. KENNY OMEGA<br></p><p>BRODIE LEE (w/Jimmy Jacobs) vs. NECRO BUTCHER<br></p><p>ERICK STEVENS vs. SAL RINAURO<br></p><p>AUSTIN ARIES vs. RODERICK STRONG<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065586,
+      "url": "https://www.tvmaze.com/episodes/1065586/roh-on-hdnet-1x08-episode-8-bryan-danielson-vs-tyler-black-ii",
+      "name": "Episode #8 - Bryan Danielson vs. Tyler Black II",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2009-05-09",
+      "airtime": "20:00",
+      "airstamp": "2009-05-10T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>JIMMY JACOBS &amp; SHIMMER champion MsChif vs. DELIRIOUS &amp; DAIZEE HAZE</p><p>AMERICAN WOLVES (EDDIE EDWARDS &amp; DAVEY RICHARDS w/Shane Hagadorn) vs. ORANGE CASSIDY &amp; BUTTERSCOTCH<br></p><p>TYLER BLACK vs. BRYAN DANIELSON -- #1 contender match to ROH Title<br></p><p><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065587,
+      "url": "https://www.tvmaze.com/episodes/1065587/roh-on-hdnet-1x09-episode-9-kevin-steen-el-generico-vs-rhett-titus-kenny-king",
+      "name": "Episode #9 - Kevin Steen & El Generico vs. Rhett Titus & Kenny King",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2009-05-16",
+      "airtime": "20:00",
+      "airstamp": "2009-05-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CLAUDIO CASTAGNOLI vs. BRENT ALBRIGHT</p><p>DARK CITY FIGHT CLUB (JON DAVIS &amp; KORY CHAVIS) vs. SUGARFOOT ALEX PAYNE &amp; GRIZZLY REDWOOD</p><p>Ric Flair speaks on the ROH Title controversy and settles it.</p><p>JAY BRISCOE (w/Mark Briscoe) vs. SAMI CALLAHAN</p><p>EL GENERICO &amp; KEVIN STEEN vs. KENNY KING &amp; RHETT TITUS -- non-title match</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065587"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065589,
+      "url": "https://www.tvmaze.com/episodes/1065589/roh-on-hdnet-1x10-episode-10-necro-butcher-and-delirious-vs-jimmy-jacobs-and-brodie-lee",
+      "name": "Episode #10 - Necro Butcher and Delirious vs Jimmy Jacobs and Brodie Lee",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2009-05-23",
+      "airtime": "20:00",
+      "airstamp": "2009-05-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>KENNY KING vs. KENNY OMEGA vs. JAY BRISCOE (w/Mark Briscoe)</p><p>DARK CITY FIGHT CLUB (JON DAVIS &amp; KORY CHAVIS) vs. IRISH AIRBORNE (DAVE &amp; JAKE CRIST)<br></p><p>CHRIS HERO (w/Sara Del Rey) vs. EDDIE KINGSTON<br></p><p>NECRO BUTCHER &amp; DELIRIOUS vs. JIMMY JACOBS &amp; BRODIE LEE<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065589"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065590,
+      "url": "https://www.tvmaze.com/episodes/1065590/roh-on-hdnet-1x11-episode-11-american-wolves-vs-kevin-steen-and-el-generico-for-roh-tag-titles-in-tables-match",
+      "name": "Episode #11 - American Wolves vs Kevin Steen and El Generico for ROH Tag Titles in Tables Match",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2009-05-30",
+      "airtime": "20:00",
+      "airstamp": "2009-05-31T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>RODERICK STRONG vs. RHETT TITUS</p><p>SHIMMER Women's champion MSCHIF (w/Jimmy Jacobs) vs. SARA DEL REY vs. DAIZEE HAZE<br></p><p>SAMI CALLIHAN vs. ERICK STEVENS<br></p><p>ROH tag team champions KEVIN STEEN &amp; EL GENERICO vs. AMERICAN WOLVES (DAVEY RICHARDS &amp; EDDIE EDWARDS) -- ROH tag title match -- Texas Tornado rules tables match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065590"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065591,
+      "url": "https://www.tvmaze.com/episodes/1065591/roh-on-hdnet-1x12-episode-12-jerry-lynn-vs-bryan-danielson-vs-austin-aries-vs-tyler-black-roh-title-match",
+      "name": "Episode #12 - Jerry Lynn vs Bryan Danielson vs Austin Aries vs Tyler Black ROH Title match",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2009-06-06",
+      "airtime": "20:00",
+      "airstamp": "2009-06-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>COLT CABANA &amp; BRENT ALBRIGHT vs. THE EMBASSY (CLAUDIO CASTAGNOLI &amp; DIRTY ERNIE OSIRIS w/Prince Nana)</p><p>BOBBY DEMPSEY vs. SAL RINAURO<br></p><p>Interview with Ric Flair</p><p>ROH champion JERRY LYNN vs. TYLER BLACK vs. BRYAN DANIELSON vs. AUSTIN ARIES -- ROH World Title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065591"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065592,
+      "url": "https://www.tvmaze.com/episodes/1065592/roh-on-hdnet-1x13-episode-13-jerry-lynn-vs-chris-hero-non-title",
+      "name": "Episode #13 - Jerry Lynn vs. Chris Hero (non-title)",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2009-06-13",
+      "airtime": "20:00",
+      "airstamp": "2009-06-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>JAY BRISCOE vs. D-LO BROWN</p><p>KEVIN STEEN &amp; EL GENERICO vs. BOBBY FISH &amp; SILAS YOUNG<br></p><p>JIMMY RAVE (w/Prince Nana and Dirty Ernie Osiris) vs. GRIZZLY REDWOOD<br></p><p>ROH champion JERRY LYNN vs. CHRIS HERO (w/Shane Hagadorn and Sarah Del Rey) -- non-title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065592"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065593,
+      "url": "https://www.tvmaze.com/episodes/1065593/roh-on-hdnet-1x14-episode-14-kenta-vs-roderick-strong",
+      "name": "Episode #14 - KENTA vs. Roderick Strong",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2009-06-20",
+      "airtime": "20:00",
+      "airstamp": "2009-06-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NECRO BUTCHER vs. CLAUDIO CASTAGNOLI</p><p>SHIMMER champion MSCHIF (w/Jimmy Jacobs) vs. NEVAEH -- non-title match<br></p><p>Ric Flair's final HDNet appearance<br></p><p>KENNY KING (w/Rhett Titus) vs. KENNY OMEGA<br></p><p>EDDIE KINGSTON vs. ANDY RIDGE<br></p><p>RODERICK STRONG vs. KENTA<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065594,
+      "url": "https://www.tvmaze.com/episodes/1065594/roh-on-hdnet-1x15-episode-15-wolves-vs-black-danielson-roh-tag-team-championship-match",
+      "name": "Episode #15 - Wolves vs. Black & Danielson ROH Tag Team Championship Match",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2009-06-27",
+      "airtime": "20:00",
+      "airstamp": "2009-06-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DELIRIOUS vs. JIMMY JACOBS -- Fight Without Honor</p><p>YOUNG BUCKS (NICK &amp; MATT JACKSON) vs. SAL RINAURO &amp; BRANDON DAY</p><p>BRENT ALBRIGHT vs. DIRTY ERNIE OSIRIS (w/Prince Nana)</p><p>ROH tag team champions AMERICAN WOLVES (DAVEY RICHARDS &amp; EDDIE EDWARDS w/Shane Hagadorn and Sara Del Rey) vs. BRYAN DANIELSON &amp; TYLER BLACK -- ROH tag title match</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065594"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065674,
+      "url": "https://www.tvmaze.com/episodes/1065674/roh-on-hdnet-1x16-episode-16-jay-briscoe-vs-roderick-strong",
+      "name": "Episode #16 - Jay Briscoe vs. Roderick Strong",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2009-07-11",
+      "airtime": "20:00",
+      "airstamp": "2009-07-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>BRENT ALBRIGHT vs. CLAUDIO CASTAGNOLI -- Flag match</p><p>ALEX PAYNE vs. D-LO BROWN</p><p>ROH champion AUSTIN ARIES &amp; KENNY KING &amp; RHETT TITUS vs. KENNY OMEGA &amp; JERRY LYNN &amp; ERICK STEVENS</p><p>RODERICK STRONG vs. JAY BRISCOE (w/Mark Briscoe)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065675,
+      "url": "https://www.tvmaze.com/episodes/1065675/roh-on-hdnet-1x17-episode-17-kenta-kevin-steen-el-generico-vs-chris-hero-the-american-wolves",
+      "name": "Episode #17 - KENTA & Kevin Steen & El Generico vs. Chris Hero & The American Wolves",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2009-07-18",
+      "airtime": "20:00",
+      "airstamp": "2009-07-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>YOUNG BUCKS (NICK &amp; MATT JACKSON) vs. SILAS YOUNG &amp; BOBBY FISH</p><p>DELIRIOUS vs. BRODIE LEE</p><p>KENTA &amp; KEVIN STEEN &amp; EL GENERICO vs. CHRIS HERO (w/Sara Del Rey) &amp; ROH tag team champions AMERICAN WOLVES (EDDIE EDWARDS &amp; DAVEY RICHARDS w/Shane Hagadorn) -- six-man tag match</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065675"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065676,
+      "url": "https://www.tvmaze.com/episodes/1065676/roh-on-hdnet-1x18-episode-18-bryan-danielson-vs-tyler-black-iii",
+      "name": "Episode #18 - Bryan Danielson vs. Tyler Black III",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2009-07-25",
+      "airtime": "20:00",
+      "airstamp": "2009-07-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NECRO BUTCHER &amp; GRIZZLY REDWOOD vs. JIMMY RAVE &amp; DIRTY ERNIE OSIRIS (w/Prince Nana)</p><p>DAIZEE HAZE &amp; NEVAEH vs. SHIMMER champion MSCHIF &amp; SARA DEL REY</p><p>BRYAN DANIELSON vs. TYLER BLACK</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065676"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065677,
+      "url": "https://www.tvmaze.com/episodes/1065677/roh-on-hdnet-1x19-episode-19-jay-briscoe-vs-d-lo-brown-vs-roderick-strong",
+      "name": "Episode #19 - Jay Briscoe vs. D-Lo Brown vs. Roderick Strong",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2009-08-01",
+      "airtime": "20:00",
+      "airstamp": "2009-08-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Also scheduled for tonight's episode is Kenny Omega &amp; Erick Stevens against Rhett Titus &amp; Kenny King and Eddie Kingston in a singles match<br><br>ROH World champion Austin Aries will be on the show to confront Tyler Black, who defeated Bryan Danielson on last week's show in a buzz-worthy singles match.</p><p>Tonight's episode of ROH TV on HDNet features a three-way main event of Jay Briscoe vs. Roderick Strong vs. D-Lo Brown.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065677"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065678,
+      "url": "https://www.tvmaze.com/episodes/1065678/roh-on-hdnet-1x20-episode-20-davey-richards-vs-el-generico",
+      "name": "Episode #20 - Davey Richards vs. El Generico",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2009-08-08",
+      "airtime": "20:00",
+      "airstamp": "2009-08-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Claudio Castagnoli &amp; Jimmy Rave w/ Prince Nana &amp; Ernie Osiris vs Colt Cabana &amp; Brent Albright.</p><p>Delirious w/ Daizee Haze vs. Silas Young.<br></p><p>Mark Briscoe w/ Jay Briscoe vs Alex Payne.<br></p><p>Davey Richards w/ Sara Del Rey, Shane Hagadorn &amp; Eddie Edwards) vs. El Generico w/ Kevin Steen<br></p><p></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065678"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065679,
+      "url": "https://www.tvmaze.com/episodes/1065679/roh-on-hdnet-1x21-episode-21-nigel-mcguinness-vs-tyler-black",
+      "name": "Episode #21 - Nigel McGuinness vs. Tyler Black",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2009-08-17",
+      "airtime": "20:00",
+      "airstamp": "2009-08-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>EDDIE EDWARDS (w/Shane Hagadorn) vs. KEVIN STEEN</p><p>CHEECH &amp; CLOUDY vs. TONY KOZINA &amp; SAL RINAURO<br></p><p>SAMI CALLIHAN vs. THE NECRO BUTCHER<br></p><p>TYLER BLACK vs. NIGEL MCGUINNESS<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065679"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065680,
+      "url": "https://www.tvmaze.com/episodes/1065680/roh-on-hdnet-1x22-episode-22-roh-champion-austin-aries-vs-roderick-strong-non-title-match",
+      "name": "Episode #22 - ROH champion Austin Aries vs. Roderick Strong (Non-Title match​)",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2009-08-24",
+      "airtime": "20:00",
+      "airstamp": "2009-08-25T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>KEVIN STEEN &amp; EL GENERICO vs. SAMI CALLIHAN &amp; TONY KOZINA</p><p>D'LO BROWN vs. JOHN KERMAN<br></p><p>ROH champion AUSTIN ARIES vs. RODERICK STRONG -- Non-Title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065680"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065681,
+      "url": "https://www.tvmaze.com/episodes/1065681/roh-on-hdnet-1x23-episode-23-cabana-albright-grizzly-necro-vs-the-embassy",
+      "name": "Episode #23 - Cabana & Albright & Grizzly & Necro vs. The Embassy",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2009-08-31",
+      "airtime": "20:00",
+      "airstamp": "2009-09-01T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DELIRIOUS (with DAIZEE HAZE) vs. SONJAY DUTT</p><p>ROH tag team champions THE AMERICAN WOLVES (EDDIE EDWARDS &amp; DAVEY RICHARDS) vs. CHEECH &amp; CLOUDY -- non-title match<br></p><p>ERICK STEVENS vs. SILAS YOUNG<br></p><p>THE EMBASSY (CLAUDIO CASTAGNOLI &amp; JIMMY RAVE &amp; \"DIRTY\" ERNIE OSIRIS &amp; PRINCE NANA) vs. TEAM CABANA (COLT CABANA &amp; BRENT ALBRIGHT &amp; NECRO BUTCHER &amp; GRIZZLY REDWOOD)<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065681"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065682,
+      "url": "https://www.tvmaze.com/episodes/1065682/roh-on-hdnet-1x24-episode-24-jerry-lynn-vs-tyler-black",
+      "name": "Episode #24 - Jerry Lynn vs. Tyler Black",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2009-09-07",
+      "airtime": "20:00",
+      "airstamp": "2009-09-08T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>THE BRISCOE BROTHERS (JAY &amp; MARK) vs. KENNY KING &amp; RHETT TITUS (w/Bonnie and Lindsey)</p><p>EDDIE KINGSTON vs. SAL RINAURO<br></p><p>NIGEL McGUINNESS vs. AARON SCOTT<br></p><p>TYLER BLACK vs. JERRY LYNN<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065682"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065686,
+      "url": "https://www.tvmaze.com/episodes/1065686/roh-on-hdnet-1x25-episode-25-steen-generico-vs-briscoes",
+      "name": "Episode #25 - Steen & Generico vs. Briscoes",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2009-09-14",
+      "airtime": "20:00",
+      "airstamp": "2009-09-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>THE DARK CITY FIGHT CLUB (KORY CHAVIS &amp; JON DAVIS) vs. THE YOUNG BUCKS (MATT JACKSON &amp; NICK JACKSON)</p><p>BISON SMITH (w/Prince Nana &amp; Dirty Ernie Osiris) vs. SAL RINAURO<br></p><p>COLT \"BOOM BOOM\" CABANA vs. JOEY RYAN (w/Prince Nana &amp; Dirty Ernie Osiris)<br></p><p>THE BRISCOE BROTHERS (JAY &amp; MARK) vs. KEVIN STEEN &amp; EL GENERICO<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065686"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065694,
+      "url": "https://www.tvmaze.com/episodes/1065694/roh-on-hdnet-1x26-episode-26-kenta-danielson-strong-vs-hero-wolves",
+      "name": "Episode #26 - KENTA & Danielson & Strong vs. Hero & Wolves",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2009-09-21",
+      "airtime": "20:00",
+      "airstamp": "2009-09-22T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH World champion AUSTIN ARIES (w/Kenny King and Rhett Titus) vs. GRIZZLY REDWOOD -- ROH Title match</p><p>ERICK STEVENS vs. BRANDON DAY<br></p><p>JIMMY RAVE (w/Prince Nana and \"Dirty\" Ernie Osiris) vs. NECRO BUTCHER<br></p><p>THE AMERICAN WOLVES (DAVEY RICHARDS &amp; EDDIE EDWARDS) &amp; CHRIS HERO (w/Shane Hagadorn) vs. BRYAN DANIELSON &amp; RODERICK STRONG &amp; KENTA<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065694"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065708,
+      "url": "https://www.tvmaze.com/episodes/1065708/roh-on-hdnet-1x27-episode-27-brent-albright-vs-claudio-cage-match",
+      "name": "Episode #27 - Brent Albright vs. Claudio Cage Match",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2009-09-28",
+      "airtime": "20:00",
+      "airstamp": "2009-09-29T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>KENNY KING &amp; RHETT TITUS vs. TYLER BLACK &amp; JERRY LYNN</p><p>NIKKI ROXX vs. SARA DEL REY<br></p><p>\"SUGARFOOT\" ALEX PAYNE vs. SONJAY DUTT<br></p><p>BRENT ALBRIGHT vs. CLAUDIO CASTAGNOLI (w/Prince Nana and \"Dirty\" Ernie Osiris) -- STEEL CAGE MATCH<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065708"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065710,
+      "url": "https://www.tvmaze.com/episodes/1065710/roh-on-hdnet-1x28-episode-28-honor-rumble",
+      "name": "Episode #28 - Honor Rumble",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2009-10-05",
+      "airtime": "20:00",
+      "airstamp": "2009-10-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DELIRIOUS (with Daizee Haze) vs SONJAY DUTT</p><p>EDDIE KINGSTON vs KYLE MATTHEWS<br></p><p>JOEY \"MAGNUM\" RYAN (with Prince Nana and \"Dirty\" Ernie Osiris) vs RODERICK STRONG<br></p><p>EIGHT-TEAM HONOR RUMBLE<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065710"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065711,
+      "url": "https://www.tvmaze.com/episodes/1065711/roh-on-hdnet-1x29-episode-29-kenta-vs-chris-hero",
+      "name": "Episode #29 - KENTA vs. Chris Hero",
+      "season": 1,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2009-10-12",
+      "airtime": "20:00",
+      "airstamp": "2009-10-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH World champion AUSTIN ARIES vs. \"SUGARFOOT\" ALEX PAYNE -- ROH Title match</p><p>NECRO BUTCHER vs. BISON SMITH (w/Prince Nana and \"Dirty\" Ernie Osiris)<br></p><p>TYLER BLACK vs. RHETT TITUS<br></p><p>CHRIS HERO (w/Shane Hagadorn and Sara Del Rey) vs. KENTA<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065711"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065712,
+      "url": "https://www.tvmaze.com/episodes/1065712/roh-on-hdnet-1x30-episode-30-austin-aries-vs-bryan-danielson-roh-championship",
+      "name": "Episode #30 - Austin Aries vs. Bryan Danielson - ROH Championship",
+      "season": 1,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2009-10-19",
+      "airtime": "20:00",
+      "airstamp": "2009-10-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>KENNY KING vs. JERRY LYNN</p><p>NIGEL MCGUINNESS vs. SAL RINAURO<br></p><p>COLT \"BOOM BOOM\" CABANA vs. CLAUDIO CASTAGNOLI<br></p><p>ROH World champion AUSTIN ARIES vs. \"AMERICAN DRAGON\" BRYAN DANIELSON -- ROH World Title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065712"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065812,
+      "url": "https://www.tvmaze.com/episodes/1065812/roh-on-hdnet-1x31-episode-31-brent-albright-vs-d-lo-brown",
+      "name": "Episode #31 - Brent Albright vs. D-Lo Brown",
+      "season": 1,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2009-10-26",
+      "airtime": "20:00",
+      "airstamp": "2009-10-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DELIRIOUS vs. SONJAY DUTT vs. NECRO BUTCHER vs. JOEY RYAN (w/Prince Nana and \"Dirty\" Ernie Osiris) in a four-way match</p><p>BRENT ALBRIGHT vs. D'LO BROWN<br></p><p>KENNY KING vs. EDDIE KINGSTON<br></p><p><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065812"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065822,
+      "url": "https://www.tvmaze.com/episodes/1065822/roh-on-hdnet-1x32-episode-32-colt-cabana-vs-nigel-mcguinness",
+      "name": "Episode #32 - Colt Cabana vs. Nigel McGuinness",
+      "season": 1,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2009-11-02",
+      "airtime": "20:00",
+      "airstamp": "2009-11-03T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>THE BRISCOES (JAY BRISCOE &amp; MARK BRISCOE) vs THE YOUNG BUCKS (MATT JACKSON &amp; NICK JACKSON)</p><p>\"SUGARFOOT\" ALEX PAYNE vs RHETT TITUS<br></p><p>CLAUDIO CASTAGNOLI (w/Prince Nana and \"Dirty\" Ernie Osiris) vs GRIZZLY REDWOOD <br></p><p>COLT \"BOOM BOOM\" CABANA vs NIGEL McGUINNESS<br></p><p><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065822"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065830,
+      "url": "https://www.tvmaze.com/episodes/1065830/roh-on-hdnet-1x33-episode-33-bryan-danielson-roderick-strong-vs-american-wolves",
+      "name": "Episode #33 - Bryan Danielson & Roderick Strong vs. American Wolves",
+      "season": 1,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2009-11-09",
+      "airtime": "20:00",
+      "airstamp": "2009-11-10T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>KEVIN STEEN &amp; EL GENERICO vs. THE SUPER SMASH BROTHERS (PLAYER UNO &amp; PLAYER DOS)</p><p>BOBBY DEMPSEY vs. CHRIS HERO (w/Shane Hagadorn)<br></p><p>\"SKULLKRUSHER\" RASCHE BROWN vs. SAL RINAURO<br></p><p>ROH tag team champions THE AMERICAN WOLVES (DAVEY RICHARDS &amp; EDDIE EDWARDS with Shane Hagadorn) vs. \"AMERICAN DRAGON\" BRYAN DANIELSON &amp; RODERICK STRONG -- non-title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065830"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065849,
+      "url": "https://www.tvmaze.com/episodes/1065849/roh-on-hdnet-1x34-episode-34-bryan-danielson-vs-roderick-strong-final-countdown-tour",
+      "name": "Episode #34 - Bryan Danielson vs. Roderick Strong (Final Countdown Tour)",
+      "season": 1,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2009-11-16",
+      "airtime": "20:00",
+      "airstamp": "2009-11-17T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CHRIS HERO (w/Shane Hagadorn) vs. DELIRIOUS</p><p>BEARD VS BEARD TAG TEAM MATCH: THE EMBASSY (JOEY RYAN &amp; PRINCE NANA w/\"Dirty\" Ernie Osiris) vs. GRIZZLY REDWOOD &amp; NECRO BUTCHER<br></p><p>\"SKULLKRUSHER\" RASCHE BROWN vs. CAMERON MATTHEWS<br></p><p>\"AMERICAN DRAGON\" BRYAN DANIELSON vs. RODERICK STRONG (Final Televised Match for Danielson in ROH)<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065849"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065869,
+      "url": "https://www.tvmaze.com/episodes/1065869/roh-on-hdnet-1x35-episode-35-wolves-vs-young-bucks",
+      "name": "Episode #35 - Wolves vs. Young Bucks",
+      "season": 1,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2009-11-23",
+      "airtime": "20:00",
+      "airstamp": "2009-11-24T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>BRENT ALBRIGHT vs. KENNY KING (w/Rhett Titus)</p><p>D-LO BROWN vs. SAL RINAURO<br></p><p>THE SUPER SMASH BROTHERS (PLAYER UNO &amp; PLAYER DOS) vs BRANDON DAY &amp; JOHN KERMON<br></p><p>Nigel's farewell.</p><p>ROH tag champions THE AMERICAN WOLVES (DAVEY RICHARDS &amp; EDDIE EDWARDS with Shane Hagadorn) vs. THE YOUNG BUCKS (MATT JACKSON &amp; NICK JACKSON) -- ROH Tag Title match<br></p><p><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065869"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065870,
+      "url": "https://www.tvmaze.com/episodes/1065870/roh-on-hdnet-1x36-episode-36-roh-tag-title-match-austin-aries-vs-colt-cabana",
+      "name": "Episode #36 - ROH Tag Title match - Austin Aries vs. Colt Cabana",
+      "season": 1,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2009-11-30",
+      "airtime": "20:00",
+      "airstamp": "2009-12-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CLAUDIO CASTAGNOLI vs. EDDIE KINGSTON</p><p>THE BRISCOES (JAY BRISCOE &amp; MARK BRISCOE) vs. THE DARK CITY FIGHT CLUB (JON DAVIS &amp; KORY CHAVIS)<br></p><p>KEVIN STEEN &amp; EL GENERICO vs. THE SET (LANCE LEWD &amp; JAY SIN)<br></p><p>ROH champion AUSTIN ARIES vs. COLT \"BOOM BOOM\" CABANA -- non-title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065870"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065892,
+      "url": "https://www.tvmaze.com/episodes/1065892/roh-on-hdnet-1x37-episode-37-austin-aries-vs-kenny-omega-vs-roderick-strong-vs-davey-richards-for-the-roh-championship",
+      "name": "Episode #37 - Austin Aries vs Kenny Omega vs Roderick Strong vs Davey Richards for the ROH Championship",
+      "season": 1,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2009-12-07",
+      "airtime": "20:00",
+      "airstamp": "2009-12-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jim Cornette arrives</p><p>THE BRISCOES (JAY BRISCOE &amp; MARK BRISCOE) vs. KEVIN STEEN &amp; EL GENERICO</p><p>ROH World champion AUSTIN ARIES vs. KENNY OMEGA vs. RODERICK STRONG vs. DAVEY RICHARDS (with Shane Hagadorn, Eddie Edwards, and Sara Del Rey) -- Four-way ROH World Title match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065892"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065893,
+      "url": "https://www.tvmaze.com/episodes/1065893/roh-on-hdnet-1x38-episode-38-tyler-black-vs-sonjay-dutt",
+      "name": "Episode #38 - Tyler Black vs. Sonjay Dutt",
+      "season": 1,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2009-12-14",
+      "airtime": "20:00",
+      "airstamp": "2009-12-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DELIRIOUS (w/Daizee Haze) vs. KENNY KING (w/Rhett Titus) -- Pick 6 Contender's Series match</p><p>STEVE CORINO vs. LANCE LEWD<br></p><p>ERICK STEVENS vs. ROBBIE MARCEL<br></p><p>TYLER BLACK vs. SONJAY DUTT -- Pick 6 Contender's Series match<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065893"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065894,
+      "url": "https://www.tvmaze.com/episodes/1065894/roh-on-hdnet-1x39-episode-39-colt-cabana-vs-claudio-castagnoli",
+      "name": "Episode #39 - Colt Cabana vs. Claudio Castagnoli",
+      "season": 1,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2009-12-21",
+      "airtime": "20:00",
+      "airstamp": "2009-12-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CHRIS HERO (w/Shane Hagadorn and Sara Del Rey) vs. KYLE O'REILLY</p><p>NECRO BUTCHER vs. JOEY RYAN (w/Prince Nana and Ernesto Osiris)<br></p><p>COLT CABANA vs. CLAUDIO CASTAGNOLI (w/Prince Nana and Ernesto Osiris) - Pick 6 Contenders Series Match<br></p><p>COLT CABANA Video by Kidd Russell.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065894"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065896,
+      "url": "https://www.tvmaze.com/episodes/1065896/roh-on-hdnet-1x40-episode-40-best-of-2009",
+      "name": "Episode #40 - Best of 2009",
+      "season": 1,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2009-12-28",
+      "airtime": "20:00",
+      "airstamp": "2009-12-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Best of 2009 ROH on HDNet</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065896"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065898,
+      "url": "https://www.tvmaze.com/episodes/1065898/roh-on-hdnet-2x01-episode-41-roderick-strong-vs-davey-richards",
+      "name": "Episode #41 - Roderick Strong vs. Davey Richards",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2010-01-04",
+      "airtime": "20:00",
+      "airstamp": "2010-01-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>CLAUDIO CASTAGNOLI (w/Prince Nana and Ernesto Osiris) vs. EDDIE KINGSTON</p><p>STEVE CORINO vs. ANDY \"RIGHT LEG\" RIDGE</p><p>EL GENERICO vs. RHETT TITUS</p><p>Pick 6 Contenders Series Match: DAVEY RICHARDS (w/Shane Hagadorn and Sara Del Rey) vs. RODERICK STRONG</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065898"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065901,
+      "url": "https://www.tvmaze.com/episodes/1065901/roh-on-hdnet-2x02-episode-42-kenny-omega-vs-chris-hero",
+      "name": "Episode #42 - Kenny Omega vs. Chris Hero",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2010-01-11",
+      "airtime": "20:00",
+      "airstamp": "2010-01-12T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NECRO BUTCHER vs. JOEY RYAN (w/Prince Nana and Ernesto Osiris) - Anything Goes Match</p><p>COLT CABANA vs. TONY KOZINA<br></p><p>\"SUGARFOOT\" ALEX PAYNE vs. KEVIN STEEN<br></p><p>Pick 6 Contenders Series Match: CHRIS HERO (w/Shane Hagadorn &amp; Sara Del Rey) vs. KENNY OMEGA<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065901"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065903,
+      "url": "https://www.tvmaze.com/episodes/1065903/roh-on-hdnet-2x03-episode-43-austin-aries-kenny-king-vs-tyler-black-colt-cabana",
+      "name": "Episode #43 - Austin Aries & Kenny King vs. Tyler Black & Colt Cabana",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2010-01-18",
+      "airtime": "20:00",
+      "airstamp": "2010-01-19T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>DELIRIOUS (w/Daizee Haze) vs. SONJAY DUTT - Submission Match</p><p>Pick 6 Contenders Series Match: JAY BRISCOE vs. MARK BRISCOE<br></p><p>HARLEM BRAVADO vs. ERICK STEVENS (w/Prince Nana, Joey Ryan, and Ernesto Osiris)<br></p><p>ROH champion AUSTIN ARIES &amp; KENNY KING vs. TYLER BLACK &amp; COLT \"BOOM BOOM\" CABANA<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065903"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065912,
+      "url": "https://www.tvmaze.com/episodes/1065912/roh-on-hdnet-2x04-episode-44-kenny-king-vs-el-generico",
+      "name": "Episode #44 - Kenny King vs. El Generico​",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2010-01-25",
+      "airtime": "20:00",
+      "airstamp": "2010-01-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Briscoes vs. Cheech and Cloudy<br>Skullkrusher Raschke Brown vs. Bobby Shields<br>Kenny King vs. El Generico</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065912"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065913,
+      "url": "https://www.tvmaze.com/episodes/1065913/roh-on-hdnet-2x05-episode-45-tyler-black-vs-roderick-strong",
+      "name": "Episode #45 - Tyler Black vs. Roderick Strong​",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2010-02-01",
+      "airtime": "20:00",
+      "airstamp": "2010-02-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Delirious vs. Rhett Titus<br>Colt Cabana vs. Sonjay Dutt<br>Tyler Black vs. Roderick Strong</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065913"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065919,
+      "url": "https://www.tvmaze.com/episodes/1065919/roh-on-hdnet-2x06-episode-46-wolves-vs-bucks-ii",
+      "name": "Episode #46 - Wolves vs Bucks II",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2010-02-08",
+      "airtime": "20:00",
+      "airstamp": "2010-02-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Dark City Fight Club in action<br>Steve Corino and Kevin Steen vs. Alex Payne and Bobby Dempsey<br>The American Wolves vs. The Young Bucks</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1065962,
+      "url": "https://www.tvmaze.com/episodes/1065962/roh-on-hdnet-2x07-episode-47-steen-vs-delirious",
+      "name": "Episode #47 - Steen vs Delirious",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2010-02-15",
+      "airtime": "20:00",
+      "airstamp": "2010-02-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>\"Skullcrusher\" Rasche Brown In Action<br>Sonjay Dutt and Andy Ridge vs. Cheech and Cloudy<br>Erick Stevens and Joey Ryan vs. Necro Butcher and Eddie Kingston<br>Kevin Steen vs. Delirious</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1065962"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066002,
+      "url": "https://www.tvmaze.com/episodes/1066002/roh-on-hdnet-2x08-episode-48-briscoes-vs-the-bucks-for-the-roh-tag-team-championship",
+      "name": "Episode #48 - Briscoes vs The Bucks for the ROH Tag Team Championship",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2010-02-22",
+      "airtime": "20:00",
+      "airstamp": "2010-02-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Colt Cabana vs. Bobby Sheilds<br>Rhett Titus vs. El Generico<br>Tag Team Title Match: Jay and Mark Briscoe © vs. The Young Bucks</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066002"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066010,
+      "url": "https://www.tvmaze.com/episodes/1066010/roh-on-hdnet-2x09-episode-49-austin-aries-and-kenny-king-vs-tyler-black-and-roderick-strong",
+      "name": "Episode #49 - Austin Aries and Kenny King vs. Tyler Black and Roderick Strong​",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2010-03-01",
+      "airtime": "20:00",
+      "airstamp": "2010-03-02T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Handicap Match: \"Skullcrusher\" Rasche Brown vs. The Set<br>Sara Del Rey vs. Portia Perez<br>Bobby Dempsey vs. Steve Corino<br>The American Wolves vs. Dark City Fight Club<br>Austin Aries and Kenny King vs. Tyler Black and Roderick Strong</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066010"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066011,
+      "url": "https://www.tvmaze.com/episodes/1066011/roh-on-hdnet-2x10-episode-50-kevin-steen-vs-rhett-titus",
+      "name": "Episode #50 - Kevin Steen vs. Rhett Titu​s",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2010-03-08",
+      "airtime": "20:00",
+      "airstamp": "2010-03-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Kings of Wrestling vs. Bravado Brothers<br>Rasche Brown vs. Caleb Konley<br>ROH World TV Title Tournament First Round Match: El Generico vs. Kenny King<br>ROH World TV Title Tournament First Round Match: Kevin Steen vs. Rhett Titus</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066011"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066014,
+      "url": "https://www.tvmaze.com/episodes/1066014/roh-on-hdnet-2x11-episode-51-colt-cabana-vs-eddie-edwards",
+      "name": "Episode #51 - Colt Cabana vs. Eddie Edwards",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2010-03-15",
+      "airtime": "20:00",
+      "airstamp": "2010-03-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kyle O' Reilly vs. Tony Kozina<br>Dark City Fight Club vs. The Set<br>ROH TV Title Tournament Match: Davey Richards vs. Delirious<br>ROH TV Title Tournament Match: Colt Cabana vs. Eddie Edwards<br>Plus, Jim Cornette interviews Shawn Daivari. Also, interviews with Tyler Black, Austin Aries, and Roderick Strong.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066014"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066680,
+      "url": "https://www.tvmaze.com/episodes/1066680/roh-on-hdnet-2x12-episode-52-chris-hero-vs-jay-briscoe",
+      "name": "Episode #52 - Chris Hero vs Jay Briscoe",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2010-04-05",
+      "airtime": "20:00",
+      "airstamp": "2010-04-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Singles Match</p><p>Bobby Shields vs. Steve Corino</p><p>Tag Team Match</p><p>The Dark City Fight Club (Jon Davis &amp; Kory Chavis) vs. The Set (J-Sin &amp; Lance Lude)</p><p>Singles Match</p><p>Erick Stevens (w/Mr. Ernesto Osiris &amp; Prince Nana) vs. Pelle Primeau</p><p>Singles Match</p><p>Chris Hero (w/Claudio Castagnoli, Sara Del Rey &amp; Shane Hagadorn) vs. Jay Briscoe (w/Mark Briscoe)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066680"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066683,
+      "url": "https://www.tvmaze.com/episodes/1066683/roh-on-hdnet-2x13-episode-53-kevin-steen-vs-eddie-edwards",
+      "name": "Episode #53 - Kevin Steen vs. Eddie Edwards",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2010-04-12",
+      "airtime": "20:00",
+      "airstamp": "2010-04-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jerry Lynn returns<br>Jim Cornette interview with ROH World Champion Tyler Black<br>El Generico vs. Steve Corino<br>World TV Title Tournament Semi-Finals: Kevin Steen vs. Eddie Edwards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066683"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066684,
+      "url": "https://www.tvmaze.com/episodes/1066684/roh-on-hdnet-2x14-episode-54-kenny-king-vs-davey-richards",
+      "name": "Episode #54 - Kenny King vs. Davey Richards",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2010-04-19",
+      "airtime": "20:00",
+      "airstamp": "2010-04-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jay and Mark Briscoe vs. Josh Raymond and Christin Able<br>Colt Cabana vs. Ricky Reyes<br>World TV Title Tournament Semi-Finals: Kenny King vs. Davey Richards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066684"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066686,
+      "url": "https://www.tvmaze.com/episodes/1066686/roh-on-hdnet-2x15-episode-55-tv-title-tournament-finals",
+      "name": "Episode #55 - TV Title Tournament Finals",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2010-04-26",
+      "airtime": "20:00",
+      "airstamp": "2010-04-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Shawn Daivari speaks his mind…<br>\"Skullkrusher\" Rasche Brown in action<br>Non-Title Match: ROH World Champion Tyler Black vs. Rhett Titus<br>ROH World TV Title Tournament Finals: Davey Richards vs. Eddie Edwards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066686"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066687,
+      "url": "https://www.tvmaze.com/episodes/1066687/roh-on-hdnet-2x16-episode-56-austin-aries-vs-delirious",
+      "name": "Episode #56 - Austin Aries vs. Delirious​",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2010-05-03",
+      "airtime": "20:00",
+      "airstamp": "2010-05-04T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tyler Black talks about his World Title defense this coming weekend against Roderick Strong<br>Austin Aries sit down interview Pt. 2<br>The Dark City Fight Club in action<br>The Necro Butcher in action<br>Pick 6 Series Match: Roderick Strong vs. Joey Ryan<br>Austin Aries vs. Delirious</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066687"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066688,
+      "url": "https://www.tvmaze.com/episodes/1066688/roh-on-hdnet-2x17-episode-57-jay-and-mark-briscoe-vs-the-dark-city-fight-club",
+      "name": "Episode #57 - Jay and Mark Briscoe vs. The Dark City Fight Club​",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2010-05-10",
+      "airtime": "20:00",
+      "airstamp": "2010-05-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Austin Aries talks about injuring Delirious<br>Prince Nana reveals the newest member of The Embassy<br>Pick 6 Contender's Series Battle Royal<br>#1 Contender's Match: Jay and Mark Briscoe vs. The Dark City Fight Club</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066688"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066689,
+      "url": "https://www.tvmaze.com/episodes/1066689/roh-on-hdnet-2x18-episode-58-kevin-steen-vs-roderick-strong",
+      "name": "Episode #58 - Kevin Steen vs. Roderick Strong",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2010-05-17",
+      "airtime": "20:00",
+      "airstamp": "2010-05-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>World Tag Team Champion Claudio Castagnoli in action<br>Update on Delirious following his injury last week by Austin Aries<br>Colt Cabana interview<br>Kenny King and Rhett Titus vs. Josh Raymond and Christin Able<br>Pick 6 Contender's Series: Kevin Steen vs. Roderick Strong<br>Plus another chance to see the final eight minutes of what are calling the best TV match in 2010. The finals of the TV Title Tournament – Eddie Edwards vs. Davey Richards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066689"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066690,
+      "url": "https://www.tvmaze.com/episodes/1066690/roh-on-hdnet-2x19-episode-59-world-tv-title-match-eddie-edwards-defends-vs-colt-cabana",
+      "name": "Episode #59 - World TV Title Match: Eddie Edwards defends vs. Colt Cabana",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2010-05-24",
+      "airtime": "20:00",
+      "airstamp": "2010-05-25T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>World TV Title Match: Eddie Edwards defends vs. Colt Cabana<br>Joey Ryan vs. Eddie Kingston<br>Interview with Steve Corino<br>Interview with Austin Aries<br>HDNet Exclusive footage from Supercard of Honor V from New York City including the return of Balls Mahoney, Amazing Kong, and Christopher Daniels.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066690"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066691,
+      "url": "https://www.tvmaze.com/episodes/1066691/roh-on-hdnet-2x20-episode-60-non-title-match-tyler-black-vs-austin-aries",
+      "name": "Episode #60 - Non-Title Match: Tyler Black vs. Austin Aries​",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2010-06-07",
+      "airtime": "20:00",
+      "airstamp": "2010-06-08T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>A very special video package for Death Before Dishonor VIII – Black vs. Richards<br>Jerry Lynn vs. Steve Corino<br>El Generico vs. Ricky Reyes<br>Non-Title Match: Tyler Black © vs. Austin Aries</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066691"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066692,
+      "url": "https://www.tvmaze.com/episodes/1066692/roh-on-hdnet-2x21-episode-61-colt-cabana-vs-steve-corino",
+      "name": "Episode #61 - Colt Cabana vs. Steve Corino",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2010-06-14",
+      "airtime": "20:00",
+      "airstamp": "2010-06-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tyler Black/Davey Richards Death Before Dishonor VIII Contract Signing<br>Colt Cabana vs. Steve Corino<br>A special interview with Mike Briscoe (Jay &amp; Mark Briscoe's father)<br>Jay and Mark Briscoe vs. Bob Evans and Sid Reeves<br>\"The Fallen Angel\" Christopher Daniels vs. Bobby Shields</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066692"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066749,
+      "url": "https://www.tvmaze.com/episodes/1066749/roh-on-hdnet-2x22-episode-62-delirious-jerry-lynn-vs-the-all-night-express",
+      "name": "Episode #62 - Delirious & Jerry Lynn vs. The All-Night Express",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2010-06-21",
+      "airtime": "20:00",
+      "airstamp": "2010-06-22T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Eddie Edwards vs. Nick Westgate</p><p>Reggie vs. Sara Del Rey (w/Chris Hero, Claudio Castagnoli &amp; Shane Hagadorn)</p><p>Rasche Brown vs. Ricky Reyes</p><p>Delirious &amp; Jerry Lynn (w/Daizee Haze) vs. The All-Night Express (Kenny King &amp; Rhett Titus) (w/Austin Aries)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066749"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066750,
+      "url": "https://www.tvmaze.com/episodes/1066750/roh-on-hdnet-2x23-episode-63-roh-world-champion-tyler-black-vs-el-generico",
+      "name": "Episode #63 - ROH World Champion Tyler Black vs. El Generico",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2010-06-28",
+      "airtime": "20:00",
+      "airstamp": "2010-06-29T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH World Champion Tyler Black vs. El Generico<br>Necro Butcher vs. Erick Stevens (w/Prince Nana)<br>Cheech and Cloudy vs. Josh Raymond and Christian Able<br>Kevin Steen vs. Bobby Shields<br>Plus your first look at extended highlights from Death Before Dishonor VIII</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066750"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066751,
+      "url": "https://www.tvmaze.com/episodes/1066751/roh-on-hdnet-2x24-episode-64-the-dark-city-fight-club-vs-kings-of-wrestling",
+      "name": "Episode #64 - The Dark City Fight Club vs. Kings of Wrestling",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2010-07-05",
+      "airtime": "20:00",
+      "airstamp": "2010-07-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Dark City Fight Club vs. Kings of Wrestling<br>Daizee Haze vs. Jamilia Craft<br>\"The Fallen Angel\" Christopher Daniels &amp; Roderick Strong vs. American Wolves<br>Plus Prince Nana speaks on the new Crown Jewel of the Embassy – The Necro Butcher.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066751"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066752,
+      "url": "https://www.tvmaze.com/episodes/1066752/roh-on-hdnet-2x25-episode-65-roh-world-champion-tyler-black-jerry-lynn-delirious-vs-austin-aries-the-all-night-express",
+      "name": "Episode #65 - ROH World Champion Tyler Black, Jerry Lynn & Delirious vs. Austin Aries & The All Night Express",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2010-07-12",
+      "airtime": "20:00",
+      "airstamp": "2010-07-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH World Champion Tyler Black, Jerry Lynn &amp; Delirious vs. Austin Aries &amp; The All Night Express (Rhett Titus &amp; Kenny King)<br>Eddie Edward's \"Ten Minute Hunt\" – Eddie Edwards vs. Andy \"Right Leg\" Ridge<br>\"The Crown Jewel\" Necro Butcher vs. Bobby Beverly<br>Plus Roderick Strong introduces the one person who speaks the \"Truth\"</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066752"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066753,
+      "url": "https://www.tvmaze.com/episodes/1066753/roh-on-hdnet-2x26-episode-66-anything-goes-street-fight-el-generico-and-colt-cabana-vs-steve-corino-and-kevin-steen",
+      "name": "Episode #66 - Anything Goes Street Fight: El Generico and Colt Cabana vs. Steve Corino and Kevin Steen",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2010-07-19",
+      "airtime": "20:00",
+      "airstamp": "2010-07-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Anything Goes Street Fight: El Generico and Colt Cabana vs. Steve Corino and Kevin Steen</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066753"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066754,
+      "url": "https://www.tvmaze.com/episodes/1066754/roh-on-hdnet-2x27-episode-67-christopher-daniels-vs-roderick-strong",
+      "name": "Episode #67 - Christopher Daniels vs. Roderick Strong​",
+      "season": 2,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2010-07-26",
+      "airtime": "20:00",
+      "airstamp": "2010-07-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kings of Wrestling \"Open Challenge\" vs. Three Teams<br>Dark City Fight Club vs. The American Wolves<br>Christopher Daniels vs. Roderick Strong</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066754"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066755,
+      "url": "https://www.tvmaze.com/episodes/1066755/roh-on-hdnet-2x28-episode-68-jay-briscoe-vs-claudio-castagnoli",
+      "name": "Episode #68 - Jay Briscoe vs. Claudio Castagnoli",
+      "season": 2,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2010-08-02",
+      "airtime": "20:00",
+      "airstamp": "2010-08-03T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jay Briscoe vs. Claudio Castagnoli<br>Mark Briscoe vs. Chris Hero<br>Delirious vs. Austin Aries<br>Dark City Fight Club vs. The Embassy (Daivari &amp; Osiris)<br>Eddie Edwards' 10 Minute Hunt</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066798,
+      "url": "https://www.tvmaze.com/episodes/1066798/roh-on-hdnet-2x29-episode-29-champion-tyler-black-vs-christopher-daniels-non-title",
+      "name": "Episode #29 - Champion Tyler Black vs Christopher Daniels (Non-Title)",
+      "season": 2,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2010-08-09",
+      "airtime": "20:00",
+      "airstamp": "2010-08-10T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Necro Butcher vs. Rasche Brown</p><p>Alex Anthony vs. Colt Cabana</p><p>Christopher Daniels vs. Tyler Black</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066798"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066804,
+      "url": "https://www.tvmaze.com/episodes/1066804/roh-on-hdnet-2x30-episode-70-davey-richards-vs-roderick-strong",
+      "name": "Episode #70 - Davey Richards vs. Roderick Strong",
+      "season": 2,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2010-08-16",
+      "airtime": "20:00",
+      "airstamp": "2010-08-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Davey Richards vs. Roderick Strong – Winner gets an ROH World Title match<br>Jerry Lynn vs. Rhett Titus w/Austin Aries<br>El Generico vs. Erick Stevens<br>The House of Truth w/Truth Martini vs. Mike Sydal and Aiden Chambers</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066804"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066805,
+      "url": "https://www.tvmaze.com/episodes/1066805/roh-on-hdnet-2x31-episode-71-jerry-lynn-vs-kevin-steen",
+      "name": "Episode #71 - Jerry Lynn vs. Kevin Steen",
+      "season": 2,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2010-08-23",
+      "airtime": "20:00",
+      "airstamp": "2010-08-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jerry Lynn vs. Kevin Steen<br>The Briscoe Brothers vs. Alex Anthony &amp; Bobby Shields<br>The Embassy vs. The Dark City Fight Club, Grizzly Redwood, and Rasche Brown<br>Footage of the confrontation between Shane Hagadorn &amp; Davey Richards from after last week's ROH on HDNet</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066805"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066817,
+      "url": "https://www.tvmaze.com/episodes/1066817/roh-on-hdnet-2x32-episode-72-roh-world-champion-tyler-black-vs-steve-corino",
+      "name": "Episode #72 - ROH World Champion Tyler Black vs. Steve Corino​",
+      "season": 2,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2010-08-30",
+      "airtime": "20:00",
+      "airstamp": "2010-08-31T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tyler Black interview regarding his future plans<br>ROH World TV Champion Eddie Edwards 10 Minute Hunt<br>Roderick Strong and The House of Truth vs. Jay Freddie, Mike Bennett, Andy \"Right Leg\" Ridge<br>ROH World Tag Team Champions The Kings of Wrestling vs. El Generico and Colt Cabana<br>ROH World Champion Tyler Black vs. Steve Corino</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066817"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066818,
+      "url": "https://www.tvmaze.com/episodes/1066818/roh-on-hdnet-2x33-episode-73-lumberjack-match-austin-aries-vs-delirious",
+      "name": "Episode #73 - Lumberjack Match: Austin Aries vs. Delirious",
+      "season": 2,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2010-09-13",
+      "airtime": "20:00",
+      "airstamp": "2010-09-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Lumberjack Match: Austin Aries vs. Delirious<br>Christopher Daniels vs. \"Addicted To Love\" Rhett Titus<br>The American Wolves vs. The Super Smash Brothers<br>The House of Truth in action<br>Sitdown interview with Davey Richards which aired during \"Glory By Honor IX\" discussing his career.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066818"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066819,
+      "url": "https://www.tvmaze.com/episodes/1066819/roh-on-hdnet-2x34-episode-74-steel-cage-match-austin-aries-vs-delirious",
+      "name": "Episode #74 - Steel Cage Match: Austin Aries vs. Delirious",
+      "season": 2,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2010-09-20",
+      "airtime": "20:00",
+      "airstamp": "2010-09-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Steel Cage Match: Austin Aries vs. Delirious<br>Dark City Fight Club vs. Necro Butcher and Erick Sevens<br>Sara Del Rey vs. Taeler Hendrix<br>Colt Cabana in action</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066819"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066820,
+      "url": "https://www.tvmaze.com/episodes/1066820/roh-on-hdnet-2x35-episode-75-christopher-daniels-and-the-briscoe-brothers-vs-roh-champion-roderick-strong-and-the-house-of-truth",
+      "name": "Episode #75 - Christopher Daniels and The Briscoe Brothers vs. ROH Champion Roderick Strong and The House of Truth",
+      "season": 2,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2010-09-27",
+      "airtime": "20:00",
+      "airstamp": "2010-09-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Footage of Charlie Haas and Shelton Benjamin from Glory By Honor IX<br>Steve Corino in action<br>Daizee Haze vs. Rachel Summerlyn<br>World Tag Team Champions The Kings of Wrestling vs. Super Smash Brothers<br>Christopher Daniels and The Briscoe Brothers vs. ROH World Champion Roderick Strong and The House of Truth (w/Truth Martini)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066820"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066821,
+      "url": "https://www.tvmaze.com/episodes/1066821/roh-on-hdnet-2x36-episode-76-pick-your-poison-kevin-steen-chooses-el-genericos-opponent",
+      "name": "Episode #76 - Pick Your Poison: Kevin Steen chooses El Generico's opponent",
+      "season": 2,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2010-10-04",
+      "airtime": "20:00",
+      "airstamp": "2010-10-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Pick Your Poison: Kevin Steen chooses El Generico's opponent: El Generico vs. ???<br>Tyler Black vs. Mike Sydal <br>See how Jim Cornette changed Eddie Edwards 10 Minute Hunt into an ROH World TV Title Match vs. Kenny King!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066821"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066822,
+      "url": "https://www.tvmaze.com/episodes/1066822/roh-on-hdnet-2x37-episode-77-roh-champion-roderick-strong-vs-christopher-daniels-non-title",
+      "name": "Episode #77 - ROH Champion Roderick Strong vs. Christopher Daniels (Non-Title)",
+      "season": 2,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2010-10-11",
+      "airtime": "20:00",
+      "airstamp": "2010-10-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Non Title Match: ROH World Champion Roderick Strong vs. Christopher Daniels<br>Pick Your Poison: El Generico will choose Kevin Steen's opponent<br>The All Night Express vs. The Dark City Fight Club<br>Plus Shane Hagadorn has promised to call out Davey Richards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066822"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066823,
+      "url": "https://www.tvmaze.com/episodes/1066823/roh-on-hdnet-2x38-episode-78-black-vs-richards-ii",
+      "name": "Episode #78 - Black vs. Richards II",
+      "season": 2,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2010-10-18",
+      "airtime": "20:00",
+      "airstamp": "2010-10-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tyler Black vs. Davey Richards (Tyler's last match in ROH)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066823"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066824,
+      "url": "https://www.tvmaze.com/episodes/1066824/roh-on-hdnet-2x39-episode-79-briscoes-last-chance",
+      "name": "Episode #79 - Briscoes' Last Chance",
+      "season": 2,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2010-10-25",
+      "airtime": "20:00",
+      "airstamp": "2010-10-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Main Event: Briscoe's Last Chance At The World Tag Team Titles: The Kings of Wrestling defend vs. Jay and Mark Briscoe<br>Grizzly Redwood and Andy \"Right Leg\" Ridge vs. Necro Butcher and Erick Stevens<br>Super Smash Brothers vs. House of Truth</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066824"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066825,
+      "url": "https://www.tvmaze.com/episodes/1066825/roh-on-hdnet-2x40-episode-80-caged-hatred-steenorino-vs-cabanerico",
+      "name": "Episode #80 - Caged Hatred – Steenorino vs. Cabanerico",
+      "season": 2,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2010-11-01",
+      "airtime": "20:00",
+      "airstamp": "2010-11-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>STEEL CAGE MATCH: El Generico &amp; Colt Cabana vs. Kevin Steen &amp; Steve Corino<br>World TV Title Match: Eddie Edwards (Champion) vs. Rhett Titus (Challenger)<br>Women of Honor Match: Rachel Summerlyn vs. Sara Del Rey</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066825"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066826,
+      "url": "https://www.tvmaze.com/episodes/1066826/roh-on-hdnet-2x41-episode-81-the-fight-club-comes-to-the-kingdom",
+      "name": "Episode #81 - The Fight Club comes to the Kingdom",
+      "season": 2,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2010-11-08",
+      "airtime": "20:00",
+      "airstamp": "2010-11-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Main Event: World Tag Team Champions The Kings of Wrestling with Shane Hagadorn vs. The Dark City Fight Club<br>World TV Title Match: Eddie Edwards defends vs. The Necro Butcher with Prince Nana<br>Adam Cole and Kyle O'Reilly vs. The Bravado Brothers<br>Christopher Daniels gives one last interview exclusive to HDNet before his World Title Match in Toronto.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066826"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066827,
+      "url": "https://www.tvmaze.com/episodes/1066827/roh-on-hdnet-2x42-episode-82-briscoes-vs-rhett-aries",
+      "name": "Episode #82 - Briscoes vs. Rhett & Aries",
+      "season": 2,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2010-11-15",
+      "airtime": "20:00",
+      "airstamp": "2010-11-16T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Main Event: The Briscoe Brothers vs. Rhett Titus &amp; Austin Aries<br>Grizzly Redwood vs. Kevin Steen<br>Homicide vs. Tony Kozina<br>Plus a special in ring interview with ROH World Champion Roderick Strong about his Final Battle World Title defense vs. Davey Richards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066827"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066828,
+      "url": "https://www.tvmaze.com/episodes/1066828/roh-on-hdnet-2x43-episode-83-this-week-belongs-to-the-women-of-honor",
+      "name": "Episode #83 - This Week Belongs to the Women of Honor",
+      "season": 2,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2010-11-22",
+      "airtime": "20:00",
+      "airstamp": "2010-11-23T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Main Event: Davey Richards vs. Shawn Daivari<br>Winner receives a ROH World TV Title Match: Colt Cabana vs. Erick Stevens (w/Prince Nana)<br>Women of Honor: Daizee Haze vs. Sara Del Rey<br>Plus Jim Cornette brings the Kings of Wrestling &amp; Shane Hagadorn face to face with their Final Battle 2010 opponents</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066828"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066829,
+      "url": "https://www.tvmaze.com/episodes/1066829/roh-on-hdnet-2x44-episode-84-butchers-rules",
+      "name": "Episode #84 - Butcher's Rules",
+      "season": 2,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2010-11-29",
+      "airtime": "20:00",
+      "airstamp": "2010-11-30T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Butcher's Rules: Homicide vs. Necro Butcher<br>Steve Corino vs. El Generico<br>Jon Davis vs. Rhett Titus<br>Adam Cole &amp; Kyle O'Reilly vs. Grizzly Redwood and Mike Sydal<br>The Debut of The Prodigy in a special interview with Jim Cornette</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066829"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066830,
+      "url": "https://www.tvmaze.com/episodes/1066830/roh-on-hdnet-2x45-episode-85-daveys-final-tune-up",
+      "name": "Episode #85 - Davey's Final Tune-Up",
+      "season": 2,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2010-12-06",
+      "airtime": "20:00",
+      "airstamp": "2010-12-07T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Davey Richards vs. Erick Stevens<br>ROH TV champion Eddie Edwards vs. Colt Cabana<br>El Generico vs. Bobby Shields.<br>ROH Tag Team champions The Kings of Wrestling's Public Workout.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066830"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066831,
+      "url": "https://www.tvmaze.com/episodes/1066831/roh-on-hdnet-2x46-episode-86-roh-champion-roderick-strong-vs-austin-aries",
+      "name": "Episode #86 - ROH Champion Roderick Strong vs. Austin Aries",
+      "season": 2,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2010-12-13",
+      "airtime": "20:00",
+      "airstamp": "2010-12-14T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH World Champion Roderick Strong (w/Truth Martini) vs. Austin Aries<br>Taeler Hendrix vs. Daizee Haze<br>Kevin Steen vs. Kory Chavis<br>Special Interview with Davey Richards – conducted by Jim Cornette</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066831"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066832,
+      "url": "https://www.tvmaze.com/episodes/1066832/roh-on-hdnet-2x47-episode-87-holiday-gauntlet-match",
+      "name": "Episode #87 - Holiday Gauntlet Match",
+      "season": 2,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2010-12-20",
+      "airtime": "20:00",
+      "airstamp": "2010-12-21T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Chris Hero vs. Christopher Daniels vs. Claudio Castagnoli vs. Davey Richards vs. Jay Briscoe vs. Rhett Titus vs. Roderick Strong vs. Steve Corino</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066832"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066833,
+      "url": "https://www.tvmaze.com/episodes/1066833/roh-on-hdnet-2x48-episode-88-best-of-2010",
+      "name": "Episode #88 - Best of 2010",
+      "season": 2,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2010-12-27",
+      "airtime": "20:00",
+      "airstamp": "2010-12-28T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Best of 2010</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066833"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066834,
+      "url": "https://www.tvmaze.com/episodes/1066834/roh-on-hdnet-3x01-episode-89-the-worlds-greatest-tag-teams-return-to-television",
+      "name": "Episode #89 - The World's Greatest Tag Team's Return to Television",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2011-01-03",
+      "airtime": "20:00",
+      "airstamp": "2011-01-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Eddie Edwards vs. Mark Briscoe in a World TV Title match<br>Mike Mondo vs. Grizzly Redwood<br>The World's Greatest Tag Team vs. The Bravado Brothers<br>Claudio Castagnoli vs. Homicide</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066834"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066835,
+      "url": "https://www.tvmaze.com/episodes/1066835/roh-on-hdnet-3x02-episode-90-colt-cabana-vs-roderick-strong-non-title",
+      "name": "Episode #90 - Colt Cabana vs. Roderick Strong (Non-Title)",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2011-01-10",
+      "airtime": "20:00",
+      "airstamp": "2011-01-11T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Bennett (w/Bob Evans) vs. Nick Dinsmore</p><p>Adam Cole &amp; Kyle O'Reilly vs. Corey Hollis &amp; Mike Posey</p><p>Colt Cabana vs. Roderick Strong (w/Truth Martini)</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066835"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066855,
+      "url": "https://www.tvmaze.com/episodes/1066855/roh-on-hdnet-3x03-episode-91-a-king-vs-an-angel",
+      "name": "Episode #91 - A King vs. An Angel",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2011-01-17",
+      "airtime": "20:00",
+      "airstamp": "2011-01-18T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Jay and Mark Briscoe in action<br>Jim Cornette interviews Charlie Haas and Shelton Benjamin<br>Daizee Haze vs. MsChif<br>Chris Hero vs. Christopher Daniels</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066855"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066859,
+      "url": "https://www.tvmaze.com/episodes/1066859/roh-on-hdnet-3x04-episode-92-all-night-express-vs-wrestlings-greatest-tag-team",
+      "name": "Episode #92 - All Night Express vs Wrestling's Greatest Tag Team",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2011-01-24",
+      "airtime": "20:00",
+      "airstamp": "2011-01-25T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kyle O'Reilly &amp; Adam Cole vs. Harlem &amp; Lance Bravado</p><p>Homicide vs. Oryan Bishop<br></p><p>Rhett Titus &amp; Kenny King vs. Charlie Haas &amp; Shelton Benjamin<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066859"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066860,
+      "url": "https://www.tvmaze.com/episodes/1066860/roh-on-hdnet-3x05-episode-93-edwards-vs-daniels",
+      "name": "Episode #93 - Edwards vs. Daniels",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2011-01-31",
+      "airtime": "20:00",
+      "airstamp": "2011-02-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mike Mondo vs. Colt Cabana</p><p>The House of Truth (Michael Elgin &amp; Roderick Strong) vs. Alex Silva &amp; Chrisjen Hayme<br></p><p>Sara Del Rey vs. Taeler Hendrix<br></p><p>Edwards vs. Daniels for TV Championship<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066860"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066861,
+      "url": "https://www.tvmaze.com/episodes/1066861/roh-on-hdnet-3x06-episode-94-the-tag-divisions-top-teams-go-to-war",
+      "name": "Episode #94 - The Tag Division's Top Teams Go to War!",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2011-02-07",
+      "airtime": "20:00",
+      "airstamp": "2011-02-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>\"The Prodigy\" Mike Bennett vs. Grizzly Redwood<br>Chris Hero, Claudio Castagnoli, Rhett Titus, &amp; Kenny King vs. Jay Briscoe, Mark Briscoe, Charlie Haas, &amp; Shelton Benjamin</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066861"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066862,
+      "url": "https://www.tvmaze.com/episodes/1066862/roh-on-hdnet-3x07-episode-95-the-top-prospect",
+      "name": "Episode #95 - The Top Prospect",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2011-02-14",
+      "airtime": "20:00",
+      "airstamp": "2011-02-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Homicide vs. Mark Briscoe</p><p>Kyle O'Reilly vs. Jonathan Gresham in the opening round of the Top Prospect Tournament<br></p><p><br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066862"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066863,
+      "url": "https://www.tvmaze.com/episodes/1066863/roh-on-hdnet-3x08-episode-96-king-1-vs-king-2-king-3-vs-titus",
+      "name": "Episode #96 - King 1 vs. King 2, King 3 vs. Titus",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2011-02-21",
+      "airtime": "20:00",
+      "airstamp": "2011-02-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH Tag Team champion Chris Hero vs. Kenny King<br>ROH Tag Team champion Claudio Castagnoli vs. Rhett Titus<br>ROH TV champion Christopher Daniels vs. Devon Storm<br>Jim Cornette interviews Davey Richards</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066863"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066864,
+      "url": "https://www.tvmaze.com/episodes/1066864/roh-on-hdnet-3x09-episode-97-top-prospect-continues",
+      "name": "Episode #97 - Top Prospect Continues",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2011-02-28",
+      "airtime": "20:00",
+      "airstamp": "2011-03-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>ROH TV champion Christopher Daniels vs. Kenny King.<br>Mike Bennett vs. Adam Cole<br>Bobby Dempsey vs. Michael Elgin<br>Grizzly Redwood vs. Andy Ridge</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066864"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066873,
+      "url": "https://www.tvmaze.com/episodes/1066873/roh-on-hdnet-3x10-episode-98-the-ring-of-honor-four-way-returns",
+      "name": "Episode #98 - The Ring of Honor Four-Way Returns!",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2011-03-07",
+      "airtime": "20:00",
+      "airstamp": "2011-03-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kyle O'Reilly vs. Michael Elgin</p><p>Andy Ridge vs. Mike Bennett<br></p><p>Roderick Strong vs. Homicide vs. Jay Briscoe vs. El Generico<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066873"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066874,
+      "url": "https://www.tvmaze.com/episodes/1066874/roh-on-hdnet-3x11-episode-99-the-top-prospect-is-crowned",
+      "name": "Episode #99 - The Top Prospect is Crowned",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2011-03-14",
+      "airtime": "20:00",
+      "airstamp": "2011-03-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Bravado Brothers vs. Bobby Dempsey &amp; Grizzly Redwood</p><p>Davey Richards vs. Tony Kozina<br></p><p>Mike Sydal vs. Tommaso Ciampa (w/Prince Nana)<br></p><p>Mike Bennett vs. Kyle O'Reilly<br></p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066874"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    },
+    {
+      "id": 1066875,
+      "url": "https://www.tvmaze.com/episodes/1066875/roh-on-hdnet-3x12-episode-100-final-episode",
+      "name": "Episode #100 - Final Episode",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2011-04-04",
+      "airtime": "20:00",
+      "airstamp": "2011-04-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Davey Richards and The Briscoes vs. ROH Champion Roderick Strong and ROH World Tag Team Champions The Kings of Wrestling</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1066875"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25120",
+          "name": "ROH on HDNET"
+        }
+      }
+    }
+  ]
+}

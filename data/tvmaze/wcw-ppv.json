@@ -1,0 +1,3259 @@
+{
+  "programId": "wcw-ppv",
+  "tvMazeId": 55749,
+  "fetchedAt": "2026-07-27T07:57:29.244Z",
+  "show": {
+    "id": 55749,
+    "url": "https://www.tvmaze.com/shows/55749/wcw-ppv",
+    "name": "WCW PPV",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 180,
+    "averageRuntime": 180,
+    "premiered": "1983-11-24",
+    "ended": "2001-03-18",
+    "officialSite": "https://watch.wwe.com/wcw-ppv",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 31,
+    "network": {
+      "id": 138,
+      "name": "Pay-Per-View",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/377/943245.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/377/943245.jpg"
+    },
+    "summary": "From 1983-1987 the events aired live on closed-circuit TV under the National Wrestling Alliance (NWA) banner. Beginning in 1987, the events started airing live on pay-per-view TV while still under the NWA banner. In November 1988 the company was rebranded as World Championship Wrestling. Beginning in 1991 and lasting until 2001, the pay-per-view events were promoted under the WCW banner.",
+    "updated": 1719518294,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/55749"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2106769",
+        "name": "Greed"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2106631,
+      "url": "https://www.tvmaze.com/episodes/2106631/wcw-ppv-1983-11-24-nwa-starrcade-1983-a-flare-for-the-gold",
+      "name": "NWA Starrcade 1983 A Flare For The Gold",
+      "season": 1983,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1983-11-24",
+      "airtime": "",
+      "airstamp": "1983-11-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Tag Team Match<br />Bugsy McGraw &amp; Rufus R. Jones vs. The Assassins (Assassin #1 &amp; Assassin #2) (w/Paul Jones)</p><p>Tag Team Match<br />Kevin Sullivan &amp; Mark Lewin (w/Gary Hart) vs. Johnny Weaver &amp; Scott McGhee</p><p>Singles Match<br />Abdullah The Butcher vs. Carlos Colon</p><p>Tag Team Match<br />Bob Orton Jr. &amp; Dick Slater vs. Mark Youngblood &amp; Wahoo McDaniel</p><p>NWA Television Title Vs. Mask Match<br />The Great Kabuki (w/Gary Hart) (c) vs. Charlie Brown</p><p>Dog Collar Match<br />Roddy Piper vs. Greg Valentine</p><p>NWA World Tag Team Title Match (Special Referee: Angelo Mosca)<br />The Brisco Brothers (Jack Brisco &amp; Jerry Brisco) (c) vs. Jay Youngblood &amp; Ricky Steamboat</p><p>NWA World Heavyweight Title Steel Cage Match (Special Referee: Gene Kiniski)<br />Harley Race (c) vs. Ric Flair</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106632,
+      "url": "https://www.tvmaze.com/episodes/2106632/wcw-ppv-1984-11-22-nwa-starrcade-84-the-million-dollar-challenge",
+      "name": "NWA Starrcade '84 The Million Dollar Challenge",
+      "season": 1984,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1984-11-22",
+      "airtime": "",
+      "airstamp": "1984-11-22T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106634,
+      "url": "https://www.tvmaze.com/episodes/2106634/wcw-ppv-1985-07-06-nwa-the-great-american-bash-1985",
+      "name": "NWA The Great American Bash 1985",
+      "season": 1985,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1985-07-06",
+      "airtime": "",
+      "airstamp": "1985-07-06T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106636,
+      "url": "https://www.tvmaze.com/episodes/2106636/wcw-ppv-1985-11-28-nwa-starrcade-85-the-gathering",
+      "name": "NWA Starrcade '85 The Gathering",
+      "season": 1985,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1985-11-28",
+      "airtime": "",
+      "airstamp": "1985-11-28T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2464430,
+      "url": "https://www.tvmaze.com/episodes/2464430/wcw-ppv-1986-07-05-nwa-the-great-american-bash-tour-1986-in-charlotte-05-07-1986",
+      "name": "NWA The Great American Bash Tour 1986 in Charlotte 05-07-1986",
+      "season": 1986,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1986-07-05",
+      "airtime": "",
+      "airstamp": "1986-07-05T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NWA World Junior Heavyweight Title Match<br />Denny Brown (c) vs. Steve Regal</p><p>Singles Match<br />Black Bart vs. Robert Gibson</p><p>Tag Team Match<br />Nelson Royal &amp; Sam Houston vs. The Andersons (Arn Anderson &amp; Ole Anderson)</p><p>Bunkhouse Match<br />Baron von Raschke vs. Manny Fernandez</p><p>Indian Strap Match<br />Wahoo McDaniel vs. Jimmy Garvin</p><p>Taped Fists Match<br />Tully Blanchard vs. Ronnie Garvin</p><p>Double Russian Chain Tag Team Match<br />The Road Warriors (Road Warrior Animal &amp; Road Warrior Hawk) (w/Paul Ellering) vs. The Russians (Ivan Koloff &amp; Nikita Koloff)</p><p>Hair Vs. Hair Match<br />Shaska Whatley (w/Paul Jones) vs. Jimmy Valiant</p><p>Steel Cage Six Man Tag Team Match<br />Jim Cornette &amp; The Midnight Express (Bobby Eaton &amp; Dennis Condrey) vs. Baby Doll, Dusty Rhodes &amp; Magnum TA</p><p>NWA World Heavyweight Title Steel Cage Match<br />Ric Flair (c) vs. Ricky Morton</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2464430"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2464431,
+      "url": "https://www.tvmaze.com/episodes/2464431/wcw-ppv-1986-07-26-nwa-the-great-american-bash-tour-1986-in-greensboro-26-07-1986",
+      "name": "NWA The Great American Bash Tour 1986 in Greensboro 26-07-1986",
+      "season": 1986,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1986-07-26",
+      "airtime": "",
+      "airstamp": "1986-07-26T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Singles Match<br />Sam Houston vs. Steve Regal</p><p>Tag Team Match<br />Black Bart &amp; Konga The Barbarian vs. Denny Brown &amp; The Italian Stallion</p><p>Loaded Glove On A Pole Match<br />Baron von Raschke vs. Manny Fernandez</p><p>Indian Strap Match<br />Wahoo McDaniel vs. Jimmy Garvin</p><p>Taped Fist Match<br />Tully Blanchard (w/JJ Dillon) vs. Ronnie Garvin (w/Wahoo McDaniel)</p><p>Tag Team Match<br />The Andersons (Arn Anderson &amp; Ole Anderson) vs. The Rock 'n' Roll Express (Ricky Morton &amp; Robert Gibson)</p><p>Hair Vs. Hair Match<br />Jimmy Valiant vs. Paul Jones (w/Baron von Raschke)</p><p>NWA United States Heavyweight Title Best Of Seven Series Match #4<br />Magnum TA vs. Nikita Koloff (w/Ivan Koloff)</p><p>Steel Cage Six Man Tag Team Match<br />Jim Cornette &amp; The Midnight Express (Bobby Eaton &amp; Dennis Condrey) vs. Baby Doll &amp; The Road Warriors (Road Warrior Animal &amp; Road Warrior Hawk)</p><p>NWA World Heavyweight Title Steel Cage Match<br />Ric Flair (c) vs. Dusty Rhodes</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2464431"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106638,
+      "url": "https://www.tvmaze.com/episodes/2106638/wcw-ppv-1986-11-27-nwa-starrcade-86-night-of-the-sky-walkers",
+      "name": "NWA Starrcade '86 Night of the Sky Walkers",
+      "season": 1986,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1986-11-27",
+      "airtime": "",
+      "airstamp": "1986-11-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106640,
+      "url": "https://www.tvmaze.com/episodes/2106640/wcw-ppv-1987-11-26-nwa-starrcade-87-chi-town-heat",
+      "name": "NWA Starrcade '87 Chi-Town Heat",
+      "season": 1987,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1987-11-26",
+      "airtime": "",
+      "airstamp": "1987-11-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106643,
+      "url": "https://www.tvmaze.com/episodes/2106643/wcw-ppv-1988-01-24-nwa-bunkhouse-stampede-1988",
+      "name": "NWA Bunkhouse Stampede 1988",
+      "season": 1988,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1988-01-24",
+      "airtime": "",
+      "airstamp": "1988-01-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NWA TV Title Match<br />Nikita Koloff (c) vs. Bobby Eaton (w/ Jim Cornette)</p><p>Western States Heritage Title Match<br />Barry Windham (c) vs. Larry Zbyszko (w/ Baby Doll)</p><p>NWA World Title Match<br />Ric Flair (c) (w/ J.J. Dillon) vs. Road Warrior Hawk (w/ Paul Ellering)</p><p>Steel Cage Bunkhouse Stampede Finals<br />Dusty Rhodes vs. Arn Anderson vs. Tully Blanchard vs. Ivan Koloff vs. The Barbarian vs. The Warlord vs. Lex Luger vs. Road Warrior Animal</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106644,
+      "url": "https://www.tvmaze.com/episodes/2106644/wcw-ppv-1988-07-10-nwa-the-great-american-bash-1988-the-price-for-freedom",
+      "name": "NWA The Great American Bash 1988 The Price For Freedom",
+      "season": 1988,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1988-07-10",
+      "airtime": "",
+      "airstamp": "1988-07-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2464432,
+      "url": "https://www.tvmaze.com/episodes/2464432/wcw-ppv-1989-07-16-nwa-the-great-american-bash-1988-greensboro",
+      "name": "NWA The Great American Bash 1988 Greensboro",
+      "season": 1988,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1989-07-16",
+      "airtime": "",
+      "airstamp": "1989-07-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2464432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2177446,
+      "url": "https://www.tvmaze.com/episodes/2177446/wcw-ppv-1988-12-26-nwa-starrcade-1988-true-gritt",
+      "name": "NWA Starrcade 1988 True Gritt",
+      "season": 1988,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1988-12-26",
+      "airtime": "",
+      "airstamp": "1988-12-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>NWA United States Tag Team Title Match<br />The Fantastics (Bobby Fulton &amp; Tommy Rogers) (c) vs. The Varsity Club (Kevin Sullivan &amp; Steve Williams)</p><p>Tag Team Match<br />The Midnight Express (Bobby Eaton &amp; Stan Lane) (w/Jim Cornette) vs. The Original Midnight Express (Dennis Condrey &amp; Randy Rose) (w/Paul E. Dangerously)</p><p>Tag Team Match<br />Ivan Koloff &amp; The Junkyard Dog vs. The Russian Assassins (Russian Assassin #1 &amp; Russian Assassin #2) (w/Paul Jones)</p><p>NWA World Television Title Match<br />Mike Rotunda (w/Kevin Sullivan) (c) vs. Rick Steiner</p><p>NWA United States Heavyweight Title Match<br />Barry Windham (w/JJ Dillon) (c) vs. Bam Bam Bigelow (w/Sir Oliver Humperdink)</p><p>NWA World Tag Team Title Match<br />The Road Warriors (Road Warrior Animal &amp; Road Warrior Hawk) (w/Paul Ellering) (c) vs. Dusty Rhodes &amp; Sting</p><p>NWA World Heavyweight Title Title Can Change Hands Via Disqualification Match<br />Ric Flair (w/JJ Dillon) (c) vs. Lex Luger</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2177446"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106653,
+      "url": "https://www.tvmaze.com/episodes/2106653/wcw-ppv-1989-02-20-nwa-chi-town-rumble",
+      "name": "NWA Chi-Town Rumble",
+      "season": 1989,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1989-02-20",
+      "airtime": "",
+      "airstamp": "1989-02-20T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106654,
+      "url": "https://www.tvmaze.com/episodes/2106654/wcw-ppv-1989-05-07-nwa-wrestlewar-89-music-city-showdown",
+      "name": "NWA WrestleWar '89 Music City Showdown",
+      "season": 1989,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1989-05-07",
+      "airtime": "",
+      "airstamp": "1989-05-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106655,
+      "url": "https://www.tvmaze.com/episodes/2106655/wcw-ppv-1989-07-23-nwa-the-great-american-bash-1989-baltimore-arena",
+      "name": "NWA The Great American Bash 1989 Baltimore Arena",
+      "season": 1989,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1989-07-23",
+      "airtime": "",
+      "airstamp": "1989-07-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106656,
+      "url": "https://www.tvmaze.com/episodes/2106656/wcw-ppv-1989-10-28-nwa-halloween-havoc-89",
+      "name": "NWA Halloween Havoc '89",
+      "season": 1989,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1989-10-28",
+      "airtime": "",
+      "airstamp": "1989-10-28T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106657,
+      "url": "https://www.tvmaze.com/episodes/2106657/wcw-ppv-1989-12-13-nwa-starrcade-1989-future-shock",
+      "name": "NWA Starrcade 1989 Future Shock",
+      "season": 1989,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1989-12-13",
+      "airtime": "",
+      "airstamp": "1989-12-13T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Iron Man Tag Team Tournament Match #1<br />Doom (Doom #1 &amp; Doom #2) (w/Nitron &amp; Woman) vs. The Steiner Brothers (Rick Steiner &amp; Scott Steiner)</p><p>Iron Man Tournament Match #1<br />Sting vs. Lex Luger</p><p>Iron Man Tag Team Tournament Match #2<br />Doom (Doom #1 &amp; Doom #2) (w/Nitron &amp; Woman) vs. The Road Warriors (Road Warrior Animal &amp; Road Warrior Hawk) (w/Paul Ellering)</p><p>Iron Man Tournament Match #2<br />The Great Muta (w/Gary Hart) vs. Ric Flair (w/Arn Anderson &amp; Ole Anderson)</p><p>Iron Man Tag Team Tournament Match #3<br />The Road Warriors (Road Warrior Animal &amp; Road Warrior Hawk) (w/Paul Ellering) vs. The Steiner Brothers (Rick Steiner &amp; Scott Steiner)</p><p>Iron Man Tournament Match #3<br />The Great Muta (w/Gary Hart) vs. Sting</p><p>Iron Man Tag Team Tournament Match #4<br />Doom (Doom #1 &amp; Doom #2) (w/Nitron &amp; Woman) vs. The Wild Samoans (Fatu &amp; Samoan Savage) (w/Sir Oliver Humperdink)</p><p>Iron Man Tournament Match #4<br />Lex Luger vs. Ric Flair</p><p>Iron Man Tag Team Tournament Match #5<br />The Steiner Brothers (Rick Steiner &amp; Scott Steiner) vs. The Wild Samoans (Fatu &amp; Samoan Savage) (w/Sir Oliver Humperdink)</p><p>Iron Man Tournament Match #5<br />The Great Muta (w/Gary Hart) vs. Lex Luger</p><p>Iron Man Tag Team Tournament Match #6<br />The Road Warriors (Road Warrior Animal &amp; Road Warrior Hawk) (w/Paul Ellering) vs. The Wild Samoans (Fatu &amp; Samoan Savage) (w/Sir Oliver Humperdink)</p><p>Iron Man Tournament Match #6<br />Sting vs. Ric Flair</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106657"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106658,
+      "url": "https://www.tvmaze.com/episodes/2106658/wcw-ppv-1990-02-25-nwa-wrestlewar-90-wild-thing",
+      "name": "NWA WrestleWar '90 Wild Thing",
+      "season": 1990,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1990-02-25",
+      "airtime": "",
+      "airstamp": "1990-02-25T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106658"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106659,
+      "url": "https://www.tvmaze.com/episodes/2106659/wcw-ppv-1990-05-19-nwa-capital-combat-return-of-robocop",
+      "name": "NWA Capital Combat - Return of RoboCop",
+      "season": 1990,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1990-05-19",
+      "airtime": "",
+      "airstamp": "1990-05-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106659"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106660,
+      "url": "https://www.tvmaze.com/episodes/2106660/wcw-ppv-1990-07-07-nwa-the-great-american-bash-1990-new-revolution",
+      "name": "NWA The Great American Bash 1990 New Revolution",
+      "season": 1990,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1990-07-07",
+      "airtime": "",
+      "airstamp": "1990-07-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106660"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106661,
+      "url": "https://www.tvmaze.com/episodes/2106661/wcw-ppv-1990-10-27-nwa-halloween-havoc-1990",
+      "name": "NWA Halloween Havoc 1990",
+      "season": 1990,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1990-10-27",
+      "airtime": "",
+      "airstamp": "1990-10-27T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106661"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106662,
+      "url": "https://www.tvmaze.com/episodes/2106662/wcw-ppv-1990-12-16-nwa-starrcade-90-collision-course",
+      "name": "NWA Starrcade '90 Collision Course",
+      "season": 1990,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1990-12-16",
+      "airtime": "",
+      "airstamp": "1990-12-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106662"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106663,
+      "url": "https://www.tvmaze.com/episodes/2106663/wcw-ppv-1991-02-24-wrestlewar-91-we-want-you",
+      "name": "WrestleWar '91 We Want You",
+      "season": 1991,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1991-02-24",
+      "airtime": "",
+      "airstamp": "1991-02-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106663"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106664,
+      "url": "https://www.tvmaze.com/episodes/2106664/wcw-ppv-1991-03-21-japan-supershow-i",
+      "name": "Japan Supershow I",
+      "season": 1991,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1991-03-21",
+      "airtime": "",
+      "airstamp": "1991-03-21T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106664"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106665,
+      "url": "https://www.tvmaze.com/episodes/2106665/wcw-ppv-1991-05-19-superbrawl-i-return-from-the-rising-sun",
+      "name": "SuperBrawl I Return From The Rising Sun",
+      "season": 1991,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1991-05-19",
+      "airtime": "",
+      "airstamp": "1991-05-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106665"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106666,
+      "url": "https://www.tvmaze.com/episodes/2106666/wcw-ppv-1991-07-14-the-great-american-bash-1991-legend-vs-legacy",
+      "name": "The Great American Bash 1991 Legend vs Legacy",
+      "season": 1991,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1991-07-14",
+      "airtime": "",
+      "airstamp": "1991-07-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106666"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106667,
+      "url": "https://www.tvmaze.com/episodes/2106667/wcw-ppv-1991-10-27-halloween-havoc-1991",
+      "name": "Halloween Havoc 1991",
+      "season": 1991,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1991-10-27",
+      "airtime": "",
+      "airstamp": "1991-10-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106667"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106668,
+      "url": "https://www.tvmaze.com/episodes/2106668/wcw-ppv-1991-12-29-starrcade-91-battlebowl-the-lethal-lottery",
+      "name": "Starrcade '91 Battlebowl - The Lethal Lottery",
+      "season": 1991,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1991-12-29",
+      "airtime": "",
+      "airstamp": "1991-12-29T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106668"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106669,
+      "url": "https://www.tvmaze.com/episodes/2106669/wcw-ppv-1992-01-04-japan-supershow-ii",
+      "name": "Japan Supershow II",
+      "season": 1992,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1992-01-04",
+      "airtime": "",
+      "airstamp": "1992-01-04T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106669"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106670,
+      "url": "https://www.tvmaze.com/episodes/2106670/wcw-ppv-1992-02-29-superbrawl-ii",
+      "name": "SuperBrawl II",
+      "season": 1992,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1992-02-29",
+      "airtime": "",
+      "airstamp": "1992-02-29T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106670"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106671,
+      "url": "https://www.tvmaze.com/episodes/2106671/wcw-ppv-1992-05-17-wrestlewar-92-wargames-destroy-or-be-destroyed",
+      "name": "WrestleWar '92 Wargames: Destroy or be Destroyed",
+      "season": 1992,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1992-05-17",
+      "airtime": "",
+      "airstamp": "1992-05-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106671"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106672,
+      "url": "https://www.tvmaze.com/episodes/2106672/wcw-ppv-1992-06-20-beach-blast-1992",
+      "name": "Beach Blast 1992",
+      "season": 1992,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1992-06-20",
+      "airtime": "",
+      "airstamp": "1992-06-20T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106672"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106673,
+      "url": "https://www.tvmaze.com/episodes/2106673/wcw-ppv-1992-07-12-the-great-american-bash-1992",
+      "name": "The Great American Bash 1992",
+      "season": 1992,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1992-07-12",
+      "airtime": "",
+      "airstamp": "1992-07-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106673"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106674,
+      "url": "https://www.tvmaze.com/episodes/2106674/wcw-ppv-1992-10-25-halloween-havoc-1992",
+      "name": "Halloween Havoc 1992",
+      "season": 1992,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1992-10-25",
+      "airtime": "",
+      "airstamp": "1992-10-25T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106675,
+      "url": "https://www.tvmaze.com/episodes/2106675/wcw-ppv-1992-12-28-starrcade-92-battlebowl-the-lethal-lottery-ii",
+      "name": "Starrcade '92 Battlebowl - The Lethal Lottery II",
+      "season": 1992,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1992-12-28",
+      "airtime": "",
+      "airstamp": "1992-12-28T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106675"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106676,
+      "url": "https://www.tvmaze.com/episodes/2106676/wcw-ppv-1993-01-04-japan-supershow-iii",
+      "name": "Japan Supershow III",
+      "season": 1993,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1993-01-04",
+      "airtime": "",
+      "airstamp": "1993-01-04T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106676"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106677,
+      "url": "https://www.tvmaze.com/episodes/2106677/wcw-ppv-1993-02-21-superbrawl-iii",
+      "name": "SuperBrawl III",
+      "season": 1993,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1993-02-21",
+      "airtime": "",
+      "airstamp": "1993-02-21T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106677"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106678,
+      "url": "https://www.tvmaze.com/episodes/2106678/wcw-ppv-1993-05-23-slamboree-93-a-legends-reunion",
+      "name": "Slamboree '93 A Legends' Reunion",
+      "season": 1993,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1993-05-23",
+      "airtime": "",
+      "airstamp": "1993-05-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106678"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106679,
+      "url": "https://www.tvmaze.com/episodes/2106679/wcw-ppv-1993-07-18-beach-blast-1993",
+      "name": "Beach Blast 1993",
+      "season": 1993,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1993-07-18",
+      "airtime": "",
+      "airstamp": "1993-07-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106679"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106680,
+      "url": "https://www.tvmaze.com/episodes/2106680/wcw-ppv-1993-09-19-fall-brawl-93-war-games",
+      "name": "Fall Brawl '93 War Games",
+      "season": 1993,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1993-09-19",
+      "airtime": "",
+      "airstamp": "1993-09-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106680"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106681,
+      "url": "https://www.tvmaze.com/episodes/2106681/wcw-ppv-1993-10-24-halloween-havoc-1993",
+      "name": "Halloween Havoc 1993",
+      "season": 1993,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1993-10-24",
+      "airtime": "",
+      "airstamp": "1993-10-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106681"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106682,
+      "url": "https://www.tvmaze.com/episodes/2106682/wcw-ppv-1993-11-20-battlebowl",
+      "name": "Battlebowl",
+      "season": 1993,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1993-11-20",
+      "airtime": "",
+      "airstamp": "1993-11-20T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106682"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106683,
+      "url": "https://www.tvmaze.com/episodes/2106683/wcw-ppv-1993-12-27-starrcade-93-10th-anniversary",
+      "name": "Starrcade '93 10th Anniversary",
+      "season": 1993,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1993-12-27",
+      "airtime": "",
+      "airstamp": "1993-12-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106683"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106684,
+      "url": "https://www.tvmaze.com/episodes/2106684/wcw-ppv-1994-02-20-superbrawl-iv",
+      "name": "SuperBrawl IV",
+      "season": 1994,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1994-02-20",
+      "airtime": "",
+      "airstamp": "1994-02-20T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106684"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106685,
+      "url": "https://www.tvmaze.com/episodes/2106685/wcw-ppv-1994-04-17-spring-stampede",
+      "name": "Spring Stampede",
+      "season": 1994,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1994-04-17",
+      "airtime": "",
+      "airstamp": "1994-04-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106685"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106686,
+      "url": "https://www.tvmaze.com/episodes/2106686/wcw-ppv-1994-05-22-slamboree-94-a-legends-reunion",
+      "name": "Slamboree '94 A Legends' Reunion",
+      "season": 1994,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1994-05-22",
+      "airtime": "",
+      "airstamp": "1994-05-22T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106686"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106687,
+      "url": "https://www.tvmaze.com/episodes/2106687/wcw-ppv-1994-07-17-bash-at-the-beach",
+      "name": "Bash at the Beach",
+      "season": 1994,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1994-07-17",
+      "airtime": "",
+      "airstamp": "1994-07-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106687"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106688,
+      "url": "https://www.tvmaze.com/episodes/2106688/wcw-ppv-1994-09-18-fall-brawl-94-war-games",
+      "name": "Fall Brawl '94 War Games",
+      "season": 1994,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1994-09-18",
+      "airtime": "",
+      "airstamp": "1994-09-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106688"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106689,
+      "url": "https://www.tvmaze.com/episodes/2106689/wcw-ppv-1994-10-23-halloween-havoc-1994",
+      "name": "Halloween Havoc 1994",
+      "season": 1994,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1994-10-23",
+      "airtime": "",
+      "airstamp": "1994-10-23T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106689"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106690,
+      "url": "https://www.tvmaze.com/episodes/2106690/wcw-ppv-1994-11-06-when-worlds-collide",
+      "name": "When Worlds Collide",
+      "season": 1994,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1994-11-06",
+      "airtime": "",
+      "airstamp": "1994-11-06T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106690"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106692,
+      "url": "https://www.tvmaze.com/episodes/2106692/wcw-ppv-1994-12-27-starrcade-94-triple-threat",
+      "name": "Starrcade '94 Triple Threat",
+      "season": 1994,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1994-12-27",
+      "airtime": "",
+      "airstamp": "1994-12-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106692"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106693,
+      "url": "https://www.tvmaze.com/episodes/2106693/wcw-ppv-1995-02-19-superbrawl-v",
+      "name": "SuperBrawl V",
+      "season": 1995,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1995-02-19",
+      "airtime": "",
+      "airstamp": "1995-02-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106693"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106695,
+      "url": "https://www.tvmaze.com/episodes/2106695/wcw-ppv-1995-03-19-uncensored",
+      "name": "Uncensored",
+      "season": 1995,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1995-03-19",
+      "airtime": "",
+      "airstamp": "1995-03-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106695"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106696,
+      "url": "https://www.tvmaze.com/episodes/2106696/wcw-ppv-1995-04-28-collision-in-korea",
+      "name": "Collision in Korea",
+      "season": 1995,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1995-04-28",
+      "airtime": "",
+      "airstamp": "1995-04-28T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106697,
+      "url": "https://www.tvmaze.com/episodes/2106697/wcw-ppv-1995-05-21-slamboree-95-a-legends-reunion",
+      "name": "Slamboree '95 A Legends' Reunion",
+      "season": 1995,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1995-05-21",
+      "airtime": "",
+      "airstamp": "1995-05-21T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106697"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106698,
+      "url": "https://www.tvmaze.com/episodes/2106698/wcw-ppv-1995-06-18-the-great-american-bash-1995",
+      "name": "The Great American Bash 1995",
+      "season": 1995,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1995-06-18",
+      "airtime": "",
+      "airstamp": "1995-06-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106698"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106699,
+      "url": "https://www.tvmaze.com/episodes/2106699/wcw-ppv-1995-07-16-bash-at-the-beach-95",
+      "name": "Bash at the Beach '95",
+      "season": 1995,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1995-07-16",
+      "airtime": "",
+      "airstamp": "1995-07-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106699"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106700,
+      "url": "https://www.tvmaze.com/episodes/2106700/wcw-ppv-1995-09-17-fall-brawl-95-war-games",
+      "name": "Fall Brawl '95 War Games",
+      "season": 1995,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1995-09-17",
+      "airtime": "",
+      "airstamp": "1995-09-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106700"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106701,
+      "url": "https://www.tvmaze.com/episodes/2106701/wcw-ppv-1995-10-29-halloween-havoc-1995",
+      "name": "Halloween Havoc 1995",
+      "season": 1995,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1995-10-29",
+      "airtime": "",
+      "airstamp": "1995-10-29T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106701"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106702,
+      "url": "https://www.tvmaze.com/episodes/2106702/wcw-ppv-1995-11-26-world-war-3",
+      "name": "World War 3",
+      "season": 1995,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1995-11-26",
+      "airtime": "",
+      "airstamp": "1995-11-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106702"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106703,
+      "url": "https://www.tvmaze.com/episodes/2106703/wcw-ppv-1995-12-27-starrcade-95-world-cup-of-wrestling",
+      "name": "Starrcade '95 World Cup of Wrestling",
+      "season": 1995,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1995-12-27",
+      "airtime": "",
+      "airstamp": "1995-12-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106703"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106704,
+      "url": "https://www.tvmaze.com/episodes/2106704/wcw-ppv-1996-02-11-superbrawl-vi",
+      "name": "SuperBrawl VI",
+      "season": 1996,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1996-02-11",
+      "airtime": "",
+      "airstamp": "1996-02-11T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106704"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106705,
+      "url": "https://www.tvmaze.com/episodes/2106705/wcw-ppv-1996-03-24-uncensored",
+      "name": "Uncensored",
+      "season": 1996,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1996-03-24",
+      "airtime": "",
+      "airstamp": "1996-03-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106705"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106706,
+      "url": "https://www.tvmaze.com/episodes/2106706/wcw-ppv-1996-05-19-slamboree-96-lethal-lottery",
+      "name": "Slamboree '96 Lethal Lottery",
+      "season": 1996,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1996-05-19",
+      "airtime": "",
+      "airstamp": "1996-05-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106706"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106707,
+      "url": "https://www.tvmaze.com/episodes/2106707/wcw-ppv-1996-06-16-the-great-american-bash-1996",
+      "name": "The Great American Bash 1996",
+      "season": 1996,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1996-06-16",
+      "airtime": "",
+      "airstamp": "1996-06-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106707"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106708,
+      "url": "https://www.tvmaze.com/episodes/2106708/wcw-ppv-1996-07-07-bash-at-the-beach-96",
+      "name": "Bash at the Beach '96",
+      "season": 1996,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1996-07-07",
+      "airtime": "",
+      "airstamp": "1996-07-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106708"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106709,
+      "url": "https://www.tvmaze.com/episodes/2106709/wcw-ppv-1996-08-10-hog-wild",
+      "name": "Hog Wild",
+      "season": 1996,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1996-08-10",
+      "airtime": "",
+      "airstamp": "1996-08-10T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106709"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106710,
+      "url": "https://www.tvmaze.com/episodes/2106710/wcw-ppv-1996-09-15-fall-brawl-96-war-games",
+      "name": "Fall Brawl '96 War Games",
+      "season": 1996,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1996-09-15",
+      "airtime": "",
+      "airstamp": "1996-09-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106710"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106711,
+      "url": "https://www.tvmaze.com/episodes/2106711/wcw-ppv-1996-10-27-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 1996,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1996-10-27",
+      "airtime": "",
+      "airstamp": "1996-10-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106711"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106712,
+      "url": "https://www.tvmaze.com/episodes/2106712/wcw-ppv-1996-11-24-world-war-3",
+      "name": "World War 3",
+      "season": 1996,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1996-11-24",
+      "airtime": "",
+      "airstamp": "1996-11-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106712"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106713,
+      "url": "https://www.tvmaze.com/episodes/2106713/wcw-ppv-1996-12-29-starrcade-96",
+      "name": "Starrcade '96",
+      "season": 1996,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1996-12-29",
+      "airtime": "",
+      "airstamp": "1996-12-29T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106713"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106714,
+      "url": "https://www.tvmaze.com/episodes/2106714/wcw-ppv-1997-01-25-nwo-souled-out",
+      "name": "nWo Souled Out",
+      "season": 1997,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1997-01-25",
+      "airtime": "",
+      "airstamp": "1997-01-25T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106714"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106715,
+      "url": "https://www.tvmaze.com/episodes/2106715/wcw-ppv-1997-02-23-superbrawl-vii",
+      "name": "SuperBrawl VII",
+      "season": 1997,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1997-02-23",
+      "airtime": "",
+      "airstamp": "1997-02-23T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106715"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106716,
+      "url": "https://www.tvmaze.com/episodes/2106716/wcw-ppv-1997-03-16-uncensored",
+      "name": "Uncensored",
+      "season": 1997,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1997-03-16",
+      "airtime": "",
+      "airstamp": "1997-03-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106716"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106717,
+      "url": "https://www.tvmaze.com/episodes/2106717/wcw-ppv-1997-04-06-spring-stampede",
+      "name": "Spring Stampede",
+      "season": 1997,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1997-04-06",
+      "airtime": "",
+      "airstamp": "1997-04-06T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106717"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106718,
+      "url": "https://www.tvmaze.com/episodes/2106718/wcw-ppv-1997-05-18-slamboree-1997",
+      "name": "Slamboree 1997",
+      "season": 1997,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1997-05-18",
+      "airtime": "",
+      "airstamp": "1997-05-18T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106718"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106719,
+      "url": "https://www.tvmaze.com/episodes/2106719/wcw-ppv-1997-06-15-the-great-american-bash-1997",
+      "name": "The Great American Bash 1997",
+      "season": 1997,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1997-06-15",
+      "airtime": "",
+      "airstamp": "1997-06-15T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106719"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106720,
+      "url": "https://www.tvmaze.com/episodes/2106720/wcw-ppv-1997-07-13-bash-at-the-beach",
+      "name": "Bash at the Beach",
+      "season": 1997,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1997-07-13",
+      "airtime": "",
+      "airstamp": "1997-07-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106720"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106721,
+      "url": "https://www.tvmaze.com/episodes/2106721/wcw-ppv-1997-08-09-road-wild",
+      "name": "Road Wild",
+      "season": 1997,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1997-08-09",
+      "airtime": "",
+      "airstamp": "1997-08-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106721"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106722,
+      "url": "https://www.tvmaze.com/episodes/2106722/wcw-ppv-1997-09-14-fall-brawl-97-war-games",
+      "name": "Fall Brawl '97 War Games",
+      "season": 1997,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1997-09-14",
+      "airtime": "",
+      "airstamp": "1997-09-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106722"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106723,
+      "url": "https://www.tvmaze.com/episodes/2106723/wcw-ppv-1997-10-26-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 1997,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1997-10-26",
+      "airtime": "",
+      "airstamp": "1997-10-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106723"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106724,
+      "url": "https://www.tvmaze.com/episodes/2106724/wcw-ppv-1997-11-23-world-war-3",
+      "name": "World War 3",
+      "season": 1997,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1997-11-23",
+      "airtime": "",
+      "airstamp": "1997-11-23T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106724"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106725,
+      "url": "https://www.tvmaze.com/episodes/2106725/wcw-ppv-1997-12-28-starrcade-97",
+      "name": "Starrcade '97",
+      "season": 1997,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1997-12-28",
+      "airtime": "",
+      "airstamp": "1997-12-28T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106725"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106726,
+      "url": "https://www.tvmaze.com/episodes/2106726/wcw-ppv-1998-01-24-souled-out",
+      "name": "Souled Out",
+      "season": 1998,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1998-01-24",
+      "airtime": "",
+      "airstamp": "1998-01-24T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106726"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106727,
+      "url": "https://www.tvmaze.com/episodes/2106727/wcw-ppv-1998-02-22-superbrawl-viii",
+      "name": "SuperBrawl VIII",
+      "season": 1998,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1998-02-22",
+      "airtime": "",
+      "airstamp": "1998-02-22T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106727"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106728,
+      "url": "https://www.tvmaze.com/episodes/2106728/wcw-ppv-1998-03-15-uncensored",
+      "name": "Uncensored",
+      "season": 1998,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1998-03-15",
+      "airtime": "",
+      "airstamp": "1998-03-15T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106728"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106729,
+      "url": "https://www.tvmaze.com/episodes/2106729/wcw-ppv-1998-04-19-spring-stampede",
+      "name": "Spring Stampede",
+      "season": 1998,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1998-04-19",
+      "airtime": "",
+      "airstamp": "1998-04-19T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106729"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106730,
+      "url": "https://www.tvmaze.com/episodes/2106730/wcw-ppv-1998-05-17-slamboree-1998",
+      "name": "Slamboree 1998",
+      "season": 1998,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1998-05-17",
+      "airtime": "",
+      "airstamp": "1998-05-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106730"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106731,
+      "url": "https://www.tvmaze.com/episodes/2106731/wcw-ppv-1998-06-14-the-great-american-bash-1998",
+      "name": "The Great American Bash 1998",
+      "season": 1998,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1998-06-14",
+      "airtime": "",
+      "airstamp": "1998-06-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106731"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106732,
+      "url": "https://www.tvmaze.com/episodes/2106732/wcw-ppv-1998-07-12-bash-at-the-beach",
+      "name": "Bash at the Beach",
+      "season": 1998,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1998-07-12",
+      "airtime": "",
+      "airstamp": "1998-07-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106732"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106733,
+      "url": "https://www.tvmaze.com/episodes/2106733/wcw-ppv-1998-08-08-road-wild",
+      "name": "Road Wild",
+      "season": 1998,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1998-08-08",
+      "airtime": "",
+      "airstamp": "1998-08-08T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106733"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106734,
+      "url": "https://www.tvmaze.com/episodes/2106734/wcw-ppv-1998-09-13-fall-brawl-98-war-games",
+      "name": "Fall Brawl '98 War Games",
+      "season": 1998,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1998-09-13",
+      "airtime": "",
+      "airstamp": "1998-09-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106734"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106735,
+      "url": "https://www.tvmaze.com/episodes/2106735/wcw-ppv-1998-10-25-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 1998,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1998-10-25",
+      "airtime": "",
+      "airstamp": "1998-10-25T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106735"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106736,
+      "url": "https://www.tvmaze.com/episodes/2106736/wcw-ppv-1998-11-22-world-war-3",
+      "name": "World War 3",
+      "season": 1998,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1998-11-22",
+      "airtime": "",
+      "airstamp": "1998-11-22T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106736"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106737,
+      "url": "https://www.tvmaze.com/episodes/2106737/wcw-ppv-1998-12-27-starrcade-98",
+      "name": "Starrcade '98",
+      "season": 1998,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1998-12-27",
+      "airtime": "",
+      "airstamp": "1998-12-27T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106737"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106739,
+      "url": "https://www.tvmaze.com/episodes/2106739/wcw-ppv-1999-01-17-souled-out",
+      "name": "Souled Out",
+      "season": 1999,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1999-01-17",
+      "airtime": "",
+      "airstamp": "1999-01-17T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106739"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106740,
+      "url": "https://www.tvmaze.com/episodes/2106740/wcw-ppv-1999-02-21-superbrawl-ix",
+      "name": "SuperBrawl IX",
+      "season": 1999,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1999-02-21",
+      "airtime": "",
+      "airstamp": "1999-02-21T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106740"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106741,
+      "url": "https://www.tvmaze.com/episodes/2106741/wcw-ppv-1999-03-14-uncensored",
+      "name": "Uncensored",
+      "season": 1999,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1999-03-14",
+      "airtime": "",
+      "airstamp": "1999-03-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106741"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106743,
+      "url": "https://www.tvmaze.com/episodes/2106743/wcw-ppv-1999-04-11-spring-stampede",
+      "name": "Spring Stampede",
+      "season": 1999,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1999-04-11",
+      "airtime": "",
+      "airstamp": "1999-04-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106743"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106744,
+      "url": "https://www.tvmaze.com/episodes/2106744/wcw-ppv-1999-05-09-slamboree-1999",
+      "name": "Slamboree 1999",
+      "season": 1999,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1999-05-09",
+      "airtime": "",
+      "airstamp": "1999-05-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106744"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106745,
+      "url": "https://www.tvmaze.com/episodes/2106745/wcw-ppv-1999-06-13-the-great-american-bash-1999",
+      "name": "The Great American Bash 1999",
+      "season": 1999,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1999-06-13",
+      "airtime": "",
+      "airstamp": "1999-06-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106745"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106747,
+      "url": "https://www.tvmaze.com/episodes/2106747/wcw-ppv-1999-07-11-bash-at-the-beach",
+      "name": "Bash at the Beach",
+      "season": 1999,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1999-07-11",
+      "airtime": "",
+      "airstamp": "1999-07-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106747"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106748,
+      "url": "https://www.tvmaze.com/episodes/2106748/wcw-ppv-1999-08-14-road-wild",
+      "name": "Road Wild",
+      "season": 1999,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1999-08-14",
+      "airtime": "",
+      "airstamp": "1999-08-14T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106748"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106749,
+      "url": "https://www.tvmaze.com/episodes/2106749/wcw-ppv-1999-09-12-fall-brawl-99",
+      "name": "Fall Brawl '99",
+      "season": 1999,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1999-09-12",
+      "airtime": "",
+      "airstamp": "1999-09-12T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106749"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106751,
+      "url": "https://www.tvmaze.com/episodes/2106751/wcw-ppv-1999-10-24-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 1999,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1999-10-24",
+      "airtime": "",
+      "airstamp": "1999-10-24T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106751"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106752,
+      "url": "https://www.tvmaze.com/episodes/2106752/wcw-ppv-1999-11-21-mayhem",
+      "name": "Mayhem",
+      "season": 1999,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1999-11-21",
+      "airtime": "",
+      "airstamp": "1999-11-21T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106752"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106753,
+      "url": "https://www.tvmaze.com/episodes/2106753/wcw-ppv-1999-12-19-starrcade-99",
+      "name": "Starrcade '99",
+      "season": 1999,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1999-12-19",
+      "airtime": "",
+      "airstamp": "1999-12-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106753"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106754,
+      "url": "https://www.tvmaze.com/episodes/2106754/wcw-ppv-2000-01-16-souled-out",
+      "name": "Souled Out",
+      "season": 2000,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2000-01-16",
+      "airtime": "",
+      "airstamp": "2000-01-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106754"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106755,
+      "url": "https://www.tvmaze.com/episodes/2106755/wcw-ppv-2000-02-20-superbrawl-2000",
+      "name": "SuperBrawl 2000",
+      "season": 2000,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2000-02-20",
+      "airtime": "",
+      "airstamp": "2000-02-20T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106756,
+      "url": "https://www.tvmaze.com/episodes/2106756/wcw-ppv-2000-03-19-uncensored",
+      "name": "Uncensored",
+      "season": 2000,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2000-03-19",
+      "airtime": "",
+      "airstamp": "2000-03-19T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106756"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106757,
+      "url": "https://www.tvmaze.com/episodes/2106757/wcw-ppv-2000-04-16-spring-stampede",
+      "name": "Spring Stampede",
+      "season": 2000,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2000-04-16",
+      "airtime": "",
+      "airstamp": "2000-04-16T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106757"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106758,
+      "url": "https://www.tvmaze.com/episodes/2106758/wcw-ppv-2000-05-07-slamboree-2000",
+      "name": "Slamboree 2000",
+      "season": 2000,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2000-05-07",
+      "airtime": "",
+      "airstamp": "2000-05-07T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106758"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106759,
+      "url": "https://www.tvmaze.com/episodes/2106759/wcw-ppv-2000-06-11-the-great-american-bash-2000",
+      "name": "The Great American Bash 2000",
+      "season": 2000,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2000-06-11",
+      "airtime": "",
+      "airstamp": "2000-06-11T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106759"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106760,
+      "url": "https://www.tvmaze.com/episodes/2106760/wcw-ppv-2000-07-09-bash-at-the-beach",
+      "name": "Bash at the Beach",
+      "season": 2000,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2000-07-09",
+      "airtime": "",
+      "airstamp": "2000-07-09T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106760"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106761,
+      "url": "https://www.tvmaze.com/episodes/2106761/wcw-ppv-2000-08-13-new-blood-rising",
+      "name": "New Blood Rising",
+      "season": 2000,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2000-08-13",
+      "airtime": "",
+      "airstamp": "2000-08-13T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106761"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106762,
+      "url": "https://www.tvmaze.com/episodes/2106762/wcw-ppv-2000-09-17-fall-brawl-2000",
+      "name": "Fall Brawl 2000",
+      "season": 2000,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2000-09-17",
+      "airtime": "",
+      "airstamp": "2000-09-17T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106762"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106763,
+      "url": "https://www.tvmaze.com/episodes/2106763/wcw-ppv-2000-10-29-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 2000,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2000-10-29",
+      "airtime": "",
+      "airstamp": "2000-10-29T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106763"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106764,
+      "url": "https://www.tvmaze.com/episodes/2106764/wcw-ppv-2000-11-16-millennium-final",
+      "name": "Millennium Final",
+      "season": 2000,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2000-11-16",
+      "airtime": "",
+      "airstamp": "2000-11-16T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106764"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106765,
+      "url": "https://www.tvmaze.com/episodes/2106765/wcw-ppv-2000-11-26-mayhem",
+      "name": "Mayhem",
+      "season": 2000,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2000-11-26",
+      "airtime": "",
+      "airstamp": "2000-11-26T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106765"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106766,
+      "url": "https://www.tvmaze.com/episodes/2106766/wcw-ppv-2000-12-17-starrcade-2000",
+      "name": "Starrcade (2000)",
+      "season": 2000,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2000-12-17",
+      "airtime": "",
+      "airstamp": "2000-12-17T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106766"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106767,
+      "url": "https://www.tvmaze.com/episodes/2106767/wcw-ppv-2001-01-14-sin",
+      "name": "Sin",
+      "season": 2001,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2001-01-14",
+      "airtime": "",
+      "airstamp": "2001-01-14T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106767"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106768,
+      "url": "https://www.tvmaze.com/episodes/2106768/wcw-ppv-2001-02-18-superbrawl-revenge",
+      "name": "SuperBrawl Revenge",
+      "season": 2001,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2001-02-18",
+      "airtime": "",
+      "airstamp": "2001-02-18T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106768"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    },
+    {
+      "id": 2106769,
+      "url": "https://www.tvmaze.com/episodes/2106769/wcw-ppv-2001-03-18-greed",
+      "name": "Greed",
+      "season": 2001,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2001-03-18",
+      "airtime": "",
+      "airstamp": "2001-03-18T17:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106769"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/55749",
+          "name": "WCW PPV"
+        }
+      }
+    }
+  ]
+}

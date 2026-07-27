@@ -1,0 +1,3746 @@
+{
+  "programId": "lucha-underground-tv",
+  "tvMazeId": 653,
+  "fetchedAt": "2026-07-27T07:57:34.064Z",
+  "show": {
+    "id": 653,
+    "url": "https://www.tvmaze.com/shows/653/lucha-underground",
+    "name": "Lucha Underground",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2014-10-29",
+    "ended": "2018-11-07",
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": [
+        "Wednesday"
+      ]
+    },
+    "rating": {
+      "average": 7.9
+    },
+    "weight": 85,
+    "network": {
+      "id": 21,
+      "name": "El Rey Network",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 44642,
+      "thetvdb": 286272,
+      "imdb": "tt4171176"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/264/660553.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/264/660553.jpg"
+    },
+    "summary": "<p><b>Lucha Underground</b>, El Rey Network's addictive, lucha libre wrestling series from Emmy Award(R)-winning producer Mark Burnett, United Artists Media Group,Robert Rodriguez and FactoryMade Ventures will return for an all-new second season on Wednesday, January 27 at 8 PM ET/PT, it was announced today. The hour-long weekly series currently in production in Boyle Heights, CA, will continue to bring fans ringside for blood-pumping, chant-starting, fierce lucha libre drama and excitement as the masked heroes and villains battle it out for wrestling supremacy. Leading into the new season, El Rey Network offers fans a chance to get reacquainted with the luchadores, who combine ancient tradition with extraordinary athleticism, with five hours of back-to-back episodes from season one on Wednesdays at 8pm ET/PT beginning January 6th, culminating with an epic weekend long, 40-hour marathon of the entire season from Saturday, January 23rd at 10 AM ET, to Sunday, January 24th at 2 AM ET. \"Season two of 'Lucha Underground' absolutely stands on the shoulders of last season with even more excitement and high-flying drama than ever before,\" said El Rey Network Chairman and Founder Robert Rodriguez. \"Mark Burnett and his team have delivered a truly compelling series and we are proud to bring the ancient traditions of Luche Libre to life in an unexpected and action packed format that has become a favorite for wrestling fans everywhere.\"</p>",
+    "updated": 1704794406,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/653"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1545007",
+        "name": "Ultima Lucha Cuatro - Part 2"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 57542,
+      "url": "https://www.tvmaze.com/episodes/57542/lucha-underground-1x01-welcome-to-the-temple",
+      "name": "Welcome to the Temple",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2014-10-29",
+      "airtime": "20:00",
+      "airstamp": "2014-10-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769095.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769095.jpg"
+      },
+      "summary": "<p>In the series premiere of Lucha Underground, owner and promoter Dario Cueto opens his \"Temple\" to the best fighters from around the world, to compete for a 100k bonus. Watch as the masked heroes and villains battle it out in the Temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/57542"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 57543,
+      "url": "https://www.tvmaze.com/episodes/57543/lucha-underground-1x02-los-demonios",
+      "name": "Los Demonios",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2014-11-05",
+      "airtime": "20:00",
+      "airstamp": "2014-11-06T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769096.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769096.jpg"
+      },
+      "summary": "<p>Johnny Mundo and Prince Puma are out for revenge on Big Ryck and his crew. Chavo teams with Sexy Star and takes on Son of Havoc &amp; Ivelisse. Blue Demon Jr. is confronted by Catrina who warns him of 1000 Deaths… Mil Muertes. Chavo Guerro seeks revenge.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/57543"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 57544,
+      "url": "https://www.tvmaze.com/episodes/57544/lucha-underground-1x03-crossing-the-border",
+      "name": "Crossing the Border",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2014-11-12",
+      "airtime": "20:00",
+      "airstamp": "2014-11-13T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769097.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769097.jpg"
+      },
+      "summary": "<p>Konnan brings Cueto the best talent from Mexico, sets main event Fenix vs Drago vs Pentagon Jr. El Mariachi Loco takes on Mascarita Segrada. Chavo explains his actions. Konnan warns Chavo that Mexico is coming for him. Ricky Mandell vs Mil Muertes.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/57544"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 57545,
+      "url": "https://www.tvmaze.com/episodes/57545/lucha-underground-1x04-thrill-of-the-hunt",
+      "name": "Thrill of the Hunt",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2014-11-19",
+      "airtime": "20:00",
+      "airstamp": "2014-11-20T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769098.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769098.jpg"
+      },
+      "summary": "<p>Sexy Star returns to take on Ivelisse. Cueto confronts Drago, sets match against King Cuerno. Konnan warns Puma to not get involved in main event Mundo vs Big Ryck. Sexy Star vows revenge on Chavo.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/57545"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 57599,
+      "url": "https://www.tvmaze.com/episodes/57599/lucha-underground-1x05-boyle-heights-street-fight",
+      "name": "Boyle Heights Street Fight",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2014-11-26",
+      "airtime": "20:00",
+      "airstamp": "2014-11-27T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769099.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769099.jpg"
+      },
+      "summary": "<p>Has Konnan made a mistake putting his young protégé Prince Puma in the ring with an experienced veteran and street fighter Big Ryck? Huge throw down in the temple tonight…Prince Puma vs Big Ryck Boyle Heights Street Fight…Everything is Legal…</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/57599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 58130,
+      "url": "https://www.tvmaze.com/episodes/58130/lucha-underground-1x06-the-key",
+      "name": "The Key",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2014-12-03",
+      "airtime": "20:00",
+      "airstamp": "2014-12-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769100.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769100.jpg"
+      },
+      "summary": "<p>Big Ryck signs a contract with Dario Cueto. Pimpinela Escarlata answers Son of Havoc's calling. Johnny Mundo wants his 100k back, steals Cueto's key as an insurance policy. Sexy Star is back with Fenix to take on Chavo Guerrero and Pentagon Jr.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/58130"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 58254,
+      "url": "https://www.tvmaze.com/episodes/58254/lucha-underground-1x07-the-top-of-the-ladder",
+      "name": "The Top of the Ladder",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2014-12-10",
+      "airtime": "20:00",
+      "airstamp": "2014-12-11T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769101.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769101.jpg"
+      },
+      "summary": "<p>Main Event: Three Way Ladder Match Prince Puma vs Johnny Mundo vs Big Ryck. Who will be the first Luchador to climb the ladder and retrieve the briefcase and walk out tonight with $100,000 dollars in cash courtesy of owner and promoter, Dario Cueto?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/58254"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 117771,
+      "url": "https://www.tvmaze.com/episodes/117771/lucha-underground-1x08-a-unique-opportunity",
+      "name": "A Unique Opportunity",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2014-12-17",
+      "airtime": "20:00",
+      "airstamp": "2014-12-18T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769102.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769102.jpg"
+      },
+      "summary": "<p>Dario Cueto sets 10-Way match and Boyle Heights Battle Royal. Tonight, two luchadores will receive a unique opportunity that Cueto promises is even more valuable than the $100,000k he offered when he first opened his \"Temple\".</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/117771"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 117772,
+      "url": "https://www.tvmaze.com/episodes/117772/lucha-underground-1x09-aztec-warfare",
+      "name": "Aztec Warfare",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2015-01-07",
+      "airtime": "20:00",
+      "airstamp": "2015-01-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769103.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769103.jpg"
+      },
+      "summary": "<p>Dario Cueto holds first ever Lucha Underground AZTEC WARFARE! Much like the ancient Aztecs had to fight for their survival… the champion will have to survive 19 other Luchadores. Who will earn the title of the first ever Lucha Underground Champion?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/117772"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 117773,
+      "url": "https://www.tvmaze.com/episodes/117773/lucha-underground-1x10-law-of-the-jungle",
+      "name": "Law of the Jungle",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2015-01-14",
+      "airtime": "20:00",
+      "airstamp": "2015-01-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769104.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769104.jpg"
+      },
+      "summary": "<p>Our First Ever Lucha Underground Champion Prince Puma, will put his title on the line in a match against Fenix. Newcomers 4-Way Elimination Match Aerostar vs Argenis vs Angelico vs Cage. Chavo confronts Blue Demon Jr. Drago takes on King Cuerno.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/117773"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 120763,
+      "url": "https://www.tvmaze.com/episodes/120763/lucha-underground-1x11-last-luchador-standing",
+      "name": "Last Luchador Standing",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2015-01-21",
+      "airtime": "20:00",
+      "airstamp": "2015-01-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769105.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769105.jpg"
+      },
+      "summary": "<p>Last Luchador Standing Match, Drago vs King Cuerno. Their hunt for each other will finally come to an end tonight! No pinfalls, disqualifications, submissions or count-outs. Winner must incapacitate opponent until he can no longer answer 10 count.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/120763"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 124057,
+      "url": "https://www.tvmaze.com/episodes/124057/lucha-underground-1x12-they-call-him-cage",
+      "name": "They Call Him Cage",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2015-01-28",
+      "airtime": "20:00",
+      "airstamp": "2015-01-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769106.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769106.jpg"
+      },
+      "summary": "<p>Tonight Prince Puma puts his title on the line for the second time in just 3 weeks. Will Puma walk out of his hometown with the title again or will he be crushed by the man they call Cage? Main Event…Lucha Underground Championship Match…Puma vs Cage.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/124057"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 139573,
+      "url": "https://www.tvmaze.com/episodes/139573/lucha-underground-1x13-johnny-mundo-vs-the-machine-aka-unexpected-guests",
+      "name": "Johnny Mundo vs The Machine (aka Unexpected Guests)",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2015-02-04",
+      "airtime": "20:00",
+      "airstamp": "2015-02-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769107.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769107.jpg"
+      },
+      "summary": "<p>Cage looks to be the number one contender, but one of Lucha Undergrounds best fighters stands in his way. Surprise guest shows up to Dario Cueto's temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/139573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 139574,
+      "url": "https://www.tvmaze.com/episodes/139574/lucha-underground-1x14-a-shot-of-el-patron",
+      "name": "A Shot of El Patrón",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2015-02-11",
+      "airtime": "20:00",
+      "airstamp": "2015-02-12T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769108.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769108.jpg"
+      },
+      "summary": "<p>A new luchador arrives at the temple. Dario Cueto gives him a mic to address his fans and pledges to be the best Luchador in the World!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/139574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 139575,
+      "url": "https://www.tvmaze.com/episodes/139575/lucha-underground-1x15-eye-for-an-eye",
+      "name": "Eye for an Eye",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2015-02-18",
+      "airtime": "20:00",
+      "airstamp": "2015-02-19T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769109.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769109.jpg"
+      },
+      "summary": "<p>Dario Cueto rewards the Crew with a No Disqualification Trios Match. Chavo finally faces Mil Muertes. Ivelisse takes matters into her own hands.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/139575"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 142188,
+      "url": "https://www.tvmaze.com/episodes/142188/lucha-underground-1x16-caged-animals",
+      "name": "Caged Animals",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2015-02-25",
+      "airtime": "20:00",
+      "airstamp": "2015-02-26T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769110.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769110.jpg"
+      },
+      "summary": "<p>Cage looks to earn a Championship Match. Cueto offers another unique opportunity. Johnny Mundo seeks revenge.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/142188"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 142304,
+      "url": "https://www.tvmaze.com/episodes/142304/lucha-underground-1x17-a-war-started-in-mexico",
+      "name": "A War Started in Mexico...",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2015-03-04",
+      "airtime": "20:00",
+      "airstamp": "2015-03-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769111.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769111.jpg"
+      },
+      "summary": "<p>A rivalry is renewed from Mexico, Dario Cueto pairs two luchadores with a history of bad blood. Huge Main Event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/142304"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 144473,
+      "url": "https://www.tvmaze.com/episodes/144473/lucha-underground-1x18-no-escape",
+      "name": "No Escape",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2015-03-11",
+      "airtime": "20:00",
+      "airstamp": "2015-03-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769112.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769112.jpg"
+      },
+      "summary": "<p>Our Main Event gets even bigger. For the first time ever in Lucha Underground…A Steel Cage Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/144473"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 144474,
+      "url": "https://www.tvmaze.com/episodes/144474/lucha-underground-1x19-grave-consequences",
+      "name": "Grave Consequences",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2015-03-18",
+      "airtime": "20:00",
+      "airstamp": "2015-03-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769113.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769113.jpg"
+      },
+      "summary": "<p>MASSIVE main event to come, Grave Consequences is tonight, and the only way to win, put your opponent in a coffin!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/144474"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 151659,
+      "url": "https://www.tvmaze.com/episodes/151659/lucha-underground-1x20-the-art-of-war",
+      "name": "The Art of War",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2015-03-25",
+      "airtime": "20:00",
+      "airstamp": "2015-03-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769114.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769114.jpg"
+      },
+      "summary": "<p>Two World Titles on the line… The Lucha Underground Championship is on the line and the stakes have never been higher… Boyle Heights Street Fight Main Event Championship Title Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/151659"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 151660,
+      "url": "https://www.tvmaze.com/episodes/151660/lucha-underground-1x21-uno-dos-tres",
+      "name": "Uno! Dos! Tres!",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2015-04-01",
+      "airtime": "20:00",
+      "airstamp": "2015-04-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769115.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769115.jpg"
+      },
+      "summary": "<p>New gold is up for grabs in the Temple. Dario Cueto sets up the Trios Titles Tournament to crown the first ever Lucha Underground Trios Tag Team Champions. The first match of Trios Tag Team Championship Tournament is TONIGHT!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/151660"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 153407,
+      "url": "https://www.tvmaze.com/episodes/153407/lucha-underground-1x22-mask-vs-mask",
+      "name": "Mask vs. Mask",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2015-04-08",
+      "airtime": "20:00",
+      "airstamp": "2015-04-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769116.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769116.jpg"
+      },
+      "summary": "<p>Tonight, partners Sexy Star and Super Fly will compete against each other. Sacred masks on the line in our first ever Mask vs Mask Match. Champion Prince Puma takes on King Cuerno and Cueto's Trios Tournament Continues.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/153407"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 154004,
+      "url": "https://www.tvmaze.com/episodes/154004/lucha-underground-1x23-fire-in-the-cosmos",
+      "name": "Fire in the Cosmos",
+      "season": 1,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2015-04-15",
+      "airtime": "20:00",
+      "airstamp": "2015-04-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769117.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769117.jpg"
+      },
+      "summary": "<p>Best of 5 Series Drago vs Aerostar will come to and end tonight. There's one more spot left in next weeks Trios Title Match. With six of the best luchadores in the Temple, who will earn the last spot?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/154004"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 154718,
+      "url": "https://www.tvmaze.com/episodes/154718/lucha-underground-1x24-trios-champions",
+      "name": "Trios Champions",
+      "season": 1,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2015-04-22",
+      "airtime": "20:00",
+      "airstamp": "2015-04-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769118.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769118.jpg"
+      },
+      "summary": "<p>Tonight the first ever Lucha Underground Trios Champions will be crowned in a Three Way Trios Tag Team Elimination Match! Three teams have advanced but only one can walk away with the belts…The last surviving team wins the titles.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/154718"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 155370,
+      "url": "https://www.tvmaze.com/episodes/155370/lucha-underground-1x25-the-way-of-the-drago",
+      "name": "The Way of the Drago",
+      "season": 1,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2015-04-29",
+      "airtime": "20:00",
+      "airstamp": "2015-04-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769119.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769119.jpg"
+      },
+      "summary": "<p>High stakes main event. Prince Puma faces Drago in a Champion vs Career match. Cueto vows to banish Drago from his Temple forever if he fails to beat defending champion Puma. 3 luchadores compete to be the new #1 Contender.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/155370"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 156105,
+      "url": "https://www.tvmaze.com/episodes/156105/lucha-underground-1x26-the-best-in-the-business",
+      "name": "The Best in the Business",
+      "season": 1,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2015-05-06",
+      "airtime": "20:00",
+      "airstamp": "2015-05-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769120.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769120.jpg"
+      },
+      "summary": "<p>The Crew is looking for revenge against the underdogs who beat them to become Trios Champions. Puma &amp; Hernandez vs Cage &amp; King Cuerno. Alberto vs. Johnny Mundo, winner advances to a #1 Contender's Match with Hernandez!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/156105"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 157106,
+      "url": "https://www.tvmaze.com/episodes/157106/lucha-underground-1x27-ancient-medallions",
+      "name": "Ancient Medallions",
+      "season": 1,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2015-05-13",
+      "airtime": "20:00",
+      "airstamp": "2015-05-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769121.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769121.jpg"
+      },
+      "summary": "<p>Seven top competitors go to battle over a mysterious medallion in a 7-way match. Huge Main Event: Alberto El Patron vs Hernandez for the #1 Contender Title. The only way to win will be by pinfall or submission!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/157106"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 158842,
+      "url": "https://www.tvmaze.com/episodes/158842/lucha-underground-1x28-shoots-and-ladders",
+      "name": "Shoots and Ladders",
+      "season": 1,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2015-05-20",
+      "airtime": "20:00",
+      "airstamp": "2015-05-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769122.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769122.jpg"
+      },
+      "summary": "<p>The Trios Titles will be defended in a Ladder Match. The first person to climb the ladder and retrieve the championships will win the titles for their team. Meanwhile, Vampiro asks Johnny Mundo to explain his actions.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/158842"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 161908,
+      "url": "https://www.tvmaze.com/episodes/161908/lucha-underground-1x29-fight-to-the-death",
+      "name": "Fight to the Death",
+      "season": 1,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2015-05-27",
+      "airtime": "20:00",
+      "airstamp": "2015-05-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769123.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769123.jpg"
+      },
+      "summary": "<p>Huge double Main Event. Fenix vs Mil Muertes Death Match. Prince Puma defends his Lucha Underground Championship Title against the #1 Contender, Hernandez. Vampiro sits down with Sexy Star.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/161908"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163687,
+      "url": "https://www.tvmaze.com/episodes/163687/lucha-underground-1x30-submit-to-the-master",
+      "name": "Submit to the Master",
+      "season": 1,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2015-06-03",
+      "airtime": "20:00",
+      "airstamp": "2015-06-04T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769124.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769124.jpg"
+      },
+      "summary": "<p>Dario Cueto sets Aztec Medallion Match, Argenis vs Jack Evans. Trios Champions defend their titles against a team of DelAvar Daivari's choice. First ever Lucha Underground submission match: Sexy Star vs Pentagon Jr.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163687"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163688,
+      "url": "https://www.tvmaze.com/episodes/163688/lucha-underground-1x31-the-desolation-of-drago",
+      "name": "The Desolation of Drago",
+      "season": 1,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2015-06-10",
+      "airtime": "20:00",
+      "airstamp": "2015-06-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769125.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769125.jpg"
+      },
+      "summary": "<p>Cueto announces ULTIMALUCHA! Sets 4-Way match to determine the #1 Contender. Cage, King Cuerno, and Hernandez compete against a returning Luchador. Two legends Blue Demon Jr. and Chavo Guerrero return to the temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163688"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163689,
+      "url": "https://www.tvmaze.com/episodes/163689/lucha-underground-1x32-all-night-long",
+      "name": "All Night Long",
+      "season": 1,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2015-06-17",
+      "airtime": "20:00",
+      "airstamp": "2015-06-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769126.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769126.jpg"
+      },
+      "summary": "<p>Prince Puma defends his Championship Title against Johnny Mundo. By order of Dario Cueto, whichever luchador has the most pinfall and submission victories will earn the Lucha Underground Championship Title.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163689"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163690,
+      "url": "https://www.tvmaze.com/episodes/163690/lucha-underground-1x33-death-vs-the-dragon",
+      "name": "Death vs. The Dragon",
+      "season": 1,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2015-06-24",
+      "airtime": "20:00",
+      "airstamp": "2015-06-25T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769127.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769127.jpg"
+      },
+      "summary": "<p>Dario Cueto sets rematch, Sexy Star vs Superfly. 5-Way Aztec Medallion Match: Aerostar vs The Mack vs Marty \"The Moth\" Martinez vs Cage vs Pentagon Jr. Main Event: Drago vs Mil Muertes winner earns a spot in UltimaLucha.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163690"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163691,
+      "url": "https://www.tvmaze.com/episodes/163691/lucha-underground-1x34-gold-and-guerreros",
+      "name": "Gold and Guerreros",
+      "season": 1,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2015-07-01",
+      "airtime": "20:00",
+      "airstamp": "2015-07-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769128.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769128.jpg"
+      },
+      "summary": "<p>Drago and Hernandez meet for the first time one on one. Texano has a score to settle. The Lucha Underground Championship is on the line…Prince Puma faces Chavo and his crew for the first time ever!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163691"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163692,
+      "url": "https://www.tvmaze.com/episodes/163692/lucha-underground-1x35-fuel-to-the-fire",
+      "name": "Fuel to the Fire",
+      "season": 1,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2015-07-08",
+      "airtime": "20:00",
+      "airstamp": "2015-07-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769129.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769129.jpg"
+      },
+      "summary": "<p>Mundo and Alberto El Patron face each other in the ring for the first time since Alberto returned after being thrown through Cueto's window. Tonight they'll each team up with 3 others in an Atómicos Tag Team Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163692"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163693,
+      "url": "https://www.tvmaze.com/episodes/163693/lucha-underground-1x36-the-beginning-of-the-end",
+      "name": "The Beginning of the End",
+      "season": 1,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2015-07-15",
+      "airtime": "20:00",
+      "airstamp": "2015-07-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769130.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769130.jpg"
+      },
+      "summary": "<p>Vampiro confronts Pentagon Jr. Killshot vs. King Cuerno. Sexy Star vs. Super Fly. And for the first time ever, Lucha Underground Champion Prince Puma will have a face off with his Ultimalucha challenger, Mil Muertes.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163693"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 163694,
+      "url": "https://www.tvmaze.com/episodes/163694/lucha-underground-1x37-penultimalucha",
+      "name": "PenUltimaLucha",
+      "season": 1,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2015-07-22",
+      "airtime": "20:00",
+      "airstamp": "2015-07-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769131.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769131.jpg"
+      },
+      "summary": "<p>Dario Cueto reveals the meaning of the Aztec Medallions. Texano vs. Mundo. The Mack vs. Cage. Huge Main Event: Battle Royal for the final Aztec Medallion.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/163694"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 182309,
+      "url": "https://www.tvmaze.com/episodes/182309/lucha-underground-1x38-ultima-lucha-part-1",
+      "name": "Ultima Lucha: Part 1",
+      "season": 1,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2015-07-29",
+      "airtime": "20:00",
+      "airstamp": "2015-07-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769132.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769132.jpg"
+      },
+      "summary": "<p>The explosive two-week mega event begins! The Mack vs. The Machine, Cage, in a Falls Count Anywhere Match. Trios Titles are on the line as Team Havoc faces the DOD. Drago faces Hernandez in Believers Backlash.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/182309"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 182310,
+      "url": "https://www.tvmaze.com/episodes/182310/lucha-underground-1x39-ultima-lucha-part-2",
+      "name": "Ultima Lucha: Part 2",
+      "season": 1,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2015-08-05",
+      "airtime": "20:00",
+      "airstamp": "2015-08-06T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769133.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769133.jpg"
+      },
+      "summary": "<p>Season finale. Johnny Mundo vs. Alberto El Patron. Pentagon Jr. vs. Vampiro. Texano vs. Blue Demon Jr. 7-Way Gift of the Gods Match for Aztec Gold. Championship Match Prince Puma faces 1000 Deaths… Mil Muertes.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/182310"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 526413,
+      "url": "https://www.tvmaze.com/episodes/526413/lucha-underground-2x01-a-much-darker-place",
+      "name": "A Much Darker Place",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-01-27",
+      "airtime": "20:00",
+      "airstamp": "2016-01-28T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769135.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769135.jpg"
+      },
+      "summary": "<p>The Luchadors return to compete, but with Dario Cueto on the run, darkness has taken over the temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/526413"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 590890,
+      "url": "https://www.tvmaze.com/episodes/590890/lucha-underground-2x02-the-dark-the-mysterious",
+      "name": "The Dark & The Mysterious",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-02-03",
+      "airtime": "20:00",
+      "airstamp": "2016-02-04T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769136.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769136.jpg"
+      },
+      "summary": "<p>Prince Puma teams with an unlikely partner. Johnny Mundo returns to the temple with his sights set on the Lucha Underground Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/590890"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 599313,
+      "url": "https://www.tvmaze.com/episodes/599313/lucha-underground-2x03-the-hunt-is-on",
+      "name": "The Hunt is on...",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2016-02-10",
+      "airtime": "20:00",
+      "airstamp": "2016-02-11T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769137.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769137.jpg"
+      },
+      "summary": "<p>Catrina enlists King Cuerno to help her destroy Fenix. A new Luchadora debuts.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/599313"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 610432,
+      "url": "https://www.tvmaze.com/episodes/610432/lucha-underground-2x04-cero-miedo",
+      "name": "Cero Miedo",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2016-02-17",
+      "airtime": "20:00",
+      "airstamp": "2016-02-18T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769138.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769138.jpg"
+      },
+      "summary": "<p>Prince Puma takes on Pentagon Jr. for the first time ever. Rey Mysterio Jr. reveals the Cueto family's history.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/610432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 610433,
+      "url": "https://www.tvmaze.com/episodes/610433/lucha-underground-2x05-the-machine",
+      "name": "The Machine",
+      "season": 2,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2016-02-24",
+      "airtime": "20:00",
+      "airstamp": "2016-02-25T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769139.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769139.jpg"
+      },
+      "summary": "<p>Johnny Mundo battles the Machine Cage. Texano returns for revenge against Chavo Guerrero and the Crew.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/610433"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 610434,
+      "url": "https://www.tvmaze.com/episodes/610434/lucha-underground-2x06-gift-of-the-gods-ladder-match",
+      "name": "Gift of the Gods Ladder Match",
+      "season": 2,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2016-03-02",
+      "airtime": "20:00",
+      "airstamp": "2016-03-03T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769140.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769140.jpg"
+      },
+      "summary": "<p>King Cuerno defends his Gift of the Gods Championship against Fenix in a ladder match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/610434"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 620205,
+      "url": "https://www.tvmaze.com/episodes/620205/lucha-underground-2x07-death-comes-in-threes",
+      "name": "Death Comes in Threes",
+      "season": 2,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2016-03-09",
+      "airtime": "20:00",
+      "airstamp": "2016-03-10T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769141.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769141.jpg"
+      },
+      "summary": "<p>Mil Muertes defends the Lucha Underground Championship against Prince Puma and Pentagon Jr. in a 3-Way Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/620205"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 620206,
+      "url": "https://www.tvmaze.com/episodes/620206/lucha-underground-2x08-life-after-death",
+      "name": "Life After Death",
+      "season": 2,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2016-03-16",
+      "airtime": "20:00",
+      "airstamp": "2016-03-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769142.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769142.jpg"
+      },
+      "summary": "<p>Fenix exchanges his Gift of the Gods Championship for a Lucha Underground Championship Match. The Trios Titles are defended.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/620206"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 669380,
+      "url": "https://www.tvmaze.com/episodes/669380/lucha-underground-2x09-aztec-warfare-ii",
+      "name": "Aztec Warfare II",
+      "season": 2,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2016-03-23",
+      "airtime": "20:00",
+      "airstamp": "2016-03-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769143.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769143.jpg"
+      },
+      "summary": "<p>20 Luchadors Compete for the Lucha Underground Championship in Aztec Warfare. Rey Mysterio arrives at the Temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/669380"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 682067,
+      "url": "https://www.tvmaze.com/episodes/682067/lucha-underground-2x10-el-jefe-is-back",
+      "name": "El Jefe is Back",
+      "season": 2,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2016-03-30",
+      "airtime": "20:00",
+      "airstamp": "2016-03-31T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769144.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769144.jpg"
+      },
+      "summary": "<p>Dario Cueto has returned to the Temple and is persuaded to make the new Lucha Underground Champion defend his title. The Trios Champions are in action.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/682067"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 682788,
+      "url": "https://www.tvmaze.com/episodes/682788/lucha-underground-2x11-bird-of-war",
+      "name": "Bird of War",
+      "season": 2,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2016-04-06",
+      "airtime": "20:00",
+      "airstamp": "2016-04-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769145.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769145.jpg"
+      },
+      "summary": "<p>The Trios Tournament begins; Fenix faces the Monster Matanza Cueto for the championship; Famous B seeks his first client; Vampiro fights with his personal demons.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/682788"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 711386,
+      "url": "https://www.tvmaze.com/episodes/711386/lucha-underground-2x12-threes-a-crowd",
+      "name": "Three's a Crowd",
+      "season": 2,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2016-04-13",
+      "airtime": "20:00",
+      "airstamp": "2016-04-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769146.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769146.jpg"
+      },
+      "summary": "<p>The Trios Tournament Continues and Rey Mysterio, Prince Puma and El Dragon Azteca Jr. must compete. Dario Cueto redistributes the Seven Ancient Aztec Medallions and lets a new luchador compete for one.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/711386"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 732386,
+      "url": "https://www.tvmaze.com/episodes/732386/lucha-underground-2x13-monster-meets-monster",
+      "name": "Monster Meets Monster",
+      "season": 2,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2016-04-20",
+      "airtime": "20:00",
+      "airstamp": "2016-04-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769147.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769147.jpg"
+      },
+      "summary": "<p>Mil Muertes faces the Monster Matanza Cueto in a title match. Fenix gets some unlikely partners in the Trios Tournament. An old rivalry is renewed over an Aztec Medallion.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/732386"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 734757,
+      "url": "https://www.tvmaze.com/episodes/734757/lucha-underground-2x14-cage-in-a-cage",
+      "name": "Cage in a Cage",
+      "season": 2,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2016-04-27",
+      "airtime": "20:00",
+      "airstamp": "2016-04-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769148.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769148.jpg"
+      },
+      "summary": "<p>Johnny Mundo takes on Cage in a Steel Cage Match for an Aztec Medallion. Four teams compete in the Trios Tournament Finals. Pentagon Jr. struggles with his injuries.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/734757"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 734758,
+      "url": "https://www.tvmaze.com/episodes/734758/lucha-underground-2x15-no-mas",
+      "name": "No Mas",
+      "season": 2,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2016-05-04",
+      "airtime": "20:00",
+      "airstamp": "2016-05-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769149.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769149.jpg"
+      },
+      "summary": "<p>Sexy Star battles Mariposa for an Aztec Medallion in Lucha Underground's first ever \"No Mas\" Match. Catrina confronts Dario Cueto. Luchadors have matches for the other available Medallions.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/734758"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 734759,
+      "url": "https://www.tvmaze.com/episodes/734759/lucha-underground-2x16-graver-consequences",
+      "name": "Graver Consequences",
+      "season": 2,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2016-05-11",
+      "airtime": "20:00",
+      "airstamp": "2016-05-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769150.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769150.jpg"
+      },
+      "summary": "<p>Mil Muertes battles the Monster Matanza Cueto in a coffin match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/734759"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 734760,
+      "url": "https://www.tvmaze.com/episodes/734760/lucha-underground-2x17-crime-punishment",
+      "name": "Crime & Punishment",
+      "season": 2,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2016-05-18",
+      "airtime": "20:00",
+      "airstamp": "2016-05-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769151.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769151.jpg"
+      },
+      "summary": "<p>Seven Luchadors compete for the Gift of the Gods Championship; Cage seeks revenge.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/734760"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 807346,
+      "url": "https://www.tvmaze.com/episodes/807346/lucha-underground-2x18-enter-the-mundo",
+      "name": "Enter the Mundo",
+      "season": 2,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2016-05-25",
+      "airtime": "20:00",
+      "airstamp": "2016-05-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769152.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769152.jpg"
+      },
+      "summary": "<p>Rey Mysterio, Prince Puma and El Dragon Azteca Jr. defend their Trios Championship. Joey Ryan and Cortez Castro's cover gets blown. The Gift of the Gods Championship is defended.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/807346"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 818176,
+      "url": "https://www.tvmaze.com/episodes/818176/lucha-underground-2x19-judgement-day",
+      "name": "Judgement Day",
+      "season": 2,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2016-06-01",
+      "airtime": "20:00",
+      "airstamp": "2016-06-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769153.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769153.jpg"
+      },
+      "summary": "<p>The Monster Matanza Cueto defends his title against the Gift of the Gods Champion. The Trios Champions defend their titles. Dragon Azteca Jr. searches for his mentor's killer.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/818176"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 824740,
+      "url": "https://www.tvmaze.com/episodes/824740/lucha-underground-2x20-the-contenders",
+      "name": "The Contenders",
+      "season": 2,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2016-06-08",
+      "airtime": "20:00",
+      "airstamp": "2016-06-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769154.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769154.jpg"
+      },
+      "summary": "<p>Drago &amp; Aerostar face Jack Evans and PJ Black in a Nunchuck Match. Mr. Cisco learns the truth about Cortez Castro. Pentagon Jr. returns to the Temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/824740"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 824741,
+      "url": "https://www.tvmaze.com/episodes/824741/lucha-underground-2x21-six-to-survive",
+      "name": "Six to Survive",
+      "season": 2,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2016-06-15",
+      "airtime": "20:00",
+      "airstamp": "2016-06-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769155.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769155.jpg"
+      },
+      "summary": "<p>Six luchadors compete in the first ever Six to Survive Match for a Championship Match at Ultima Lucha Dos.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/824741"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 844482,
+      "url": "https://www.tvmaze.com/episodes/844482/lucha-underground-2x22-fame-and-fortune",
+      "name": "Fame and Fortune",
+      "season": 2,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2016-06-22",
+      "airtime": "20:00",
+      "airstamp": "2016-06-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769156.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769156.jpg"
+      },
+      "summary": "<p>The 7 Ancient Aztec Medallions are redistributed. Prince Puma addresses the Believers and reveals his plans for Ultima Lucha Dos. A new luchador arrives at the Temple.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/844482"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 824744,
+      "url": "https://www.tvmaze.com/episodes/824744/lucha-underground-2x23-the-phoenix-the-dragon-and-the-spaceman",
+      "name": "The Phoenix, The Dragon and The Spaceman",
+      "season": 2,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2016-06-29",
+      "airtime": "20:00",
+      "airstamp": "2016-06-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769157.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769157.jpg"
+      },
+      "summary": "<p>Dario Cueto announces a new \"Unique Opportunity\" that can be won at Ultima Lucha Dos. El Dragon Azteca faces Prince Puma.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/824744"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 824745,
+      "url": "https://www.tvmaze.com/episodes/824745/lucha-underground-2x24-ultima-lucha-dos-part-1",
+      "name": "Ultima Lucha Dos - Part 1",
+      "season": 2,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2016-07-06",
+      "airtime": "20:00",
+      "airstamp": "2016-07-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769158.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769158.jpg"
+      },
+      "summary": "<p>Son of Havoc, Cage, Texano, and the Mack compete for a \"Unique Opportunity\" where the winner is faced with a career defining decision.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/824745"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 866628,
+      "url": "https://www.tvmaze.com/episodes/866628/lucha-underground-2x25-ultima-lucha-dos-part-2",
+      "name": "Ultima Lucha Dos - Part 2",
+      "season": 2,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2016-07-13",
+      "airtime": "20:00",
+      "airstamp": "2016-07-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769159.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769159.jpg"
+      },
+      "summary": "<p>King Cuerno faces Mil Muertes in a Death Match. 7 Way Gift of the Gods Elimination match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/866628"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 870209,
+      "url": "https://www.tvmaze.com/episodes/870209/lucha-underground-2x26-ultima-lucha-dos-part-3-finale",
+      "name": "Ultima Lucha Dos - Part 3 Finale",
+      "season": 2,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2016-07-20",
+      "airtime": "20:00",
+      "airstamp": "2016-07-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769160.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769160.jpg"
+      },
+      "summary": "<p>Rey Mysterio vs. Prince Puma. Pentagon vs. the Monster Matanza Cueto. Fenix, Drago and Aerostar vs. Worldwide Underground. Ivelisse vs. Taya. El Dragon Azteca Jr. vs. Black Lotus.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/870209"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 909708,
+      "url": "https://www.tvmaze.com/episodes/909708/lucha-underground-3x01-wheel-of-misfortune",
+      "name": "Wheel of Misfortune",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-09-07",
+      "airtime": "20:00",
+      "airstamp": "2016-09-08T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769161.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769161.jpg"
+      },
+      "summary": "<p>The luchadors return to the temple where their fate will be determined by the spin of a wheel; Rey Mysterio competes.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/909708"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 910389,
+      "url": "https://www.tvmaze.com/episodes/910389/lucha-underground-3x02-the-amulet",
+      "name": "The Amulet",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2016-09-14",
+      "airtime": "20:00",
+      "airstamp": "2016-09-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769162.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769162.jpg"
+      },
+      "summary": "<p>Killshot takes on Marty the Moth in the first Weapons of Mass Destruction Match; the power of an Aztec amulet is revealed.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/910389"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 910390,
+      "url": "https://www.tvmaze.com/episodes/910390/lucha-underground-3x03-ultimate-opportunities",
+      "name": "Ultimate Opportunities",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2016-09-21",
+      "airtime": "20:00",
+      "airstamp": "2016-09-22T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769163.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769163.jpg"
+      },
+      "summary": "<p>The Dial of Doom selects an opponent for Matanza Cueto; Dario makes an announcement; Trios titles championship match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/910390"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 910391,
+      "url": "https://www.tvmaze.com/episodes/910391/lucha-underground-3x04-brothers-in-broken-arms",
+      "name": "Brothers in Broken Arms",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2016-09-28",
+      "airtime": "20:00",
+      "airstamp": "2016-09-29T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769164.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769164.jpg"
+      },
+      "summary": "<p>El Dragon Azteca Jr. battles against Chavo Guerrero with Rey Mysterio as the guest referee; The Worldwide Underground takes on the Trios Champions along with Sexy Star; Dario suspects Cortez Castro.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/910391"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936163,
+      "url": "https://www.tvmaze.com/episodes/936163/lucha-underground-3x05-the-prince-and-the-monster",
+      "name": "The Prince and The Monster",
+      "season": 3,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2016-10-05",
+      "airtime": "20:00",
+      "airstamp": "2016-10-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769165.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769165.jpg"
+      },
+      "summary": "<p>Matanza gets another opponent; Ivelisse finds a new love; Killshot receives some news; The Rabbit Tribe is introduced.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936163"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936164,
+      "url": "https://www.tvmaze.com/episodes/936164/lucha-underground-3x06-the-open-road-to-revenge",
+      "name": "The Open Road to Revenge",
+      "season": 3,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2016-10-12",
+      "airtime": "20:00",
+      "airstamp": "2016-10-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769166.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769166.jpg"
+      },
+      "summary": "<p>Rey Mysterio vs Chavo Guerrero; Sexy Star vs Jack Evans; Son of Havoc and Mascarita Sagrada return with ravenous appetites for revenge.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936164"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936165,
+      "url": "https://www.tvmaze.com/episodes/936165/lucha-underground-3x07-payback-time",
+      "name": "Payback Time",
+      "season": 3,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2016-10-19",
+      "airtime": "20:00",
+      "airstamp": "2016-10-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769167.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769167.jpg"
+      },
+      "summary": "<p>Prince Puma versus Mil Muertes; Johnny Mundo seeks a match with Sexy Star; Dial of Doom picks another opponent for Matanza.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936165"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936166,
+      "url": "https://www.tvmaze.com/episodes/936166/lucha-underground-3x08-gifts-of-the-gods",
+      "name": "Gifts of the Gods",
+      "season": 3,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2016-10-26",
+      "airtime": "20:00",
+      "airstamp": "2016-10-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769168.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769168.jpg"
+      },
+      "summary": "<p>City Councilman Delgado arrives and gives Dario a gift; Sexy Star defends her title; Rey Mysterio asks Dario for a favor.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936166"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936167,
+      "url": "https://www.tvmaze.com/episodes/936167/lucha-underground-3x09-loser-leaves-lucha",
+      "name": "Loser Leaves Lucha",
+      "season": 3,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2016-11-02",
+      "airtime": "20:00",
+      "airstamp": "2016-11-03T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769169.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769169.jpg"
+      },
+      "summary": "<p>Loser Leaves Town Match between Rey Mysterio and Chavo Guerrero; Dario gives the Dial of Doom a spin.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936167"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936168,
+      "url": "https://www.tvmaze.com/episodes/936168/lucha-underground-3x10-ready-for-war",
+      "name": "Ready for War",
+      "season": 3,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2016-11-09",
+      "airtime": "20:00",
+      "airstamp": "2016-11-10T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769170.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769170.jpg"
+      },
+      "summary": "<p>Prince Puma and Mil Muertes in Graver Consequences; Mascarita Sagrada takes on Famous B in a Believer's Backlash Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936168"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936169,
+      "url": "https://www.tvmaze.com/episodes/936169/lucha-underground-3x11-aztec-warfare-iii",
+      "name": "Aztec Warfare III",
+      "season": 3,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2016-11-16",
+      "airtime": "20:00",
+      "airstamp": "2016-11-17T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769171.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769171.jpg"
+      },
+      "summary": "<p>Twenty luchadores compete in Aztec Warfare for the Lucha Underground Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936169"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936170,
+      "url": "https://www.tvmaze.com/episodes/936170/lucha-underground-3x12-every-woman-is-sexy-every-woman-is-a-star",
+      "name": "Every Woman is Sexy, Every Woman is a Star",
+      "season": 3,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2016-11-23",
+      "airtime": "20:00",
+      "airstamp": "2016-11-24T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769172.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769172.jpg"
+      },
+      "summary": "<p>A Lucha Underground Championship match; Black Lotus returns to the temple; The Rabbit Tribe arrives; Catrina confronts Jeremiah Crane.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936170"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936171,
+      "url": "https://www.tvmaze.com/episodes/936171/lucha-underground-3x13-breaker-of-bones",
+      "name": "Breaker of Bones",
+      "season": 3,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2016-11-30",
+      "airtime": "20:00",
+      "airstamp": "2016-12-01T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769173.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769173.jpg"
+      },
+      "summary": "<p>Vampiro demands satisfaction from his former student; Pentagon Dark battles the Black Lotus Triad; Dario and Matanza have different plans.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936171"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936172,
+      "url": "https://www.tvmaze.com/episodes/936172/lucha-underground-3x14-the-bulls-of-boyle-heights",
+      "name": "The Bulls of Boyle Heights",
+      "season": 3,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2016-12-07",
+      "airtime": "20:00",
+      "airstamp": "2016-12-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769174.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769174.jpg"
+      },
+      "summary": "<p>The Battle of the Bulls Tournament begins; Cortez Castro goes deeper undercover; Kobra Moon tells the history of her tribe.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936172"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936173,
+      "url": "https://www.tvmaze.com/episodes/936173/lucha-underground-3x15-en-la-sombras",
+      "name": "En La Sombras",
+      "season": 3,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2016-12-14",
+      "airtime": "20:00",
+      "airstamp": "2016-12-15T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769175.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769175.jpg"
+      },
+      "summary": "<p>The continuation of The Battle of the Bulls Tournament; El Dragon Azteca Jr. visits Rey Mysterio; Sexy Star is the target of mind games.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936173"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936174,
+      "url": "https://www.tvmaze.com/episodes/936174/lucha-underground-3x16-the-battle-of-the-bulls",
+      "name": "The Battle of the Bulls",
+      "season": 3,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2016-12-21",
+      "airtime": "20:00",
+      "airstamp": "2016-12-22T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769176.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769176.jpg"
+      },
+      "summary": "<p>The tournament winner gets a title shot against the winner between Johnny Mundo and Sexy Star; Drago's fate is revealed.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936174"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936175,
+      "url": "https://www.tvmaze.com/episodes/936175/lucha-underground-3x17-the-gauntlet",
+      "name": "The Gauntlet",
+      "season": 3,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2016-12-28",
+      "airtime": "20:00",
+      "airstamp": "2016-12-29T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769177.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769177.jpg"
+      },
+      "summary": "<p>Cage and Texano continue their series; Jeremiah Crane wrestles Mil Muertes; a luchador returns for some revenge.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936175"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936176,
+      "url": "https://www.tvmaze.com/episodes/936176/lucha-underground-3x18-evil-rising",
+      "name": "Evil Rising",
+      "season": 3,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2017-01-04",
+      "airtime": "20:00",
+      "airstamp": "2017-01-05T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769178.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769178.jpg"
+      },
+      "summary": "<p>The Mack battles Johnny Mundo; Paul London and the Rabbit Tribe versus Kobra Moon and her reptiles.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936176"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 936177,
+      "url": "https://www.tvmaze.com/episodes/936177/lucha-underground-3x19-gods-among-men",
+      "name": "Gods Among Men",
+      "season": 3,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2017-01-11",
+      "airtime": "20:00",
+      "airstamp": "2017-01-12T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769179.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769179.jpg"
+      },
+      "summary": "<p>Johnny Mundo confronts The Mack about their championship match; El Dragon Azteca Jr. seeks a match with Matanza.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/936177"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1192519,
+      "url": "https://www.tvmaze.com/episodes/1192519/lucha-underground-3x20-all-night-long-again",
+      "name": "All Night Long... Again",
+      "season": 3,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2017-05-31",
+      "airtime": "20:00",
+      "airstamp": "2017-06-01T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769180.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769180.jpg"
+      },
+      "summary": "<p>The Mack takes on Johnny Mundo in an All Night Long Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1192519"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1192520,
+      "url": "https://www.tvmaze.com/episodes/1192520/lucha-underground-3x21-sudden-death",
+      "name": "Sudden Death",
+      "season": 3,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2017-06-07",
+      "airtime": "20:00",
+      "airstamp": "2017-06-08T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769181.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769181.jpg"
+      },
+      "summary": "<p>The Lucha Underground Championship is defended; Dario makes an announcement; Prince Puma versus Mil Muertes in a Boyles Height Street Fight.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1192520"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1192521,
+      "url": "https://www.tvmaze.com/episodes/1192521/lucha-underground-3x22-the-cup-begins",
+      "name": "The Cup Begins",
+      "season": 3,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2017-06-14",
+      "airtime": "20:00",
+      "airstamp": "2017-06-15T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769182.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769182.jpg"
+      },
+      "summary": "<p>The Cueto Cup begins. Johnny Mundo and Rey Mysterio start their training; Cage visits Councilman Delgado.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1192521"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1192522,
+      "url": "https://www.tvmaze.com/episodes/1192522/lucha-underground-3x23-family-first",
+      "name": "Family First",
+      "season": 3,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2017-06-21",
+      "airtime": "20:00",
+      "airstamp": "2017-06-22T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769183.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769183.jpg"
+      },
+      "summary": "<p>The first round of the Cueto Cup continues. Marty \"The Moth\" Martinez's obsession with Melissa Santos resumes. Rey Mysterio and Johnny Mundo prepare to do battle.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1192522"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1192524,
+      "url": "https://www.tvmaze.com/episodes/1192524/lucha-underground-3x24-macho-madness",
+      "name": "Macho Madness",
+      "season": 3,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2017-06-28",
+      "airtime": "20:00",
+      "airstamp": "2017-06-29T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769184.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769184.jpg"
+      },
+      "summary": "<p>The Cueto Cup's first round continues; a new luchador arrives to the temple; Crane's jealously erupts.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1192524"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1253178,
+      "url": "https://www.tvmaze.com/episodes/1253178/lucha-underground-3x25-left-for-dead",
+      "name": "Left For Dead",
+      "season": 3,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2017-07-05",
+      "airtime": "20:00",
+      "airstamp": "2017-07-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769185.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769185.jpg"
+      },
+      "summary": "<p>Dante Fox flashbacks to being a POW; the first round of The Cueto Cup winds down; Rey Mysterio and Johnny Mundo continue their training.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1253178"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1253179,
+      "url": "https://www.tvmaze.com/episodes/1253179/lucha-underground-3x26-a-fenix-to-a-flame",
+      "name": "A Fenix To A Flame",
+      "season": 3,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2017-07-12",
+      "airtime": "20:00",
+      "airstamp": "2017-07-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769186.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769186.jpg"
+      },
+      "summary": "<p>The Cueto Cup's second round begins; Marty the Moth battles Fenix; Brenda pays a visit to Texano.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1253179"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1260249,
+      "url": "https://www.tvmaze.com/episodes/1260249/lucha-underground-3x27-fade-to-black",
+      "name": "Fade To Black",
+      "season": 3,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2017-07-19",
+      "airtime": "20:00",
+      "airstamp": "2017-07-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769187.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769187.jpg"
+      },
+      "summary": "<p>The second round of the Cueto Cup continues. Vampiro advises Prince Puma on his future and his match with PJ Black. Johnny Mundo introduces his new agent to the Worldwide Underground.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1260249"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1270761,
+      "url": "https://www.tvmaze.com/episodes/1270761/lucha-underground-3x28-booyaka-booyaka",
+      "name": "Booyaka! Booyaka!",
+      "season": 3,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2017-07-26",
+      "airtime": "20:00",
+      "airstamp": "2017-07-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769188.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769188.jpg"
+      },
+      "summary": "<p>Rey Mysterio prepares for his Lucha Underground Championship Match with Johnny Mundo by fighting PJ Black. The second round of the Cueto Cup continues. Son of Madness confronts Son of Havoc.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1270761"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1270762,
+      "url": "https://www.tvmaze.com/episodes/1270762/lucha-underground-3x29-the-hunger-inside",
+      "name": "The Hunger Inside",
+      "season": 3,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2017-08-02",
+      "airtime": "20:00",
+      "airstamp": "2017-08-03T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769189.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769189.jpg"
+      },
+      "summary": "<p>The Quarterfinals of the Cueto Cup begin. Dario has a warning for his brother Matanza. Cortez Castro checks in with Captain Vasquez. Marty The Moth's obsession with Melissa Santos grows.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1270762"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1271704,
+      "url": "https://www.tvmaze.com/episodes/1271704/lucha-underground-3x30-bloodlines",
+      "name": "Bloodlines",
+      "season": 3,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2017-08-09",
+      "airtime": "20:00",
+      "airstamp": "2017-08-10T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769190.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769190.jpg"
+      },
+      "summary": "<p>The Cueto Cup's quarterfinals continue; an FBI agent visits Dario Cueto. Starring: Ivelisse Velez, Sexy Star, Mascarita Sagrada, Karlee Leilani Perez </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1271704"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1276065,
+      "url": "https://www.tvmaze.com/episodes/1276065/lucha-underground-3x31-the-cup-runneth-over",
+      "name": "The Cup Runneth Over",
+      "season": 3,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2017-08-16",
+      "airtime": "20:00",
+      "airstamp": "2017-08-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/124/311405.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/124/311405.jpg"
+      },
+      "summary": "<p>Rey Mysterio and Johnny Mundo have a confrontation. The four semifinalists in the Cueto Cup compete. Catrina sets her sights on Cage's Gauntlet.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1276065"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1280531,
+      "url": "https://www.tvmaze.com/episodes/1280531/lucha-underground-3x32-the-cueto-cup",
+      "name": "The Cueto Cup",
+      "season": 3,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2017-08-23",
+      "airtime": "20:00",
+      "airstamp": "2017-08-24T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769191.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769191.jpg"
+      },
+      "summary": "<p>Johnny Mundo threatens Dario Cueto. Two Luchadors battle for the Cueto Cup. Rey Mysterio takes on Johnny Mundo for the Lucha Underground Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1280531"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1280532,
+      "url": "https://www.tvmaze.com/episodes/1280532/lucha-underground-3x33-havoc-running-wild",
+      "name": "Havoc Running Wild",
+      "season": 3,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2017-08-30",
+      "airtime": "20:00",
+      "airstamp": "2017-08-31T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769192.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769192.jpg"
+      },
+      "summary": "<p>Dario admits to his brother that he was wrong about Rey Mysterio. Son of Madness and Son of Havoc's feud runs wild. Joey Ryan pushes Cortez Castro too far.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1280532"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1280534,
+      "url": "https://www.tvmaze.com/episodes/1280534/lucha-underground-3x34-career-opportunities",
+      "name": "Career Opportunities",
+      "season": 3,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2017-09-06",
+      "airtime": "20:00",
+      "airstamp": "2017-09-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769193.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769193.jpg"
+      },
+      "summary": "<p>Dario Cueto makes a huge announcement that concerns Rey Mysterio. Cortez Castro battles Joey Ryan in a Five-O Street Fight. Johnny Mundo makes an Ultima Lucha challenge to Prince Puma.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1280534"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1280533,
+      "url": "https://www.tvmaze.com/episodes/1280533/lucha-underground-3x35-cien",
+      "name": "Cien",
+      "season": 3,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2017-09-13",
+      "airtime": "20:00",
+      "airstamp": "2017-09-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769194.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769194.jpg"
+      },
+      "summary": "<p>The 100th Episode of Lucha Underground features a star-studded Atomicos Match, El Dragon Azteca Jr. vs. Pentagon Dark, and Rey Mysterio vs. Matanza for the first time ever in the Main Event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1280533"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1319091,
+      "url": "https://www.tvmaze.com/episodes/1319091/lucha-underground-3x36-the-rise-of-the-ring-announcer",
+      "name": "The Rise Of The Ring Announcer",
+      "season": 3,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2017-09-20",
+      "airtime": "20:00",
+      "airstamp": "2017-09-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769195.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769195.jpg"
+      },
+      "summary": "<p>Marty \"The Moth\" Martinez teams with Mariposa to take on Fenix and his partner Lucha Underground's ring announcer, Melissa Santos. Plus a 7-Way Gift of the Gods Title Match. More Ultima Lucha plans are made.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1319091"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1319092,
+      "url": "https://www.tvmaze.com/episodes/1319092/lucha-underground-3x37-ultima-lucha-tres-part-1",
+      "name": "Ultima Lucha Tres Part 1",
+      "season": 3,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2017-09-27",
+      "airtime": "20:00",
+      "airstamp": "2017-09-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769196.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769196.jpg"
+      },
+      "summary": "<p>Killshot and Dante Fox's rivalry comes to an end as they fight in 2 out of 3 Falls Match called The Hell of War. Famous B competes to win Texano's contract.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1319092"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1330245,
+      "url": "https://www.tvmaze.com/episodes/1330245/lucha-underground-3x38-ultima-lucha-tres-part-2",
+      "name": "Ultima Lucha Tres Part 2",
+      "season": 3,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2017-10-04",
+      "airtime": "20:00",
+      "airstamp": "2017-10-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769197.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769197.jpg"
+      },
+      "summary": "<p>Catrina makes her in ring debut against the returning Ivelisse. Fenix faces Marty \"The Moth\" Martinez in a brutal \"Mask vs Hair\" match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1330245"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1330246,
+      "url": "https://www.tvmaze.com/episodes/1330246/lucha-underground-3x39-ultima-lucha-tres-part-3",
+      "name": "Ultima Lucha Tres Part 3",
+      "season": 3,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2017-10-11",
+      "airtime": "20:00",
+      "airstamp": "2017-10-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769198.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769198.jpg"
+      },
+      "summary": "<p>Sexy Star and Taya fight in a Last Luchadora Standing Match, Pentagon Dark takes on Son of Havoc in a Gift of the Gods Ladder Match. Vampiro prepares Prince Puma for Ultima Lucha.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1330246"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1330247,
+      "url": "https://www.tvmaze.com/episodes/1330247/lucha-underground-3x40-ultima-lucha-tres-part-4",
+      "name": "Ultima Lucha Tres Part 4",
+      "season": 3,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2017-10-18",
+      "airtime": "20:00",
+      "airstamp": "2017-10-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769199.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769199.jpg"
+      },
+      "summary": "<p>Prince Puma puts everything on the line against the Lucha Underground Champion Johnny Mundo. Mil Muertes, Cage and Jeremiah Crane battle for the Gauntled of the Gods and El Dragon Asteca Jr. fights The Monster Matanza Cueto inside a Steel Cage in a night filled with violence, emotion and surprises.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1330247"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1441212,
+      "url": "https://www.tvmaze.com/episodes/1441212/lucha-underground-4x01-el-jefe",
+      "name": "El Jefe",
+      "season": 4,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-06-13",
+      "airtime": "20:00",
+      "airstamp": "2018-06-14T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769216.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769216.jpg"
+      },
+      "summary": "<p>The Lucha Underground Temple moves to a new location and Pentagon Dark must defend his Lucha Underground Championship for the very first time; Dario Cueto's fate is revealed.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1441212"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1479558,
+      "url": "https://www.tvmaze.com/episodes/1479558/lucha-underground-4x02-darkness-and-the-monster",
+      "name": "Darkness and the Monster",
+      "season": 4,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-06-20",
+      "airtime": "20:00",
+      "airstamp": "2018-06-21T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769217.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769217.jpg"
+      },
+      "summary": "<p>Catrina hopes to restore her life and searches for the Gauntlet of the Gods. The Trios Champions defend their titles against three new fighters and one of the Seven Ancient Aztec Medallions comes back into play.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1479558"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1479559,
+      "url": "https://www.tvmaze.com/episodes/1479559/lucha-underground-4x03-rest-in-pieces",
+      "name": "Rest in Pieces",
+      "season": 4,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-06-27",
+      "airtime": "20:00",
+      "airstamp": "2018-06-28T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769218.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769218.jpg"
+      },
+      "summary": "<p>Johnny Mundo and the Worldwide Underground plot revenge. Jack Evans issues a Put Up or Shut Up Challenge. A new challenger comes for the Lucha Underground Champion. Fenix takes on Jeremiah Crane and Mil Muertes in a 3-Way to the Grave Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1479559"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1487334,
+      "url": "https://www.tvmaze.com/episodes/1487334/lucha-underground-4x04-pain-love-and-sacrifice-to-the-gods",
+      "name": "Pain, Love and Sacrifice to the Gods",
+      "season": 4,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-07-04",
+      "airtime": "20:00",
+      "airstamp": "2018-07-05T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769219.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769219.jpg"
+      },
+      "summary": "<p>Catrina gives Melissa a gift. Johnny Mundo and Taya take on Kobra Moon and her King, Daga. Antonio gives King Cuerno the chance for revenge and the chance to win an Ancient Aztec Medallion. The Monster Matanza Cueto makes a Sacrifice to the Gods.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1487334"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1488157,
+      "url": "https://www.tvmaze.com/episodes/1488157/lucha-underground-4x05-sacrificio",
+      "name": "Sacrificio",
+      "season": 4,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-07-11",
+      "airtime": "20:00",
+      "airstamp": "2018-07-12T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769220.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769220.jpg"
+      },
+      "summary": "<p>Mil Muertes takes on Cage in one of three matches for Ancient Aztec Mediallions; Matanza makes another Sacrifice to the Gods; Mascarita Sagrada takes Paul London and the Rabbit Tribe to finally meet the legendary White Rabbit.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1488157"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492075,
+      "url": "https://www.tvmaze.com/episodes/1492075/lucha-underground-4x06-break-the-machine",
+      "name": "Break the Machine",
+      "season": 4,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-07-18",
+      "airtime": "20:00",
+      "airstamp": "2018-07-19T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769221.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769221.jpg"
+      },
+      "summary": "<p>Paul London battles newcomer Dezmond X for the Final Ancient Aztec</p><p>Medallion. Johnny Mundo takes on the Giant Snake Man, Vibora. Jack</p><p>Evans scouts XO Lishus. Cage does battle with Pentagon Dark.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492075"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492076,
+      "url": "https://www.tvmaze.com/episodes/1492076/lucha-underground-4x07-the-gift-that-keeps-on-giving",
+      "name": "The Gift That Keeps on Giving",
+      "season": 4,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2018-07-25",
+      "airtime": "20:00",
+      "airstamp": "2018-07-26T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769222.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769222.jpg"
+      },
+      "summary": "<p>A new Gift of the Gods Champion is crowned; Mariposa motivates her broken-armed brother Marty \"The Moth\" Martinez; Sammy Guevara looks for revenge against \"the Savage\" Jake Strong.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492076"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492077,
+      "url": "https://www.tvmaze.com/episodes/1492077/lucha-underground-4x08-the-ranks-of-the-reptiles",
+      "name": "The Ranks of the Reptiles",
+      "season": 4,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2018-08-01",
+      "airtime": "20:00",
+      "airstamp": "2018-08-02T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769223.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769223.jpg"
+      },
+      "summary": "<p>The rivalry between the Worldwide Underground and the Reptile Tribe escalates and the stakes are raised in the war between the two factions; The Mack suffers a haunting experience; Pentagon and Cage must find partners. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492077"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492078,
+      "url": "https://www.tvmaze.com/episodes/1492078/lucha-underground-4x09-a-match-made-in-heaven",
+      "name": "A Match Made in Heaven",
+      "season": 4,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2018-08-08",
+      "airtime": "20:00",
+      "airstamp": "2018-08-09T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769224.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769224.jpg"
+      },
+      "summary": "<p>Mariposa makes a proposal to Antonio Cueto; Paul London makes an offering to the Gods on behalf of the White Rabbit; The Worldwide Underground take on The Reptile Tribe in an Atomicos Match; if the Reptiles win, Johnny must join them.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492078"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492079,
+      "url": "https://www.tvmaze.com/episodes/1492079/lucha-underground-4x10-a-snake-scorned",
+      "name": "A Snake Scorned",
+      "season": 4,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2018-08-15",
+      "airtime": "20:00",
+      "airstamp": "2018-08-16T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769225.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769225.jpg"
+      },
+      "summary": "<p>Paul London attempts to satisfy the White Rabbit; tensions between the Trios Champions are at an all-time high as they are forced to defend their titles against a dangerous opponent; Cage and Pentagon Dark's conflict explodes.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492079"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492080,
+      "url": "https://www.tvmaze.com/episodes/1492080/lucha-underground-4x11-last-man-or-machine-standing",
+      "name": "Last Man or Machine Standing",
+      "season": 4,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2018-08-22",
+      "airtime": "20:00",
+      "airstamp": "2018-08-23T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769226.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769226.jpg"
+      },
+      "summary": "<p>Pentagon Dark battles Cage for the Lucha Underground Championship; The Mack vs. Mil Muertes in the first ever Haunted House Match; Johnny and Taya have a wedding shower; Rosa continues to have an influence on Ricky.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492080"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1492081,
+      "url": "https://www.tvmaze.com/episodes/1492081/lucha-underground-4x12-til-death-do-us-part",
+      "name": "Til Death Do Us Part",
+      "season": 4,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2018-08-29",
+      "airtime": "20:00",
+      "airstamp": "2018-08-30T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769227.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769227.jpg"
+      },
+      "summary": "<p>Johnny Mundo and Taya get married and their nuptials are filled with lots of surprises; XO Lishus takes on Jack Evans in a \"No Mas\" Match; Drago battles \"The Savage\" Jake Strong.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1492081"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1519874,
+      "url": "https://www.tvmaze.com/episodes/1519874/lucha-underground-4x13-the-circle-of-life",
+      "name": "The Circle Of Life",
+      "season": 4,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2018-09-05",
+      "airtime": "20:00",
+      "airstamp": "2018-09-06T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769228.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769228.jpg"
+      },
+      "summary": "<p>Melissa Santos and Catrina engage in an epic confrontation; the Monster Matanza Cueto makes another Sacrifice to the Gods; a Luchador seeking revenge comes after Pentagon Dark; Son of Havoc observes Killshot's match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1519874"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1521823,
+      "url": "https://www.tvmaze.com/episodes/1521823/lucha-underground-4x14-pet-cemetary",
+      "name": "Pet Cemetary",
+      "season": 4,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2018-09-12",
+      "airtime": "20:00",
+      "airstamp": "2018-09-13T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769229.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769229.jpg"
+      },
+      "summary": "<p>Fenix returns to the Temple to team with Drago and Aerostar against the Reptile Tribe; King Cuerno wants a Lucha Underground Championship Match, but he's not the only one; the Gift of the Gods Championship is defended.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1521823"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1521824,
+      "url": "https://www.tvmaze.com/episodes/1521824/lucha-underground-4x15-the-hunted",
+      "name": "The Hunted",
+      "season": 4,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2018-09-19",
+      "airtime": "20:00",
+      "airstamp": "2018-09-20T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769230.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769230.jpg"
+      },
+      "summary": "<p>The Lucha Underground Championship and Gift of the Gods Championship are both defended; Melissa Santos and Aerostar notice a change in Fenix; Paul London pays another visit to the White Rabbit.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1521824"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1521825,
+      "url": "https://www.tvmaze.com/episodes/1521825/lucha-underground-4x16-kill-mill",
+      "name": "Kill Mill",
+      "season": 4,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2018-09-26",
+      "airtime": "20:00",
+      "airstamp": "2018-09-27T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769231.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769231.jpg"
+      },
+      "summary": "<p>Ivelisse and XO Lishus find a new partner to help them face the Reptile Tribe; Jake Strong takes on Drago and Aerostar in a Nunchuck Match; a new number one contender for the Lucha Underground Championship is determined.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1521825"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1537144,
+      "url": "https://www.tvmaze.com/episodes/1537144/lucha-underground-4x17-the-moth-and-the-butterfly",
+      "name": "The Moth And The Butterfly",
+      "season": 4,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2018-10-03",
+      "airtime": "20:00",
+      "airstamp": "2018-10-04T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769232.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769232.jpg"
+      },
+      "summary": "<p>The Rabbit Tribe takes on XO Lishus, Ivelisse and Joey Ryan; Marty \"The Moth\" Martinez introduces a new associate and sends a message to his Ultima Lucha opponent; Killshot and Son of Havoc finally go one on one.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1537144"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1537145,
+      "url": "https://www.tvmaze.com/episodes/1537145/lucha-underground-4x18-spiders-and-skeletons",
+      "name": "Spiders And Skeletons",
+      "season": 4,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2018-10-10",
+      "airtime": "20:00",
+      "airstamp": "2018-10-11T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769233.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769233.jpg"
+      },
+      "summary": "<p>Taya Mundo returns for revenge; Ricky Mundo makes a shocking confession; two of Lucha Underground's fiercest rivals Mil Muertes and Fenix must team to take on their Ultima Lucha opponents.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1537145"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1544188,
+      "url": "https://www.tvmaze.com/episodes/1544188/lucha-underground-4x19-savagery",
+      "name": "Savagery",
+      "season": 4,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2018-10-17",
+      "airtime": "20:00",
+      "airstamp": "2018-10-18T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769234.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769234.jpg"
+      },
+      "summary": "<p>Jake Strong talks with Cueto and makes demands; a Gift of the Gods Battle Royale takes place; The Mack battles his friend and former Trios Partner Killshot; a huge main event is made.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1544188"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1545005,
+      "url": "https://www.tvmaze.com/episodes/1545005/lucha-underground-4x20-seven-to-survive",
+      "name": "Seven to Survive",
+      "season": 4,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2018-10-24",
+      "airtime": "20:00",
+      "airstamp": "2018-10-25T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769235.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769235.jpg"
+      },
+      "summary": "<p>Seven Luchadors do battle in a Seven to Survive Elimination Match for the Gift of the Gods Championship; Johnny Mundo gets some help, preparing for his match against the Monster Matanza Cueto.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1545005"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1545006,
+      "url": "https://www.tvmaze.com/episodes/1545006/lucha-underground-4x21-ultima-lucha-cuatro-part-1",
+      "name": "Ultima Lucha Cuatro - Part 1",
+      "season": 4,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2018-10-31",
+      "airtime": "20:00",
+      "airstamp": "2018-11-01T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769236.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769236.jpg"
+      },
+      "summary": "<p>Aerostar pays a visit to an old friend; 3-Way Trios Championship Elimination Match; Taya Mundo takes on Ricky Mundo; Son of Havoc battles Killshot in match where the loser must unmask.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1545006"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    },
+    {
+      "id": 1545007,
+      "url": "https://www.tvmaze.com/episodes/1545007/lucha-underground-4x22-ultima-lucha-cuatro-part-2",
+      "name": "Ultima Lucha Cuatro - Part 2",
+      "season": 4,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2018-11-07",
+      "airtime": "20:00",
+      "airstamp": "2018-11-08T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/307/769237.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/307/769237.jpg"
+      },
+      "summary": "<p>El Dragon Azteca Jr. vs. Fenix; The Mack vs. Mil Muertes in a Death Match; Johnny Mundo vs. Matanza; Penatgon Dark vs. Marty \"The Moth\" in a Cero Miedo Match; The Order sets their plan in motion to destroy the Seven Aztec.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1545007"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/653",
+          "name": "Lucha Underground"
+        }
+      }
+    }
+  ]
+}

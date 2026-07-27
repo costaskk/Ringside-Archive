@@ -1,0 +1,635 @@
+{
+  "programId": "wwf-wrestling-challenge",
+  "tvMazeId": 33098,
+  "fetchedAt": "2026-07-27T07:57:29.717Z",
+  "show": {
+    "id": 33098,
+    "url": "https://www.tvmaze.com/shows/33098/wwf-wrestling-challenge",
+    "name": "WWF Wrestling Challenge",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "1986-09-06",
+    "ended": "1994-01-30",
+    "officialSite": null,
+    "schedule": {
+      "time": "11:00",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 21,
+    "network": {
+      "id": 72,
+      "name": "Syndication",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 73985,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/374/935806.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/374/935806.jpg"
+    },
+    "summary": "<p><b>WWF Wrestling Challenge</b> was originally a show with original matches and clips from Saturday Night's Main Event.</p>",
+    "updated": 1745402720,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/33098"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1348081",
+        "name": "January 30, 1994"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1348060,
+      "url": "https://www.tvmaze.com/episodes/1348060/wwf-wrestling-challenge-1x01-september-6-1986",
+      "name": "September 6, 1986",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1986-09-06",
+      "airtime": "",
+      "airstamp": "1986-09-06T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348060"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348061,
+      "url": "https://www.tvmaze.com/episodes/1348061/wwf-wrestling-challenge-1x02-september-13-1986",
+      "name": "September 13, 1986",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1986-09-13",
+      "airtime": "",
+      "airstamp": "1986-09-13T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348061"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348062,
+      "url": "https://www.tvmaze.com/episodes/1348062/wwf-wrestling-challenge-1x03-september-20-1986",
+      "name": "September 20, 1986",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1986-09-20",
+      "airtime": "",
+      "airstamp": "1986-09-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348062"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348063,
+      "url": "https://www.tvmaze.com/episodes/1348063/wwf-wrestling-challenge-1x04-september-27-1986",
+      "name": "September 27, 1986",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1986-09-27",
+      "airtime": "",
+      "airstamp": "1986-09-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348063"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348064,
+      "url": "https://www.tvmaze.com/episodes/1348064/wwf-wrestling-challenge-1x05-october-4-1986",
+      "name": "October 4, 1986",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1986-10-04",
+      "airtime": "",
+      "airstamp": "1986-10-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348064"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348065,
+      "url": "https://www.tvmaze.com/episodes/1348065/wwf-wrestling-challenge-1x06-october-11-1986",
+      "name": "October 11, 1986",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1986-10-11",
+      "airtime": "",
+      "airstamp": "1986-10-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348065"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348066,
+      "url": "https://www.tvmaze.com/episodes/1348066/wwf-wrestling-challenge-1x07-october-18-1986",
+      "name": "October 18, 1986",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1986-10-18",
+      "airtime": "",
+      "airstamp": "1986-10-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348066"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348067,
+      "url": "https://www.tvmaze.com/episodes/1348067/wwf-wrestling-challenge-1x08-october-25-1986",
+      "name": "October 25, 1986",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1986-10-25",
+      "airtime": "",
+      "airstamp": "1986-10-25T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348067"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348068,
+      "url": "https://www.tvmaze.com/episodes/1348068/wwf-wrestling-challenge-1x09-march-15-1987",
+      "name": "March 15, 1987",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1987-03-15",
+      "airtime": "",
+      "airstamp": "1987-03-15T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348068"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348069,
+      "url": "https://www.tvmaze.com/episodes/1348069/wwf-wrestling-challenge-1x10-march-22-1987",
+      "name": "March 22, 1987",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1987-03-22",
+      "airtime": "",
+      "airstamp": "1987-03-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348069"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348070,
+      "url": "https://www.tvmaze.com/episodes/1348070/wwf-wrestling-challenge-1x11-march-29-1987",
+      "name": "March 29, 1987",
+      "season": 1,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1987-03-29",
+      "airtime": "",
+      "airstamp": "1987-03-29T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348070"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348071,
+      "url": "https://www.tvmaze.com/episodes/1348071/wwf-wrestling-challenge-1x12-april-5-1987",
+      "name": "April 5, 1987",
+      "season": 1,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1987-04-05",
+      "airtime": "",
+      "airstamp": "1987-04-05T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348071"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348072,
+      "url": "https://www.tvmaze.com/episodes/1348072/wwf-wrestling-challenge-1x13-april-12-1987",
+      "name": "April 12, 1987",
+      "season": 1,
+      "number": 13,
+      "type": "regular",
+      "airdate": "1987-04-12",
+      "airtime": "",
+      "airstamp": "1987-04-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348072"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348073,
+      "url": "https://www.tvmaze.com/episodes/1348073/wwf-wrestling-challenge-1x14-april-19-1987",
+      "name": "April 19, 1987",
+      "season": 1,
+      "number": 14,
+      "type": "regular",
+      "airdate": "1987-04-19",
+      "airtime": "",
+      "airstamp": "1987-04-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348073"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348074,
+      "url": "https://www.tvmaze.com/episodes/1348074/wwf-wrestling-challenge-1x15-april-26-1987",
+      "name": "April 26, 1987",
+      "season": 1,
+      "number": 15,
+      "type": "regular",
+      "airdate": "1987-04-26",
+      "airtime": "",
+      "airstamp": "1987-04-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348074"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348075,
+      "url": "https://www.tvmaze.com/episodes/1348075/wwf-wrestling-challenge-1x16-september-4-1993",
+      "name": "September 4, 1993",
+      "season": 1,
+      "number": 16,
+      "type": "regular",
+      "airdate": "1993-09-04",
+      "airtime": "",
+      "airstamp": "1993-09-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348075"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348076,
+      "url": "https://www.tvmaze.com/episodes/1348076/wwf-wrestling-challenge-1x17-september-11-1993",
+      "name": "September 11, 1993",
+      "season": 1,
+      "number": 17,
+      "type": "regular",
+      "airdate": "1993-09-11",
+      "airtime": "",
+      "airstamp": "1993-09-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348076"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348077,
+      "url": "https://www.tvmaze.com/episodes/1348077/wwf-wrestling-challenge-1x18-october-31-1993",
+      "name": "October 31, 1993",
+      "season": 1,
+      "number": 18,
+      "type": "regular",
+      "airdate": "1993-10-31",
+      "airtime": "",
+      "airstamp": "1993-10-31T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348077"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348078,
+      "url": "https://www.tvmaze.com/episodes/1348078/wwf-wrestling-challenge-1x19-january-9-1994",
+      "name": "January 9, 1994",
+      "season": 1,
+      "number": 19,
+      "type": "regular",
+      "airdate": "1994-01-09",
+      "airtime": "",
+      "airstamp": "1994-01-09T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348078"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348079,
+      "url": "https://www.tvmaze.com/episodes/1348079/wwf-wrestling-challenge-1x20-january-16-1994",
+      "name": "January 16, 1994",
+      "season": 1,
+      "number": 20,
+      "type": "regular",
+      "airdate": "1994-01-16",
+      "airtime": "",
+      "airstamp": "1994-01-16T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348079"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348080,
+      "url": "https://www.tvmaze.com/episodes/1348080/wwf-wrestling-challenge-1x21-january-23-1994",
+      "name": "January 23, 1994",
+      "season": 1,
+      "number": 21,
+      "type": "regular",
+      "airdate": "1994-01-23",
+      "airtime": "",
+      "airstamp": "1994-01-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348080"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    },
+    {
+      "id": 1348081,
+      "url": "https://www.tvmaze.com/episodes/1348081/wwf-wrestling-challenge-1x22-january-30-1994",
+      "name": "January 30, 1994",
+      "season": 1,
+      "number": 22,
+      "type": "regular",
+      "airdate": "1994-01-30",
+      "airtime": "",
+      "airstamp": "1994-01-30T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1348081"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/33098",
+          "name": "WWF Wrestling Challenge"
+        }
+      }
+    }
+  ]
+}

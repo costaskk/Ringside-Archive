@@ -1,0 +1,580 @@
+{
+  "programId": "wwf-championship",
+  "tvMazeId": 25514,
+  "fetchedAt": "2026-07-27T07:57:29.122Z",
+  "show": {
+    "id": 25514,
+    "url": "https://www.tvmaze.com/shows/25514/wwf-championship-wrestling",
+    "name": "WWF Championship Wrestling",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 72,
+    "premiered": "1972-05-20",
+    "ended": "1982-10-30",
+    "officialSite": "http://www.wwe.com/",
+    "schedule": {
+      "time": "11:00",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 42,
+    "network": {
+      "id": 72,
+      "name": "Syndication",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": "tt1529215"
+    },
+    "image": null,
+    "summary": null,
+    "updated": 1745402759,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/25514"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1872403",
+        "name": "1982-10-30"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1079441,
+      "url": "https://www.tvmaze.com/episodes/1079441/wwf-championship-wrestling-1x01-episode-1",
+      "name": "Episode 1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1972-05-20",
+      "airtime": "",
+      "airstamp": "1972-05-20T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1079441"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1079442,
+      "url": "https://www.tvmaze.com/episodes/1079442/wwf-championship-wrestling-15x35-episode-35",
+      "name": "Episode 35",
+      "season": 15,
+      "number": 35,
+      "type": "regular",
+      "airdate": "1972-05-27",
+      "airtime": "",
+      "airstamp": "1972-05-27T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1079442"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863562,
+      "url": "https://www.tvmaze.com/episodes/1863562/wwf-championship-wrestling-1982-05-08-1982-05-08",
+      "name": "1982-05-08",
+      "season": 1982,
+      "number": 1,
+      "type": "regular",
+      "airdate": "1982-05-08",
+      "airtime": "",
+      "airstamp": "1982-05-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863562"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863563,
+      "url": "https://www.tvmaze.com/episodes/1863563/wwf-championship-wrestling-1982-05-15-1982-05-15",
+      "name": "1982-05-15",
+      "season": 1982,
+      "number": 2,
+      "type": "regular",
+      "airdate": "1982-05-15",
+      "airtime": "",
+      "airstamp": "1982-05-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863563"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863866,
+      "url": "https://www.tvmaze.com/episodes/1863866/wwf-championship-wrestling-1982-05-22-philadelphia-spectrum",
+      "name": "Philadelphia Spectrum",
+      "season": 1982,
+      "number": 3,
+      "type": "regular",
+      "airdate": "1982-05-22",
+      "airtime": "",
+      "airstamp": "1982-05-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863866"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863945,
+      "url": "https://www.tvmaze.com/episodes/1863945/wwf-championship-wrestling-1982-06-12-1982-06-12",
+      "name": "1982-06-12",
+      "season": 1982,
+      "number": 4,
+      "type": "regular",
+      "airdate": "1982-06-12",
+      "airtime": "",
+      "airstamp": "1982-06-12T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863945"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863946,
+      "url": "https://www.tvmaze.com/episodes/1863946/wwf-championship-wrestling-1982-06-26-1982-06-26",
+      "name": "1982-06-26",
+      "season": 1982,
+      "number": 5,
+      "type": "regular",
+      "airdate": "1982-06-26",
+      "airtime": "",
+      "airstamp": "1982-06-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863946"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863947,
+      "url": "https://www.tvmaze.com/episodes/1863947/wwf-championship-wrestling-1982-07-24-1982-07-24",
+      "name": "1982-07-24",
+      "season": 1982,
+      "number": 6,
+      "type": "regular",
+      "airdate": "1982-07-24",
+      "airtime": "",
+      "airstamp": "1982-07-24T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863947"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863948,
+      "url": "https://www.tvmaze.com/episodes/1863948/wwf-championship-wrestling-1982-07-31-1982-07-31",
+      "name": "1982-07-31",
+      "season": 1982,
+      "number": 7,
+      "type": "regular",
+      "airdate": "1982-07-31",
+      "airtime": "",
+      "airstamp": "1982-07-31T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863948"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863949,
+      "url": "https://www.tvmaze.com/episodes/1863949/wwf-championship-wrestling-1982-07-31-philadelphia-spectrum",
+      "name": "Philadelphia Spectrum",
+      "season": 1982,
+      "number": 8,
+      "type": "regular",
+      "airdate": "1982-07-31",
+      "airtime": "",
+      "airstamp": "1982-07-31T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863949"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1863865,
+      "url": "https://www.tvmaze.com/episodes/1863865/wwf-championship-wrestling-1982-08-07-1982-08-07",
+      "name": "1982-08-07",
+      "season": 1982,
+      "number": 9,
+      "type": "regular",
+      "airdate": "1982-08-07",
+      "airtime": "",
+      "airstamp": "1982-08-07T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1863865"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872395,
+      "url": "https://www.tvmaze.com/episodes/1872395/wwf-championship-wrestling-1982-08-14-1982-08-14",
+      "name": "1982-08-14",
+      "season": 1982,
+      "number": 10,
+      "type": "regular",
+      "airdate": "1982-08-14",
+      "airtime": "",
+      "airstamp": "1982-08-14T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872395"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872396,
+      "url": "https://www.tvmaze.com/episodes/1872396/wwf-championship-wrestling-1982-08-21-1982-08-21",
+      "name": "1982-08-21",
+      "season": 1982,
+      "number": 11,
+      "type": "regular",
+      "airdate": "1982-08-21",
+      "airtime": "",
+      "airstamp": "1982-08-21T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872396"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872397,
+      "url": "https://www.tvmaze.com/episodes/1872397/wwf-championship-wrestling-1982-08-30-madison-square-garden",
+      "name": "Madison Square Garden",
+      "season": 1982,
+      "number": 12,
+      "type": "regular",
+      "airdate": "1982-08-30",
+      "airtime": "",
+      "airstamp": "1982-08-30T16:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872397"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872398,
+      "url": "https://www.tvmaze.com/episodes/1872398/wwf-championship-wrestling-1982-09-11-1982-09-11",
+      "name": "1982-09-11",
+      "season": 1982,
+      "number": 13,
+      "type": "regular",
+      "airdate": "1982-09-11",
+      "airtime": "",
+      "airstamp": "1982-09-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872398"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872399,
+      "url": "https://www.tvmaze.com/episodes/1872399/wwf-championship-wrestling-1982-09-18-1982-09-18",
+      "name": "1982-09-18",
+      "season": 1982,
+      "number": 14,
+      "type": "regular",
+      "airdate": "1982-09-18",
+      "airtime": "",
+      "airstamp": "1982-09-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872399"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872400,
+      "url": "https://www.tvmaze.com/episodes/1872400/wwf-championship-wrestling-1982-10-09-1982-10-09",
+      "name": "1982-10-09",
+      "season": 1982,
+      "number": 15,
+      "type": "regular",
+      "airdate": "1982-10-09",
+      "airtime": "",
+      "airstamp": "1982-10-09T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872400"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872401,
+      "url": "https://www.tvmaze.com/episodes/1872401/wwf-championship-wrestling-1982-10-16-1982-10-16",
+      "name": "1982-10-16",
+      "season": 1982,
+      "number": 16,
+      "type": "regular",
+      "airdate": "1982-10-16",
+      "airtime": "",
+      "airstamp": "1982-10-16T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872401"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872402,
+      "url": "https://www.tvmaze.com/episodes/1872402/wwf-championship-wrestling-1982-10-23-1982-10-23",
+      "name": "1982-10-23",
+      "season": 1982,
+      "number": 17,
+      "type": "regular",
+      "airdate": "1982-10-23",
+      "airtime": "",
+      "airstamp": "1982-10-23T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872402"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1872403,
+      "url": "https://www.tvmaze.com/episodes/1872403/wwf-championship-wrestling-1982-10-30-1982-10-30",
+      "name": "1982-10-30",
+      "season": 1982,
+      "number": 18,
+      "type": "regular",
+      "airdate": "1982-10-30",
+      "airtime": "",
+      "airstamp": "1982-10-30T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1872403"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25514",
+          "name": "WWF Championship Wrestling"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "programId": "wccw-tv",
+  "tvMazeId": 10402,
+  "fetchedAt": "2026-07-27T07:57:29.169Z",
+  "show": {
+    "id": 10402,
+    "url": "https://www.tvmaze.com/shows/10402/world-class-championship-wrestling",
+    "name": "World Class Championship Wrestling",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "1982-10-15",
+    "ended": "1986-11-07",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": [
+        "Friday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 70,
+    "network": {
+      "id": 72,
+      "name": "Syndication",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/35/87995.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/35/87995.jpg"
+    },
+    "summary": "<p><b>World Class Championship Wrestling</b> (WCCW) was a regional professional wrestling promotion headquartered in Dallas and Fort Worth, Texas. Originally owned by promoter Ed McLemore, by 1966 it was run by Southwest Sports, Inc., whose president, Jack Adkisson, was better known as wrestler Fritz Von Erich. Beginning as a territory of the National Wrestling Alliance (NWA), it went independent in 1986 in a bid to become a major national promotion, but was unsuccessful in its attempts and eventually went out of business in 1990. Rights to the pre-1988 WCCW tape library currently belong to WWE (the post-1988 rights are owned by International World Class Championship Wrestling).</p><p>World Class Championship Wrestling was a member of the NWA and was originally known as Big Time Wrestling until 1982, when Adkisson decided that the name of his federation needed to be changed. Mickey Grant, who headed the production of its telecasts, suggested the name World Class, and from there, the rest was history. WCCW operated its enterprise in Dallas, Texas and held wrestling events at the Reunion Arena, and mostly at the famed Sportatorium, located just south of Downtown Dallas, which was also a well-known boxing and wrestling arena as well as the one-time home to the famous Big D Jamboree.</p><p>World Class Championship Wrestling experienced tremendous success from 1981-1985, shattering attendance records and achieving global exposure through their syndicated television program. Bookers Ken Mantell, David Von Erich, Gary Hart, Bruiser Brody and Kevin Von Erich provided fans with hard hitting action centered around the popular Von Erich brothers and a cast devious villians.</p><p>Storylines during this time followed a consistent theme of friendship and betrayal, with many of the top villians being first presented as friends to the Von Erich Family, only to betray them months or even years later. Weekly wrestling shows were staged there on Tuesday nights until August 1978, then were moved to Sunday nights until the early '80s, and finally were held on Friday nights until the promotion's demise.</p><p>WCCW's syndicated show was usually taped at the Sportatorium beginning in 1981, with two hour-long shows being recorded every other Friday. These telecasts were, in the beginning, seen in only a few markets and were hosted at various times by Gene Goodson, Steve Harms, and Marc Lowrance; when the show was taken over in 1982 by Continental Productions (a subsidiary of local station KXTX) and went to international syndication, well-known north Texas journalist/sportscaster Bill Mercer (a former play-by-play announcer for the Dallas Cowboys, Texas Rangers and Chicago White Sox along with other Texas-based teams) became the ringside announcer at the Sportatorium. For a few months he co-hosted with Jay Saldi, and by 1983, hosted the hour-long program alone, with Lowrance filling in for Mercer from time to time.</p>",
+    "updated": 1762654647,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/10402"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1055687",
+        "name": "WCCW 277"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1055121,
+      "url": "https://www.tvmaze.com/episodes/1055121/world-class-championship-wrestling-1982-10-15-wccw-43",
+      "name": "WCCW 43",
+      "season": 1982,
+      "number": 43,
+      "type": "regular",
+      "airdate": "1982-10-15",
+      "airtime": "",
+      "airstamp": "1982-10-15T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Michael Hayes takes on the Great Renesto in the main event. David Von Erich vs. Frank Dusek. World Heavyweight Champion Ric Flair and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055121"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055122,
+      "url": "https://www.tvmaze.com/episodes/1055122/world-class-championship-wrestling-1982-11-02-wccw-46",
+      "name": "WCCW 46",
+      "season": 1982,
+      "number": 46,
+      "type": "regular",
+      "airdate": "1982-11-02",
+      "airtime": "",
+      "airstamp": "1982-11-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Von Erich takes on Wild Bill Irwin in the Main Event. The Fabulous Freebirds vs. Gran Marcus and the Destroyer. Great Kabuki and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055122"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055123,
+      "url": "https://www.tvmaze.com/episodes/1055123/world-class-championship-wrestling-1982-11-11-wccw-48",
+      "name": "WCCW 48",
+      "season": 1982,
+      "number": 48,
+      "type": "regular",
+      "airdate": "1982-11-11",
+      "airtime": "",
+      "airstamp": "1982-11-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kerry Von Erich vs Killer Tim Brooks. Freebirds vs Great Kabuki and Magic Dragon. David Von Erich vs Destroyer II and much more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055123"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055124,
+      "url": "https://www.tvmaze.com/episodes/1055124/world-class-championship-wrestling-1982-12-02-wccw-50",
+      "name": "WCCW 50",
+      "season": 1982,
+      "number": 50,
+      "type": "regular",
+      "airdate": "1982-12-02",
+      "airtime": "",
+      "airstamp": "1982-12-02T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kerry Von Erich and Brian Adidas vs Magic Dragon and Checkmate. Al Madril vs Great Kabuki. Von Erich family duck hunting trip and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055124"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055651,
+      "url": "https://www.tvmaze.com/episodes/1055651/world-class-championship-wrestling-1982-12-10-wccw-51",
+      "name": "WCCW 51",
+      "season": 1982,
+      "number": 51,
+      "type": "regular",
+      "airdate": "1982-12-10",
+      "airtime": "",
+      "airstamp": "1982-12-10T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>In the Main Event Kevin Von Erich faces King Kong Bundy. A verbal meeting between Ric Flair and Fritz Von Erich. Great Kabuki and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055651"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055652,
+      "url": "https://www.tvmaze.com/episodes/1055652/world-class-championship-wrestling-1982-12-15-wccw-52",
+      "name": "WCCW 52",
+      "season": 1982,
+      "number": 52,
+      "type": "regular",
+      "airdate": "1982-12-15",
+      "airtime": "",
+      "airstamp": "1982-12-15T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>David Von Erich vs Great Kabuki for All Asian Title. Bugsy McGraw and Al Madril vs Checkmate and Magic Dragon. Flair vs Von Erich preview.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055653,
+      "url": "https://www.tvmaze.com/episodes/1055653/world-class-championship-wrestling-1982-12-27-wccw-53",
+      "name": "WCCW 53",
+      "season": 1982,
+      "number": 53,
+      "type": "regular",
+      "airdate": "1982-12-27",
+      "airtime": "",
+      "airstamp": "1982-12-27T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Freebirds team with David Von Erich to go after WCCW Six Man Tag Team Title. 18 man Battle Royal Pole Match with King Kong Bundy.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055654,
+      "url": "https://www.tvmaze.com/episodes/1055654/world-class-championship-wrestling-1982-12-28-wccw-54",
+      "name": "WCCW 54",
+      "season": 1982,
+      "number": 54,
+      "type": "regular",
+      "airdate": "1982-12-28",
+      "airtime": "",
+      "airstamp": "1982-12-28T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>History-making matchup pits Ric Flair against Kerry Von Erich for the NWA World Heavyweight Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055655,
+      "url": "https://www.tvmaze.com/episodes/1055655/world-class-championship-wrestling-1983-01-08-wccw-55",
+      "name": "WCCW 55",
+      "season": 1983,
+      "number": 55,
+      "type": "regular",
+      "airdate": "1983-01-08",
+      "airtime": "",
+      "airstamp": "1983-01-08T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Andre the Giant, Bugsy McGraw and Kerry Von Erich vs Terry Gordy, King Kong Bundy, and Bill Irwin in the main event. Michael Hayes and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055655"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055656,
+      "url": "https://www.tvmaze.com/episodes/1055656/world-class-championship-wrestling-1983-01-12-wccw-56",
+      "name": "WCCW 56",
+      "season": 1983,
+      "number": 56,
+      "type": "regular",
+      "airdate": "1983-01-12",
+      "airtime": "",
+      "airstamp": "1983-01-12T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Von Erich faces the massive King Kong Bundy. Brian Adias vs. Terry Gordy. Highlights of Ric Flair vs. Kerry Von Erich in a steel cage.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055656"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055657,
+      "url": "https://www.tvmaze.com/episodes/1055657/world-class-championship-wrestling-1983-01-23-wccw-57",
+      "name": "WCCW 57",
+      "season": 1983,
+      "number": 57,
+      "type": "regular",
+      "airdate": "1983-01-23",
+      "airtime": "",
+      "airstamp": "1983-01-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>In the Main Event Bugsy Mcgraw and Al Madril face King Kong Bundy and Great Kabuki. Michael Hayes vs. Jose Lothario. Great Yatsu and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055657"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055658,
+      "url": "https://www.tvmaze.com/episodes/1055658/world-class-championship-wrestling-1983-01-26-wccw-58",
+      "name": "WCCW 58",
+      "season": 1983,
+      "number": 58,
+      "type": "regular",
+      "airdate": "1983-01-26",
+      "airtime": "",
+      "airstamp": "1983-01-26T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>In the main event Kevin Von Erich defends the American Heavyweight Title against Terry Gordy. Brian Adias vs. The Great Yatsu and more</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055658"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055659,
+      "url": "https://www.tvmaze.com/episodes/1055659/world-class-championship-wrestling-1983-02-23-wccw-62",
+      "name": "WCCW 62",
+      "season": 1983,
+      "number": 62,
+      "type": "regular",
+      "airdate": "1983-02-23",
+      "airtime": "",
+      "airstamp": "1983-02-23T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>In the main event David Von Erich takes on Freebird Buddy Roberts. King Parsons vs. The Dragon. Great Kabuki, Jimmy Garvin, and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055659"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055660,
+      "url": "https://www.tvmaze.com/episodes/1055660/world-class-championship-wrestling-1983-02-26-wccw-63",
+      "name": "WCCW 63",
+      "season": 1983,
+      "number": 63,
+      "type": "regular",
+      "airdate": "1983-02-26",
+      "airtime": "",
+      "airstamp": "1983-02-26T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Fabulous Freebirds face the Von Erichs in a Lumberjack Match in the Main Event. King Kong Bundy vs. Magic Dragon. Jimmy Garvin and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055660"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055661,
+      "url": "https://www.tvmaze.com/episodes/1055661/world-class-championship-wrestling-1983-03-07-wccw-64",
+      "name": "WCCW 64",
+      "season": 1983,
+      "number": 64,
+      "type": "regular",
+      "airdate": "1983-03-07",
+      "airtime": "",
+      "airstamp": "1983-03-07T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>In the main event Gorgeous Jimmy Garvin faces David Von Erich for the Texas Title. Iceman King Parsons vs. Buddy Roberts and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055661"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055663,
+      "url": "https://www.tvmaze.com/episodes/1055663/world-class-championship-wrestling-1983-03-11-wccw-65",
+      "name": "WCCW 65",
+      "season": 1983,
+      "number": 65,
+      "type": "regular",
+      "airdate": "1983-03-11",
+      "airtime": "",
+      "airstamp": "1983-03-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Main Event puts the Fabulous Freebirds against Kevin and Kerry Von Erich in a Texas Tornado Match. Jimmy Garvin vs. Jose Lothario and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055663"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055664,
+      "url": "https://www.tvmaze.com/episodes/1055664/world-class-championship-wrestling-1983-03-18-wccw-66",
+      "name": "WCCW 66",
+      "season": 1983,
+      "number": 66,
+      "type": "regular",
+      "airdate": "1983-03-18",
+      "airtime": "",
+      "airstamp": "1983-03-18T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>David Von Erich battles Freebird Buddy Roberts. Iceman King Parsons vs Great Kabuki. Midget Match features Little Cocoa vs Billy the Kid.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055664"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055667,
+      "url": "https://www.tvmaze.com/episodes/1055667/world-class-championship-wrestling-1983-04-12-wccw-69",
+      "name": "WCCW 69",
+      "season": 1983,
+      "number": 69,
+      "type": "regular",
+      "airdate": "1983-04-12",
+      "airtime": "",
+      "airstamp": "1983-04-12T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin Von Erich defends the American Heavyweight Title against Terry Gordy. Chris Adams vs. Tom Renesto Jr. The Fabulous Freebirds and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055667"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055669,
+      "url": "https://www.tvmaze.com/episodes/1055669/world-class-championship-wrestling-1983-04-15-wccw-70",
+      "name": "WCCW 70",
+      "season": 1983,
+      "number": 70,
+      "type": "regular",
+      "airdate": "1983-04-15",
+      "airtime": "",
+      "airstamp": "1983-04-15T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The main event features David Von Erich and King Parsons vs. Michael Hayes and Buddy Roberts. Chavo Guerrero Sr. Vs Jimmy Garvin and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055669"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055671,
+      "url": "https://www.tvmaze.com/episodes/1055671/world-class-championship-wrestling-1983-04-22-wccw-71",
+      "name": "WCCW 71",
+      "season": 1983,
+      "number": 71,
+      "type": "regular",
+      "airdate": "1983-04-22",
+      "airtime": "",
+      "airstamp": "1983-04-22T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Fabulous Freebirds face King Parsons, Kerry Von Erich, &amp; Chavo Guerrero Sr. in a Penalty Box match. Mike Reed vs. The Mongol and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055671"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055674,
+      "url": "https://www.tvmaze.com/episodes/1055674/world-class-championship-wrestling-1985-01-11-wccw-161",
+      "name": "WCCW 161",
+      "season": 1985,
+      "number": 161,
+      "type": "regular",
+      "airdate": "1985-01-11",
+      "airtime": "",
+      "airstamp": "1985-01-11T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>'Gentleman' Chris Adams faces off with Kerry Von Erich in the main event. Plus, Jim Cornette's Midnight Express, the One Man Gang, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055676,
+      "url": "https://www.tvmaze.com/episodes/1055676/world-class-championship-wrestling-1985-09-29-wccw-196",
+      "name": "WCCW 196",
+      "season": 1985,
+      "number": 196,
+      "type": "regular",
+      "airdate": "1985-09-29",
+      "airtime": "",
+      "airstamp": "1985-09-29T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Ice Man King Parsons teams with Kerry Von Erich to take on Maniac Mark Lewin and Jack Victory in the main event. From September 29, 1985.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055676"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055678,
+      "url": "https://www.tvmaze.com/episodes/1055678/world-class-championship-wrestling-1986-08-08-wccw-243",
+      "name": "WCCW 243",
+      "season": 1986,
+      "number": 243,
+      "type": "regular",
+      "airdate": "1986-08-08",
+      "airtime": "",
+      "airstamp": "1986-08-08T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Mark Youngblood and Brian Adias face Buzz Sawyer and Matt Borne in the main event. Plus, Bruiser Brody, the Dingo Warrior, and many more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055678"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055681,
+      "url": "https://www.tvmaze.com/episodes/1055681/world-class-championship-wrestling-1986-08-22-wccw-244",
+      "name": "WCCW 244",
+      "season": 1986,
+      "number": 244,
+      "type": "regular",
+      "airdate": "1986-08-22",
+      "airtime": "",
+      "airstamp": "1986-08-22T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>'Ravishing' Rick Rude faces an ultimate challenge as he takes on the Dingo Warrior. Plus, Lance Von Erich, the U.S. Express, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055681"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055683,
+      "url": "https://www.tvmaze.com/episodes/1055683/world-class-championship-wrestling-1986-09-19-wccw-248",
+      "name": "WCCW 248",
+      "season": 1986,
+      "number": 248,
+      "type": "regular",
+      "airdate": "1986-09-19",
+      "airtime": "",
+      "airstamp": "1986-09-19T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Dingo Warrior, Matt Borne, and Buzz Sawyer face the Von Erichs in a Six-Man Tag Team main event. Plus, Black Bart, The Grappler, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055683"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055684,
+      "url": "https://www.tvmaze.com/episodes/1055684/world-class-championship-wrestling-1986-09-26-wccw-250",
+      "name": "WCCW 250",
+      "season": 1986,
+      "number": 250,
+      "type": "regular",
+      "airdate": "1986-09-26",
+      "airtime": "",
+      "airstamp": "1986-09-26T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Kevin and Mike Von Erich faceoff against Rick Rude and the Dingo Warrior in a Tag Team main event. Plus, Abdullah the Butcher and many more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055684"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055685,
+      "url": "https://www.tvmaze.com/episodes/1055685/world-class-championship-wrestling-1986-10-24-wccw-253",
+      "name": "WCCW 253",
+      "season": 1986,
+      "number": 253,
+      "type": "regular",
+      "airdate": "1986-10-24",
+      "airtime": "",
+      "airstamp": "1986-10-24T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Matt Borne goes one-on-one with the Dingo Warrior in an action-packed main event. Plus, Brian Adidas, Master G, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055685"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055686,
+      "url": "https://www.tvmaze.com/episodes/1055686/world-class-championship-wrestling-1986-10-31-wccw-258",
+      "name": "WCCW 258",
+      "season": 1986,
+      "number": 258,
+      "type": "regular",
+      "airdate": "1986-10-31",
+      "airtime": "",
+      "airstamp": "1986-10-31T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Matt Borne and Black Bart faceoff against Tony Atlas and the Dingo Warrior in the main event. Plus, the Von Erichs, Al Madril, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055686"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1055687,
+      "url": "https://www.tvmaze.com/episodes/1055687/world-class-championship-wrestling-1986-11-07-wccw-277",
+      "name": "WCCW 277",
+      "season": 1987,
+      "number": 277,
+      "type": "regular",
+      "airdate": "1986-11-07",
+      "airtime": "",
+      "airstamp": "1986-11-07T17:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Fantastics face The Grappler and Eric Embry in the main event. Plus, the Dingo Warrior defends the Texas Heavyweight Title and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1055687"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/10402",
+          "name": "World Class Championship Wrestling"
+        }
+      }
+    }
+  ]
+}
