@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-07-27T07:57:29.788Z",
+  "fetchedAt": "2026-08-03T07:52:39.529Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 89,
+    "weight": 97,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002874.jpg"
     },
     "summary": null,
-    "updated": 1784976716,
+    "updated": 1785719414,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3602981",
-        "name": "Night of Champions 2026 - Kingdom Arena in Riyadh, Saudi Arabia"
+        "href": "https://api.tvmaze.com/episodes/3540986",
+        "name": "SummerSlam 2026 Night 2 - US Bank Stadium in Minneapolis, MN"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3540985",
-        "name": "SummerSlam 2026 Night 1 - US Bank Stadium in Minneapolis, MN"
+        "href": "https://api.tvmaze.com/episodes/3540987",
+        "name": "Money in the Bank 2026 - Smoothie King Center in New Orleans, LA"
       }
     }
   },
@@ -13942,12 +13942,12 @@
       "airdate": "2026-08-01",
       "airtime": "18:00",
       "airstamp": "2026-08-01T22:00:00+00:00",
-      "runtime": null,
+      "runtime": 190,
       "rating": {
-        "average": null
+        "average": 10
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>At SummerSlam, newly crowned Undisputed WWE Champion CM Punk will defend the title against Cody Rhodes in a dream match.</p><p>After months of hellacious beatdowns and vicious matches, Oba Femi and Brock Lesnar will meet at SummerSlam inside Hell in a Cell.</p><p>\"The Ring General\" Gunther will step into the ring at SummerSlam against none other than SmackDown General Manager, Nick Aldis. </p><p>IYO SKY is coming for Women's World Champion Liv Morgan at SummerSlam. </p><p>LA Knight, Solo Sikoa and Royce Keys will look to put their personal differences aside as they battle Jacob Fatu and The Usos of The Bloodline at SummerSlam.</p><p>Paige and WWE Hall of Famers The Bella Twins will take on Fatal Influence at SummerSlam. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3540985"
@@ -13968,12 +13968,12 @@
       "airdate": "2026-08-02",
       "airtime": "18:00",
       "airstamp": "2026-08-02T22:00:00+00:00",
-      "runtime": null,
+      "runtime": 190,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>World Heavyweight Champion Roman Reigns will once again meet his arch-nemesis Seth Rollins in a can't-miss title fight at SummerSlam.</p><p>Due to Rhea Ripley's injury, an interim WWE Women's Champion will be crowned at SummerSlam Tiffany Stratton, Jade Cargill, Chelsea Green, Charlotte Flair in a Five-Woman Ladder Match. </p><p>Chad Gable is coming home to Minneapolis as the No. 1 Contender to the Intercontinental Championship and will challenge Penta for the title at SummerSlam.</p><p>Danhausen has challenged AAA Mega Champion Dominik Mysterio to a match, but it's not the title he's chasing. It's human monies!</p><p>At SummerSlam, Trick Williams will battle Baron Corbin in an intriguing United States Championship Match.</p><p>The No. 1 Contender to the Undisputed WWE Championship will be decided at SummerSlam. Former champion Sami Zayn will get his chance to regain the title. He will battle Finn Bálor. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3540986"

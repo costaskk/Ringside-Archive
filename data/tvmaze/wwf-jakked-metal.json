@@ -1,7 +1,7 @@
 {
   "programId": "wwf-jakked-metal",
   "tvMazeId": 27905,
-  "fetchedAt": "2026-07-27T07:57:31.550Z",
+  "fetchedAt": "2026-08-03T07:52:41.328Z",
   "show": {
     "id": 27905,
     "url": "https://www.tvmaze.com/shows/27905/wwe-metal",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 48,
+    "weight": 67,
     "network": {
       "id": 72,
       "name": "Syndication",

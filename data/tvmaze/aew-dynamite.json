@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-07-27T07:57:35.208Z",
+  "fetchedAt": "2026-08-03T07:52:44.950Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1784810037,
+    "updated": 1785461206,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3605900",
-        "name": "#354 - The Pinnacle in Nashville, TN"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3605901",
         "name": "#355 - Masonic Temple Theater in Detroit, MI"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3605902",
+        "name": "#356 - Grand Slam: Arena Mexico in Mexico City, Mexico"
       }
     }
   },
@@ -9500,7 +9500,7 @@
       "airdate": "2026-07-29",
       "airtime": "20:00",
       "airstamp": "2026-07-30T00:00:00+00:00",
-      "runtime": 120,
+      "runtime": 154,
       "rating": {
         "average": null
       },
@@ -9648,8 +9648,8 @@
     },
     {
       "id": 3675931,
-      "url": "https://www.tvmaze.com/episodes/3675931/all-elite-wrestling-dynamite-8x36-361",
-      "name": "#361",
+      "url": "https://www.tvmaze.com/episodes/3675931/all-elite-wrestling-dynamite-8x36-361-rebel-heart-akins-ford-arena-in-athens-ga",
+      "name": "#361 - Rebel Heart: Akins Ford Arena in Athens, GA",
       "season": 8,
       "number": 36,
       "type": "regular",

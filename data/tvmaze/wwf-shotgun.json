@@ -1,7 +1,7 @@
 {
   "programId": "wwf-shotgun",
   "tvMazeId": 27909,
-  "fetchedAt": "2026-07-27T07:57:30.750Z",
+  "fetchedAt": "2026-08-03T07:52:40.504Z",
   "show": {
     "id": 27909,
     "url": "https://www.tvmaze.com/shows/27909/wwf-shotgun-saturday-night",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 68,
+    "weight": 56,
     "network": {
       "id": 72,
       "name": "Syndication",

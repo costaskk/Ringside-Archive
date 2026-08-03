@@ -1,0 +1,349 @@
+{
+  "programId": "wos-revival",
+  "tvMazeId": 36637,
+  "fetchedAt": "2026-08-03T07:52:44.406Z",
+  "show": {
+    "id": 36637,
+    "url": "https://www.tvmaze.com/shows/36637/wos-wrestling",
+    "name": "WOS Wrestling",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2018-07-28",
+    "ended": "2018-09-29",
+    "officialSite": null,
+    "schedule": {
+      "time": "17:00",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": null
+    },
+    "weight": 32,
+    "network": {
+      "id": 35,
+      "name": "ITV1",
+      "country": {
+        "name": "United Kingdom",
+        "code": "GB",
+        "timezone": "Europe/London"
+      },
+      "officialSite": "https://www.itv.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 350654,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/155/387640.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/155/387640.jpg"
+    },
+    "summary": "<p><b>WOS Wrestling</b> (World of Sport Wrestling) features some of the UK's top names in the sport, competing in a fun-filled evening of family sports entertainment.</p><p>At the end of each show, only one will get to take home the coveted WOS Wrestling Championship belt. Plus, backstage interviews between rounds deliver news on what the wrestling stars are thinking - be it elation or frustration.</p>",
+    "updated": 1591665397,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/36637"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1537650",
+        "name": "Episode 10"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1495919,
+      "url": "https://www.tvmaze.com/episodes/1495919/wos-wrestling-1x01-episode-1",
+      "name": "Episode 1",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-07-28",
+      "airtime": "17:00",
+      "airstamp": "2018-07-28T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Recorded in front of a lively audience, fans will get to see some of the finest pro wrestlers compete in various, intense bouts including those for the WOS Male Championship title, WOS Women's Championship title and Tag Team Champions Title. The series begins with a bang and some of the UK's best wrestling talent taking their turn in the ring. Will there be a new WOS Champion?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1495919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1502954,
+      "url": "https://www.tvmaze.com/episodes/1502954/wos-wrestling-1x02-episode-2",
+      "name": "Episode 2",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-08-04",
+      "airtime": "17:00",
+      "airstamp": "2018-08-04T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Join the action in the WOS arena with Stu Bennett, SoCal Val and Alex Shane, plus all the drama backstage with Rachel Stringer. More of the UK's top female and male wrestling talent take their turn in the ring. Who will come out on top?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1502954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1512349,
+      "url": "https://www.tvmaze.com/episodes/1512349/wos-wrestling-1x03-episode-3",
+      "name": "Episode 3",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-08-11",
+      "airtime": "17:00",
+      "airstamp": "2018-08-11T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The WOS Tag Team Tournament continues and new challengers to the WOS Championship title emerge. Join the action in the WOS arena with Stu Bennett, SoCal Val and Alex Shane, plus all the drama backstage with Rachel Stringer.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1512349"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1512350,
+      "url": "https://www.tvmaze.com/episodes/1512350/wos-wrestling-1x04-episode-4",
+      "name": "Episode 4",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-08-18",
+      "airtime": "17:00",
+      "airstamp": "2018-08-18T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>There's everything to play for as the UK's best wrestling talent enter the ring in the WOS arena. Join the action with Stu Bennett, SoCal Val and Alex Shane plus all the drama backstage with Rachel Stringer.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1512350"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1518770,
+      "url": "https://www.tvmaze.com/episodes/1518770/wos-wrestling-1x05-episode-5",
+      "name": "Episode 5",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-08-25",
+      "airtime": "17:00",
+      "airstamp": "2018-08-25T16:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Anything could happen in the WOS arena as the UK's best wrestling talent take their turn in the ring. The WOS Tag Team Tournament reaches semi-final stages and there's a major female main event match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1518770"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1520137,
+      "url": "https://www.tvmaze.com/episodes/1520137/wos-wrestling-1x06-episode-6",
+      "name": "Episode 6",
+      "season": 1,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-09-01",
+      "airtime": "16:30",
+      "airstamp": "2018-09-01T15:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>More of the UK's best wrestling talent take their turn in the WOS arena. Join the action ringside with Stu Bennett, SoCal Val and Alex Shane plus all the drama backstage with Rachel Stringer. The battle for the WOS Championship continues and who will be the first winners of the WOS Tag Team Tournament? </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1520137"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1521459,
+      "url": "https://www.tvmaze.com/episodes/1521459/wos-wrestling-1x07-episode-7",
+      "name": "Episode 7",
+      "season": 1,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2018-09-08",
+      "airtime": "16:30",
+      "airstamp": "2018-09-08T15:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The UK's best wrestling talent take their turns in the ring, but who will come out on top? Crater continues to wreak havoc on the WOS arena and WOS Male Championship contenders push their claim to the title.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1521459"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1529930,
+      "url": "https://www.tvmaze.com/episodes/1529930/wos-wrestling-1x08-episode-8",
+      "name": "Episode 8",
+      "season": 1,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2018-09-15",
+      "airtime": "16:00",
+      "airstamp": "2018-09-15T15:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Join the action in the WOS arena with Stu Bennett, SoCal Val and Alex Shane plus all the drama backstage with Rachel Stringer. More of the UK's top wrestling talent takes their turn in the ring, but who will come out on top?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1529930"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1529931,
+      "url": "https://www.tvmaze.com/episodes/1529931/wos-wrestling-1x09-episode-9",
+      "name": "Episode 9",
+      "season": 1,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2018-09-22",
+      "airtime": "14:30",
+      "airstamp": "2018-09-22T13:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Anything could happen in the WOS arena as the UK's best wrestling talent take their turn in the ring. WOS Executive Stu Bennett calls a special match, and the reward for the winner could have huge repercussions for the WOS Championship title.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1529931"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1537650,
+      "url": "https://www.tvmaze.com/episodes/1537650/wos-wrestling-1x10-episode-10",
+      "name": "Episode 10",
+      "season": 1,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2018-09-29",
+      "airtime": "14:30",
+      "airstamp": "2018-09-29T13:30:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Join the action in the WOS arena with Stu Bennett, SoCal Val and Alex Shane plus all the drama backstage with Rachel Stringer. The series promises to end with a bang and some of the UK's best wrestling talent take their turn in the ring. Will the WOS Male Champion hold on to his title?</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1537650"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    },
+    {
+      "id": 1464337,
+      "url": "https://www.tvmaze.com/episodes/1464337/wos-wrestling-s01-special-pilot",
+      "name": "Pilot",
+      "season": 1,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2016-12-31",
+      "airtime": "17:00",
+      "airstamp": "2016-12-31T17:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Wrestling returns to ITV after 30 years in this special two hour spectacular featuring some of the biggest names on the UK circuit. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1464337"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/36637",
+          "name": "WOS Wrestling"
+        }
+      }
+    }
+  ]
+}

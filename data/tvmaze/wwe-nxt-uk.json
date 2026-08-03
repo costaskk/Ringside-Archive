@@ -1,0 +1,5762 @@
+{
+  "programId": "wwe-nxt-uk",
+  "tvMazeId": 39053,
+  "fetchedAt": "2026-08-03T07:52:44.621Z",
+  "show": {
+    "id": 39053,
+    "url": "https://www.tvmaze.com/shows/39053/wwe-nxt-uk",
+    "name": "WWE NXT UK",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2018-10-17",
+    "ended": "2022-09-08",
+    "officialSite": null,
+    "schedule": {
+      "time": "15:00",
+      "days": [
+        "Thursday"
+      ]
+    },
+    "rating": {
+      "average": 6.5
+    },
+    "weight": 72,
+    "network": null,
+    "webChannel": {
+      "id": 15,
+      "name": "WWE Network",
+      "country": null,
+      "officialSite": null
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 354295,
+      "imdb": "tt9425798"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/401/1002870.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002870.jpg"
+    },
+    "summary": "<p>The one-hour episodes will feature the biggest names from NXT UK, including Pete Dunne, Mark Andrews, Rhea Ripley, Toni Storm, Tyler Bate, Trent Seven and Wolfgang. Joining the NXT UK broadcasting team as backstage interviewer is British broadcasting personality Radzi Chinyanganya, best known for hosting ITV game show \"Cannonball,\" and in his ongoing role as a presenter of the world's longest-running children's TV show, the BBC's \"Blue Peter.\" Calling the action are commentators Nigel McGuinness and Vic Joseph, joined by ring announcer Andy Shepherd and NXT UK General Manager, the legendary Johnny Saint.</p>",
+    "updated": 1721902708,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/39053"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2382043",
+        "name": "NXT UK 217"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 1570236,
+      "url": "https://www.tvmaze.com/episodes/1570236/wwe-nxt-uk-2019-special-nxt-uk-takeover-blackpool",
+      "name": "NXT UK TakeOver: Blackpool",
+      "season": 2019,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2019-01-12",
+      "airtime": "15:00",
+      "airstamp": "2019-01-12T20:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1570236"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1663897,
+      "url": "https://www.tvmaze.com/episodes/1663897/wwe-nxt-uk-2019-special-nxt-uk-takeover-cardiff",
+      "name": "NXT UK TakeOver: Cardiff",
+      "season": 2019,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2019-08-31",
+      "airtime": "15:00",
+      "airstamp": "2019-08-31T19:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1663897"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1766259,
+      "url": "https://www.tvmaze.com/episodes/1766259/wwe-nxt-uk-2020-special-nxt-uk-takeover-blackpool-ii",
+      "name": "NXT UK TakeOver: Blackpool II",
+      "season": 2020,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2020-01-12",
+      "airtime": "11:30",
+      "airstamp": "2020-01-12T16:30:00+00:00",
+      "runtime": 240,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/228/571692.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/228/571692.jpg"
+      },
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1766259"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1803638,
+      "url": "https://www.tvmaze.com/episodes/1803638/wwe-nxt-uk-2020-special-nxt-uk-takeover-dublin",
+      "name": "NXT UK TakeOver: Dublin",
+      "season": 2020,
+      "number": null,
+      "type": "insignificant_special",
+      "airdate": "2020-04-26",
+      "airtime": "15:00",
+      "airstamp": "2020-04-26T19:00:00+00:00",
+      "runtime": 180,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1803638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1544772,
+      "url": "https://www.tvmaze.com/episodes/1544772/wwe-nxt-uk-2018-10-17-main-event-noam-dar-vs-pete-dunne-for-the-wwe-uk-championship",
+      "name": "Main Event: Noam Dar vs. Pete Dunne for the WWE UK Championship",
+      "season": 2018,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2018-10-17",
+      "airtime": "15:00",
+      "airstamp": "2018-10-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/171/429440.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/171/429440.jpg"
+      },
+      "summary": "<p>On the first episode of NXT UK, Pete Dunne defends his WWE United Kingdom Title against Noam Dar. Plus, Toni Storm and others in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1544772"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1548307,
+      "url": "https://www.tvmaze.com/episodes/1548307/wwe-nxt-uk-2018-10-24-main-event-tyler-bate-vs-wolfgang",
+      "name": "Main Event: Tyler Bate vs. Wolfgang",
+      "season": 2018,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2018-10-24",
+      "airtime": "15:00",
+      "airstamp": "2018-10-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8
+      },
+      "image": null,
+      "summary": "<p>Tyler Bate goes one-on-one with Wolfgang in the main event. Plus, Zack Gibson speaks out, Killer Kelly battles Dakota Kai, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1548307"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1548308,
+      "url": "https://www.tvmaze.com/episodes/1548308/wwe-nxt-uk-2018-10-31-main-event-noam-dar-vs-zack-gibson",
+      "name": "Main Event: Noam Dar vs. Zack Gibson",
+      "season": 2018,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2018-10-31",
+      "airtime": "15:00",
+      "airstamp": "2018-10-31T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>Noam Dar and Zack Gibson look to settle their explosive rivalry in the main event. Plus, Trent Seven takes on Saxon Huxley, and much more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1548308"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1556296,
+      "url": "https://www.tvmaze.com/episodes/1556296/wwe-nxt-uk-2018-10-31-main-event-mark-andrews-vs-wolfgang",
+      "name": "Main Event: Mark Andrews vs. Wolfgang",
+      "season": 2018,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2018-10-31",
+      "airtime": "17:05",
+      "airstamp": "2018-10-31T21:05:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>Mark Andrews battles Wolfgang in an exciting main event, Sam Gradwell and Saxon Huxley take on Moustache Mountain, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1556296"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1561596,
+      "url": "https://www.tvmaze.com/episodes/1561596/wwe-nxt-uk-2018-11-07-main-event-danny-burch-vs-pete-dunne-for-the-wwe-uk-championship",
+      "name": "Main Event: Danny Burch vs. Pete Dunne for the WWE UK Championship",
+      "season": 2018,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2018-11-07",
+      "airtime": "15:00",
+      "airstamp": "2018-11-07T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>Danny Burch challenges Pete Dunne for the WWE United Kingdom Championship. Wolfgang and The Coffey Brothers make an emphatic statement.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1561596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1561597,
+      "url": "https://www.tvmaze.com/episodes/1561597/wwe-nxt-uk-2018-11-07-main-event-mark-andrews-flash-morgan-and-ashton-smith-vs-wolfgang-and-the-coffey-brothers",
+      "name": "Main Event: Mark Andrews, Flash Morgan and Ashton Smith vs. Wolfgang and The Coffey Brothers",
+      "season": 2018,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2018-11-07",
+      "airtime": "16:00",
+      "airstamp": "2018-11-07T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Mark Andrews, Flash Morgan and Ashton Smith combat Wolfgang and The Coffey Brothers in the main event. Trent Seven confronts Zack Gibson.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1561597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1564086,
+      "url": "https://www.tvmaze.com/episodes/1564086/wwe-nxt-uk-2018-11-14-main-event-tyler-bate-vs-ashton-smith",
+      "name": "Main Event: Tyler Bate vs. Ashton Smith",
+      "season": 2018,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2018-11-14",
+      "airtime": "15:00",
+      "airstamp": "2018-11-14T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>A brand-new championship is unveiled to the world. Wolfgang looks to assert his dominance. In the main event Tyler Bate faces Ashton Smith.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1564086"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1564087,
+      "url": "https://www.tvmaze.com/episodes/1564087/wwe-nxt-uk-2018-11-14-main-event-trent-seven-vs-zack-gibson",
+      "name": "Main Event: Trent Seven vs. Zack Gibson",
+      "season": 2018,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2018-11-14",
+      "airtime": "16:00",
+      "airstamp": "2018-11-14T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>The tournament to crown the NXT UK Women's Champion begins with two exciting bouts. A brawl breaks out when Trent Seven faces Zack Gibson.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1564087"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1567432,
+      "url": "https://www.tvmaze.com/episodes/1567432/wwe-nxt-uk-2018-11-21-main-event-jordan-devlin-vs-ligero",
+      "name": "Main Event: Jordan Devlin vs. Ligero",
+      "season": 2018,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2018-11-21",
+      "airtime": "15:00",
+      "airstamp": "2018-11-21T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>The tournament to crown the first NXT UK Women's Champion continues with Xia Brookside, Rhea Ripley, Isla Dawn and Toni Storm in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1567432"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1567433,
+      "url": "https://www.tvmaze.com/episodes/1567433/wwe-nxt-uk-2018-11-21-main-event-jinny-vs-toni-storm",
+      "name": "Main Event: Jinny vs. Toni Storm",
+      "season": 2018,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2018-11-21",
+      "airtime": "16:00",
+      "airstamp": "2018-11-21T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>The tournament to crown the first NXT UK Women's Champion reaches the Semifinals with Toni Storm, Dakota Kai, and more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1567433"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1570239,
+      "url": "https://www.tvmaze.com/episodes/1570239/wwe-nxt-uk-2018-11-28-main-event-jordan-devlin-vs-pete-dunne-for-the-wwe-uk-championship",
+      "name": "Main Event: Jordan Devlin vs. Pete Dunne for the WWE UK Championship",
+      "season": 2018,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2018-11-28",
+      "airtime": "15:00",
+      "airstamp": "2018-11-28T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Jordan Devlin challenges Pete Dunne for the WWE UK Championship. Millie McKenzie and Xia Brookside take on Charlie Morgan and Killer Kelly.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1570239"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1570240,
+      "url": "https://www.tvmaze.com/episodes/1570240/wwe-nxt-uk-2018-11-28-main-event-toni-storm-vs-rhea-ripley-for-the-womens-wwe-uk-championship",
+      "name": "Main Event: Toni Storm vs. Rhea Ripley for the Women's WWE UK Championship",
+      "season": 2018,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2018-11-28",
+      "airtime": "16:00",
+      "airstamp": "2018-11-28T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>The tournament to crown the first-ever NXT United Kingdom Women's Champion concludes with Rhea Ripley and Toni Storm battling for the gold.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1570240"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1574989,
+      "url": "https://www.tvmaze.com/episodes/1574989/wwe-nxt-uk-2018-12-05-main-event-flash-morgan-webster-vs-jordan-devlin",
+      "name": "Main Event: Flash Morgan Webster vs. Jordan Devlin",
+      "season": 2018,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2018-12-05",
+      "airtime": "15:00",
+      "airstamp": "2018-12-05T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>The returning Travis Banks confronts Wolfgang and his allies. Flash Morgan Webster takes on Jordan Devlin in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1574989"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1575028,
+      "url": "https://www.tvmaze.com/episodes/1575028/wwe-nxt-uk-2018-12-05-main-event-travis-banks-vs-wolfgang",
+      "name": "Main Event: Travis Banks vs. Wolfgang",
+      "season": 2018,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2018-12-05",
+      "airtime": "16:05",
+      "airstamp": "2018-12-05T21:05:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Travis Banks and Wolfgang face each other in a main event showdown. Plus, Rhea Ripley, Ligero and many more in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1575028"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1576667,
+      "url": "https://www.tvmaze.com/episodes/1576667/wwe-nxt-uk-2018-12-12-main-event-trent-seven-vs-joe-coffey",
+      "name": "Main Event: Trent Seven vs. Joe Coffey",
+      "season": 2018,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2018-12-12",
+      "airtime": "15:00",
+      "airstamp": "2018-12-12T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Trent Seven and Joe Coffey take to the ring to settle their problems.</p><p>Plus, Killer Kelly, James Drake and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1576667"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1576668,
+      "url": "https://www.tvmaze.com/episodes/1576668/wwe-nxt-uk-2018-12-12-main-event-eddie-dennis-vs-bomber-dave-mastiff",
+      "name": "Main Event: Eddie Dennis vs. 'Bomber' Dave Mastiff",
+      "season": 2018,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2018-12-12",
+      "airtime": "16:00",
+      "airstamp": "2018-12-12T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8
+      },
+      "image": null,
+      "summary": "<p>Eddie Dennis and 'Bomber' Dave Mastiff meet in a hard-hitting main event. Zack Gibson and James Drake make their intentions known.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1576668"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1580632,
+      "url": "https://www.tvmaze.com/episodes/1580632/wwe-nxt-uk-2018-12-19-main-event-rhea-ripley-vs-isla-dawn-for-the-nxt-uk-womens-championship",
+      "name": "Main Event: Rhea Ripley vs. Isla Dawn for the NXT UK Women's Championship",
+      "season": 2018,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2018-12-19",
+      "airtime": "15:00",
+      "airstamp": "2018-12-19T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>The NXT UK Women's Championship is on the line, as Rhea Ripley defends</p><p>her title against Isla Dawn. Plus, Moustache Mountain and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1580632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1580683,
+      "url": "https://www.tvmaze.com/episodes/1580683/wwe-nxt-uk-2018-12-19-main-event-joe-coffey-vs-travis-banks",
+      "name": "Main Event: Joe Coffey vs. Travis Banks",
+      "season": 2018,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2018-12-19",
+      "airtime": "16:00",
+      "airstamp": "2018-12-19T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>While continuing to call out Pete Dunne, Joe Coffey gears up for the main-event action. Fabian Aichner interferes in a tag team match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1580683"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1580684,
+      "url": "https://www.tvmaze.com/episodes/1580684/wwe-nxt-uk-2018-12-26-main-event-joe-coffey-vs-ligero",
+      "name": "Main Event: Joe Coffey vs. Ligero",
+      "season": 2018,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2018-12-26",
+      "airtime": "15:00",
+      "airstamp": "2018-12-26T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1580684"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1583267,
+      "url": "https://www.tvmaze.com/episodes/1583267/wwe-nxt-uk-2018-12-26-main-event-rhea-ripley-vs-deonna-purazzo-for-the-nxt-uk-womens-championship",
+      "name": "Main Event: Rhea Ripley vs. Deonna Purazzo for the NXT UK Women's Championship",
+      "season": 2018,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2018-12-26",
+      "airtime": "16:00",
+      "airstamp": "2018-12-26T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1583267"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1584841,
+      "url": "https://www.tvmaze.com/episodes/1584841/wwe-nxt-uk-2019-01-02-main-event-gallus-vs-moustache-mountain",
+      "name": "Main Event: Gallus vs. Moustache Mountain",
+      "season": 2019,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2019-01-02",
+      "airtime": "15:00",
+      "airstamp": "2019-01-02T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Joe Coffey and WWE UK Champion Pete Dunne continue their explosive rivalry during a tag team match between Gallus and Moustache Mountain.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1584841"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1584842,
+      "url": "https://www.tvmaze.com/episodes/1584842/wwe-nxt-uk-2019-01-02-episode-2",
+      "name": "Episode 2",
+      "season": 2019,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2019-01-02",
+      "airtime": "16:00",
+      "airstamp": "2019-01-02T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1584842"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1589012,
+      "url": "https://www.tvmaze.com/episodes/1589012/wwe-nxt-uk-2019-01-09-episode-3",
+      "name": "Episode 3",
+      "season": 2019,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2019-01-09",
+      "airtime": "15:00",
+      "airstamp": "2019-01-09T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1589012"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1589013,
+      "url": "https://www.tvmaze.com/episodes/1589013/wwe-nxt-uk-2019-01-09-episode-4",
+      "name": "Episode 4",
+      "season": 2019,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2019-01-09",
+      "airtime": "16:00",
+      "airstamp": "2019-01-09T21:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1589013"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1592532,
+      "url": "https://www.tvmaze.com/episodes/1592532/wwe-nxt-uk-2019-01-16-wwe-nxt-uk-take-over-blackpool-recap",
+      "name": "WWE NXT UK Take Over Blackpool Recap",
+      "season": 2019,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-01-16",
+      "airtime": "15:00",
+      "airstamp": "2019-01-16T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>See exclusive matches from Blackpool, including Mark Andrews and Flash Morgan Webster taking on Fabian Aichner and Marcel Barthel.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1592532"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1595378,
+      "url": "https://www.tvmaze.com/episodes/1595378/wwe-nxt-uk-2019-01-23-main-event-travis-banks-vs-jordan-devlin",
+      "name": "Main Event: Travis Banks vs. Jordan Devlin",
+      "season": 2019,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2019-01-23",
+      "airtime": "15:00",
+      "airstamp": "2019-01-23T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Pete Dunne comes face-to-face with a new threat to his WWE United Kingdom</p><p>Championship. Travis Banks faces Jordan Devlin in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1595378"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1599602,
+      "url": "https://www.tvmaze.com/episodes/1599602/wwe-nxt-uk-2019-01-30-tba",
+      "name": "TBA",
+      "season": 2019,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2019-01-30",
+      "airtime": "15:00",
+      "airstamp": "2019-01-30T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1599602"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1605814,
+      "url": "https://www.tvmaze.com/episodes/1605814/wwe-nxt-uk-2019-02-06-main-event-walter-vs-mark-coffey",
+      "name": "Main Event: WALTER vs. Mark Coffey",
+      "season": 2019,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2019-02-06",
+      "airtime": "15:00",
+      "airstamp": "2019-02-06T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>WALTER continues to live up to his reputation in a main event battle against Gallus' Mark Coffey. Rhea Ripley takes out her frustrations.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1605814"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1609429,
+      "url": "https://www.tvmaze.com/episodes/1609429/wwe-nxt-uk-2019-02-13-main-event-pete-dunne-vs-wolfgang",
+      "name": "Main Event: Pete Dunne vs. Wolfgang",
+      "season": 2019,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2019-02-13",
+      "airtime": "15:00",
+      "airstamp": "2019-02-13T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>A verbal confrontation between Toni Storm and Rhea Ripley erupts in physicality. Pete Dunne faces Wolfgang in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1609429"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1612343,
+      "url": "https://www.tvmaze.com/episodes/1612343/wwe-nxt-uk-2019-02-20-main-event-rhea-ripley-vs-toni-storm-for-the-nxt-uk-womens-championship",
+      "name": "Main Event: Rhea Ripley vs. Toni Storm for the NXT UK Women's Championship",
+      "season": 2019,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2019-02-20",
+      "airtime": "15:00",
+      "airstamp": "2019-02-20T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Rhea Ripley challenges Toni Storm for the NXT UK Women's Championship in the main event. Danny Burch and Oney Lorcan arrive.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1612343"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1615995,
+      "url": "https://www.tvmaze.com/episodes/1615995/wwe-nxt-uk-2019-02-27-main-event-danny-burch-and-oney-lorcan-vs-the-grizzled-young-veterans-for-the-nxt-uk-tag-team-titles",
+      "name": "Main Event: Danny Burch and Oney Lorcan vs. The Grizzled Young Veterans for the NXT UK Tag Team Titles",
+      "season": 2019,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2019-02-27",
+      "airtime": "15:00",
+      "airstamp": "2019-02-27T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Danny Burch and Oney Lorcan challenge The Grizzled Young Veterans for the NXT UK Tag Team Titles in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1615995"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1618759,
+      "url": "https://www.tvmaze.com/episodes/1618759/wwe-nxt-uk-2019-03-06-main-event-travis-banks-vs-jordan-devlin",
+      "name": "Main Event: Travis Banks vs. Jordan Devlin",
+      "season": 2019,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2019-03-06",
+      "airtime": "15:00",
+      "airstamp": "2019-03-06T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>The main event sees Travis Banks and Jordan Devlin battle it out in a Falls Count Anywhere Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1618759"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1620949,
+      "url": "https://www.tvmaze.com/episodes/1620949/wwe-nxt-uk-2019-03-13-main-event-walter-and-pete-dunne-vs-mark-and-joe-coffey",
+      "name": "Main Event: WALTER and Pete Dunne vs. Mark and Joe Coffey",
+      "season": 2019,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2019-03-13",
+      "airtime": "16:00",
+      "airstamp": "2019-03-13T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>WALTER and WWE United Kingdom Champion Pete Dunne take on Mark and Joe Coffey in the main event. Noam Dar returns with a new attitude.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1620949"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1626240,
+      "url": "https://www.tvmaze.com/episodes/1626240/wwe-nxt-uk-2019-03-20-main-event-tyler-bate-vs-james-drake",
+      "name": "Main Event: Tyler Bate vs. James Drake",
+      "season": 2019,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2019-03-20",
+      "airtime": "15:00",
+      "airstamp": "2019-03-20T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>Pete Dunne lets everyone know who he wants to defend his WWE United Kingdom Championship against at NXT TakeOver: New York.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1626240"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1628417,
+      "url": "https://www.tvmaze.com/episodes/1628417/wwe-nxt-uk-2019-03-27-main-event-mark-andrews-vs-noam-dar",
+      "name": "Main Event: Mark Andrews vs. Noam Dar",
+      "season": 2019,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2019-03-27",
+      "airtime": "15:00",
+      "airstamp": "2019-03-27T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>WALTER and Pete Dunne meet face-to-face to sign the contract for their upcoming match for the WWE United Kingdom Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1628417"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1634798,
+      "url": "https://www.tvmaze.com/episodes/1634798/wwe-nxt-uk-2019-04-03-main-event-trent-seven-vs-joe-coffey",
+      "name": "Main Event: Trent Seven vs. Joe Coffey",
+      "season": 2019,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2019-04-03",
+      "airtime": "15:00",
+      "airstamp": "2019-04-03T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>The Grizzled Young Veterans address the challengers for their NXT UK Tag Team Titles. Trent Seven faces Joe Coffey in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1634798"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1637491,
+      "url": "https://www.tvmaze.com/episodes/1637491/wwe-nxt-uk-2019-04-10-main-event-jinny-vs-toni-storm-for-the-nxt-uk-womens-championship",
+      "name": "Main Event: Jinny vs. Toni Storm for the NXT UK Women's Championship",
+      "season": 2019,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2019-04-10",
+      "airtime": "15:00",
+      "airstamp": "2019-04-10T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Jinny challenges Toni Storm for the NXT UK Women's Championship in the main event. Plus, Piper Niven takes to the ring to face Killer Kelly.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1637491"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1642022,
+      "url": "https://www.tvmaze.com/episodes/1642022/wwe-nxt-uk-2019-04-17-main-event-kenny-williams-and-amir-jordan-vs-the-grizzled-young-veterans",
+      "name": "Main Event: Kenny Williams and Amir Jordan vs. The Grizzled Young Veterans",
+      "season": 2019,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2019-04-17",
+      "airtime": "15:00",
+      "airstamp": "2019-04-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>Kenny Williams and Amir Jordan face The Grizzled Young Veterans in the main event, while Rhea Ripley targets Kacy Catanzaro.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1642022"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1645390,
+      "url": "https://www.tvmaze.com/episodes/1645390/wwe-nxt-uk-2019-04-24-main-event-moustache-mountain-vs-flash-morgan-webster-and-mark-andrews",
+      "name": "Main Event: Moustache Mountain vs. Flash Morgan Webster and Mark Andrews",
+      "season": 2019,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2019-04-24",
+      "airtime": "15:00",
+      "airstamp": "2019-04-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Toni Storm makes a vow. Kay Lee Ray battles Xia Brookside. Moustache Mountain faces Flash Morgan Webster and Mark Andrews in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1645390"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1648477,
+      "url": "https://www.tvmaze.com/episodes/1648477/wwe-nxt-uk-2019-05-01-main-event-walter-vs-jordan-devlin",
+      "name": "Main Event: WALTER vs. Jordan Devlin",
+      "season": 2019,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2019-05-01",
+      "airtime": "15:00",
+      "airstamp": "2019-05-01T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>A WWE United Kingdom Champion WALTER faces Jordan Devlin in the main event, Pete Dunne demands a rematch for the title he lost.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1648477"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651689,
+      "url": "https://www.tvmaze.com/episodes/1651689/wwe-nxt-uk-2019-05-08-main-event-williams-jordan-vs-the-grizzled-young-veterans-for-the-nxt-uk-tag-team-championships",
+      "name": "Main Event: Williams & Jordan vs. The Grizzled Young Veterans for the NXT UK Tag Team Championships",
+      "season": 2019,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2019-05-08",
+      "airtime": "15:00",
+      "airstamp": "2019-05-08T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>The Grizzled Young Veterans defend the NXT UK Tag Team Titles in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651689"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651690,
+      "url": "https://www.tvmaze.com/episodes/1651690/wwe-nxt-uk-2019-05-15-main-event-dave-mastiff-vs-wolfgang",
+      "name": "Main Event: Dave Mastiff vs. Wolfgang",
+      "season": 2019,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2019-05-15",
+      "airtime": "15:00",
+      "airstamp": "2019-05-15T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Ligero, Jordan Devlin, Wolfgang, and Dave Mastiff look to qualify for the WWE UK Championship No. 1 Contender's Fatal 4-Way Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651690"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651691,
+      "url": "https://www.tvmaze.com/episodes/1651691/wwe-nxt-uk-2019-05-22-main-event-walter-vs-pete-dunne-for-the-wwe-uk-championship",
+      "name": "Main Event: WALTER vs. Pete Dunne for the WWE UK Championship.",
+      "season": 2019,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2019-05-22",
+      "airtime": "15:00",
+      "airstamp": "2019-05-22T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Pete Dunne and WALTER look to exceed expectations in another epic clash for the coveted WWE United Kingdom Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651691"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651692,
+      "url": "https://www.tvmaze.com/episodes/1651692/wwe-nxt-uk-2019-05-29-main-event-nina-samuels-vs-toni-storm-for-the-nxt-uk-womens-championship",
+      "name": "Main Event: Nina Samuels vs. Toni Storm for the NXT UK Women's Championship",
+      "season": 2019,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2019-05-29",
+      "airtime": "15:00",
+      "airstamp": "2019-05-29T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Pete Dunne enlists some old allies to help combat WALTER and his acquaintances. Nina Samuels challenges Toni Storm.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651692"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651693,
+      "url": "https://www.tvmaze.com/episodes/1651693/wwe-nxt-uk-2019-06-05-main-event-fatal-4-way-match",
+      "name": "Main Event: Fatal 4-Way Match",
+      "season": 2019,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2019-06-05",
+      "airtime": "15:00",
+      "airstamp": "2019-06-05T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Jordan Devlin, Dave Mastiff, Travis Banks, and Joe Coffey compete in a Fatal 4-Way Match for an opportunity at the WWE United Kingdom Title.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651693"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651694,
+      "url": "https://www.tvmaze.com/episodes/1651694/wwe-nxt-uk-2019-06-12-main-event-imperium-vs-british-strong-style",
+      "name": "Main Event: Imperium vs. British Strong Style",
+      "season": 2019,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2019-06-12",
+      "airtime": "15:00",
+      "airstamp": "2019-06-12T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Imperium get some assistance during a main-event battle against British Strong Style. Plus, Ilja Dragunov, Xia Brookside and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651694"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651695,
+      "url": "https://www.tvmaze.com/episodes/1651695/wwe-nxt-uk-2019-06-19-main-event-womens-battle-royal",
+      "name": "Main Event: Women's Battle Royal",
+      "season": 2019,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2019-06-19",
+      "airtime": "15:00",
+      "airstamp": "2019-06-19T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>A Battle Royal determines the No. 1 Contender for the NXT UK Women's Championship. WALTER sends a message to Travis Banks.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651695"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1651696,
+      "url": "https://www.tvmaze.com/episodes/1651696/wwe-nxt-uk-2019-06-26-main-event-travis-banks-vs-walter-for-the-wwe-uk-championship",
+      "name": "Main Event: Travis Banks vs. WALTER for the WWE UK Championship",
+      "season": 2019,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2019-06-26",
+      "airtime": "15:00",
+      "airstamp": "2019-06-26T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Travis Banks challenges WALTER for the WWE United Kingdom Title in the main event. Plus, The Grizzled Young Veterans, Noam Dar and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1651696"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1672092,
+      "url": "https://www.tvmaze.com/episodes/1672092/wwe-nxt-uk-2019-07-03-main-event-moustache-mountain-vs-the-grizzled-young-veterans-for-the-nxt-uk-tag-team-championships",
+      "name": "Main Event: Moustache Mountain vs. The Grizzled Young Veterans for the NXT UK Tag Team Championships",
+      "season": 2019,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2019-07-03",
+      "airtime": "15:00",
+      "airstamp": "2019-07-03T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Grizzled Young Veterans defend the NXT UK Tag Team Titles against Moustache Mountain in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1672092"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1672093,
+      "url": "https://www.tvmaze.com/episodes/1672093/wwe-nxt-uk-2019-07-10-main-event-the-hunt-and-dave-mastiff-vs-gallus",
+      "name": "Main Event: The Hunt and Dave Mastiff vs. Gallus",
+      "season": 2019,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2019-07-10",
+      "airtime": "15:00",
+      "airstamp": "2019-07-10T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Trent Seven takes to the ring to call out WWE United Kingdom Champion WALTER. The Hunt and Dave Mastiff take on Gallus in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1672093"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1672094,
+      "url": "https://www.tvmaze.com/episodes/1672094/wwe-nxt-uk-2019-07-17-main-event-kassius-ohno-vs-mark-andrews",
+      "name": "Main Event: Kassius Ohno vs. Mark Andrews",
+      "season": 2019,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2019-07-17",
+      "airtime": "15:00",
+      "airstamp": "2019-07-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Toni Storm sends a message to the challenger for her NXT UK Women's Title, Kay Lee Ray. Kassius Ohno faces Mark Andrews in the main event.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1672094"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1672096,
+      "url": "https://www.tvmaze.com/episodes/1672096/wwe-nxt-uk-2019-07-24-main-event-trent-seven-vs-walter",
+      "name": "Main Event: Trent Seven vs. WALTER",
+      "season": 2019,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2019-07-24",
+      "airtime": "15:00",
+      "airstamp": "2019-07-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Trent Seven looks to get retribution for his allies in a main event match<br />against WALTER. Plus, Noam Dar, Toni Storm and more are in action!. Plus, Noam Dar, Toni Storm and more are in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1672096"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1672097,
+      "url": "https://www.tvmaze.com/episodes/1672097/wwe-nxt-uk-2019-07-31-main-event-alexander-wolfe-vs-jordan-devlin",
+      "name": "Main Event: Alexander Wolfe vs. Jordan Devlin",
+      "season": 2019,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2019-07-31",
+      "airtime": "15:00",
+      "airstamp": "2019-07-31T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>With NXT UK TakeOver: Cardiff on the horizon, WALTER demands to know the next challenger to his WWE United Kingdom Championship. Dave Mastiff responds to Joe Coffey. Plus, Rhea Ripley and Gallus in action!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1672097"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692610,
+      "url": "https://www.tvmaze.com/episodes/1692610/wwe-nxt-uk-2019-08-07-main-event-dave-mastiff-vs-joe-coffey",
+      "name": "Main Event: Dave Mastiff vs. Joe Coffey",
+      "season": 2019,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2019-08-07",
+      "airtime": "15:00",
+      "airstamp": "2019-08-07T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>No one is safe when Dave Mastiff and Joe Coffey finally collide in the Main Event. In tag team action Piper Niven &amp; Xia Brookside look for retribution against Jinny and Jazzy Gabert. Plus, the Grizzled Young Veterans remind the NXT Universe why they are the very best. All this and much more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692610"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692637,
+      "url": "https://www.tvmaze.com/episodes/1692637/wwe-nxt-uk-2019-08-14-main-event-kassius-ohno-vs-ilja-dragunov",
+      "name": "Main Event: Kassius Ohno vs. Ilja Dragunov",
+      "season": 2019,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2019-08-14",
+      "airtime": "15:00",
+      "airstamp": "2019-08-14T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692637"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692638,
+      "url": "https://www.tvmaze.com/episodes/1692638/wwe-nxt-uk-2019-08-21-main-event-mark-andrews-vs-james-drake",
+      "name": "Main Event : Mark Andrews vs. James Drake",
+      "season": 2019,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2019-08-21",
+      "airtime": "15:00",
+      "airstamp": "2019-08-21T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>While WWE United Kingdom Champion WALTER readies to meet Tyler Bate face-to-face, his Imperium comrades Fabian Aichner and Marcel Barthel take on The Hunt in a tag team match. Plus, Kay Lee Ray feels the sting of success, Mark Andrews battles James Drake, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692639,
+      "url": "https://www.tvmaze.com/episodes/1692639/wwe-nxt-uk-2019-08-28-main-event-jordan-devlin-vs-kenny-williams",
+      "name": "Main Event: Jordan Devlin vs. Kenny Williams",
+      "season": 2019,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2019-08-28",
+      "airtime": "15:00",
+      "airstamp": "2019-08-28T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 8.5
+      },
+      "image": null,
+      "summary": "<p>As NXT UK TakeOver: Cardiff approaches, all hell breaks loose when The Grizzled Young Veterans send a message to their enemies. Plus, Jordan Devlin faces off against Kenny Williams in singles competition, Tyson T-Bone takes on Ilja Dragunov, and more!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692640,
+      "url": "https://www.tvmaze.com/episodes/1692640/wwe-nxt-uk-2019-09-04-main-event-kassius-ohno-vs-sid-scala",
+      "name": "Main Event: Kassius Ohno vs. Sid Scala",
+      "season": 2019,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2019-09-04",
+      "airtime": "15:00",
+      "airstamp": "2019-09-04T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Relive highlights from NXT UK TakeOver: Cardiff. Plus, Kassius Ohno takes on Sid Scala, and Piper Niven faces Rhea Ripley. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692641,
+      "url": "https://www.tvmaze.com/episodes/1692641/wwe-nxt-uk-2019-09-11-main-event-the-grizzled-young-veterans-vs-mark-andrews-flash-morgan-webster-for-the-nxt-uk-tag-team-championships",
+      "name": "Main Event: The Grizzled Young Veterans vs. Mark Andrews & Flash Morgan Webster for the NXT UK Tag Team Championships",
+      "season": 2019,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2019-09-11",
+      "airtime": "15:00",
+      "airstamp": "2019-09-11T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>The Grizzled Young Veterans try to regain the NXT UK Tag Team Championship against Mark Andrews &amp; Flash Morgan Webster in the main event. WWE United Kingdom Champion WALTER and his Imperium cohorts revel in their recent dominance. Plus, Tegan Nox makes her NXT UK debut, Noam Dar calls a press conference and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692641"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692642,
+      "url": "https://www.tvmaze.com/episodes/1692642/wwe-nxt-uk-2019-09-18-main-event-kassius-ohno-vs-sid-scala",
+      "name": "Main Event: Kassius Ohno vs. Sid Scala",
+      "season": 2019,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2019-09-18",
+      "airtime": "15:00",
+      "airstamp": "2019-09-18T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Assistant to the NXT UK General Manager Sid Scala battles Kassius Ohno in NXT UK's first-ever British Rounds Match. Plus, Rhea Ripley is in action fresh off her impressive victory over Piper Niven, Travis Banks faces Tyson T-Bone and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692642"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1692643,
+      "url": "https://www.tvmaze.com/episodes/1692643/wwe-nxt-uk-2019-09-25-main-event-trent-seven-vs-noam-dar",
+      "name": "Main Event: Trent Seven vs. Noam Dar",
+      "season": 2019,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2019-09-25",
+      "airtime": "15:00",
+      "airstamp": "2019-09-25T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Trent Seven and Noam Dar look to settle their differences in their main-event showdown. Plus, Tyler Bate addresses the NXT UK Universe after his defeat at TakeOver: Cardiff, Dani Luna battles Nina Samuels and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1692643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1709622,
+      "url": "https://www.tvmaze.com/episodes/1709622/wwe-nxt-uk-2019-10-03-main-event-tegan-nox-vs-kay-lee-ray",
+      "name": "Main Event: Tegan Nox vs. Kay Lee Ray",
+      "season": 2019,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2019-10-03",
+      "airtime": "15:00",
+      "airstamp": "2019-10-03T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Tegan Nox battles Kay Lee Ray in the main event. Plus, Piper Niven takes on Isla Dawn.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1709622"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1709623,
+      "url": "https://www.tvmaze.com/episodes/1709623/wwe-nxt-uk-2019-10-10-episode-43",
+      "name": "Episode 43",
+      "season": 2019,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2019-10-10",
+      "airtime": "15:00",
+      "airstamp": "2019-10-10T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1709623"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1709624,
+      "url": "https://www.tvmaze.com/episodes/1709624/wwe-nxt-uk-2019-10-17-main-event-flash-morgan-webster-mark-andrews-vs-wolfgang-mark-coffey-for-the-nxt-uk-tag-team-championship",
+      "name": "Main Event: Flash Morgan Webster & Mark Andrews vs. Wolfgang & Mark Coffey for the NXT UK Tag Team Championship",
+      "season": 2019,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2019-10-17",
+      "airtime": "15:00",
+      "airstamp": "2019-10-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Flash Morgan Webster &amp; Mark Andrews defend the NXT UK Tag Team Championship against Gallus' Wolfgang &amp; Mark Coffey in the main event. Xia Brookside takes on Nina Samuels in a head-to-head showdown. Plus, The Hunt battle Imperium in tag team action, Ilja Dragunov clashes with Saxon Huxley and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1709624"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1709625,
+      "url": "https://www.tvmaze.com/episodes/1709625/wwe-nxt-uk-2019-10-24-mian-event-trent-seven-vs-noam-dar",
+      "name": "Mian Event: Trent Seven vs. Noam Dar",
+      "season": 2019,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2019-10-24",
+      "airtime": "15:00",
+      "airstamp": "2019-10-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Trent Seven and Noam Dar go head-to-head in the main event. Plus, Ligero battles Travis Banks, Ashton Smith &amp; Oliver Smith clash with The Grizzled Young Veterans and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1709625"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1709626,
+      "url": "https://www.tvmaze.com/episodes/1709626/wwe-nxt-uk-2019-10-31-main-event-dave-mastiff-vs-jordan-devlin",
+      "name": "Main Event: Dave Mastiff vs. Jordan Devlin",
+      "season": 2019,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2019-10-31",
+      "airtime": "11:00",
+      "airstamp": "2019-10-31T15:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Dave Mastiff battles Jordan Devlin in the main event. A-Kid makes his NXT UK debut against Kassius Ohno. Plus, Rhea Ripley &amp; Piper Niven clash with Jinny &amp; Jazzy Gabert in tag team action and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1709626"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743593,
+      "url": "https://www.tvmaze.com/episodes/1743593/wwe-nxt-uk-2019-11-07-main-event-mark-andrews-flash-morgan-webster-vs-the-grizzled-young-veterans",
+      "name": "Main Event: Mark Andrews & Flash Morgan Webster vs. The Grizzled Young Veterans",
+      "season": 2019,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2019-11-07",
+      "airtime": "15:00",
+      "airstamp": "2019-11-07T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Mark Andrews &amp; Flash Morgan Webster take on The Grizzled Young Veterans in the main event. Plus, Tyson T-Bone battles Joe Coffey, Isla Dawn faces Killer Kelly and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743593"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743594,
+      "url": "https://www.tvmaze.com/episodes/1743594/wwe-nxt-uk-2019-11-14-main-event-tyler-bate-vs-kassius-ohno",
+      "name": "Main Event: Tyler Bate vs. Kassius Ohno",
+      "season": 2019,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2019-11-14",
+      "airtime": "15:00",
+      "airstamp": "2019-11-14T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Tyler Bate battles Kassius Ohno in the main event. Plus, Xia Brookside takes on Kay Lee Ray, Travis Banks clashes with Ligero and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743594"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743595,
+      "url": "https://www.tvmaze.com/episodes/1743595/wwe-nxt-uk-2019-11-21-main-event-ilja-dragunov-vs-alexander-wolfe",
+      "name": "Main Event: Ilja Dragunov vs Alexander Wolfe",
+      "season": 2019,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2019-11-21",
+      "airtime": "15:00",
+      "airstamp": "2019-11-21T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 10
+      },
+      "image": null,
+      "summary": "<p>Ilja Dragunov battles Alexander Wolfe in the main event. Plus, Trent Seven faces NXT's Kona Reeves, A-Kid takes on Jack Starz and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743595"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743596,
+      "url": "https://www.tvmaze.com/episodes/1743596/wwe-nxt-uk-2019-11-28-main-event-gallus-ilja-dragunov-vs-imperium",
+      "name": "Main Event: Gallus & Ilja Dragunov vs Imperium",
+      "season": 2019,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2019-11-28",
+      "airtime": "15:00",
+      "airstamp": "2019-11-28T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743597,
+      "url": "https://www.tvmaze.com/episodes/1743597/wwe-nxt-uk-2019-12-05-main-event-travis-banks-vs-ligero-vs-joseph-connors",
+      "name": "Main Event: Travis Banks vs. Ligero vs. Joseph Connors",
+      "season": 2019,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2019-12-05",
+      "airtime": "15:00",
+      "airstamp": "2019-12-05T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Gallus' Joe Coffey meets with Imperium's WALTER as the warring factions attempt to end their conflict through historic negotiations. Travis Banks, Ligero and Joseph Connors clash in a Triple Threat Match. Plus, Toni Storm takes on Killer Kelly, A-Kid battles Jordan Devlin and more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743598,
+      "url": "https://www.tvmaze.com/episodes/1743598/wwe-nxt-uk-2019-12-12-main-event-mark-coffey-wolfgang-vs-marcel-barthel-fabian-aichner-for-the-nxt-uk-championships",
+      "name": "Main Event: Mark Coffey & Wolfgang vs. Marcel Barthel & Fabian Aichner for the NXT UK Championships",
+      "season": 2019,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2019-12-12",
+      "airtime": "15:00",
+      "airstamp": "2019-12-12T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Gallus' Mark Coffey &amp; Wolfgang put their NXT UK Tag Team Titles on the line against Imperium's Marcel Barthel &amp; Fabian Aichner. Also, NXT UK Women's Champion Kay Lee Ray, Trent Seven, Jack Starz and more are in action.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743599,
+      "url": "https://www.tvmaze.com/episodes/1743599/wwe-nxt-uk-2019-12-19-main-event-tyler-bate-v-noam-dar",
+      "name": "Main Event: Tyler Bate v Noam Dar",
+      "season": 2019,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2019-12-19",
+      "airtime": "15:00",
+      "airstamp": "2019-12-19T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1743600,
+      "url": "https://www.tvmaze.com/episodes/1743600/wwe-nxt-uk-2019-12-26-the-best-of-nxt-uk-in-2019",
+      "name": "The best of NXT UK in 2019",
+      "season": 2019,
+      "number": 54,
+      "type": "regular",
+      "airdate": "2019-12-26",
+      "airtime": "15:00",
+      "airstamp": "2019-12-26T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Take a look back at the greatest moments from the past year with this special episode highlighting the best of NXT UK in 2019.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1743600"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1783583,
+      "url": "https://www.tvmaze.com/episodes/1783583/wwe-nxt-uk-2020-01-02-main-event-ilja-dragunov-vs-alexander-wolfe",
+      "name": "Main Event: Ilja Dragunov vs. Alexander Wolfe",
+      "season": 2020,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2020-01-02",
+      "airtime": "15:00",
+      "airstamp": "2020-01-02T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>On the first episode of NXT UK in 2020, Ilja Dragunov clashes with Alexander Wolfe in a No Disqualification Match. Additionally, Ligero and Kassius Ohno ring in the new year with a head-to-head showdown, Dave Mastiff collides with Kona Reeves and much more.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1783583"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1783584,
+      "url": "https://www.tvmaze.com/episodes/1783584/wwe-nxt-uk-2020-01-16-main-event-dave-mastiff-vs-kassius-ohno",
+      "name": "Main Event: Dave Mastiff vs. Kassius Ohno",
+      "season": 2020,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2020-01-16",
+      "airtime": "15:00",
+      "airstamp": "2020-01-16T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Witness the fallout and relive highlights from NXT UK TakeOver: Blackpool II. Plus, Dave Mastiff collides with Kassius Ohno and A-Kid battles Joseph Conners.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1783584"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1783585,
+      "url": "https://www.tvmaze.com/episodes/1783585/wwe-nxt-uk-2020-01-23-main-event-travis-banks-vs-the-brian-kendrick",
+      "name": "Main Event: Travis Banks vs. The Brian Kendrick",
+      "season": 2020,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2020-01-23",
+      "airtime": "15:00",
+      "airstamp": "2020-01-23T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Ligero battles Jordan Devlin and Travis Banks clashes with The Brian Kendrick in qualifying matches to see who will represent NXT UK at Worlds Collide in an NXT Cruiserweight Championship Fatal 4-Way Match.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1783585"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1783586,
+      "url": "https://www.tvmaze.com/episodes/1783586/wwe-nxt-uk-2020-01-30-main-event-mark-andrews-flash-morgan-webster-and-vs-imperium",
+      "name": "Main Event: Mark Andrews, Flash Morgan Webster and ??? vs. Imperium",
+      "season": 2020,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2020-01-30",
+      "airtime": "15:00",
+      "airstamp": "2020-01-30T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9.5
+      },
+      "image": null,
+      "summary": "<p>Who will join Mark Andrews and Flash Morgan Webster in their showdown against Imperium? Plus, hear from NXT UK Superstars after they went head-to-head with NXT at WWE Worlds Collide, and Eddie Dennis celebrates his victory over Trent Seven at TakeOver: Blackpool II.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1783586"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1783587,
+      "url": "https://www.tvmaze.com/episodes/1783587/wwe-nxt-uk-2020-02-06-main-event-trent-seven-vs-eddie-dennis",
+      "name": "Main Event: Trent Seven vs. Eddie Dennis",
+      "season": 2020,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2020-02-06",
+      "airtime": "15:00",
+      "airstamp": "2020-02-06T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>Trent Seven and Eddie Dennis' heated rivalry continues as they do battle in a Steel Corners Street Fight. Two close friends go head to head in the spirit of competition as Tyler Bate battles his protege A-Kid. Also, hear from NXT UK Women's Champion Kay Lee Ray and new NXT Cruiserweight Champion Jordan Devlin.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1783587"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1783588,
+      "url": "https://www.tvmaze.com/episodes/1783588/wwe-nxt-uk-2020-02-13-main-event-gallus-mark-coffey-wolfgang-vs-danny-burch-oney-lorcan",
+      "name": "Main Event: Gallus (Mark Coffey & Wolfgang) vs. Danny Burch & Oney Lorcan",
+      "season": 2020,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2020-02-13",
+      "airtime": "15:00",
+      "airstamp": "2020-02-13T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1783588"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801782,
+      "url": "https://www.tvmaze.com/episodes/1801782/wwe-nxt-uk-2020-02-20-main-event-joe-coffey-vs-ilja-dragunov",
+      "name": "Main Event: Joe Coffey vs Ilja Dragunov",
+      "season": 2020,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2020-02-20",
+      "airtime": "15:00",
+      "airstamp": "2020-02-20T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801782"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801783,
+      "url": "https://www.tvmaze.com/episodes/1801783/wwe-nxt-uk-2020-02-27-main-event-kay-lee-ray-c-v-toni-storm-for-the-nxt-womens-championship-in-a-no-dq-match",
+      "name": "Main Event: Kay Lee Ray (c) v Toni Storm for the NXT Women's Championship in a No DQ Match",
+      "season": 2020,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2020-02-27",
+      "airtime": "15:00",
+      "airstamp": "2020-02-27T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801783"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801784,
+      "url": "https://www.tvmaze.com/episodes/1801784/wwe-nxt-uk-2020-03-05-main-event-walter-c-v-bomber-dave-mastiff-for-the-nxt-uk-championship",
+      "name": "Main Event: Walter (c) v 'Bomber' Dave Mastiff for the NXT UK Championship",
+      "season": 2020,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2020-03-05",
+      "airtime": "15:00",
+      "airstamp": "2020-03-05T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801784"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801785,
+      "url": "https://www.tvmaze.com/episodes/1801785/wwe-nxt-uk-2020-03-12-main-event-finn-balor-v-alexander-wolfe",
+      "name": "Main Event: Finn Balor v Alexander Wolfe",
+      "season": 2020,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2020-03-12",
+      "airtime": "15:00",
+      "airstamp": "2020-03-12T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801785"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801786,
+      "url": "https://www.tvmaze.com/episodes/1801786/wwe-nxt-uk-2020-03-19-main-event-gallus-vs-trent-seven-flash-morgan-webster-dave-mastiff",
+      "name": "Main Event: Gallus vs. Trent Seven, Flash Morgan Webster & Dave Mastiff",
+      "season": 2020,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2020-03-19",
+      "airtime": "15:00",
+      "airstamp": "2020-03-19T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": 9
+      },
+      "image": null,
+      "summary": "<p>NXT UK Women's Champion Kay Lee Ray steps inside the squared-circle to take on her next opponent. Plus, Ridge Holland battles Joseph Conners, Kenny Williams faces Kassius Ohno and more in-ring action.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801786"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801787,
+      "url": "https://www.tvmaze.com/episodes/1801787/wwe-nxt-uk-2020-03-26-nxt-uk-88",
+      "name": "NXT UK 88",
+      "season": 2020,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2020-03-26",
+      "airtime": "15:00",
+      "airstamp": "2020-03-26T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801787"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801788,
+      "url": "https://www.tvmaze.com/episodes/1801788/wwe-nxt-uk-2020-04-02-nxt-uk-89",
+      "name": "NXT UK 89",
+      "season": 2020,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2020-04-02",
+      "airtime": "15:00",
+      "airstamp": "2020-04-02T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801788"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1801789,
+      "url": "https://www.tvmaze.com/episodes/1801789/wwe-nxt-uk-2020-04-09-nxt-uk-90",
+      "name": "NXT UK 90",
+      "season": 2020,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2020-04-09",
+      "airtime": "15:00",
+      "airstamp": "2020-04-09T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1801789"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1833903,
+      "url": "https://www.tvmaze.com/episodes/1833903/wwe-nxt-uk-2020-04-16-nxt-uk-91",
+      "name": "NXT UK 91",
+      "season": 2020,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2020-04-16",
+      "airtime": "15:00",
+      "airstamp": "2020-04-16T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1833903"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1833904,
+      "url": "https://www.tvmaze.com/episodes/1833904/wwe-nxt-uk-2020-04-23-nxt-uk-92",
+      "name": "NXT UK 92",
+      "season": 2020,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2020-04-23",
+      "airtime": "15:00",
+      "airstamp": "2020-04-23T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1833904"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1833905,
+      "url": "https://www.tvmaze.com/episodes/1833905/wwe-nxt-uk-2020-04-30-nxt-uk-93",
+      "name": "NXT UK 93",
+      "season": 2020,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2020-04-30",
+      "airtime": "15:00",
+      "airstamp": "2020-04-30T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1833905"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1862088,
+      "url": "https://www.tvmaze.com/episodes/1862088/wwe-nxt-uk-2020-05-07-nxt-uk-94",
+      "name": "NXT UK 94",
+      "season": 2020,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2020-05-07",
+      "airtime": "15:00",
+      "airstamp": "2020-05-07T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1862088"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1862089,
+      "url": "https://www.tvmaze.com/episodes/1862089/wwe-nxt-uk-2020-05-14-superstar-picks",
+      "name": "Superstar Picks",
+      "season": 2020,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2020-05-14",
+      "airtime": "15:00",
+      "airstamp": "2020-05-14T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The Superstars of NXT UK share their favorite matches and the classic WWE battles that inspired their path in sports-entertainment.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1862089"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1862090,
+      "url": "https://www.tvmaze.com/episodes/1862090/wwe-nxt-uk-2020-05-21-most-brilliant",
+      "name": "Most Brilliant",
+      "season": 2020,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2020-05-21",
+      "airtime": "15:00",
+      "airstamp": "2020-05-21T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The broken friendships between Toni Storm, Kay Lee Ray and Piper Niven fuel a red-hot rivalry and a frenzied pursuit of the NXT UK Women's Championship.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1862090"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1862091,
+      "url": "https://www.tvmaze.com/episodes/1862091/wwe-nxt-uk-2020-05-28-best-of",
+      "name": "Best of",
+      "season": 2020,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2020-05-28",
+      "airtime": "15:00",
+      "airstamp": "2020-05-28T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/258/647458.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/258/647458.jpg"
+      },
+      "summary": "<p>This special episode of NXT UK presents previously unaired matches featuring Finn Bálor, Rhea Ripley and The Grizzled Young Veterans.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1862091"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1871527,
+      "url": "https://www.tvmaze.com/episodes/1871527/wwe-nxt-uk-2020-06-04-nxt-uk-98",
+      "name": "NXT UK 98",
+      "season": 2020,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2020-06-04",
+      "airtime": "15:00",
+      "airstamp": "2020-06-04T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1871527"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1878230,
+      "url": "https://www.tvmaze.com/episodes/1878230/wwe-nxt-uk-2020-06-11-nxt-uk-99",
+      "name": "NXT UK 99",
+      "season": 2020,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2020-06-11",
+      "airtime": "15:00",
+      "airstamp": "2020-06-11T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1878230"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1881466,
+      "url": "https://www.tvmaze.com/episodes/1881466/wwe-nxt-uk-2020-06-18-nxt-uk-100",
+      "name": "NXT UK 100",
+      "season": 2020,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2020-06-18",
+      "airtime": "15:00",
+      "airstamp": "2020-06-18T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1881466"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1881467,
+      "url": "https://www.tvmaze.com/episodes/1881467/wwe-nxt-uk-2020-06-25-nxt-uk-101",
+      "name": "NXT UK 101",
+      "season": 2020,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2020-06-25",
+      "airtime": "15:00",
+      "airstamp": "2020-06-25T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1881467"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1896075,
+      "url": "https://www.tvmaze.com/episodes/1896075/wwe-nxt-uk-2020-07-02-nxt-uk-102",
+      "name": "NXT UK 102",
+      "season": 2020,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2020-07-02",
+      "airtime": "15:00",
+      "airstamp": "2020-07-02T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1896075"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1896076,
+      "url": "https://www.tvmaze.com/episodes/1896076/wwe-nxt-uk-2020-07-09-nxt-uk-103",
+      "name": "NXT UK 103",
+      "season": 2020,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2020-07-09",
+      "airtime": "15:00",
+      "airstamp": "2020-07-09T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1896076"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1896077,
+      "url": "https://www.tvmaze.com/episodes/1896077/wwe-nxt-uk-2020-07-16-nxt-uk-104",
+      "name": "NXT UK 104",
+      "season": 2020,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2020-07-16",
+      "airtime": "15:00",
+      "airstamp": "2020-07-16T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1896077"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1896078,
+      "url": "https://www.tvmaze.com/episodes/1896078/wwe-nxt-uk-2020-07-23-nxt-uk-105",
+      "name": "NXT UK 105",
+      "season": 2020,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2020-07-23",
+      "airtime": "15:00",
+      "airstamp": "2020-07-23T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1896078"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1896079,
+      "url": "https://www.tvmaze.com/episodes/1896079/wwe-nxt-uk-2020-07-30-nxt-uk-106",
+      "name": "NXT UK 106",
+      "season": 2020,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2020-07-30",
+      "airtime": "15:00",
+      "airstamp": "2020-07-30T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1896079"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1901257,
+      "url": "https://www.tvmaze.com/episodes/1901257/wwe-nxt-uk-2020-07-30-nxt-uk-107",
+      "name": "NXT UK 107",
+      "season": 2020,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2020-07-30",
+      "airtime": "15:00",
+      "airstamp": "2020-07-30T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1901257"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1901253,
+      "url": "https://www.tvmaze.com/episodes/1901253/wwe-nxt-uk-2020-08-06-nxt-uk-108",
+      "name": "NXT UK 108",
+      "season": 2020,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2020-08-06",
+      "airtime": "15:00",
+      "airstamp": "2020-08-06T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1901253"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1901254,
+      "url": "https://www.tvmaze.com/episodes/1901254/wwe-nxt-uk-2020-08-13-nxt-uk-109",
+      "name": "NXT UK 109",
+      "season": 2020,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2020-08-13",
+      "airtime": "15:00",
+      "airstamp": "2020-08-13T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1901254"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1901255,
+      "url": "https://www.tvmaze.com/episodes/1901255/wwe-nxt-uk-2020-08-20-nxt-uk-110",
+      "name": "NXT UK 110",
+      "season": 2020,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2020-08-20",
+      "airtime": "15:00",
+      "airstamp": "2020-08-20T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1901255"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1901256,
+      "url": "https://www.tvmaze.com/episodes/1901256/wwe-nxt-uk-2020-08-27-nxt-uk-111",
+      "name": "NXT UK 111",
+      "season": 2020,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2020-08-27",
+      "airtime": "15:00",
+      "airstamp": "2020-08-27T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1901256"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1902075,
+      "url": "https://www.tvmaze.com/episodes/1902075/wwe-nxt-uk-2020-09-03-nxt-uk-112",
+      "name": "NXT UK 112",
+      "season": 2020,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2020-09-03",
+      "airtime": "15:00",
+      "airstamp": "2020-09-03T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1902075"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1902076,
+      "url": "https://www.tvmaze.com/episodes/1902076/wwe-nxt-uk-2020-09-10-nxt-uk-113",
+      "name": "NXT UK 113",
+      "season": 2020,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2020-09-10",
+      "airtime": "15:00",
+      "airstamp": "2020-09-10T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1902076"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1902077,
+      "url": "https://www.tvmaze.com/episodes/1902077/wwe-nxt-uk-2020-09-17-nxt-uk-114-heritage-cup-championship-begins",
+      "name": "NXT UK 114: Heritage Cup Championship Begins",
+      "season": 2020,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2020-09-17",
+      "airtime": "15:00",
+      "airstamp": "2020-09-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>This will be an eight-man tournament. Seven of the eight entrants have already been announced with Noam Dar, Alexander Wolfe, Flash Morgan Webster, A Kid, Dave Mastiff, Trent Seven, and Joseph Conners. All the matches in the tournament will be held under British rounds rules.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1902077"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1902078,
+      "url": "https://www.tvmaze.com/episodes/1902078/wwe-nxt-uk-2020-09-24-nxt-uk-115",
+      "name": "NXT UK 115",
+      "season": 2020,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2020-09-24",
+      "airtime": "15:00",
+      "airstamp": "2020-09-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1902078"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1908980,
+      "url": "https://www.tvmaze.com/episodes/1908980/wwe-nxt-uk-2020-10-01-nxt-uk-116",
+      "name": "NXT UK 116",
+      "season": 2020,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2020-10-01",
+      "airtime": "15:00",
+      "airstamp": "2020-10-01T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1908980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1908981,
+      "url": "https://www.tvmaze.com/episodes/1908981/wwe-nxt-uk-2020-10-08-nxt-uk-117",
+      "name": "NXT UK 117",
+      "season": 2020,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2020-10-08",
+      "airtime": "15:00",
+      "airstamp": "2020-10-08T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1908981"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1908982,
+      "url": "https://www.tvmaze.com/episodes/1908982/wwe-nxt-uk-2020-10-15-nxt-uk-118",
+      "name": "NXT UK 118",
+      "season": 2020,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2020-10-15",
+      "airtime": "15:00",
+      "airstamp": "2020-10-15T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1908982"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1908983,
+      "url": "https://www.tvmaze.com/episodes/1908983/wwe-nxt-uk-2020-10-22-nxt-uk-119",
+      "name": "NXT UK 119",
+      "season": 2020,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2020-10-22",
+      "airtime": "15:00",
+      "airstamp": "2020-10-22T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1908983"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1908984,
+      "url": "https://www.tvmaze.com/episodes/1908984/wwe-nxt-uk-2020-10-29-nxt-uk-120",
+      "name": "NXT UK 120",
+      "season": 2020,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2020-10-29",
+      "airtime": "15:00",
+      "airstamp": "2020-10-29T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1908984"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1957578,
+      "url": "https://www.tvmaze.com/episodes/1957578/wwe-nxt-uk-2020-11-05-nxt-uk-121",
+      "name": "NXT UK 121",
+      "season": 2020,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2020-11-05",
+      "airtime": "15:00",
+      "airstamp": "2020-11-05T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1957578"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1969491,
+      "url": "https://www.tvmaze.com/episodes/1969491/wwe-nxt-uk-2020-11-12-nxt-uk-122",
+      "name": "NXT UK 122",
+      "season": 2020,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2020-11-12",
+      "airtime": "15:00",
+      "airstamp": "2020-11-12T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1969491"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1972919,
+      "url": "https://www.tvmaze.com/episodes/1972919/wwe-nxt-uk-2020-11-19-nxt-uk-123",
+      "name": "NXT UK 123",
+      "season": 2020,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2020-11-19",
+      "airtime": "15:00",
+      "airstamp": "2020-11-19T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1972919"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1975569,
+      "url": "https://www.tvmaze.com/episodes/1975569/wwe-nxt-uk-2020-11-26-nxt-uk-124",
+      "name": "NXT UK 124",
+      "season": 2020,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2020-11-26",
+      "airtime": "15:00",
+      "airstamp": "2020-11-26T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1975569"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1976645,
+      "url": "https://www.tvmaze.com/episodes/1976645/wwe-nxt-uk-2020-12-03-episode-49",
+      "name": "Episode 49",
+      "season": 2020,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2020-12-03",
+      "airtime": "15:00",
+      "airstamp": "2020-12-03T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1976645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1976646,
+      "url": "https://www.tvmaze.com/episodes/1976646/wwe-nxt-uk-2020-12-10-episode-50",
+      "name": "Episode 50",
+      "season": 2020,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2020-12-10",
+      "airtime": "15:00",
+      "airstamp": "2020-12-10T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1976646"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1976647,
+      "url": "https://www.tvmaze.com/episodes/1976647/wwe-nxt-uk-2020-12-17-episode-51",
+      "name": "Episode 51",
+      "season": 2020,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2020-12-17",
+      "airtime": "15:00",
+      "airstamp": "2020-12-17T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1976647"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1976648,
+      "url": "https://www.tvmaze.com/episodes/1976648/wwe-nxt-uk-2020-12-24-episode-52",
+      "name": "Episode 52",
+      "season": 2020,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2020-12-24",
+      "airtime": "15:00",
+      "airstamp": "2020-12-24T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1976648"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1976649,
+      "url": "https://www.tvmaze.com/episodes/1976649/wwe-nxt-uk-2020-12-31-episode-53",
+      "name": "Episode 53",
+      "season": 2020,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2020-12-31",
+      "airtime": "15:00",
+      "airstamp": "2020-12-31T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1976649"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1996826,
+      "url": "https://www.tvmaze.com/episodes/1996826/wwe-nxt-uk-2021-01-07-nxt-uk-130",
+      "name": "NXT UK 130",
+      "season": 2021,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2021-01-07",
+      "airtime": "15:00",
+      "airstamp": "2021-01-07T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1996826"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1996827,
+      "url": "https://www.tvmaze.com/episodes/1996827/wwe-nxt-uk-2021-01-14-nxt-uk-131",
+      "name": "NXT UK 131",
+      "season": 2021,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2021-01-14",
+      "airtime": "15:00",
+      "airstamp": "2021-01-14T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1996827"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1996828,
+      "url": "https://www.tvmaze.com/episodes/1996828/wwe-nxt-uk-2021-01-21-nxt-uk-132",
+      "name": "NXT UK 132",
+      "season": 2021,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2021-01-21",
+      "airtime": "15:00",
+      "airstamp": "2021-01-21T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1996828"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 1996829,
+      "url": "https://www.tvmaze.com/episodes/1996829/wwe-nxt-uk-2021-01-28-nxt-uk-133",
+      "name": "NXT UK 133",
+      "season": 2021,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2021-01-28",
+      "airtime": "15:00",
+      "airstamp": "2021-01-28T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1996829"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2022923,
+      "url": "https://www.tvmaze.com/episodes/2022923/wwe-nxt-uk-2021-02-04-episode-5",
+      "name": "Episode 5",
+      "season": 2021,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2021-02-04",
+      "airtime": "15:00",
+      "airstamp": "2021-02-04T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022923"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2022924,
+      "url": "https://www.tvmaze.com/episodes/2022924/wwe-nxt-uk-2021-02-11-episode-6",
+      "name": "Episode 6",
+      "season": 2021,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2021-02-11",
+      "airtime": "15:00",
+      "airstamp": "2021-02-11T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022924"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2022925,
+      "url": "https://www.tvmaze.com/episodes/2022925/wwe-nxt-uk-2021-02-18-episode-7",
+      "name": "Episode 7",
+      "season": 2021,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2021-02-18",
+      "airtime": "15:00",
+      "airstamp": "2021-02-18T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022925"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2022926,
+      "url": "https://www.tvmaze.com/episodes/2022926/wwe-nxt-uk-2021-02-25-episode-8",
+      "name": "Episode 8",
+      "season": 2021,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2021-02-25",
+      "airtime": "15:00",
+      "airstamp": "2021-02-25T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2022926"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2042052,
+      "url": "https://www.tvmaze.com/episodes/2042052/wwe-nxt-uk-2021-03-04-episode-9",
+      "name": "Episode 9",
+      "season": 2021,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2021-03-04",
+      "airtime": "15:00",
+      "airstamp": "2021-03-04T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2042052"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2042053,
+      "url": "https://www.tvmaze.com/episodes/2042053/wwe-nxt-uk-2021-03-11-episode-10",
+      "name": "Episode 10",
+      "season": 2021,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2021-03-11",
+      "airtime": "15:00",
+      "airstamp": "2021-03-11T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2042053"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2042054,
+      "url": "https://www.tvmaze.com/episodes/2042054/wwe-nxt-uk-2021-03-18-episode-11",
+      "name": "Episode 11",
+      "season": 2021,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2021-03-18",
+      "airtime": "15:00",
+      "airstamp": "2021-03-18T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2042054"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2050205,
+      "url": "https://www.tvmaze.com/episodes/2050205/wwe-nxt-uk-2021-03-25-nxt-uk-141",
+      "name": "NXT UK 141",
+      "season": 2021,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2021-03-25",
+      "airtime": "15:00",
+      "airstamp": "2021-03-25T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050205"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2050206,
+      "url": "https://www.tvmaze.com/episodes/2050206/wwe-nxt-uk-2021-04-01-nxt-uk-142",
+      "name": "NXT UK 142",
+      "season": 2021,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2021-04-01",
+      "airtime": "15:00",
+      "airstamp": "2021-04-01T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050206"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2050207,
+      "url": "https://www.tvmaze.com/episodes/2050207/wwe-nxt-uk-2021-04-08-nxt-uk-143",
+      "name": "NXT UK 143",
+      "season": 2021,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2021-04-08",
+      "airtime": "15:00",
+      "airstamp": "2021-04-08T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050207"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2050208,
+      "url": "https://www.tvmaze.com/episodes/2050208/wwe-nxt-uk-2021-04-15-nxt-uk-144",
+      "name": "NXT UK 144",
+      "season": 2021,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2021-04-15",
+      "airtime": "15:00",
+      "airstamp": "2021-04-15T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050208"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2050209,
+      "url": "https://www.tvmaze.com/episodes/2050209/wwe-nxt-uk-2021-04-22-nxt-uk-145",
+      "name": "NXT UK 145",
+      "season": 2021,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2021-04-22",
+      "airtime": "15:00",
+      "airstamp": "2021-04-22T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050209"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2050210,
+      "url": "https://www.tvmaze.com/episodes/2050210/wwe-nxt-uk-2021-04-29-nxt-uk-146",
+      "name": "NXT UK 146",
+      "season": 2021,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2021-04-29",
+      "airtime": "15:00",
+      "airstamp": "2021-04-29T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2050210"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2055291,
+      "url": "https://www.tvmaze.com/episodes/2055291/wwe-nxt-uk-2021-05-06-nxt-uk-147",
+      "name": "NXT UK 147",
+      "season": 2021,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2021-05-06",
+      "airtime": "15:00",
+      "airstamp": "2021-05-06T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2055291"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2055292,
+      "url": "https://www.tvmaze.com/episodes/2055292/wwe-nxt-uk-2021-05-13-nxt-uk-148",
+      "name": "NXT UK 148",
+      "season": 2021,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2021-05-13",
+      "airtime": "15:00",
+      "airstamp": "2021-05-13T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2055292"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2055293,
+      "url": "https://www.tvmaze.com/episodes/2055293/wwe-nxt-uk-2021-05-20-nxt-uk-149",
+      "name": "NXT UK 149",
+      "season": 2021,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2021-05-20",
+      "airtime": "15:00",
+      "airstamp": "2021-05-20T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2055293"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2055294,
+      "url": "https://www.tvmaze.com/episodes/2055294/wwe-nxt-uk-2021-05-27-nxt-uk-150",
+      "name": "NXT UK 150",
+      "season": 2021,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2021-05-27",
+      "airtime": "15:00",
+      "airstamp": "2021-05-27T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2055294"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2106306,
+      "url": "https://www.tvmaze.com/episodes/2106306/wwe-nxt-uk-2021-06-03-nxt-uk-151",
+      "name": "NXT UK 151",
+      "season": 2021,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2021-06-03",
+      "airtime": "15:00",
+      "airstamp": "2021-06-03T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106306"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2106307,
+      "url": "https://www.tvmaze.com/episodes/2106307/wwe-nxt-uk-2021-06-10-nxt-uk-152",
+      "name": "NXT UK 152",
+      "season": 2021,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2021-06-10",
+      "airtime": "15:00",
+      "airstamp": "2021-06-10T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106307"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2106308,
+      "url": "https://www.tvmaze.com/episodes/2106308/wwe-nxt-uk-2021-06-17-nxt-uk-153",
+      "name": "NXT UK 153",
+      "season": 2021,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2021-06-17",
+      "airtime": "15:00",
+      "airstamp": "2021-06-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106308"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2106309,
+      "url": "https://www.tvmaze.com/episodes/2106309/wwe-nxt-uk-2021-06-24-nxt-uk-154",
+      "name": "NXT UK 154",
+      "season": 2021,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2021-06-24",
+      "airtime": "15:00",
+      "airstamp": "2021-06-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106309"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2106310,
+      "url": "https://www.tvmaze.com/episodes/2106310/wwe-nxt-uk-2021-07-01-nxt-uk-155",
+      "name": "NXT UK 155",
+      "season": 2021,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2021-07-01",
+      "airtime": "15:00",
+      "airstamp": "2021-07-01T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2106310"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2113651,
+      "url": "https://www.tvmaze.com/episodes/2113651/wwe-nxt-uk-2021-07-08-nxt-uk-156",
+      "name": "NXT UK 156",
+      "season": 2021,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2021-07-08",
+      "airtime": "15:00",
+      "airstamp": "2021-07-08T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2113651"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2113652,
+      "url": "https://www.tvmaze.com/episodes/2113652/wwe-nxt-uk-2021-07-15-nxt-uk-157",
+      "name": "NXT UK 157",
+      "season": 2021,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2021-07-15",
+      "airtime": "15:00",
+      "airstamp": "2021-07-15T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2113652"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2113653,
+      "url": "https://www.tvmaze.com/episodes/2113653/wwe-nxt-uk-2021-07-22-nxt-uk-158",
+      "name": "NXT UK 158",
+      "season": 2021,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2021-07-22",
+      "airtime": "15:00",
+      "airstamp": "2021-07-22T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2113653"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2113654,
+      "url": "https://www.tvmaze.com/episodes/2113654/wwe-nxt-uk-2021-07-29-nxt-uk-159",
+      "name": "NXT UK 159",
+      "season": 2021,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2021-07-29",
+      "airtime": "15:00",
+      "airstamp": "2021-07-29T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2113654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2161336,
+      "url": "https://www.tvmaze.com/episodes/2161336/wwe-nxt-uk-2021-08-05-nxt-uk-160",
+      "name": "NXT UK 160",
+      "season": 2021,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2021-08-05",
+      "airtime": "15:00",
+      "airstamp": "2021-08-05T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161336"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2161337,
+      "url": "https://www.tvmaze.com/episodes/2161337/wwe-nxt-uk-2021-08-12-nxt-uk-161",
+      "name": "NXT UK 161",
+      "season": 2021,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2021-08-12",
+      "airtime": "15:00",
+      "airstamp": "2021-08-12T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161337"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2161338,
+      "url": "https://www.tvmaze.com/episodes/2161338/wwe-nxt-uk-2021-08-19-nxt-uk-162",
+      "name": "NXT UK 162",
+      "season": 2021,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2021-08-19",
+      "airtime": "15:00",
+      "airstamp": "2021-08-19T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161338"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2161339,
+      "url": "https://www.tvmaze.com/episodes/2161339/wwe-nxt-uk-2021-08-26-nxt-uk-163",
+      "name": "NXT UK 163",
+      "season": 2021,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2021-08-26",
+      "airtime": "15:00",
+      "airstamp": "2021-08-26T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2161339"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168570,
+      "url": "https://www.tvmaze.com/episodes/2168570/wwe-nxt-uk-2021-09-02-nxt-uk-164",
+      "name": "NXT UK 164",
+      "season": 2021,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2021-09-02",
+      "airtime": "15:00",
+      "airstamp": "2021-09-02T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168570"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168571,
+      "url": "https://www.tvmaze.com/episodes/2168571/wwe-nxt-uk-2021-09-09-nxt-uk-165",
+      "name": "NXT UK 165",
+      "season": 2021,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2021-09-09",
+      "airtime": "15:00",
+      "airstamp": "2021-09-09T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168571"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168572,
+      "url": "https://www.tvmaze.com/episodes/2168572/wwe-nxt-uk-2021-09-16-nxt-uk-166",
+      "name": "NXT UK 166",
+      "season": 2021,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2021-09-16",
+      "airtime": "15:00",
+      "airstamp": "2021-09-16T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168572"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168573,
+      "url": "https://www.tvmaze.com/episodes/2168573/wwe-nxt-uk-2021-09-23-nxt-uk-167",
+      "name": "NXT UK 167",
+      "season": 2021,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2021-09-23",
+      "airtime": "15:00",
+      "airstamp": "2021-09-23T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168573"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168574,
+      "url": "https://www.tvmaze.com/episodes/2168574/wwe-nxt-uk-2021-09-30-nxt-uk-168",
+      "name": "NXT UK 168",
+      "season": 2021,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2021-09-30",
+      "airtime": "15:00",
+      "airstamp": "2021-09-30T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168574"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168575,
+      "url": "https://www.tvmaze.com/episodes/2168575/wwe-nxt-uk-2021-10-07-nxt-uk-169",
+      "name": "NXT UK 169",
+      "season": 2021,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2021-10-07",
+      "airtime": "15:00",
+      "airstamp": "2021-10-07T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168575"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168576,
+      "url": "https://www.tvmaze.com/episodes/2168576/wwe-nxt-uk-2021-10-14-nxt-uk-170",
+      "name": "NXT UK 170",
+      "season": 2021,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2021-10-14",
+      "airtime": "15:00",
+      "airstamp": "2021-10-14T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168576"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2168577,
+      "url": "https://www.tvmaze.com/episodes/2168577/wwe-nxt-uk-2021-10-21-nxt-uk-171",
+      "name": "NXT UK 171",
+      "season": 2021,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2021-10-21",
+      "airtime": "15:00",
+      "airstamp": "2021-10-21T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2168577"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197323,
+      "url": "https://www.tvmaze.com/episodes/2197323/wwe-nxt-uk-2021-10-28-nxt-uk-172",
+      "name": "NXT UK 172",
+      "season": 2021,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2021-10-28",
+      "airtime": "15:00",
+      "airstamp": "2021-10-28T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197323"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197324,
+      "url": "https://www.tvmaze.com/episodes/2197324/wwe-nxt-uk-2021-11-04-nxt-uk-173",
+      "name": "NXT UK 173",
+      "season": 2021,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2021-11-04",
+      "airtime": "15:00",
+      "airstamp": "2021-11-04T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197324"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197325,
+      "url": "https://www.tvmaze.com/episodes/2197325/wwe-nxt-uk-2021-11-11-nxt-uk-174",
+      "name": "NXT UK 174",
+      "season": 2021,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2021-11-11",
+      "airtime": "15:00",
+      "airstamp": "2021-11-11T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197325"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197326,
+      "url": "https://www.tvmaze.com/episodes/2197326/wwe-nxt-uk-2021-11-18-nxt-uk-175",
+      "name": "NXT UK 175",
+      "season": 2021,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2021-11-18",
+      "airtime": "15:00",
+      "airstamp": "2021-11-18T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197326"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197327,
+      "url": "https://www.tvmaze.com/episodes/2197327/wwe-nxt-uk-2021-11-25-nxt-uk-176",
+      "name": "NXT UK 176",
+      "season": 2021,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2021-11-25",
+      "airtime": "15:00",
+      "airstamp": "2021-11-25T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197327"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197328,
+      "url": "https://www.tvmaze.com/episodes/2197328/wwe-nxt-uk-2021-12-02-nxt-uk-177",
+      "name": "NXT UK 177",
+      "season": 2021,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2021-12-02",
+      "airtime": "15:00",
+      "airstamp": "2021-12-02T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197328"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197329,
+      "url": "https://www.tvmaze.com/episodes/2197329/wwe-nxt-uk-2021-12-09-nxt-uk-178",
+      "name": "NXT UK 178",
+      "season": 2021,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2021-12-09",
+      "airtime": "15:00",
+      "airstamp": "2021-12-09T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197329"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197330,
+      "url": "https://www.tvmaze.com/episodes/2197330/wwe-nxt-uk-2021-12-16-nxt-uk-179",
+      "name": "NXT UK 179",
+      "season": 2021,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2021-12-16",
+      "airtime": "15:00",
+      "airstamp": "2021-12-16T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197330"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197331,
+      "url": "https://www.tvmaze.com/episodes/2197331/wwe-nxt-uk-2021-12-23-nxt-uk-180",
+      "name": "NXT UK 180",
+      "season": 2021,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2021-12-23",
+      "airtime": "15:00",
+      "airstamp": "2021-12-23T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Our very own</p><p>Nina Samuels will be hosting a very special edition of NXT UK featuring the most amazing matches of 2021!</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197331"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2197332,
+      "url": "https://www.tvmaze.com/episodes/2197332/wwe-nxt-uk-2021-12-30-nxt-uk-181",
+      "name": "NXT UK 181",
+      "season": 2021,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2021-12-30",
+      "airtime": "15:00",
+      "airstamp": "2021-12-30T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2197332"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2252480,
+      "url": "https://www.tvmaze.com/episodes/2252480/wwe-nxt-uk-2022-01-06-nxt-uk-182",
+      "name": "NXT UK 182",
+      "season": 2022,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-06",
+      "airtime": "15:00",
+      "airstamp": "2022-01-06T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2252480"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269807,
+      "url": "https://www.tvmaze.com/episodes/2269807/wwe-nxt-uk-2022-01-13-nxt-uk-183",
+      "name": "NXT UK 183",
+      "season": 2022,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-01-13",
+      "airtime": "15:00",
+      "airstamp": "2022-01-13T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269807"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269808,
+      "url": "https://www.tvmaze.com/episodes/2269808/wwe-nxt-uk-2022-01-20-nxt-uk-184",
+      "name": "NXT UK 184",
+      "season": 2022,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-01-20",
+      "airtime": "15:00",
+      "airstamp": "2022-01-20T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269808"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269809,
+      "url": "https://www.tvmaze.com/episodes/2269809/wwe-nxt-uk-2022-01-27-nxt-uk-185",
+      "name": "NXT UK 185",
+      "season": 2022,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-01-27",
+      "airtime": "15:00",
+      "airstamp": "2022-01-27T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269809"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269810,
+      "url": "https://www.tvmaze.com/episodes/2269810/wwe-nxt-uk-2022-02-03-nxt-uk-186",
+      "name": "NXT UK 186",
+      "season": 2022,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2022-02-03",
+      "airtime": "15:00",
+      "airstamp": "2022-02-03T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269810"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269811,
+      "url": "https://www.tvmaze.com/episodes/2269811/wwe-nxt-uk-2022-02-10-nxt-uk-187",
+      "name": "NXT UK 187",
+      "season": 2022,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2022-02-10",
+      "airtime": "15:00",
+      "airstamp": "2022-02-10T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269811"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269812,
+      "url": "https://www.tvmaze.com/episodes/2269812/wwe-nxt-uk-2022-02-17-nxt-uk-188",
+      "name": "NXT UK 188",
+      "season": 2022,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2022-02-17",
+      "airtime": "15:00",
+      "airstamp": "2022-02-17T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269812"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269813,
+      "url": "https://www.tvmaze.com/episodes/2269813/wwe-nxt-uk-2022-02-24-nxt-uk-189",
+      "name": "NXT UK 189",
+      "season": 2022,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2022-02-24",
+      "airtime": "15:00",
+      "airstamp": "2022-02-24T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269813"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2269814,
+      "url": "https://www.tvmaze.com/episodes/2269814/wwe-nxt-uk-2022-03-03-nxt-uk-190",
+      "name": "NXT UK 190",
+      "season": 2022,
+      "number": 9,
+      "type": "regular",
+      "airdate": "2022-03-03",
+      "airtime": "15:00",
+      "airstamp": "2022-03-03T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2269814"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2290030,
+      "url": "https://www.tvmaze.com/episodes/2290030/wwe-nxt-uk-2022-03-10-nxt-uk-191",
+      "name": "NXT UK 191",
+      "season": 2022,
+      "number": 10,
+      "type": "regular",
+      "airdate": "2022-03-10",
+      "airtime": "15:00",
+      "airstamp": "2022-03-10T20:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2290030"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2294365,
+      "url": "https://www.tvmaze.com/episodes/2294365/wwe-nxt-uk-2022-03-17-nxt-uk-192",
+      "name": "NXT UK 192",
+      "season": 2022,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2022-03-17",
+      "airtime": "15:00",
+      "airstamp": "2022-03-17T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2294365"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2298684,
+      "url": "https://www.tvmaze.com/episodes/2298684/wwe-nxt-uk-2022-03-24-nxt-uk-193",
+      "name": "NXT UK 193",
+      "season": 2022,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2022-03-24",
+      "airtime": "15:00",
+      "airstamp": "2022-03-24T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2298684"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2302178,
+      "url": "https://www.tvmaze.com/episodes/2302178/wwe-nxt-uk-2022-03-31-nxt-uk-194",
+      "name": "NXT UK 194",
+      "season": 2022,
+      "number": 13,
+      "type": "regular",
+      "airdate": "2022-03-31",
+      "airtime": "15:00",
+      "airstamp": "2022-03-31T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2302178"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2303223,
+      "url": "https://www.tvmaze.com/episodes/2303223/wwe-nxt-uk-2022-04-07-nxt-uk-195",
+      "name": "NXT UK 195",
+      "season": 2022,
+      "number": 14,
+      "type": "regular",
+      "airdate": "2022-04-07",
+      "airtime": "15:00",
+      "airstamp": "2022-04-07T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2303223"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2308025,
+      "url": "https://www.tvmaze.com/episodes/2308025/wwe-nxt-uk-2022-04-14-nxt-uk-196",
+      "name": "NXT UK 196",
+      "season": 2022,
+      "number": 15,
+      "type": "regular",
+      "airdate": "2022-04-14",
+      "airtime": "15:00",
+      "airstamp": "2022-04-14T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2308025"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2311521,
+      "url": "https://www.tvmaze.com/episodes/2311521/wwe-nxt-uk-2022-04-21-nxt-uk-197",
+      "name": "NXT UK 197",
+      "season": 2022,
+      "number": 16,
+      "type": "regular",
+      "airdate": "2022-04-21",
+      "airtime": "15:00",
+      "airstamp": "2022-04-21T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2311521"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2311522,
+      "url": "https://www.tvmaze.com/episodes/2311522/wwe-nxt-uk-2022-04-28-nxt-uk-198",
+      "name": "NXT UK 198",
+      "season": 2022,
+      "number": 17,
+      "type": "regular",
+      "airdate": "2022-04-28",
+      "airtime": "15:00",
+      "airstamp": "2022-04-28T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2311522"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2322309,
+      "url": "https://www.tvmaze.com/episodes/2322309/wwe-nxt-uk-2022-05-05-nxt-uk-199",
+      "name": "NXT UK 199",
+      "season": 2022,
+      "number": 18,
+      "type": "regular",
+      "airdate": "2022-05-05",
+      "airtime": "15:00",
+      "airstamp": "2022-05-05T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2322309"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2325061,
+      "url": "https://www.tvmaze.com/episodes/2325061/wwe-nxt-uk-2022-05-12-nxt-uk-200",
+      "name": "NXT UK 200",
+      "season": 2022,
+      "number": 19,
+      "type": "regular",
+      "airdate": "2022-05-12",
+      "airtime": "15:00",
+      "airstamp": "2022-05-12T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2325061"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2325411,
+      "url": "https://www.tvmaze.com/episodes/2325411/wwe-nxt-uk-2022-05-19-nxt-uk-201",
+      "name": "NXT UK 201",
+      "season": 2022,
+      "number": 20,
+      "type": "regular",
+      "airdate": "2022-05-19",
+      "airtime": "15:00",
+      "airstamp": "2022-05-19T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2325411"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2326680,
+      "url": "https://www.tvmaze.com/episodes/2326680/wwe-nxt-uk-2022-05-26-nxt-uk-202",
+      "name": "NXT UK 202",
+      "season": 2022,
+      "number": 21,
+      "type": "regular",
+      "airdate": "2022-05-26",
+      "airtime": "15:00",
+      "airstamp": "2022-05-26T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2326680"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2333103,
+      "url": "https://www.tvmaze.com/episodes/2333103/wwe-nxt-uk-2022-06-02-nxt-uk-203",
+      "name": "NXT UK 203",
+      "season": 2022,
+      "number": 22,
+      "type": "regular",
+      "airdate": "2022-06-02",
+      "airtime": "15:00",
+      "airstamp": "2022-06-02T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2333103"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2333105,
+      "url": "https://www.tvmaze.com/episodes/2333105/wwe-nxt-uk-2022-06-09-nxt-uk-204",
+      "name": "NXT UK 204",
+      "season": 2022,
+      "number": 23,
+      "type": "regular",
+      "airdate": "2022-06-09",
+      "airtime": "15:00",
+      "airstamp": "2022-06-09T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2333105"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2344311,
+      "url": "https://www.tvmaze.com/episodes/2344311/wwe-nxt-uk-2022-06-16-nxt-uk-205",
+      "name": "NXT UK 205",
+      "season": 2022,
+      "number": 24,
+      "type": "regular",
+      "airdate": "2022-06-16",
+      "airtime": "15:00",
+      "airstamp": "2022-06-16T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2344311"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2348038,
+      "url": "https://www.tvmaze.com/episodes/2348038/wwe-nxt-uk-2022-06-23-nxt-uk-206",
+      "name": "NXT UK 206",
+      "season": 2022,
+      "number": 25,
+      "type": "regular",
+      "airdate": "2022-06-23",
+      "airtime": "15:00",
+      "airstamp": "2022-06-23T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2348038"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2348039,
+      "url": "https://www.tvmaze.com/episodes/2348039/wwe-nxt-uk-2022-06-30-nxt-uk-207",
+      "name": "NXT UK 207",
+      "season": 2022,
+      "number": 26,
+      "type": "regular",
+      "airdate": "2022-06-30",
+      "airtime": "15:00",
+      "airstamp": "2022-06-30T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2348039"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2354149,
+      "url": "https://www.tvmaze.com/episodes/2354149/wwe-nxt-uk-2022-07-07-nxt-uk-208",
+      "name": "NXT UK 208",
+      "season": 2022,
+      "number": 27,
+      "type": "regular",
+      "airdate": "2022-07-07",
+      "airtime": "15:00",
+      "airstamp": "2022-07-07T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2354149"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2356007,
+      "url": "https://www.tvmaze.com/episodes/2356007/wwe-nxt-uk-2022-07-14-nxt-uk-209",
+      "name": "NXT UK 209",
+      "season": 2022,
+      "number": 28,
+      "type": "regular",
+      "airdate": "2022-07-14",
+      "airtime": "15:00",
+      "airstamp": "2022-07-14T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2356007"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2358799,
+      "url": "https://www.tvmaze.com/episodes/2358799/wwe-nxt-uk-2022-07-21-nxt-uk-210",
+      "name": "NXT UK 210",
+      "season": 2022,
+      "number": 29,
+      "type": "regular",
+      "airdate": "2022-07-21",
+      "airtime": "15:00",
+      "airstamp": "2022-07-21T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2358799"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2358800,
+      "url": "https://www.tvmaze.com/episodes/2358800/wwe-nxt-uk-2022-07-28-nxt-uk-211",
+      "name": "NXT UK 211",
+      "season": 2022,
+      "number": 30,
+      "type": "regular",
+      "airdate": "2022-07-28",
+      "airtime": "15:00",
+      "airstamp": "2022-07-28T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2358800"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2365886,
+      "url": "https://www.tvmaze.com/episodes/2365886/wwe-nxt-uk-2022-08-04-nxt-uk-212",
+      "name": "NXT UK 212",
+      "season": 2022,
+      "number": 31,
+      "type": "regular",
+      "airdate": "2022-08-04",
+      "airtime": "15:00",
+      "airstamp": "2022-08-04T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2365886"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2369823,
+      "url": "https://www.tvmaze.com/episodes/2369823/wwe-nxt-uk-2022-08-11-nxt-uk-213",
+      "name": "NXT UK 213",
+      "season": 2022,
+      "number": 32,
+      "type": "regular",
+      "airdate": "2022-08-11",
+      "airtime": "15:00",
+      "airstamp": "2022-08-11T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2369823"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2371311,
+      "url": "https://www.tvmaze.com/episodes/2371311/wwe-nxt-uk-2022-08-18-nxt-uk-214",
+      "name": "NXT UK 214",
+      "season": 2022,
+      "number": 33,
+      "type": "regular",
+      "airdate": "2022-08-18",
+      "airtime": "15:00",
+      "airstamp": "2022-08-18T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371311"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2371312,
+      "url": "https://www.tvmaze.com/episodes/2371312/wwe-nxt-uk-2022-08-25-nxt-uk-215",
+      "name": "NXT UK 215",
+      "season": 2022,
+      "number": 34,
+      "type": "regular",
+      "airdate": "2022-08-25",
+      "airtime": "15:00",
+      "airstamp": "2022-08-25T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371312"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2375913,
+      "url": "https://www.tvmaze.com/episodes/2375913/wwe-nxt-uk-2022-09-01-nxt-uk-216",
+      "name": "NXT UK 216",
+      "season": 2022,
+      "number": 35,
+      "type": "regular",
+      "airdate": "2022-09-01",
+      "airtime": "15:00",
+      "airstamp": "2022-09-01T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2375913"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    },
+    {
+      "id": 2382043,
+      "url": "https://www.tvmaze.com/episodes/2382043/wwe-nxt-uk-2022-09-08-nxt-uk-217",
+      "name": "NXT UK 217",
+      "season": 2022,
+      "number": 36,
+      "type": "regular",
+      "airdate": "2022-09-08",
+      "airtime": "15:00",
+      "airstamp": "2022-09-08T19:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2382043"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/39053",
+          "name": "WWE NXT UK"
+        }
+      }
+    }
+  ]
+}

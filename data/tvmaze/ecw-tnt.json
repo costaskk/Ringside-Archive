@@ -1,7 +1,7 @@
 {
   "programId": "ecw-tnt",
   "tvMazeId": 25029,
-  "fetchedAt": "2026-07-27T07:57:31.460Z",
+  "fetchedAt": "2026-08-03T07:52:41.172Z",
   "show": {
     "id": 25029,
     "url": "https://www.tvmaze.com/shows/25029/ecw-on-tnn",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 24,
+    "weight": 42,
     "network": {
       "id": 34,
       "name": "Paramount Network",

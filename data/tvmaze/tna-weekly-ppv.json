@@ -1,7 +1,7 @@
 {
   "programId": "tna-weekly-ppv",
   "tvMazeId": 80637,
-  "fetchedAt": "2026-07-27T07:57:31.959Z",
+  "fetchedAt": "2026-08-03T07:52:41.707Z",
   "show": {
     "id": 80637,
     "url": "https://www.tvmaze.com/shows/80637/nwa-total-nonstop-action",
@@ -26,7 +26,7 @@
     "rating": {
       "average": null
     },
-    "weight": 8,
+    "weight": 5,
     "network": {
       "id": 138,
       "name": "Pay-Per-View",

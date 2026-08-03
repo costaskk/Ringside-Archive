@@ -1,7 +1,7 @@
 {
   "programId": "roh-wrestling",
   "tvMazeId": 25153,
-  "fetchedAt": "2026-07-27T07:57:33.542Z",
+  "fetchedAt": "2026-08-03T07:52:43.172Z",
   "show": {
     "id": 25153,
     "url": "https://www.tvmaze.com/shows/25153/ring-of-honor-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 78,
+    "weight": 89,
     "network": {
       "id": 72,
       "name": "Syndication",

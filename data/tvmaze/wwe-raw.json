@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-07-27T07:57:30.456Z",
+  "fetchedAt": "2026-08-03T07:52:40.175Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -43,18 +43,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1785115208,
+    "updated": 1785206068,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3613445",
-        "name": "#1729 - Little Caesars Arena in Detroit, MI"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3613446",
         "name": "#1730 - Intuit Dome in Los Angeles, CA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3613447",
+        "name": "#1731 - Casey's Center in Des Moines, IA"
       }
     }
   },
@@ -45261,7 +45261,7 @@
       "airdate": "2026-07-27",
       "airtime": "",
       "airstamp": "2026-07-27T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 154,
       "rating": {
         "average": null
       },
