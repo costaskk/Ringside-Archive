@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-08-03T07:52:42.946Z",
+  "fetchedAt": "2026-08-10T05:50:05.010Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 97,
+    "weight": 95,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1785312978,
+    "updated": 1785897464,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3582372",
-        "name": "Cruz Montana addresses the NXT universe"
+        "href": "https://api.tvmaze.com/episodes/3685148",
+        "name": "Main Event: Lola Vice vs. Kendal Grey (c) in an underground match for the NXT Women's Championship"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685148",
-        "name": "31"
+        "href": "https://api.tvmaze.com/episodes/3685149",
+        "name": "32"
       }
     }
   },
@@ -23157,8 +23157,8 @@
     },
     {
       "id": 3685148,
-      "url": "https://www.tvmaze.com/episodes/3685148/wwe-nxt-20x31-31",
-      "name": "31",
+      "url": "https://www.tvmaze.com/episodes/3685148/wwe-nxt-20x31-main-event-lola-vice-vs-kendal-grey-c-in-an-underground-match-for-the-nxt-womens-championship",
+      "name": "Main Event: Lola Vice vs. Kendal Grey (c) in an underground match for the NXT Women's Championship",
       "season": 20,
       "number": 31,
       "type": "regular",

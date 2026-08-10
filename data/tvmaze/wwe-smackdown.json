@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-08-03T07:52:41.188Z",
+  "fetchedAt": "2026-08-10T05:50:02.904Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1785546374,
+    "updated": 1786201366,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3616357",
-        "name": "#1404 - Resch Center in Green Bay, WI"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3616358",
         "name": "#1405 - Xfinity Mobile Arena in Philadelphia, PA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3616360",
+        "name": "#1406 - TD Garden in Boston, MA"
       }
     }
   },
@@ -36947,7 +36947,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>The path was long and arduous, but Kevin Owens stunned everyone by winning the Fatal 4-Way Match to become the No. 1 Contender to Undisputed WWE Champion CM Punk. How will Punk respond to KO's return and prepare for his next challenger?</p><p>Despite all odds, Chelsea Green climbed the ladder to win the Interim WWE Women's Title at SummerSlam. Now that Green is champion, what are her plans for SmackDown?</p><p>Bitter rivals Charlotte Flair and Jade Cargill will square off in a highly anticipated matchup. </p><p>Randy Orton made his shocking return at SummerSlam, striking Cody Rhodes with an RKO during The American Nightmare's title match against Undisputed WWE Champion CM Punk. How will Rhodes respond? </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3616358"
@@ -37220,8 +37220,8 @@
     },
     {
       "id": 3680017,
-      "url": "https://www.tvmaze.com/episodes/3680017/wwe-friday-night-smackdown-27x43-1416",
-      "name": "#1416",
+      "url": "https://www.tvmaze.com/episodes/3680017/wwe-friday-night-smackdown-27x43-1416-toyota-arena-in-ontario-ca",
+      "name": "#1416 - Toyota Arena in Ontario, CA",
       "season": 27,
       "number": 43,
       "type": "regular",
