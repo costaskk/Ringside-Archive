@@ -1,14 +1,17 @@
 {
   "programId": "wwf-jakked-metal",
   "tvMazeId": 27905,
-  "fetchedAt": "2026-08-10T05:50:03.162Z",
+  "fetchedAt": "2026-08-17T05:02:18.473Z",
   "show": {
     "id": 27905,
     "url": "https://www.tvmaze.com/shows/27905/wwe-metal",
     "name": "WWE Metal",
     "type": "Sports",
     "language": "English",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Sports"
+    ],
     "status": "Ended",
     "runtime": 60,
     "averageRuntime": 60,
@@ -24,7 +27,7 @@
     "rating": {
       "average": null
     },
-    "weight": 61,
+    "weight": 72,
     "network": {
       "id": 72,
       "name": "Syndication",
@@ -47,7 +50,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/365/914030.jpg"
     },
     "summary": "<p><b>WWE Metal</b> (originally known as WWF Metal) was a professional wrestling television program produced by the World Wrestling Federation (now known as WWE). The show aired syndicated weekly from 1999 until 2002 and replaced WWF Shotgun Saturday Night. Originally produced under the World Wrestling Federation (WWF) banner, they were replaced by the similarly formatted WWE Bottom Line and WWE Afterburn in syndication.</p>",
-    "updated": 1764605534,
+    "updated": 1786482624,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/27905"

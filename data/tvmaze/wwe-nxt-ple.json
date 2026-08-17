@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt-ple",
   "tvMazeId": 80711,
-  "fetchedAt": "2026-08-10T05:50:05.769Z",
+  "fetchedAt": "2026-08-17T05:02:20.910Z",
   "show": {
     "id": 80711,
     "url": "https://www.tvmaze.com/shows/80711/wwe-nxt-premium-live-events",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 36,
+    "weight": 72,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -45,7 +45,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365169.jpg"
     },
     "summary": "<p>This is a list of WWE NXT pay-per-view and livestreaming supercards, detailing all professional wrestling cards promoted by the American promotion WWE on pay-per-view (PPV) and available via livestreaming on services such as the WWE Network. Due to the American version of the WWE Network merging under Peacock, and with the WWE Network still available in most international markets, as well as less focus being given to traditional PPV channels, in 2022, the company began using the term \"Premium Live Event\" to refer to their events airing on PPV and the livestreaming services. The terminology \"TakeOver\" was dropped in December of 2021 as the NXT brand transformed.</p>",
-    "updated": 1785473129,
+    "updated": 1786669784,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/80711"
@@ -1952,6 +1952,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3656853"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3698856,
+      "url": "https://www.tvmaze.com/episodes/3698856/wwe-nxt-premium-live-events-2026-09-26-worlds-collide",
+      "name": "Worlds Collide",
+      "season": 2026,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2026-09-26",
+      "airtime": "",
+      "airstamp": "2026-09-26T16:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3698856"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/80711",

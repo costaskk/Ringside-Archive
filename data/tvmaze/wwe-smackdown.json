@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-08-10T05:50:02.904Z",
+  "fetchedAt": "2026-08-17T05:02:18.509Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -28,7 +28,7 @@
     "rating": {
       "average": 4.2
     },
-    "weight": 98,
+    "weight": 97,
     "network": {
       "id": 30,
       "name": "USA Network",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1786201366,
+    "updated": 1786806808,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3616358",
-        "name": "#1405 - Xfinity Mobile Arena in Philadelphia, PA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3616360",
         "name": "#1406 - TD Garden in Boston, MA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3616361",
+        "name": "#1407 - Scotiabank Arena in Toronto, ON"
       }
     }
   },
@@ -36973,7 +36973,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>With the tension at a fever pitch, will CM Punk and Kevin Owens come to blows one week before their Undisputed WWE Championship Match in Toronto?  Don't miss all the action in Boston.</p><p>After Randy Orton avoided a physical altercation with an irate Cody Rhodes last week and sparked an intense war of words, will The American Nightmare finally get his hands on the 14-time World Champion?</p><p>Baron Corbin will go head-to-head with Carmelo Hayes for the U.S. Title in Melo's hometown of Boston.</p><p>Tiffany Stratton will go through with the championship match against Jacy Jayne. Will it be Tiffy Time for the up-and-coming Jayne? </p><p>After a backstage altercation with Erik and Ivar last week, Priest and R-Truth will defend the WWE Tag Team Title in a Triple Threat Tag Team Match against The War Raiders and The MFTs. Find out who will walk out of Boston with the gold. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3616360"

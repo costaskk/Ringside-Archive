@@ -1,7 +1,7 @@
 {
   "programId": "wwe-velocity",
   "tvMazeId": 27904,
-  "fetchedAt": "2026-08-10T05:50:03.453Z",
+  "fetchedAt": "2026-08-17T05:02:18.856Z",
   "show": {
     "id": 27904,
     "url": "https://www.tvmaze.com/shows/27904/wwe-velocity",
@@ -26,7 +26,7 @@
     "rating": {
       "average": null
     },
-    "weight": 21,
+    "weight": 40,
     "network": {
       "id": 34,
       "name": "Paramount Network",

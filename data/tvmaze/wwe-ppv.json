@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-08-10T05:50:01.202Z",
+  "fetchedAt": "2026-08-17T05:02:16.697Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 97,
+    "weight": 94,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002874.jpg"
     },
     "summary": null,
-    "updated": 1786317536,
+    "updated": 1786688925,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
@@ -13989,7 +13989,7 @@
       "url": "https://www.tvmaze.com/episodes/3540987/wwe-premium-live-events-2026-10-10-money-in-the-bank-2026-smoothie-king-center-in-new-orleans-la",
       "name": "Money in the Bank 2026 - Smoothie King Center in New Orleans, LA",
       "season": 2026,
-      "number": 11,
+      "number": 10,
       "type": "regular",
       "airdate": "2026-10-10",
       "airtime": "19:00",
@@ -14015,7 +14015,7 @@
       "url": "https://www.tvmaze.com/episodes/3671718/wwe-premium-live-events-2026-11-28-survivor-series-wargames-2026-daikin-park-in-houston-tx",
       "name": "Survivor Series WarGames 2026 - Daikin Park in Houston, TX",
       "season": 2026,
-      "number": 13,
+      "number": 12,
       "type": "regular",
       "airdate": "2026-11-28",
       "airtime": "20:00",

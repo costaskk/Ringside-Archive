@@ -1,7 +1,7 @@
 {
   "programId": "lucha-underground-tv",
   "tvMazeId": 653,
-  "fetchedAt": "2026-08-10T05:50:05.865Z",
+  "fetchedAt": "2026-08-17T05:02:21.049Z",
   "show": {
     "id": 653,
     "url": "https://www.tvmaze.com/shows/653/lucha-underground",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7.9
     },
-    "weight": 46,
+    "weight": 54,
     "network": {
       "id": 21,
       "name": "El Rey Network",

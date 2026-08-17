@@ -1,7 +1,7 @@
 {
   "programId": "roh-hdnet",
   "tvMazeId": 25120,
-  "fetchedAt": "2026-08-10T05:50:04.506Z",
+  "fetchedAt": "2026-08-17T05:02:19.946Z",
   "show": {
     "id": 25120,
     "url": "https://www.tvmaze.com/shows/25120/roh-on-hdnet",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 67,
+    "weight": 33,
     "network": {
       "id": 170,
       "name": "AXS TV",

@@ -1,7 +1,7 @@
 {
   "programId": "tna-impact",
   "tvMazeId": 1349,
-  "fetchedAt": "2026-08-10T05:50:03.973Z",
+  "fetchedAt": "2026-08-17T05:02:19.434Z",
   "show": {
     "id": 1349,
     "url": "https://www.tvmaze.com/shows/1349/tna-impact",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 4.6
     },
-    "weight": 94,
+    "weight": 93,
     "network": {
       "id": 20,
       "name": "AMC",
@@ -53,12 +53,12 @@
         "href": "https://api.tvmaze.com/shows/1349"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3686292",
-        "name": "Episode 32"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3686293",
         "name": "Episode 33"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3686294",
+        "name": "Episode 34"
       }
     }
   },

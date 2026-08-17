@@ -1,7 +1,7 @@
 {
   "programId": "wow-tv",
   "tvMazeId": 40037,
-  "fetchedAt": "2026-08-10T05:50:06.895Z",
+  "fetchedAt": "2026-08-17T05:02:22.006Z",
   "show": {
     "id": 40037,
     "url": "https://www.tvmaze.com/shows/40037/wow-women-of-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 2.6
     },
-    "weight": 85,
+    "weight": 88,
     "network": {
       "id": 72,
       "name": "Syndication",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/587/1469182.jpg"
     },
     "summary": "<p>The series will feature 35 wrestlers, including third generation wrestling superstar Tessa Blanchard, returning superheroes The Beast, Stephy Slays, Jungle Grrrl, Beverly Hills Babe and talented newcomers to WOW such as Faith the Lioness and Princess Aussie.</p>",
-    "updated": 1781569740,
+    "updated": 1786650859,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/40037"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3627826",
-        "name": "Golden Opportunity"
+        "href": "https://api.tvmaze.com/episodes/3638330",
+        "name": "Tag Wars"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3638330",
-        "name": "TBA"
+        "href": "https://api.tvmaze.com/episodes/3698539",
+        "name": "The Final Exhale"
       }
     }
   },
@@ -5863,8 +5863,8 @@
     },
     {
       "id": 3638330,
-      "url": "https://www.tvmaze.com/episodes/3638330/wow-women-of-wrestling-7x36-tba",
-      "name": "TBA",
+      "url": "https://www.tvmaze.com/episodes/3638330/wow-women-of-wrestling-7x36-tag-wars",
+      "name": "Tag Wars",
       "season": 7,
       "number": 36,
       "type": "regular",
@@ -5880,6 +5880,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3638330"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3698539,
+      "url": "https://www.tvmaze.com/episodes/3698539/wow-women-of-wrestling-7x37-the-final-exhale",
+      "name": "The Final Exhale",
+      "season": 7,
+      "number": 37,
+      "type": "regular",
+      "airdate": "2026-08-22",
+      "airtime": "00:00",
+      "airstamp": "2026-08-23T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3698539"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/40037",

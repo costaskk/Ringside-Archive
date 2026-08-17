@@ -1,7 +1,7 @@
 {
   "programId": "wwe-heat",
   "tvMazeId": 27898,
-  "fetchedAt": "2026-08-10T05:50:02.627Z",
+  "fetchedAt": "2026-08-17T05:02:18.000Z",
   "show": {
     "id": 27898,
     "url": "https://www.tvmaze.com/shows/27898/wwe-heat",
@@ -26,7 +26,7 @@
     "rating": {
       "average": null
     },
-    "weight": 34,
+    "weight": 79,
     "network": {
       "id": 34,
       "name": "Paramount Network",

@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-08-10T05:50:07.073Z",
+  "fetchedAt": "2026-08-17T05:02:22.162Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 96,
+    "weight": 95,
     "network": {
       "id": 32,
       "name": "TBS",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1785812560,
+    "updated": 1786774270,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3605902",
-        "name": "#356 - Grand Slam: Arena Mexico in Mexico City, Mexico"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3605903",
         "name": "#357 - The Pearl Theater at the Palms in Las Vegas, NV"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3622010",
+        "name": "#358 - Chesapeake Employers Insurance Arena in Baltimore, MD"
       }
     }
   },
@@ -9705,9 +9705,9 @@
       "season": 8,
       "number": 38,
       "type": "regular",
-      "airdate": "2026-09-22",
+      "airdate": "2026-09-23",
       "airtime": "20:00",
-      "airstamp": "2026-09-23T00:00:00+00:00",
+      "airstamp": "2026-09-24T00:00:00+00:00",
       "runtime": 120,
       "rating": {
         "average": null
@@ -9717,6 +9717,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3681633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3700755,
+      "url": "https://www.tvmaze.com/episodes/3700755/all-elite-wrestling-dynamite-8x39-364-petersen-events-center-in-pittsburgh-pa",
+      "name": "#364 - Petersen Events Center in Pittsburgh, PA",
+      "season": 8,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2026-09-30",
+      "airtime": "20:00",
+      "airstamp": "2026-10-01T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3700755"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/42189",
