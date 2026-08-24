@@ -1,267 +1,251 @@
 {
-  "generatedAt": "2026-08-17T05:02:23.667Z",
+  "generatedAt": "2026-08-24T05:06:01.691Z",
   "feeds": [
+    {
+      "programId": "aew-battle-belts",
+      "tvMazeId": 59565,
+      "episodes": 12,
+      "fetchedAt": "2026-08-24T05:06:01.036Z",
+      "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/417/1044179.jpg"
+    },
     {
       "programId": "aew-collision",
       "tvMazeId": 68778,
       "episodes": 174,
-      "fetchedAt": "2026-08-17T05:02:23.301Z",
+      "fetchedAt": "2026-08-24T05:06:01.328Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
     },
     {
       "programId": "aew-dynamite",
       "tvMazeId": 42189,
       "episodes": 373,
-      "fetchedAt": "2026-08-17T05:02:22.162Z",
+      "fetchedAt": "2026-08-24T05:06:00.226Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     {
       "programId": "aew-rampage",
       "tvMazeId": 55432,
       "episodes": 182,
-      "fetchedAt": "2026-08-17T05:02:22.825Z",
+      "fetchedAt": "2026-08-24T05:06:00.838Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/348/871052.jpg"
     },
     {
       "programId": "clash-champions",
       "tvMazeId": 67072,
       "episodes": 35,
-      "fetchedAt": "2026-08-17T05:02:17.041Z",
+      "fetchedAt": "2026-08-24T05:05:55.090Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/448/1120145.jpg"
     },
     {
       "programId": "ecw-hardcore-tv",
       "tvMazeId": 25028,
       "episodes": 401,
-      "fetchedAt": "2026-08-17T05:02:17.358Z",
+      "fetchedAt": "2026-08-24T05:05:55.396Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/96/241329.jpg"
     },
     {
       "programId": "ecw-tnt",
       "tvMazeId": 25029,
       "episodes": 59,
-      "fetchedAt": "2026-08-17T05:02:18.378Z",
+      "fetchedAt": "2026-08-24T05:05:56.445Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/96/242284.jpg"
     },
     {
       "programId": "lucha-underground-tv",
       "tvMazeId": 653,
       "episodes": 127,
-      "fetchedAt": "2026-08-17T05:02:21.049Z",
+      "fetchedAt": "2026-08-24T05:05:59.137Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/264/660553.jpg"
-    },
-    {
-      "programId": "njpw-axs",
-      "tvMazeId": 2515,
-      "episodes": 171,
-      "fetchedAt": "2026-08-17T05:02:21.388Z",
-      "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/13/33589.jpg"
     },
     {
       "programId": "njpw-strong-events",
       "tvMazeId": 50263,
       "episodes": 171,
-      "fetchedAt": "2026-08-17T05:02:23.114Z",
+      "fetchedAt": "2026-08-24T05:06:01.176Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/272/680660.jpg"
-    },
-    {
-      "programId": "roh-hdnet",
-      "tvMazeId": 25120,
-      "episodes": 100,
-      "fetchedAt": "2026-08-17T05:02:19.946Z",
-      "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/97/242802.jpg"
     },
     {
       "programId": "roh-wrestling",
       "tvMazeId": 25153,
-      "episodes": 662,
-      "fetchedAt": "2026-08-17T05:02:20.430Z",
+      "episodes": 679,
+      "fetchedAt": "2026-08-24T05:05:58.477Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245484.jpg"
     },
     {
       "programId": "tna-impact",
       "tvMazeId": 1349,
       "episodes": 1205,
-      "fetchedAt": "2026-08-17T05:02:19.434Z",
+      "fetchedAt": "2026-08-24T05:05:57.524Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg"
     },
     {
       "programId": "tna-ppv",
       "tvMazeId": 80684,
       "episodes": 232,
-      "fetchedAt": "2026-08-17T05:02:19.474Z",
+      "fetchedAt": "2026-08-24T05:05:57.581Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365166.jpg"
     },
     {
       "programId": "tna-weekly-ppv",
       "tvMazeId": 80637,
       "episodes": 111,
-      "fetchedAt": "2026-08-17T05:02:18.976Z",
+      "fetchedAt": "2026-08-24T05:05:57.066Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365168.jpg"
     },
     {
       "programId": "tna-xplosion",
       "tvMazeId": 9181,
       "episodes": 745,
-      "fetchedAt": "2026-08-17T05:02:19.009Z",
+      "fetchedAt": "2026-08-24T05:05:57.112Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/32/81499.jpg"
     },
     {
       "programId": "wccw-tv",
       "tvMazeId": 10402,
       "episodes": 29,
-      "fetchedAt": "2026-08-17T05:02:16.024Z",
+      "fetchedAt": "2026-08-24T05:05:54.067Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/35/87995.jpg"
     },
     {
       "programId": "wcw-nitro",
       "tvMazeId": 9394,
       "episodes": 289,
-      "fetchedAt": "2026-08-17T05:02:17.521Z",
+      "fetchedAt": "2026-08-24T05:05:55.622Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/33/82580.jpg"
     },
     {
       "programId": "wcw-ppv",
       "tvMazeId": 55749,
       "episodes": 123,
-      "fetchedAt": "2026-08-17T05:02:16.094Z",
+      "fetchedAt": "2026-08-24T05:05:54.048Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/377/943245.jpg"
     },
     {
       "programId": "wcw-thunder",
       "tvMazeId": 39473,
       "episodes": 156,
-      "fetchedAt": "2026-08-17T05:02:17.888Z",
+      "fetchedAt": "2026-08-24T05:05:55.951Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/377/942553.jpg"
     },
     {
       "programId": "wow-tv",
       "tvMazeId": 40037,
       "episodes": 225,
-      "fetchedAt": "2026-08-17T05:02:22.006Z",
+      "fetchedAt": "2026-08-24T05:06:00.086Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/587/1469182.jpg"
-    },
-    {
-      "programId": "wwe-205-live",
-      "tvMazeId": 22536,
-      "episodes": 271,
-      "fetchedAt": "2026-08-17T05:02:21.527Z",
-      "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/96/240881.jpg"
     },
     {
       "programId": "wwe-ecw",
       "tvMazeId": 10404,
       "episodes": 193,
-      "fetchedAt": "2026-08-17T05:02:19.614Z",
+      "fetchedAt": "2026-08-24T05:05:57.682Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/96/241328.jpg"
     },
     {
       "programId": "wwe-heat",
       "tvMazeId": 27898,
       "episodes": 7,
-      "fetchedAt": "2026-08-17T05:02:18.000Z",
+      "fetchedAt": "2026-08-24T05:05:56.115Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/365/914023.jpg"
     },
     {
       "programId": "wwe-main-event",
       "tvMazeId": 16753,
       "episodes": 744,
-      "fetchedAt": "2026-08-17T05:02:20.569Z",
+      "fetchedAt": "2026-08-24T05:05:58.644Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/233/584404.jpg"
     },
     {
       "programId": "wwe-nxt",
       "tvMazeId": 2266,
       "episodes": 897,
-      "fetchedAt": "2026-08-17T05:02:20.188Z",
+      "fetchedAt": "2026-08-24T05:05:58.250Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     {
       "programId": "wwe-nxt-ple",
       "tvMazeId": 80711,
       "episodes": 74,
-      "fetchedAt": "2026-08-17T05:02:20.910Z",
+      "fetchedAt": "2026-08-24T05:05:58.969Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365169.jpg"
-    },
-    {
-      "programId": "wwe-nxt-uk",
-      "tvMazeId": 39053,
-      "episodes": 219,
-      "fetchedAt": "2026-08-17T05:02:21.868Z",
-      "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002870.jpg"
     },
     {
       "programId": "wwe-ppv",
       "tvMazeId": 2855,
       "episodes": 523,
-      "fetchedAt": "2026-08-17T05:02:16.697Z",
+      "fetchedAt": "2026-08-24T05:05:54.723Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002874.jpg"
     },
     {
       "programId": "wwe-raw",
       "tvMazeId": 802,
       "episodes": 1762,
-      "fetchedAt": "2026-08-17T05:02:17.368Z",
+      "fetchedAt": "2026-08-24T05:05:55.437Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     {
       "programId": "wwe-saturday-main-event",
       "tvMazeId": 5757,
       "episodes": 46,
-      "fetchedAt": "2026-08-17T05:02:16.556Z",
+      "fetchedAt": "2026-08-24T05:05:54.592Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/546/1367091.jpg"
     },
     {
       "programId": "wwe-smackdown",
       "tvMazeId": 803,
       "episodes": 1422,
-      "fetchedAt": "2026-08-17T05:02:18.509Z",
+      "fetchedAt": "2026-08-24T05:05:56.565Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     {
       "programId": "wwe-superstars-revival",
       "tvMazeId": 16770,
       "episodes": 23,
-      "fetchedAt": "2026-08-17T05:02:19.965Z",
+      "fetchedAt": "2026-08-24T05:05:58.072Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002770.jpg"
     },
     {
       "programId": "wwe-velocity",
       "tvMazeId": 27904,
       "episodes": 210,
-      "fetchedAt": "2026-08-17T05:02:18.856Z",
+      "fetchedAt": "2026-08-24T05:05:56.953Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/365/914029.jpg"
     },
     {
       "programId": "wwf-championship",
       "tvMazeId": 25514,
       "episodes": 20,
-      "fetchedAt": "2026-08-17T05:02:16.040Z",
+      "fetchedAt": "2026-08-24T05:05:54.094Z",
       "showArtwork": null
     },
     {
       "programId": "wwf-jakked-metal",
       "tvMazeId": 27905,
       "episodes": 143,
-      "fetchedAt": "2026-08-17T05:02:18.473Z",
+      "fetchedAt": "2026-08-24T05:05:56.612Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/365/914030.jpg"
     },
     {
       "programId": "wwf-shotgun",
       "tvMazeId": 27909,
       "episodes": 6,
-      "fetchedAt": "2026-08-17T05:02:17.837Z",
+      "fetchedAt": "2026-08-24T05:05:55.891Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/365/914032.jpg"
     },
     {
       "programId": "wwf-wrestling-challenge",
       "tvMazeId": 33098,
       "episodes": 22,
-      "fetchedAt": "2026-08-17T05:02:16.605Z",
+      "fetchedAt": "2026-08-24T05:05:54.647Z",
       "showArtwork": "https://static.tvmaze.com/uploads/images/original_untouched/374/935806.jpg"
     }
   ],
   "failures": [
+    {
+      "programId": "roh-hdnet",
+      "tvMazeId": 25120,
+      "error": "HTTP 429"
+    },
     {
       "programId": "tna-one-night-only",
       "tvMazeId": 80638,
@@ -273,8 +257,23 @@
       "error": "HTTP 429"
     },
     {
+      "programId": "njpw-axs",
+      "tvMazeId": 2515,
+      "error": "HTTP 429"
+    },
+    {
+      "programId": "wwe-205-live",
+      "tvMazeId": 22536,
+      "error": "HTTP 429"
+    },
+    {
       "programId": "wos-revival",
       "tvMazeId": 36637,
+      "error": "HTTP 429"
+    },
+    {
+      "programId": "wwe-nxt-uk",
+      "tvMazeId": 39053,
       "error": "HTTP 429"
     },
     {
@@ -290,11 +289,6 @@
     {
       "programId": "aew-elevation",
       "tvMazeId": 53780,
-      "error": "HTTP 429"
-    },
-    {
-      "programId": "aew-battle-belts",
-      "tvMazeId": 59565,
       "error": "HTTP 429"
     }
   ]

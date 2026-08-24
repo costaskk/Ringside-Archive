@@ -1,7 +1,7 @@
 {
   "programId": "tna-impact",
   "tvMazeId": 1349,
-  "fetchedAt": "2026-08-17T05:02:19.434Z",
+  "fetchedAt": "2026-08-24T05:05:57.524Z",
   "show": {
     "id": 1349,
     "url": "https://www.tvmaze.com/shows/1349/tna-impact",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 4.6
     },
-    "weight": 93,
+    "weight": 95,
     "network": {
       "id": 20,
       "name": "AMC",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg"
     },
     "summary": "<p><b>TNA iMPACT!</b> is 2 hours of fast paced, innovative, usually high flying, sometimes brutal pro-wrestling. Featuring a mix of stars you know and love and new, up and coming talent, it'll blow away the cobwebs and leave you wanting more.</p>",
-    "updated": 1785490883,
+    "updated": 1787047980,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/1349"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3686293",
-        "name": "Episode 33"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3686294",
         "name": "Episode 34"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3686295",
+        "name": "Episode 35"
       }
     }
   },

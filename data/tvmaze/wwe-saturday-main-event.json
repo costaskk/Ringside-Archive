@@ -1,7 +1,7 @@
 {
   "programId": "wwe-saturday-main-event",
   "tvMazeId": 5757,
-  "fetchedAt": "2026-08-17T05:02:16.556Z",
+  "fetchedAt": "2026-08-24T05:05:54.592Z",
   "show": {
     "id": 5757,
     "url": "https://www.tvmaze.com/shows/5757/wwe-saturday-nights-main-event",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 46,
+    "weight": 91,
     "network": null,
     "webChannel": {
       "id": 347,
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1367091.jpg"
     },
     "summary": "<p><b>WWE Saturday Night's Main Event</b> returned to NBC in March 2006 after a 13-year hiatus. In the mid-1980s through early 1990s, WWE fans would scour the television listings each month - making sure they didn't miss the highly anticipated special that replaced network staple Saturday Night Live on occasion. When Jon Lovitz, Dennis Miller and Dana Carvey weren't performing comedy sketches, WWE Superstars were squaring off in matches that often took on a pay-per-view feel. The show's original theme song was \"Obsession\" by the band Animotion, but by the time the first run of the series ended in 1992, the music was changed to a generic theme.</p><p>WWE‘s iconic series \"Saturday Night's Main Event\" has set its return premiere date at NBC.</p>",
-    "updated": 1784975094,
+    "updated": 1787357412,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/5757"

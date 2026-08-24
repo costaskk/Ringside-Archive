@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-08-17T05:02:20.188Z",
+  "fetchedAt": "2026-08-24T05:05:58.250Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 97,
+    "weight": 96,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1786508522,
+    "updated": 1787113025,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685149",
-        "name": "Main Event: Cruz Montana vs. Grayson Waller in an NXT Championship #1 contender's match"
+        "href": "https://api.tvmaze.com/episodes/3685150",
+        "name": "Zilla Fatu signs his NXT contract"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685150",
-        "name": "33"
+        "href": "https://api.tvmaze.com/episodes/3685151",
+        "name": "34"
       }
     }
   },
@@ -23209,8 +23209,8 @@
     },
     {
       "id": 3685150,
-      "url": "https://www.tvmaze.com/episodes/3685150/wwe-nxt-20x33-33",
-      "name": "33",
+      "url": "https://www.tvmaze.com/episodes/3685150/wwe-nxt-20x33-zilla-fatu-signs-his-nxt-contract",
+      "name": "Zilla Fatu signs his NXT contract",
       "season": 20,
       "number": 33,
       "type": "regular",

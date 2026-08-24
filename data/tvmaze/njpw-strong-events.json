@@ -1,7 +1,7 @@
 {
   "programId": "njpw-strong-events",
   "tvMazeId": 50263,
-  "fetchedAt": "2026-08-17T05:02:23.114Z",
+  "fetchedAt": "2026-08-24T05:06:01.176Z",
   "show": {
     "id": 50263,
     "url": "https://www.tvmaze.com/shows/50263/njpw-strong",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 30,
+    "weight": 44,
     "network": {
       "id": 263,
       "name": "TV Asahi",

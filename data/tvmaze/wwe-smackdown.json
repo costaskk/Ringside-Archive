@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-08-17T05:02:18.509Z",
+  "fetchedAt": "2026-08-24T05:05:56.565Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1786806808,
+    "updated": 1787405370,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3616360",
-        "name": "#1406 - TD Garden in Boston, MA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3616361",
         "name": "#1407 - Scotiabank Arena in Toronto, ON"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3616362",
+        "name": "#1408 - Canadian Tire Center in Ottawa, ON"
       }
     }
   },
@@ -36999,7 +36999,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Undisputed WWE Champion CM Punk is set to battle Kevin Owens in an a highly personal title showdown in Toronto. See who will leave Canada with the Undisputed WWE Championship.</p><p>After brawling all over the arena last week on SmackDown, Cody Rhodes and Randy Orton stand one week closer to their showdown at Sunday Night's Main Event. Will The American Nightmare and The Viper make it to their explosive matchup, or does more destruction await SmackDown?</p><p>After capturing the WWE Tag Team Championship in a Triple Threat Tag Team Match against then-champions Damian Priest and R-Truth as well as The Viking Raiders, Tama Tonga and Talla Tonga will defend the title against Priest and Truth while backed by the dangerous Haku.</p><p>Blake Monroe has made a strong statement since emerging on SmackDown by carrying out a series of backstage attacks. In response, SmackDown General Manager Nick Aldis has determined that it's time to move this aggressiveness into the ring, and Giulia is happy to oblige. Don't miss when Monroe battles The Beautiful Madness in her first SmackDown. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3616361"
@@ -37012,8 +37012,8 @@
     },
     {
       "id": 3616362,
-      "url": "https://www.tvmaze.com/episodes/3616362/wwe-friday-night-smackdown-27x35-1408-rocket-arena-in-cleveland-oh",
-      "name": "#1408 - Rocket Arena in Cleveland, OH",
+      "url": "https://www.tvmaze.com/episodes/3616362/wwe-friday-night-smackdown-27x35-1408-canadian-tire-center-in-ottawa-on",
+      "name": "#1408 - Canadian Tire Center in Ottawa, ON",
       "season": 27,
       "number": 35,
       "type": "regular",
@@ -37038,8 +37038,8 @@
     },
     {
       "id": 3616363,
-      "url": "https://www.tvmaze.com/episodes/3616363/wwe-friday-night-smackdown-27x36-1409-heritage-bank-center-in-cincinnati-oh",
-      "name": "#1409 - Heritage Bank Center in Cincinnati, OH",
+      "url": "https://www.tvmaze.com/episodes/3616363/wwe-friday-night-smackdown-27x36-1409-rocket-arena-in-cleveland-oh",
+      "name": "#1409 - Rocket Arena in Cleveland, OH",
       "season": 27,
       "number": 36,
       "type": "regular",

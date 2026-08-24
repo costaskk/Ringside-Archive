@@ -1,7 +1,7 @@
 {
   "programId": "clash-champions",
   "tvMazeId": 67072,
-  "fetchedAt": "2026-08-17T05:02:17.041Z",
+  "fetchedAt": "2026-08-24T05:05:55.090Z",
   "show": {
     "id": 67072,
     "url": "https://www.tvmaze.com/shows/67072/clash-of-the-champions",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 46,
+    "weight": 10,
     "network": {
       "id": 32,
       "name": "TBS",

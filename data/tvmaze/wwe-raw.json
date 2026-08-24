@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-08-17T05:02:17.368Z",
+  "fetchedAt": "2026-08-24T05:05:55.437Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7.5
     },
-    "weight": 97,
+    "weight": 98,
     "network": null,
     "webChannel": {
       "id": 1,
@@ -43,18 +43,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1786482671,
+    "updated": 1787507563,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3613448",
-        "name": "#1732 - Scope Arena in Norfolk, VA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3613449",
         "name": "#1733 - KeyBank Center in Buffalo, NY"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3613450",
+        "name": "#1734 - Canadian Tire Centre in Ottawa, ON"
       }
     }
   },
@@ -45339,12 +45339,12 @@
       "airdate": "2026-08-17",
       "airtime": "",
       "airstamp": "2026-08-17T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 147,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>After defeating Solo Sikoa by nefarious means last week, \"Main Event\" Jey Uso will now deliver Sikoa to World Heavyweight Champion Roman Reigns. Don't miss when Sikoa comes face-to-face with The OTC.</p><p>Last week, newly crowned Intercontinental Champion Chad Gable approached Rey Mysterio and asked him to be his first challenger. Don't miss the explosive title showdown.</p><p>AAA World Cruiserweight Champion Rey Fenix is set to battle El Fiscal in the first round of the World Heavyweight Championship No. 1 Contender's Tournament to determine who will challenge Roman Reigns when Raw comes to Mexico City on Sept. 14. </p><p> Dragon Lee goes head-to-head with El Hijo de Dr. Wagner Jr. in the first round of the World Heavyweight Championship No. 1 Contender's Tournament to determine who will challenge Roman Reigns when Raw comes to Mexico City on Sept. 14. </p><p>After a backstage confrontation last week, Sol Ruca will go one-on-one with Lyra Valkyria.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3613449"
@@ -45370,7 +45370,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>With tensions at a fever pitch, The Ruler Oba Femi and The Unpredictable Badass Bron Breakker will once again come face-to-face when they sign the contract for Sunday Night's Main Event.</p><p>Former Intercontinental Champion Penta will show zero fear when he battles the dangerous La Parka in the semifinals of the World Heavyweight Championship No. 1 Contender's Tournament. Who will advance to the final to take on Dragon Lee or Rey Fenix and move one step closer to challenging World Heavyweight Champion Roman Reigns when Raw returns to Mexico City on Sept. 14?</p><p>Explosive lucha phenomenon Dragon Lee is set to go head-to-head with AAA Cruiserweight Champion Rey Fenix in the semifinals of the World Heavyweight Title No. 1 Contender's Tournament. Which Superstar will move forward to take on Penta or La Parka in the final to determine who will challenging World Heavyweight Champion Roman Reigns when Raw returns to Mexico City on Sept. 14? </p><p>After battling back from injury at the hands of The Judgment Day, Stephanie Vaquer is set to return to battle against one of the Superstars that caused her ailment, Roxanne Perez. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3613450"
@@ -45383,8 +45383,8 @@
     },
     {
       "id": 3613451,
-      "url": "https://www.tvmaze.com/episodes/3613451/wwe-monday-night-raw-33x35-1735-spectrum-center-in-charlotte-nc",
-      "name": "#1735 - Spectrum Center in Charlotte, NC",
+      "url": "https://www.tvmaze.com/episodes/3613451/wwe-monday-night-raw-33x35-1735-rocket-arena-in-cleveland-oh",
+      "name": "#1735 - Rocket Arena in Cleveland, OH",
       "season": 33,
       "number": 35,
       "type": "regular",

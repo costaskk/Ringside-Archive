@@ -1,0 +1,375 @@
+{
+  "programId": "aew-battle-belts",
+  "tvMazeId": 59565,
+  "fetchedAt": "2026-08-24T05:06:01.036Z",
+  "show": {
+    "id": 59565,
+    "url": "https://www.tvmaze.com/shows/59565/aew-battle-of-the-belts",
+    "name": "AEW: Battle of the Belts",
+    "type": "Sports",
+    "language": "English",
+    "genres": [],
+    "status": "Ended",
+    "runtime": 60,
+    "averageRuntime": 60,
+    "premiered": "2022-01-08",
+    "ended": "2024-10-19",
+    "officialSite": null,
+    "schedule": {
+      "time": "22:00",
+      "days": [
+        "Saturday"
+      ]
+    },
+    "rating": {
+      "average": 6
+    },
+    "weight": 90,
+    "network": {
+      "id": 14,
+      "name": "TNT",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.tntdrama.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 418949,
+      "imdb": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/417/1044179.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/417/1044179.jpg"
+    },
+    "summary": "<p>Featuring matches that are contested for pro wrestling championships from AEW and ROH.</p>",
+    "updated": 1765648338,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/59565"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2990740",
+        "name": "Battle of the Belts XII - Adventist Health Arena in Stockton, CA"
+      }
+    }
+  },
+  "episodes": [
+    {
+      "id": 2240068,
+      "url": "https://www.tvmaze.com/episodes/2240068/aew-battle-of-the-belts-1x01-battle-of-the-belts-i-bojangles-coliseum-in-charlotte-nc",
+      "name": "Battle of the Belts I - Bojangles Coliseum in Charlotte, NC",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2022-01-08",
+      "airtime": "20:00",
+      "airstamp": "2022-01-09T01:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>Live from Charlotte, N.C., the very first Battle of the Belts; AEW Women's Champion Britt Baker faces the inaugural champion, Riho; two-time champion Cody Rhodes defends his newly won belt.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2240068"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2289725,
+      "url": "https://www.tvmaze.com/episodes/2289725/aew-battle-of-the-belts-1x02-battle-of-the-belts-ii-curtis-culwell-center-in-garland-tx",
+      "name": "Battle of the Belts II - Curtis Culwell Center in Garland, TX",
+      "season": 1,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2022-04-16",
+      "airtime": "20:00",
+      "airstamp": "2022-04-17T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>AEW TNT Title Match: Champion Scorpio Sky vs. Sammy Guevara. AEW Women's World Title: Thunder Rosa defends her title against former champion Nyla Rose. ROH World Champion Jonathan Gresham vs. Dalton Castle.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2289725"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2339245,
+      "url": "https://www.tvmaze.com/episodes/2339245/aew-battle-of-the-belts-1x03-battle-of-the-belts-iii-van-andel-arena-in-grand-rapids-mi",
+      "name": "Battle of the Belts III - Van Andel Arena in Grand Rapids, MI",
+      "season": 1,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2022-08-06",
+      "airtime": "20:00",
+      "airstamp": "2022-08-07T00:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>match #1 -  for the TNT championship ( 20 minute time limit ) - Jay Lethal w/Sonjay Dutt and Satnam Singh vs Wardlow</p><p>match #2 -  for the AEW women's world title - ( 60 minute time limit ) - Jamie Hayter w/DR. Britt Baker, DMD &amp; Rebel  vs. Thunder Rosa w/Toni Storm</p><p>match #3 - for the ROH world title ( set for one fall ) - Konosuke Takeshita vs. Claudio Castagnoli w/William Regal &amp; Wheeler Yuta   </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2339245"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2371505,
+      "url": "https://www.tvmaze.com/episodes/2371505/aew-battle-of-the-belts-1x04-battle-of-the-belts-iv-entertainments-sports-arena-in-washington-dc",
+      "name": "Battle of the Belts IV - Entertainments & Sports Arena in Washington, DC",
+      "season": 1,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2022-10-07",
+      "airtime": "23:00",
+      "airstamp": "2022-10-08T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2371505"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2453864,
+      "url": "https://www.tvmaze.com/episodes/2453864/aew-battle-of-the-belts-2x01-battle-of-the-belts-v-veterans-memorial-coliseum-in-portland-or",
+      "name": "Battle of the Belts V - Veterans Memorial Coliseum in Portland, OR",
+      "season": 2,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2023-01-06",
+      "airtime": "23:00",
+      "airstamp": "2023-01-07T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2453864"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2463852,
+      "url": "https://www.tvmaze.com/episodes/2463852/aew-battle-of-the-belts-2x02-battle-of-the-belts-vi-ryan-center-in-kingston-ri",
+      "name": "Battle of the Belts VI - Ryan Center in Kingston, RI",
+      "season": 2,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2023-04-07",
+      "airtime": "23:00",
+      "airstamp": "2023-04-08T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2463852"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2587359,
+      "url": "https://www.tvmaze.com/episodes/2587359/aew-battle-of-the-belts-2x03-battle-of-the-belts-vii-scotiabank-saddledome-in-calgary-ab",
+      "name": "Battle of the Belts VII - Scotiabank Saddledome in Calgary, AB",
+      "season": 2,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2023-07-15",
+      "airtime": "22:00",
+      "airstamp": "2023-07-16T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2587359"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2667958,
+      "url": "https://www.tvmaze.com/episodes/2667958/aew-battle-of-the-belts-2x04-battle-of-the-belts-viii-fedexforum-in-memphis-tn",
+      "name": "Battle of the Belts VIII - FedExForum in Memphis, TN",
+      "season": 2,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2023-10-21",
+      "airtime": "22:00",
+      "airstamp": "2023-10-22T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2667958"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2732666,
+      "url": "https://www.tvmaze.com/episodes/2732666/aew-battle-of-the-belts-3x01-battle-of-the-belts-ix-chartway-arena-in-norfolk-va",
+      "name": "Battle of the Belts IX - Chartway Arena in Norfolk, VA",
+      "season": 3,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2024-01-13",
+      "airtime": "22:00",
+      "airstamp": "2024-01-14T03:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2732666"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2795356,
+      "url": "https://www.tvmaze.com/episodes/2795356/aew-battle-of-the-belts-3x02-battle-of-the-belts-x-truist-arena-in-highland-heights-ky",
+      "name": "Battle of the Belts X - Truist Arena in Highland Heights, KY",
+      "season": 3,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2024-04-13",
+      "airtime": "22:00",
+      "airstamp": "2024-04-14T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2795356"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2956471,
+      "url": "https://www.tvmaze.com/episodes/2956471/aew-battle-of-the-belts-3x03-battle-of-the-belts-xi-esports-stadium-in-arlington-tx",
+      "name": "Battle of the Belts XI - Esports Stadium in Arlington, TX",
+      "season": 3,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2024-07-27",
+      "airtime": "22:00",
+      "airstamp": "2024-07-28T02:00:00+00:00",
+      "runtime": 61,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2956471"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    },
+    {
+      "id": 2990740,
+      "url": "https://www.tvmaze.com/episodes/2990740/aew-battle-of-the-belts-3x04-battle-of-the-belts-xii-adventist-health-arena-in-stockton-ca",
+      "name": "Battle of the Belts XII - Adventist Health Arena in Stockton, CA",
+      "season": 3,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2024-10-19",
+      "airtime": "22:00",
+      "airstamp": "2024-10-20T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/2990740"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/59565",
+          "name": "AEW: Battle of the Belts"
+        }
+      }
+    }
+  ]
+}

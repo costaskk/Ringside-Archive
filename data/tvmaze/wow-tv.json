@@ -1,7 +1,7 @@
 {
   "programId": "wow-tv",
   "tvMazeId": 40037,
-  "fetchedAt": "2026-08-17T05:02:22.006Z",
+  "fetchedAt": "2026-08-24T05:06:00.086Z",
   "show": {
     "id": 40037,
     "url": "https://www.tvmaze.com/shows/40037/wow-women-of-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 2.6
     },
-    "weight": 88,
+    "weight": 87,
     "network": {
       "id": 72,
       "name": "Syndication",
@@ -47,18 +47,14 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/587/1469182.jpg"
     },
     "summary": "<p>The series will feature 35 wrestlers, including third generation wrestling superstar Tessa Blanchard, returning superheroes The Beast, Stephy Slays, Jungle Grrrl, Beverly Hills Babe and talented newcomers to WOW such as Faith the Lioness and Princess Aussie.</p>",
-    "updated": 1786650859,
+    "updated": 1787255323,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/40037"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3638330",
-        "name": "Tag Wars"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3698539",
-        "name": "The Final Exhale"
+        "name": "Power Shift"
       }
     }
   },
@@ -5889,8 +5885,8 @@
     },
     {
       "id": 3698539,
-      "url": "https://www.tvmaze.com/episodes/3698539/wow-women-of-wrestling-7x37-the-final-exhale",
-      "name": "The Final Exhale",
+      "url": "https://www.tvmaze.com/episodes/3698539/wow-women-of-wrestling-7x37-power-shift",
+      "name": "Power Shift",
       "season": 7,
       "number": 37,
       "type": "regular",
