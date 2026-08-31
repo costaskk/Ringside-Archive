@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-08-24T05:05:56.565Z",
+  "fetchedAt": "2026-08-31T10:57:38.552Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -28,7 +28,7 @@
     "rating": {
       "average": 4.2
     },
-    "weight": 97,
+    "weight": 98,
     "network": {
       "id": 30,
       "name": "USA Network",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1787405370,
+    "updated": 1788009654,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3616361",
-        "name": "#1407 - Scotiabank Arena in Toronto, ON"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3616362",
         "name": "#1408 - Canadian Tire Center in Ottawa, ON"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3616363",
+        "name": "#1409 - Rocket Arena in Cleveland, OH"
       }
     }
   },
@@ -37025,7 +37025,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Find out how Undisputed WWE Champion CM Punk and Kevin Owens will respond following Sami Zayn's shocking interference and brutal attack during their explosive title match in the main event of last week's SmackDown.</p><p>Per SmackDown General Manager Nick Aldis, if Cody Rhodes or Randy Orton initiate physicality prior to Sunday Night's Main Event, that Superstar will never receive another match for the Undisputed WWE Title. With their highly-anticipated showdown set for Sept. 6, The American Nightmare has a message for The Viper. </p><p>Despite her broken orbital bone, Interim WWE Women's Champion Chelsea Green grabbed a Kendo stick and charged to the ring to save Tiffany Stratton from an attack by Nia Jax and Lash Legend. Green and Stratton are now set to step into the ring against the dangerous Irresistible Forces.</p><p>For the first time since being betrayed by WWE Hall of Famers The Bella Twins at SummerSlam, two-time Divas Champion Paige will return to action when she challenges Jacy Jayne for the Women's United States Championship.  </p><p>After a backstage altercation between all six Superstars last week, Paxley will make her in-ring SmackDown debut against Michin. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3616362"
@@ -37263,6 +37263,214 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680018"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717638,
+      "url": "https://www.tvmaze.com/episodes/3717638/wwe-friday-night-smackdown-27x45-1418",
+      "name": "#1418",
+      "season": 27,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-11-06",
+      "airtime": "20:00",
+      "airstamp": "2026-11-07T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717638"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717639,
+      "url": "https://www.tvmaze.com/episodes/3717639/wwe-friday-night-smackdown-27x46-1419",
+      "name": "#1419",
+      "season": 27,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-11-13",
+      "airtime": "20:00",
+      "airstamp": "2026-11-14T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717639"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717640,
+      "url": "https://www.tvmaze.com/episodes/3717640/wwe-friday-night-smackdown-27x47-1420",
+      "name": "#1420",
+      "season": 27,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-11-20",
+      "airtime": "20:00",
+      "airstamp": "2026-11-21T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717640"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717641,
+      "url": "https://www.tvmaze.com/episodes/3717641/wwe-friday-night-smackdown-27x48-1421",
+      "name": "#1421",
+      "season": 27,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2026-11-27",
+      "airtime": "20:00",
+      "airstamp": "2026-11-28T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717641"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717642,
+      "url": "https://www.tvmaze.com/episodes/3717642/wwe-friday-night-smackdown-27x49-1422",
+      "name": "#1422",
+      "season": 27,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2026-12-04",
+      "airtime": "20:00",
+      "airstamp": "2026-12-05T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717642"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717643,
+      "url": "https://www.tvmaze.com/episodes/3717643/wwe-friday-night-smackdown-27x50-1423-rac-arena-in-perth-australia",
+      "name": "#1423 - RAC Arena in Perth, Australia",
+      "season": 27,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2026-12-11",
+      "airtime": "20:00",
+      "airstamp": "2026-12-12T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717643"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717644,
+      "url": "https://www.tvmaze.com/episodes/3717644/wwe-friday-night-smackdown-27x51-1424",
+      "name": "#1424",
+      "season": 27,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2026-12-18",
+      "airtime": "20:00",
+      "airstamp": "2026-12-19T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717644"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3717645,
+      "url": "https://www.tvmaze.com/episodes/3717645/wwe-friday-night-smackdown-27x52-1425",
+      "name": "#1425",
+      "season": 27,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2026-12-25",
+      "airtime": "20:00",
+      "airstamp": "2026-12-26T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717645"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/803",

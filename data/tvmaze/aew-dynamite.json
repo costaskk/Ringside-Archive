@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-08-24T05:06:00.226Z",
+  "fetchedAt": "2026-08-31T10:57:42.632Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1787194319,
+    "updated": 1787810914,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3622010",
-        "name": "#358 - Chesapeake Employers Insurance Arena in Baltimore, MD"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3622011",
         "name": "#359 - OVO Hydro in Glasgow, Scotland"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3666918",
+        "name": "#360 - Credit Union of Texas Event Center in Allen, TX"
       }
     }
   },
@@ -9604,7 +9604,7 @@
       "airdate": "2026-08-26",
       "airtime": "20:00",
       "airstamp": "2026-08-27T00:00:00+00:00",
-      "runtime": 120,
+      "runtime": 121,
       "rating": {
         "average": null
       },
@@ -9743,6 +9743,110 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3700755"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3713340,
+      "url": "https://www.tvmaze.com/episodes/3713340/all-elite-wrestling-dynamite-8x40-365-grand-slam-france-adidas-arena-in-paris-france",
+      "name": "#365 - Grand Slam France: Adidas Arena in Paris, France",
+      "season": 8,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2026-10-07",
+      "airtime": "20:00",
+      "airstamp": "2026-10-08T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713340"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3713343,
+      "url": "https://www.tvmaze.com/episodes/3713343/all-elite-wrestling-dynamite-8x41-366-wolstein-center-in-cleveland-oh",
+      "name": "#366 - Wolstein Center in Cleveland, OH",
+      "season": 8,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2026-10-14",
+      "airtime": "20:00",
+      "airstamp": "2026-10-15T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713343"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3713344,
+      "url": "https://www.tvmaze.com/episodes/3713344/all-elite-wrestling-dynamite-8x42-367",
+      "name": "#367",
+      "season": 8,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2026-10-21",
+      "airtime": "20:00",
+      "airstamp": "2026-10-22T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713344"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3713345,
+      "url": "https://www.tvmaze.com/episodes/3713345/all-elite-wrestling-dynamite-8x43-368-fright-night-chaifetz-arena-in-st-louis-mo",
+      "name": "#368 - Fright Night: Chaifetz Arena in St. Louis, MO",
+      "season": 8,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2026-10-28",
+      "airtime": "20:00",
+      "airstamp": "2026-10-29T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713345"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/42189",

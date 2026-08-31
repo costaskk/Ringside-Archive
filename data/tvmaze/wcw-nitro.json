@@ -1,7 +1,7 @@
 {
   "programId": "wcw-nitro",
   "tvMazeId": 9394,
-  "fetchedAt": "2026-08-24T05:05:55.622Z",
+  "fetchedAt": "2026-08-31T10:57:37.756Z",
   "show": {
     "id": 9394,
     "url": "https://www.tvmaze.com/shows/9394/wcw-monday-nitro",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 75,
+    "weight": 39,
     "network": {
       "id": 14,
       "name": "TNT",

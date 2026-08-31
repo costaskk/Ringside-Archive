@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt-ple",
   "tvMazeId": 80711,
-  "fetchedAt": "2026-08-24T05:05:58.969Z",
+  "fetchedAt": "2026-08-31T10:57:41.200Z",
   "show": {
     "id": 80711,
     "url": "https://www.tvmaze.com/shows/80711/wwe-nxt-premium-live-events",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 33,
+    "weight": 80,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -45,18 +45,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365169.jpg"
     },
     "summary": "<p>This is a list of WWE NXT pay-per-view and livestreaming supercards, detailing all professional wrestling cards promoted by the American promotion WWE on pay-per-view (PPV) and available via livestreaming on services such as the WWE Network. Due to the American version of the WWE Network merging under Peacock, and with the WWE Network still available in most international markets, as well as less focus being given to traditional PPV channels, in 2022, the company began using the term \"Premium Live Event\" to refer to their events airing on PPV and the livestreaming services. The terminology \"TakeOver\" was dropped in December of 2021 as the NXT brand transformed.</p>",
-    "updated": 1786669784,
+    "updated": 1788163592,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/80711"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3635791",
-        "name": "The Great American Bash"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3656853",
         "name": "Heatwave"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3698856",
+        "name": "Worlds Collide"
       }
     }
   },
@@ -1943,12 +1943,12 @@
       "airdate": "2026-08-30",
       "airtime": "15:00",
       "airstamp": "2026-08-30T19:00:00+00:00",
-      "runtime": null,
+      "runtime": 180,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Tony D'Angelo will defend the NXT Championship in a must-see Fatal 4-Way Match. Three of NXT's newest Superstars will get a title opportunity as Cruz Montana, Grayson Waller and Zilla Fatu will compete.</p><p>Kendal Grey will defend the NXT Women's Championship against Kelani Jordan.</p><p>NXT North American Champion and NXT Tag Team Champion Myles Borne will defend his singles title against Jackson Drake.</p><p>The NXT Women's North American Championship and the WWE Women's Speed Championship will be unified at NXT Heatwave. NXT Women's North American Champion Zaria and Women's Speed Champion Wren Sinclair have agreed to settle the score in a Winner Takes All Match to finally determine who is the better Superstar. In a surprising twist, Kali Armstrong earned entry into the match by defeating Zaria on the Aug. 25 episode of WWE NXT, making it a Triple Threat Match. Who will walk out of Heatwave as the unified champion?</p><p>The new NXT Tag Team Champions will defend their title against former champions Brad Baylor and Ricky Smokes. Myles Borne and Tavion Heights defeated The Vanity Project earlier this month to win the gold, and thanks to Jackson Drake winning a match against Shiloh Hill, the former champions will get their rematch. Which team will walk out of Heatwave as the NXT Tag Team Champions? </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3656853"
@@ -1978,6 +1978,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3698856"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3721292,
+      "url": "https://www.tvmaze.com/episodes/3721292/wwe-nxt-premium-live-events-2026-10-31-halloween-havoc",
+      "name": "Halloween Havoc",
+      "season": 2026,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2026-10-31",
+      "airtime": "",
+      "airstamp": "2026-10-31T16:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3721292"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/80711",

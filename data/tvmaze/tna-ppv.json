@@ -1,7 +1,7 @@
 {
   "programId": "tna-ppv",
   "tvMazeId": 80684,
-  "fetchedAt": "2026-08-24T05:05:57.581Z",
+  "fetchedAt": "2026-08-31T10:57:39.762Z",
   "show": {
     "id": 80684,
     "url": "https://www.tvmaze.com/shows/80684/tna-ppv",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 33,
+    "weight": 36,
     "network": {
       "id": 138,
       "name": "Pay-Per-View",

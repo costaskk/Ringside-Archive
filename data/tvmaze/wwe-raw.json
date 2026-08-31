@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-08-24T05:05:55.437Z",
+  "fetchedAt": "2026-08-31T10:57:37.677Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -43,18 +43,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1787507563,
+    "updated": 1787942028,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3613449",
-        "name": "#1733 - KeyBank Center in Buffalo, NY"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3613450",
         "name": "#1734 - Canadian Tire Centre in Ottawa, ON"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3613451",
+        "name": "#1735 - Rocket Arena in Cleveland, OH"
       }
     }
   },
@@ -45365,12 +45365,12 @@
       "airdate": "2026-08-24",
       "airtime": "",
       "airstamp": "2026-08-24T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 141,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": "<p>With tensions at a fever pitch, The Ruler Oba Femi and The Unpredictable Badass Bron Breakker will once again come face-to-face when they sign the contract for Sunday Night's Main Event.</p><p>Former Intercontinental Champion Penta will show zero fear when he battles the dangerous La Parka in the semifinals of the World Heavyweight Championship No. 1 Contender's Tournament. Who will advance to the final to take on Dragon Lee or Rey Fenix and move one step closer to challenging World Heavyweight Champion Roman Reigns when Raw returns to Mexico City on Sept. 14?</p><p>Explosive lucha phenomenon Dragon Lee is set to go head-to-head with AAA Cruiserweight Champion Rey Fenix in the semifinals of the World Heavyweight Title No. 1 Contender's Tournament. Which Superstar will move forward to take on Penta or La Parka in the final to determine who will challenging World Heavyweight Champion Roman Reigns when Raw returns to Mexico City on Sept. 14? </p><p>After battling back from injury at the hands of The Judgment Day, Stephanie Vaquer is set to return to battle against one of the Superstars that caused her ailment, Roxanne Perez. </p>",
+      "summary": "<p>With tensions at a fever pitch, The Ruler Oba Femi and The Unpredictable Badass Bron Breakker will once again come face-to-face when they sign the contract for Sunday Night's Main Event.</p><p>Former Intercontinental Champion Penta will show zero fear when he battles the dangerous La Parka in the semifinals of the World Heavyweight Championship No. 1 Contender's Tournament. Who will advance to the final to take on Dragon Lee or Rey Fenix and move one step closer to challenging World Heavyweight Champion Roman Reigns when Raw returns to Mexico City on Sept. 14?</p><p>Explosive lucha phenomenon Dragon Lee is set to go head-to-head with AAA Cruiserweight Champion Rey Fenix in the semifinals of the World Heavyweight Title No. 1 Contender's Tournament. Which Superstar will move forward to take on Penta or La Parka in the final to determine who will challenging World Heavyweight Champion Roman Reigns when Raw returns to Mexico City on Sept. 14? </p><p>After battling back from injury at the hands of The Judgment Day, Stephanie Vaquer is set to return to battle against one of the Superstars that caused her ailment, Roxanne Perez.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3613450"
@@ -45396,7 +45396,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Former Intercontinental Champion Penta will go head-to-head with his brother, AAA Cruiserweight Champion Rey Fenix, in the explosive World Heavyweight Championship No. 1 Contender's Tournament Final. The winner of the match will challenge Reigns when Raw returns to Mexico City on Sept. 14. </p><p>World Heavyweight Champion Roman Reigns is set to return for the World Heavyweight Championship No. 1 Contender's Tournament Final, which pits Penta against AAA Cruiserweight Champion Rey Fenix.</p><p>Raquel Rodriguez of The Judgment Day will defend the Women's Intercontinental Championship against former titleholder Sol Ruca in a can't-miss rematch. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3613451"
@@ -45634,6 +45634,214 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680025"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717630,
+      "url": "https://www.tvmaze.com/episodes/3717630/wwe-monday-night-raw-33x45-1745",
+      "name": "#1745",
+      "season": 33,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-11-09",
+      "airtime": "",
+      "airstamp": "2026-11-09T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717630"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717631,
+      "url": "https://www.tvmaze.com/episodes/3717631/wwe-monday-night-raw-33x46-1746",
+      "name": "#1746",
+      "season": 33,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-11-16",
+      "airtime": "",
+      "airstamp": "2026-11-16T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717631"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717632,
+      "url": "https://www.tvmaze.com/episodes/3717632/wwe-monday-night-raw-33x47-1747",
+      "name": "#1747",
+      "season": 33,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-11-23",
+      "airtime": "",
+      "airstamp": "2026-11-23T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717632"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717633,
+      "url": "https://www.tvmaze.com/episodes/3717633/wwe-monday-night-raw-33x48-1748",
+      "name": "#1748",
+      "season": 33,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2026-11-30",
+      "airtime": "",
+      "airstamp": "2026-11-30T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717633"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717634,
+      "url": "https://www.tvmaze.com/episodes/3717634/wwe-monday-night-raw-33x49-1749",
+      "name": "#1749",
+      "season": 33,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2026-12-07",
+      "airtime": "",
+      "airstamp": "2026-12-07T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717635,
+      "url": "https://www.tvmaze.com/episodes/3717635/wwe-monday-night-raw-33x50-1750-rac-arena-in-perth-australia",
+      "name": "#1750 - RAC Arena in Perth, Australia",
+      "season": 33,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2026-12-14",
+      "airtime": "",
+      "airstamp": "2026-12-14T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717635"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717636,
+      "url": "https://www.tvmaze.com/episodes/3717636/wwe-monday-night-raw-33x51-1751",
+      "name": "#1751",
+      "season": 33,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2026-12-21",
+      "airtime": "",
+      "airstamp": "2026-12-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717636"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717637,
+      "url": "https://www.tvmaze.com/episodes/3717637/wwe-monday-night-raw-33x52-1752",
+      "name": "#1752",
+      "season": 33,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2026-12-28",
+      "airtime": "",
+      "airstamp": "2026-12-28T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717637"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/802",

@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-08-24T05:05:54.723Z",
+  "fetchedAt": "2026-08-31T10:57:36.874Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 97,
+    "weight": 96,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002874.jpg"
     },
     "summary": null,
-    "updated": 1787084258,
+    "updated": 1788034049,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
@@ -14015,7 +14015,7 @@
       "url": "https://www.tvmaze.com/episodes/3671718/wwe-premium-live-events-2026-11-28-survivor-series-wargames-2026-daikin-park-in-houston-tx",
       "name": "Survivor Series WarGames 2026 - Daikin Park in Houston, TX",
       "season": 2026,
-      "number": 12,
+      "number": 11,
       "type": "regular",
       "airdate": "2026-11-28",
       "airtime": "20:00",
@@ -14029,6 +14029,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3671718"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2855",
+          "name": "WWE Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3717629,
+      "url": "https://www.tvmaze.com/episodes/3717629/wwe-premium-live-events-2026-12-12-wrestlepalooza-2026-rac-arena-in-perth-australia",
+      "name": "Wrestlepalooza 2026 - RAC Arena in Perth, Australia",
+      "season": 2026,
+      "number": 12,
+      "type": "regular",
+      "airdate": "2026-12-12",
+      "airtime": "",
+      "airstamp": "2026-12-12T17:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717629"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/2855",

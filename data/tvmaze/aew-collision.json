@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-08-24T05:06:01.328Z",
+  "fetchedAt": "2026-08-31T10:57:43.966Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 3.3
     },
-    "weight": 93,
+    "weight": 95,
     "network": {
       "id": 14,
       "name": "TNT",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
     },
     "summary": "<p>This live, two-hour, in-ring show will air every Saturday night from 8-10 p.m. ET and feature more wrestlers, more stories and more action to super-serve fans. <b>AEW: Collision </b>will feature headliners including Miro, Samoa Joe, Thunder Rosa, Powerhouse Hobbs, and Andrade El Idolo. </p>",
-    "updated": 1787450918,
+    "updated": 1787889472,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3650443",
-        "name": "#166 - Santander Arena in Reading, PA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3650444",
         "name": "#167 - OVO Hydro in Glasgow, Scotland"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3666919",
+        "name": "#168 - Credit Union of Texas Event Center in Allen, TX"
       }
     }
   },
@@ -4542,10 +4542,10 @@
       "season": 4,
       "number": 42,
       "type": "regular",
-      "airdate": "2026-09-26",
-      "airtime": "20:00",
-      "airstamp": "2026-09-27T00:00:00+00:00",
-      "runtime": 120,
+      "airdate": "2026-09-23",
+      "airtime": "22:00",
+      "airstamp": "2026-09-24T02:00:00+00:00",
+      "runtime": 60,
       "rating": {
         "average": null
       },
@@ -4554,6 +4554,136 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3681634"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3717207,
+      "url": "https://www.tvmaze.com/episodes/3717207/aew-collision-4x43-172-tailgate-brawl-all-out-now-arena-in-chicago-il",
+      "name": "#172 - Tailgate Brawl: All Out: Now Arena in Chicago, IL",
+      "season": 4,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2026-09-26",
+      "airtime": "19:00",
+      "airstamp": "2026-09-26T23:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3717207"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3713341,
+      "url": "https://www.tvmaze.com/episodes/3713341/aew-collision-4x44-173-truist-arena-in-highland-heights-ky",
+      "name": "#173 - Truist Arena in Highland Heights, KY",
+      "season": 4,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2026-10-03",
+      "airtime": "20:00",
+      "airstamp": "2026-10-04T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713341"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3713342,
+      "url": "https://www.tvmaze.com/episodes/3713342/aew-collision-4x45-174-grand-slam-france-adidas-arena-in-paris-france",
+      "name": "#174 - Grand Slam France: Adidas Arena in Paris, France",
+      "season": 4,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-10-10",
+      "airtime": "20:00",
+      "airstamp": "2026-10-11T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713342"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3713346,
+      "url": "https://www.tvmaze.com/episodes/3713346/aew-collision-4x46-175-ljvm-coliseum-in-winston-salem-nc",
+      "name": "#175 - LJVM Coliseum in Winston-Salem, NC",
+      "season": 4,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-10-24",
+      "airtime": "20:00",
+      "airstamp": "2026-10-25T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713346"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3713347,
+      "url": "https://www.tvmaze.com/episodes/3713347/aew-collision-4x47-176-fright-night-chaifetz-arena-in-st-louis-mo",
+      "name": "#176 - Fright Night: Chaifetz Arena in St. Louis, MO",
+      "season": 4,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-10-31",
+      "airtime": "20:00",
+      "airstamp": "2026-11-01T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3713347"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/68778",
