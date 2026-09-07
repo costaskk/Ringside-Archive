@@ -1,7 +1,7 @@
 {
   "programId": "wwe-main-event",
   "tvMazeId": 16753,
-  "fetchedAt": "2026-08-31T10:57:40.862Z",
+  "fetchedAt": "2026-09-07T09:28:20.985Z",
   "show": {
     "id": 16753,
     "url": "https://www.tvmaze.com/shows/16753/wwe-main-event",
@@ -26,7 +26,7 @@
     "rating": {
       "average": null
     },
-    "weight": 75,
+    "weight": 84,
     "network": null,
     "webChannel": {
       "id": 15,
@@ -51,12 +51,12 @@
         "href": "https://api.tvmaze.com/shows/16753"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3554340",
-        "name": "Main Event 726"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3554341",
         "name": "Main Event 727"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3554342",
+        "name": "Main Event 728"
       }
     }
   },

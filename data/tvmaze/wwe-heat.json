@@ -1,7 +1,7 @@
 {
   "programId": "wwe-heat",
   "tvMazeId": 27898,
-  "fetchedAt": "2026-08-31T10:57:38.251Z",
+  "fetchedAt": "2026-09-07T09:28:18.368Z",
   "show": {
     "id": 27898,
     "url": "https://www.tvmaze.com/shows/27898/wwe-heat",
@@ -26,7 +26,7 @@
     "rating": {
       "average": null
     },
-    "weight": 68,
+    "weight": 80,
     "network": {
       "id": 34,
       "name": "Paramount Network",
@@ -54,7 +54,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/365/914023.jpg"
     },
     "summary": "<p><b>WWE Heat</b> (formerly known as \"<i>Sunday Night Heat\"</i> also known as \"<i>Heat\"</i>) was a professional wrestling television program produced by World Wrestling Entertainment (WWE). Originally produced under the World Wrestling Federation banner (WWF), it aired on USA Network, MTV, and Spike TV in the United States. Heat was most recently streamed on WWE.com on Friday afternoons for North American viewers. The final episodes were uploaded to WWE.com and aired on the WWE Network until it ended on 30 May 2008.</p>",
-    "updated": 1775057979,
+    "updated": 1788620005,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/27898"

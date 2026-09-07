@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-08-31T10:57:38.552Z",
+  "fetchedAt": "2026-09-07T09:28:18.665Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1788009654,
+    "updated": 1788569032,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3616362",
-        "name": "#1408 - Canadian Tire Center in Ottawa, ON"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3616363",
         "name": "#1409 - Rocket Arena in Cleveland, OH"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3630635",
+        "name": "#1410 - Arena CDMX in Mexico City, Mexico"
       }
     }
   },
@@ -37051,7 +37051,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Last week on SmackDown, Sami Zayn introduced absolute chaos into the Undisputed WWE Championship No. 1 Contender's Triple Threat Match between Kevin Owens, Finn Bálor and Gunther. Zayn attacked everyone in sight with the Undisputed WWE Championship before CM Punk's next challenger could be established. What will happen after Sami Zayn ambushed his rivals? </p><p>After Randy Orton attempted to bait Cody Rhodes with insults about his family, wife and even his dog in an attempt to get his adversary to break the no-contact rule, The American Nightmare is set to address the WWE Universe. What will Rhodes say just two nights before he goes to war against The Viper at Sunday Night's Main Event? </p><p>One week after Blake Monroe attacked Giulia for being \"beneath her\" prior to what was supposed to be her SmackDown debut match, The Beautiful Madness answered with a backstage attack on Monroe. Take two. Giulia will look spoil The Glamour's rescheduled debut match.</p><p>After weeks of heralding their intention to dominate the tag team division, Shinsuke Nakamura and Kyoki will make their SmackDown tandem debut against The Miz and Kit Wilson. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3616363"

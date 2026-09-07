@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-08-31T10:57:43.966Z",
+  "fetchedAt": "2026-09-07T09:28:23.900Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -53,12 +53,12 @@
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3650444",
-        "name": "#167 - OVO Hydro in Glasgow, Scotland"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3666919",
         "name": "#168 - Credit Union of Texas Event Center in Allen, TX"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3675933",
+        "name": "#169 - MassMutual Center in Springfield, MA"
       }
     }
   },

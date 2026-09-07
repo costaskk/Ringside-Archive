@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-08-31T10:57:37.677Z",
+  "fetchedAt": "2026-09-07T09:28:17.709Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -43,18 +43,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1787942028,
+    "updated": 1788349284,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3613450",
-        "name": "#1734 - Canadian Tire Centre in Ottawa, ON"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3613451",
         "name": "#1735 - Rocket Arena in Cleveland, OH"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3613452",
+        "name": "#1736 - Legacy Arena in Birmingham, AL"
       }
     }
   },
@@ -45391,12 +45391,12 @@
       "airdate": "2026-08-31",
       "airtime": "",
       "airstamp": "2026-08-31T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 103,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": "<p>Former Intercontinental Champion Penta will go head-to-head with his brother, AAA Cruiserweight Champion Rey Fenix, in the explosive World Heavyweight Championship No. 1 Contender's Tournament Final. The winner of the match will challenge Reigns when Raw returns to Mexico City on Sept. 14. </p><p>World Heavyweight Champion Roman Reigns is set to return for the World Heavyweight Championship No. 1 Contender's Tournament Final, which pits Penta against AAA Cruiserweight Champion Rey Fenix.</p><p>Raquel Rodriguez of The Judgment Day will defend the Women's Intercontinental Championship against former titleholder Sol Ruca in a can't-miss rematch. </p>",
+      "summary": "<p>Former Intercontinental Champion Penta will go head-to-head with his brother, AAA Cruiserweight Champion Rey Fenix, in the explosive World Heavyweight Championship No. 1 Contender's Tournament Final. The winner of the match will challenge Reigns when Raw returns to Mexico City on Sept. 14. </p><p>World Heavyweight Champion Roman Reigns is set to return for the World Heavyweight Championship No. 1 Contender's Tournament Final, which pits Penta against AAA Cruiserweight Champion Rey Fenix.</p><p>Raquel Rodriguez of The Judgment Day will defend the Women's Intercontinental Championship against former titleholder Sol Ruca in a can't-miss rematch.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3613451"

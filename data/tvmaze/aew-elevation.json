@@ -1,7 +1,7 @@
 {
   "programId": "aew-elevation",
   "tvMazeId": 53780,
-  "fetchedAt": "2026-08-31T10:57:43.251Z",
+  "fetchedAt": "2026-09-07T09:28:23.239Z",
   "show": {
     "id": 53780,
     "url": "https://www.tvmaze.com/shows/53780/aew-dark-elevation",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 52,
+    "weight": 88,
     "network": null,
     "webChannel": {
       "id": 21,

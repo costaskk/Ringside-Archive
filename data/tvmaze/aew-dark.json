@@ -1,7 +1,7 @@
 {
   "programId": "aew-dark",
   "tvMazeId": 48302,
-  "fetchedAt": "2026-08-31T10:57:42.694Z",
+  "fetchedAt": "2026-09-07T09:28:22.803Z",
   "show": {
     "id": 48302,
     "url": "https://www.tvmaze.com/shows/48302/all-elite-wrestling-dark",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 54,
+    "weight": 85,
     "network": null,
     "webChannel": {
       "id": 21,

@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-08-31T10:57:36.874Z",
+  "fetchedAt": "2026-09-07T09:28:16.977Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 96,
+    "weight": 97,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002874.jpg"
     },
     "summary": null,
-    "updated": 1788034049,
+    "updated": 1788714493,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
@@ -14011,11 +14011,37 @@
       }
     },
     {
+      "id": 3722404,
+      "url": "https://www.tvmaze.com/episodes/3722404/wwe-premium-live-events-2026-11-07-crown-jewel-2026-riyadh-saudi-arabia",
+      "name": "Crown Jewel 2026 - Riyadh, Saudi Arabia",
+      "season": 2026,
+      "number": 11,
+      "type": "regular",
+      "airdate": "2026-11-07",
+      "airtime": "",
+      "airstamp": "2026-11-07T17:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3722404"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2855",
+          "name": "WWE Premium Live Events"
+        }
+      }
+    },
+    {
       "id": 3671718,
       "url": "https://www.tvmaze.com/episodes/3671718/wwe-premium-live-events-2026-11-28-survivor-series-wargames-2026-daikin-park-in-houston-tx",
       "name": "Survivor Series WarGames 2026 - Daikin Park in Houston, TX",
       "season": 2026,
-      "number": 11,
+      "number": 12,
       "type": "regular",
       "airdate": "2026-11-28",
       "airtime": "20:00",
@@ -14041,7 +14067,7 @@
       "url": "https://www.tvmaze.com/episodes/3717629/wwe-premium-live-events-2026-12-12-wrestlepalooza-2026-rac-arena-in-perth-australia",
       "name": "Wrestlepalooza 2026 - RAC Arena in Perth, Australia",
       "season": 2026,
-      "number": 12,
+      "number": 13,
       "type": "regular",
       "airdate": "2026-12-12",
       "airtime": "",

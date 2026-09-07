@@ -1,7 +1,7 @@
 {
   "programId": "wwe-saturday-main-event",
   "tvMazeId": 5757,
-  "fetchedAt": "2026-08-31T10:57:36.712Z",
+  "fetchedAt": "2026-09-07T09:28:16.814Z",
   "show": {
     "id": 5757,
     "url": "https://www.tvmaze.com/shows/5757/wwe-saturday-nights-main-event",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 55,
+    "weight": 94,
     "network": null,
     "webChannel": {
       "id": 347,
@@ -47,16 +47,12 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1367091.jpg"
     },
     "summary": "<p><b>WWE Saturday Night's Main Event</b> returned to NBC in March 2006 after a 13-year hiatus. In the mid-1980s through early 1990s, WWE fans would scour the television listings each month - making sure they didn't miss the highly anticipated special that replaced network staple Saturday Night Live on occasion. When Jon Lovitz, Dennis Miller and Dana Carvey weren't performing comedy sketches, WWE Superstars were squaring off in matches that often took on a pay-per-view feel. The show's original theme song was \"Obsession\" by the band Animotion, but by the time the first run of the series ended in 1992, the music was changed to a generic theme.</p><p>WWE‘s iconic series \"Saturday Night's Main Event\" has set its return premiere date at NBC.</p>",
-    "updated": 1787357412,
+    "updated": 1788746510,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/5757"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3583167",
-        "name": "Saturday Night's Main Event XLV"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3639713",
         "name": "Sunday Night's Main Event XLVI"
       }
@@ -1258,12 +1254,12 @@
       "airdate": "2026-09-06",
       "airtime": "20:00",
       "airstamp": "2026-09-07T00:00:00+00:00",
-      "runtime": null,
+      "runtime": 122,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>After the wild ending to last night's SmackDown, General Manager Nick Aldis made an official match between Cody Rhodes and Randy Orton for Sunday Night's Main Event in The American Nightmare's hometown.</p><p>Oba Femi will collide with Bron Breakker in a powerhouse showdown. Femi has been anointed the future of WWE by many, including Lesnar. Breakker, however, has taken offense to such claims.  </p><p>At Sunday Night's Main Event, United States Champion Baron Corbin will go one-on-one with Lil Yachty. If Yachty can last five minutes against the brutal titleholder, then Corbin will grant Trick Williams a United States Championship rematch on the same night. </p><p>At Sunday Night's Main Event, Charlotte Flair, Alexa Bliss and Tatum Paxley will face Jade Cargill, Michin and B-Fab in a Six-Woman Tag Team Match. </p><p>Hip Hop Superstar Quavo will open Sunday Night's Main Event in his hometown of Atlanta, performing an unreleased track off his upcoming album QROMELIFE, due out on all platforms soon. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3639713"
