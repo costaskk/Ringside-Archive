@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-09-07T09:28:23.900Z",
+  "fetchedAt": "2026-09-14T09:58:22.769Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 3.3
     },
-    "weight": 95,
+    "weight": 93,
     "network": {
       "id": 14,
       "name": "TNT",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
     },
     "summary": "<p>This live, two-hour, in-ring show will air every Saturday night from 8-10 p.m. ET and feature more wrestlers, more stories and more action to super-serve fans. <b>AEW: Collision </b>will feature headliners including Miro, Samoa Joe, Thunder Rosa, Powerhouse Hobbs, and Andrade El Idolo. </p>",
-    "updated": 1787889472,
+    "updated": 1789292991,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3666919",
-        "name": "#168 - Credit Union of Texas Event Center in Allen, TX"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3675933",
         "name": "#169 - MassMutual Center in Springfield, MA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3675934",
+        "name": "#170 - Charleston Coliseum in Charleston, WV"
       }
     }
   },
@@ -4493,7 +4493,7 @@
       "airdate": "2026-09-12",
       "airtime": "20:00",
       "airstamp": "2026-09-13T00:00:00+00:00",
-      "runtime": 120,
+      "runtime": 132,
       "rating": {
         "average": null
       },

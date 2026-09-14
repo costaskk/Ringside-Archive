@@ -1,7 +1,7 @@
 {
   "programId": "ecw-hardcore-tv",
   "tvMazeId": 25028,
-  "fetchedAt": "2026-09-07T09:28:17.565Z",
+  "fetchedAt": "2026-09-14T09:58:15.806Z",
   "show": {
     "id": 25028,
     "url": "https://www.tvmaze.com/shows/25028/ecw-hardcore-tv",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 77,
+    "weight": 64,
     "network": {
       "id": 72,
       "name": "Syndication",

@@ -1,7 +1,7 @@
 {
   "programId": "wow-tv",
   "tvMazeId": 40037,
-  "fetchedAt": "2026-09-07T09:28:22.460Z",
+  "fetchedAt": "2026-09-14T09:58:21.315Z",
   "show": {
     "id": 40037,
     "url": "https://www.tvmaze.com/shows/40037/wow-women-of-wrestling",
@@ -22,9 +22,9 @@
       ]
     },
     "rating": {
-      "average": 2.6
+      "average": 3
     },
-    "weight": 87,
+    "weight": 88,
     "network": {
       "id": 72,
       "name": "Syndication",
@@ -47,14 +47,14 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/587/1469182.jpg"
     },
     "summary": "<p>The series will feature 35 wrestlers, including third generation wrestling superstar Tessa Blanchard, returning superheroes The Beast, Stephy Slays, Jungle Grrrl, Beverly Hills Babe and talented newcomers to WOW such as Faith the Lioness and Princess Aussie.</p>",
-    "updated": 1787255323,
+    "updated": 1788848272,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/40037"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3698539",
-        "name": "Power Shift"
+        "href": "https://api.tvmaze.com/episodes/3747229",
+        "name": "Tag Team Fortunes"
       }
     }
   },
@@ -5902,6 +5902,58 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3698539"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3747228,
+      "url": "https://www.tvmaze.com/episodes/3747228/wow-women-of-wrestling-7x38-trios-triumphs-and-tragedies",
+      "name": "Trios, Triumphs, and Tragedies",
+      "season": 7,
+      "number": 38,
+      "type": "regular",
+      "airdate": "2026-08-29",
+      "airtime": "00:00",
+      "airstamp": "2026-08-30T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3747228"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/40037",
+          "name": "WOW - Women of Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3747229,
+      "url": "https://www.tvmaze.com/episodes/3747229/wow-women-of-wrestling-7x39-tag-team-fortunes",
+      "name": "Tag Team Fortunes",
+      "season": 7,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2026-09-05",
+      "airtime": "00:00",
+      "airstamp": "2026-09-06T04:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3747229"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/40037",

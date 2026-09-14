@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-09-07T09:28:18.665Z",
+  "fetchedAt": "2026-09-14T09:58:17.005Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1788569032,
+    "updated": 1789173196,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3616363",
-        "name": "#1409 - Rocket Arena in Cleveland, OH"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3630635",
         "name": "#1410 - Arena CDMX in Mexico City, Mexico"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680012",
+        "name": "#1411 - Hilliard Center in Corpus Christi, TX"
       }
     }
   },
@@ -37077,7 +37077,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Sick of Sami Zayn's meddling, CM Punk challenged his nemesis to a championship bout just moments after retaining the title against Johnny Gargano last week on SmackDown, despite Zayn's interference. Punk takes on \"The Last Real Good Guy\" when SmackDown journeys to Mexico City.</p><p>After Cody Rhodes lost to his bitter enemy Randy Orton at Sunday Night's Main Event, what's next for The American Nightmare? </p><p>After being medically cleared to compete under the condition that she continues to wear a protective facemask, Chelsea Green must put her Interim WWE Women's Championship on the line against Nia Jax. Will The Irresistible Force's actions help her win the championship?</p><p>Weeks after WWE Hall of Famers The Bella Twins assaulted Paige after their loss at SummerSlam, Nikki Bella returned to launch a surprise attack on her one-time friend on SmackDown. After an intense backstage altercation last week, the stage is set for a highly personal showdown when Paige and Nikki battle in Mexico City.</p><p>The War Raiders are set to defend the AAA Tag Team Title against former WWE Tag Team Champions Damian Priest and R-Truth. </p><p>AAA Cruiserweight Champion Rey Fenix will look to silence the outspoken Ricky Saints in a title showdown. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3630635"
@@ -37298,8 +37298,8 @@
     },
     {
       "id": 3717639,
-      "url": "https://www.tvmaze.com/episodes/3717639/wwe-friday-night-smackdown-27x46-1419",
-      "name": "#1419",
+      "url": "https://www.tvmaze.com/episodes/3717639/wwe-friday-night-smackdown-27x46-1419-amerant-bank-arena-in-fort-lauderdale-fl",
+      "name": "#1419 - Amerant Bank Arena in Fort Lauderdale, FL",
       "season": 27,
       "number": 46,
       "type": "regular",
@@ -37324,8 +37324,8 @@
     },
     {
       "id": 3717640,
-      "url": "https://www.tvmaze.com/episodes/3717640/wwe-friday-night-smackdown-27x47-1420",
-      "name": "#1420",
+      "url": "https://www.tvmaze.com/episodes/3717640/wwe-friday-night-smackdown-27x47-1420-ford-center-in-evansville-in",
+      "name": "#1420 - Ford Center in Evansville, IN",
       "season": 27,
       "number": 47,
       "type": "regular",
@@ -37350,8 +37350,8 @@
     },
     {
       "id": 3717641,
-      "url": "https://www.tvmaze.com/episodes/3717641/wwe-friday-night-smackdown-27x48-1421",
-      "name": "#1421",
+      "url": "https://www.tvmaze.com/episodes/3717641/wwe-friday-night-smackdown-27x48-1421-intrust-bank-arena-in-wichita-ks",
+      "name": "#1421 - Intrust Bank Arena in Wichita, KS",
       "season": 27,
       "number": 48,
       "type": "regular",
@@ -37376,8 +37376,8 @@
     },
     {
       "id": 3717642,
-      "url": "https://www.tvmaze.com/episodes/3717642/wwe-friday-night-smackdown-27x49-1422",
-      "name": "#1422",
+      "url": "https://www.tvmaze.com/episodes/3717642/wwe-friday-night-smackdown-27x49-1422-van-andel-arena-in-grand-rapids-mi",
+      "name": "#1422 - Van Andel Arena in Grand Rapids, MI",
       "season": 27,
       "number": 49,
       "type": "regular",

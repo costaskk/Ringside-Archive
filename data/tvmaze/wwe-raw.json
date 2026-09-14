@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-09-07T09:28:17.709Z",
+  "fetchedAt": "2026-09-14T09:58:15.960Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -43,18 +43,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1788349284,
+    "updated": 1789344976,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3613451",
-        "name": "#1735 - Rocket Arena in Cleveland, OH"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3613452",
         "name": "#1736 - Legacy Arena in Birmingham, AL"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3630634",
+        "name": "#1737 - Arena CDMX in Mexico City, Mexico"
       }
     }
   },
@@ -45417,12 +45417,12 @@
       "airdate": "2026-09-07",
       "airtime": "",
       "airstamp": "2026-09-07T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 137,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Stephanie Vaquer reemerged from injury with one focus and one focus only: capturing Liv Morgan's Women's World Championship. </p><p>Rey Mysterio, Bron Breakker, and Ethan Page square off as the Men's Money in the Bank Qualifying Matches are set to begin tonight.</p><p>Sol Ruca, Lyra Valkyria, and Maxxine Dupri square off as the Women's Money in the Bank Qualifying Matches are set to begin tonight.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3613452"
@@ -45643,8 +45643,8 @@
     },
     {
       "id": 3717630,
-      "url": "https://www.tvmaze.com/episodes/3717630/wwe-monday-night-raw-33x45-1745",
-      "name": "#1745",
+      "url": "https://www.tvmaze.com/episodes/3717630/wwe-monday-night-raw-33x45-1745-bon-secours-wellness-arena-in-greenville-sc",
+      "name": "#1745 - Bon Secours Wellness Arena in Greenville, SC",
       "season": 33,
       "number": 45,
       "type": "regular",
@@ -45669,8 +45669,8 @@
     },
     {
       "id": 3717631,
-      "url": "https://www.tvmaze.com/episodes/3717631/wwe-monday-night-raw-33x46-1746",
-      "name": "#1746",
+      "url": "https://www.tvmaze.com/episodes/3717631/wwe-monday-night-raw-33x46-1746-lenovo-center-in-raleigh-nc",
+      "name": "#1746 - Lenovo Center in Raleigh, NC",
       "season": 33,
       "number": 46,
       "type": "regular",
@@ -45695,8 +45695,8 @@
     },
     {
       "id": 3717632,
-      "url": "https://www.tvmaze.com/episodes/3717632/wwe-monday-night-raw-33x47-1747",
-      "name": "#1747",
+      "url": "https://www.tvmaze.com/episodes/3717632/wwe-monday-night-raw-33x47-1747-intrust-bank-arena-in-wichita-ks",
+      "name": "#1747 - Intrust Bank Arena in Wichita, KS",
       "season": 33,
       "number": 47,
       "type": "regular",
@@ -45721,8 +45721,8 @@
     },
     {
       "id": 3717633,
-      "url": "https://www.tvmaze.com/episodes/3717633/wwe-monday-night-raw-33x48-1748",
-      "name": "#1748",
+      "url": "https://www.tvmaze.com/episodes/3717633/wwe-monday-night-raw-33x48-1748-simmons-bank-arena-in-north-little-rock-ar",
+      "name": "#1748 - Simmons Bank Arena in North Little Rock, AR",
       "season": 33,
       "number": 48,
       "type": "regular",
@@ -45747,8 +45747,8 @@
     },
     {
       "id": 3717634,
-      "url": "https://www.tvmaze.com/episodes/3717634/wwe-monday-night-raw-33x49-1749",
-      "name": "#1749",
+      "url": "https://www.tvmaze.com/episodes/3717634/wwe-monday-night-raw-33x49-1749-huntington-center-in-toledo-oh",
+      "name": "#1749 - Huntington Center in Toledo, OH",
       "season": 33,
       "number": 49,
       "type": "regular",
