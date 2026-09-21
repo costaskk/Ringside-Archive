@@ -1,7 +1,7 @@
 {
   "programId": "wow-tv",
   "tvMazeId": 40037,
-  "fetchedAt": "2026-09-14T09:58:21.315Z",
+  "fetchedAt": "2026-09-21T10:03:03.009Z",
   "show": {
     "id": 40037,
     "url": "https://www.tvmaze.com/shows/40037/wow-women-of-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 3
     },
-    "weight": 88,
+    "weight": 87,
     "network": {
       "id": 72,
       "name": "Syndication",

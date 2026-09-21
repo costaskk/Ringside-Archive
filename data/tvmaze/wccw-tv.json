@@ -1,7 +1,7 @@
 {
   "programId": "wccw-tv",
   "tvMazeId": 10402,
-  "fetchedAt": "2026-09-14T09:58:14.410Z",
+  "fetchedAt": "2026-09-21T10:02:56.663Z",
   "show": {
     "id": 10402,
     "url": "https://www.tvmaze.com/shows/10402/world-class-championship-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 72,
+    "weight": 68,
     "network": {
       "id": 72,
       "name": "Syndication",

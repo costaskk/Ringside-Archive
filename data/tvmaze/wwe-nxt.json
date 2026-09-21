@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-09-14T09:58:19.087Z",
+  "fetchedAt": "2026-09-21T10:03:01.184Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 97,
+    "weight": 96,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1788919884,
+    "updated": 1789526437,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685153",
-        "name": "Main Event: 6-man tag match and winning team advances to #1contender's triple threat match"
+        "href": "https://api.tvmaze.com/episodes/3685154",
+        "name": "Saquon Shugars vs. Tony D'Angelo vs. Mason Rook in a #1 contenders triple threat match for the NXT Championship"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685154",
-        "name": "37"
+        "href": "https://api.tvmaze.com/episodes/3685155",
+        "name": "38"
       }
     }
   },
@@ -23313,8 +23313,8 @@
     },
     {
       "id": 3685154,
-      "url": "https://www.tvmaze.com/episodes/3685154/wwe-nxt-20x37-37",
-      "name": "37",
+      "url": "https://www.tvmaze.com/episodes/3685154/wwe-nxt-20x37-saquon-shugars-vs-tony-dangelo-vs-mason-rook-in-a-1-contenders-triple-threat-match-for-the-nxt-championship",
+      "name": "Saquon Shugars vs. Tony D'Angelo vs. Mason Rook in a #1 contenders triple threat match for the NXT Championship",
       "season": 20,
       "number": 37,
       "type": "regular",

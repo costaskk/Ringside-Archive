@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-09-14T09:58:22.769Z",
+  "fetchedAt": "2026-09-21T10:03:04.487Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 3.3
     },
-    "weight": 93,
+    "weight": 94,
     "network": {
       "id": 14,
       "name": "TNT",
@@ -53,12 +53,12 @@
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3675933",
-        "name": "#169 - MassMutual Center in Springfield, MA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3675934",
         "name": "#170 - Charleston Coliseum in Charleston, WV"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3681634",
+        "name": "#171 - Fishers Event Center in Fishers, IN"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "programId": "roh-wrestling",
   "tvMazeId": 25153,
-  "fetchedAt": "2026-09-14T09:58:19.494Z",
+  "fetchedAt": "2026-09-21T10:03:01.336Z",
   "show": {
     "id": 25153,
     "url": "https://www.tvmaze.com/shows/25153/ring-of-honor-wrestling",
@@ -53,10 +53,6 @@
         "href": "https://api.tvmaze.com/shows/25153"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3711653",
-        "name": "Episode 37"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3711654",
         "name": "Episode 38"
       }

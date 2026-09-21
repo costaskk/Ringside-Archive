@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-09-14T09:58:17.005Z",
+  "fetchedAt": "2026-09-21T10:02:59.219Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1789173196,
+    "updated": 1789777799,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3630635",
-        "name": "#1410 - Arena CDMX in Mexico City, Mexico"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680012",
         "name": "#1411 - Hilliard Center in Corpus Christi, TX"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680013",
+        "name": "#1412 - Gainbridge Fieldhouse in Indianapolis, IN"
       }
     }
   },
@@ -37103,7 +37103,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>In a flurry of chaos created by Kevin Owens, Johnny Gargano and Candice LeRae last week, Sami Zayn took advantage and defeated CM Punk to recapture the Undisputed WWE Championship. The self-proclaimed \"Last Real Good Guy\" will be on SmackDown. </p><p>Cody Rhodes returns to SmackDown after losing a highly personal showdown against Randy Orton at Sunday Night's Main Event.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680012"

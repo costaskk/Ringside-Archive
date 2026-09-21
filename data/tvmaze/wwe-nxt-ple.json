@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt-ple",
   "tvMazeId": 80711,
-  "fetchedAt": "2026-09-14T09:58:19.971Z",
+  "fetchedAt": "2026-09-21T10:03:01.839Z",
   "show": {
     "id": 80711,
     "url": "https://www.tvmaze.com/shows/80711/wwe-nxt-premium-live-events",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 74,
+    "weight": 57,
     "network": {
       "id": 5,
       "name": "The CW",
