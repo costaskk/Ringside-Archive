@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-09-21T10:02:58.095Z",
+  "fetchedAt": "2026-09-28T11:02:29.737Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -43,18 +43,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1789935981,
+    "updated": 1790538218,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3630634",
-        "name": "#1737 - Arena CDMX in Mexico City, Mexico"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680019",
         "name": "#1738 - Frost Bank Center in San Antonio, TX"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680020",
+        "name": "#1739 - Fiserv Forum in Milwaukee, WI"
       }
     }
   },
@@ -45469,12 +45469,12 @@
       "airdate": "2026-09-21",
       "airtime": "",
       "airstamp": "2026-09-21T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 147,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Penta will take the mic one week after his incredible title match against World Heavyweight Champion Roman Reigns in Mexico City.  </p><p>IYO SKY, Roxanne Perez and AAA Reina de Reinas Champion La Catalina will battle in a Triple Threat Money in the Bank Qualifying Match.</p><p>After Raw concluded last week, LA Knight emerged to engage World Heavyweight Champion Roman Reigns in a short war of words before delivering Blunt Force Trauma to The OTC. </p><p>Dragon Lee, Solo Sikoa and Dominik Mysterio clash in a Triple Threat Money in the Bank Qualifying Match.</p><p>After spending the last few months away from the ring, Bayley is back in action tonight against Lyra Valkyria.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680019"

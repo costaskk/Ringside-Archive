@@ -1,7 +1,7 @@
 {
   "programId": "tna-xplosion",
   "tvMazeId": 9181,
-  "fetchedAt": "2026-09-21T10:03:00.039Z",
+  "fetchedAt": "2026-09-28T11:02:31.485Z",
   "show": {
     "id": 9181,
     "url": "https://www.tvmaze.com/shows/9181/tna-xplosion",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 34,
+    "weight": 72,
     "network": {
       "id": 1565,
       "name": "5Select",

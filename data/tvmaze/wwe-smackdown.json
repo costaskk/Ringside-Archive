@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-09-21T10:02:59.219Z",
+  "fetchedAt": "2026-09-28T11:02:30.757Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1789777799,
+    "updated": 1790384911,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680012",
-        "name": "#1411 - Hilliard Center in Corpus Christi, TX"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680013",
         "name": "#1412 - Gainbridge Fieldhouse in Indianapolis, IN"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680014",
+        "name": "#1413 - Ball Arena in Denver, CO"
       }
     }
   },
@@ -37129,7 +37129,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Trick Williams will defend the United States Championship against Baron Corbin in a Steel Cage Match. </p><p>CM Punk, Finn Bálor and Gunther will lock horns in a can't-miss Triple Threat Money in the Bank Qualifying Match.</p><p>Charlotte Flair, Giulia and Lash Legend of The Irresistible Forces will square off in a Triple Threat Money in the Bank Qualifying Match.</p><p>WWE Women's Champion Chelsea Green, Tiffany Stratton and Paige join forces to take on Women's United States Champion Jacy Jayne and WWE Women's Tag Team Champions Fallon Henley and Lainey Reid in a turbulent Six-Woman Tag Team Match. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680013"

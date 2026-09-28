@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-09-21T10:03:04.487Z",
+  "fetchedAt": "2026-09-28T11:02:35.926Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
     },
     "summary": "<p>This live, two-hour, in-ring show will air every Saturday night from 8-10 p.m. ET and feature more wrestlers, more stories and more action to super-serve fans. <b>AEW: Collision </b>will feature headliners including Miro, Samoa Joe, Thunder Rosa, Powerhouse Hobbs, and Andrade El Idolo. </p>",
-    "updated": 1789292991,
+    "updated": 1790223149,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3675934",
-        "name": "#170 - Charleston Coliseum in Charleston, WV"
+        "href": "https://api.tvmaze.com/episodes/3717207",
+        "name": "#172 - Tailgate Brawl: All Out: Now Arena in Chicago, IL"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3681634",
-        "name": "#171 - Fishers Event Center in Fishers, IN"
+        "href": "https://api.tvmaze.com/episodes/3713341",
+        "name": "#173 - Truist Arena in Highland Heights, KY"
       }
     }
   },
@@ -4543,9 +4543,9 @@
       "number": 42,
       "type": "regular",
       "airdate": "2026-09-23",
-      "airtime": "22:00",
-      "airstamp": "2026-09-24T02:00:00+00:00",
-      "runtime": 60,
+      "airtime": "22:06",
+      "airstamp": "2026-09-24T02:06:00+00:00",
+      "runtime": 79,
       "rating": {
         "average": null
       },

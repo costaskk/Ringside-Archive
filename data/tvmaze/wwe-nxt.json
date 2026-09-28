@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-09-21T10:03:01.184Z",
+  "fetchedAt": "2026-09-28T11:02:32.699Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1789526437,
+    "updated": 1790592695,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685154",
-        "name": "Saquon Shugars vs. Tony D'Angelo vs. Mason Rook in a #1 contenders triple threat match for the NXT Championship"
+        "href": "https://api.tvmaze.com/episodes/3685155",
+        "name": "Grayson Waller confronts Mason Rook in the ring"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685155",
-        "name": "38"
+        "href": "https://api.tvmaze.com/episodes/3685156",
+        "name": "39"
       }
     }
   },
@@ -23339,8 +23339,8 @@
     },
     {
       "id": 3685155,
-      "url": "https://www.tvmaze.com/episodes/3685155/wwe-nxt-20x38-38",
-      "name": "38",
+      "url": "https://www.tvmaze.com/episodes/3685155/wwe-nxt-20x38-grayson-waller-confronts-mason-rook-in-the-ring",
+      "name": "Grayson Waller confronts Mason Rook in the ring",
       "season": 20,
       "number": 38,
       "type": "regular",

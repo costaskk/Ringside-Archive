@@ -1,7 +1,7 @@
 {
   "programId": "wwe-205-live",
   "tvMazeId": 22536,
-  "fetchedAt": "2026-09-21T10:03:02.514Z",
+  "fetchedAt": "2026-09-28T11:02:33.974Z",
   "show": {
     "id": 22536,
     "url": "https://www.tvmaze.com/shows/22536/205-live",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 82,
+    "weight": 87,
     "network": null,
     "webChannel": {
       "id": 15,
