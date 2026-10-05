@@ -1,7 +1,7 @@
 {
   "programId": "aew-battle-belts",
   "tvMazeId": 59565,
-  "fetchedAt": "2026-09-28T11:02:35.479Z",
+  "fetchedAt": "2026-10-05T11:38:39.207Z",
   "show": {
     "id": 59565,
     "url": "https://www.tvmaze.com/shows/59565/aew-battle-of-the-belts",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6
     },
-    "weight": 69,
+    "weight": 71,
     "network": {
       "id": 14,
       "name": "TNT",

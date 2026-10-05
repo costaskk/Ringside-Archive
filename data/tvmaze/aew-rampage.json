@@ -1,7 +1,7 @@
 {
   "programId": "aew-rampage",
   "tvMazeId": 55432,
-  "fetchedAt": "2026-09-28T11:02:35.434Z",
+  "fetchedAt": "2026-10-05T11:38:39.299Z",
   "show": {
     "id": 55432,
     "url": "https://www.tvmaze.com/shows/55432/aew-rampage",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.1
     },
-    "weight": 90,
+    "weight": 85,
     "network": {
       "id": 14,
       "name": "TNT",

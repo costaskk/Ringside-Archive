@@ -1,7 +1,7 @@
 {
   "programId": "roh-wrestling",
   "tvMazeId": 25153,
-  "fetchedAt": "2026-09-28T11:02:32.852Z",
+  "fetchedAt": "2026-10-05T11:38:36.491Z",
   "show": {
     "id": 25153,
     "url": "https://www.tvmaze.com/shows/25153/ring-of-honor-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 43,
+    "weight": 89,
     "network": {
       "id": 72,
       "name": "Syndication",
@@ -47,14 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245484.jpg"
     },
     "summary": "<p>Hard-hitting pro-wrestling action from the stars of ROH.</p>",
-    "updated": 1787530723,
+    "updated": 1791071900,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/25153"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3711654",
-        "name": "Episode 38"
+        "href": "https://api.tvmaze.com/episodes/3780528",
+        "name": "Episode 40"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3780529",
+        "name": "Episode 41"
       }
     }
   },
@@ -17706,6 +17710,110 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3711654"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3780527,
+      "url": "https://www.tvmaze.com/episodes/3780527/ring-of-honor-wrestling-2026-09-24-episode-39",
+      "name": "Episode 39",
+      "season": 2026,
+      "number": 39,
+      "type": "regular",
+      "airdate": "2026-09-24",
+      "airtime": "19:00",
+      "airstamp": "2026-09-24T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3780527"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3780528,
+      "url": "https://www.tvmaze.com/episodes/3780528/ring-of-honor-wrestling-2026-10-01-episode-40",
+      "name": "Episode 40",
+      "season": 2026,
+      "number": 40,
+      "type": "regular",
+      "airdate": "2026-10-01",
+      "airtime": "19:00",
+      "airstamp": "2026-10-01T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3780528"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3780529,
+      "url": "https://www.tvmaze.com/episodes/3780529/ring-of-honor-wrestling-2026-10-08-episode-41",
+      "name": "Episode 41",
+      "season": 2026,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2026-10-08",
+      "airtime": "19:00",
+      "airstamp": "2026-10-08T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3780529"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3780530,
+      "url": "https://www.tvmaze.com/episodes/3780530/ring-of-honor-wrestling-2026-10-15-episode-42",
+      "name": "Episode 42",
+      "season": 2026,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2026-10-15",
+      "airtime": "19:00",
+      "airstamp": "2026-10-15T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3780530"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/25153",

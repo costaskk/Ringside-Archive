@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt-uk",
   "tvMazeId": 39053,
-  "fetchedAt": "2026-09-28T11:02:34.447Z",
+  "fetchedAt": "2026-10-05T11:38:38.162Z",
   "show": {
     "id": 39053,
     "url": "https://www.tvmaze.com/shows/39053/wwe-nxt-uk",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.5
     },
-    "weight": 79,
+    "weight": 57,
     "network": null,
     "webChannel": {
       "id": 15,

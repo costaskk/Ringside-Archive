@@ -1,7 +1,7 @@
 {
   "programId": "nwa-powerrr",
   "tvMazeId": 44265,
-  "fetchedAt": "2026-09-21T10:03:03.559Z",
+  "fetchedAt": "2026-10-05T11:38:38.684Z",
   "show": {
     "id": 44265,
     "url": "https://www.tvmaze.com/shows/44265/nwa-powerrr",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 32,
+    "weight": 46,
     "network": null,
     "webChannel": {
       "id": 21,

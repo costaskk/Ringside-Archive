@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-09-28T11:02:32.699Z",
+  "fetchedAt": "2026-10-05T11:38:36.053Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1790592695,
+    "updated": 1790740571,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685155",
-        "name": "Grayson Waller confronts Mason Rook in the ring"
+        "href": "https://api.tvmaze.com/episodes/3685156",
+        "name": "Main Event: EK Prosper vs. Grayson Waller (c) for the NXT Championship"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685156",
-        "name": "39"
+        "href": "https://api.tvmaze.com/episodes/3685157",
+        "name": "40"
       }
     }
   },
@@ -23365,8 +23365,8 @@
     },
     {
       "id": 3685156,
-      "url": "https://www.tvmaze.com/episodes/3685156/wwe-nxt-20x39-39",
-      "name": "39",
+      "url": "https://www.tvmaze.com/episodes/3685156/wwe-nxt-20x39-main-event-ek-prosper-vs-grayson-waller-c-for-the-nxt-championship",
+      "name": "Main Event: EK Prosper vs. Grayson Waller (c) for the NXT Championship",
       "season": 20,
       "number": 39,
       "type": "regular",

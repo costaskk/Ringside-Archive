@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-09-28T11:02:34.800Z",
+  "fetchedAt": "2026-10-05T11:38:38.532Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 95,
+    "weight": 97,
     "network": {
       "id": 32,
       "name": "TBS",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1790220042,
+    "updated": 1791071573,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3681633",
-        "name": "#363 - Fishers Event Center in Fishers, IN"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3700755",
         "name": "#364 - Petersen Events Center in Pittsburgh, PA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3713340",
+        "name": "#365 - Grand Slam France: Adidas Arena in Paris, France"
       }
     }
   },
@@ -9734,12 +9734,12 @@
       "airdate": "2026-09-30",
       "airtime": "20:00",
       "airstamp": "2026-10-01T00:00:00+00:00",
-      "runtime": 120,
+      "runtime": 149,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Tribute show to PAC</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3700755"
@@ -9757,9 +9757,9 @@
       "season": 8,
       "number": 40,
       "type": "regular",
-      "airdate": "2026-10-07",
+      "airdate": "2026-10-06",
       "airtime": "20:00",
-      "airstamp": "2026-10-08T00:00:00+00:00",
+      "airstamp": "2026-10-07T00:00:00+00:00",
       "runtime": 120,
       "rating": {
         "average": null
@@ -9847,6 +9847,110 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3713345"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3774980,
+      "url": "https://www.tvmaze.com/episodes/3774980/all-elite-wrestling-dynamite-8x44-369-blood-guts-vystar-veterans-memorial-arena-in-jacksonville-fl",
+      "name": "#369 - Blood & Guts: Vystar Veterans Memorial Arena in Jacksonville, FL",
+      "season": 8,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2026-11-04",
+      "airtime": "20:00",
+      "airstamp": "2026-11-05T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3774980"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3774981,
+      "url": "https://www.tvmaze.com/episodes/3774981/all-elite-wrestling-dynamite-8x45-370-maverik-center-in-west-valley-city-ut",
+      "name": "#370 - Maverik Center in West Valley City, UT",
+      "season": 8,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-11-11",
+      "airtime": "20:00",
+      "airstamp": "2026-11-12T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3774981"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3774982,
+      "url": "https://www.tvmaze.com/episodes/3774982/all-elite-wrestling-dynamite-8x46-371-mission-ballroom-in-denver-co",
+      "name": "#371 - Mission Ballroom in Denver, CO",
+      "season": 8,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-11-18",
+      "airtime": "20:00",
+      "airstamp": "2026-11-19T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3774982"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3774983,
+      "url": "https://www.tvmaze.com/episodes/3774983/all-elite-wrestling-dynamite-8x47-372-thanksgiving-eve-lfcu-arena-in-omaha-ne",
+      "name": "#372 - Thanksgiving Eve: LFCU Arena in Omaha, NE",
+      "season": 8,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-11-25",
+      "airtime": "20:00",
+      "airstamp": "2026-11-26T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3774983"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/42189",

@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-09-28T11:02:35.926Z",
+  "fetchedAt": "2026-10-05T11:38:39.865Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 3.3
     },
-    "weight": 94,
+    "weight": 95,
     "network": {
       "id": 14,
       "name": "TNT",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
     },
     "summary": "<p>This live, two-hour, in-ring show will air every Saturday night from 8-10 p.m. ET and feature more wrestlers, more stories and more action to super-serve fans. <b>AEW: Collision </b>will feature headliners including Miro, Samoa Joe, Thunder Rosa, Powerhouse Hobbs, and Andrade El Idolo. </p>",
-    "updated": 1790223149,
+    "updated": 1791071783,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3717207",
-        "name": "#172 - Tailgate Brawl: All Out: Now Arena in Chicago, IL"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3713341",
         "name": "#173 - Truist Arena in Highland Heights, KY"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3713342",
+        "name": "#174 - Grand Slam France: Adidas Arena in Paris, France"
       }
     }
   },
@@ -4640,11 +4640,37 @@
       }
     },
     {
-      "id": 3713346,
-      "url": "https://www.tvmaze.com/episodes/3713346/aew-collision-4x46-175-ljvm-coliseum-in-winston-salem-nc",
-      "name": "#175 - LJVM Coliseum in Winston-Salem, NC",
+      "id": 3780526,
+      "url": "https://www.tvmaze.com/episodes/3780526/aew-collision-4x46-175-wolstein-center-in-cleveland-oh",
+      "name": "#175 - Wolstein Center in Cleveland, OH",
       "season": 4,
       "number": 46,
+      "type": "regular",
+      "airdate": "2026-10-14",
+      "airtime": "22:00",
+      "airstamp": "2026-10-15T02:00:00+00:00",
+      "runtime": 60,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3780526"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/68778",
+          "name": "AEW: Collision"
+        }
+      }
+    },
+    {
+      "id": 3713346,
+      "url": "https://www.tvmaze.com/episodes/3713346/aew-collision-4x47-176-ljvm-coliseum-in-winston-salem-nc",
+      "name": "#176 - LJVM Coliseum in Winston-Salem, NC",
+      "season": 4,
+      "number": 47,
       "type": "regular",
       "airdate": "2026-10-24",
       "airtime": "20:00",
@@ -4667,10 +4693,10 @@
     },
     {
       "id": 3713347,
-      "url": "https://www.tvmaze.com/episodes/3713347/aew-collision-4x47-176-fright-night-chaifetz-arena-in-st-louis-mo",
-      "name": "#176 - Fright Night: Chaifetz Arena in St. Louis, MO",
+      "url": "https://www.tvmaze.com/episodes/3713347/aew-collision-4x48-177-fright-night-chaifetz-arena-in-st-louis-mo",
+      "name": "#177 - Fright Night: Chaifetz Arena in St. Louis, MO",
       "season": 4,
-      "number": 47,
+      "number": 48,
       "type": "regular",
       "airdate": "2026-10-31",
       "airtime": "20:00",

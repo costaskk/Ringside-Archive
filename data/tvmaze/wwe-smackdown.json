@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-09-28T11:02:30.757Z",
+  "fetchedAt": "2026-10-05T11:38:34.022Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1790384911,
+    "updated": 1791071199,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680013",
-        "name": "#1412 - Gainbridge Fieldhouse in Indianapolis, IN"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680014",
         "name": "#1413 - Ball Arena in Denver, CO"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680015",
+        "name": "#1414 - Cajundome in Lafayette, LA"
       }
     }
   },
@@ -37155,7 +37155,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Cody Rhodes, Kevin Owens and Johnny Gargano are set to collide in a Triple Threat Money in the Bank Qualifying Match. </p><p>Tatum Paxley, Tiffany Stratton and Candice LeRae will battle in a Triple Threat Money in the Bank Qualifying Match. Who will complete the field in the Women's Money in the Bank Ladder Match? </p><p>After months of backstage assaults and \"almost\" matches, Blake Monroe will at last make her SmackDown in-ring debut against archrival Giulia. The two Superstars have been at odds since Monroe arrived on SmackDown a few months ago. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680014"

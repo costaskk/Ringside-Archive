@@ -1,14 +1,18 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-09-28T11:02:29.737Z",
+  "fetchedAt": "2026-10-05T11:38:33.022Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
     "name": "WWE Monday Night RAW",
     "type": "Sports",
     "language": "English",
-    "genres": [],
+    "genres": [
+      "Drama",
+      "Action",
+      "Sports"
+    ],
     "status": "Running",
     "runtime": null,
     "averageRuntime": 179,
@@ -43,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1790538218,
+    "updated": 1791147476,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680019",
-        "name": "#1738 - Frost Bank Center in San Antonio, TX"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680020",
         "name": "#1739 - Fiserv Forum in Milwaukee, WI"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680021",
+        "name": "#1740 - Enterprise Center in St. Louis, MO"
       }
     }
   },
@@ -45495,12 +45499,12 @@
       "airdate": "2026-09-28",
       "airtime": "",
       "airstamp": "2026-09-28T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 142,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>After numerous conflicts with Roman Reigns and The Bloodline, LA Knight is set to discuss his upcoming World Heavyweight Championship Match against The OTC at WWE Money in the Bank. </p><p>After receiving several beatdowns from Bron Breakker, Bronson Reed, Austin Theory and Logan Paul, Oba Femi returned last week to obliterate The Vision. Now, The Ruler has something to say to the dangerous faction. </p><p>Two weeks after winning the Women's World Championship back from Liv Morgan on Sept. 12 at a WWE Live Event in Santiago, Chile, Stephanie Vaquer is set to discuss the first defense of her title.</p><p>As Lola Vice was signing her contract to join the Raw roster last week, she was suddenly interrupted by Roxanne Perez, resulting in an intense verbal battle and nearly a brawl. With each Superstar set to compete in the Money in the Bank Ladder Match, who will earn a monumental win tonight? </p><p>Big Cass has claimed that his vicious attacks since returning to WWE are not personal. After being the recipient of more than one of those attacks, however, Dragon Lee is taking it very personally. Lee seeks retribution on the larger-than-life Superstar when they go one-on-one, tonight.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680020"
