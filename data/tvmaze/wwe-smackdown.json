@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-10-05T11:38:34.022Z",
+  "fetchedAt": "2026-10-12T12:10:52.118Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1791071199,
+    "updated": 1791596219,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680014",
-        "name": "#1413 - Ball Arena in Denver, CO"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680015",
         "name": "#1414 - Cajundome in Lafayette, LA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680016",
+        "name": "#1415 - Golden 1 Center in Sacramento, CA"
       }
     }
   },
@@ -37181,7 +37181,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>One night before they compete in the Money in the Bank Ladder Matches for a Championship Match any time in the next year, CM Punk, United States Champion Trick Williams, Women's United States Champion Jacy Jayne, Tiffany Stratton, World Tag Team Champion Bron Breakker, Lash Legend, Penta, Je'Von Evans, Sol Ruca, Kevin Owens, Roxanne Perez and Lola Vice will appear.</p><p>The unlikely pairing of Charlotte Flair and Tatum Paxley is set to challenge WWE Women's Tag Team Champions Fallon Henley and Lainey Reid of Fatal Influence. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680015"
@@ -37272,8 +37272,8 @@
     },
     {
       "id": 3717638,
-      "url": "https://www.tvmaze.com/episodes/3717638/wwe-friday-night-smackdown-27x45-1418",
-      "name": "#1418",
+      "url": "https://www.tvmaze.com/episodes/3717638/wwe-friday-night-smackdown-27x45-1418-barclays-center-in-brooklyn-ny",
+      "name": "#1418 - Barclays Center in Brooklyn, NY",
       "season": 27,
       "number": 45,
       "type": "regular",
@@ -37471,6 +37471,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3717645"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3784669,
+      "url": "https://www.tvmaze.com/episodes/3784669/wwe-friday-night-smackdown-28x01-1426-benchmark-international-arena-in-tampa-fl",
+      "name": "#1426 - Benchmark International Arena in Tampa, FL",
+      "season": 28,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2027-01-01",
+      "airtime": "20:00",
+      "airstamp": "2027-01-02T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3784669"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/803",

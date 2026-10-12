@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-10-05T11:38:36.053Z",
+  "fetchedAt": "2026-10-12T12:10:54.342Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1790740571,
+    "updated": 1791417329,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685156",
-        "name": "Main Event: EK Prosper vs. Grayson Waller (c) for the NXT Championship"
+        "href": "https://api.tvmaze.com/episodes/3685157",
+        "name": "Main Event: #1 Contender's Match Battle Royale for the NXT Women's Championship"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685157",
-        "name": "40"
+        "href": "https://api.tvmaze.com/episodes/3783596",
+        "name": "41"
       }
     }
   },
@@ -23287,8 +23287,8 @@
     },
     {
       "id": 3685153,
-      "url": "https://www.tvmaze.com/episodes/3685153/wwe-nxt-20x36-main-event-6-man-tag-match-and-winning-team-advances-to-1contenders-triple-threat-match",
-      "name": "Main Event: 6-man tag match and winning team advances to #1contender's triple threat match",
+      "url": "https://www.tvmaze.com/episodes/3685153/wwe-nxt-20x36-main-event-6-man-tag-match-and-winning-team-advances-to-1-contenders-triple-threat-match",
+      "name": "Main Event: 6-man tag match and winning team advances to #1 contender's triple threat match",
       "season": 20,
       "number": 36,
       "type": "regular",
@@ -23391,8 +23391,8 @@
     },
     {
       "id": 3685157,
-      "url": "https://www.tvmaze.com/episodes/3685157/wwe-nxt-20x40-40",
-      "name": "40",
+      "url": "https://www.tvmaze.com/episodes/3685157/wwe-nxt-20x40-main-event-1-contenders-match-battle-royale-for-the-nxt-womens-championship",
+      "name": "Main Event: #1 Contender's Match Battle Royale for the NXT Women's Championship",
       "season": 20,
       "number": 40,
       "type": "regular",
@@ -23408,6 +23408,318 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3685157"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783596,
+      "url": "https://www.tvmaze.com/episodes/3783596/wwe-nxt-20x41-41",
+      "name": "41",
+      "season": 20,
+      "number": 41,
+      "type": "regular",
+      "airdate": "2026-10-13",
+      "airtime": "20:00",
+      "airstamp": "2026-10-14T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783596"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783597,
+      "url": "https://www.tvmaze.com/episodes/3783597/wwe-nxt-20x42-42",
+      "name": "42",
+      "season": 20,
+      "number": 42,
+      "type": "regular",
+      "airdate": "2026-10-20",
+      "airtime": "20:00",
+      "airstamp": "2026-10-21T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783597"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783598,
+      "url": "https://www.tvmaze.com/episodes/3783598/wwe-nxt-20x43-43",
+      "name": "43",
+      "season": 20,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2026-10-27",
+      "airtime": "20:00",
+      "airstamp": "2026-10-28T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783598"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783599,
+      "url": "https://www.tvmaze.com/episodes/3783599/wwe-nxt-20x44-44",
+      "name": "44",
+      "season": 20,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2026-11-03",
+      "airtime": "20:00",
+      "airstamp": "2026-11-04T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783599"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783600,
+      "url": "https://www.tvmaze.com/episodes/3783600/wwe-nxt-20x45-45",
+      "name": "45",
+      "season": 20,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-11-10",
+      "airtime": "20:00",
+      "airstamp": "2026-11-11T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783600"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783601,
+      "url": "https://www.tvmaze.com/episodes/3783601/wwe-nxt-20x46-46",
+      "name": "46",
+      "season": 20,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-11-17",
+      "airtime": "20:00",
+      "airstamp": "2026-11-18T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783601"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783602,
+      "url": "https://www.tvmaze.com/episodes/3783602/wwe-nxt-20x47-47",
+      "name": "47",
+      "season": 20,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-11-24",
+      "airtime": "20:00",
+      "airstamp": "2026-11-25T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783602"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783604,
+      "url": "https://www.tvmaze.com/episodes/3783604/wwe-nxt-20x48-48",
+      "name": "48",
+      "season": 20,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2026-12-01",
+      "airtime": "20:00",
+      "airstamp": "2026-12-02T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783604"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783605,
+      "url": "https://www.tvmaze.com/episodes/3783605/wwe-nxt-20x49-49",
+      "name": "49",
+      "season": 20,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2026-12-08",
+      "airtime": "20:00",
+      "airstamp": "2026-12-09T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783605"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783606,
+      "url": "https://www.tvmaze.com/episodes/3783606/wwe-nxt-20x50-50",
+      "name": "50",
+      "season": 20,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2026-12-15",
+      "airtime": "20:00",
+      "airstamp": "2026-12-16T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783606"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783607,
+      "url": "https://www.tvmaze.com/episodes/3783607/wwe-nxt-20x51-51",
+      "name": "51",
+      "season": 20,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2026-12-22",
+      "airtime": "20:00",
+      "airstamp": "2026-12-23T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783607"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/2266",
+          "name": "WWE NXT"
+        }
+      }
+    },
+    {
+      "id": 3783608,
+      "url": "https://www.tvmaze.com/episodes/3783608/wwe-nxt-20x52-52",
+      "name": "52",
+      "season": 20,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2026-12-29",
+      "airtime": "20:00",
+      "airstamp": "2026-12-30T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3783608"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/2266",

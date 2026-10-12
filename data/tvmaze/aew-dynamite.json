@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-10-05T11:38:38.532Z",
+  "fetchedAt": "2026-10-12T12:10:56.432Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1791071573,
+    "updated": 1791596739,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3700755",
-        "name": "#364 - Petersen Events Center in Pittsburgh, PA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3713340",
         "name": "#365 - Grand Slam France: Adidas Arena in Paris, France"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3713343",
+        "name": "#366 - Wolstein Center in Cleveland, OH"
       }
     }
   },
@@ -9760,7 +9760,7 @@
       "airdate": "2026-10-06",
       "airtime": "20:00",
       "airstamp": "2026-10-07T00:00:00+00:00",
-      "runtime": 120,
+      "runtime": 125,
       "rating": {
         "average": null
       },
@@ -9951,6 +9951,110 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3774983"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3784671,
+      "url": "https://www.tvmaze.com/episodes/3784671/all-elite-wrestling-dynamite-8x48-373-sames-auto-arena-in-laredo-tx",
+      "name": "#373 - Sames Auto Arena in Laredo, TX",
+      "season": 8,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2026-12-02",
+      "airtime": "20:00",
+      "airstamp": "2026-12-03T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3784671"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3784672,
+      "url": "https://www.tvmaze.com/episodes/3784672/all-elite-wrestling-dynamite-8x49-373-winter-is-coming-arena-monterrey-in-monterrey-mexico",
+      "name": "#373 - Winter is Coming: Arena Monterrey in Monterrey, Mexico",
+      "season": 8,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2026-12-09",
+      "airtime": "20:00",
+      "airstamp": "2026-12-10T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3784672"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3784673,
+      "url": "https://www.tvmaze.com/episodes/3784673/all-elite-wrestling-dynamite-8x50-374",
+      "name": "#374",
+      "season": 8,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2026-12-16",
+      "airtime": "20:00",
+      "airstamp": "2026-12-17T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3784673"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3784674,
+      "url": "https://www.tvmaze.com/episodes/3784674/all-elite-wrestling-dynamite-8x51-375-holiday-bash-wintrust-arena-in-chicago-il",
+      "name": "#375 - Holiday Bash: Wintrust Arena in Chicago, IL",
+      "season": 8,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2026-12-23",
+      "airtime": "20:00",
+      "airstamp": "2026-12-24T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3784674"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/42189",

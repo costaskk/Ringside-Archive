@@ -1,7 +1,7 @@
 {
   "programId": "wwe-superstars-revival",
   "tvMazeId": 16770,
-  "fetchedAt": "2026-10-05T11:38:35.801Z",
+  "fetchedAt": "2026-10-12T12:10:54.004Z",
   "show": {
     "id": 16770,
     "url": "https://www.tvmaze.com/shows/16770/wwe-superstars",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 82,
+    "weight": 58,
     "network": null,
     "webChannel": {
       "id": 15,

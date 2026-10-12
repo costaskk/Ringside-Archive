@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-10-05T11:38:32.203Z",
+  "fetchedAt": "2026-10-12T12:10:50.374Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 96,
+    "weight": 97,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -43,22 +43,22 @@
       "imdb": null
     },
     "image": {
-      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/401/1002874.jpg",
-      "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1002874.jpg"
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/645/1612505.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/645/1612505.jpg"
     },
     "summary": null,
-    "updated": 1791098931,
+    "updated": 1791717870,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3540986",
-        "name": "SummerSlam 2026 Night 2 - US Bank Stadium in Minneapolis, MN"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3540987",
         "name": "Money in the Bank 2026 - Smoothie King Center in New Orleans, LA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3722404",
+        "name": "Crown Jewel 2026 - Riyadh Season Stadium at KAFD in Riyadh, Saudi Arabia"
       }
     }
   },
@@ -13994,12 +13994,12 @@
       "airdate": "2026-10-10",
       "airtime": "18:00",
       "airstamp": "2026-10-10T22:00:00+00:00",
-      "runtime": null,
+      "runtime": 192,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p><b>Money in the Bank</b> features the men's and women's Money in the Bank Ladder Matches, with the winners earning a guaranteed championship opportunity that can be cashed in at any time. This year's men's field includes Bron Breakker, Je'Von Evans, Trick Williams, Penta, CM Punk and Kevin Owens, while Sol Ruca, Jacy Jayne, Roxanne Perez, Lash Legend and Tiffany Stratton will compete in the women's match. In the main event, World Heavyweight Champion Roman Reigns defends his title against LA Knight. The event will also feature a heavyweight showdown between Oba Femi and Bronson Reed. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3540987"

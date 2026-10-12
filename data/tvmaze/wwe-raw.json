@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-10-05T11:38:33.022Z",
+  "fetchedAt": "2026-10-12T12:10:51.141Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1791147476,
+    "updated": 1791804668,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680020",
-        "name": "#1739 - Fiserv Forum in Milwaukee, WI"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680021",
         "name": "#1740 - Enterprise Center in St. Louis, MO"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680022",
+        "name": "#1741 - Brookshire Grocery Arena in Bossier City, LA"
       }
     }
   },
@@ -45525,12 +45525,12 @@
       "airdate": "2026-10-05",
       "airtime": "",
       "airstamp": "2026-10-05T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 142,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>As his family continues to battle the anarchy, World Heavyweight Champion Roman Reigns must focus on his title showdown against LA Knight this Saturday at WWE Money in the Bank. See what happens when The OTC steps into the chaos of Monday Night Raw.</p><p>Last week, La Primera revealed that she will defend her title at WWE Money in the Bank against the winner of a No. 1 Contender's Match pitting The Man against Morgan. Who will challenge Vaquer at the PLE this Saturday? Find out tonight.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680021"
@@ -45829,8 +45829,8 @@
     },
     {
       "id": 3717637,
-      "url": "https://www.tvmaze.com/episodes/3717637/wwe-monday-night-raw-33x52-1752",
-      "name": "#1752",
+      "url": "https://www.tvmaze.com/episodes/3717637/wwe-monday-night-raw-33x52-1752-benchmark-international-arena-in-tampa-fl",
+      "name": "#1752 - Benchmark International Arena in Tampa, FL",
       "season": 33,
       "number": 52,
       "type": "regular",
