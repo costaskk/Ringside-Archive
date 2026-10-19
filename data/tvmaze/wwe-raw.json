@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-10-12T12:10:51.141Z",
+  "fetchedAt": "2026-10-19T10:02:37.043Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1791804668,
+    "updated": 1792359373,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680021",
-        "name": "#1740 - Enterprise Center in St. Louis, MO"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680022",
         "name": "#1741 - Brookshire Grocery Arena in Bossier City, LA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680023",
+        "name": "#1742 - Pechanga Arena in San Diego, CA"
       }
     }
   },
@@ -45551,12 +45551,12 @@
       "airdate": "2026-10-12",
       "airtime": "",
       "airstamp": "2026-10-12T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 145,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Tonight, The Usos will join forces with their estranged brother Sikoa against The 946 in what promises to be a wild Six-Man Tag Team Match. </p><p>Intercontinental Champion Chad Gable will defend the title against AAA Cruiserweight Champion Rey Fenix.</p><p>After Big Cass assaulted Rey Mysterio and Dragon Lee last week, The Master of the 619 will seek payback in a collision with the seven-footer.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680022"

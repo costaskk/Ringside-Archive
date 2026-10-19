@@ -1,7 +1,7 @@
 {
   "programId": "wwf-wrestling-challenge",
   "tvMazeId": 33098,
-  "fetchedAt": "2026-10-12T12:10:50.219Z",
+  "fetchedAt": "2026-10-19T10:02:36.204Z",
   "show": {
     "id": 33098,
     "url": "https://www.tvmaze.com/shows/33098/wwf-wrestling-challenge",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 38,
+    "weight": 58,
     "network": {
       "id": 72,
       "name": "Syndication",

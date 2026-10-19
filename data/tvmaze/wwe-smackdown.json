@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-10-12T12:10:52.118Z",
+  "fetchedAt": "2026-10-19T10:02:38.153Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1791596219,
+    "updated": 1792246444,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680015",
-        "name": "#1414 - Cajundome in Lafayette, LA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680016",
         "name": "#1415 - Golden 1 Center in Sacramento, CA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680017",
+        "name": "#1416 - Toyota Arena in Ontario, CA"
       }
     }
   },
@@ -37207,7 +37207,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>In the latest chapter of his volatile rivalry with Randy Orton, Cody Rhodes has demanded that SmackDown General Manager Nick Aldis produce The Viper. The American Nightmare will come face-to-face with Orton.</p><p>After Nikki Bella used the ropes to pick up a controversial win over Paige last month, Paige will once again battle the WWE Hall of Famer in a highly-anticipated rematch.</p><p>Moments after last week's backstage altercation, former WWE Tag Team Champions turned bitter adversaries R-Truth and Damian Priest will collide on SmackDown. </p><p>After pinning AAA Cruiserweight Champion Rey Fenix in a Six-Man Tag Team Match, Ricky Saints has talked his way into title rematch. Saints and The War Raiders scored the win against Fenix and Fraxiom on Oct. 2, leading \"Absolute\" Ricky Saints to call out the reigning AAA Cruiserweight Champion, and Fenix obliged. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680016"

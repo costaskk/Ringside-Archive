@@ -1,7 +1,7 @@
 {
   "programId": "wos-revival",
   "tvMazeId": 36637,
-  "fetchedAt": "2026-10-12T12:10:55.898Z",
+  "fetchedAt": "2026-10-19T10:02:41.828Z",
   "show": {
     "id": 36637,
     "url": "https://www.tvmaze.com/shows/36637/wos-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 72,
+    "weight": 32,
     "network": {
       "id": 35,
       "name": "ITV1",

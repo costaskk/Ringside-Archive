@@ -1,7 +1,7 @@
 {
   "programId": "aew-collision",
   "tvMazeId": 68778,
-  "fetchedAt": "2026-10-12T12:10:57.786Z",
+  "fetchedAt": "2026-10-19T10:02:43.574Z",
   "show": {
     "id": 68778,
     "url": "https://www.tvmaze.com/shows/68778/aew-collision",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/572/1432197.jpg"
     },
     "summary": "<p>This live, two-hour, in-ring show will air every Saturday night from 8-10 p.m. ET and feature more wrestlers, more stories and more action to super-serve fans. <b>AEW: Collision </b>will feature headliners including Miro, Samoa Joe, Thunder Rosa, Powerhouse Hobbs, and Andrade El Idolo. </p>",
-    "updated": 1791773039,
+    "updated": 1792040171,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/68778"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3713342",
-        "name": "#174 - Grand Slam France: Adidas Arena in Paris, France"
+        "href": "https://api.tvmaze.com/episodes/3787782",
+        "name": "#176 - Tailgate Brawl: WrestleDream: Addition Financial Arena in Orlando, FL"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3780526",
-        "name": "#175 - Wolstein Center in Cleveland, OH"
+        "href": "https://api.tvmaze.com/episodes/3713346",
+        "name": "#177 - LJVM Coliseum in Winston-Salem, NC"
       }
     }
   },
@@ -4647,9 +4647,9 @@
       "number": 46,
       "type": "regular",
       "airdate": "2026-10-14",
-      "airtime": "22:00",
-      "airstamp": "2026-10-15T02:00:00+00:00",
-      "runtime": 60,
+      "airtime": "22:14",
+      "airstamp": "2026-10-15T02:14:00+00:00",
+      "runtime": 74,
       "rating": {
         "average": null
       },

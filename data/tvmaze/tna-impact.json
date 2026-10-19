@@ -1,7 +1,7 @@
 {
   "programId": "tna-impact",
   "tvMazeId": 1349,
-  "fetchedAt": "2026-10-12T12:10:53.369Z",
+  "fetchedAt": "2026-10-19T10:02:39.247Z",
   "show": {
     "id": 1349,
     "url": "https://www.tvmaze.com/shows/1349/tna-impact",
@@ -53,12 +53,12 @@
         "href": "https://api.tvmaze.com/shows/1349"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3686301",
-        "name": "Episode 41"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3686302",
         "name": "Episode 42"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3686303",
+        "name": "Episode 43"
       }
     }
   },

@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-10-12T12:10:54.342Z",
+  "fetchedAt": "2026-10-19T10:02:40.015Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1791417329,
+    "updated": 1791942510,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3685157",
-        "name": "Main Event: #1 Contender's Match Battle Royale for the NXT Women's Championship"
+        "href": "https://api.tvmaze.com/episodes/3783596",
+        "name": "Main Event: Myles Borne vs. Tony D'Angelo in an NXT Championship #1 Contender's Match"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3783596",
-        "name": "41"
+        "href": "https://api.tvmaze.com/episodes/3783597",
+        "name": "42"
       }
     }
   },
@@ -23417,8 +23417,8 @@
     },
     {
       "id": 3783596,
-      "url": "https://www.tvmaze.com/episodes/3783596/wwe-nxt-20x41-41",
-      "name": "41",
+      "url": "https://www.tvmaze.com/episodes/3783596/wwe-nxt-20x41-main-event-myles-borne-vs-tony-dangelo-in-an-nxt-championship-1-contenders-match",
+      "name": "Main Event: Myles Borne vs. Tony D'Angelo in an NXT Championship #1 Contender's Match",
       "season": 20,
       "number": 41,
       "type": "regular",

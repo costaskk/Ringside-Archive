@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-10-12T12:10:50.374Z",
+  "fetchedAt": "2026-10-19T10:02:36.196Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/645/1612505.jpg"
     },
     "summary": null,
-    "updated": 1791717870,
+    "updated": 1792337803,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"

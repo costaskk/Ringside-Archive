@@ -1,7 +1,7 @@
 {
   "programId": "njpw-axs",
   "tvMazeId": 2515,
-  "fetchedAt": "2026-10-12T12:10:55.658Z",
+  "fetchedAt": "2026-10-19T10:02:41.366Z",
   "show": {
     "id": 2515,
     "url": "https://www.tvmaze.com/shows/2515/new-japan-pro-wrestling-on-axs-tv",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 81,
+    "weight": 78,
     "network": {
       "id": 170,
       "name": "AXS TV",

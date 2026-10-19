@@ -1,7 +1,7 @@
 {
   "programId": "wcw-thunder",
   "tvMazeId": 39473,
-  "fetchedAt": "2026-10-12T12:10:51.723Z",
+  "fetchedAt": "2026-10-19T10:02:37.588Z",
   "show": {
     "id": 39473,
     "url": "https://www.tvmaze.com/shows/39473/wcw-thunder",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 45,
+    "weight": 41,
     "network": {
       "id": 32,
       "name": "TBS",

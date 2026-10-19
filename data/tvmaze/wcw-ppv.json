@@ -1,7 +1,7 @@
 {
   "programId": "wcw-ppv",
   "tvMazeId": 55749,
-  "fetchedAt": "2026-10-12T12:10:49.479Z",
+  "fetchedAt": "2026-10-19T10:02:35.529Z",
   "show": {
     "id": 55749,
     "url": "https://www.tvmaze.com/shows/55749/wcw-ppv",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 59,
+    "weight": 64,
     "network": {
       "id": 138,
       "name": "Pay-Per-View",
