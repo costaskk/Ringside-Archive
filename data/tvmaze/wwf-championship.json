@@ -1,7 +1,7 @@
 {
   "programId": "wwf-championship",
   "tvMazeId": 25514,
-  "fetchedAt": "2026-10-19T10:02:35.475Z",
+  "fetchedAt": "2026-10-26T10:17:04.478Z",
   "show": {
     "id": 25514,
     "url": "https://www.tvmaze.com/shows/25514/wwf-championship-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 58,
+    "weight": 61,
     "network": {
       "id": 72,
       "name": "Syndication",

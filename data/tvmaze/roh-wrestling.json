@@ -1,7 +1,7 @@
 {
   "programId": "roh-wrestling",
   "tvMazeId": 25153,
-  "fetchedAt": "2026-10-19T10:02:40.314Z",
+  "fetchedAt": "2026-10-26T10:17:09.234Z",
   "show": {
     "id": 25153,
     "url": "https://www.tvmaze.com/shows/25153/ring-of-honor-wrestling",
@@ -47,14 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245484.jpg"
     },
     "summary": "<p>Hard-hitting pro-wrestling action from the stars of ROH.</p>",
-    "updated": 1791071900,
+    "updated": 1792949371,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/25153"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3780530",
-        "name": "Episode 42"
+        "href": "https://api.tvmaze.com/episodes/3796100",
+        "name": "Episode 43"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3796101",
+        "name": "Episode 44"
       }
     }
   },
@@ -17810,6 +17814,162 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3780530"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3796100,
+      "url": "https://www.tvmaze.com/episodes/3796100/ring-of-honor-wrestling-2026-10-22-episode-43",
+      "name": "Episode 43",
+      "season": 2026,
+      "number": 43,
+      "type": "regular",
+      "airdate": "2026-10-22",
+      "airtime": "19:00",
+      "airstamp": "2026-10-22T23:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3796100"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3796101,
+      "url": "https://www.tvmaze.com/episodes/3796101/ring-of-honor-wrestling-2026-10-29-episode-44",
+      "name": "Episode 44",
+      "season": 2026,
+      "number": 44,
+      "type": "regular",
+      "airdate": "2026-10-29",
+      "airtime": "20:00",
+      "airstamp": "2026-10-30T00:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3796101"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3796102,
+      "url": "https://www.tvmaze.com/episodes/3796102/ring-of-honor-wrestling-2026-11-05-episode-45",
+      "name": "Episode 45",
+      "season": 2026,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-11-05",
+      "airtime": "20:00",
+      "airstamp": "2026-11-06T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3796102"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3796103,
+      "url": "https://www.tvmaze.com/episodes/3796103/ring-of-honor-wrestling-2026-11-12-episode-46",
+      "name": "Episode 46",
+      "season": 2026,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-11-12",
+      "airtime": "20:00",
+      "airstamp": "2026-11-13T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3796103"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3796104,
+      "url": "https://www.tvmaze.com/episodes/3796104/ring-of-honor-wrestling-2026-11-19-episode-47",
+      "name": "Episode 47",
+      "season": 2026,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-11-19",
+      "airtime": "20:00",
+      "airstamp": "2026-11-20T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3796104"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/25153",
+          "name": "Ring of Honor Wrestling"
+        }
+      }
+    },
+    {
+      "id": 3796105,
+      "url": "https://www.tvmaze.com/episodes/3796105/ring-of-honor-wrestling-2026-11-27-episode-48",
+      "name": "Episode 48",
+      "season": 2026,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2026-11-27",
+      "airtime": "20:00",
+      "airstamp": "2026-11-28T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3796105"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/25153",

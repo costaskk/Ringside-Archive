@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-10-19T10:02:42.352Z",
+  "fetchedAt": "2026-10-26T10:17:11.168Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1792039941,
+    "updated": 1792826815,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3713343",
-        "name": "#366 - Wolstein Center in Cleveland, OH"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3713344",
         "name": "#367 - Watsco Center in Coral Gables, FL"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3713345",
+        "name": "#368 - Fright Night: Chaifetz Arena in St. Louis, MO"
       }
     }
   },
@@ -9812,7 +9812,7 @@
       "airdate": "2026-10-21",
       "airtime": "20:00",
       "airstamp": "2026-10-22T00:00:00+00:00",
-      "runtime": 120,
+      "runtime": 147,
       "rating": {
         "average": null
       },
@@ -10055,6 +10055,32 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3784674"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42189",
+          "name": "All Elite Wrestling: Dynamite"
+        }
+      }
+    },
+    {
+      "id": 3795537,
+      "url": "https://www.tvmaze.com/episodes/3795537/all-elite-wrestling-dynamite-9x01-376-new-years-smash-gateway-arena-in-atlanta-ga",
+      "name": "#376 - New Year's Smash: Gateway Arena in Atlanta, GA",
+      "season": 9,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2027-01-01",
+      "airtime": "20:00",
+      "airstamp": "2027-01-02T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3795537"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/42189",

@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-10-19T10:02:38.153Z",
+  "fetchedAt": "2026-10-26T10:17:07.121Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1792246444,
+    "updated": 1792855804,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680016",
-        "name": "#1415 - Golden 1 Center in Sacramento, CA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680017",
         "name": "#1416 - Toyota Arena in Ontario, CA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680018",
+        "name": "#1417 - Charleston Coliseum in Charleston, WV"
       }
     }
   },
@@ -37233,7 +37233,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Chelsea Green is set to put her WWE Women's Championship on the line against The Judgment Day's Roxanne Perez this Friday on SmackDown, even as her potential Champion vs. Champion Match against Women's World Champion Liv Morgan at WWE Crown Jewel looms on the horizon.</p><p>After numerous volatile altercations in recent months, Blake Monroe defeated Giulia in her in-ring SmackDown debut on Oct. 2. Now, Monroe and Giulia will collide in a brutal Street Fight. </p><p>New WWE Women's Tag Team Champions Alexa Bliss and Tatum Paxley will defend their title against the dangerous Michin and B-Fab. Who will walk out of SmackDown as champions?</p><p>Backed by Haku, WWE Tag Team Champions The MFTs will once again mx it up with Shinsuke Nakamura and Kyoki in a non-title showdown.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680017"

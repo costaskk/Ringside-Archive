@@ -1,7 +1,7 @@
 {
   "programId": "wwe-saturday-main-event",
   "tvMazeId": 5757,
-  "fetchedAt": "2026-10-19T10:02:36.105Z",
+  "fetchedAt": "2026-10-26T10:17:05.078Z",
   "show": {
     "id": 5757,
     "url": "https://www.tvmaze.com/shows/5757/wwe-saturday-nights-main-event",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 92,
+    "weight": 91,
     "network": null,
     "webChannel": {
       "id": 347,

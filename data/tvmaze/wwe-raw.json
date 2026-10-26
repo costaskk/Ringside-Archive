@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-10-19T10:02:37.043Z",
+  "fetchedAt": "2026-10-26T10:17:05.911Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -26,7 +26,7 @@
       ]
     },
     "rating": {
-      "average": 7.5
+      "average": 7.3
     },
     "weight": 98,
     "network": null,
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1792359373,
+    "updated": 1792938296,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680022",
-        "name": "#1741 - Brookshire Grocery Arena in Bossier City, LA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680023",
         "name": "#1742 - Pechanga Arena in San Diego, CA"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3680024",
+        "name": "#1743 - Save Mart Center in Fresno, CA"
       }
     }
   },
@@ -45577,12 +45577,12 @@
       "airdate": "2026-10-19",
       "airtime": "",
       "airstamp": "2026-10-19T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 139,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>For the first time since his hard-fought title defense against LA Knight at WWE Money in the Bank, World Heavyweight Champion Roman Reigns returns to Monday Night Raw. Last week, The 946 became an even bigger threat to The Bloodline after adding Carmelo Hayes to its ranks. How will The OTC respond?  </p><p>Joe Hendry is going one-on-one with JD McDonagh. Hendry is known to play mind games, but he has taken it to a new level against The Judgment Day's hothead. Hendry has gotten under the skin of McDonagh, going as far as trolling him with a hilarious life-size Funko Pop. Don't miss when the two Superstars throw down.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680023"

@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-10-19T10:02:40.015Z",
+  "fetchedAt": "2026-10-26T10:17:08.996Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1791942510,
+    "updated": 1792975097,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3783596",
-        "name": "Main Event: Myles Borne vs. Tony D'Angelo in an NXT Championship #1 Contender's Match"
+        "href": "https://api.tvmaze.com/episodes/3783597",
+        "name": "Main Event: Dion Lennox vs. Cruz Montana"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3783597",
-        "name": "42"
+        "href": "https://api.tvmaze.com/episodes/3783598",
+        "name": "43"
       }
     }
   },
@@ -23443,8 +23443,8 @@
     },
     {
       "id": 3783597,
-      "url": "https://www.tvmaze.com/episodes/3783597/wwe-nxt-20x42-42",
-      "name": "42",
+      "url": "https://www.tvmaze.com/episodes/3783597/wwe-nxt-20x42-main-event-dion-lennox-vs-cruz-montana",
+      "name": "Main Event: Dion Lennox vs. Cruz Montana",
       "season": 20,
       "number": 42,
       "type": "regular",
@@ -23500,9 +23500,9 @@
       "season": 20,
       "number": 44,
       "type": "regular",
-      "airdate": "2026-11-03",
+      "airdate": "2026-11-04",
       "airtime": "20:00",
-      "airstamp": "2026-11-04T01:00:00+00:00",
+      "airstamp": "2026-11-05T01:00:00+00:00",
       "runtime": 120,
       "rating": {
         "average": null

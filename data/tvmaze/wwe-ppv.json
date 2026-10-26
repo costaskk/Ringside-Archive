@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-10-19T10:02:36.196Z",
+  "fetchedAt": "2026-10-26T10:17:05.168Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 97,
+    "weight": 96,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/645/1612505.jpg"
     },
     "summary": null,
-    "updated": 1792337803,
+    "updated": 1792804482,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
@@ -13996,7 +13996,7 @@
       "airstamp": "2026-10-10T22:00:00+00:00",
       "runtime": 192,
       "rating": {
-        "average": null
+        "average": 8
       },
       "image": null,
       "summary": "<p><b>Money in the Bank</b> features the men's and women's Money in the Bank Ladder Matches, with the winners earning a guaranteed championship opportunity that can be cashed in at any time. This year's men's field includes Bron Breakker, Je'Von Evans, Trick Williams, Penta, CM Punk and Kevin Owens, while Sol Ruca, Jacy Jayne, Roxanne Perez, Lash Legend and Tiffany Stratton will compete in the women's match. In the main event, World Heavyweight Champion Roman Reigns defends his title against LA Knight. The event will also feature a heavyweight showdown between Oba Femi and Bronson Reed. </p>",
