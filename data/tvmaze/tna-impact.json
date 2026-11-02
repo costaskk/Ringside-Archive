@@ -1,7 +1,7 @@
 {
   "programId": "tna-impact",
   "tvMazeId": 1349,
-  "fetchedAt": "2026-10-26T10:17:08.148Z",
+  "fetchedAt": "2026-11-02T12:38:14.726Z",
   "show": {
     "id": 1349,
     "url": "https://www.tvmaze.com/shows/1349/tna-impact",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/613/1533807.jpg"
     },
     "summary": "<p><b>TNA iMPACT!</b> is 2 hours of fast paced, innovative, usually high flying, sometimes brutal pro-wrestling. Featuring a mix of stars you know and love and new, up and coming talent, it'll blow away the cobwebs and leave you wanting more.</p>",
-    "updated": 1787047980,
+    "updated": 1793343324,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/1349"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3686303",
-        "name": "Episode 43"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3686304",
         "name": "Episode 44"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3799950",
+        "name": "Episode 45"
       }
     }
   },
@@ -31395,6 +31395,240 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3686304"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799950,
+      "url": "https://www.tvmaze.com/episodes/3799950/tna-impact-2026-11-05-episode-45",
+      "name": "Episode 45",
+      "season": 2026,
+      "number": 45,
+      "type": "regular",
+      "airdate": "2026-11-05",
+      "airtime": "21:00",
+      "airstamp": "2026-11-06T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799950"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799951,
+      "url": "https://www.tvmaze.com/episodes/3799951/tna-impact-2026-11-12-episode-46",
+      "name": "Episode 46",
+      "season": 2026,
+      "number": 46,
+      "type": "regular",
+      "airdate": "2026-11-12",
+      "airtime": "21:00",
+      "airstamp": "2026-11-13T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799951"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799952,
+      "url": "https://www.tvmaze.com/episodes/3799952/tna-impact-2026-11-19-episode-47",
+      "name": "Episode 47",
+      "season": 2026,
+      "number": 47,
+      "type": "regular",
+      "airdate": "2026-11-19",
+      "airtime": "21:00",
+      "airstamp": "2026-11-20T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799952"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799953,
+      "url": "https://www.tvmaze.com/episodes/3799953/tna-impact-2026-11-26-episode-48",
+      "name": "Episode 48",
+      "season": 2026,
+      "number": 48,
+      "type": "regular",
+      "airdate": "2026-11-26",
+      "airtime": "21:00",
+      "airstamp": "2026-11-27T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799953"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799954,
+      "url": "https://www.tvmaze.com/episodes/3799954/tna-impact-2026-12-03-episode-49",
+      "name": "Episode 49",
+      "season": 2026,
+      "number": 49,
+      "type": "regular",
+      "airdate": "2026-12-03",
+      "airtime": "21:00",
+      "airstamp": "2026-12-04T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799954"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799955,
+      "url": "https://www.tvmaze.com/episodes/3799955/tna-impact-2026-12-10-episode-50",
+      "name": "Episode 50",
+      "season": 2026,
+      "number": 50,
+      "type": "regular",
+      "airdate": "2026-12-10",
+      "airtime": "21:00",
+      "airstamp": "2026-12-11T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799955"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799956,
+      "url": "https://www.tvmaze.com/episodes/3799956/tna-impact-2026-12-17-episode-51",
+      "name": "Episode 51",
+      "season": 2026,
+      "number": 51,
+      "type": "regular",
+      "airdate": "2026-12-17",
+      "airtime": "21:00",
+      "airstamp": "2026-12-18T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799956"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799957,
+      "url": "https://www.tvmaze.com/episodes/3799957/tna-impact-2026-12-24-episode-52",
+      "name": "Episode 52",
+      "season": 2026,
+      "number": 52,
+      "type": "regular",
+      "airdate": "2026-12-24",
+      "airtime": "21:00",
+      "airstamp": "2026-12-25T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799957"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1349",
+          "name": "TNA iMPACT!"
+        }
+      }
+    },
+    {
+      "id": 3799958,
+      "url": "https://www.tvmaze.com/episodes/3799958/tna-impact-2026-12-31-episode-53",
+      "name": "Episode 53",
+      "season": 2026,
+      "number": 53,
+      "type": "regular",
+      "airdate": "2026-12-31",
+      "airtime": "21:00",
+      "airstamp": "2027-01-01T02:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3799958"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/1349",

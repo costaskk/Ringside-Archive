@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-10-26T10:17:05.168Z",
+  "fetchedAt": "2026-11-02T12:38:11.731Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 7
     },
-    "weight": 96,
+    "weight": 97,
     "network": null,
     "webChannel": {
       "id": 265,
@@ -47,7 +47,7 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/645/1612505.jpg"
     },
     "summary": null,
-    "updated": 1792804482,
+    "updated": 1793227505,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
@@ -58,7 +58,7 @@
       },
       "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3722404",
-        "name": "Crown Jewel 2026 - Riyadh Season Stadium at KAFD in Riyadh, Saudi Arabia"
+        "name": "Crown Jewel 2026 - Kingdom Arena in Riyadh, Saudi Arabia"
       }
     }
   },
@@ -14012,13 +14012,13 @@
     },
     {
       "id": 3722404,
-      "url": "https://www.tvmaze.com/episodes/3722404/wwe-premium-live-events-2026-11-07-crown-jewel-2026-riyadh-season-stadium-at-kafd-in-riyadh-saudi-arabia",
-      "name": "Crown Jewel 2026 - Riyadh Season Stadium at KAFD in Riyadh, Saudi Arabia",
+      "url": "https://www.tvmaze.com/episodes/3722404/wwe-premium-live-events-2026-11-07-crown-jewel-2026-kingdom-arena-in-riyadh-saudi-arabia",
+      "name": "Crown Jewel 2026 - Kingdom Arena in Riyadh, Saudi Arabia",
       "season": 2026,
       "number": 11,
       "type": "regular",
       "airdate": "2026-11-07",
-      "airtime": "",
+      "airtime": "12:00",
       "airstamp": "2026-11-07T17:00:00+00:00",
       "runtime": null,
       "rating": {

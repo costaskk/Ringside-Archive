@@ -1,7 +1,7 @@
 {
   "programId": "wwe-main-event",
   "tvMazeId": 16753,
-  "fetchedAt": "2026-10-26T10:17:09.377Z",
+  "fetchedAt": "2026-11-02T12:38:15.942Z",
   "show": {
     "id": 16753,
     "url": "https://www.tvmaze.com/shows/16753/wwe-main-event",
@@ -16,23 +16,27 @@
     "averageRuntime": 60,
     "premiered": "2012-10-03",
     "ended": null,
-    "officialSite": "https://www.wwe.com/shows/wwemainevent",
+    "officialSite": "https://go.rumble.com/wwe/",
     "schedule": {
       "time": "",
       "days": [
-        "Thursday"
+        "Wednesday"
       ]
     },
     "rating": {
       "average": null
     },
-    "weight": 88,
+    "weight": 89,
     "network": null,
     "webChannel": {
-      "id": 15,
-      "name": "WWE Network",
-      "country": null,
-      "officialSite": null
+      "id": 773,
+      "name": "Rumble",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://rumble.com/"
     },
     "dvdCountry": null,
     "externals": {
@@ -45,18 +49,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/233/584404.jpg"
     },
     "summary": "<p><b>WWE Main Event</b> is a professional wrestling television program produced by WWE that originally aired on Ion Television in the United States and it originally aired on the WWE Network now airing on Hulu.</p>",
-    "updated": 1774596988,
+    "updated": 1793150021,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/16753"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3554348",
-        "name": "Main Event 734"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3554349",
         "name": "Main Event 735"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3554350",
+        "name": "Main Event 736"
       }
     }
   },
@@ -19100,9 +19104,9 @@
       "season": 15,
       "number": 42,
       "type": "regular",
-      "airdate": "2026-10-15",
+      "airdate": "2026-10-14",
       "airtime": "",
-      "airstamp": "2026-10-15T12:00:00+00:00",
+      "airstamp": "2026-10-14T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19126,9 +19130,9 @@
       "season": 15,
       "number": 43,
       "type": "regular",
-      "airdate": "2026-10-22",
+      "airdate": "2026-10-21",
       "airtime": "",
-      "airstamp": "2026-10-22T12:00:00+00:00",
+      "airstamp": "2026-10-21T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19152,9 +19156,9 @@
       "season": 15,
       "number": 44,
       "type": "regular",
-      "airdate": "2026-10-29",
+      "airdate": "2026-10-28",
       "airtime": "",
-      "airstamp": "2026-10-29T12:00:00+00:00",
+      "airstamp": "2026-10-28T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19178,9 +19182,9 @@
       "season": 15,
       "number": 45,
       "type": "regular",
-      "airdate": "2026-11-05",
+      "airdate": "2026-11-04",
       "airtime": "",
-      "airstamp": "2026-11-05T12:00:00+00:00",
+      "airstamp": "2026-11-04T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19204,9 +19208,9 @@
       "season": 15,
       "number": 46,
       "type": "regular",
-      "airdate": "2026-11-12",
+      "airdate": "2026-11-11",
       "airtime": "",
-      "airstamp": "2026-11-12T12:00:00+00:00",
+      "airstamp": "2026-11-11T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19230,9 +19234,9 @@
       "season": 15,
       "number": 47,
       "type": "regular",
-      "airdate": "2026-11-19",
+      "airdate": "2026-11-18",
       "airtime": "",
-      "airstamp": "2026-11-19T12:00:00+00:00",
+      "airstamp": "2026-11-18T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19256,9 +19260,9 @@
       "season": 15,
       "number": 48,
       "type": "regular",
-      "airdate": "2026-11-26",
+      "airdate": "2026-11-25",
       "airtime": "",
-      "airstamp": "2026-11-26T12:00:00+00:00",
+      "airstamp": "2026-11-25T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19282,9 +19286,9 @@
       "season": 15,
       "number": 49,
       "type": "regular",
-      "airdate": "2026-12-03",
+      "airdate": "2026-12-02",
       "airtime": "",
-      "airstamp": "2026-12-03T12:00:00+00:00",
+      "airstamp": "2026-12-02T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19308,9 +19312,9 @@
       "season": 15,
       "number": 50,
       "type": "regular",
-      "airdate": "2026-12-10",
+      "airdate": "2026-12-09",
       "airtime": "",
-      "airstamp": "2026-12-10T12:00:00+00:00",
+      "airstamp": "2026-12-09T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19334,9 +19338,9 @@
       "season": 15,
       "number": 51,
       "type": "regular",
-      "airdate": "2026-12-17",
+      "airdate": "2026-12-16",
       "airtime": "",
-      "airstamp": "2026-12-17T12:00:00+00:00",
+      "airstamp": "2026-12-16T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19360,9 +19364,9 @@
       "season": 15,
       "number": 52,
       "type": "regular",
-      "airdate": "2026-12-24",
+      "airdate": "2026-12-23",
       "airtime": "",
-      "airstamp": "2026-12-24T12:00:00+00:00",
+      "airstamp": "2026-12-23T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -19386,9 +19390,9 @@
       "season": 15,
       "number": 53,
       "type": "regular",
-      "airdate": "2026-12-31",
+      "airdate": "2026-12-30",
       "airtime": "",
-      "airstamp": "2026-12-31T12:00:00+00:00",
+      "airstamp": "2026-12-30T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null

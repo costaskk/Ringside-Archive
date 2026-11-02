@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-10-26T10:17:07.121Z",
+  "fetchedAt": "2026-11-02T12:38:13.650Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1792855804,
+    "updated": 1793450907,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680017",
-        "name": "#1416 - Toyota Arena in Ontario, CA"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3680018",
         "name": "#1417 - Charleston Coliseum in Charleston, WV"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3717638",
+        "name": "#1418 - Barclays Center in Brooklyn, NY"
       }
     }
   },
@@ -37259,7 +37259,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Halloween is in the air, and the best show on Friday night is embracing the scary. Danhausen presents \"Danhausen's Very Nice, Very Evil SmackDown.\" Expect the unexpected with the unsettling special edition of SmackDown.</p><p>After barely escaping with the Undisputed WWE Championship by defeating Je'Von Evans in an impromptu title match on Raw this past Monday, Sami Zayn will now defend the title against Trick Williams. With everybody gunning for him, can Zayn survive a challenge from the dynamic Williams? </p><p>With successful title defenses against Nia Jax and Roxanne Perez, WWE Women's Champion Chelsea Green will now put her title on the line against WWE Hall of Famer Nikki Bella. Who will emerge with the title to battle Women's World Champion Liv Morgan at WWE Crown Jewel? </p><p>As the rivalry intensifies, Fenix will once again defend the title against Ricky Saints as part of \"Danhausen's Very Nice, Very Evil SmackDown.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680018"

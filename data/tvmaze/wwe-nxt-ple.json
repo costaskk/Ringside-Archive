@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt-ple",
   "tvMazeId": 80711,
-  "fetchedAt": "2026-10-26T10:17:09.737Z",
+  "fetchedAt": "2026-11-02T12:38:16.250Z",
   "show": {
     "id": 80711,
     "url": "https://www.tvmaze.com/shows/80711/wwe-nxt-premium-live-events",
@@ -22,7 +22,7 @@
     "rating": {
       "average": null
     },
-    "weight": 79,
+    "weight": 84,
     "network": {
       "id": 5,
       "name": "The CW",
@@ -45,18 +45,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/546/1365169.jpg"
     },
     "summary": "<p>This is a list of WWE NXT pay-per-view and livestreaming supercards, detailing all professional wrestling cards promoted by the American promotion WWE on pay-per-view (PPV) and available via livestreaming on services such as the WWE Network. Due to the American version of the WWE Network merging under Peacock, and with the WWE Network still available in most international markets, as well as less focus being given to traditional PPV channels, in 2022, the company began using the term \"Premium Live Event\" to refer to their events airing on PPV and the livestreaming services. The terminology \"TakeOver\" was dropped in December of 2021 as the NXT brand transformed.</p>",
-    "updated": 1792550795,
+    "updated": 1793503060,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/80711"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3656853",
-        "name": "Heatwave"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3721292",
         "name": "Halloween Havoc"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3801706",
+        "name": "TLC"
       }
     }
   },
@@ -1969,6 +1969,32 @@
       "airdate": "2026-10-31",
       "airtime": "19:00",
       "airstamp": "2026-10-31T23:00:00+00:00",
+      "runtime": 175,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": "<p>The NXT Championship will be on the line when Grayson Waller defends his title against the same Superstar he dethroned, Tony D'Angelo.</p><p>Kelani Jordan will defend the NXT Women's Championship against Wren Sinclair at Halloween Havoc.</p><p>Danhausen to host Halloween Havoc.</p><p>After getting his hand crushed on multiple occasions, Fatu will go one-on-one with Charlie Dempsey in a Spin the Wheel, Make the Deal Match. In which match will they compete, and who will come out on top?</p><p>NXT Women's North American Champion Zaria will take on Izzi Dame but with an unexpected twist. Zaria granted a championship opportunity to Dame, but Dame refused in another attempt to get inside the champion's head. A frustrated Zaria is not in danger of losing her title, but she appears increasingly unhinged thanks to Dame. </p><p>Former friends and former NXT Tag Team Champions Tavion Heights and Myles Borne will continue their bitter rivalry at Halloween Havoc. </p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3721292"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/80711",
+          "name": "WWE NXT Premium Live Events"
+        }
+      }
+    },
+    {
+      "id": 3801706,
+      "url": "https://www.tvmaze.com/episodes/3801706/wwe-nxt-premium-live-events-2026-12-12-tlc",
+      "name": "TLC",
+      "season": 2026,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2026-12-12",
+      "airtime": "19:00",
+      "airstamp": "2026-12-13T00:00:00+00:00",
       "runtime": 180,
       "rating": {
         "average": null
@@ -1977,7 +2003,7 @@
       "summary": null,
       "_links": {
         "self": {
-          "href": "https://api.tvmaze.com/episodes/3721292"
+          "href": "https://api.tvmaze.com/episodes/3801706"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/80711",
