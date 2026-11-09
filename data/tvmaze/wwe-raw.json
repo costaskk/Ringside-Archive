@@ -1,7 +1,7 @@
 {
   "programId": "wwe-raw",
   "tvMazeId": 802,
-  "fetchedAt": "2026-11-02T12:38:12.584Z",
+  "fetchedAt": "2026-11-09T13:03:17.789Z",
   "show": {
     "id": 802,
     "url": "https://www.tvmaze.com/shows/802/wwe-monday-night-raw",
@@ -26,7 +26,7 @@
       ]
     },
     "rating": {
-      "average": 7.3
+      "average": 7.4
     },
     "weight": 98,
     "network": null,
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/627/1568559.jpg"
     },
     "summary": "<p><b>WWE Monday Night RAW</b> is World Wrestling Entertainment's (formerly the WWF and the WWWF before that) premiere wrestling event and brand. Since its launch in 1993, WWE Monday Night RAW continues to air live on Monday nights. It is generally seen as the company's flagship program due to its prolific history, high ratings, weekly live format, and emphasis on pay-per-views. Monday Night RAW is high profile enough to attract frequent visits from celebrities who usually serve as guest hosts for a single live event. Since its first episode, the show has been broadcast live or recorded from more than 197 different arenas in 165 cities and towns in seven different nations: including the United States, Canada, the United Kingdom twice a year, Afghanistan for a special Tribute to the Troops, Germany, Japan, Italy and Mexico.</p>",
-    "updated": 1793567263,
+    "updated": 1794224934,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/802"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680025",
-        "name": "#1744 - Barclays Center in Brooklyn, NY"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3717630",
         "name": "#1745 - Bon Secours Wellness Arena in Greenville, SC"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3717631",
+        "name": "#1746 - Lenovo Center in Raleigh, NC"
       }
     }
   },
@@ -45629,12 +45629,12 @@
       "airdate": "2026-11-02",
       "airtime": "",
       "airstamp": "2026-11-02T12:00:00+00:00",
-      "runtime": null,
+      "runtime": 215,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>World Heavyweight Champion Roman Reigns will address Undisputed WWE Champion Sami Zayn and their upcoming Men's Crown Jewel Championship Match this Monday on Raw. </p><p>John Cena is returning to Monday Night Raw in Brooklyn, N.Y., for a special announcement. </p><p>Once a close friend of Solo Sikoa, Royce Keys broke away and formed The 946 with Bronco Nima, Lucien Price, Carmelo Hayes and Jaida Parker. With animosity at a fever pitch, Sikoa and Keys are ready for war on Raw.</p><p>Intercontinental Champion Chad Gable is set to put the gold on the line against the deceptive Ethan Page. Who will walk out of Brooklyn, N.Y., with the Intercontinental Championship? </p><p>Mr. Money in the Bank Penta, Je'Von Evans and Dragon Lee are out to check the powers of the The Vision in a Six-Man Tag Team Match on Raw. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3680025"
@@ -45803,14 +45803,14 @@
     },
     {
       "id": 3717636,
-      "url": "https://www.tvmaze.com/episodes/3717636/wwe-monday-night-raw-33x51-1751",
-      "name": "#1751",
+      "url": "https://www.tvmaze.com/episodes/3717636/wwe-monday-night-raw-33x51-1751-espn-wide-world-of-sports-complex-in-orlando-fl",
+      "name": "#1751 - ESPN Wide World of Sports Complex in Orlando, FL",
       "season": 33,
       "number": 51,
       "type": "regular",
-      "airdate": "2026-12-21",
+      "airdate": "2026-12-14",
       "airtime": "",
-      "airstamp": "2026-12-21T12:00:00+00:00",
+      "airstamp": "2026-12-14T12:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null
@@ -45828,11 +45828,37 @@
       }
     },
     {
-      "id": 3717637,
-      "url": "https://www.tvmaze.com/episodes/3717637/wwe-monday-night-raw-33x52-1752-benchmark-international-arena-in-tampa-fl",
-      "name": "#1752 - Benchmark International Arena in Tampa, FL",
+      "id": 3803421,
+      "url": "https://www.tvmaze.com/episodes/3803421/wwe-monday-night-raw-33x52-1752-capital-one-arena-in-washington-dc",
+      "name": "#1752 - Capital One Arena in Washington, DC",
       "season": 33,
       "number": 52,
+      "type": "regular",
+      "airdate": "2026-12-21",
+      "airtime": "",
+      "airstamp": "2026-12-21T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803421"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3717637,
+      "url": "https://www.tvmaze.com/episodes/3717637/wwe-monday-night-raw-33x53-1753-benchmark-international-arena-in-tampa-fl",
+      "name": "#1753 - Benchmark International Arena in Tampa, FL",
+      "season": 33,
+      "number": 53,
       "type": "regular",
       "airdate": "2026-12-28",
       "airtime": "",
@@ -45846,6 +45872,214 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3717637"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3803425,
+      "url": "https://www.tvmaze.com/episodes/3803425/wwe-monday-night-raw-34x01-1754-frost-bank-center-in-san-antonio-tx",
+      "name": "#1754 - Frost Bank Center in San Antonio, TX",
+      "season": 34,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2027-01-04",
+      "airtime": "",
+      "airstamp": "2027-01-04T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803425"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3803426,
+      "url": "https://www.tvmaze.com/episodes/3803426/wwe-monday-night-raw-34x02-1755-united-center-in-chicago-il",
+      "name": "#1755 - United Center in Chicago, IL",
+      "season": 34,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2027-01-11",
+      "airtime": "",
+      "airstamp": "2027-01-11T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803426"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3803428,
+      "url": "https://www.tvmaze.com/episodes/3803428/wwe-monday-night-raw-34x03-1756-ovo-hydro-in-glasgow-scotland",
+      "name": "#1756 - OVO Hydro in Glasgow, Scotland",
+      "season": 34,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2027-01-18",
+      "airtime": "",
+      "airstamp": "2027-01-18T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803428"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3803429,
+      "url": "https://www.tvmaze.com/episodes/3803429/wwe-monday-night-raw-34x04-1757-3arena-in-dublin-ireland",
+      "name": "#1757 - 3Arena in Dublin, Ireland",
+      "season": 34,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2027-01-25",
+      "airtime": "",
+      "airstamp": "2027-01-25T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803429"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3805248,
+      "url": "https://www.tvmaze.com/episodes/3805248/wwe-monday-night-raw-34x05-1758-climate-pledge-arena-in-seattle-wa",
+      "name": "#1758 - Climate Pledge Arena in Seattle, WA",
+      "season": 34,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2027-02-01",
+      "airtime": "",
+      "airstamp": "2027-02-01T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805248"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3805259,
+      "url": "https://www.tvmaze.com/episodes/3805259/wwe-monday-night-raw-34x06-1759-honda-center-in-anaheim-ca",
+      "name": "#1759 - Honda Center in Anaheim, CA",
+      "season": 34,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2027-02-08",
+      "airtime": "",
+      "airstamp": "2027-02-08T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805259"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3805260,
+      "url": "https://www.tvmaze.com/episodes/3805260/wwe-monday-night-raw-34x07-1760-state-farm-arena-in-atlanta-ga",
+      "name": "#1760 - State Farm Arena in Atlanta, GA",
+      "season": 34,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2027-02-15",
+      "airtime": "",
+      "airstamp": "2027-02-15T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805260"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/802",
+          "name": "WWE Monday Night RAW"
+        }
+      }
+    },
+    {
+      "id": 3805261,
+      "url": "https://www.tvmaze.com/episodes/3805261/wwe-monday-night-raw-34x08-1761-gainbridge-fieldhouse-in-indianapolis-in",
+      "name": "#1761 - Gainbridge Fieldhouse in Indianapolis, IN",
+      "season": 34,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2027-02-22",
+      "airtime": "",
+      "airstamp": "2027-02-22T12:00:00+00:00",
+      "runtime": null,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805261"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/802",

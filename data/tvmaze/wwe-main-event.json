@@ -1,7 +1,7 @@
 {
   "programId": "wwe-main-event",
   "tvMazeId": 16753,
-  "fetchedAt": "2026-11-02T12:38:15.942Z",
+  "fetchedAt": "2026-11-09T13:03:21.386Z",
   "show": {
     "id": 16753,
     "url": "https://www.tvmaze.com/shows/16753/wwe-main-event",
@@ -26,7 +26,7 @@
     "rating": {
       "average": null
     },
-    "weight": 89,
+    "weight": 84,
     "network": null,
     "webChannel": {
       "id": 773,
@@ -55,12 +55,12 @@
         "href": "https://api.tvmaze.com/shows/16753"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3554349",
-        "name": "Main Event 735"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3554350",
         "name": "Main Event 736"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3554351",
+        "name": "Main Event 737"
       }
     }
   },

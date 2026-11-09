@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ppv",
   "tvMazeId": 2855,
-  "fetchedAt": "2026-11-02T12:38:11.731Z",
+  "fetchedAt": "2026-11-09T13:03:16.932Z",
   "show": {
     "id": 2855,
     "url": "https://www.tvmaze.com/shows/2855/wwe-premium-live-events",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/645/1612505.jpg"
     },
     "summary": null,
-    "updated": 1793227505,
+    "updated": 1794131128,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2855"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3540987",
-        "name": "Money in the Bank 2026 - Smoothie King Center in New Orleans, LA"
+        "href": "https://api.tvmaze.com/episodes/3722404",
+        "name": "Crown Jewel 2026 - ANB Arena in Riyadh, Saudi Arabia"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3722404",
-        "name": "Crown Jewel 2026 - Kingdom Arena in Riyadh, Saudi Arabia"
+        "href": "https://api.tvmaze.com/episodes/3671718",
+        "name": "Survivor Series WarGames 2026 - Daikin Park in Houston, TX"
       }
     }
   },
@@ -14012,20 +14012,20 @@
     },
     {
       "id": 3722404,
-      "url": "https://www.tvmaze.com/episodes/3722404/wwe-premium-live-events-2026-11-07-crown-jewel-2026-kingdom-arena-in-riyadh-saudi-arabia",
-      "name": "Crown Jewel 2026 - Kingdom Arena in Riyadh, Saudi Arabia",
+      "url": "https://www.tvmaze.com/episodes/3722404/wwe-premium-live-events-2026-11-07-crown-jewel-2026-anb-arena-in-riyadh-saudi-arabia",
+      "name": "Crown Jewel 2026 - ANB Arena in Riyadh, Saudi Arabia",
       "season": 2026,
       "number": 11,
       "type": "regular",
       "airdate": "2026-11-07",
       "airtime": "12:00",
       "airstamp": "2026-11-07T17:00:00+00:00",
-      "runtime": null,
+      "runtime": 168,
       "rating": {
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Headlining <i>WWE Crown Jewel</i>, Roman Reigns and Sami Zayn square off for the Men's Crown Jewel Championship in a champion vs. champion showdown. On the women's side, Liv Morgan and Chelsea Green battle for the Women's Crown Jewel Championship. The event will also feature Cody Rhodes taking on Randy Orton in a Last Man Standing Match, while Bron Breakker and Austin Theory of The Vision defend the World Tag Team titles against Penta and Je'Von Evans.</p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3722404"
@@ -14090,14 +14090,14 @@
     },
     {
       "id": 3692740,
-      "url": "https://www.tvmaze.com/episodes/3692740/wwe-premium-live-events-royal-rumble-2027-state-farm-arena-in-glendale-az",
+      "url": "https://www.tvmaze.com/episodes/3692740/wwe-premium-live-events-2027-02-06-royal-rumble-2027-state-farm-arena-in-glendale-az",
       "name": "Royal Rumble 2027 - State Farm Arena in Glendale, AZ",
       "season": 2027,
       "number": 1,
       "type": "regular",
-      "airdate": "",
-      "airtime": "20:00",
-      "airstamp": null,
+      "airdate": "2027-02-06",
+      "airtime": "",
+      "airstamp": "2027-02-06T17:00:00+00:00",
       "runtime": null,
       "rating": {
         "average": null

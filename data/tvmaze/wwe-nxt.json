@@ -1,7 +1,7 @@
 {
   "programId": "wwe-nxt",
   "tvMazeId": 2266,
-  "fetchedAt": "2026-11-02T12:38:15.506Z",
+  "fetchedAt": "2026-11-09T13:03:21.102Z",
   "show": {
     "id": 2266,
     "url": "https://www.tvmaze.com/shows/2266/wwe-nxt",
@@ -47,18 +47,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560269.jpg"
     },
     "summary": "<p>Each Wednesday at 8:00 p.m. ET, WWE Superstars and Divas of tomorrow face off on <b>WWE NXT</b><i>,</i> a one-hour weekly show that features the brightest and best of WWE's rising stars. WWE NXT showcases the Superstars and Divas from WWE's Performance Center as well as appearances from WWE Superstars and Legends in an intimate setting. WWE NXT broadcasts from the state-of-the-art Full Sail LIVE venue on the Full Sail University in campus in Orlando, Florida.</p>",
-    "updated": 1793158106,
+    "updated": 1793859354,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/2266"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3783598",
-        "name": "Grayson Waller and Tony D'Angelo brawl in the parking lot"
+        "href": "https://api.tvmaze.com/episodes/3783599",
+        "name": "Main Event: CM Punk vs. Grayson Waller (c) for the NXT Championship"
       },
       "nextepisode": {
-        "href": "https://api.tvmaze.com/episodes/3783599",
-        "name": "44"
+        "href": "https://api.tvmaze.com/episodes/3783600",
+        "name": "45"
       }
     }
   },
@@ -23495,8 +23495,8 @@
     },
     {
       "id": 3783599,
-      "url": "https://www.tvmaze.com/episodes/3783599/wwe-nxt-20x44-44",
-      "name": "44",
+      "url": "https://www.tvmaze.com/episodes/3783599/wwe-nxt-20x44-main-event-cm-punk-vs-grayson-waller-c-for-the-nxt-championship",
+      "name": "Main Event: CM Punk vs. Grayson Waller (c) for the NXT Championship",
       "season": 20,
       "number": 44,
       "type": "regular",

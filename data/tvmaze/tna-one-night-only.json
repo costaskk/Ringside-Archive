@@ -1,7 +1,7 @@
 {
   "programId": "tna-one-night-only",
   "tvMazeId": 80638,
-  "fetchedAt": "2026-11-02T12:38:16.021Z",
+  "fetchedAt": "2026-11-09T13:03:21.667Z",
   "show": {
     "id": 80638,
     "url": "https://www.tvmaze.com/shows/80638/tna-one-night-only",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 5,
+    "weight": 8,
     "network": {
       "id": 138,
       "name": "Pay-Per-View",

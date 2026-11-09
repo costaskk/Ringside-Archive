@@ -1,7 +1,7 @@
 {
   "programId": "aew-dynamite",
   "tvMazeId": 42189,
-  "fetchedAt": "2026-11-02T12:38:17.804Z",
+  "fetchedAt": "2026-11-09T13:03:23.513Z",
   "show": {
     "id": 42189,
     "url": "https://www.tvmaze.com/shows/42189/all-elite-wrestling-dynamite",
@@ -11,7 +11,7 @@
     "genres": [],
     "status": "Running",
     "runtime": 120,
-    "averageRuntime": 123,
+    "averageRuntime": 124,
     "premiered": "2019-10-02",
     "ended": null,
     "officialSite": "https://www.tbs.com/allelitewrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": 6.7
     },
-    "weight": 96,
+    "weight": 97,
     "network": {
       "id": 32,
       "name": "TBS",
@@ -43,22 +43,22 @@
       "imdb": "tt10691888"
     },
     "image": {
-      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/621/1552912.jpg",
-      "original": "https://static.tvmaze.com/uploads/images/original_untouched/621/1552912.jpg"
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/649/1624689.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/649/1624689.jpg"
     },
     "summary": "<p>WarnerMedia announced today that it is partnering with All Elite Wrestling (AEW), the new professional wrestling promotion featuring a world-class roster of diverse male and female wrestlers, giving fans a new wrestling experience for the first time in 20 years. WarnerMedia and AEW together will build this powerhouse sporting league from the ground up and will begin airing weekly matches later this year. With this league, AEW is introducing a new generation of wrestlers to fans, offering fun, gripping and authentic athletic matches that will make wrestling more accessible to a broad audience.</p>",
-    "updated": 1793243847,
+    "updated": 1793853844,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/42189"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3713345",
-        "name": "#368 - Fright Night: Chaifetz Arena in St. Louis, MO"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3774980",
         "name": "#369 - Blood & Guts: Vystar Veterans Memorial Arena in Jacksonville, FL"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3774981",
+        "name": "#370 - Maverik Center in West Valley City, UT"
       }
     }
   },
@@ -9864,7 +9864,7 @@
       "airdate": "2026-11-04",
       "airtime": "20:00",
       "airstamp": "2026-11-05T01:00:00+00:00",
-      "runtime": 120,
+      "runtime": 145,
       "rating": {
         "average": null
       },

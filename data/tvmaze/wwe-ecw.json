@@ -1,7 +1,7 @@
 {
   "programId": "wwe-ecw",
   "tvMazeId": 10404,
-  "fetchedAt": "2026-11-02T12:38:15.003Z",
+  "fetchedAt": "2026-11-09T13:03:20.407Z",
   "show": {
     "id": 10404,
     "url": "https://www.tvmaze.com/shows/10404/extreme-championship-wrestling",
@@ -24,7 +24,7 @@
     "rating": {
       "average": null
     },
-    "weight": 34,
+    "weight": 70,
     "network": {
       "id": 16,
       "name": "Syfy",

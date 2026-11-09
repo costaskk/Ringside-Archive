@@ -1,7 +1,7 @@
 {
   "programId": "wwe-smackdown",
   "tvMazeId": 803,
-  "fetchedAt": "2026-11-02T12:38:13.650Z",
+  "fetchedAt": "2026-11-09T13:03:18.821Z",
   "show": {
     "id": 803,
     "url": "https://www.tvmaze.com/shows/803/wwe-friday-night-smackdown",
@@ -51,18 +51,18 @@
       "original": "https://static.tvmaze.com/uploads/images/original_untouched/568/1420164.jpg"
     },
     "summary": "<p>Featuring a star-studded cast of WWE Superstars, <b>SmackDown Live</b> delivers a shot of adrenaline to viewers and bring fans over-the-top action, feats of athleticism beyond the reach of mortal men, and WWE's special brand of drama.</p>",
-    "updated": 1793450907,
+    "updated": 1794016682,
     "_links": {
       "self": {
         "href": "https://api.tvmaze.com/shows/803"
       },
       "previousepisode": {
-        "href": "https://api.tvmaze.com/episodes/3680018",
-        "name": "#1417 - Charleston Coliseum in Charleston, WV"
-      },
-      "nextepisode": {
         "href": "https://api.tvmaze.com/episodes/3717638",
         "name": "#1418 - Barclays Center in Brooklyn, NY"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/3717639",
+        "name": "#1419 - Amerant Bank Arena in Fort Lauderdale, FL"
       }
     }
   },
@@ -37285,7 +37285,7 @@
         "average": null
       },
       "image": null,
-      "summary": null,
+      "summary": "<p>Bitter enemies and two of the most decorated Superstars in WWE history, CM Punk and Kevin Owens will attempt to destroy each other tonight in a No Holds Barred Match.</p><p>The WWE Women's Tag Team Title will be on the line when B-Fab and Michin defend the gold against Fatal Influence. Michin and B-Fab won the title from Tatum Paxley and Alexa Bliss, but former champions Fallon Henley and Lainey Reid are determined to become two-time champs. Which team will walk out of Brooklyn with the WWE Women's Tag Team Title?</p><p>Nathan Frazer is out to get payback on behalf of R-Truth. Damian Priest has been on a rampage since assaulting his former partner Truth, forcing Fraxiom to come to the veteran Superstar's aid. Will Frazer knock some sense into Priest, or will the former World Heavyweight Champion continue his dominant run?</p><p>Bakusai and The MFTs have become deadlocked in a nasty rivalry in recent weeks. The two teams were scheduled to collide last week, but Kyoki stole the sacred Tongan Staff, infuriating the legendary Haku as well as the Tongas. Now, Shinsuke Nakamura will go one-on-one with Tama Tonga with a lot of pride on the line. </p>",
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3717638"
@@ -37428,8 +37428,8 @@
     },
     {
       "id": 3717644,
-      "url": "https://www.tvmaze.com/episodes/3717644/wwe-friday-night-smackdown-27x51-1424",
-      "name": "#1424",
+      "url": "https://www.tvmaze.com/episodes/3717644/wwe-friday-night-smackdown-27x51-1424-peoplesbank-arena-in-hartford-ct",
+      "name": "#1424 - PeoplesBank Arena in Hartford, CT",
       "season": 27,
       "number": 51,
       "type": "regular",
@@ -37454,8 +37454,8 @@
     },
     {
       "id": 3717645,
-      "url": "https://www.tvmaze.com/episodes/3717645/wwe-friday-night-smackdown-27x52-1425",
-      "name": "#1425",
+      "url": "https://www.tvmaze.com/episodes/3717645/wwe-friday-night-smackdown-27x52-1425-capital-one-arena-in-washington-dc",
+      "name": "#1425 - Capital One Arena in Washington, DC",
       "season": 27,
       "number": 52,
       "type": "regular",
@@ -37497,6 +37497,188 @@
       "_links": {
         "self": {
           "href": "https://api.tvmaze.com/episodes/3784669"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3803422,
+      "url": "https://www.tvmaze.com/episodes/3803422/wwe-friday-night-smackdown-28x02-1427-fedex-forum-in-memphis-tn",
+      "name": "#1427 - FedEx Forum in Memphis, TN",
+      "season": 28,
+      "number": 2,
+      "type": "regular",
+      "airdate": "2027-01-08",
+      "airtime": "20:00",
+      "airstamp": "2027-01-09T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803422"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3803423,
+      "url": "https://www.tvmaze.com/episodes/3803423/wwe-friday-night-smackdown-28x03-1428-forest-national-in-brussels-belgium",
+      "name": "#1428 - Forest National in Brussels, Belgium",
+      "season": 28,
+      "number": 3,
+      "type": "regular",
+      "airdate": "2027-01-15",
+      "airtime": "20:00",
+      "airstamp": "2027-01-16T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803423"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3803424,
+      "url": "https://www.tvmaze.com/episodes/3803424/wwe-friday-night-smackdown-28x04-1429-co-op-live-in-manchester-england",
+      "name": "#1429 - Co-Op Live in Manchester, England",
+      "season": 28,
+      "number": 4,
+      "type": "regular",
+      "airdate": "2027-01-22",
+      "airtime": "20:00",
+      "airstamp": "2027-01-23T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3803424"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3805262,
+      "url": "https://www.tvmaze.com/episodes/3805262/wwe-friday-night-smackdown-28x05-1430-moda-center-in-portland-or",
+      "name": "#1430 - Moda Center in Portland, OR",
+      "season": 28,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2027-01-29",
+      "airtime": "20:00",
+      "airstamp": "2027-01-30T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805262"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3805263,
+      "url": "https://www.tvmaze.com/episodes/3805263/wwe-friday-night-smackdown-28x06-1431-desert-diamond-arena-in-glendale-az",
+      "name": "#1431 - Desert Diamond Arena in Glendale, AZ",
+      "season": 28,
+      "number": 6,
+      "type": "regular",
+      "airdate": "2027-02-05",
+      "airtime": "20:00",
+      "airstamp": "2027-02-06T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805263"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3805264,
+      "url": "https://www.tvmaze.com/episodes/3805264/wwe-friday-night-smackdown-28x07-1432-american-airlines-center-in-dallas-tx",
+      "name": "#1432 - American Airlines Center in Dallas, TX",
+      "season": 28,
+      "number": 7,
+      "type": "regular",
+      "airdate": "2027-02-12",
+      "airtime": "20:00",
+      "airstamp": "2027-02-13T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805264"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/803",
+          "name": "WWE Friday Night SmackDown"
+        }
+      }
+    },
+    {
+      "id": 3805265,
+      "url": "https://www.tvmaze.com/episodes/3805265/wwe-friday-night-smackdown-28x08-1433-spectrum-center-in-charlotte-nc",
+      "name": "#1433 - Spectrum Center in Charlotte, NC",
+      "season": 28,
+      "number": 8,
+      "type": "regular",
+      "airdate": "2027-02-19",
+      "airtime": "20:00",
+      "airstamp": "2027-02-20T01:00:00+00:00",
+      "runtime": 120,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/3805265"
         },
         "show": {
           "href": "https://api.tvmaze.com/shows/803",

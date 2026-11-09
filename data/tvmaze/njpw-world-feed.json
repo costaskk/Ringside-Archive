@@ -1,7 +1,7 @@
 {
   "programId": "njpw-world-feed",
   "tvMazeId": 24963,
-  "fetchedAt": "2026-11-02T12:38:16.747Z",
+  "fetchedAt": "2026-11-09T13:03:22.628Z",
   "show": {
     "id": 24963,
     "url": "https://www.tvmaze.com/shows/24963/new-japan-pro-wrestling",
@@ -30,7 +30,7 @@
     "rating": {
       "average": null
     },
-    "weight": 85,
+    "weight": 65,
     "network": null,
     "webChannel": {
       "id": 160,
